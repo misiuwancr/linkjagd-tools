@@ -9,6 +9,7 @@ import { directoryHref, publicListQuery } from "@/lib/tools/query";
 import { toPublicTool } from "@/lib/tools/public";
 import { sortOptions } from "@/lib/labels";
 import { companyBySlug } from "@/lib/companies";
+import { indexingPolicy, robotsDirective } from "@/lib/indexing";
 
 export const revalidate = 60;
 
@@ -35,7 +36,7 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical: canonical.pathname + canonical.search },
-    robots: query.q ? { index: false, follow: true } : { index: true, follow: true },
+    robots: robotsDirective(indexingPolicy().index && !query.q),
   };
 }
 

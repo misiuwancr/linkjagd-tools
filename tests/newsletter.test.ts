@@ -8,8 +8,13 @@ describe("Newsletter und Markdown", () => {
     expect(isNewsletterEmail("nicht-eine-mail")).toBe(false);
     expect(isNewsletterEmail("person@example.com")).toBe(true);
     expect(mailConfig({}).provider).toBe("none");
-    expect(mailConfig({ RESEND_API_KEY: "key" }).provider).toBe("none");
-    expect(mailConfig({ RESEND_API_KEY: "key", NEWSLETTER_FROM: "redaktion@example.com" }).provider).toBe("resend");
+    expect(mailConfig({ RESEND_API_KEY: "key", NEWSLETTER_FROM: "redaktion@example.com" }).provider).toBe("none");
+    expect(mailConfig({ NEWSLETTER_PROVIDER: "resend", RESEND_API_KEY: "key", NEWSLETTER_FROM: "redaktion@example.com" }).provider).toBe("resend");
+    expect(mailConfig({ NEWSLETTER_PROVIDER: "brevo", BREVO_API_KEY: "key", NEWSLETTER_FROM: "redaktion@example.com", BREVO_LIST_ID: "4", BREVO_DOI_TEMPLATE_ID: "9" })).toMatchObject({
+      provider: "brevo",
+      listId: 4,
+      doiTemplateId: 9,
+    });
   });
 
   it("exportiert keinen Bestätigungstoken und lässt kein HTML durch", () => {

@@ -87,7 +87,7 @@ export function SiteHeader() {
           <button type="button" onClick={toggleTheme} className="rounded-full border border-border px-3 py-2 text-[13px] text-muted-foreground" aria-label="Darstellung umschalten">
             {light ? "Dunkel" : "Hell"}
           </button>
-          <a href="#anmeldung" className="rounded-full bg-primary px-4 py-2 text-[13px] font-bold text-primary-foreground">
+          <a href="/newsletter#anmeldung" className="rounded-full bg-primary px-4 py-2 text-[13px] font-bold text-primary-foreground">
             Abonnieren
           </a>
         </div>
@@ -130,7 +130,7 @@ export function SiteHeader() {
                 </ul>
               </div>
             ))}
-            <a href="#anmeldung" onClick={() => setOpen(false)} className="flex h-12 items-center justify-center rounded-full bg-primary text-base font-bold text-primary-foreground">
+            <a href="/newsletter#anmeldung" onClick={() => setOpen(false)} className="flex h-12 items-center justify-center rounded-full bg-primary text-base font-bold text-primary-foreground">
               Abonnieren
             </a>
             <button type="button" onClick={toggleTheme} className={cn("text-sm text-muted-foreground")}>

@@ -15,6 +15,7 @@ import { getToolBySlug, listSimilar } from "@/lib/tools/repository";
 import { toPublicTool } from "@/lib/tools/public";
 import { softwareOffer, toolMetaTitle } from "@/lib/seo";
 import { isAlternativeSlug } from "@/lib/alternatives";
+import { indexingPolicy, robotsDirective, toolIsIndexable } from "@/lib/indexing";
 
 export const revalidate = 60;
 
@@ -31,9 +32,15 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const tool = await getToolBySlug(database, params.slug);
   if (!tool || tool.publishStatus !== "published" || tool.isExample) return { title: "Tool nicht gefunden" };
   const publicTool = toPublicTool(tool, host());
+  const index = toolIsIndexable({
+    globalIndex: indexingPolicy().index,
+    allowIndex: tool.allowIndex,
+    published: tool.publishStatus === "published" && !tool.isExample,
+  });
   return {
     title: toolMetaTitle(publicTool.name),
     description: publicTool.shortDescriptionDe,
+    robots: robotsDirective(index),
     alternates: { canonical: `/tools/${publicTool.slug}` },
     openGraph: {
       title: toolMetaTitle(publicTool.name),

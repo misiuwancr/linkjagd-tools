@@ -11,6 +11,7 @@ import { CompanyStrip } from "@/components/company-strip";
 import { toPublicTool } from "@/lib/tools/public";
 import { publicListQuery } from "@/lib/tools/query";
 import { utcDay } from "@/lib/utils";
+import { newsletterOpen } from "@/lib/newsletter";
 
 export const revalidate = 60;
 
@@ -80,11 +81,6 @@ export default async function HomePage({
           <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">
             Bekannt aus TikTok {siteConfig.creator.channel}. Werkzeuge für Alltag, Arbeit und Projekte, auf Deutsch erklärt.
           </p>
-          <div id="anmeldung" className="mt-8 scroll-mt-24">
-            <NewsletterForm notice={searchParams.hinweis} returnTo="/" />
-          </div>
-          <CompanyStrip companies={companies} />
-          {proof ? <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{proof}</p> : null}
           <form action="/tools" method="get" className="mt-8 flex max-w-2xl flex-col gap-2 sm:flex-row" role="search">
             <label htmlFor="start-suche" className="sr-only">
               Tools durchsuchen
@@ -94,6 +90,8 @@ export default async function HomePage({
               Suchen
             </button>
           </form>
+          <CompanyStrip companies={companies} />
+          {proof ? <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{proof}</p> : null}
         </div>
       </section>
 
@@ -136,6 +134,18 @@ export default async function HomePage({
             Nur Tools mit gesetzter Redaktionsreihenfolge im Feld editorial_rank. Keine Stimmen, keine aufgefüllte Platzierung.
           </p>
         </aside>
+      </section>
+
+      <section className="border-t border-border">
+        <div className="page-wrap py-10">
+          <h2 className="text-2xl font-bold tracking-tight">Hinweise per Mail</h2>
+          <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground">
+            Erst nach den Tools. Ohne Versanddienst wird keine Adresse angenommen.
+          </p>
+          <div className="mt-6">
+            <NewsletterForm notice={searchParams.hinweis} returnTo="/" open={newsletterOpen()} />
+          </div>
+        </div>
       </section>
 
       {videoTools.length > 0 ? (
@@ -189,17 +199,6 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="border-t border-border bg-card">
-        <div className="page-wrap py-14">
-          <h2 className="text-3xl font-bold tracking-tight">Hinweise per Mail</h2>
-          <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground">
-            Nur nach Bestätigung. Ohne Versanddienst bleibt die Adresse unbestätigt liegen, es geht keine Mail raus.
-          </p>
-          <div className="mt-6">
-            <NewsletterForm notice={searchParams.hinweis} returnTo="/" />
-          </div>
-        </div>
-      </section>
     </>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import { siteConfig } from "@/site.config";
+import { indexingPolicy, robotsDirective } from "@/lib/indexing";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -9,23 +10,25 @@ const outfit = Outfit({
   variable: "--font-outfit",
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(siteConfig.url),
-  title: {
-    default: siteConfig.seo.title,
-    template: `%s · ${siteConfig.name}`,
-  },
-  description: siteConfig.seo.description,
-  applicationName: siteConfig.name,
-  openGraph: {
-    type: "website",
-    locale: "de_DE",
-    siteName: siteConfig.name,
-    title: siteConfig.seo.title,
+export function generateMetadata(): Metadata {
+  return {
+    metadataBase: new URL(siteConfig.url),
+    title: {
+      default: siteConfig.seo.title,
+      template: `%s · ${siteConfig.name}`,
+    },
     description: siteConfig.seo.description,
-  },
-  robots: { index: true, follow: true },
-};
+    applicationName: siteConfig.name,
+    openGraph: {
+      type: "website",
+      locale: "de_DE",
+      siteName: siteConfig.name,
+      title: siteConfig.seo.title,
+      description: siteConfig.seo.description,
+    },
+    robots: robotsDirective(indexingPolicy().index),
+  };
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

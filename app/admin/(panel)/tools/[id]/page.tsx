@@ -7,6 +7,7 @@ import { listAffiliateNetworks } from "@/lib/affiliate/registry";
 import { affiliateStatusOptions, programPresenceOptions, publishLabels } from "@/lib/labels";
 import { parseStringList } from "@/lib/utils";
 import { getToolById, listCategories } from "@/lib/tools/repository";
+import { qualityIssues } from "@/lib/quality";
 
 export const dynamic = "force-dynamic";
 
@@ -64,6 +65,15 @@ export default async function EditToolPage({
             tags: tool.tags.map((tag) => tag.name).join(", "),
             internalNotes: tool.internalNotes ?? "",
             discoverySource: tool.discoverySource,
+            allowIndex: tool.allowIndex,
+            qualityNotes: qualityIssues({
+              name: tool.name,
+              shortDescriptionDe: tool.shortDescriptionDe,
+              originalUrl: tool.originalUrl,
+              pricingModel: tool.pricingModel,
+              categoryCount: tool.categories.length,
+              publishStatus: tool.publishStatus,
+            }),
             logo: tool.logo,
             screenshots: parseStringList(tool.screenshots),
           }}

@@ -18,16 +18,35 @@ export function confirmTokenHash(token: string) {
 
 export type MailConfig =
   | { provider: "resend"; key: string; from: string }
-  | { provider: "brevo"; key: string; from: string }
+  | { provider: "brevo"; key: string; from: string; listId?: number; doiTemplateId?: number }
   | { provider: "none" };
 
-export function mailConfig(env: NodeJS.ProcessEnv = process.env): MailConfig {
+export function mailConfig(env: { [key: string]: string | undefined } = process.env): MailConfig {
+  const provider = (env.NEWSLETTER_PROVIDER || "").trim().toLowerCase();
   const from = (env.NEWSLETTER_FROM || "").trim();
-  const resend = (env.RESEND_API_KEY || "").trim();
-  const brevo = (env.BREVO_API_KEY || "").trim();
-  if (resend && from) return { provider: "resend", key: resend, from };
-  if (brevo && from) return { provider: "brevo", key: brevo, from };
+  if (provider === "resend") {
+    const key = (env.RESEND_API_KEY || "").trim();
+    if (key && from) return { provider: "resend", key, from };
+  }
+  if (provider === "brevo") {
+    const key = (env.BREVO_API_KEY || "").trim();
+    if (key && from) {
+      const listId = Number(env.BREVO_LIST_ID);
+      const doiTemplateId = Number(env.BREVO_DOI_TEMPLATE_ID);
+      return {
+        provider: "brevo",
+        key,
+        from,
+        ...(Number.isInteger(listId) && listId > 0 ? { listId } : {}),
+        ...(Number.isInteger(doiTemplateId) && doiTemplateId > 0 ? { doiTemplateId } : {}),
+      };
+    }
+  }
   return { provider: "none" };
+}
+
+export function newsletterOpen(env: { [key: string]: string | undefined } = process.env) {
+  return mailConfig(env).provider !== "none";
 }
 
 export async function sendConfirmationMail(input: { to: string; link: string; config: MailConfig }) {
@@ -42,6 +61,19 @@ export async function sendConfirmationMail(input: { to: string; link: string; co
     "Ohne diese Bestätigung bleibt die Anmeldung offen und es geht keine weitere Mail raus.",
     "Wenn du das nicht warst, ignoriere diese Nachricht.",
   ].join("\n");
+  if (input.config.provider === "brevo" && input.config.doiTemplateId && input.config.listId) {
+    const response = await fetch("https://api.brevo.com/v3/contacts/doubleOptinRequest", {
+      method: "POST",
+      headers: { "api-key": input.config.key, "Content-Type": "application/json", accept: "application/json" },
+      body: JSON.stringify({
+        email: input.to,
+        includeListIds: [input.config.listId],
+        templateId: input.config.doiTemplateId,
+        redirectionUrl: input.link,
+      }),
+    });
+    return response.ok ? { sent: true as const } : { sent: false as const, reason: "Versand fehlgeschlagen" };
+  }
   if (input.config.provider === "resend") {
     const response = await fetch("https://api.resend.com/emails", {
       method: "POST",

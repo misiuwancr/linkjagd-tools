@@ -6,7 +6,9 @@ export type DatabaseTarget = {
 
 const PLACEHOLDER = "ersetze-mich";
 
-export function resolveAppDatabase(env: NodeJS.ProcessEnv = process.env): DatabaseTarget {
+export type EnvLike = { [key: string]: string | undefined };
+
+export function resolveAppDatabase(env: EnvLike = process.env): DatabaseTarget {
   const turso = env.TURSO_DATABASE_URL?.trim() ?? "";
   if (turso) {
     const authToken = env.TURSO_AUTH_TOKEN?.trim() ?? "";
@@ -27,7 +29,7 @@ export function resolveAppDatabase(env: NodeJS.ProcessEnv = process.env): Databa
   return { url: local, kind: "file" };
 }
 
-export function resolveLocalDatabase(env: NodeJS.ProcessEnv = process.env): DatabaseTarget {
+export function resolveLocalDatabase(env: EnvLike = process.env): DatabaseTarget {
   const local = env.DATABASE_URL?.trim() || "file:./data/linkjagd.db";
   if (!local.startsWith("file:")) {
     throw new Error("DATABASE_URL muss für Export und Übertragung eine file:-Adresse der lokalen SQLite-Datei sein.");
@@ -35,21 +37,21 @@ export function resolveLocalDatabase(env: NodeJS.ProcessEnv = process.env): Data
   return { url: local, kind: "file" };
 }
 
-export function sessionSecretStatus(env: NodeJS.ProcessEnv = process.env): "ok" | "missing" | "placeholder" {
+export function sessionSecretStatus(env: EnvLike = process.env): "ok" | "missing" | "placeholder" {
   const value = env.JWT_SECRET?.trim() ?? "";
   if (value.length < 16) return "missing";
   if (value.toLowerCase().includes(PLACEHOLDER)) return "placeholder";
   return "ok";
 }
 
-export function adminPasswordStatus(env: NodeJS.ProcessEnv = process.env): "ok" | "missing" | "placeholder" {
+export function adminPasswordStatus(env: EnvLike = process.env): "ok" | "missing" | "placeholder" {
   const value = env.ADMIN_PASSWORD ?? "";
   if (value.length < 12) return "missing";
   if (value.toLowerCase().includes(PLACEHOLDER)) return "placeholder";
   return "ok";
 }
 
-export function bootstrapAdminDecision(env: NodeJS.ProcessEnv, hasUser: boolean): "skip-exists" | "skip-config" | "create" {
+export function bootstrapAdminDecision(env: EnvLike, hasUser: boolean): "skip-exists" | "skip-config" | "create" {
   if (hasUser) return "skip-exists";
   const email = (env.ADMIN_EMAIL || "").trim().toLowerCase();
   if (!email.includes("@") || adminPasswordStatus(env) !== "ok") return "skip-config";

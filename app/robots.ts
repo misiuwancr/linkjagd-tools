@@ -1,8 +1,16 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/site.config";
+import { indexingPolicy } from "@/lib/indexing";
 
 export default function robots(): MetadataRoute.Robots {
   const base = siteConfig.url.replace(/\/$/, "");
+  const policy = indexingPolicy();
+  if (!policy.index) {
+    return {
+      rules: { userAgent: "*", disallow: "/" },
+      host: base,
+    };
+  }
   return {
     rules: {
       userAgent: "*",

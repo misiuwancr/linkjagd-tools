@@ -46,21 +46,21 @@ export const siteConfig = {
         {
           heading: "Anbieter",
           body: [
-            "[PLATZHALTER: Vollständiger Name des Verantwortlichen]",
-            "[PLATZHALTER: Anschrift – Straße, PLZ, Ort, Land]",
-            "[PLATZHALTER: E-Mail-Adresse für rechtliche Anfragen]",
-            "[PLATZHALTER: Telefon, falls gesetzlich anzugeben]",
+            "[VON MICHAŁ ZU ERGÄNZEN] Vollständiger Name des Verantwortlichen",
+            "[VON MICHAŁ ZU ERGÄNZEN] Anschrift – Straße, PLZ, Ort, Land",
+            "[VON MICHAŁ ZU ERGÄNZEN] E-Mail-Adresse für rechtliche Anfragen",
+            "[VON MICHAŁ ZU ERGÄNZEN] Telefon, falls gesetzlich anzugeben",
           ],
         },
         {
           heading: "Umsatzsteuer",
           body: [
-            "[PLATZHALTER: Hinweis nach § 19 UStG einsetzen, sofern der Kleinunternehmerstatus zutrifft. Keine Umsatzsteuer-Zusätze in Preisen oder Hinweisen formulieren.]",
+            "[VON MICHAŁ ZU ERGÄNZEN] Hinweis nach § 19 UStG einsetzen, sofern der Kleinunternehmerstatus zutrifft. Keine Umsatzsteuer-Zusätze in Preisen oder Hinweisen formulieren.",
           ],
         },
         {
           heading: "Verantwortlich für den Inhalt",
-          body: ["[PLATZHALTER: Name und Anschrift nach § 18 Abs. 2 MStV, falls erforderlich]"],
+          body: ["[VON MICHAŁ ZU ERGÄNZEN] Name und Anschrift nach § 18 Abs. 2 MStV, falls erforderlich"],
         },
       ],
     },
@@ -71,13 +71,14 @@ export const siteConfig = {
       sections: [
         {
           heading: "Verantwortlicher",
-          body: ["[PLATZHALTER: Name und Kontaktdaten des Verantwortlichen]"],
+          body: ["[VON MICHAŁ ZU ERGÄNZEN] Name und Kontaktdaten des Verantwortlichen"],
         },
         {
           heading: "Hosting",
           body: [
-            "[PLATZHALTER: Hoster, Serverstandort und Auftragsverarbeitung ergänzen, sobald der Betrieb feststeht.]",
-            "Lokal läuft die Anwendung mit einer SQLite-Datei. Es ist kein zusätzlicher Cloud-Dienst für die Datenbank verdrahtet.",
+            "Die öffentliche Website wird bei Vercel ausgeliefert, Funktionsregion Frankfurt (fra1). Die Datenbank der Live-Seite ist Turso, ein libSQL-Dienst, Region aws-eu-central-1. Das beschreibt den tatsächlichen Betrieb und ist kein fertiger Auftragsverarbeitungsvertrag.",
+            "[VON MICHAŁ ZU ERGÄNZEN] Auftragsverarbeitung und Kontaktdaten für Datenschutzanfragen.",
+            "Auf dem Rechner der Redaktion kann dieselbe Anwendung zusätzlich eine lokale SQLite-Datei nutzen. Die Live-Einträge liegen in Turso.",
           ],
         },
         {
@@ -91,15 +92,15 @@ export const siteConfig = {
         {
           heading: "Newsletter",
           body: [
-            "Wenn du eine Adresse einträgst und die Einwilligung bestätigst, speichert Linkjagd Tools E-Mail, Zeitpunkt und einen Bestätigungswert. Der Status bleibt offen, bis der Link in der Mail aufgerufen wird.",
-            "Ohne konfigurierten Versanddienst wird keine Mail verschickt. Die Adresse bleibt dann unbestätigt liegen.",
+            "Solange kein Versanddienst eingerichtet ist, zeigt das Formular einen Hinweis und speichert keine Adresse.",
+            "Ist ein Versanddienst eingerichtet und du willigst ein, speichert Linkjagd Tools E-Mail, Zeitpunkt und einen Bestätigungswert. Der Status bleibt offen, bis der Link in der Mail aufgerufen wird.",
             "Ein bestätigter Eintrag kann in der Redaktion als CSV ausgegeben werden. Der Bestätigungswert selbst steht nicht in dieser Datei.",
           ],
         },
         {
           heading: "Tool-Einreichung",
           body: [
-            "Angaben aus dem Formular „Tool einreichen“ werden als Entwurf in der lokalen Datenbank gespeichert, damit die Redaktion sie prüfen kann. Eine Bestätigungsmail wird nicht versendet.",
+            "Angaben aus dem Formular „Tool einreichen“ werden als Entwurf in der Datenbank gespeichert, damit die Redaktion sie prüfen kann. Eine Bestätigungsmail wird nicht versendet.",
           ],
         },
         {
@@ -132,7 +133,7 @@ export const siteConfig = {
         {
           heading: "Offen zu lassen",
           body: [
-            "[PLATZHALTER: Konkrete Netzwerke, Provisionshinweise und der finale Transparenztext nach rechtlicher Prüfung.]",
+            "[VON MICHAŁ ZU ERGÄNZEN] Konkrete Netzwerke, Provisionshinweise und der finale Transparenztext nach rechtlicher Prüfung.",
           ],
         },
       ],
