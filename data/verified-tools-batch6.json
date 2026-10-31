@@ -1,0 +1,4244 @@
+[
+  {
+    "name": "Kontist",
+    "originalUrl": "https://kontist.com/",
+    "domain": "kontist.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Kontist führt ein Geschäftskonto und schätzt die Steuer auf Einnahmen.",
+    "longDescriptionDe": "Kontist zeigt Umsätze eines Geschäftskontos und setzt davon einen Steueranteil beiseite. Der Dienst kommt aus Berlin. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Geschäftskonto",
+      "Steuerschätzung auf Einnahmen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einnahmen und einen Steueranteil zu trennen",
+      "Ein Konto für Selbstständige zu führen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Trade Republic",
+    "originalUrl": "https://traderepublic.com/",
+    "domain": "traderepublic.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Trade Republic handelt Aktien, ETFs und Krypto in einer App.",
+    "longDescriptionDe": "Trade Republic legt Sparpläne und Einzelorders an. Der Anbieter sitzt in Berlin. Das Depot selbst ist ohne monatliche Grundgebühr beschrieben, der Handel kann Kosten haben, die die App nennt.",
+    "featuresDe": [
+      "Aktien, ETFs und Krypto",
+      "Sparpläne",
+      "Kosten stehen in der App"
+    ],
+    "useCasesDe": [
+      "Einen ETF-Sparplan anzulegen",
+      "Eine einzelne Aktie zu kaufen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Scalable Capital",
+    "originalUrl": "https://de.scalable.capital/",
+    "domain": "de.scalable.capital",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Scalable Capital führt ein Depot mit Sparplänen auf ETFs und Aktien.",
+    "longDescriptionDe": "Scalable Capital legt Sparpläne und Orders an und bietet ein Verrechnungskonto. Der Broker kommt aus München. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Depot und Sparpläne",
+      "Verrechnungskonto",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Sparplan auf einen ETF zu starten",
+      "Eine Order im Depot zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Parqet",
+    "originalUrl": "https://www.parqet.com/",
+    "domain": "parqet.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Parqet zeigt ein Depot über mehrere Broker hinweg.",
+    "longDescriptionDe": "Parqet liest Bestände ein und zeigt Wert und Verteilung, ohne selbst zu handeln. Der Dienst kommt aus Deutschland. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Depot über mehrere Broker",
+      "Wert und Verteilung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Mehrere Depots in einer Ansicht zu sehen",
+      "Die Verteilung eines Portfolios zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "getquin",
+    "originalUrl": "https://www.getquin.com/",
+    "domain": "getquin.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "getquin fasst Depots und Krypto in einer Übersicht zusammen.",
+    "longDescriptionDe": "getquin zeigt Performance über angebundene Konten. Der Dienst kommt aus Berlin. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Depots und Krypto",
+      "Performance über Konten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Die Entwicklung eines Depots zu sehen",
+      "Mehrere Konten nebeneinander zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "extraETF",
+    "originalUrl": "https://www.extraetf.com/",
+    "domain": "extraetf.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "recherche"
+    ],
+    "shortDescriptionDe": "extraETF vergleicht ETFs nach Kosten, Index und Größe.",
+    "longDescriptionDe": "extraETF filtert Fonds und zeigt Kennzahlen. Ein Teil der Suche ist ohne Abo lesbar, weitere Daten sind bezahlt.",
+    "featuresDe": [
+      "Vergleich von ETFs",
+      "Kosten, Index und Größe",
+      "Freie Suche und bezahlte Daten"
+    ],
+    "useCasesDe": [
+      "Einen ETF nach Kosten zu filtern",
+      "Zwei Fonds gegenüberzustellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Finanzfluss",
+    "originalUrl": "https://www.finanzfluss.de/",
+    "domain": "finanzfluss.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Finanzfluss erklärt Geldanlage und Steuern für Einsteiger in Deutschland.",
+    "longDescriptionDe": "Finanzfluss veröffentlicht Erklärstücke zu ETF, Depot und Steuer. Die Artikel sind ohne Abo lesbar. Der Anbieter sitzt in Deutschland.",
+    "featuresDe": [
+      "Erklärstücke zu ETF und Steuer",
+      "Ausrichtung auf Deutschland",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen ETF-Sparplan einzuordnen",
+      "Eine Frage zur Abgeltungsteuer nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mite",
+    "originalUrl": "https://www.mite.de/",
+    "domain": "mite.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Mite erfasst Zeiten für Kunden und Projekte.",
+    "longDescriptionDe": "Mite stoppt Zeiten und ordnet sie einem Kunden zu. Der Dienst kommt aus Deutschland. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Zeiterfassung nach Kunde",
+      "Auswertungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Stunden für eine Rechnung festzuhalten",
+      "Die Zeit an einem Projekt zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MOCO",
+    "originalUrl": "https://www.mocoapp.com/",
+    "domain": "mocoapp.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet",
+      "personal"
+    ],
+    "shortDescriptionDe": "MOCO führt Projekte, Zeiten und Rechnungen für Agenturen.",
+    "longDescriptionDe": "MOCO verbindet Planung, Zeiterfassung und Abrechnung. Der Anbieter sitzt in der Schweiz. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Projekte, Zeiten und Rechnungen",
+      "Ausrichtung auf Agenturen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Stunden eines Projekts abzurechnen",
+      "Die Auslastung eines Teams zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HQ",
+    "originalUrl": "https://www.hellohq.io/",
+    "domain": "hellohq.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "HQ plant Projekte und schreibt daraus Rechnungen.",
+    "longDescriptionDe": "HQ, früher helloHQ, legt Aufgaben, Zeiten und Belege an einem Ort ab. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Projekte und Zeiten",
+      "Rechnungen aus dem Projekt",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Agenturprojekt bis zur Rechnung zu führen",
+      "Zeiten einer Aufgabe zuzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "zep",
+    "originalUrl": "https://www.zep.de/",
+    "domain": "zep.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet",
+      "personal"
+    ],
+    "shortDescriptionDe": "zep erfasst Projektzeiten und überführt sie in die Abrechnung.",
+    "longDescriptionDe": "zep sammelt Stunden, Spesen und Abwesenheiten. Der Anbieter sitzt in Deutschland. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Projektzeiten und Spesen",
+      "Abwesenheiten",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Stunden eines Projekts zu erfassen",
+      "Spesen neben den Zeiten abzurechnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TimeButler",
+    "originalUrl": "https://www.timebutler.de/",
+    "domain": "timebutler.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "TimeButler führt Urlaub, Krankheit und Arbeitszeiten.",
+    "longDescriptionDe": "TimeButler nimmt Anträge entgegen und zeigt den Resturlaub. Der Dienst kommt aus Deutschland. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Urlaub und Krankheit",
+      "Resturlaub",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Urlaubsantrag zu stellen",
+      "Den Resturlaub eines Teams zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Personizer",
+    "originalUrl": "https://www.personizer.de/",
+    "domain": "personizer.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "Personizer verwaltet Personalakten, Urlaub und Zeiterfassung.",
+    "longDescriptionDe": "Personizer legt Stammdaten und Abwesenheiten ab. Der Anbieter sitzt in Berlin. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Personalakten und Urlaub",
+      "Zeiterfassung",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Personalakte digital zu führen",
+      "Urlaub und Zeiten nebeneinander zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Leapsome",
+    "originalUrl": "https://www.leapsome.com/de",
+    "domain": "leapsome.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "Leapsome führt Ziele, Feedback und Mitarbeitergespräche.",
+    "longDescriptionDe": "Leapsome legt Ziele und Befragungen an und sammelt Rückmeldungen im Team. Der Anbieter kommt aus Berlin. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Ziele und Feedback",
+      "Mitarbeitergespräche",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Ziel für ein Quartal festzuhalten",
+      "Ein Gespräch mit Notizen vorzubereiten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "JOIN",
+    "originalUrl": "https://join.com/",
+    "domain": "join.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "JOIN schaltet eine Stelle auf mehreren Jobbörsen gleichzeitig.",
+    "longDescriptionDe": "JOIN nimmt eine Anzeige entgegen und verteilt sie an angebundene Börsen. Der Dienst kommt aus Berlin. Es gibt einen Einstieg und bezahlte Schaltungen.",
+    "featuresDe": [
+      "Eine Anzeige, mehrere Börsen",
+      "Eingang der Bewerbungen",
+      "Einstieg und bezahlte Schaltungen"
+    ],
+    "useCasesDe": [
+      "Eine Stelle breit zu streuen",
+      "Bewerbungen an einem Ort zu sammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "heyjobs",
+    "originalUrl": "https://www.heyjobs.de/",
+    "domain": "heyjobs.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "heyjobs schaltet Stellenanzeigen und spricht passende Profile an.",
+    "longDescriptionDe": "heyjobs verteilt eine Anzeige und zeigt, welche Profile dazu passen. Der Dienst richtet sich an Arbeitgeber in Deutschland. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Stellenanzeigen",
+      "Passende Profile",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Stelle in Deutschland zu schalten",
+      "Reichweite einer Anzeige zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "rexx systems",
+    "originalUrl": "https://www.rexx-systems.com/",
+    "domain": "rexx-systems.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "rexx führt Bewerbungen, Personalakten und Zeiterfassung.",
+    "longDescriptionDe": "rexx legt den Weg von der Bewerbung bis zur Akte in einem System ab. Der Anbieter sitzt in Deutschland. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Bewerbung bis Personalakte",
+      "Zeiterfassung",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Bewerbungen in Stufen zu sortieren",
+      "Stammdaten nach der Einstellung zu übernehmen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "onlyfy",
+    "originalUrl": "https://www.onlyfy.com/",
+    "domain": "onlyfy.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "onlyfy schaltet Stellen und sucht Profile im Umfeld von XING.",
+    "longDescriptionDe": "onlyfy veröffentlicht Anzeigen und durchsucht Profile. Das Angebot gehört zu New Work. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Stellenanzeigen",
+      "Suche in Profilen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Stelle über XING zu schalten",
+      "Profile zu einer Rolle zu sichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "sipgate",
+    "originalUrl": "https://www.sipgate.de/",
+    "domain": "sipgate.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "sipgate stellt Telefonie für Teams im Browser und in der App bereit.",
+    "longDescriptionDe": "sipgate vergibt Nummern, Weiterleitungen und Anrufgruppen. Der Anbieter sitzt in Düsseldorf. Es gibt einen Einstieg und bezahlte Tarife.",
+    "featuresDe": [
+      "Nummern und Weiterleitungen",
+      "Anrufgruppen",
+      "Einstieg und bezahlte Tarife"
+    ],
+    "useCasesDe": [
+      "Eine Team-Nummer einzurichten",
+      "Anrufe an mehrere Personen zu verteilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Placetel",
+    "originalUrl": "https://www.placetel.de/",
+    "domain": "placetel.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Placetel betreibt eine Cloud-Telefonanlage für Unternehmen.",
+    "longDescriptionDe": "Placetel legt Nebenstellen, Warteschleifen und Ansagen an. Der Dienst kommt aus Deutschland. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Nebenstellen und Warteschleifen",
+      "Ansagen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Telefonanlage ohne eigene Hardware zu betreiben",
+      "Eine Warteschleife für den Support einzurichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "easybell",
+    "originalUrl": "https://www.easybell.de/",
+    "domain": "easybell.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "easybell liefert SIP-Trunks und Rufnummern für Telefonanlagen.",
+    "longDescriptionDe": "easybell schaltet Rufnummern und Leitungen, die eine eigene Anlage anbindet. Der Anbieter sitzt in Berlin. Die Tarife sind kostenpflichtig.",
+    "featuresDe": [
+      "SIP-Trunks und Rufnummern",
+      "Anbindung an eine Anlage",
+      "Kostenpflichtige Tarife"
+    ],
+    "useCasesDe": [
+      "Eine bestehende Anlage an das Netz zu hängen",
+      "Rufnummern zu übernehmen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "3CX",
+    "originalUrl": "https://www.3cx.com/",
+    "domain": "3cx.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "3CX ist eine Telefonanlage, die sich selbst betreiben oder hosten lässt.",
+    "longDescriptionDe": "3CX schaltet Nebenstellen, Warteschleifen und Apps für Anrufe. Es gibt eine kostenlose Ausgabe für kleine Teams und bezahlte Lizenzen.",
+    "featuresDe": [
+      "Nebenstellen und Warteschleifen",
+      "Selbstbetrieb oder Hosting",
+      "Kostenlose Ausgabe und bezahlte Lizenzen"
+    ],
+    "useCasesDe": [
+      "Eine kleine Telefonanlage selbst zu betreiben",
+      "Anrufe in einer App entgegenzunehmen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Auphonic",
+    "originalUrl": "https://auphonic.com/",
+    "domain": "auphonic.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Auphonic gleicht Lautstärke und Rauschen einer Aufnahme automatisch an.",
+    "longDescriptionDe": "Auphonic nimmt eine Audiodatei und liefert eine ausgeglichene Fassung. Der Dienst kommt aus Österreich. Es gibt ein Freikontingent und bezahlte Stunden.",
+    "featuresDe": [
+      "Lautstärke und Rauschen",
+      "Automatische Nachbearbeitung",
+      "Freikontingent und bezahlte Stunden"
+    ],
+    "useCasesDe": [
+      "Eine Podcast-Folge lautstärkemäßig anzugleichen",
+      "Rauschen aus einer Aufnahme zu nehmen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Podigee",
+    "originalUrl": "https://www.podigee.com/",
+    "domain": "podigee.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Podigee hostet Podcasts und liefert den Feed aus.",
+    "longDescriptionDe": "Podigee nimmt Folgen entgegen, erzeugt den Feed und zeigt Statistiken. Der Anbieter sitzt in Berlin. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Hosting und Feed",
+      "Statistiken",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Podcast zu veröffentlichen",
+      "Abrufe einer Folge zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "letscast.fm",
+    "originalUrl": "https://www.letscast.fm/",
+    "domain": "letscast.fm",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "letscast.fm hostet einen Podcast und erzeugt den Feed.",
+    "longDescriptionDe": "letscast.fm lädt Folgen hoch und stellt sie Verzeichnissen bereit. Der Dienst kommt aus Deutschland. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Upload und Feed",
+      "Auslieferung an Verzeichnisse",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Folge zu veröffentlichen",
+      "Einen Feed ohne eigenen Server zu betreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "fyyd",
+    "originalUrl": "https://fyyd.de/",
+    "domain": "fyyd.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "recherche"
+    ],
+    "shortDescriptionDe": "fyyd durchsucht Podcasts und Folgen.",
+    "longDescriptionDe": "fyyd indexiert Feeds und macht Episoden suchbar. Die Suche ist ohne Abo möglich. Der Dienst kommt aus Deutschland.",
+    "featuresDe": [
+      "Suche über Podcasts",
+      "Index von Feeds",
+      "Suche ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Folge zu einem Stichwort zu finden",
+      "Einen Podcast zu entdecken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "podcast.de",
+    "originalUrl": "https://www.podcast.de/",
+    "domain": "podcast.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "recherche"
+    ],
+    "shortDescriptionDe": "podcast.de verzeichnet Podcasts und spielt Folgen im Browser.",
+    "longDescriptionDe": "Das Verzeichnis listet Sendungen und zeigt einzelne Episoden. Die Suche ist ohne Abo möglich.",
+    "featuresDe": [
+      "Verzeichnis von Podcasts",
+      "Wiedergabe im Browser",
+      "Suche ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Podcast zu einem Thema zu finden",
+      "Eine Folge direkt anzuhören"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Buzzsprout",
+    "originalUrl": "https://www.buzzsprout.com/",
+    "domain": "buzzsprout.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Buzzsprout hostet Podcasts und liefert Statistiken zum Feed.",
+    "longDescriptionDe": "Buzzsprout nimmt Folgen an und verteilt sie an Verzeichnisse. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Hosting und Statistiken",
+      "Verteilung an Verzeichnisse",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Podcast ohne eigenen Server zu starten",
+      "Abrufe einer Folge zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Transistor",
+    "originalUrl": "https://transistor.fm/",
+    "domain": "transistor.fm",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Transistor hostet mehrere Podcasts unter einem Konto.",
+    "longDescriptionDe": "Transistor erzeugt Feeds, Webseiten zur Folge und Statistiken. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Mehrere Podcasts",
+      "Seiten zur Folge und Statistiken",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Mehrere Sendungen in einem Konto zu führen",
+      "Eine Folge mit einer eigenen Seite zu veröffentlichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Audible",
+    "originalUrl": "https://www.audible.de/",
+    "domain": "audible.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Audible verleiht Hörbücher und Hörspiele über ein Abo.",
+    "longDescriptionDe": "Audible spielt Titel in der App und tauscht sie im Rahmen des Abos. Es gibt Testangebote und bezahlte Stufen, die die Seite nennt.",
+    "featuresDe": [
+      "Hörbücher und Hörspiele",
+      "Wiedergabe in der App",
+      "Testangebote und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Hörbuch zu leihen",
+      "Einen Titel unterwegs zu hören"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Onleihe",
+    "originalUrl": "https://www.onleihe.de/",
+    "domain": "onleihe.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Die Onleihe leiht E-Books und Hörbücher über die örtliche Bibliothek.",
+    "longDescriptionDe": "Die Onleihe stellt Titel digital bereit, wenn die Bibliothek den Dienst anbietet. Die Ausleihe selbst hängt am Bibliotheksausweis und ist für dessen Inhaber ohne separates Abo.",
+    "featuresDe": [
+      "E-Books und Hörbücher",
+      "Ausleihe über die Bibliothek",
+      "Nutzung mit Bibliotheksausweis"
+    ],
+    "useCasesDe": [
+      "Ein E-Book über die Stadtbibliothek zu leihen",
+      "Einen Titel nach Verfügbarkeit zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Deutsche Digitale Bibliothek",
+    "originalUrl": "https://www.deutsche-digitale-bibliothek.de/",
+    "domain": "deutsche-digitale-bibliothek.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Die Deutsche Digitale Bibliothek durchsucht Bestände von Bibliotheken, Archiven und Museen.",
+    "longDescriptionDe": "Die Plattform zeigt digitalisierte Werke und Nachweise aus deutschen Einrichtungen. Die Suche ist ohne Konto möglich.",
+    "featuresDe": [
+      "Bestände aus Bibliotheken und Archiven",
+      "Digitalisierte Werke",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein digitalisiertes Dokument zu finden",
+      "Bestände mehrerer Häuser zu durchsuchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Deutsche Nationalbibliografie",
+    "originalUrl": "https://www.dnb.de/",
+    "domain": "dnb.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Die Deutsche Nationalbibliothek verzeichnet in Deutschland erschienene Medien.",
+    "longDescriptionDe": "Der Katalog der DNB weist Bücher, Zeitschriften und weitere Medien nach. Die Suche ist ohne Konto möglich.",
+    "featuresDe": [
+      "Nachweis erschienener Medien",
+      "Katalogsuche",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Buch bibliografisch nachzuweisen",
+      "Eine Zeitschrift im Katalog zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Projekt Gutenberg-DE",
+    "originalUrl": "https://www.projekt-gutenberg.org/",
+    "domain": "projekt-gutenberg.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Projekt Gutenberg-DE stellt gemeinfreie deutsche Texte zum Lesen bereit.",
+    "longDescriptionDe": "Die Seite zeigt Romane und Erzählungen, deren Schutz abgelaufen ist. Das Lesen im Browser ist ohne Konto möglich. Das Angebot ist nicht dasselbe wie das US-Projekt Gutenberg.",
+    "featuresDe": [
+      "Gemeinfreie deutsche Texte",
+      "Lesen im Browser",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen gemeinfreien Roman zu lesen",
+      "Ein Werk nach Autor zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Internet Archive",
+    "originalUrl": "https://archive.org/",
+    "domain": "archive.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Das Internet Archive speichert Webseiten, Bücher, Filme und Software.",
+    "longDescriptionDe": "Archive.org hält Momentaufnahmen von Seiten und digitalisierte Medien. Ein Teil ist ohne Konto lesbar. Eine OSI-Lizenz der Plattform ist hier nicht hinterlegt.",
+    "featuresDe": [
+      "Momentaufnahmen von Webseiten",
+      "Bücher, Filme und Software",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine frühere Fassung einer Seite zu öffnen",
+      "Ein digitalisiertes Buch zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wikidata",
+    "originalUrl": "https://www.wikidata.org/",
+    "domain": "wikidata.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Wikidata sammelt strukturierte Fakten, die Wikipedia und andere frei nutzen.",
+    "longDescriptionDe": "Wikidata speichert Aussagen zu Einträgen mit Quellen und macht sie abfragbar. Das Bearbeiten ist ohne Abo möglich. Eine einzelne OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Strukturierte Fakten mit Quellen",
+      "Abfrage der Daten",
+      "Bearbeiten ohne Abo"
+    ],
+    "useCasesDe": [
+      "Ein Datum zu einem Eintrag nachzuschlagen",
+      "Fakten für eine eigene Abfrage zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wiktionary",
+    "originalUrl": "https://de.wiktionary.org/",
+    "domain": "de.wiktionary.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Das deutsche Wiktionary erklärt Wörter, Beugungen und Herkunft.",
+    "longDescriptionDe": "Der Eintrag zeigt Bedeutung, Formen und Beispiele. Das Lesen ist ohne Konto möglich. Eine einzelne OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Bedeutung und Beugung",
+      "Herkunft und Beispiele",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Die Formen eines Verbs nachzuschlagen",
+      "Die Herkunft eines Wortes zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Langenscheidt",
+    "originalUrl": "https://www.langenscheidt.de/",
+    "domain": "langenscheidt.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Langenscheidt übersetzt Wörter und bietet Übungen für Sprachen.",
+    "longDescriptionDe": "Langenscheidt zeigt Übersetzungen und Aussprache. Ein Teil der Suche ist ohne Abo nutzbar, Wörterbücher und Kurse sind bezahlt.",
+    "featuresDe": [
+      "Übersetzungen und Aussprache",
+      "Übungen",
+      "Freie Suche und bezahlte Wörterbücher"
+    ],
+    "useCasesDe": [
+      "Ein Wort nachzuschlagen",
+      "Eine Vokabel mit Aussprache zu hören"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wortschatz Leipzig",
+    "originalUrl": "https://corpora.uni-leipzig.de/",
+    "domain": "corpora.uni-leipzig.de",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "bildung",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Wortschatz der Universität Leipzig zeigt, wie Wörter in Korpora vorkommen.",
+    "longDescriptionDe": "Die Suche liefert Beispielsätze, Nachbarn und Häufigkeiten. Die Abfrage ist ohne Konto möglich. Eine OSI-Lizenz der Website ist hier nicht hinterlegt.",
+    "featuresDe": [
+      "Beispielsätze und Häufigkeit",
+      "Wortnachbarn",
+      "Abfrage ohne Konto"
+    ],
+    "useCasesDe": [
+      "Zu sehen, wie ein Wort in Sätzen steht",
+      "Häufige Nachbarn eines Begriffs zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "synonyme.de",
+    "originalUrl": "https://www.synonyme.de/",
+    "domain": "synonyme.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "synonyme.de listet bedeutungsähnliche Wörter.",
+    "longDescriptionDe": "Die Seite zeigt Synonyme zu einem Suchwort. Die Abfrage ist ohne Konto möglich.",
+    "featuresDe": [
+      "Synonyme zu einem Wort",
+      "Suche ohne Konto",
+      "Kurze Trefferlisten"
+    ],
+    "useCasesDe": [
+      "Ein anderes Wort für einen Begriff zu finden",
+      "Formulierungen zu variieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "buzer",
+    "originalUrl": "https://www.buzer.de/",
+    "domain": "buzer.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "buzer zeigt deutsche Gesetze und markiert Änderungen am Wortlaut.",
+    "longDescriptionDe": "buzer stellt Paragraphen dar und hebt, was sich geändert hat. Das Lesen ist ohne Konto möglich.",
+    "featuresDe": [
+      "Gesetzestext mit Änderungen",
+      "Paragraphen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Paragraphen nachzuschlagen",
+      "Zu sehen, was sich an einer Norm geändert hat"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Verlag C.H.Beck",
+    "originalUrl": "https://www.beck.de/",
+    "domain": "beck.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "C.H.Beck verlegt Kommentare, Zeitschriften und Datenbanken zum deutschen Recht.",
+    "longDescriptionDe": "Die Verlagsseite führt Bücher und den Zugang zu beck-online. Einzelne Hinweise sind frei lesbar, die Datenbank ist kostenpflichtig.",
+    "featuresDe": [
+      "Kommentare und Zeitschriften",
+      "Zugang zu beck-online",
+      "Freie Hinweise und kostenpflichtige Datenbank"
+    ],
+    "useCasesDe": [
+      "Einen Kommentar zu einem Gesetz zu finden",
+      "Eine Zeitschrift des Verlags zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BfDI",
+    "originalUrl": "https://www.bfdi.bund.de/",
+    "domain": "bfdi.bund.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "Der Bundesbeauftragte für den Datenschutz veröffentlicht Hinweise zur DSGVO.",
+    "longDescriptionDe": "Die Website des BfDI erklärt Zuständigkeiten und informiert über Beschwerden. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Hinweise zum Datenschutz",
+      "Zuständigkeiten und Beschwerden",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Die zuständige Aufsicht zu finden",
+      "Einen Hinweis des BfDI zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BSI",
+    "originalUrl": "https://www.bsi.bund.de/",
+    "domain": "bsi.bund.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung",
+      "recht"
+    ],
+    "shortDescriptionDe": "Das BSI veröffentlicht Standards und Warnungen zur IT-Sicherheit.",
+    "longDescriptionDe": "Das Bundesamt für Sicherheit in der Informationstechnik stellt den IT-Grundschutz und aktuelle Warnungen bereit. Die Dokumente sind ohne Konto lesbar.",
+    "featuresDe": [
+      "IT-Grundschutz",
+      "Warnungen",
+      "Dokumente ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Warnung zu einer Schwachstelle zu lesen",
+      "Einen Baustein des Grundschutzes zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Datenschutz-Generator",
+    "originalUrl": "https://www.datenschutz-generator.de/",
+    "domain": "datenschutz-generator.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "Der Datenschutz-Generator von eRecht24 erzeugt eine Datenschutzerklärung.",
+    "longDescriptionDe": "Der Generator stellt Fragen zur Website und setzt daraus einen Text. Ein Teil ist frei, die aktuelle Fassung mit Updates ist kostenpflichtig.",
+    "featuresDe": [
+      "Fragen zur eigenen Website",
+      "Text der Datenschutzerklärung",
+      "Freier Anteil und kostenpflichtige Updates"
+    ],
+    "useCasesDe": [
+      "Eine Datenschutzerklärung zu erzeugen",
+      "Zu prüfen, welche Dienste im Text stehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ActiveMind",
+    "originalUrl": "https://www.activemind.de/",
+    "domain": "activemind.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "ActiveMind erklärt Datenschutz und bietet Generatoren für Website-Texte.",
+    "longDescriptionDe": "ActiveMind veröffentlicht Hinweise zur DSGVO und Generatoren für Erklärungen. Ein Teil der Texte ist frei, Generatoren und Beratung sind kostenpflichtig.",
+    "featuresDe": [
+      "Hinweise zur DSGVO",
+      "Generatoren für Website-Texte",
+      "Freie Texte und kostenpflichtige Generatoren"
+    ],
+    "useCasesDe": [
+      "Einen Hinweis zur DSGVO zu lesen",
+      "Einen Text für die Website zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Händlerbund",
+    "originalUrl": "https://www.haendlerbund.de/",
+    "domain": "haendlerbund.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Der Händlerbund liefert Rechtstexte und Beratung für Online-Shops.",
+    "longDescriptionDe": "Mitglieder erhalten Muster zu AGB, Widerruf und Datenschutz, abgestimmt auf den Shop. Die Mitgliedschaft ist kostenpflichtig.",
+    "featuresDe": [
+      "Muster für AGB und Widerruf",
+      "Datenschutztexte",
+      "Kostenpflichtige Mitgliedschaft"
+    ],
+    "useCasesDe": [
+      "Rechtstexte für einen Shop zu beziehen",
+      "Eine Änderung im Widerruf nachzuziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Flightright",
+    "originalUrl": "https://www.flightright.de/",
+    "domain": "flightright.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen",
+      "recht"
+    ],
+    "shortDescriptionDe": "Flightright prüft Ausgleichsansprüche nach einer Flugunregelmäßigkeit.",
+    "longDescriptionDe": "Flightright nimmt Flugdaten entgegen und schätzt einen Anspruch nach EU-Recht. Die Prüfung ist ohne Vorkasse beschrieben, eine Durchsetzung ist erfolgsabhängig bezahlt.",
+    "featuresDe": [
+      "Prüfung von Flugdaten",
+      "Bezug auf EU-Ausgleich",
+      "Erfolgsabhängige Vergütung"
+    ],
+    "useCasesDe": [
+      "Einen verspäteten Flug prüfen zu lassen",
+      "Die Daten für eine Forderung zu erfassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fairplane",
+    "originalUrl": "https://www.fairplane.de/",
+    "domain": "fairplane.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen",
+      "recht"
+    ],
+    "shortDescriptionDe": "Fairplane setzt Entschädigungen bei Verspätung und Annulierung durch.",
+    "longDescriptionDe": "Fairplane prüft den Flug und übernimmt die Forderung auf Erfolgsbasis. Der Dienst kommt aus Österreich.",
+    "featuresDe": [
+      "Prüfung von Verspätung und Annulierung",
+      "Durchsetzung auf Erfolgsbasis",
+      "Anbieter aus Österreich"
+    ],
+    "useCasesDe": [
+      "Einen annullierten Flug auf Entschädigung zu prüfen",
+      "Eine Forderung abzugeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "advocado",
+    "originalUrl": "https://www.advocado.de/",
+    "domain": "advocado.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "advocado vermittelt rechtliche Ersteinschätzungen und Anwältinnen.",
+    "longDescriptionDe": "advocado nimmt einen Sachverhalt auf und verbindet ihn mit einer Kanzlei. Ein Teil der Orientierung ist ohne sofortige Zahlung möglich, die anwaltliche Leistung ist kostenpflichtig.",
+    "featuresDe": [
+      "Ersteinschätzung",
+      "Vermittlung an Kanzleien",
+      "Anwaltliche Leistung kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Einen Sachverhalt einzuordnen",
+      "Eine Kanzlei zu einem Thema zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "legalbird",
+    "originalUrl": "https://www.legalbird.de/",
+    "domain": "legalbird.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "legalbird führt durch häufige Rechtsfragen und vermittelt Anwälte.",
+    "longDescriptionDe": "legalbird stellt Fragen zu einem Fall und zeigt, welcher Weg offen ist. Die anwaltliche Vertretung ist kostenpflichtig.",
+    "featuresDe": [
+      "Fragen zu häufigen Fällen",
+      "Vermittlung",
+      "Anwaltliche Vertretung kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Einen häufigen Fall einzuordnen",
+      "Den nächsten Schritt zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "frag-einen-anwalt.de",
+    "originalUrl": "https://www.frag-einen-anwalt.de/",
+    "domain": "frag-einen-anwalt.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "frag-einen-anwalt.de lässt eine Frage von einer Kanzlei beantworten.",
+    "longDescriptionDe": "Die Seite nimmt eine Rechtsfrage entgegen und veröffentlicht oder übermittelt eine Antwort. Die ausführliche Beratung ist kostenpflichtig.",
+    "featuresDe": [
+      "Fragen an Kanzleien",
+      "Antworten auf der Plattform",
+      "Ausführliche Beratung kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Eine Rechtsfrage zu stellen",
+      "Ähnliche beantwortete Fragen zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Verbraucherzentrale",
+    "originalUrl": "https://www.verbraucherzentrale.de/",
+    "domain": "verbraucherzentrale.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Verbraucherzentrale erklärt Verträge, Abzocke und Rechte im Alltag.",
+    "longDescriptionDe": "Der Bundesverband veröffentlicht Ratgeber, die ohne Abo lesbar sind. Beratung vor Ort kann je nach Stelle kosten.",
+    "featuresDe": [
+      "Ratgeber zu Verträgen und Rechten",
+      "Hinweise zu Abzocke",
+      "Texte ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Vertrag einzuordnen",
+      "Einen Ratgeber zu einem Produkt zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RKI",
+    "originalUrl": "https://www.rki.de/",
+    "domain": "rki.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Das Robert Koch-Institut veröffentlicht Zahlen und Empfehlungen zur Gesundheit.",
+    "longDescriptionDe": "Das RKI stellt Lageberichte, Empfehlungen und Daten bereit. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Empfehlungen und Lageberichte",
+      "Daten zur Gesundheit",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Empfehlung des RKI zu lesen",
+      "Zahlen zu einer Krankheit nachzuschlagen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BfArM",
+    "originalUrl": "https://www.bfarm.de/",
+    "domain": "bfarm.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Das BfArM informiert über Arzneimittel und Medizinprodukte.",
+    "longDescriptionDe": "Das Bundesinstitut veröffentlicht Zulassungen, Warnungen und Verzeichnisse. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Arzneimittel und Medizinprodukte",
+      "Warnungen und Verzeichnisse",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Warnung zu einem Produkt zu lesen",
+      "Ein Arzneimittel im Verzeichnis zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "gesund.bund",
+    "originalUrl": "https://www.gesund.bund.de/",
+    "domain": "gesund.bund.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "gesund.bund erklärt Krankheitsbilder in verständlicher Sprache.",
+    "longDescriptionDe": "Das Portal des Gesundheitsministeriums beschreibt Symptome, Untersuchungen und Anlaufstellen. Die Texte sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Krankheitsbilder in verständlicher Sprache",
+      "Untersuchungen und Anlaufstellen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Krankheitsbild nachzulesen",
+      "Eine Anlaufstelle zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ärzteblatt",
+    "originalUrl": "https://www.aerzteblatt.de/",
+    "domain": "aerzteblatt.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Das Deutsche Ärzteblatt berichtet über Medizin und Gesundheitspolitik.",
+    "longDescriptionDe": "Ein Teil der Meldungen ist frei lesbar, das Archiv und einige Fachtexte sind kostenpflichtig.",
+    "featuresDe": [
+      "Meldungen zu Medizin und Politik",
+      "Fachtexte",
+      "Freie Meldungen und kostenpflichtiges Archiv"
+    ],
+    "useCasesDe": [
+      "Eine Meldung zur Gesundheitspolitik zu lesen",
+      "Einen Fachtext zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "NetDoktor",
+    "originalUrl": "https://www.netdoktor.de/",
+    "domain": "netdoktor.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "NetDoktor erklärt Symptome und Krankheiten für Laien.",
+    "longDescriptionDe": "NetDoktor beschreibt Krankheitsbilder und Untersuchungen in Alltagssprache. Die Artikel sind ohne Abo lesbar.",
+    "featuresDe": [
+      "Symptome und Krankheiten",
+      "Alltagssprache",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Ein Symptom einzuordnen",
+      "Den Ablauf einer Untersuchung nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "samedi",
+    "originalUrl": "https://www.samedi.de/",
+    "domain": "samedi.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "samedi vergibt Termine für Praxen und Kliniken online.",
+    "longDescriptionDe": "samedi zeigt freie Zeiten und schreibt den Termin in den Kalender der Einrichtung. Es gibt Angebote für Praxen, die kostenpflichtig sind.",
+    "featuresDe": [
+      "Online-Termine für Praxen",
+      "Kalender der Einrichtung",
+      "Kostenpflichtige Angebote für Praxen"
+    ],
+    "useCasesDe": [
+      "Einen Arzttermin online zu buchen",
+      "Freie Zeiten einer Praxis zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "tomedo",
+    "originalUrl": "https://www.tomedo.de/",
+    "domain": "tomedo.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "tomedo führt die Akte und die Abrechnung in einer Arztpraxis.",
+    "longDescriptionDe": "tomedo speichert Patientendaten, Termine und Abrechnung auf dem System der Praxis. Der Anbieter sitzt in Deutschland. Die Lizenz ist kostenpflichtig.",
+    "featuresDe": [
+      "Patientenakte und Termine",
+      "Abrechnung",
+      "Kostenpflichtige Lizenz"
+    ],
+    "useCasesDe": [
+      "Eine Praxisakte zu führen",
+      "Termine und Abrechnung zu verbinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RED medical",
+    "originalUrl": "https://www.redmedical.de/",
+    "domain": "redmedical.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "RED medical führt die Praxissoftware in der Cloud.",
+    "longDescriptionDe": "RED speichert Akte, Termine und Abrechnung über den Browser. Der Anbieter sitzt in Deutschland. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Akte, Termine und Abrechnung",
+      "Zugriff über den Browser",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Praxis ohne lokalen Server zu führen",
+      "Die Akte im Browser zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CGM",
+    "originalUrl": "https://www.cgm.com/",
+    "domain": "cgm.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "CompuGroup Medical liefert Praxis- und Kliniksoftware.",
+    "longDescriptionDe": "CGM verbindet Akte, Abrechnung und Vernetzung zwischen Einrichtungen. Die Systeme sind kostenpflichtig.",
+    "featuresDe": [
+      "Praxis- und Kliniksoftware",
+      "Abrechnung und Vernetzung",
+      "Kostenpflichtige Systeme"
+    ],
+    "useCasesDe": [
+      "Eine Praxissoftware auszuwählen",
+      "Daten zwischen Einrichtungen zu verbinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HelloBetter",
+    "originalUrl": "https://www.hellobetter.de/",
+    "domain": "hellobetter.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "HelloBetter führt durch Online-Kurse zu Schlaf, Stress und Stimmung.",
+    "longDescriptionDe": "HelloBetter gibt Einheiten mit Texten und Übungen vor. Ein Teil ist frei, Kurse auf Rezept und weitere Programme sind bezahlt.",
+    "featuresDe": [
+      "Kurse zu Schlaf, Stress und Stimmung",
+      "Texte und Übungen",
+      "Freier Anteil und bezahlte Kurse"
+    ],
+    "useCasesDe": [
+      "Einen Kurs zu Schlafproblemen zu beginnen",
+      "Übungen über mehrere Einheiten zu machen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Selfapy",
+    "originalUrl": "https://www.selfapy.com/",
+    "domain": "selfapy.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Selfapy bietet Online-Kurse bei psychischen Belastungen.",
+    "longDescriptionDe": "Selfapy führt durch Einheiten mit Übungen, die sich ärztlich verordnen lassen. Der Dienst kommt aus Berlin. Die Kurse sind je nach Weg kostenpflichtig oder über die Krankenkasse.",
+    "featuresDe": [
+      "Online-Kurse mit Übungen",
+      "Verordnung möglich",
+      "Kosten je nach Weg"
+    ],
+    "useCasesDe": [
+      "Einen Kurs zu Depression oder Angst zu beginnen",
+      "Übungen über Wochen zu folgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MindDoc",
+    "originalUrl": "https://www.minddoc.de/",
+    "domain": "minddoc.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "MindDoc begleitet Stimmung und Übungen in einer App.",
+    "longDescriptionDe": "MindDoc fragt die Stimmung ab und schlägt kurze Übungen vor. Es gibt einen Einstieg und bezahlte Inhalte.",
+    "featuresDe": [
+      "Stimmungsabfrage",
+      "Kurze Übungen",
+      "Einstieg und bezahlte Inhalte"
+    ],
+    "useCasesDe": [
+      "Die Stimmung über Tage festzuhalten",
+      "Eine kurze Übung zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "novego",
+    "originalUrl": "https://www.novego.de/",
+    "domain": "novego.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "novego führt Online-Programme zu Stress, Depression und Angst.",
+    "longDescriptionDe": "novego gibt Lektionen mit Übungen vor. Programme lassen sich je nach Krankenkasse nutzen. Ein Teil ist ohne sofortige Zahlung beschrieben.",
+    "featuresDe": [
+      "Programme zu Stress und Stimmung",
+      "Lektionen mit Übungen",
+      "Nutzung je nach Krankenkasse"
+    ],
+    "useCasesDe": [
+      "Ein Programm gegen Stress zu beginnen",
+      "Lektionen über mehrere Wochen zu folgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "AllTrails",
+    "originalUrl": "https://www.alltrails.com/",
+    "domain": "alltrails.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "AllTrails zeigt Wanderwege mit Länge, Anstieg und Berichten.",
+    "longDescriptionDe": "AllTrails kartiert Touren und lässt eigene Aufzeichnungen hochladen. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo für Karten offline.",
+    "featuresDe": [
+      "Wanderwege mit Länge und Anstieg",
+      "Berichte und Aufzeichnungen",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Eine Tour in der Nähe zu finden",
+      "Länge und Anstieg vor dem Start zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "bahn.de",
+    "originalUrl": "https://www.bahn.de/",
+    "domain": "bahn.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "bahn.de sucht Verbindungen und verkauft Tickets der Deutschen Bahn.",
+    "longDescriptionDe": "Die Auskunft zeigt Züge, Umstiege und Preise. Die Suche ist ohne Konto möglich, ein Ticket ist kostenpflichtig.",
+    "featuresDe": [
+      "Verbindungen und Preise",
+      "Tickets",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Zugverbindung zu suchen",
+      "Ein Ticket zu buchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FlixBus",
+    "originalUrl": "https://www.flixbus.de/",
+    "domain": "flixbus.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "FlixBus sucht Fernbusverbindungen und verkauft die Fahrkarte.",
+    "longDescriptionDe": "FlixBus zeigt Abfahrten, Preise und Haltestellen. Die Suche ist ohne Konto möglich, die Fahrt ist kostenpflichtig.",
+    "featuresDe": [
+      "Fernbusverbindungen",
+      "Preise und Haltestellen",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Fernbus zu suchen",
+      "Eine Fahrkarte zu buchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Omio",
+    "originalUrl": "https://www.omio.de/",
+    "domain": "omio.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Omio vergleicht Zug, Bus und Flug für eine Strecke.",
+    "longDescriptionDe": "Omio stellt Verbindungen mehrerer Anbieter nebeneinander. Die Suche ist ohne Konto möglich, das Ticket ist kostenpflichtig.",
+    "featuresDe": [
+      "Vergleich von Zug, Bus und Flug",
+      "Mehrere Anbieter",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Strecke über Verkehrsmittel zu vergleichen",
+      "Eine Verbindung zu buchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Skyscanner",
+    "originalUrl": "https://www.skyscanner.de/",
+    "domain": "skyscanner.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Skyscanner vergleicht Flüge über mehrere Anbieter.",
+    "longDescriptionDe": "Skyscanner zeigt Preise nach Datum und Route. Die Suche ist ohne Konto möglich, das Ticket liegt beim jeweiligen Anbieter.",
+    "featuresDe": [
+      "Flugvergleich",
+      "Preise nach Datum",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Flugpreis über Monate zu vergleichen",
+      "Eine Route mit Zwischenstopps zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Airbnb",
+    "originalUrl": "https://www.airbnb.de/",
+    "domain": "airbnb.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Airbnb vermittelt Unterkünfte von privaten Gastgebern.",
+    "longDescriptionDe": "Airbnb zeigt Wohnungen und Zimmer mit Preis und Zeitraum. Die Suche ist ohne Konto möglich, die Buchung ist kostenpflichtig.",
+    "featuresDe": [
+      "Wohnungen und Zimmer",
+      "Preis und Zeitraum",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Unterkunft für einen Zeitraum zu suchen",
+      "Preis und Lage zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Holidu",
+    "originalUrl": "https://www.holidu.de/",
+    "domain": "holidu.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Holidu vergleicht Ferienwohnungen über mehrere Portale.",
+    "longDescriptionDe": "Holidu sammelt Angebote und zeigt sie nebeneinander. Die Suche ist ohne Konto möglich, die Buchung liegt beim jeweiligen Anbieter.",
+    "featuresDe": [
+      "Vergleich von Ferienwohnungen",
+      "Mehrere Portale",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Ferienwohnung zu vergleichen",
+      "Preise für denselben Zeitraum zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TUI",
+    "originalUrl": "https://www.tui.com/",
+    "domain": "tui.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "TUI bucht Pauschalreisen, Hotels und Flüge.",
+    "longDescriptionDe": "TUI zeigt Reisen mit Flug und Hotel in einem Preis. Die Suche ist ohne Konto möglich, die Reise ist kostenpflichtig.",
+    "featuresDe": [
+      "Pauschalreisen",
+      "Hotels und Flüge",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Pauschalreise zu suchen",
+      "Hotel und Flug in einem Angebot zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DERTOUR",
+    "originalUrl": "https://www.dertour.de/",
+    "domain": "dertour.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "DERTOUR vermittelt Pauschalreisen und Bausteine aus Flug und Hotel.",
+    "longDescriptionDe": "DERTOUR zeigt Angebote mit Preis und Zeitraum. Die Suche ist ohne Konto möglich, die Buchung ist kostenpflichtig.",
+    "featuresDe": [
+      "Pauschalreisen und Bausteine",
+      "Preis und Zeitraum",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Reise mit Flug und Hotel zu suchen",
+      "Angebote eines Reiseziels zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CLARK",
+    "originalUrl": "https://www.clark.de/",
+    "domain": "clark.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "CLARK vergleicht Versicherungen und verwaltet bestehende Verträge.",
+    "longDescriptionDe": "CLARK zeigt Policen an einem Ort und macht Vorschläge zum Wechsel. Der Dienst kommt aus Frankfurt. Die Nutzung der Übersicht ist ohne eigenes Abo beschrieben, der Vertrag selbst ist kostenpflichtig.",
+    "featuresDe": [
+      "Übersicht bestehender Verträge",
+      "Vergleich und Wechsel",
+      "Vertrag beim Versicherer kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Eigene Versicherungen zu sammeln",
+      "Einen Tarif zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TradingView",
+    "originalUrl": "https://www.tradingview.com/",
+    "domain": "tradingview.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "TradingView zeigt Kurse und Charts für Aktien, Devisen und Krypto.",
+    "longDescriptionDe": "TradingView zeichnet Indikatoren auf Kursverläufe und teilt Ideen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Charts und Indikatoren",
+      "Aktien, Devisen und Krypto",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Kursverlauf zu zeichnen",
+      "Zwei Werte in einem Chart zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Finanzguru",
+    "originalUrl": "https://www.finanzguru.de/",
+    "domain": "finanzguru.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Finanzguru liest Kontoumsätze ein und ordnet sie Kategorien zu.",
+    "longDescriptionDe": "Finanzguru zeigt, wohin Geld geht, und erkennt Verträge. Der Dienst kommt aus Deutschland. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Umsätze nach Kategorie",
+      "Erkennen von Verträgen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ausgaben eines Monats zu sehen",
+      "Einen wiederkehrenden Vertrag zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Outbank",
+    "originalUrl": "https://www.outbank.de/",
+    "domain": "outbank.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Outbank bündelt Konten mehrerer Banken in einer App.",
+    "longDescriptionDe": "Outbank zeigt Salden und Umsätze nebeneinander. Der Dienst kommt aus Deutschland. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Konten mehrerer Banken",
+      "Salden und Umsätze",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Mehrere Konten in einer App zu sehen",
+      "Umsätze über Banken hinweg zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "StarMoney",
+    "originalUrl": "https://www.starmoney.de/",
+    "domain": "starmoney.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "StarMoney führt Konten, Umsätze und eine einfache Buchhaltung.",
+    "longDescriptionDe": "StarMoney holt Umsätze ab und ordnet sie Kategorien oder Buchungen zu. Die Software kommt von der Sparkassen-Finanzgruppe. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Konten und Umsätze",
+      "Kategorien und Buchungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Mehrere Konten auf dem Rechner zu führen",
+      "Umsätze einer Kategorie zuzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MoneyMoney",
+    "originalUrl": "https://moneymoney-app.com/",
+    "domain": "moneymoney-app.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "MoneyMoney liest Bankkonten auf dem Mac und ordnet Umsätze.",
+    "longDescriptionDe": "MoneyMoney holt Salden ab und filtert Buchungen. Die App ist einmalig kostenpflichtig.",
+    "featuresDe": [
+      "Konten auf dem Mac",
+      "Filter über Buchungen",
+      "Einmalig kostenpflichtige App"
+    ],
+    "useCasesDe": [
+      "Mehrere Konten auf dem Mac zu sehen",
+      "Buchungen zu filtern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Akaunting",
+    "originalUrl": "https://akaunting.com/",
+    "domain": "akaunting.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Akaunting führt Rechnungen und Ausgaben und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Akaunting legt Kunden, Belege und Berichte an. Es gibt eine selbst betreibbare Ausgabe und eine Cloud. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Rechnungen und Ausgaben",
+      "Selbstbetrieb und Cloud",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Eine einfache Buchhaltung selbst zu hosten",
+      "Eine Rechnung zu schreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Invoice Ninja",
+    "originalUrl": "https://invoiceninja.com/",
+    "domain": "invoiceninja.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Invoice Ninja schreibt Rechnungen und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Invoice Ninja legt Kunden, Angebote und Zahlungslinks an. Es gibt eine gehostete Fassung und den Selbstbetrieb. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Rechnungen und Angebote",
+      "Zahlungslinks",
+      "Hosting und Selbstbetrieb"
+    ],
+    "useCasesDe": [
+      "Eine Rechnung mit Zahlungslink zu schicken",
+      "Die Anwendung selbst zu hosten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Afterbuy",
+    "originalUrl": "https://www.afterbuy.de/",
+    "domain": "afterbuy.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Afterbuy steuert Bestellungen und Listings für Marktplätze.",
+    "longDescriptionDe": "Afterbuy holt Verkäufe aus angebundenen Kanälen und gibt sie an Versand und Rechnung weiter. Der Dienst kommt aus Deutschland. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Bestellungen aus Marktplätzen",
+      "Versand und Rechnung",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Verkäufe mehrerer Marktplätze zu bündeln",
+      "Bestellungen an den Versand zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "plentymarkets",
+    "originalUrl": "https://www.plentymarkets.eu/",
+    "domain": "plentymarkets.eu",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "plentymarkets führt Shop, Marktplätze und Warenwirtschaft.",
+    "longDescriptionDe": "plentymarkets verbindet Artikel, Bestellungen und Kanäle. Der Anbieter sitzt in Kassel. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Shop und Marktplätze",
+      "Warenwirtschaft",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Mehrere Verkaufskanäle zu steuern",
+      "Bestände zentral zu führen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "STRATO",
+    "originalUrl": "https://www.strato.de/",
+    "domain": "strato.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "STRATO vermietet Domains, Hosting und einen Baukasten.",
+    "longDescriptionDe": "STRATO legt Seiten, Mail und Domains an. Der Anbieter sitzt in Berlin. Die Pakete sind kostenpflichtig.",
+    "featuresDe": [
+      "Domains, Hosting und Baukasten",
+      "Mail zur Domain",
+      "Kostenpflichtige Pakete"
+    ],
+    "useCasesDe": [
+      "Eine Domain mit Webspace zu mieten",
+      "Eine einfache Seite mit dem Baukasten zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "netcup",
+    "originalUrl": "https://www.netcup.de/",
+    "domain": "netcup.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "netcup vermietet Server, Webhosting und Domains.",
+    "longDescriptionDe": "netcup stellt virtuelle Server und Webspace bereit. Der Anbieter sitzt in Deutschland. Die Tarife sind kostenpflichtig.",
+    "featuresDe": [
+      "Server und Webhosting",
+      "Domains",
+      "Kostenpflichtige Tarife"
+    ],
+    "useCasesDe": [
+      "Einen kleinen Server zu mieten",
+      "Eine Domain auf den Server zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Contabo",
+    "originalUrl": "https://contabo.com/",
+    "domain": "contabo.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Contabo vermietet virtuelle Server mit viel Speicher zum Festpreis.",
+    "longDescriptionDe": "Contabo stellt VPS und dedizierte Maschinen bereit. Der Anbieter sitzt in München. Die Miete ist kostenpflichtig.",
+    "featuresDe": [
+      "Virtuelle und dedizierte Server",
+      "Festpreis-Miete",
+      "Kostenpflichtige Tarife"
+    ],
+    "useCasesDe": [
+      "Einen günstigen Server für ein Projekt zu mieten",
+      "Mehr Speicher ohne Aufpreisstaffel zu bekommen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ALL-INKL",
+    "originalUrl": "https://all-inkl.com/",
+    "domain": "all-inkl.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "ALL-INKL vermietet Webspace, Domains und Mail.",
+    "longDescriptionDe": "ALL-INKL legt Seiten und Postfächer auf deutschem Webspace an. Die Pakete sind kostenpflichtig.",
+    "featuresDe": [
+      "Webspace, Domains und Mail",
+      "Betrieb in Deutschland",
+      "Kostenpflichtige Pakete"
+    ],
+    "useCasesDe": [
+      "Eine Website auf deutschem Webspace zu betreiben",
+      "Postfächer zur Domain anzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "mittwald",
+    "originalUrl": "https://www.mittwald.de/",
+    "domain": "mittwald.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "mittwald hostet Agenturprojekte und Shops.",
+    "longDescriptionDe": "mittwald stellt Projekte, Datenbanken und Support für Agenturen bereit. Der Anbieter sitzt in Espelkamp. Die Tarife sind kostenpflichtig.",
+    "featuresDe": [
+      "Hosting für Agenturen und Shops",
+      "Projekte und Datenbanken",
+      "Kostenpflichtige Tarife"
+    ],
+    "useCasesDe": [
+      "Einen Kundenshop zu hosten",
+      "Ein Projekt mit Datenbank anzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hetzner",
+    "originalUrl": "https://www.hetzner.com/",
+    "domain": "hetzner.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Hetzner vermietet Cloud-Server, Storage und dedizierte Maschinen.",
+    "longDescriptionDe": "Hetzner stellt Instanzen in eigenen Rechenzentren bereit, unter anderem in Deutschland und Finnland. Die Abrechnung folgt dem Tarif. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Cloud und dedizierte Server",
+      "Rechenzentren in Europa",
+      "Kostenpflichtige Tarife"
+    ],
+    "useCasesDe": [
+      "Einen Server in Europa zu mieten",
+      "Speicher und Instanz zu trennen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Stripe",
+    "originalUrl": "https://stripe.com/",
+    "domain": "stripe.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Stripe nimmt Kartenzahlungen in eine Website oder App auf.",
+    "longDescriptionDe": "Stripe stellt Zahlungsformulare und eine Schnittstelle bereit und zahlt Auszahlungen aus. Die Gebühr hängt von der Transaktion ab.",
+    "featuresDe": [
+      "Kartenzahlung per Formular und API",
+      "Auszahlungen",
+      "Gebühr je Transaktion"
+    ],
+    "useCasesDe": [
+      "Eine Karte im eigenen Shop zu akzeptieren",
+      "Zahlungen in einer App auszulösen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mollie",
+    "originalUrl": "https://www.mollie.com/de",
+    "domain": "mollie.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Mollie bindet Zahlarten wie Karte, Klarna und Lastschrift in einen Shop ein.",
+    "longDescriptionDe": "Mollie stellt eine Kasse für europäische Zahlarten bereit. Der Dienst kommt aus den Niederlanden. Die Gebühr hängt von der Transaktion ab.",
+    "featuresDe": [
+      "Karte, Klarna und Lastschrift",
+      "Kasse für Shops",
+      "Gebühr je Transaktion"
+    ],
+    "useCasesDe": [
+      "Mehrere Zahlarten in einen Shop zu hängen",
+      "Auszahlungen an einem Ort zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SumUp",
+    "originalUrl": "https://www.sumup.de/",
+    "domain": "sumup.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "SumUp nimmt Kartenzahlungen mit einem Lesegerät oder per Link entgegen.",
+    "longDescriptionDe": "SumUp berechnet eine Gebühr je Zahlung und zahlt auf ein Konto aus. Der Dienst ist in Deutschland verbreitet. Das Lesegerät ist kostenpflichtig, ein Zahlungslink kommt ohne eigenes Terminal aus.",
+    "featuresDe": [
+      "Kartenleser und Zahlungslink",
+      "Gebühr je Zahlung",
+      "Lesegerät kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Eine Karte auf einem Markt entgegenzunehmen",
+      "Einen Zahlungslink zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Adyen",
+    "originalUrl": "https://www.adyen.com/",
+    "domain": "adyen.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Adyen verarbeitet Zahlungen für größere Händler über eine Plattform.",
+    "longDescriptionDe": "Adyen bündelt Karten und lokale Zahlarten und zahlt an den Händler aus. Der Dienst kommt aus den Niederlanden. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Karten und lokale Zahlarten",
+      "Eine Plattform für Händler",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Zahlungen mehrerer Länder zu bündeln",
+      "Auszahlungen eines Händlers zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wise",
+    "originalUrl": "https://wise.com/",
+    "domain": "wise.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Wise überweist Geld in andere Währungen zum angezeigten Kurs.",
+    "longDescriptionDe": "Wise zeigt den Kurs vor dem Absenden und hält Konten in mehreren Währungen. Es gibt ein Konto ohne Monatsgrundgebühr, Überweisungen kosten eine ausgewiesene Gebühr.",
+    "featuresDe": [
+      "Überweisungen in andere Währungen",
+      "Konten in mehreren Währungen",
+      "Ausgewiesene Gebühr je Überweisung"
+    ],
+    "useCasesDe": [
+      "Geld in eine andere Währung zu senden",
+      "Einen Kontostand in Fremdwährung zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "bunq",
+    "originalUrl": "https://www.bunq.com/",
+    "domain": "bunq.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "bunq führt ein App-Konto mit Unterkonten und mehreren Währungen.",
+    "longDescriptionDe": "bunq legt Unterkonten an und sortiert Ausgaben. Der Dienst kommt aus den Niederlanden. Die Konten sind kostenpflichtig.",
+    "featuresDe": [
+      "Unterkonten und mehrere Währungen",
+      "Ausgaben sortieren",
+      "Kostenpflichtige Konten"
+    ],
+    "useCasesDe": [
+      "Geld auf Unterkonten zu verteilen",
+      "Ausgaben einer Kategorie zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "N26",
+    "originalUrl": "https://www.n26.com/",
+    "domain": "n26.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "N26 führt ein Girokonto in der App.",
+    "longDescriptionDe": "N26 zeigt Umsätze, Karten und Benachrichtigungen. Der Sitz der Bank ist in Berlin. Es gibt ein kostenloses Konto und bezahlte Stufen.",
+    "featuresDe": [
+      "Girokonto in der App",
+      "Karte und Umsätze",
+      "Kostenloses Konto und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Konto ohne Filiale zu führen",
+      "Umsätze in der App zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PayPal",
+    "originalUrl": "https://www.paypal.com/",
+    "domain": "paypal.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "PayPal sendet Geld und nimmt Zahlungen im Shop entgegen.",
+    "longDescriptionDe": "PayPal hält ein Guthaben, zahlt an andere Konten und bietet einen Bezahlbutton. Das Privatkonto ist ohne Monatsgebühr beschrieben, der Empfang von Geschäftszahlungen kann Gebühren haben.",
+    "featuresDe": [
+      "Geld senden und empfangen",
+      "Bezahlbutton für Shops",
+      "Geschäftszahlungen können Gebühren haben"
+    ],
+    "useCasesDe": [
+      "Geld an eine Person zu senden",
+      "Eine Zahlung im Shop über PayPal anzubieten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Billie",
+    "originalUrl": "https://www.billie.io/",
+    "domain": "billie.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Billie bietet Firmenkäufern einen Kauf auf Rechnung.",
+    "longDescriptionDe": "Billie prüft den Firmenkunden und zahlt den Händler aus. Der Dienst kommt aus Berlin. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Kauf auf Rechnung für Firmen",
+      "Auszahlung an den Händler",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Firmenkunden Rechnungskauf anzubieten",
+      "Die Prüfung des Käufers abzugeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mondu",
+    "originalUrl": "https://www.mondu.ai/",
+    "domain": "mondu.ai",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Mondu übernimmt den Rechnungskauf zwischen Händlern.",
+    "longDescriptionDe": "Mondu prüft den Käufer und zahlt den Verkäufer aus. Der Dienst kommt aus Berlin. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Rechnungskauf zwischen Firmen",
+      "Prüfung des Käufers",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Geschäftskunden später zahlen zu lassen",
+      "Das Ausfallrisiko abzugeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Förderdatenbank",
+    "originalUrl": "https://www.foerderdatenbank.de/",
+    "domain": "foerderdatenbank.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Förderdatenbank des Bundes listet Programme für Unternehmen und Gründung.",
+    "longDescriptionDe": "Die Suche filtert Zuschüsse und Kredite nach Thema und Ort. Die Datenbank ist ohne Konto nutzbar. Den Antrag stellt die jeweilige Stelle.",
+    "featuresDe": [
+      "Zuschüsse und Kredite",
+      "Filter nach Thema und Ort",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Förderprogramm zu finden",
+      "Voraussetzungen einer Hilfe zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BAFA",
+    "originalUrl": "https://www.bafa.de/",
+    "domain": "bafa.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Das BAFA veröffentlicht Förderprogramme, unter anderem für Energie und Beratung.",
+    "longDescriptionDe": "Das Bundesamt für Wirtschaft und Ausfuhrkontrolle beschreibt Anträge und Merkblätter. Die Seiten sind ohne Konto lesbar. Eine Förderung selbst ist an den Antrag gebunden.",
+    "featuresDe": [
+      "Programme für Energie und Beratung",
+      "Merkblätter und Anträge",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Förderprogramm des BAFA zu finden",
+      "Ein Merkblatt vor dem Antrag zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bundesagentur für Arbeit",
+    "originalUrl": "https://www.arbeitsagentur.de/",
+    "domain": "arbeitsagentur.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Bundesagentur für Arbeit veröffentlicht Stellen und Leistungen für Arbeitgeber.",
+    "longDescriptionDe": "Die Website zeigt die Jobsuche und Informationen zu Kurzarbeit, Förderung und Meldungen. Ein Teil ist ohne Konto lesbar.",
+    "featuresDe": [
+      "Jobsuche",
+      "Leistungen für Arbeitgeber",
+      "Texte ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Stelle zu suchen",
+      "Eine Meldung als Arbeitgeber nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BaFin",
+    "originalUrl": "https://www.bafin.de/",
+    "domain": "bafin.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "recht"
+    ],
+    "shortDescriptionDe": "Die BaFin beaufsichtigt Banken, Versicherer und den Wertpapierhandel.",
+    "longDescriptionDe": "Die Website veröffentlicht Warnungen, Merkblätter und Unternehmensdatenbanken. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Aufsicht über Banken und Versicherer",
+      "Warnungen und Datenbanken",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Warnung der BaFin zu lesen",
+      "Ein Unternehmen in der Datenbank zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bundesbank",
+    "originalUrl": "https://www.bundesbank.de/",
+    "domain": "bundesbank.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Deutsche Bundesbank veröffentlicht Statistiken, Kurse und Regeln zum Zahlungsverkehr.",
+    "longDescriptionDe": "Die Website stellt Zeitreihen, Wechselkurse und Erklärungen bereit. Die Daten sind ohne Konto abrufbar.",
+    "featuresDe": [
+      "Statistiken und Wechselkurse",
+      "Regeln zum Zahlungsverkehr",
+      "Abruf ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Wechselkurs nachzuschlagen",
+      "Eine Statistik der Bundesbank zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Statistisches Bundesamt",
+    "originalUrl": "https://www.destatis.de/",
+    "domain": "destatis.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Destatis veröffentlicht amtliche Zahlen zu Bevölkerung, Wirtschaft und Preisen.",
+    "longDescriptionDe": "Das Statistische Bundesamt stellt Tabellen und Pressemitteilungen bereit. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Amtliche Zahlen",
+      "Tabellen und Meldungen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Preisstatistik nachzuschlagen",
+      "Eine Bevölkerungszahl zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Stud.IP",
+    "originalUrl": "https://www.studip.de/",
+    "domain": "studip.de",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Stud.IP organisiert Lehrveranstaltungen, Dateien und Termine.",
+    "longDescriptionDe": "Stud.IP führt Veranstaltungen einer Hochschule und lässt Materialien ablegen. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Lehrveranstaltungen und Dateien",
+      "Termine",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Veranstaltung mit Materialien zu führen",
+      "Termine eines Semesters zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenOlat",
+    "originalUrl": "https://www.openolat.org/",
+    "domain": "openolat.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "OpenOlat betreibt Kurse, Tests und Abgaben.",
+    "longDescriptionDe": "OpenOlat legt Lerninhalte an und lässt sich selbst hosten. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Kurse und Tests",
+      "Selbsthosting",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Kurs selbst zu hosten",
+      "Eine Abgabe einzusammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Conceptboard",
+    "originalUrl": "https://www.conceptboard.com/de/",
+    "domain": "conceptboard.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Conceptboard hält Workshops auf einer Online-Tafel, der Anbieter sitzt in Stuttgart.",
+    "longDescriptionDe": "Conceptboard lässt Notizen, Bilder und Kommentare auf einer Fläche zu. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Online-Tafel für Workshops",
+      "Anbieter aus Stuttgart",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Workshop remote zu moderieren",
+      "Ideen auf einer Fläche zu sammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Milanote",
+    "originalUrl": "https://milanote.com/",
+    "domain": "milanote.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet",
+      "design"
+    ],
+    "shortDescriptionDe": "Milanote legt Notizen, Bilder und Aufgaben auf einer Pinnwand ab.",
+    "longDescriptionDe": "Milanote sammelt Material für ein Projekt auf einer Fläche. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Pinnwand für Notizen und Bilder",
+      "Aufgaben auf der Fläche",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Recherche für ein Projekt zu sammeln",
+      "Bilder und Notizen nebeneinander zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Linear",
+    "originalUrl": "https://linear.app/",
+    "domain": "linear.app",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Linear führt Aufgaben und Zyklen für Softwareteams.",
+    "longDescriptionDe": "Linear legt Issues, Projekte und Zyklen an und zeigt, was als Nächstes ansteht. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Issues und Projekte",
+      "Zyklen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Fehler als Issue zu führen",
+      "Die Arbeit eines Zyklus zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Trello",
+    "originalUrl": "https://trello.com/",
+    "domain": "trello.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Trello ordnet Aufgaben als Karten auf Listen.",
+    "longDescriptionDe": "Trello zieht Karten von einer Liste in die nächste und hängt Checklisten an. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Karten auf Listen",
+      "Checklisten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Aufgabe durch Stufen zu ziehen",
+      "Ein kleines Projekt als Board zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Basecamp",
+    "originalUrl": "https://basecamp.com/",
+    "domain": "basecamp.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Basecamp bündelt Nachrichten, Aufgaben und Dateien eines Projekts.",
+    "longDescriptionDe": "Basecamp legt pro Projekt eine Pinnwand, eine Aufgabenliste und einen Chat an. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Nachrichten, Aufgaben und Dateien",
+      "Ein Raum je Projekt",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Projekt mit dem Kunden zu führen",
+      "Aufgaben neben dem Chat zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ClickUp",
+    "originalUrl": "https://www.clickup.com/",
+    "domain": "clickup.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "ClickUp führt Aufgaben als Liste, Board oder Zeitstrahl.",
+    "longDescriptionDe": "ClickUp legt Aufgaben mit Status, Datum und Unterpunkten an. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Liste, Board und Zeitstrahl",
+      "Status und Unterpunkte",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Aufgaben eines Teams in einer Ansicht zu sehen",
+      "Dieselbe Arbeit als Board oder Liste zu schalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Asana",
+    "originalUrl": "https://www.asana.com/",
+    "domain": "asana.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Asana verteilt Aufgaben in Projekte und zeigt, wer woran arbeitet.",
+    "longDescriptionDe": "Asana legt Aufgaben mit Datum und Zuständigkeit an. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Aufgaben mit Zuständigkeit",
+      "Projekte und Datum",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Arbeit in einem Team zu verteilen",
+      "Zu sehen, was diese Woche fällig ist"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Jira",
+    "originalUrl": "https://www.atlassian.com/software/jira",
+    "domain": "atlassian.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Jira führt Vorgänge, Boards und Releases für Softwareteams.",
+    "longDescriptionDe": "Jira legt Issues an und zeigt sie auf einem Board. Es gibt einen kostenlosen Einstieg für kleine Teams und bezahlte Stufen.",
+    "featuresDe": [
+      "Issues und Boards",
+      "Releases",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Fehler bis zur Behebung zu führen",
+      "Die Arbeit eines Sprints zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Slack",
+    "originalUrl": "https://www.slack.com/",
+    "domain": "slack.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Slack legt Kanäle und Direktnachrichten für ein Team an.",
+    "longDescriptionDe": "Slack sortiert Gespräche nach Kanal und durchsucht den Verlauf. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kanäle und Direktnachrichten",
+      "Durchsuchbarer Verlauf",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Team nach Themen zu sortieren",
+      "Eine Entscheidung im Verlauf nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mattermost",
+    "originalUrl": "https://www.mattermost.com/",
+    "domain": "mattermost.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Mattermost legt Team-Chat in Kanälen an und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Mattermost führt Kanäle und Direktnachrichten auf dem eigenen Server oder in der Cloud. Eine OSI-Kennung der aktuellen Ausgabe wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Kanäle und Direktnachrichten",
+      "Selbstbetrieb und Cloud",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Einen Team-Chat selbst zu hosten",
+      "Kanäle nach Thema zu trennen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Rocket.Chat",
+    "originalUrl": "https://www.rocket.chat/",
+    "domain": "rocket.chat",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet",
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Rocket.Chat führt Team-Nachrichten und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Rocket.Chat legt Kanäle an und kann Gespräche mit außen anbinden. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Cloud und den Selbstbetrieb.",
+    "featuresDe": [
+      "Kanäle und äußere Gespräche",
+      "Cloud und Selbstbetrieb",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Einen Chat selbst zu hosten",
+      "Kundengespräche in einem Kanal zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Pumble",
+    "originalUrl": "https://pumble.com/",
+    "domain": "pumble.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Pumble legt Kanäle und Direktnachrichten für kleine Teams an.",
+    "longDescriptionDe": "Pumble sortiert den Chat nach Kanal. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kanäle und Direktnachrichten",
+      "Verlauf",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Team-Chat ohne großes Abo zu starten",
+      "Nachrichten nach Kanal zu trennen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Twist",
+    "originalUrl": "https://www.twist.com/",
+    "domain": "twist.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Twist legt Gespräche als Threads ab statt als endlosen Chat.",
+    "longDescriptionDe": "Twist sortiert Nachrichten nach Thema und lässt sie asynchron liegen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Threads nach Thema",
+      "Asynchrone Nachrichten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Entscheidung in einem Thread festzuhalten",
+      "Nachrichten ohne Live-Druck zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Session",
+    "originalUrl": "https://www.session.im/",
+    "domain": "session.im",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "Session verschickt Nachrichten ohne Telefonnummer als Konto.",
+    "longDescriptionDe": "Session nutzt eine Kennung statt einer Rufnummer. Eine OSI-Kennung wird hier nicht eingetragen. Die App ist ohne Abo erhältlich.",
+    "featuresDe": [
+      "Nachrichten ohne Telefonnummer",
+      "Kennung statt Rufnummer",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Chat ohne Telefonnummer zu starten",
+      "Eine Nachricht über Session zu senden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Briar",
+    "originalUrl": "https://briarproject.org/",
+    "domain": "briarproject.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "Briar tauscht Nachrichten direkt zwischen Geräten, auch über Bluetooth.",
+    "longDescriptionDe": "Briar verbindet Kontakte ohne einen zentralen Server. Eine OSI-Kennung wird hier nicht eingetragen. Die App ist ohne Abo erhältlich.",
+    "featuresDe": [
+      "Nachrichten ohne zentralen Server",
+      "Auch über Bluetooth",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Nachricht ohne zentralen Dienst zu senden",
+      "Kontakte direkt zu verbinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "XMPP",
+    "originalUrl": "https://xmpp.org/",
+    "domain": "xmpp.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "XMPP ist ein offener Standard für Chat zwischen Servern.",
+    "longDescriptionDe": "Die Website erklärt das Protokoll und verweist auf Clients und Server. Eine OSI-Kennung des Standards wird hier nicht als Produktlizenz eingetragen. Die Spezifikation ist ohne Abo lesbar.",
+    "featuresDe": [
+      "Offener Chat-Standard",
+      "Clients und Server",
+      "Spezifikation ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen eigenen Chat-Server zu wählen",
+      "Zu verstehen, wie Clients sich verbinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Gajim",
+    "originalUrl": "https://gajim.org/",
+    "domain": "gajim.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "Gajim ist ein Desktop-Client für XMPP.",
+    "longDescriptionDe": "Gajim verbindet sich mit einem XMPP-Server und führt Chats und Gruppen. Eine OSI-Kennung wird hier nicht eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Desktop-Client für XMPP",
+      "Chats und Gruppen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen XMPP-Account auf dem Desktop zu nutzen",
+      "Eine Gruppe im Client zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Dino",
+    "originalUrl": "https://dino.im/",
+    "domain": "dino.im",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "Dino ist ein schlanker XMPP-Client für den Desktop.",
+    "longDescriptionDe": "Dino zeigt Gespräche und unterstützt verschlüsselte Chats, wenn der Server es zulässt. Eine OSI-Kennung wird hier nicht eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Schlanker Desktop-Client",
+      "Verschlüsselte Chats",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen XMPP-Chat auf dem Desktop zu führen",
+      "Eine Unterhaltung verschlüsselt zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Conversations",
+    "originalUrl": "https://conversations.im/",
+    "domain": "conversations.im",
+    "pricingModel": "paid",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "Conversations ist ein XMPP-Client für Android.",
+    "longDescriptionDe": "Conversations führt Chats und Gruppen über einen XMPP-Server. Die App im Play Store ist kostenpflichtig. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "XMPP auf Android",
+      "Chats und Gruppen",
+      "Kostenpflichtige App"
+    ],
+    "useCasesDe": [
+      "Einen XMPP-Chat auf dem Handy zu führen",
+      "Eine Gruppe über den eigenen Server zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Roundcube",
+    "originalUrl": "https://roundcube.net/",
+    "domain": "roundcube.net",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Roundcube liest E-Mail im Browser auf dem eigenen Server.",
+    "longDescriptionDe": "Roundcube zeigt Postfach, Kontakte und Ordner über IMAP. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Webmail über IMAP",
+      "Kontakte und Ordner",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Webmail auf dem eigenen Server zu betreiben",
+      "Mehrere Ordner im Browser zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SnappyMail",
+    "originalUrl": "https://snappymail.eu/",
+    "domain": "snappymail.eu",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "SnappyMail ist eine schlanke Webmail für den eigenen Server.",
+    "longDescriptionDe": "SnappyMail zeigt das Postfach im Browser und spricht IMAP. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Schlanke Webmail",
+      "IMAP",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Postfach im Browser selbst zu hosten",
+      "Mail ohne großen Webmail-Client zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Betterbird",
+    "originalUrl": "https://www.betterbird.eu/",
+    "domain": "betterbird.eu",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Betterbird ist ein Thunderbird-Build mit zusätzlichen Korrekturen.",
+    "longDescriptionDe": "Betterbird liest Mail und Kalender und übernimmt das Profil von Thunderbird. Eine OSI-Kennung wird hier nicht getrennt eingetragen. Die Anwendung ist ohne Abo erhältlich.",
+    "featuresDe": [
+      "Mail und Kalender",
+      "Profil von Thunderbird",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Mail-Client mit den Thunderbird-Daten zu nutzen",
+      "Kalender neben dem Posteingang zu führen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fastmail",
+    "originalUrl": "https://www.fastmail.com/",
+    "domain": "fastmail.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Fastmail führt E-Mail, Kalender und Kontakte.",
+    "longDescriptionDe": "Fastmail stellt Postfächer mit eigener Domain und Filterregeln bereit. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Mail, Kalender und Kontakte",
+      "Eigene Domain und Filter",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Mail unter der eigenen Domain zu führen",
+      "Filterregeln für den Posteingang zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HEY",
+    "originalUrl": "https://www.hey.com/",
+    "domain": "hey.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "HEY sortiert eingehende Mail in Imbox, Feed und Paper Trail.",
+    "longDescriptionDe": "HEY verlangt, dass Absender einmal freigegeben werden, und legt den Rest beiseite. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Freigabe neuer Absender",
+      "Getrennte Fächer",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Den Posteingang auf freigegebene Absender zu begrenzen",
+      "Newsletter von echter Mail zu trennen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Superhuman",
+    "originalUrl": "https://www.superhuman.com/",
+    "domain": "superhuman.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Superhuman beschleunigt das Abarbeiten des Posteingangs mit Tasten.",
+    "longDescriptionDe": "Superhuman zeigt Mail in einer auf Geschwindigkeit ausgelegten Oberfläche. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Posteingang über Tasten",
+      "Schnelle Oberfläche",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen vollen Posteingang zügig zu leeren",
+      "Mail ohne Maus zu sortieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Spark",
+    "originalUrl": "https://sparkmailapp.com/",
+    "domain": "sparkmailapp.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Spark bündelt mehrere Postfächer und schlägt kurze Antworten vor.",
+    "longDescriptionDe": "Spark zeigt Konten nebeneinander und kann eine Antwort als Entwurf setzen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Mehrere Postfächer",
+      "Kurze Antwortentwürfe",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Mehrere Konten in einer App zu lesen",
+      "Eine kurze Antwort vorbereiten zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mailspring",
+    "originalUrl": "https://www.getmailspring.com/",
+    "domain": "getmailspring.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Mailspring liest mehrere IMAP-Konten auf dem Desktop.",
+    "longDescriptionDe": "Mailspring zeigt Postfächer nebeneinander und setzt Signaturen und Vorlagen. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine kostenlose Fassung und bezahlte Funktionen.",
+    "featuresDe": [
+      "Mehrere IMAP-Konten",
+      "Signaturen und Vorlagen",
+      "Kostenlose Fassung und bezahlte Funktionen"
+    ],
+    "useCasesDe": [
+      "Mehrere Konten auf dem Desktop zu lesen",
+      "Eine Signatur an eine Mail zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "grommunio",
+    "originalUrl": "https://www.grommunio.com/",
+    "domain": "grommunio.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "grommunio betreibt Groupware mit Mail und Kalender auf dem eigenen Server.",
+    "longDescriptionDe": "grommunio stellt Postfach, Kontakte und Kalender bereit und spricht gängige Clients. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Community-Ausgabe und bezahlte Angebote.",
+    "featuresDe": [
+      "Mail und Kalender auf dem eigenen Server",
+      "Clients",
+      "Community-Ausgabe und bezahlte Angebote"
+    ],
+    "useCasesDe": [
+      "Groupware selbst zu betreiben",
+      "Kalender und Mail für ein Team zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Stalwart",
+    "originalUrl": "https://stalw.art/",
+    "domain": "stalw.art",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Stalwart ist ein Mailserver für den eigenen Betrieb.",
+    "longDescriptionDe": "Stalwart nimmt und sendet Mail und spricht moderne Protokolle. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Mailserver zum Selbstbetrieb",
+      "Moderne Protokolle",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Mailserver selbst zu betreiben",
+      "Postfächer auf der eigenen Domain zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Disroot",
+    "originalUrl": "https://disroot.org/",
+    "domain": "disroot.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Disroot stellt Mail, Cloud und weitere Dienste ohne Werbekonto bereit.",
+    "longDescriptionDe": "Disroot bietet ein Postfach und angegliederte Werkzeuge, getragen von einer Gemeinschaft. Eine OSI-Kennung der Plattform wird hier nicht eingetragen. Die Nutzung ist ohne Abo beschrieben.",
+    "featuresDe": [
+      "Mail und Cloud",
+      "Gemeinschaft getragen",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Ein Postfach ohne Werbenetz zu nutzen",
+      "Dateien neben der Mail abzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "systemli",
+    "originalUrl": "https://systemli.org/",
+    "domain": "systemli.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "systemli betreibt Mail und Dienste für politisch Aktive.",
+    "longDescriptionDe": "systemli stellt Postfächer und weitere Werkzeuge nach eigenen Aufnahmebedingungen bereit. Eine OSI-Kennung wird hier nicht eingetragen. Ein Preisabo nennt die Seite nicht.",
+    "featuresDe": [
+      "Mail für politisch Aktive",
+      "Weitere Werkzeuge",
+      "Kein Preisabo auf der Seite"
+    ],
+    "useCasesDe": [
+      "Ein Postfach bei einem unabhängigen Anbieter zu nutzen",
+      "Die Aufnahmebedingungen zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Riseup",
+    "originalUrl": "https://riseup.net/",
+    "domain": "riseup.net",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Riseup stellt Mail und weitere Dienste für aktivistische Gruppen bereit.",
+    "longDescriptionDe": "Riseup vergibt Postfächer nach eigenen Kriterien. Eine OSI-Kennung wird hier nicht eingetragen. Ein Preisabo nennt die Seite nicht.",
+    "featuresDe": [
+      "Mail für Gruppen",
+      "Vergabe nach eigenen Kriterien",
+      "Kein Preisabo auf der Seite"
+    ],
+    "useCasesDe": [
+      "Ein Postfach bei einem aktivistischen Anbieter zu beantragen",
+      "Die angebotenen Dienste zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GMX",
+    "originalUrl": "https://www.gmx.net/",
+    "domain": "gmx.net",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "GMX stellt E-Mail und Cloud-Speicher bereit.",
+    "longDescriptionDe": "GMX führt ein Postfach mit eigener Adresse und zusätzlichem Speicher in bezahlten Stufen. Der Dienst ist in Deutschland verbreitet. Es gibt einen kostenlosen Einstieg.",
+    "featuresDe": [
+      "E-Mail und Cloud-Speicher",
+      "Verbreitung in Deutschland",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein kostenloses Postfach zu nutzen",
+      "Mehr Speicher dazuzubuchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "WEB.DE",
+    "originalUrl": "https://www.web.de/",
+    "domain": "web.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "WEB.DE stellt E-Mail und Cloud-Speicher bereit.",
+    "longDescriptionDe": "WEB.DE führt ein Postfach und bietet mehr Speicher in bezahlten Stufen. Der Dienst ist in Deutschland verbreitet. Es gibt einen kostenlosen Einstieg.",
+    "featuresDe": [
+      "E-Mail und Cloud",
+      "Verbreitung in Deutschland",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Postfach mit deutscher Adresse zu nutzen",
+      "Mail im Browser zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "T-Online",
+    "originalUrl": "https://www.t-online.de/",
+    "domain": "t-online.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "t-online veröffentlicht Nachrichten und bietet ein E-Mail-Postfach.",
+    "longDescriptionDe": "Das Portal zeigt Meldungen aus Deutschland und verlinkt auf Mail. Die Nachrichten sind ohne Abo lesbar.",
+    "featuresDe": [
+      "Nachrichten aus Deutschland",
+      "Verweis auf Mail",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Meldung des Tages zu lesen",
+      "Zum Postfach zu wechseln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "freenet",
+    "originalUrl": "https://www.freenet.de/",
+    "domain": "freenet.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "freenet bietet Mail und Mobilfunk aus einer Hand.",
+    "longDescriptionDe": "freenet führt ein Postfach und Mobilfunkverträge. Mail hat einen kostenlosen Einstieg, Mobilfunk ist kostenpflichtig.",
+    "featuresDe": [
+      "Mail und Mobilfunk",
+      "Kostenloser Mail-Einstieg",
+      "Mobilfunk kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Ein Postfach bei freenet zu nutzen",
+      "Einen Mobilfunkvertrag zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]

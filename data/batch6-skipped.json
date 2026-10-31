@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Korrekturen.de",
+    "reason": "korrekturen.de antwortete mit HTTP 403."
+  },
+  {
+    "name": "Moodle",
+    "reason": "moodle.org antwortete mit HTTP 403."
+  },
+  {
+    "name": "Quizlet",
+    "reason": "quizlet.com antwortete mit HTTP 403."
+  },
+  {
+    "name": "Lucid",
+    "reason": "lucid.co antwortete mit HTTP 403."
+  },
+  {
+    "name": "Padlet",
+    "reason": "padlet.com antwortete mit HTTP 403."
+  },
+  {
+    "name": "Zeno.org",
+    "reason": "zeno.org hat beim erneuten Abruf die TLS-Verbindung nicht abgeschlossen."
+  },
+  {
+    "name": "ILIAS",
+    "reason": "ilias.de ist bereits im Verzeichnis."
+  },
+  {
+    "name": "H5P",
+    "reason": "h5p.org ist bereits im Verzeichnis."
+  },
+  {
+    "name": "Miro",
+    "reason": "miro.com ist bereits im Verzeichnis."
+  },
+  {
+    "name": "Excalidraw",
+    "reason": "excalidraw.com ist bereits im Verzeichnis."
+  },
+  {
+    "name": "tldraw",
+    "reason": "tldraw.com ist bereits im Verzeichnis."
+  },
+  {
+    "name": "Whimsical",
+    "reason": "whimsical.com ist bereits im Verzeichnis."
+  },
+  {
+    "name": "Zulip",
+    "reason": "zulip.com ist bereits im Verzeichnis."
+  },
+  {
+    "name": "Element",
+    "reason": "element.io ist bereits im Verzeichnis."
+  },
+  {
+    "name": "komoot",
+    "reason": "Kurzname kollidiert mit dem bereits veröffentlichten Komoot (komoot.com). komoot.de wurde nicht als zweiter Eintrag gespeichert."
+  },
+  {
+    "name": "YNAB",
+    "reason": "Kurzname kollidiert mit dem bestehenden Eintrag auf youneedabudget.com."
+  },
+  {
+    "name": "Anki",
+    "reason": "Kurzname kollidiert mit dem bestehenden Open-Source-Eintrag auf apps.ankiweb.net."
+  },
+  {
+    "name": "diagrams.net",
+    "reason": "Kurzname kollidiert mit dem bestehenden Open-Source-Eintrag auf app.diagrams.net."
+  }
+]
