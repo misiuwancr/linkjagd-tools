@@ -8,8 +8,10 @@ import { getDb } from "@/db/client";
 import { verifyPassword } from "@/lib/auth/password";
 import { sessionCookieOptions } from "@/lib/auth/session";
 import { safeAdminNext, SESSION_COOKIE, signSession } from "@/lib/auth/token";
+import { sessionSecretStatus } from "@/db/resolve";
 
 export async function login(formData: FormData) {
+  if (sessionSecretStatus() !== "ok") redirect("/admin/login?fehler=config");
   const email = String(formData.get("email") || "").trim().toLowerCase();
   const password = String(formData.get("password") || "");
   const database = await getDb();

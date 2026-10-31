@@ -82,7 +82,7 @@ Keine Secrets ins Repository legen.
 
 ## Deployment
 
-`npm run build` migriert, seedet fehlende Basisdaten und baut. `npm start` bedient Port 4327. Die SQLite-Datei muss auf einem beschreibbaren Volume liegen, sonst sind Admin-Änderungen nach einem Neustart weg. Für mehrere Instanzen braucht es später eine gemeinsame libSQL- oder Postgres-Datenbank; die Abfragen sind in `lib/tools` gebündelt.
+Lokal bleibt SQLite. Für Vercel und Turso steht die Anleitung in [`DEPLOY.md`](DEPLOY.md). `npm run build` migriert die gerade gewählte Datenbank, seedet nur fehlende Basisdaten und baut. Ohne `TURSO_DATABASE_URL` ist das die Datei aus `DATABASE_URL`. Auf Vercel ohne Turso-Variablen bricht der Start ab.
 
 Öffentliche Seiten nutzen ISR mit 60 Sekunden. `/go` ist dynamisch und nicht cachebar. `sitemap.xml` und `robots.txt` werden erzeugt. `/admin`, `/api` und `/go` sind von der Indexierung ausgenommen.
 

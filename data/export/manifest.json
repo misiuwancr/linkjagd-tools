@@ -1,0 +1,19 @@
+{
+  "exportedAt": "2026-10-31T21:04:43.651Z",
+  "source": "local-sqlite",
+  "counts": {
+    "users": 1,
+    "categories": 27,
+    "tags": 9,
+    "tools": 1626,
+    "tool_categories": 2037,
+    "tool_tags": 1627,
+    "affiliate_programs": 1687,
+    "click_daily": 1,
+    "news_posts": 0
+  },
+  "omitted": [
+    "users.password_hash"
+  ],
+  "note": "Keine Zugangsdaten. Alternativen, Aufgabenseiten und Kategorietexte liegen im Code, nicht in diesen Dateien."
+}

@@ -1,0 +1,245 @@
+[
+  {
+    "id": "ki-chatbots",
+    "name": "KI-Chatbots",
+    "slug": "ki-chatbots",
+    "description": "Dialogsysteme für Fragen, Texte und Alltagsaufgaben.",
+    "sort_order": 1,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "bildgenerierung",
+    "name": "Bildgenerierung",
+    "slug": "bildgenerierung",
+    "description": "Werkzeuge, die aus Beschreibungen Bilder erzeugen.",
+    "sort_order": 2,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "videogenerierung",
+    "name": "Videogenerierung",
+    "slug": "videogenerierung",
+    "description": "Werkzeuge für Clips, Szenen und bewegte Bilder.",
+    "sort_order": 3,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "programmierung",
+    "name": "Programmierung",
+    "slug": "programmierung",
+    "description": "Hilfe beim Schreiben, Erklären und Prüfen von Code.",
+    "sort_order": 4,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "produktivitaet",
+    "name": "Produktivität",
+    "slug": "produktivitaet",
+    "description": "Planen, Schreiben und Aufräumen im Arbeitsalltag.",
+    "sort_order": 5,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "automatisierung",
+    "name": "Automatisierung",
+    "slug": "automatisierung",
+    "description": "Abläufe, die wiederkehrende Schritte abnehmen.",
+    "sort_order": 6,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "slug": "marketing",
+    "description": "Texte, Kampagnen und Auswertung für Angebote.",
+    "sort_order": 7,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "social-media",
+    "name": "Social Media",
+    "slug": "social-media",
+    "description": "Beiträge, Formate und Planung für soziale Netzwerke.",
+    "sort_order": 8,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "recherche",
+    "name": "Recherche",
+    "slug": "recherche",
+    "description": "Quellen finden, lesen und gegenüberstellen.",
+    "sort_order": 9,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "textgenerierung",
+    "name": "Textgenerierung",
+    "slug": "textgenerierung",
+    "description": "Entwürfe, Umschreibungen und längere Texte.",
+    "sort_order": 10,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "audio-und-sprache",
+    "name": "Audio und Sprache",
+    "slug": "audio-und-sprache",
+    "description": "Sprache, Stimmen und Ton.",
+    "sort_order": 11,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "slug": "design",
+    "description": "Layout, Varianten und visuelle Entwürfe.",
+    "sort_order": 12,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "bildung",
+    "name": "Bildung",
+    "slug": "bildung",
+    "description": "Erklären, Üben und Lernwege.",
+    "sort_order": 13,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "e-commerce",
+    "name": "E-Commerce",
+    "slug": "e-commerce",
+    "description": "Produktdaten, Listings und Shop-Texte.",
+    "sort_order": 14,
+    "created_at": 1793446944,
+    "updated_at": 1793446944
+  },
+  {
+    "id": "finanzen",
+    "name": "Finanzen",
+    "slug": "finanzen",
+    "description": "Haushalt, Rechnungen und Buchhaltung.",
+    "sort_order": 15,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "gesundheit",
+    "name": "Gesundheit",
+    "slug": "gesundheit",
+    "description": "Training, Ernährung und Wohlbefinden.",
+    "sort_order": 16,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "reisen",
+    "name": "Reisen",
+    "slug": "reisen",
+    "description": "Wege, Unterkünfte und Reisepläne.",
+    "sort_order": 17,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "recht",
+    "name": "Recht",
+    "slug": "recht",
+    "description": "Verträge, Signaturen und rechtliche Texte.",
+    "sort_order": 18,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "personal",
+    "name": "Personal",
+    "slug": "personal",
+    "description": "Bewerbungen, Personal und Schichtplanung.",
+    "sort_order": 19,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "kundenservice",
+    "name": "Kundenservice",
+    "slug": "kundenservice",
+    "description": "Tickets, Chat und Hilfe für Kunden.",
+    "sort_order": 20,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "seo",
+    "name": "SEO",
+    "slug": "seo",
+    "description": "Sichtbarkeit in der Suche und Seitenprüfung.",
+    "sort_order": 21,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "daten",
+    "name": "Daten",
+    "slug": "daten",
+    "description": "Tabellen, Abfragen und Auswertungen.",
+    "sort_order": 22,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "praesentationen",
+    "name": "Präsentationen",
+    "slug": "praesentationen",
+    "description": "Folien und Vorträge.",
+    "sort_order": 23,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "musik",
+    "name": "Musik",
+    "slug": "musik",
+    "description": "Komposition, Noten und Musikproduktion.",
+    "sort_order": 24,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "dreid",
+    "name": "3D",
+    "slug": "dreid",
+    "description": "Modelle, Räume und Druckvorlagen.",
+    "sort_order": 25,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming",
+    "slug": "gaming",
+    "description": "Spiele, Engines und spielbare Geschichten.",
+    "sort_order": 26,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  },
+  {
+    "id": "videoschnitt",
+    "name": "Videoschnitt",
+    "slug": "videoschnitt",
+    "description": "Schneiden, Untertitel und Schnitt am eigenen Material.",
+    "sort_order": 27,
+    "created_at": 1793462952,
+    "updated_at": 1793462952
+  }
+]

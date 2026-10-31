@@ -1,0 +1,47 @@
+[
+  {
+    "id": "3d552208-d08e-4527-8b1f-4586d7967234",
+    "name": "Beispiel",
+    "slug": "beispiel"
+  },
+  {
+    "id": "c14ff716-91e9-4ed5-8758-35e6b0a477cf",
+    "name": "Chat",
+    "slug": "chat"
+  },
+  {
+    "id": "40f35cea-548b-4730-b770-12c114d75a35",
+    "name": "Bild",
+    "slug": "bild"
+  },
+  {
+    "id": "3a6ed418-7546-400e-bbca-7f4c78ccfc41",
+    "name": "Video",
+    "slug": "video"
+  },
+  {
+    "id": "d940a9ad-86aa-4a6d-9ca8-2b5f7b47f6fb",
+    "name": "Code",
+    "slug": "code"
+  },
+  {
+    "id": "d3b32b45-4fb7-4909-b71a-2d212205ac31",
+    "name": "Text",
+    "slug": "text"
+  },
+  {
+    "id": "13e35c39-486a-45e0-9054-5fddf4030fe6",
+    "name": "Top-100",
+    "slug": "top-100"
+  },
+  {
+    "id": "fd464bc7-8a13-47b7-b824-3b79c398eef3",
+    "name": "Geprüft",
+    "slug": "geprueft"
+  },
+  {
+    "id": "de5fd617-7b5b-4ab7-bafd-42ba9cd87070",
+    "name": "Open Source",
+    "slug": "open-source"
+  }
+]

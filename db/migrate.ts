@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { createClient, type Client } from "@libsql/client";
+import { resolveAppDatabase } from "./resolve";
 
 function statements(sql: string) {
   return sql
@@ -39,17 +40,14 @@ export async function applyMigrations(client: Client) {
 }
 
 async function main() {
-  const url = process.env.DATABASE_URL;
-  if (!url) {
-    throw new Error("DATABASE_URL fehlt. Siehe .env.example.");
-  }
-  if (url.startsWith("file:")) {
-    const filePath = url.slice("file:".length).replace(/^\/\//, "");
+  const target = resolveAppDatabase();
+  if (target.kind === "file") {
+    const filePath = target.url.slice("file:".length).replace(/^\/\//, "");
     fs.mkdirSync(path.dirname(path.resolve(filePath)), { recursive: true });
   }
-  const client = createClient({ url });
+  const client = createClient({ url: target.url, authToken: target.authToken });
   await applyMigrations(client);
-  console.log("Migrationen angewendet.");
+  console.log(target.kind === "turso" ? "Migrationen auf Turso angewendet." : "Migrationen angewendet.");
 }
 
 if (process.argv[1] && process.argv[1].includes("migrate.ts")) {
