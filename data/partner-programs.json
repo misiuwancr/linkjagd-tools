@@ -26,5 +26,9 @@
   {"slug": "grammarly", "network": "direct", "programInfoUrl": "https://www.grammarly.com/affiliates"},
   {"slug": "jasper", "network": "direct", "programInfoUrl": "https://www.jasper.ai/legal/affiliates"},
   {"slug": "notion", "network": "direct", "programInfoUrl": "https://www.notion.com/affiliates"},
-  {"slug": "shopify", "network": "direct", "programInfoUrl": "https://www.shopify.com/affiliates"}
+  {"slug": "shopify", "network": "direct", "programInfoUrl": "https://www.shopify.com/affiliates"},
+  {"slug": "calendly", "network": "direct", "programInfoUrl": "https://calendly.com/affiliates"},
+  {"slug": "hubspot", "network": "direct", "programInfoUrl": "https://www.hubspot.com/partners/affiliates"},
+  {"slug": "clickup", "network": "direct", "programInfoUrl": "https://clickup.com/partners/affiliates"},
+  {"slug": "webflow", "network": "direct", "programInfoUrl": "https://webflow.com/solutions/affiliates"}
 ]

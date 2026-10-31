@@ -1,0 +1,16 @@
+[
+  {"name": "Bab.la", "reason": "de.bab.la antwortete mit HTTP 403."},
+  {"name": "WordReference", "reason": "wordreference.com antwortete mit HTTP 418."},
+  {"name": "Geizhals", "reason": "geizhals.de antwortete mit HTTP 403."},
+  {"name": "mobile.de", "reason": "mobile.de antwortete mit HTTP 403."},
+  {"name": "Vinted", "reason": "vinted.de antwortete mit HTTP 403."},
+  {"name": "Thalia", "reason": "thalia.de antwortete mit HTTP 403."},
+  {"name": "Asterisk", "reason": "asterisk.org antwortete mit HTTP 403."},
+  {"name": "Greenhouse", "reason": "Der Kurzname ist bereits vergeben."},
+  {"name": "BambooHR", "reason": "bamboohr.com ist bereits im Verzeichnis."},
+  {"name": "Kayak", "reason": "Der Kurzname ist bereits vergeben."},
+  {"name": "Booking.com", "reason": "booking.com ist bereits im Verzeichnis."},
+  {"name": "Crisp", "reason": "crisp.chat ist bereits im Verzeichnis."},
+  {"name": "PeerTube", "reason": "joinpeertube.org ist bereits im Verzeichnis."},
+  {"name": "Stripe Partnerseite", "reason": "stripe.com/partners antwortete, der Seitentitel ließ sich nicht als Affiliate-Programm bestätigen und wurde nicht gespeichert."}
+]
