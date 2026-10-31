@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#10B981"/>
+  <!-- Document body (filled shape) -->
+  <path d="M9 6C7.34315 6 6 7.34315 6 9V23C6 24.6569 7.34315 26 9 26H21C22.6569 26 24 24.6569 24 23V12L18 6H9Z" fill="white"/>
+  <!-- Folded corner -->
+  <path d="M18 6V10C18 11.1046 18.8954 12 20 12H24L18 6Z" fill="#059669"/>
+  <!-- Text lines -->
+  <rect x="9" y="15" width="10" height="2" rx="1" fill="#10B981"/>
+  <rect x="9" y="19" width="7" height="2" rx="1" fill="#10B981"/>
+</svg>

@@ -196,10 +196,16 @@ export async function replaceTags(database: AppDatabase, toolId: string, names: 
   for (const name of unique) {
     const slug = slugify(name);
     if (!slug) continue;
-    const existing = await database.select().from(tags).where(eq(tags.slug, slug)).limit(1);
-    const tagId = existing[0]?.id ?? crypto.randomUUID();
+    let existing = await database.select().from(tags).where(eq(tags.slug, slug)).limit(1);
+    let tagId = existing[0]?.id ?? crypto.randomUUID();
     if (!existing[0]) {
-      await database.insert(tags).values({ id: tagId, name, slug });
+      try {
+        await database.insert(tags).values({ id: tagId, name, slug });
+      } catch {
+        existing = await database.select().from(tags).where(eq(tags.slug, slug)).limit(1);
+        if (!existing[0]) throw new Error(`Schlagwort ${slug} konnte nicht gespeichert werden.`);
+        tagId = existing[0].id;
+      }
     }
     await database.insert(toolTags).values({ toolId, tagId });
   }
@@ -268,7 +274,7 @@ export async function dashboardCounts(database: AppDatabase) {
       .select()
       .from(tools)
       .where(
-        and(eq(tools.publishStatus, "draft"), inArray(tools.discoverySource, ["import", "submission"])),
+        and(eq(tools.publishStatus, "draft"), inArray(tools.discoverySource, ["import", "submission", "futuretools-top100"])),
       ),
   ]);
   const published = toolRows.filter((tool) => tool.publishStatus === "published");

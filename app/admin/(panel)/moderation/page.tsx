@@ -12,18 +12,18 @@ export default async function ModerationPage() {
     pricing: "",
     sort: "newest",
     page: 1,
-    pageSize: 100,
+    pageSize: 200,
     status: "draft",
     featuredOnly: false,
     rankedOnly: false,
-    discoverySources: ["import", "submission"],
+    discoverySources: ["import", "submission", "futuretools-top100"],
   };
   const result = await listTools(await getDb(), query);
   return (
     <div>
       <h1 className="text-3xl font-bold tracking-tight">Moderation</h1>
       <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-        Entwürfe, die über die Importschnittstelle oder das Formular „Tool einreichen“ ankamen. Nichts davon ist öffentlich, bis du es veröffentlichst.
+        Entwürfe aus Import, Einreichung und der FutureTools-Beliebtheitsliste. Nichts davon ist öffentlich, bis du es veröffentlichst.
       </p>
       {result.items.length === 0 ? (
         <p className="mt-8 rounded-2xl border border-dashed border-border bg-card p-6 text-sm">Keine offenen Fundstücke.</p>
