@@ -25,7 +25,7 @@ function host() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const database = await getDb();
   const tool = await getToolBySlug(database, params.slug);
-  if (!tool || tool.publishStatus !== "published") return { title: "Tool nicht gefunden" };
+  if (!tool || tool.publishStatus !== "published" || tool.isExample) return { title: "Tool nicht gefunden" };
   const publicTool = toPublicTool(tool, host());
   return {
     title: publicTool.name,
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function ToolDetailPage({ params }: { params: { slug: string } }) {
   const database = await getDb();
   const record = await getToolBySlug(database, params.slug);
-  if (!record || record.publishStatus !== "published") notFound();
+  if (!record || record.publishStatus !== "published" || record.isExample) notFound();
   const siteHost = host();
   const tool = toPublicTool(record, siteHost);
   const similar = (await listSimilar(database, record)).map((item) => toPublicTool(item, siteHost));

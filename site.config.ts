@@ -17,7 +17,7 @@ export const siteConfig = {
   },
   nav: [
     { href: "/tools", label: "Alle Tools" },
-    { href: "/top-20", label: "Top 20 Tools" },
+    { href: "/tools?sort=alphabetisch", label: "Alphabetisch" },
     { href: "/neu", label: "Neu hinzugefügt" },
     { href: "/kategorien", label: "Kategorien" },
     { href: "/blog", label: "Blog / KI-News" },
@@ -33,7 +33,7 @@ export const siteConfig = {
   seo: {
     title: "Linkjagd Tools – KI-Tools entdecken",
     description:
-      "Deutschsprachiges Verzeichnis für KI-Tools: Suche, Kategorien und redaktionelle Empfehlungen von Linkjagd.",
+      "Deutschsprachiges Verzeichnis für KI-Tools: Suche, Kategorien und Werkzeuge von Linkjagd.",
   },
   legal: {
     impressum: {
@@ -114,15 +114,15 @@ export const siteConfig = {
         {
           heading: "Wie Links funktionieren",
           body: [
-            "Auf einer öffentlichen Tool-Seite gibt es höchstens einen ausgehenden Werkzeug-Link. Er führt über /go/[slug] und nur dann, wenn in der Redaktion ein gültiger, aktiver Partnerlink hinterlegt ist.",
-            "Der Link ist mit rel=\"sponsored nofollow\" gekennzeichnet. Die Weiterleitung ist ein HTTP-302 auf genau die gespeicherte Adresse. Es werden keine Partnerparameter angehängt.",
+            "Auf einer öffentlichen Tool-Seite gibt es höchstens einen ausgehenden Werkzeug-Link. Er führt über /go/[slug].",
+            "Mit aktivem Partnerlink ist der Link mit rel=\"sponsored nofollow\" gekennzeichnet. Ohne Partnerlink bleibt er ein normaler Link zur offiziellen Website. Die Weiterleitung ist ein HTTP-302 auf genau die gespeicherte Adresse. Es werden keine Partnerparameter angehängt.",
             "Liegt ein gültiger eigener Partnerlink vor, führt /go/[slug] dorthin und der Button ist als Werbung gekennzeichnet. Ohne Partnerlink führt dieselbe Adresse zur offiziellen Website und wird nicht als Werbung bezeichnet. Es werden keine Empfehlungsparameter angehängt.",
           ],
         },
         {
           heading: "Kennzeichnung",
           body: [
-            "Partnerlinks sind im Button-Umfeld als Werbung erkennbar. Beispieldatensätze sind zusätzlich mit „Beispiel“ markiert und haben in den Seed-Daten keinen Partnerlink.",
+            "Partnerlinks sind im Button-Umfeld als Werbung erkennbar. Beispieldatensätze sind archiviert und erscheinen nicht im öffentlichen Verzeichnis.",
           ],
         },
         {

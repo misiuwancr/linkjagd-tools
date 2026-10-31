@@ -17,6 +17,7 @@ export default async function ModerationPage() {
     status: "draft",
     featuredOnly: false,
     rankedOnly: false,
+    excludeExamples: false,
     discoverySources: ["import", "submission", "futuretools-top100"],
   };
   const result = await listTools(await getDb(), query);

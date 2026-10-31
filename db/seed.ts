@@ -221,7 +221,20 @@ async function seed() {
 
   for (const [index, example] of exampleTools.entries()) {
     const existing = await database.select().from(tools).where(eq(tools.slug, example.slug)).limit(1);
-    if (existing[0]) continue;
+    if (existing[0]) {
+      if (existing[0].isExample) {
+        await database
+          .update(tools)
+          .set({
+            publishStatus: "archived",
+            featured: false,
+            editorialRank: null,
+            updatedAt: new Date(),
+          })
+          .where(eq(tools.id, existing[0].id));
+      }
+      continue;
+    }
     const createdAt = new Date(now - (exampleTools.length - index) * 86_400_000);
     const id = crypto.randomUUID();
     const long = `${example.short} ${exampleNote} Die ausführliche Beschreibung zeigt nur, wie eine Detailseite aufgebaut ist: Wofür das Werkzeug gedacht wäre, für wen es sich eignen könnte und welche Grenze die Redaktion dazu sagen würde.`;
@@ -243,9 +256,9 @@ async function seed() {
       screenshots: JSON.stringify(screenshots),
       pricingModel: example.pricing,
       licenseType: example.slug === "klammer-code" ? "open_source" : "unknown",
-      publishStatus: example.status ?? "published",
-      featured: Boolean(example.featured),
-      editorialRank: example.rank ?? null,
+      publishStatus: "archived",
+      featured: false,
+      editorialRank: null,
       discoverySource: example.source ?? "example",
       isExample: true,
       internalNotes: exampleNote,

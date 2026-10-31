@@ -219,7 +219,7 @@ export function ToolForm({
         <textarea name="internalNotes" defaultValue={initial.internalNotes} className="area" />
       </label>
       <p className="text-xs text-muted-foreground">
-        Quelle: {initial.discoverySource}. Ohne aktiven Partnerlink bleibt ein veröffentlichtes Tool ohne öffentlichen Button. Partnerlinks pflegst du unter dem Formular.
+        Quelle: {initial.discoverySource}. Ein veröffentlichtes Tool ohne Partnerlink zeigt den Button „Zur offiziellen Website“. Mit aktivem Partnerlink heißt der Button „Jetzt Tool ausprobieren“ und ist als Werbung gekennzeichnet. Partnerlinks pflegst du unter dem Formular.
       </p>
       <button type="submit" className="h-11 rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground">
         Speichern

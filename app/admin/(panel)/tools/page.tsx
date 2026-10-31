@@ -24,6 +24,7 @@ export default async function AdminToolsPage({
     status,
     featuredOnly: false,
     rankedOnly: false,
+    excludeExamples: false,
     discoverySources: [],
   };
   const result = await listTools(await getDb(), query);

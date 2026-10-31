@@ -93,7 +93,7 @@ describe("Datenbankfilter und Import", () => {
       publishStatus: "published",
       featured: false,
       discoverySource: "test",
-      isExample: true,
+      isExample: false,
       searchText: "testwerkzeug",
       createdAt: now,
       updatedAt: now,
@@ -117,7 +117,29 @@ describe("Datenbankfilter und Import", () => {
     });
     expect(blocked.ok).toBe(false);
 
+    await db.insert(tools).values({
+      id: "example-hidden",
+      name: "Verstecktes Beispiel",
+      slug: "verstecktes-beispiel",
+      originalUrl: "https://verstecktes-beispiel.example/",
+      domain: "verstecktes-beispiel.example",
+      shortDescriptionDe: "Ein Beispieldatensatz, der öffentlich nicht mitgezählt wird.",
+      longDescriptionDe: "",
+      featuresDe: "[]",
+      screenshots: "[]",
+      pricingModel: "free",
+      publishStatus: "published",
+      featured: true,
+      editorialRank: 1,
+      discoverySource: "example",
+      isExample: true,
+      searchText: "verstecktes beispiel",
+      createdAt: now,
+      updatedAt: now,
+    });
+
     const loaded = await listTools(db, publicListQuery({}));
+    expect(loaded.items.some((item) => item.isExample)).toBe(false);
     const decision = decideRedirect(loaded.items[0], loaded.items[0].programs);
     expect(decision.ok).toBe(true);
     if (decision.ok) {

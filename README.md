@@ -61,7 +61,7 @@ Partnerstatus: Kein Partnerprogramm gefunden, Partnerprogramm gefunden, Bewerbun
 
 Migrationen liegen in `migrations/` und laufen über `npm run db:migrate` oder beim Start. `npm run db:setup` migriert und legt fehlende Kategorien, Beispieldatensätze und den Admin an. Vorhandene Zeilen werden nicht überschrieben.
 
-Die Beispiele sind gekennzeichnet, haben keine Partnerlinks und verlinken ihre `.example`-Adressen nicht. Echte Affiliate-URLs gehören nicht in den Seed. Testdaten mit `example.com` existieren nur in den Tests.
+Beispieldatensätze bleiben in der Datenbank, werden beim Seed archiviert und erscheinen nicht in öffentlichen Listen oder Zählern. Ein erneuter Seed setzt sie wieder auf archiviert, ohne Texte gesperrter Zeilen zu ändern. Echte Affiliate-URLs gehören nicht in den Seed. Testdaten mit `example.com` existieren nur in den Tests.
 
 `npm run import:verified` legt geprüfte Tools zuerst als Entwurf an und veröffentlicht sie danach. Die zweite Liste liegt in `data/verified-tools-batch2.json` und wird mit importiert. Ohne eigenen Partnerlink führt `/go` zur offiziellen Website. Herkunft: [`docs/FUTURETOOLS-TOP100.md`](docs/FUTURETOOLS-TOP100.md).
 

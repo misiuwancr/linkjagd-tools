@@ -9,7 +9,7 @@ export function SiteFooter() {
           <p className="text-sm font-semibold">{siteConfig.name}</p>
           <p className="mt-2 max-w-md text-sm leading-6 text-muted-foreground">
             Ein deutschsprachiges Verzeichnis von {siteConfig.creator.name}, bekannt vom TikTok-Kanal{" "}
-            {siteConfig.creator.channel}. Empfehlungen sind redaktionell. Partnerlinks sind gekennzeichnet.
+            {siteConfig.creator.channel}. Empfehlungen setzt die Redaktion. Partnerlinks sind gekennzeichnet.
           </p>
         </div>
         <nav aria-label="Fußnavigation" className="grid grid-cols-2 gap-2 text-sm">

@@ -27,6 +27,7 @@ function filters(query: ToolListQuery): SQL[] {
   if (query.status !== "all") parts.push(eq(tools.publishStatus, query.status));
   if (query.featuredOnly) parts.push(eq(tools.featured, true));
   if (query.rankedOnly) parts.push(sql`${tools.editorialRank} is not null`);
+  if (query.excludeExamples) parts.push(eq(tools.isExample, false));
   if (query.pricing) parts.push(eq(tools.pricingModel, query.pricing));
   if (query.license) parts.push(eq(tools.licenseType, query.license));
   const needle = normalizeSearch(query.q);
@@ -139,6 +140,7 @@ export async function listSimilar(database: AppDatabase, tool: ToolWithRelations
     .where(
       and(
         eq(tools.publishStatus, "published"),
+        eq(tools.isExample, false),
         sql`${tools.id} != ${tool.id}`,
         sql`${tools.id} in (
           select tc.tool_id from tool_categories tc
@@ -161,7 +163,7 @@ export async function listCategories(database: AppDatabase) {
     })
     .from(toolCategories)
     .innerJoin(tools, eq(toolCategories.toolId, tools.id))
-    .where(eq(tools.publishStatus, "published"))
+    .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false)))
     .groupBy(toolCategories.categoryId);
   const countById = new Map(counts.map((row) => [row.categoryId, Number(row.total)]));
   return rows.map((category) => ({ ...category, toolCount: countById.get(category.id) ?? 0 }));
@@ -308,7 +310,7 @@ export async function publishedSlugs(database: AppDatabase) {
   return database
     .select({ slug: tools.slug, updatedAt: tools.updatedAt })
     .from(tools)
-    .where(eq(tools.publishStatus, "published"));
+    .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false)));
 }
 
 export async function dashboardCounts(database: AppDatabase) {

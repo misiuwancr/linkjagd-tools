@@ -4,9 +4,7 @@ import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
 import { JsonLd } from "@/components/json-ld";
 import { Newsletter } from "@/components/newsletter";
-import { PriceBadge } from "@/components/badges";
 import { ToolCard } from "@/components/tool-card";
-import { ToolLogo } from "@/components/tool-logo";
 import { listCategories, listPublishedNews, listTools } from "@/lib/tools/repository";
 import { toPublicTool } from "@/lib/tools/public";
 import { publicListQuery } from "@/lib/tools/query";
@@ -34,17 +32,17 @@ export default async function HomePage({
 }) {
   const database = await getDb();
   const base = publicListQuery({});
-  const [featured, newest, ranked, categories, news] = await Promise.all([
+  const [featured, newest, alphabetical, categories, news] = await Promise.all([
     listTools(database, { ...base, featuredOnly: true, sort: "featured", pageSize: 6 }),
     listTools(database, { ...base, sort: "newest", pageSize: 6 }),
-    listTools(database, { ...base, rankedOnly: true, sort: "featured", pageSize: 20 }),
+    listTools(database, { ...base, sort: "alpha", pageSize: 12 }),
     listCategories(database),
     listPublishedNews(database, 3),
   ]);
   const siteHost = host();
   const featuredTools = featured.items.map((tool) => toPublicTool(tool, siteHost));
   const newTools = newest.items.map((tool) => toPublicTool(tool, siteHost));
-  const topTools = ranked.items.map((tool) => toPublicTool(tool, siteHost));
+  const alphaTools = alphabetical.items.map((tool) => toPublicTool(tool, siteHost));
 
   return (
     <>
@@ -82,38 +80,28 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="page-wrap py-14">
-        <SectionHead kicker="Redaktion" title="Empfohlene Tools" href="/tools?sort=empfohlen" linkLabel="Alle Empfehlungen" />
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-          {featuredTools.map((tool) => (
-            <ToolCard key={tool.id} tool={tool} />
-          ))}
-        </div>
-      </section>
+      {featuredTools.length > 0 ? (
+        <section className="page-wrap py-14">
+          <SectionHead kicker="Redaktion" title="Empfohlene Tools" href="/tools?sort=empfohlen" linkLabel="Alle Empfehlungen" />
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {featuredTools.map((tool) => (
+              <ToolCard key={tool.id} tool={tool} />
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="border-y border-border bg-card">
         <div className="page-wrap py-14">
-          <SectionHead kicker="Auswahl" title="Top 20 Tools" href="/top-20" linkLabel="Die ganze Liste" />
+          <SectionHead kicker="Verzeichnis" title="Alphabetisch" href="/tools?sort=alphabetisch" linkLabel="Alle von A bis Z" />
           <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-            Eine redaktionelle Reihenfolge. Keine Stimmen, keine erfundenen Platzierungen.
+            Die ersten Namen von A bis Z. Keine Platzierung und keine Stimmen.
           </p>
-          <ol className="mt-6 divide-y divide-border">
-            {topTools.map((tool) => (
-              <li key={tool.id} className="grid grid-cols-[2.5rem_auto_1fr] items-center gap-3 py-4 sm:grid-cols-[3rem_auto_1fr_auto]">
-                <span className="text-sm tabular-nums text-muted-foreground">{tool.editorialRank}</span>
-                <ToolLogo name={tool.name} logo={tool.logo} size={40} />
-                <div className="min-w-0">
-                  <Link href={`/tools/${tool.slug}`} className="font-semibold tracking-tight hover:underline">
-                    {tool.name}
-                  </Link>
-                  <p className="truncate text-sm text-muted-foreground">{tool.shortDescriptionDe}</p>
-                </div>
-                <div className="col-span-3 sm:col-span-1 sm:justify-self-end">
-                  <PriceBadge value={tool.pricingModel} />
-                </div>
-              </li>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {alphaTools.map((tool) => (
+              <ToolCard key={tool.id} tool={tool} />
             ))}
-          </ol>
+          </div>
         </div>
       </section>
 
