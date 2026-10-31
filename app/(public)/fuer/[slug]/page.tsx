@@ -63,9 +63,9 @@ export default async function UseCasePage({
       </nav>
       <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">{useCase.title}</h1>
       <p className="mt-4 max-w-3xl text-base leading-7 text-muted-foreground">{useCase.intro}</p>
-      <p className="mt-6 text-sm text-muted-foreground">
+      <div className="mt-6 text-sm text-muted-foreground">
         <ResultMeta page={result.page} pageSize={query.pageSize} total={result.total} />
-      </p>
+      </div>
       <div className="mt-4">
         <ToolGrid tools={tools} />
       </div>
