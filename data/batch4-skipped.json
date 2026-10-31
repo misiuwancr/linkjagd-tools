@@ -1,0 +1,54 @@
+[
+  {
+    "name": "RawTherapee",
+    "reason": "rawtherapee.com antwortete erneut mit HTTP 429."
+  },
+  {
+    "name": "Canva",
+    "reason": "canva.com antwortete erneut mit HTTP 403."
+  },
+  {
+    "name": "Perplexity",
+    "reason": "perplexity.ai antwortete erneut mit HTTP 403."
+  },
+  {
+    "name": "QuillBot",
+    "reason": "quillbot.com antwortete erneut mit HTTP 403."
+  },
+  {
+    "name": "Gamma",
+    "reason": "gamma.app antwortete erneut mit HTTP 403."
+  },
+  {
+    "name": "Pexels",
+    "reason": "pexels.com antwortete erneut mit HTTP 403."
+  },
+  {
+    "name": "Pixabay",
+    "reason": "pixabay.com antwortete erneut mit HTTP 403."
+  },
+  {
+    "name": "Ideogram",
+    "reason": "ideogram.ai antwortete mit HTTP 403."
+  },
+  {
+    "name": "Freepik",
+    "reason": "freepik.com antwortete mit HTTP 403."
+  },
+  {
+    "name": "Adobe Express klassische Produktseite",
+    "reason": "adobe.com/express antwortete mit HTTP 403. express.adobe.com wurde stattdessen aufgenommen."
+  },
+  {
+    "name": "Personio",
+    "reason": "personio.com antwortete mit HTTP 429."
+  },
+  {
+    "name": "Doctolib",
+    "reason": "doctolib.de antwortete mit HTTP 403."
+  },
+  {
+    "name": "Calm",
+    "reason": "calm.com antwortete erneut mit HTTP 403."
+  }
+]

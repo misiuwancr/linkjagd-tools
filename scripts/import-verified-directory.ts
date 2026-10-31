@@ -10,8 +10,9 @@ import { getToolBySlug, refreshSearchText } from "@/lib/tools/repository";
 import catalogA from "@/data/verified-tools.json";
 import catalogB from "@/data/verified-tools-batch2.json";
 import catalogC from "@/data/verified-tools-batch3.json";
+import catalogD from "@/data/verified-tools-batch4.json";
 
-const catalog = [...catalogA, ...catalogB, ...catalogC];
+const catalog = [...catalogA, ...catalogB, ...catalogC, ...catalogD];
 
 const deadNames = [
   "GeoSpy.ai",
