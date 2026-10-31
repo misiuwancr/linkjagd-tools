@@ -15,18 +15,18 @@ export default async function BlogPage() {
   const news = await listPublishedNews(await getDb(), 24);
   return (
     <div className="page-wrap py-12 sm:py-16">
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Redaktion</p>
-      <h1 className="mt-3 text-4xl font-bold tracking-tight">Blog</h1>
-      <p className="mt-3 max-w-2xl text-muted-foreground">Nur Beiträge, die die Redaktion veröffentlicht hat.</p>
+      <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl">Blog</h1>
+      <p className="mx-auto mt-3 max-w-2xl text-center text-muted-foreground">Nur Beiträge, die die Redaktion veröffentlicht hat.</p>
       {news.length === 0 ? (
-        <p className="mt-8 rounded-2xl border border-dashed border-border bg-card p-6 text-sm">Noch kein veröffentlichtes Stück.</p>
+        <p className="mt-8 rounded-2xl border border-dashed border-border bg-card p-6 text-center text-sm">Noch kein veröffentlichtes Stück.</p>
       ) : (
-        <ul className="mt-8 grid gap-4">
+        <ul className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {news.map((item) => (
             <li key={item.id}>
-              <Link href={`/blog/${item.slug}`} className="block rounded-2xl border border-border bg-card p-5 hover:border-hunt/40">
-                <h2 className="text-2xl font-bold tracking-tight">{item.title}</h2>
-                <p className="mt-2 text-sm leading-6 text-muted-foreground">{item.excerpt}</p>
+              <Link href={`/blog/${item.slug}`} className="block h-full rounded-2xl border border-border bg-card p-5 hover:border-hunt/40">
+                <p className="text-xs uppercase tracking-[0.14em] text-hunt">Beitrag</p>
+                <h2 className="mt-2 text-xl font-bold tracking-tight">{item.title}</h2>
+                <p className="mt-2 line-clamp-3 text-sm leading-6 text-muted-foreground">{item.excerpt}</p>
               </Link>
             </li>
           ))}

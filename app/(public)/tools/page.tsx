@@ -57,12 +57,13 @@ export default async function ToolsPage({
           inLanguage: "de",
         }}
       />
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Verzeichnis</p>
-      <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">Alle Tools</h1>
+      <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
+        Das <span className="text-hunt">Verzeichnis</span>
+      </h1>
       <p className="mt-3 max-w-2xl text-base leading-7 text-muted-foreground">
-        Suche im Namen, in der Beschreibung und in der Kategorie. Filter und Sortierung stehen in der Adresse, damit du eine Ansicht teilen kannst.
+        Suche nach Namen oder Aufgabe. Filter und Sortierung bleiben in der Adresse, damit du die Ansicht teilen kannst.
       </p>
-      <div className="mt-8">
+      <div className="mt-8 rounded-3xl border border-border bg-card/60 p-4 sm:p-5">
         <PriceChips query={safeQuery} basePath="/tools" />
         <LicenseChips query={safeQuery} basePath="/tools" />
         <div className="mt-3">
@@ -98,9 +99,9 @@ export default async function ToolsPage({
             Ohne Anmeldung
           </a>
         </div>
-      </div>
-      <div className="mt-3">
-        <DirectoryFilters query={safeQuery} categories={categories} />
+        <div className="mt-4">
+          <DirectoryFilters query={safeQuery} categories={categories} />
+        </div>
       </div>
       <div className="mt-6 flex items-center justify-between gap-3">
         <ResultMeta page={safeQuery.page} pageSize={query.pageSize} total={result.total} />

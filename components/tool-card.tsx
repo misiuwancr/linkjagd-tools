@@ -5,7 +5,7 @@ import { ToolLogo } from "@/components/tool-logo";
 
 export function ToolCard({ tool }: { tool: PublicTool }) {
   return (
-    <article className="flex h-full flex-col rounded-2xl border border-border bg-card p-4 shadow-card transition hover:-translate-y-0.5 hover:border-hunt/50">
+    <article className="flex h-full flex-col rounded-2xl border border-border bg-card/80 p-4 transition hover:border-hunt/40">
       <div className="flex items-start gap-3">
         <Link href={`/tools/${tool.slug}`} className="shrink-0 rounded-xl" aria-label={tool.name}>
           <ToolLogo name={tool.name} logo={tool.logo} />
@@ -23,15 +23,14 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
           </div>
         </div>
       </div>
-      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-6 text-muted-foreground">{tool.shortDescriptionDe}</p>
-      <div className="mt-4 flex items-center justify-between gap-2">
+      <p className="mt-3 line-clamp-2 flex-1 text-sm leading-6 text-muted-foreground">{tool.shortDescriptionDe}</p>
+      <div className="mt-3 flex justify-end">
         <a
           href={`/go/${tool.slug}`}
           rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
-          className="inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-semibold text-primary-foreground"
+          className="text-xs font-semibold text-muted-foreground hover:text-foreground"
         >
-          Testen
-          {tool.ctaKind === "affiliate" ? <span className="ml-2 text-[10px] uppercase tracking-wide">Anzeige</span> : null}
+          {tool.ctaKind === "affiliate" ? "Testen · Anzeige" : "Testen"}
         </a>
       </div>
       <div className="mt-3 flex flex-wrap gap-1.5">

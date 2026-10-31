@@ -62,28 +62,35 @@ export function SiteHeader() {
       <div className="page-wrap flex h-16 items-center justify-between gap-4">
         <BrandLockup />
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-1 lg:flex">
-          <Link href="/top-20" className="rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
-            Top 20
-          </Link>
-          <Link href="/tools" className="rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
-            Alle Tools
-          </Link>
-          <Link href="/neu" className="rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
-            Neu
-          </Link>
-          <Link href="/blog" className="rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
-            Blog
-          </Link>
-          <Link href="/ueber-uns" className="rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
-            Über uns
-          </Link>
-          <a href="#anmeldung" className="ml-2 rounded-full bg-primary px-4 py-2 text-[13px] font-bold text-primary-foreground">
-            Abonnieren
-          </a>
-          <button type="button" onClick={toggleTheme} className="ml-1 rounded-full border border-border px-3 py-2 text-[13px]">
+          {groups.map((group) => (
+            <details key={group.label} className="group relative">
+              <summary className="cursor-pointer list-none rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
+                {group.label}
+              </summary>
+              <div className="absolute left-0 top-full z-50 mt-2 w-56 rounded-2xl border border-border bg-card p-2 shadow-card">
+                {group.links.map((item) =>
+                  item.external ? (
+                    <a key={item.href} href={item.href} target="_blank" rel="noopener noreferrer" className="block rounded-xl px-3 py-2 text-sm hover:bg-secondary">
+                      {item.label} ↗
+                    </a>
+                  ) : (
+                    <Link key={item.href} href={item.href} className="block rounded-xl px-3 py-2 text-sm hover:bg-secondary">
+                      {item.label}
+                    </Link>
+                  ),
+                )}
+              </div>
+            </details>
+          ))}
+        </nav>
+        <div className="hidden items-center gap-2 lg:flex">
+          <button type="button" onClick={toggleTheme} className="rounded-full border border-border px-3 py-2 text-[13px] text-muted-foreground" aria-label="Darstellung umschalten">
             {light ? "Dunkel" : "Hell"}
           </button>
-        </nav>
+          <a href="#anmeldung" className="rounded-full bg-primary px-4 py-2 text-[13px] font-bold text-primary-foreground">
+            Abonnieren
+          </a>
+        </div>
         <button
           type="button"
           className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card lg:hidden"
@@ -110,11 +117,11 @@ export function SiteHeader() {
                   {group.links.map((item) => (
                     <li key={item.href}>
                       {item.external ? (
-                        <a href={item.href} target="_blank" rel="noopener noreferrer" className="block py-2 text-2xl font-semibold tracking-tight" onClick={() => setOpen(false)}>
+                        <a href={item.href} target="_blank" rel="noopener noreferrer" className="block py-2 text-lg font-medium" onClick={() => setOpen(false)}>
                           {item.label} ↗
                         </a>
                       ) : (
-                        <Link href={item.href} className="block py-2 text-2xl font-semibold tracking-tight" onClick={() => setOpen(false)}>
+                        <Link href={item.href} className="block py-2 text-lg font-medium" onClick={() => setOpen(false)}>
                           {item.label}
                         </Link>
                       )}
@@ -123,7 +130,7 @@ export function SiteHeader() {
                 </ul>
               </div>
             ))}
-            <a href="#anmeldung" onClick={() => setOpen(false)} className="flex h-14 items-center justify-center rounded-2xl bg-primary text-lg font-bold text-primary-foreground">
+            <a href="#anmeldung" onClick={() => setOpen(false)} className="flex h-12 items-center justify-center rounded-full bg-primary text-base font-bold text-primary-foreground">
               Abonnieren
             </a>
             <button type="button" onClick={toggleTheme} className={cn("text-sm text-muted-foreground")}>

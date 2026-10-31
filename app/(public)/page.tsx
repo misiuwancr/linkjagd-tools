@@ -6,7 +6,7 @@ import { JsonLd } from "@/components/json-ld";
 import { CategoryIcon } from "@/components/category-icon";
 import { NewsletterForm } from "@/components/newsletter-form";
 import { ToolCard } from "@/components/tool-card";
-import { listCategories, listTools, listWeeklyPopular, socialProofText } from "@/lib/tools/repository";
+import { listCategories, listTools, listTopTools, listWeeklyPopular, socialProofText } from "@/lib/tools/repository";
 import { toPublicTool } from "@/lib/tools/public";
 import { publicListQuery } from "@/lib/tools/query";
 import { utcDay } from "@/lib/utils";
@@ -36,19 +36,21 @@ export default async function HomePage({
   const base = publicListQuery({});
   const since = new Date();
   since.setUTCDate(since.getUTCDate() - 6);
-  const [featured, newest, fromVideos, categories, popular, proof] = await Promise.all([
+  const [featured, newest, fromVideos, categories, popular, proof, top] = await Promise.all([
     listTools(database, { ...base, featuredOnly: true, sort: "featured", pageSize: 6 }),
     listTools(database, { ...base, sort: "newest", pageSize: 6 }),
     listTools(database, { ...base, fromVideo: true, sort: "newest", pageSize: 6 }),
     listCategories(database),
     listWeeklyPopular(database, utcDay(since), 6),
     socialProofText(database),
+    listTopTools(database, 8),
   ]);
   const siteHost = host();
   const featuredTools = featured.items.map((tool) => toPublicTool(tool, siteHost));
   const newTools = newest.items.map((tool) => toPublicTool(tool, siteHost));
   const videoTools = fromVideos.items.map((tool) => toPublicTool(tool, siteHost));
   const popularTools = popular.map((tool) => toPublicTool(tool, siteHost));
+  const topTools = top.map((tool) => toPublicTool(tool, siteHost));
 
   return (
     <>
@@ -93,15 +95,45 @@ export default async function HomePage({
       </section>
 
       {featuredTools.length > 0 ? (
-        <section className="page-wrap py-14">
-          <SectionHead kicker="Redaktion" title="Empfohlene Tools" href="/tools?sort=empfohlen" linkLabel="Alle Empfehlungen" />
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+        <section className="page-wrap py-10">
+          <SectionHead kicker="Redaktion" title="Gerade empfohlen" href="/top-20" linkLabel="Zur Top 20" />
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {featuredTools.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
+              <Link key={tool.id} href={`/tools/${tool.slug}`} className="flex items-center gap-3 rounded-2xl border border-border bg-card px-3 py-3 hover:border-hunt/40">
+                <CategoryIcon slug={tool.categories[0]?.slug ?? ""} />
+                <span className="font-semibold">{tool.name}</span>
+              </Link>
             ))}
           </div>
         </section>
       ) : null}
+
+      <section className="page-wrap grid gap-10 py-6 lg:grid-cols-[minmax(0,1fr)_320px]">
+        <div>
+          <SectionHead kicker="Frisch" title="Neu hinzugefügt" href="/neu" linkLabel="Alle neuen Tools" />
+          <div className="mt-4 grid gap-3">
+            {newTools.map((tool) => (
+              <ToolCard key={tool.id} tool={tool} />
+            ))}
+          </div>
+        </div>
+        <aside>
+          <SectionHead kicker="Reihenfolge" title="Top-Tools" href="/top-20" linkLabel="Alle 20" />
+          <ol className="mt-4 divide-y divide-border rounded-2xl border border-border bg-card">
+            {topTools.map((tool, index) => (
+              <li key={tool.id}>
+                <Link href={`/tools/${tool.slug}`} className="flex items-center gap-3 px-4 py-3 hover:bg-secondary/60">
+                  <span className="w-6 text-sm text-muted-foreground">{index + 1}</span>
+                  <span className="font-medium">{tool.name}</span>
+                </Link>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-3 text-xs leading-5 text-muted-foreground">
+            Zuerst gesetzte Redaktionsreihenfolge, dann Empfehlungen, dann die neuesten. Keine Stimmen.
+          </p>
+        </aside>
+      </section>
 
       {videoTools.length > 0 ? (
         <section className="border-y border-border bg-card">

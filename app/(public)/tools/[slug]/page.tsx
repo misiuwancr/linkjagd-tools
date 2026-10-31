@@ -90,6 +90,10 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
         }}
       />
       <nav aria-label="Brotkrumen" className="text-sm text-muted-foreground">
+        <Link href="/" className="hover:text-foreground">
+          Start
+        </Link>
+        <span aria-hidden="true"> / </span>
         <Link href="/tools" className="hover:text-foreground">
           Alle Tools
         </Link>
@@ -133,6 +137,17 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
               Dieser Eintrag ist ein Beispieldatensatz. Es ist kein reales Angebot und es ist kein Partnerlink hinterlegt.
             </p>
           ) : null}
+          <div className="mt-5">
+            {tool.ctaKind === "disabled" ? null : (
+              <a
+                href={`/go/${tool.slug}`}
+                rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
+                className="inline-flex h-11 items-center rounded-full bg-primary px-5 text-sm font-bold text-primary-foreground"
+              >
+                {tool.ctaKind === "affiliate" ? "Testen · Anzeige" : `Zu ${tool.name}`}
+              </a>
+            )}
+          </div>
         </div>
         <aside className="rounded-3xl border border-border bg-card p-5 shadow-card lg:sticky lg:top-24">
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">Auf einen Blick</p>
@@ -198,7 +213,30 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
         </aside>
       </header>
 
-      <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <dl className="mt-8 grid gap-4 border-y border-border py-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <dt className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Preis</dt>
+          <dd className="mt-1 font-semibold">{pricingLabel(tool.pricingModel)}</dd>
+        </div>
+        <div>
+          <dt className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Kategorie</dt>
+          <dd className="mt-1 font-semibold">{category?.name ?? "Ohne Kategorie"}</dd>
+        </div>
+        <div>
+          <dt className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Geprüft</dt>
+          <dd className="mt-1 font-semibold">
+            {tool.lastCheckedAt
+              ? new Date(tool.lastCheckedAt).toLocaleDateString("de-DE", { month: "short", year: "numeric" })
+              : "Kein Datum"}
+          </dd>
+        </div>
+        <div>
+          <dt className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Lizenz</dt>
+          <dd className="mt-1 font-semibold">{licenseLabel(tool.licenseType)}</dd>
+        </div>
+      </dl>
+
+      <div className="mt-10 grid gap-12 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="space-y-12">
           {tool.videos.length > 0 ? (
             <section>
