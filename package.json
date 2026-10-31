@@ -2,6 +2,9 @@
   "name": "linkjagd-tools",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "description": "Linkjagd Tools – deutschsprachiges Verzeichnis für KI-Tools mit Affiliate-Weiterleitung.",
   "scripts": {
     "dev": "next dev -H 0.0.0.0 -p 4327",

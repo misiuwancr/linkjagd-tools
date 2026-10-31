@@ -48,3 +48,10 @@ export function adminPasswordStatus(env: NodeJS.ProcessEnv = process.env): "ok" 
   if (value.toLowerCase().includes(PLACEHOLDER)) return "placeholder";
   return "ok";
 }
+
+export function bootstrapAdminDecision(env: NodeJS.ProcessEnv, hasUser: boolean): "skip-exists" | "skip-config" | "create" {
+  if (hasUser) return "skip-exists";
+  const email = (env.ADMIN_EMAIL || "").trim().toLowerCase();
+  if (!email.includes("@") || adminPasswordStatus(env) !== "ok") return "skip-config";
+  return "create";
+}

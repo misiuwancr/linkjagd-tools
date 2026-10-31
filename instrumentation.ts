@@ -1,6 +1,8 @@
 export async function register() {
   if (process.env.NEXT_RUNTIME === "nodejs") {
     const { getDb } = await import("./db/client");
-    await getDb();
+    const { ensureAdmin } = await import("./db/seed");
+    const database = await getDb();
+    await ensureAdmin(database);
   }
 }

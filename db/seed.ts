@@ -1,6 +1,7 @@
 import { eq } from "drizzle-orm";
 import { categories, tools, users } from "@/db/schema";
-import { getDb } from "@/db/client";
+import { getDb, type AppDatabase } from "@/db/client";
+import { bootstrapAdminDecision } from "@/db/resolve";
 import { hashPassword } from "@/lib/auth/password";
 import { replaceCategories, replaceTags, refreshSearchText } from "@/lib/tools/repository";
 
@@ -284,24 +285,35 @@ async function seed() {
     await refreshSearchText(database, id);
   }
 
+  await ensureAdmin(database);
+  console.log("Seed geprüft.");
+}
+
+export async function ensureAdmin(database: AppDatabase) {
+  const existingUsers = await database.select({ id: users.id }).from(users).limit(1);
+  const decision = bootstrapAdminDecision(process.env, Boolean(existingUsers[0]));
+  if (decision === "skip-exists") return decision;
+  if (decision === "skip-config") {
+    console.warn("Kein Admin angelegt. ADMIN_EMAIL und ein Passwort mit mindestens 12 Zeichen setzen.");
+    return decision;
+  }
   const email = (process.env.ADMIN_EMAIL || "").trim().toLowerCase();
   const password = process.env.ADMIN_PASSWORD || "";
-  const existingUsers = await database.select().from(users).limit(1);
-  if (!existingUsers[0]) {
-    if (!email || password.length < 12 || password.startsWith("ersetze-mich")) {
-      console.warn("Kein Admin angelegt. ADMIN_EMAIL und ein Passwort mit mindestens 12 Zeichen setzen.");
-    } else {
-      await database.insert(users).values({
-        id: crypto.randomUUID(),
-        email,
-        passwordHash: hashPassword(password),
-        role: "admin",
-        createdAt: new Date(),
-      });
-      console.log(`Admin angelegt: ${email}`);
-    }
+  try {
+    await database.insert(users).values({
+      id: crypto.randomUUID(),
+      email,
+      passwordHash: hashPassword(password),
+      role: "admin",
+      createdAt: new Date(),
+    });
+  } catch {
+    const again = await database.select({ id: users.id }).from(users).limit(1);
+    if (again[0]) return "skip-exists" as const;
+    throw new Error("Admin konnte nicht angelegt werden.");
   }
-  console.log("Seed geprüft.");
+  console.log("Admin angelegt.");
+  return decision;
 }
 
 if (process.argv[1]?.includes("seed.ts")) {

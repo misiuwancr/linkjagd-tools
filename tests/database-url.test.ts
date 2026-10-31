@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { adminPasswordStatus, resolveAppDatabase, resolveLocalDatabase, sessionSecretStatus } from "@/db/resolve";
+import { adminPasswordStatus, bootstrapAdminDecision, resolveAppDatabase, resolveLocalDatabase, sessionSecretStatus } from "@/db/resolve";
 import { publicExportRow } from "@/db/transfer";
 
 describe("Datenbank-Ziel", () => {
@@ -21,5 +21,13 @@ describe("Datenbank-Ziel", () => {
     const row = publicExportRow("users", { id: "1", email: "a@b.c", password_hash: "geheim", role: "admin" });
     expect(row).not.toHaveProperty("password_hash");
     expect(row.email).toBe("a@b.c");
+  });
+
+  it("legt den Admin nur an, wenn noch kein Benutzer existiert und das Passwort gilt", () => {
+    const env = { ADMIN_EMAIL: "redaktion@example.com", ADMIN_PASSWORD: "ein-langes-passwort" };
+    expect(bootstrapAdminDecision(env, true)).toBe("skip-exists");
+    expect(bootstrapAdminDecision(env, false)).toBe("create");
+    expect(bootstrapAdminDecision({ ADMIN_EMAIL: "redaktion@example.com", ADMIN_PASSWORD: "ersetze-mich-bitte-lang" }, false)).toBe("skip-config");
+    expect(bootstrapAdminDecision({ ADMIN_EMAIL: "", ADMIN_PASSWORD: "ein-langes-passwort" }, false)).toBe("skip-config");
   });
 });

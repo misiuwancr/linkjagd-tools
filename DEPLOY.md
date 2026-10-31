@@ -15,7 +15,7 @@ Noch nichts ist deployed. Die Accounts legst du selbst an. Zugangsdaten bleiben 
 | `IMPORT_API_TOKEN` | nein | ohne Wert ist `POST /api/import` aus |
 | `DATABASE_URL` | nein | auf Vercel weglassen; lokal `file:./data/linkjagd.db` |
 
-Ohne `JWT_SECRET` zeigt `/admin/login` kein Formular. Ohne gültiges Konto in `users` kommt niemand hinein.
+Ohne `JWT_SECRET` zeigt `/admin/login` kein Formular. Ist die Tabelle `users` leer, legt der Serverstart und die Anmeldung genau einen Admin aus `ADMIN_EMAIL` und `ADMIN_PASSWORD` an. Ein vorhandenes Konto wird nicht überschrieben. Node auf Vercel ist `22.x` über `engines` in `package.json`.
 
 ## Turso anlegen
 
