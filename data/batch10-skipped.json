@@ -1,0 +1,14 @@
+[
+  {
+    "name": "BMBF",
+    "reason": "bmbf.de hat die TLS-Verbindung beim zweiten Abruf abgebrochen."
+  },
+  {
+    "name": "Duolingo",
+    "reason": "Der Kurzname ist bereits vergeben."
+  },
+  {
+    "name": "Khan Academy",
+    "reason": "Der Kurzname ist bereits vergeben."
+  }
+]

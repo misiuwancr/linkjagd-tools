@@ -16,8 +16,9 @@ import catalogF from "@/data/verified-tools-batch6.json";
 import catalogG from "@/data/verified-tools-batch7.json";
 import catalogH from "@/data/verified-tools-batch8.json";
 import catalogI from "@/data/verified-tools-batch9.json";
+import catalogJ from "@/data/verified-tools-batch10.json";
 
-const catalog = [...catalogA, ...catalogB, ...catalogC, ...catalogD, ...catalogE, ...catalogF, ...catalogG, ...catalogH, ...catalogI];
+const catalog = [...catalogA, ...catalogB, ...catalogC, ...catalogD, ...catalogE, ...catalogF, ...catalogG, ...catalogH, ...catalogI, ...catalogJ];
 
 const deadNames = [
   "GeoSpy.ai",

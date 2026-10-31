@@ -1,0 +1,1671 @@
+[
+  {
+    "name": "Hochschulkompass",
+    "originalUrl": "https://www.hochschulkompass.de/",
+    "domain": "hochschulkompass.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Hochschulkompass listet Studiengänge und Hochschulen in Deutschland.",
+    "longDescriptionDe": "Die Seite der Hochschulrektorenkonferenz filtert Studiengänge nach Ort und Abschluss. Die Suche ist ohne Konto möglich.",
+    "featuresDe": [
+      "Studiengänge und Hochschulen",
+      "Filter nach Ort und Abschluss",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Studiengang zu suchen",
+      "Hochschulen eines Fachs zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DFG",
+    "originalUrl": "https://www.dfg.de/",
+    "domain": "dfg.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Die DFG fördert Forschung und veröffentlicht Programme und Entscheidungen.",
+    "longDescriptionDe": "Die Deutsche Forschungsgemeinschaft beschreibt Förderlinien und Verfahren. Die Informationsseiten sind ohne Konto lesbar. Eine Förderung selbst setzt einen Antrag voraus.",
+    "featuresDe": [
+      "Förderlinien",
+      "Verfahren",
+      "Informationen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Förderprogramm zu finden",
+      "Ein Verfahren nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MAXQDA",
+    "originalUrl": "https://www.maxqda.com/",
+    "domain": "maxqda.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "MAXQDA wertet Interviews und Texte qualitativ aus.",
+    "longDescriptionDe": "MAXQDA kodiert Textstellen und zeigt, wie oft ein Kode vorkommt. Der Hersteller sitzt in Berlin. Die Lizenz ist kostenpflichtig.",
+    "featuresDe": [
+      "Kodieren von Texten",
+      "Auswertung der Kodes",
+      "Kostenpflichtige Lizenz"
+    ],
+    "useCasesDe": [
+      "Ein Interview zu kodieren",
+      "Häufigkeiten von Themen zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Amberscript",
+    "originalUrl": "https://www.amberscript.com/",
+    "domain": "amberscript.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Amberscript schreibt Sprache aus Audio und Video mit, auch auf Deutsch.",
+    "longDescriptionDe": "Amberscript erzeugt ein Transkript und lässt es korrigieren. Es gibt einen Einstieg und bezahlte Minuten.",
+    "featuresDe": [
+      "Transkript aus Audio und Video",
+      "Korrektur im Text",
+      "Einstieg und bezahlte Minuten"
+    ],
+    "useCasesDe": [
+      "Ein Interview verschriftlichen zu lassen",
+      "Untertitel aus einer Aufnahme zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Spektrum",
+    "originalUrl": "https://www.spektrum.de/",
+    "domain": "spektrum.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Spektrum der Wissenschaft erklärt Forschung für ein breites Publikum.",
+    "longDescriptionDe": "Spektrum veröffentlicht Meldungen und längere Texte zu Naturwissenschaft. Ein Teil ist frei, das Abo ist kostenpflichtig.",
+    "featuresDe": [
+      "Wissenschaft für ein breites Publikum",
+      "Meldungen und längere Texte",
+      "Freier Anteil und kostenpflichtiges Abo"
+    ],
+    "useCasesDe": [
+      "Einen Forschungsstand nachzulesen",
+      "Eine Meldung zu einem Fach zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GEO",
+    "originalUrl": "https://www.geo.de/",
+    "domain": "geo.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "GEO berichtet über Natur, Wissen und Reisen.",
+    "longDescriptionDe": "GEO veröffentlicht Reportagen und Meldungen. Ein Teil ist frei lesbar, das Magazin ist kostenpflichtig.",
+    "featuresDe": [
+      "Natur, Wissen und Reisen",
+      "Reportagen",
+      "Freier Anteil und kostenpflichtiges Magazin"
+    ],
+    "useCasesDe": [
+      "Eine Reportage zu einem Ort zu lesen",
+      "Ein Wissensthema nachzuschlagen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Babbel",
+    "originalUrl": "https://www.babbel.com/",
+    "domain": "babbel.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Babbel übt Sprachen in kurzen Lektionen, mit Deutsch als Ausgang.",
+    "longDescriptionDe": "Babbel gibt Dialoge und Wiederholungen vor. Der Dienst kommt aus Berlin. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Kurze Sprachlektionen",
+      "Dialoge und Wiederholung",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Sprache in kurzen Einheiten zu üben",
+      "Einen Dialog zu wiederholen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lingoda",
+    "originalUrl": "https://www.lingoda.com/",
+    "domain": "lingoda.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Lingoda gibt Sprachunterricht in kleinen Gruppen per Video.",
+    "longDescriptionDe": "Lingoda legt Kurse mit festen Lektionen und Live-Stunden an. Der Dienst kommt aus Berlin. Die Kurse sind kostenpflichtig.",
+    "featuresDe": [
+      "Live-Unterricht in Gruppen",
+      "Feste Lektionen",
+      "Kostenpflichtige Kurse"
+    ],
+    "useCasesDe": [
+      "Eine Sprache mit einer Lehrkraft zu üben",
+      "Einen Kursplan zu folgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Preply",
+    "originalUrl": "https://www.preply.com/",
+    "domain": "preply.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Preply vermittelt Einzelnachhilfe in Sprachen per Video.",
+    "longDescriptionDe": "Preply zeigt Lehrkräfte mit Preis und lässt Stunden buchen. Die Suche ist ohne sofortige Zahlung möglich, die Stunde ist kostenpflichtig.",
+    "featuresDe": [
+      "Einzelnachhilfe per Video",
+      "Preis je Lehrkraft",
+      "Suche ohne sofortige Zahlung"
+    ],
+    "useCasesDe": [
+      "Eine Lehrkraft für eine Sprache zu finden",
+      "Eine einzelne Stunde zu buchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "italki",
+    "originalUrl": "https://www.italki.com/",
+    "domain": "italki.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "italki vermittelt Sprachlehrkräfte für Einzelstunden.",
+    "longDescriptionDe": "italki listet Lehrkräfte und Community-Beiträge. Die Suche ist ohne Abo möglich, die Stunde ist kostenpflichtig.",
+    "featuresDe": [
+      "Einzelstunden",
+      "Profile von Lehrkräften",
+      "Suche ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Lehrkraft nach Sprache zu suchen",
+      "Eine Probestunde zu buchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "StudyCheck",
+    "originalUrl": "https://www.studycheck.de/",
+    "domain": "studycheck.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "StudyCheck sammelt Erfahrungsberichte zu Studiengängen.",
+    "longDescriptionDe": "StudyCheck zeigt Bewertungen und Eckdaten eines Studiums. Die Berichte sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Erfahrungsberichte",
+      "Eckdaten zum Studium",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Studiengang anhand von Berichten einzuordnen",
+      "Hochschulen eines Fachs zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "myStipendium",
+    "originalUrl": "https://www.mystipendium.de/",
+    "domain": "mystipendium.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "finanzen"
+    ],
+    "shortDescriptionDe": "myStipendium listet Stipendien und rechnet aus, welche passen könnten.",
+    "longDescriptionDe": "Die Suche filtert Stipendien nach Fach und Person. Ein Teil ist ohne Konto nutzbar.",
+    "featuresDe": [
+      "Stipendiensuche",
+      "Filter nach Fach",
+      "Ein Teil ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein passendes Stipendium zu suchen",
+      "Voraussetzungen einer Förderung zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "uni-assist",
+    "originalUrl": "https://www.uni-assist.de/",
+    "domain": "uni-assist.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "uni-assist prüft Bewerbungen internationaler Studieninteressierter für deutsche Hochschulen.",
+    "longDescriptionDe": "uni-assist nimmt Unterlagen entgegen und leitet sie an angeschlossene Hochschulen weiter. Die Bearbeitung ist kostenpflichtig.",
+    "featuresDe": [
+      "Prüfung internationaler Bewerbungen",
+      "Weiterleitung an Hochschulen",
+      "Kostenpflichtige Bearbeitung"
+    ],
+    "useCasesDe": [
+      "Eine Bewerbung für ein Studium in Deutschland vorzubereiten",
+      "Den Weg über uni-assist nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "KMK",
+    "originalUrl": "https://www.kmk.org/",
+    "domain": "kmk.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "recht"
+    ],
+    "shortDescriptionDe": "Die Kultusministerkonferenz veröffentlicht Beschlüsse der Länder zu Schule und Hochschule.",
+    "longDescriptionDe": "Die KMK stellt Vereinbarungen und Listen bereit. Die Dokumente sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Beschlüsse der Länder",
+      "Schule und Hochschule",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Vereinbarung der Länder nachzulesen",
+      "Einen Abschluss einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Prusa",
+    "originalUrl": "https://www.prusa3d.com/de/",
+    "domain": "prusa3d.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Prusa baut 3D-Drucker und stellt PrusaSlicer bereit.",
+    "longDescriptionDe": "Prusa Research aus Prag verkauft Drucker und dokumentiert den Slicer. Die Drucker sind kostenpflichtig, PrusaSlicer ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "3D-Drucker",
+      "PrusaSlicer",
+      "Drucker kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Einen Drucker auszuwählen",
+      "Ein Modell für den Druck vorzubereiten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bambu Lab",
+    "originalUrl": "https://www.bambu-lab.com/",
+    "domain": "bambu-lab.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Bambu Lab verkauft 3D-Drucker mit automatischem Materialwechsel.",
+    "longDescriptionDe": "Bambu Lab liefert Drucker, die mehrere Farben in einem Druck wechseln können. Die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "3D-Drucker",
+      "Materialwechsel",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Einen Mehrfarbdruck zu planen",
+      "Einen Drucker der Reihe einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Creality",
+    "originalUrl": "https://www.creality.com/",
+    "domain": "creality.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Creality verkauft 3D-Drucker für Einsteiger und Werkstätten.",
+    "longDescriptionDe": "Creality zeigt Geräte mit Bauraum und Preis. Die Drucker sind kostenpflichtig.",
+    "featuresDe": [
+      "3D-Drucker",
+      "Unterschiedliche Bauräume",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Einen Einsteigerdrucker zu vergleichen",
+      "Den Bauraum eines Modells nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Shelly",
+    "originalUrl": "https://www.shelly.com/",
+    "domain": "shelly.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Shelly schaltet Stromkreise und misst Verbrauch über WLAN.",
+    "longDescriptionDe": "Shelly-Module sitzen hinter dem Schalter oder in der Dose und lassen sich lokal oder per App ansprechen. Die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "Schalten und Messen über WLAN",
+      "Einbau hinter dem Schalter",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Eine Lampe per WLAN zu schalten",
+      "Den Verbrauch eines Kreises zu messen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Philips Hue",
+    "originalUrl": "https://www.philips-hue.com/",
+    "domain": "philips-hue.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Philips Hue steuert Lampen über eine Bridge und eine App.",
+    "longDescriptionDe": "Hue setzt Farben und Zeitpläne für angebundene Leuchten. Die Lampen und die Bridge sind kostenpflichtig.",
+    "featuresDe": [
+      "Lampen mit Farbe und Zeitplan",
+      "Bridge und App",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Eine Lampe zeitgesteuert zu schalten",
+      "Eine Farbe für einen Raum zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Netatmo",
+    "originalUrl": "https://www.netatmo.com/",
+    "domain": "netatmo.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Netatmo misst Wetter, Luft und Heizung im Haus.",
+    "longDescriptionDe": "Netatmo stellt Stationen und Thermostate bereit und zeigt die Werte in einer App. Die Geräte sind kostenpflichtig. Der Hersteller sitzt in Frankreich.",
+    "featuresDe": [
+      "Wetter, Luft und Heizung",
+      "Werte in der App",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Die Luft in einem Raum zu messen",
+      "Eine Heizung nach Zeit zu regeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zigbee2MQTT",
+    "originalUrl": "https://www.zigbee2mqtt.io/",
+    "domain": "zigbee2mqtt.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Zigbee2MQTT bindet Zigbee-Geräte an einen MQTT-Broker.",
+    "longDescriptionDe": "Die Software spricht Leuchten und Sensoren an, ohne die Cloud des Herstellers. Eine OSI-Kennung wird hier nicht erneut eingetragen. Sie ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Zigbee ohne Hersteller-Cloud",
+      "Anbindung an MQTT",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Lampe lokal anzubinden",
+      "Sensoren an den eigenen Broker zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "openHAB",
+    "originalUrl": "https://www.openhab.org/",
+    "domain": "openhab.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "openHAB steuert Geräte im Haus auf dem eigenen Server.",
+    "longDescriptionDe": "openHAB verbindet unterschiedliche Systeme und legt Regeln an. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Steuerung auf dem eigenen Server",
+      "Regeln über mehrere Systeme",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Lampen und Sensoren selbst zu verbinden",
+      "Eine Regel ohne Cloud zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wiki.js",
+    "originalUrl": "https://js.wiki/",
+    "domain": "js.wiki",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Wiki.js betreibt ein Wiki auf dem eigenen Server.",
+    "longDescriptionDe": "Wiki.js speichert Seiten und lässt sie im Team bearbeiten. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Wiki auf dem eigenen Server",
+      "Bearbeitung im Team",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein internes Wiki selbst zu hosten",
+      "Eine Seite im Team fortzuschreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MediaWiki",
+    "originalUrl": "https://www.mediawiki.org/",
+    "domain": "mediawiki.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet",
+      "bildung"
+    ],
+    "shortDescriptionDe": "MediaWiki ist die Software hinter Wikipedia und lässt sich selbst betreiben.",
+    "longDescriptionDe": "MediaWiki legt Seiten mit Versionen an. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Seiten mit Versionen",
+      "Selbstbetrieb",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Wiki selbst zu betreiben",
+      "Die Geschichte einer Seite zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GitBook",
+    "originalUrl": "https://www.gitbook.com/",
+    "domain": "gitbook.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "GitBook schreibt Dokumentation und interne Handbücher.",
+    "longDescriptionDe": "GitBook legt Seiten in einer Hierarchie an und kann sie veröffentlichen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Dokumentation in Hierarchien",
+      "Veröffentlichen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Handbuch zu schreiben",
+      "Eine Dokumentation zu veröffentlichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "R Project",
+    "originalUrl": "https://www.r-project.org/",
+    "domain": "r-project.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "R ist eine Sprache für Statistik und Grafiken.",
+    "longDescriptionDe": "Das R Project stellt die Sprache und Pakete für Auswertungen bereit. Eine einzelne OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Statistik und Grafiken",
+      "Pakete",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Auswertung zu rechnen",
+      "Eine Grafik aus einer Tabelle zu zeichnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kotlin",
+    "originalUrl": "https://kotlinlang.org/",
+    "domain": "kotlinlang.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Kotlin ist eine Programmiersprache für Anwendungen, auch auf Android.",
+    "longDescriptionDe": "kotlinlang.org stellt Compiler, Dokumentation und den Einstieg bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Sprache für Anwendungen",
+      "Dokumentation",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Anwendung in Kotlin zu schreiben",
+      "Den Einstieg in der Dokumentation zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PHP",
+    "originalUrl": "https://www.php.net/",
+    "domain": "php.net",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "PHP ist eine Sprache, mit der viele Websites auf dem Server laufen.",
+    "longDescriptionDe": "php.net stellt die Sprache und die Funktionsreferenz bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Interpreter ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Sprache für Websites",
+      "Funktionsreferenz",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Seite auf dem Server zu erzeugen",
+      "Eine Funktion in der Referenz nachzuschlagen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PyPI",
+    "originalUrl": "https://pypi.org/",
+    "domain": "pypi.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "PyPI verteilt Pakete für die Sprache Python.",
+    "longDescriptionDe": "Der Python Package Index zeigt Beschreibungen und Versionen und liefert die Dateien an pip. Die Suche ist ohne Konto möglich. Eine OSI-Kennung des Index wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Pakete für Python",
+      "Versionen und Dateien",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Paket zu finden",
+      "Die aktuelle Version nachzusehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Flathub",
+    "originalUrl": "https://flathub.org/",
+    "domain": "flathub.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Flathub verteilt Anwendungen als Flatpak für den Linux-Desktop.",
+    "longDescriptionDe": "Flathub listet Programme und installiert sie in einer eigenen Umgebung. Die Suche ist ohne Konto möglich. Eine OSI-Kennung des Katalogs wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Anwendungen als Flatpak",
+      "Eigene Umgebung je App",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Desktop-Anwendung zu installieren",
+      "Ein Programm unabhängig von der Distribution zu beziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "NixOS",
+    "originalUrl": "https://nixos.org/",
+    "domain": "nixos.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "NixOS ist ein Linux-System, dessen Aufbau in einer Konfiguration steht.",
+    "longDescriptionDe": "NixOS beschreibt Pakete und Dienste deklarativ und kann einen Stand zurücksetzen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das System ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Deklarative Konfiguration",
+      "Zurücksetzen eines Stands",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Server aus einer Konfigurationsdatei zu bauen",
+      "Einen Stand zurückzusetzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ansible",
+    "originalUrl": "https://www.ansible.com/",
+    "domain": "ansible.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Ansible richtet Server nach einer Beschreibung ein, ohne einen Agenten.",
+    "longDescriptionDe": "Ansible spielt Playbooks über SSH auf Maschinen. Eine OSI-Kennung der aktuellen Ausgabe wird hier nicht eingetragen. Die Engine ist ohne Pflichtabo erhältlich, Automation Controller ist bezahlt.",
+    "featuresDe": [
+      "Einrichtung über SSH",
+      "Playbooks",
+      "Engine ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Mehrere Server gleich einzurichten",
+      "Einen Ablauf zu wiederholen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Terraform",
+    "originalUrl": "https://www.terraform.io/",
+    "domain": "terraform.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Terraform beschreibt Infrastruktur als Datei und legt sie an.",
+    "longDescriptionDe": "Terraform plant Änderungen an Servern und Netzen und führt sie aus. Die Lizenz der aktuellen Ausgabe ist keine durchgängig bestätigte OSI-Lizenz, der Lizenztyp bleibt Unbekannt. Es gibt die Engine und bezahlte Team-Funktionen.",
+    "featuresDe": [
+      "Infrastruktur als Datei",
+      "Plan und Ausführung",
+      "Lizenz nicht als OSI geführt"
+    ],
+    "useCasesDe": [
+      "Einen Server aus einer Datei anzulegen",
+      "Eine Änderung vor dem Anwenden zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenTofu",
+    "originalUrl": "https://opentofu.org/",
+    "domain": "opentofu.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "OpenTofu beschreibt Infrastruktur als Datei, hervorgegangen aus Terraform.",
+    "longDescriptionDe": "OpenTofu liest Konfigurationen und legt Ressourcen an. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Infrastruktur als Datei",
+      "Anlegen von Ressourcen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Infrastruktur ohne die Terraform-Lizenz zu bauen",
+      "Einen Plan vor dem Anwenden zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Helm",
+    "originalUrl": "https://helm.sh/",
+    "domain": "helm.sh",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Helm packt Anwendungen für Kubernetes in Charts.",
+    "longDescriptionDe": "Helm installiert und aktualisiert eine Anwendung anhand eines Charts. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Charts für Kubernetes",
+      "Installation und Update",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Anwendung in ein Cluster zu spielen",
+      "Ein Chart zu aktualisieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Jenkins",
+    "originalUrl": "https://www.jenkins.io/",
+    "domain": "jenkins.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Jenkins baut und prüft Software, sobald sich der Code ändert.",
+    "longDescriptionDe": "Jenkins führt Jobs auf dem eigenen Server aus. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Builds bei Codeänderung",
+      "Eigener Server",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Build nach jedem Push zu starten",
+      "Einen Job auf dem eigenen Server zu betreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Git",
+    "originalUrl": "https://git-scm.com/",
+    "domain": "git-scm.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Git merkt sich Versionen eines Projekts und Zweige davon.",
+    "longDescriptionDe": "Git speichert Änderungen lokal und kann sie mit einem Server abgleichen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Versionen und Zweige",
+      "Abgleich mit einem Server",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Den Verlauf eines Projekts zu sichern",
+      "Einen Zweig für eine Änderung anzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Node.js",
+    "originalUrl": "https://nodejs.org/",
+    "domain": "nodejs.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Node.js führt JavaScript außerhalb des Browsers aus.",
+    "longDescriptionDe": "Node.js stellt die Laufzeit und einen Paketmanager bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Laufzeit ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "JavaScript auf dem Server",
+      "Paketmanager",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Skript außerhalb des Browsers zu starten",
+      "Eine kleine Webanwendung zu betreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Vite",
+    "originalUrl": "https://vitejs.dev/",
+    "domain": "vitejs.dev",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Vite startet eine Entwicklungsumgebung für Weboberflächen und baut sie für die Auslieferung.",
+    "longDescriptionDe": "Vite lädt Module beim Entwickeln schnell nach und erzeugt ein Bundle. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Entwicklungsserver",
+      "Bundle für die Auslieferung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Oberfläche lokal zu starten",
+      "Ein Projekt für die Veröffentlichung zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Astro",
+    "originalUrl": "https://astro.build/",
+    "domain": "astro.build",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "design"
+    ],
+    "shortDescriptionDe": "Astro baut inhaltslastige Websites und schickt wenig JavaScript an den Browser.",
+    "longDescriptionDe": "Astro mischt Seiten und Komponenten und kann sie statisch ausliefern. Eine OSI-Kennung wird hier nicht eingetragen. Das Framework ist ohne Pflichtabo erhältlich, die Plattform hat bezahlte Stufen.",
+    "featuresDe": [
+      "Inhaltslastige Websites",
+      "Wenig JavaScript im Browser",
+      "Framework ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Dokumentationsseite zu bauen",
+      "Eine Website statisch auszuliefern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Svelte",
+    "originalUrl": "https://svelte.dev/",
+    "domain": "svelte.dev",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Svelte beschreibt Oberflächen, die der Compiler in schlankes JavaScript übersetzt.",
+    "longDescriptionDe": "Svelte schreibt Komponenten und erzeugt daraus den Code für den Browser. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Framework ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Komponenten",
+      "Compiler statt Laufzeitbibliothek",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Oberfläche mit wenig Laufzeit zu bauen",
+      "Eine Komponente zu schreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Vue",
+    "originalUrl": "https://vuejs.org/",
+    "domain": "vuejs.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Vue baut Oberflächen aus Komponenten im Browser.",
+    "longDescriptionDe": "Vue verbindet Vorlage und Daten einer Komponente. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Framework ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Komponenten",
+      "Vorlage und Daten",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Oberfläche in Komponenten zu teilen",
+      "Daten an eine Vorlage zu binden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "React",
+    "originalUrl": "https://react.dev/",
+    "domain": "react.dev",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "React beschreibt Oberflächen als Funktionen, die bei Datenänderung neu zeichnen.",
+    "longDescriptionDe": "Die Dokumentation auf react.dev erklärt Komponenten und den Abgleich mit dem Browser. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Bibliothek ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Komponenten als Funktionen",
+      "Abgleich mit dem Browser",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Oberfläche in Komponenten zu zerlegen",
+      "Die Dokumentation zu einem Hook zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "htmx",
+    "originalUrl": "https://htmx.org/",
+    "domain": "htmx.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "htmx lässt HTML selbst Anfragen auslösen und Teile der Seite ersetzen.",
+    "longDescriptionDe": "htmx hängt Attribute an Elemente, die einen Ausschnitt vom Server nachladen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Bibliothek ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Anfragen aus HTML",
+      "Ersetzen von Ausschnitten",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Formular ohne eigenes JavaScript nachzuladen",
+      "Einen Ausschnitt der Seite zu ersetzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tailwind CSS",
+    "originalUrl": "https://tailwindcss.com/",
+    "domain": "tailwindcss.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "design",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Tailwind setzt das Aussehen über viele kleine Klassen im HTML.",
+    "longDescriptionDe": "Tailwind erzeugt aus den genutzten Klassen eine CSS-Datei. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Framework ist ohne Pflichtabo erhältlich, UI-Baukasten und Plus sind bezahlt.",
+    "featuresDe": [
+      "Kleine Klassen im HTML",
+      "Erzeugte CSS-Datei",
+      "Framework ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Seite ohne eigene CSS-Datei zu gestalten",
+      "Abstände und Farben über Klassen zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Firefox",
+    "originalUrl": "https://www.mozilla.org/de/firefox/",
+    "domain": "mozilla.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Firefox ist ein Browser der Mozilla Foundation mit Tracking-Schutz.",
+    "longDescriptionDe": "Firefox öffnet Seiten und blockiert in der Voreinstellung bekannte Tracker. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Browser ist ohne Abo erhältlich.",
+    "featuresDe": [
+      "Browser mit Tracking-Schutz",
+      "Deutsche Seite von Mozilla",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Seiten mit weniger Trackern zu öffnen",
+      "Einen Browser ohne Abo zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tor Browser",
+    "originalUrl": "https://www.torproject.org/",
+    "domain": "torproject.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Tor Browser leitet Seitenaufrufe über das Tor-Netz.",
+    "longDescriptionDe": "Das Tor Project stellt den Browser bereit, der Anfragen über mehrere Stationen schickt. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Browser ist ohne Abo erhältlich.",
+    "featuresDe": [
+      "Aufrufe über das Tor-Netz",
+      "Browser des Tor Project",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Seite über das Tor-Netz zu öffnen",
+      "Die Dokumentation des Projekts zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "tagesschau",
+    "originalUrl": "https://www.tagesschau.de/",
+    "domain": "tagesschau.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die tagesschau veröffentlicht Nachrichten des öffentlich-rechtlichen Rundfunks.",
+    "longDescriptionDe": "tagesschau.de zeigt Meldungen, die ohne Abo lesbar sind. Das Angebot kommt von der ARD.",
+    "featuresDe": [
+      "Nachrichten der ARD",
+      "Meldungen ohne Abo",
+      "Öffentlich-rechtliches Angebot"
+    ],
+    "useCasesDe": [
+      "Eine Meldung des Tages zu lesen",
+      "Ein Thema in der Übersicht zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Handelsblatt",
+    "originalUrl": "https://www.handelsblatt.com/",
+    "domain": "handelsblatt.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Das Handelsblatt berichtet über Wirtschaft und Unternehmen.",
+    "longDescriptionDe": "Ein Teil der Meldungen ist frei, längere Analysen liegen hinter einem kostenpflichtigen Zugang. Der Verlag sitzt in Düsseldorf.",
+    "featuresDe": [
+      "Wirtschaftsnachrichten",
+      "Freie Meldungen und kostenpflichtige Analysen",
+      "Verlag aus Düsseldorf"
+    ],
+    "useCasesDe": [
+      "Eine Meldung zu einem Unternehmen zu lesen",
+      "Eine Analyse einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FRITZ!Box",
+    "originalUrl": "https://www.fritz.com/",
+    "domain": "fritz.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "AVM verkauft FRITZ!Box-Router und das System FRITZ!OS.",
+    "longDescriptionDe": "Die FRITZ!Box stellt WLAN, Telefonie und ein Heimnetz bereit. Der Hersteller sitzt in Berlin. Die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "WLAN, Telefonie und Heimnetz",
+      "Hersteller aus Berlin",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Einen Router für zu Hause auszuwählen",
+      "Das Heimnetz einzurichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "IONOS",
+    "originalUrl": "https://www.ionos.de/",
+    "domain": "ionos.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "IONOS vermietet Domains, Hosting und Server.",
+    "longDescriptionDe": "IONOS legt Seiten, Mail und Domains an. Der Anbieter sitzt in Deutschland. Die Pakete sind kostenpflichtig.",
+    "featuresDe": [
+      "Domains, Hosting und Server",
+      "Mail",
+      "Kostenpflichtige Pakete"
+    ],
+    "useCasesDe": [
+      "Eine Domain mit Webspace zu mieten",
+      "Mail zur Domain einzurichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cloudflare",
+    "originalUrl": "https://www.cloudflare.com/",
+    "domain": "cloudflare.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Cloudflare stellt DNS, Schutz und Auslieferung für Websites bereit.",
+    "longDescriptionDe": "Cloudflare schaltet eine Domain davor und kann Inhalte zwischenspeichern. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "DNS und Auslieferung",
+      "Schutz davor",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Website über Cloudflare zu schalten",
+      "DNS einer Domain zu verwalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Docker",
+    "originalUrl": "https://www.docker.com/",
+    "domain": "docker.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Docker packt Anwendungen in Container und startet sie gleich auf jedem Rechner.",
+    "longDescriptionDe": "Docker baut Images und startet sie lokal oder in einer Registry. Es gibt eine kostenlose Desktop-Nutzung für viele Fälle und bezahlte Team-Pläne. Die Marke und die gehosteten Dienste sind proprietär.",
+    "featuresDe": [
+      "Container aus Images",
+      "Lokaler Start und Registry",
+      "Kostenlose Desktop-Nutzung und bezahlte Pläne"
+    ],
+    "useCasesDe": [
+      "Eine Anwendung in einem Container zu starten",
+      "Ein Image zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "audiotranskription",
+    "originalUrl": "https://www.audiotranskription.de/",
+    "domain": "audiotranskription.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "recherche"
+    ],
+    "shortDescriptionDe": "audiotranskription liefert f4 und f5 zum Abtippen von Interviews.",
+    "longDescriptionDe": "Die Programme spielen Audio langsam ab und setzen Zeitmarken in den Text. Der Anbieter sitzt in Marburg. Es gibt Testversionen und kostenpflichtige Lizenzen.",
+    "featuresDe": [
+      "Langsames Abspielen",
+      "Zeitmarken im Text",
+      "Testversion und kostenpflichtige Lizenzen"
+    ],
+    "useCasesDe": [
+      "Ein Interview abzutippen",
+      "Eine Stelle im Ton wiederzufinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Alexander von Humboldt-Stiftung",
+    "originalUrl": "https://www.humboldt-foundation.de/",
+    "domain": "humboldt-foundation.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Humboldt-Stiftung vergibt Stipendien für Forschende aus dem Ausland und aus Deutschland.",
+    "longDescriptionDe": "Die Stiftung beschreibt Programme und Fristen. Die Informationsseiten sind ohne Konto lesbar. Ein Stipendium setzt einen Antrag voraus.",
+    "featuresDe": [
+      "Stipendien für Forschende",
+      "Programme und Fristen",
+      "Informationen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Programm für einen Forschungsaufenthalt zu finden",
+      "Eine Frist nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BAföG-Rechner",
+    "originalUrl": "https://www.bafoeg-rechner.de/",
+    "domain": "bafoeg-rechner.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Der BAföG-Rechner schätzt den möglichen Anspruch auf Ausbildungsförderung.",
+    "longDescriptionDe": "Die Seite rechnet aus eingegebenen Angaben eine Orientierung. Die Nutzung des Rechners ist ohne Konto möglich. Der Antrag selbst läuft über das Amt.",
+    "featuresDe": [
+      "Schätzung des BAföG",
+      "Orientierung aus Angaben",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen möglichen Anspruch grob zu schätzen",
+      "Zu sehen, welche Angaben zählen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Formlabs",
+    "originalUrl": "https://www.formlabs.com/de/",
+    "domain": "formlabs.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Formlabs verkauft Kunstharz-Drucker für feine Teile.",
+    "longDescriptionDe": "Formlabs liefert Drucker, die mit flüssigem Harz arbeiten, und die passenden Materialien. Die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "Kunstharz-Drucker",
+      "Materialien",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Einen Drucker für feine Teile einzuordnen",
+      "Ein Material nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
