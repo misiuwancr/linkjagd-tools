@@ -31,7 +31,7 @@ Voice.ai stand bei FutureTools hinter einem Xsolla-Link. Gespeichert ist `https:
 
 ## Spätere Prüfung
 
-Die Erweiterung veröffentlicht geprüfte Tools auch ohne eigenen Partnerlink. `/go/[slug]` geht zum hinterlegten Affiliate-Link, wenn einer aktiv ist, sonst zur offiziellen Website ohne Zusatzparameter. GeoSpy, Maze und Godmode sowie tote Domains bleiben archiviert. Die kuratierte Liste liegt in `data/verified-tools.json`. Wiederholen mit `npm run import:verified`. Manuelle Admin-Speicherungen setzen `content_locked` und werden nicht überschrieben.
+Die Erweiterung veröffentlicht geprüfte Tools auch ohne eigenen Partnerlink. `/go/[slug]` geht zum hinterlegten Affiliate-Link, wenn einer aktiv ist, sonst zur offiziellen Website ohne Zusatzparameter. GeoSpy, Maze und Godmode sowie tote Domains bleiben archiviert. Die kuratierte Liste liegt in `data/verified-tools.json`. Die zweite Liste, `data/verified-tools-batch2.json`, ergänzt Lücken bei E-Commerce, Automatisierung, Bildung, Design, Marketing, Text, Entwicklung, Recherche und selbst betreibbaren Werkzeugen. Beschreibungen sind eigen, nicht von FutureTools übernommen. Ein Open-Source-Eintrag setzt eine gelesene OSI-Lizenzdatei voraus. `npm run import:verified` liest beide Dateien, legt neue Zeilen als Entwurf an und veröffentlicht sie, wenn sie geprüft und nicht gesperrt sind. Manuelle Admin-Speicherungen setzen `content_locked` und werden nicht überschrieben.
 
 ## Wiederholen
 

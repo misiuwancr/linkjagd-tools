@@ -7,7 +7,10 @@ import { getDb } from "@/db/client";
 import { importDiscoveredTool } from "@/lib/import/service";
 import { saveAffiliateRecord } from "@/lib/tools/mutations";
 import { getToolBySlug, refreshSearchText } from "@/lib/tools/repository";
-import catalog from "@/data/verified-tools.json";
+import catalogA from "@/data/verified-tools.json";
+import catalogB from "@/data/verified-tools-batch2.json";
+
+const catalog = [...catalogA, ...catalogB];
 
 const deadNames = [
   "GeoSpy.ai",

@@ -63,7 +63,7 @@ Migrationen liegen in `migrations/` und laufen über `npm run db:migrate` oder b
 
 Die Beispiele sind gekennzeichnet, haben keine Partnerlinks und verlinken ihre `.example`-Adressen nicht. Echte Affiliate-URLs gehören nicht in den Seed. Testdaten mit `example.com` existieren nur in den Tests.
 
-`npm run import:verified` legt geprüfte Tools zuerst als Entwurf an und veröffentlicht sie danach. Ohne eigenen Partnerlink führt `/go` zur offiziellen Website. Herkunft: [`docs/FUTURETOOLS-TOP100.md`](docs/FUTURETOOLS-TOP100.md).
+`npm run import:verified` legt geprüfte Tools zuerst als Entwurf an und veröffentlicht sie danach. Die zweite Liste liegt in `data/verified-tools-batch2.json` und wird mit importiert. Ohne eigenen Partnerlink führt `/go` zur offiziellen Website. Herkunft: [`docs/FUTURETOOLS-TOP100.md`](docs/FUTURETOOLS-TOP100.md).
 
 ## Umgebung
 

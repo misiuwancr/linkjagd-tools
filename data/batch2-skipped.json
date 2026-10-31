@@ -1,0 +1,12 @@
+[
+  {
+    "name": "RawTherapee",
+    "url": "https://www.rawtherapee.com/",
+    "reason": "HTTP 429"
+  },
+  {
+    "name": "GPT4All",
+    "url": "https://www.nomic.ai/gpt4all",
+    "reason": "robots.txt untersagt die Adresse"
+  }
+]
