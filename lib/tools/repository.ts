@@ -198,6 +198,29 @@ export async function listWeeklyPopular(database: AppDatabase, sinceDay: string,
   return attachRelations(database, ordered);
 }
 
+export async function listAlternativePool(database: AppDatabase, tool: ToolWithRelations, limit = 24) {
+  if (tool.categories.length === 0) return [];
+  const slugs = tool.categories.map((category) => category.slug);
+  const rows = await database
+    .select()
+    .from(tools)
+    .where(
+      and(
+        eq(tools.publishStatus, "published"),
+        eq(tools.isExample, false),
+        sql`${tools.id} != ${tool.id}`,
+        sql`${tools.id} in (
+          select tc.tool_id from tool_categories tc
+          inner join categories c on c.id = tc.category_id
+          where c.slug in (${sql.join(slugs.map((slug) => sql`${slug}`), sql`, `)})
+        )`,
+      ),
+    )
+    .orderBy(desc(tools.featured), asc(tools.name))
+    .limit(limit);
+  return attachRelations(database, rows);
+}
+
 export async function listCategories(database: AppDatabase) {
   const rows = await database.select().from(categories).orderBy(asc(categories.sortOrder), asc(categories.name));
   const counts = await database

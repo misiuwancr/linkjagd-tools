@@ -1,0 +1,63 @@
+export const ALTERNATIVE_SLUGS = [
+  "chatgpt",
+  "claude",
+  "gemini",
+  "deepseek-chat",
+  "mistral",
+  "microsoft-copilot",
+  "github-copilot",
+  "notion",
+  "obsidian",
+  "todoist",
+  "trello",
+  "asana",
+  "jira",
+  "linear",
+  "slack",
+  "discord",
+  "zoom",
+  "loom",
+  "calendly",
+  "deepl",
+  "grammarly",
+  "wordtune",
+  "figma",
+  "photopea",
+  "gimp",
+  "krita",
+  "inkscape",
+  "blender",
+  "midjourney",
+  "leonardo-ai",
+  "runway",
+  "suno",
+  "eleven-labs",
+  "descript",
+  "otter",
+  "capcut",
+  "audacity",
+  "vlc",
+  "obs-studio",
+  "wordpress",
+  "webflow",
+  "shopify",
+  "make",
+  "zapier",
+  "n8n",
+  "mailchimp",
+  "hubspot",
+  "bitwarden",
+  "firefox",
+  "libreoffice",
+  "anki",
+  "duolingo",
+] as const;
+
+export function isAlternativeSlug(slug: string) {
+  return (ALTERNATIVE_SLUGS as readonly string[]).includes(slug);
+}
+
+export function alternativeIntro(name: string, category: string | undefined) {
+  const topic = category ? ` im Bereich ${category}` : "";
+  return `${name} ist im Verzeichnis erfasst${topic}. Diese Seite stellt andere veröffentlichte Tools daneben, die mindestens eine Kategorie teilen. Kostenlose Einträge und Open-Source-Programme stehen in eigenen Abschnitten. Es gibt keine Nutzerwertung und keine erfundene Reihenfolge.`;
+}

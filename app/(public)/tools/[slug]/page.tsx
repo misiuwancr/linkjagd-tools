@@ -13,6 +13,7 @@ import { ToolLogo } from "@/components/tool-logo";
 import { getToolBySlug, listSimilar } from "@/lib/tools/repository";
 import { toPublicTool } from "@/lib/tools/public";
 import { softwareOffer, toolMetaTitle } from "@/lib/seo";
+import { isAlternativeSlug } from "@/lib/alternatives";
 
 export const revalidate = 60;
 
@@ -289,7 +290,14 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             </section>
           ) : null}
           <section>
-            <h2 className="text-2xl font-bold tracking-tight">Ähnliche Tools</h2>
+            <div className="flex flex-wrap items-end justify-between gap-3">
+              <h2 className="text-2xl font-bold tracking-tight">Ähnliche Tools</h2>
+              {isAlternativeSlug(tool.slug) ? (
+                <Link href={`/alternativen/${tool.slug}`} className="text-sm font-medium text-hunt hover:underline">
+                  Alternativen zu {tool.name}
+                </Link>
+              ) : null}
+            </div>
             {similar.length === 0 ? (
               <p className="mt-4 text-sm text-muted-foreground">In dieser Kategorie gibt es noch keine weiteren veröffentlichten Tools.</p>
             ) : (
