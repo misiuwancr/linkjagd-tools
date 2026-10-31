@@ -1,0 +1,148 @@
+[
+  {
+    "name": "StartMail",
+    "originalUrl": "https://www.startmail.com/",
+    "domain": "startmail.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "StartMail ist ein E-Mail-Dienst mit Verschlüsselung und eigenem Postfach.",
+    "longDescriptionDe": "StartMail legt ein Postfach an und kann Nachrichten verschlüsseln. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Eigenes Postfach",
+      "Verschlüsselung",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Mail über einen eigenen Anbieter zu lesen",
+      "Eine Nachricht verschlüsselt zu senden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ConnectWise",
+    "originalUrl": "https://www.connectwise.com/",
+    "domain": "connectwise.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "ConnectWise steuert Fernwartung, Tickets und Abläufe für IT-Teams.",
+    "longDescriptionDe": "ConnectWise bündelt Sitzungen auf fremden Rechnern und die zugehörigen Tickets. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Fernwartung",
+      "Tickets",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Rechner im Support zu öffnen",
+      "Ein Ticket zur Sitzung zu führen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "finAPI",
+    "originalUrl": "https://www.finapi.io/",
+    "domain": "finapi.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "finAPI verbindet Anwendungen mit Bankkonten über eine Schnittstelle.",
+    "longDescriptionDe": "finAPI holt Umsätze und Kontostände für eine eigene App. Es gibt einen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Bankdaten per Schnittstelle",
+      "Umsätze",
+      "Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Umsätze in eine eigene App zu holen",
+      "Ein Konto anzubinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Square",
+    "originalUrl": "https://www.square.com/",
+    "domain": "square.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Square nimmt Zahlungen an der Kasse und im Onlineshop entgegen.",
+    "longDescriptionDe": "Square verbindet Kartenleser, Kasse und eine Rechnung. Es gibt einen Einstieg und Gebühren je Zahlung.",
+    "featuresDe": [
+      "Kasse und Onlineshop",
+      "Kartenzahlung",
+      "Einstieg und Gebühren je Zahlung"
+    ],
+    "useCasesDe": [
+      "Eine Zahlung vor Ort anzunehmen",
+      "Einen Beleg aus der Kasse zu erstellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zettle",
+    "originalUrl": "https://www.zettle.com/",
+    "domain": "zettle.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Zettle nimmt Zahlungen an der Kasse entgegen und führt den Umsatz.",
+    "longDescriptionDe": "Zettle verbindet ein Lesegerät mit einer Kassen-App. Es gibt einen Einstieg und Gebühren je Zahlung.",
+    "featuresDe": [
+      "Kassen-App",
+      "Kartenzahlung",
+      "Gebühren je Zahlung"
+    ],
+    "useCasesDe": [
+      "An einem Stand Karte zu akzeptieren",
+      "Den Umsatz des Tages zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
