@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getDb } from "@/db/client";
 import { Flash } from "@/components/admin/shell";
-import { affiliateStatusLabel, pricingLabel, publishLabels } from "@/lib/labels";
+import { pricingLabel, programPresenceLabel, publishLabels } from "@/lib/labels";
 import { listTools } from "@/lib/tools/repository";
 import type { ToolListQuery } from "@/lib/tools/query";
 
@@ -10,9 +10,10 @@ export const dynamic = "force-dynamic";
 export default async function AdminToolsPage({
   searchParams,
 }: {
-  searchParams: { gespeichert?: string; fehler?: string; status?: string };
+  searchParams: { gespeichert?: string; fehler?: string; status?: string; partner?: string };
 }) {
   const status = searchParams.status === "draft" || searchParams.status === "archived" || searchParams.status === "published" ? searchParams.status : "all";
+  const partnerGap = searchParams.partner === "offen";
   const query: ToolListQuery = {
     q: "",
     categorySlug: "",
@@ -20,11 +21,12 @@ export default async function AdminToolsPage({
     license: "",
     sort: "newest",
     page: 1,
-    pageSize: 100,
+    pageSize: partnerGap ? 200 : 100,
     status,
     featuredOnly: false,
     rankedOnly: false,
     excludeExamples: false,
+    partnerGap,
     discoverySources: [],
   };
   const result = await listTools(await getDb(), query);
@@ -51,6 +53,13 @@ export default async function AdminToolsPage({
             {label}
           </Link>
         ))}
+        <Link
+          href="/admin/tools?partner=offen"
+          className={partnerGap ? "rounded-full bg-primary px-3 py-1 font-medium text-primary-foreground" : "rounded-full border border-border bg-card px-3 py-1"}
+          aria-current={partnerGap ? "true" : undefined}
+        >
+          Partnerprogramm vorhanden, aber noch kein Link hinterlegt
+        </Link>
       </div>
       <div className="mt-4 overflow-hidden rounded-2xl border border-border bg-card">
         <table className="w-full min-w-[720px] text-left text-sm">
@@ -59,12 +68,18 @@ export default async function AdminToolsPage({
               <th className="px-4 py-3 font-medium">Name</th>
               <th className="px-4 py-3 font-medium">Status</th>
               <th className="px-4 py-3 font-medium">Preis</th>
-              <th className="px-4 py-3 font-medium">Partner</th>
+              <th className="px-4 py-3 font-medium">Partnerprogramm vorhanden</th>
+              <th className="px-4 py-3 font-medium">Eigenen Link</th>
             </tr>
           </thead>
           <tbody>
             {result.items.map((tool) => {
-              const active = tool.programs.find((program) => program.isActive);
+              const presence = tool.programs.some((program) => program.programPresence === "yes")
+                ? "yes"
+                : tool.programs.some((program) => program.programPresence === "no")
+                  ? "no"
+                  : "unknown";
+              const hasOwnLink = tool.programs.some((program) => program.affiliateUrl && program.isActive && program.status === "active");
               return (
                 <tr key={tool.id} className="border-b border-border last:border-0">
                   <td className="px-4 py-3">
@@ -75,7 +90,8 @@ export default async function AdminToolsPage({
                   </td>
                   <td className="px-4 py-3">{publishLabels[tool.publishStatus]}</td>
                   <td className="px-4 py-3">{pricingLabel(tool.pricingModel)}</td>
-                  <td className="px-4 py-3">{active ? affiliateStatusLabel(active.status) : "Keiner aktiv"}</td>
+                  <td className="px-4 py-3">{programPresenceLabel(presence)}{presence === "yes" && !hasOwnLink ? ", Link fehlt" : ""}</td>
+                  <td className="px-4 py-3">{hasOwnLink ? "hinterlegt" : "keiner"}</td>
                 </tr>
               );
             })}

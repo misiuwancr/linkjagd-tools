@@ -4,7 +4,7 @@ import { deleteAffiliateAction, deleteToolAction, saveAffiliateAction, statusAct
 import { Flash } from "@/components/admin/shell";
 import { ToolForm } from "@/components/admin/tool-form";
 import { listAffiliateNetworks } from "@/lib/affiliate/registry";
-import { affiliateStatusOptions, publishLabels } from "@/lib/labels";
+import { affiliateStatusOptions, programPresenceOptions, publishLabels } from "@/lib/labels";
 import { parseStringList } from "@/lib/utils";
 import { getToolById, listCategories } from "@/lib/tools/repository";
 
@@ -80,7 +80,21 @@ export default async function EditToolPage({
               <input type="hidden" name="programId" value={program.id} />
               <div className="grid gap-3 sm:grid-cols-2">
                 <label className="grid gap-1 text-sm font-medium">
-                  Affiliate-URL
+                  Partnerprogramm vorhanden
+                  <select name="programPresence" defaultValue={program.programPresence} className="field">
+                    {programPresenceOptions.map((item) => (
+                      <option key={item.value} value={item.value}>
+                        {item.label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="grid gap-1 text-sm font-medium sm:col-span-2">
+                  Programmseite, nur intern, keine Weiterleitung
+                  <input name="programInfoUrl" type="url" defaultValue={program.programInfoUrl ?? ""} className="field" placeholder="Öffentliche Anmelde- oder Infoseite" />
+                </label>
+                <label className="grid gap-1 text-sm font-medium">
+                  Affiliate-URL, nur der eigene Link
                   <input name="affiliateUrl" defaultValue={program.affiliateUrl ?? ""} className="field" />
                 </label>
                 <label className="grid gap-1 text-sm font-medium">
@@ -138,7 +152,15 @@ export default async function EditToolPage({
         <form action={saveAffiliateAction} className="mt-6 grid gap-3 border-t border-border pt-6">
           <h3 className="font-medium">Programm hinzufügen</h3>
           <input type="hidden" name="toolId" value={tool.id} />
-          <input name="affiliateUrl" placeholder="Affiliate-URL, falls schon vorhanden" className="field" />
+          <select name="programPresence" className="field" defaultValue="unknown">
+            {programPresenceOptions.map((item) => (
+              <option key={item.value} value={item.value}>
+                Partnerprogramm: {item.label}
+              </option>
+            ))}
+          </select>
+          <input name="programInfoUrl" type="url" placeholder="Programmseite, nur intern" className="field" />
+          <input name="affiliateUrl" placeholder="Eigener Affiliate-Link, falls schon vorhanden" className="field" />
           <div className="grid gap-3 sm:grid-cols-2">
             <select name="network" className="field" defaultValue="manual">
               {networks.map((network) => (

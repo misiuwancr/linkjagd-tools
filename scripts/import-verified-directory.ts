@@ -9,8 +9,9 @@ import { saveAffiliateRecord } from "@/lib/tools/mutations";
 import { getToolBySlug, refreshSearchText } from "@/lib/tools/repository";
 import catalogA from "@/data/verified-tools.json";
 import catalogB from "@/data/verified-tools-batch2.json";
+import catalogC from "@/data/verified-tools-batch3.json";
 
-const catalog = [...catalogA, ...catalogB];
+const catalog = [...catalogA, ...catalogB, ...catalogC];
 
 const deadNames = [
   "GeoSpy.ai",
@@ -28,7 +29,11 @@ const deadNames = [
   "Musenet (OpenAI)",
 ];
 
-type Entry = (typeof catalog)[number];
+type Entry = (typeof catalog)[number] & {
+  programInfoUrl?: string;
+  programPresence?: "yes" | "no" | "unknown";
+  network?: string;
+};
 
 function missing(entry: Entry) {
   const gaps: string[] = [];
@@ -67,7 +72,7 @@ async function main() {
     }
   }
 
-  for (const entry of catalog) {
+  for (const entry of catalog as Entry[]) {
     try {
       const imported = await importDiscoveredTool(database, {
         name: entry.name,
@@ -120,22 +125,71 @@ async function main() {
       await refreshSearchText(database, id);
       const programs = await database.select().from(affiliatePrograms).where(eq(affiliatePrograms.toolId, id));
       const hasOwnLink = programs.some((program) => program.affiliateUrl && program.isActive && program.status === "active");
-      if (!hasOwnLink && !programs.some((program) => (program.notes || "").includes("verified-import"))) {
-        const saved = await saveAffiliateRecord(database, id, {
-          affiliateUrl: "",
-          network: "manual",
-          partnerProgramId: "",
-          status: entry.partnerStatus,
-          priority: 0,
-          isActive: false,
-          notes: note(entry),
-        });
+      if (!hasOwnLink) {
+        const target =
+          programs.find((program) => (program.notes || "").includes("verified-import")) ||
+          programs.find((program) => (program.notes || "").includes("futuretools-top100")) ||
+          programs.find((program) => !program.affiliateUrl) ||
+          null;
+        const saved = await saveAffiliateRecord(
+          database,
+          id,
+          {
+            affiliateUrl: target?.affiliateUrl || "",
+            programInfoUrl: entry.programInfoUrl || target?.programInfoUrl || "",
+            programPresence: entry.programPresence || target?.programPresence || (entry.partnerStatus === "found" ? "yes" : "unknown"),
+            network: entry.network || target?.network || "manual",
+            partnerProgramId: target?.partnerProgramId || "",
+            status: entry.partnerStatus === "found" ? "found" : target?.status || entry.partnerStatus,
+            priority: target?.priority ?? 0,
+            isActive: false,
+            notes: target?.notes || note(entry),
+          },
+          target?.id,
+        );
         if (!saved.ok) errors.push(`${entry.name}: ${saved.error}`);
       }
       if (imported.ok) created += 1;
       else updated += 1;
     } catch (error) {
       errors.push(`${entry.name}: ${error instanceof Error ? error.message : "Fehler"}`);
+    }
+  }
+
+  const partnerFile = path.join(process.cwd(), "data", "partner-programs.json");
+  if (fs.existsSync(partnerFile)) {
+    const pages = JSON.parse(fs.readFileSync(partnerFile, "utf8")) as Array<{
+      slug: string;
+      network: string;
+      programInfoUrl: string;
+    }>;
+    for (const page of pages) {
+      const tool = await getToolBySlug(database, page.slug);
+      if (!tool) {
+        errors.push(`Programmseite ${page.slug}: Tool fehlt`);
+        continue;
+      }
+      const programs = await database.select().from(affiliatePrograms).where(eq(affiliatePrograms.toolId, tool.id));
+      const hasOwnLink = programs.some((program) => program.affiliateUrl && program.isActive && program.status === "active");
+      if (hasOwnLink) continue;
+      const target = programs.find((program) => !program.affiliateUrl) ?? programs[0] ?? null;
+      const saved = await saveAffiliateRecord(
+        database,
+        tool.id,
+        {
+          affiliateUrl: "",
+          programInfoUrl: page.programInfoUrl,
+          programPresence: "yes",
+          network: page.network,
+          partnerProgramId: target?.partnerProgramId || "",
+          status: "found",
+          priority: target?.priority ?? 0,
+          isActive: false,
+          notes: target?.notes || "verified-import. Programmseite geprüft. Kein eigener Affiliate-Link gespeichert.",
+        },
+        target?.id,
+      );
+      if (!saved.ok) errors.push(`Programmseite ${page.slug}: ${saved.error}`);
     }
   }
 

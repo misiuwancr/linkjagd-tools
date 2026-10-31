@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { affiliateStatuses, licenseTypes, pricingModels, publishStatuses } from "@/db/schema";
+import { affiliateStatuses, licenseTypes, pricingModels, programPresences, publishStatuses } from "@/db/schema";
 import { domainFromUrl } from "@/lib/utils";
 
 z.setErrorMap((issue, ctx) => {
@@ -61,6 +61,8 @@ export const toolInputSchema = z.object({
 
 export const affiliateInputSchema = z.object({
   affiliateUrl: z.string().trim().max(2000).optional().default(""),
+  programInfoUrl: z.string().trim().max(2000).optional().default(""),
+  programPresence: z.enum(programPresences).optional().default("unknown"),
   network: z.string().trim().min(2).max(40),
   partnerProgramId: z.string().trim().max(120).optional().default(""),
   status: z.enum(affiliateStatuses),

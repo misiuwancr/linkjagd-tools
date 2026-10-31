@@ -167,6 +167,8 @@ export async function saveAffiliateAction(formData: FormData) {
     toolId,
     {
       affiliateUrl: formData.get("affiliateUrl") || "",
+      programInfoUrl: formData.get("programInfoUrl") || "",
+      programPresence: formData.get("programPresence") || "unknown",
       network: formData.get("network"),
       partnerProgramId: formData.get("partnerProgramId") || "",
       status: formData.get("status"),

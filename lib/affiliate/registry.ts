@@ -46,6 +46,11 @@ export const affiliateNetworks: AffiliateNetworkAdapter[] = [
     "Partnerize",
     "Platzhalter. Keine automatische Link-Erzeugung.",
   ),
+  new PlaceholderNetwork(
+    "partnerstack",
+    "PartnerStack",
+    "Öffentliche Anmeldeseite eines PartnerStack-Programms. Kein eigener Affiliate-Link und keine API.",
+  ),
 ];
 
 const byId = new Map(affiliateNetworks.map((network) => [network.id, network]));

@@ -28,6 +28,14 @@ function filters(query: ToolListQuery): SQL[] {
   if (query.featuredOnly) parts.push(eq(tools.featured, true));
   if (query.rankedOnly) parts.push(sql`${tools.editorialRank} is not null`);
   if (query.excludeExamples) parts.push(eq(tools.isExample, false));
+  if (query.partnerGap) {
+    parts.push(sql`${tools.id} in (
+      select tool_id from affiliate_programs
+      where program_presence = 'yes'
+        and (affiliate_url is null or affiliate_url = '')
+        and is_active = 0
+    )`);
+  }
   if (query.pricing) parts.push(eq(tools.pricingModel, query.pricing));
   if (query.license) parts.push(eq(tools.licenseType, query.license));
   const needle = normalizeSearch(query.q);

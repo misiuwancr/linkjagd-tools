@@ -23,6 +23,7 @@ export type ToolListQuery = {
   featuredOnly: boolean;
   rankedOnly: boolean;
   excludeExamples: boolean;
+  partnerGap: boolean;
   discoverySources: string[];
 };
 
@@ -52,6 +53,7 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
     featuredOnly: false,
     rankedOnly: false,
     excludeExamples: true,
+    partnerGap: false,
     discoverySources: [],
     ...overrides,
   };

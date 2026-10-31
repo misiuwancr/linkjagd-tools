@@ -18,6 +18,7 @@ export const affiliateStatuses = [
   "active",
   "disabled",
 ] as const;
+export const programPresences = ["yes", "no", "unknown"] as const;
 export const userRoles = ["admin", "editor"] as const;
 export const newsStatuses = ["draft", "published"] as const;
 
@@ -25,6 +26,7 @@ export type PublishStatus = (typeof publishStatuses)[number];
 export type PricingModel = (typeof pricingModels)[number];
 export type LicenseType = (typeof licenseTypes)[number];
 export type AffiliateStatus = (typeof affiliateStatuses)[number];
+export type ProgramPresence = (typeof programPresences)[number];
 export type UserRole = (typeof userRoles)[number];
 
 const timestamp = (name: string) =>
@@ -145,6 +147,8 @@ export const affiliatePrograms = sqliteTable(
       .notNull()
       .references(() => tools.id, { onDelete: "cascade" }),
     affiliateUrl: text("affiliate_url"),
+    programInfoUrl: text("program_info_url"),
+    programPresence: text("program_presence", { enum: programPresences }).notNull().default("unknown"),
     network: text("network").notNull().default("manual"),
     partnerProgramId: text("partner_program_id"),
     status: text("status", { enum: affiliateStatuses }).notNull().default("none_found"),

@@ -1,0 +1,4295 @@
+[
+  {
+    "name": "Suno",
+    "originalUrl": "https://suno.com/",
+    "domain": "suno.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Suno erzeugt Musikstücke aus einer Textbeschreibung.",
+    "longDescriptionDe": "Suno nimmt eine Stilangabe oder einen kurzen Text und liefert ein fertiges Stück mit Gesang oder Instrumenten. Die Erstellung läuft im Browser. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Musik aus einer Beschreibung",
+      "Gesang oder Instrumental",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Songentwurf ohne Studio zu starten",
+      "Eine Melodie zu einem Text zu hören"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Udio",
+    "originalUrl": "https://www.udio.com/",
+    "domain": "udio.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Udio komponiert Songs aus Stil, Text und Referenzen im Browser.",
+    "longDescriptionDe": "Udio erzeugt musikalische Entwürfe und lässt sie in weiteren Durchgängen anpassen. Die Dateien bleiben im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Songs aus Stil und Text",
+      "Weitere Durchgänge am Entwurf",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Songidee schnell hörbar zu machen",
+      "Mehrere Varianten eines Stücks zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Stable Audio",
+    "originalUrl": "https://stableaudio.com/",
+    "domain": "stableaudio.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Stable Audio erzeugt Klänge und Musikclips aus einer Beschreibung.",
+    "longDescriptionDe": "Stable Audio erstellt kurze Audioaufnahmen nach einer Texteingabe, von Geräuschen bis zu musikalischen Passagen. Die Nutzung läuft über die Website. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Audio aus Text",
+      "Klänge und musikalische Passagen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Soundeffekt zu beschreiben",
+      "Eine kurze Musikpassage zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "AIVA",
+    "originalUrl": "https://www.aiva.ai/",
+    "domain": "aiva.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "AIVA komponiert instrumentale Musik für Filme, Spiele und Hintergründe.",
+    "longDescriptionDe": "AIVA erzeugt instrumentale Stücke nach Stilvorgaben und erlaubt Anpassungen an Struktur und Instrumentation. Die Ergebnisse lädt man aus dem Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Instrumentale Kompositionen",
+      "Stilvorgaben für Film und Spiel",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Hintergrund für ein Video zu komponieren",
+      "Ein instrumentales Thema auszuprobieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Boomy",
+    "originalUrl": "https://boomy.com/",
+    "domain": "boomy.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Boomy erstellt Songs und kann sie zur Veröffentlichung vorbereiten.",
+    "longDescriptionDe": "Boomy erzeugt musikalische Entwürfe aus wenigen Angaben und bietet Wege, ein Stück weiter zu veröffentlichen. Die Arbeit bleibt im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Songentwürfe aus wenigen Angaben",
+      "Weg zur Veröffentlichung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen ersten Song ohne Instrumente zu bauen",
+      "Einen Entwurf zur Veröffentlichung vorzubereiten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Soundraw",
+    "originalUrl": "https://soundraw.io/",
+    "domain": "soundraw.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Soundraw setzt Hintergrundmusik nach Länge, Stimmung und Tempo zusammen.",
+    "longDescriptionDe": "Soundraw liefert nutzbare Musikbetten, deren Länge und Energie sich einstellen lassen. Gedacht ist der Einsatz unter Videos und Podcasts. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Musik nach Länge und Stimmung",
+      "Einsatz unter Video und Podcast",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Musikbett für ein Video zu wählen",
+      "Tempo und Stimmung eines Stücks anzupassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mubert",
+    "originalUrl": "https://mubert.com/",
+    "domain": "mubert.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Mubert streamt und erzeugt Hintergrundmusik für Inhalte und Apps.",
+    "longDescriptionDe": "Mubert stellt generierte Musikstrecken bereit, die zu einer Stimmung passen. Neben dem Hören gibt es eine Anbindung für eigene Produkte. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Generierte Hintergrundmusik",
+      "Stimmung als Vorgabe",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Musik unter einen Stream zu legen",
+      "Eine Strecke für eine App zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lalal.ai",
+    "originalUrl": "https://www.lalal.ai/",
+    "domain": "lalal.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "musik"
+    ],
+    "shortDescriptionDe": "Lalal.ai trennt Gesang, Sprache und Instrumente in einer Audiodatei.",
+    "longDescriptionDe": "Lalal.ai nimmt einen Mix und gibt einzelne Spuren zurück, etwa Stimme oder Begleitung. Die Verarbeitung läuft im Browser. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Stimmen und Instrumente trennen",
+      "Verarbeitung im Browser",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine Gesangsspur aus einem Song zu ziehen",
+      "Eine Sprachaufnahme von der Musik zu lösen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Murf",
+    "originalUrl": "https://murf.ai/",
+    "domain": "murf.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Murf spricht Texte mit wählbaren Stimmen für Vertonungen.",
+    "longDescriptionDe": "Murf wandelt ein Skript in gesprochene Sprache um und erlaubt Pausen und Betonung im Editor. Die Datei lässt sich herunterladen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Text zu Sprache",
+      "Pausen und Betonung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Erklärvideo zu vertonen",
+      "Ein Skript mit einer festen Stimme zu sprechen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Speechify",
+    "originalUrl": "https://speechify.com/",
+    "domain": "speechify.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Speechify liest Texte, Dokumente und Seiten vor.",
+    "longDescriptionDe": "Speechify macht aus einem Text oder einer Datei eine Vorlesestimme und spielt sie im Browser oder in der App ab. Die Geschwindigkeit lässt sich ändern. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Vorlesen von Text und Dateien",
+      "Einstellbare Geschwindigkeit",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Artikel anzuhören",
+      "Ein Dokument vorlesen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "NaturalReader",
+    "originalUrl": "https://www.naturalreaders.com/",
+    "domain": "naturalreaders.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "bildung"
+    ],
+    "shortDescriptionDe": "NaturalReader liest Texte und Dokumente mit synthetischen Stimmen vor.",
+    "longDescriptionDe": "NaturalReader spricht eingegebene Texte und hochgeladene Dokumente. Die Stimme und das Tempo lassen sich wählen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Vorlesen von Text und Dokumenten",
+      "Wahl von Stimme und Tempo",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Text anzuhören statt zu lesen",
+      "Ein Lernmaterial vorlesen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Krisp",
+    "originalUrl": "https://krisp.ai/",
+    "domain": "krisp.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Krisp filtert Störgeräusche aus Mikrofon und Gegenseite in Gesprächen.",
+    "longDescriptionDe": "Krisp sitzt zwischen Mikrofon und Gesprächsanwendung und dämpft Hintergrundlärm. Die Stimme bleibt das Signal. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Geräuschfilter für Gespräche",
+      "Einsatz vor der Gesprächs-App",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch in einem lauten Raum zu führen",
+      "Das Mikrofon für eine Aufnahme zu beruhigen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Moises",
+    "originalUrl": "https://moises.ai/",
+    "domain": "moises.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Moises trennt Spuren, setzt Tempo und übt Stücke zum Mitspielen.",
+    "longDescriptionDe": "Moises zerlegt einen Song in Spuren und kann Tempo oder Tonart fürs Üben ändern. Die Arbeit läuft in der App und im Browser. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Spuren trennen",
+      "Tempo und Tonart ändern",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Instrumentenspur zum Üben zu isolieren",
+      "Ein Stück langsamer mitzuspielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LANDR",
+    "originalUrl": "https://www.landr.com/",
+    "domain": "landr.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "LANDR masstert Audiodateien und verteilt Musik an Plattformen.",
+    "longDescriptionDe": "LANDR bearbeitet einen Mix zu einem lauteren, ausgewogeneren Master und bietet zusätzlich Veröffentlichung. Die Datei bleibt im Konto, bis man sie lädt. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Automatisches Mastering",
+      "Veröffentlichung an Plattformen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Mix fertig zu machen",
+      "Ein Stück zur Veröffentlichung vorzubereiten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BandLab",
+    "originalUrl": "https://www.bandlab.com/",
+    "domain": "bandlab.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "BandLab ist ein Online-Studio für Aufnahmen, Beats und Zusammenarbeit.",
+    "longDescriptionDe": "BandLab nimmt Spuren im Browser auf, mischt sie und lässt andere Personen am Projekt arbeiten. Fertige Stücke kann man teilen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Aufnahmen im Browser",
+      "Mehrspur und Zusammenarbeit",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Song mit anderen im Browser aufzunehmen",
+      "Einen Beat ohne lokale DAW zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LMMS",
+    "originalUrl": "https://lmms.io/",
+    "domain": "lmms.io",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "LMMS ist ein Mehrspur-Studio für Beats und elektronische Musik auf dem eigenen Rechner.",
+    "longDescriptionDe": "LMMS bietet Sequenzer, Synthesizer und Mixer in einer lokalen Anwendung. Projekte bleiben als Dateien auf dem Rechner. Die Software ist ohne Pflichtabo nutzbar. Die SPDX-Kennung des Repositories ist GPL-2.0.",
+    "featuresDe": [
+      "Sequenzer, Synthesizer und Mixer",
+      "Projekte als lokale Dateien",
+      "Lizenz GPL-2.0"
+    ],
+    "useCasesDe": [
+      "Einen Beat ohne Abo zu bauen",
+      "Elektronische Musik lokal zu arrangieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://lmms.io/",
+      "repoUrl": "https://github.com/LMMS/lmms",
+      "license": "GPL-2.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Ardour",
+    "originalUrl": "https://ardour.org/",
+    "domain": "ardour.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "musik",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Ardour nimmt und mischt Mehrspur-Audio auf dem eigenen Rechner.",
+    "longDescriptionDe": "Ardour ist eine digitale Audio-Workstation für Aufnahme, Schnitt und Mischung. Die Sitzungen liegen lokal. Eine einzelne OSI-Kennung wurde hier nicht bestätigt, der Lizenztyp bleibt Unbekannt. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Aufnahme und Mischung",
+      "Sitzungen auf dem eigenen Rechner",
+      "Lizenztyp nicht als OSI bestätigt"
+    ],
+    "useCasesDe": [
+      "Eine Mehrspuraufnahme lokal zu mischen",
+      "Einen Podcast oder ein Stück zu schneiden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MuseScore",
+    "originalUrl": "https://musescore.org/",
+    "domain": "musescore.org",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "musik",
+      "bildung"
+    ],
+    "shortDescriptionDe": "MuseScore setzt Noten und spielt Partituren ab.",
+    "longDescriptionDe": "MuseScore Studio schreibt Noten auf dem eigenen Rechner und spielt sie zur Kontrolle ab. Die Website bietet zusätzlich ein Konto zum Teilen. Eine einzelne OSI-Kennung der aktuellen Ausgabe wurde hier nicht bestätigt.",
+    "featuresDe": [
+      "Notensatz auf dem eigenen Rechner",
+      "Wiedergabe der Partitur",
+      "Teilen über ein Konto"
+    ],
+    "useCasesDe": [
+      "Eine Partitur zu schreiben",
+      "Ein Stück aus den Noten anzuhören"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CapCut",
+    "originalUrl": "https://www.capcut.com/",
+    "domain": "capcut.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "CapCut schneidet Clips, Untertitel und Effekte auf dem Handy und im Browser.",
+    "longDescriptionDe": "CapCut legt Videospuren, Texte und Musik auf eine Timeline und exportiert das Ergebnis. Vorlagen beschleunigen kurze Formate. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Timeline mit Text und Musik",
+      "Vorlagen für kurze Formate",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein kurzes Video für ein soziales Netzwerk zu schneiden",
+      "Untertitel auf einen Clip zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DaVinci Resolve",
+    "originalUrl": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "domain": "blackmagicdesign.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "DaVinci Resolve schneidet, färbt und mischt Ton in einer Desktop-Anwendung.",
+    "longDescriptionDe": "DaVinci Resolve bündelt Schnitt, Farbe und Audiomischung. Die kostenlose Ausgabe deckt den Schnitt ab, die Studio-Ausgabe ist bezahlt. Die Projekte liegen auf dem eigenen Rechner.",
+    "featuresDe": [
+      "Schnitt, Farbe und Ton",
+      "Kostenlose Ausgabe und bezahltes Studio",
+      "Projekte auf dem eigenen Rechner"
+    ],
+    "useCasesDe": [
+      "Einen längeren Film lokal zu schneiden",
+      "Farbe und Ton im selben Projekt zu bearbeiten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenShot",
+    "originalUrl": "https://www.openshot.org/",
+    "domain": "openshot.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "OpenShot schneidet Videos auf dem eigenen Rechner.",
+    "longDescriptionDe": "OpenShot setzt Clips auf eine Timeline und exportiert eine Datei. Übergänge und Titel bleiben lokal. Eine OSI-Kennung wurde in diesem Durchgang nicht bestätigt, der Lizenztyp bleibt Unbekannt. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Timeline und Export",
+      "Titel und Übergänge",
+      "Betrieb ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Video ohne Abo zu schneiden",
+      "Einen Clip mit Titel lokal zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Clipchamp",
+    "originalUrl": "https://clipchamp.com/",
+    "domain": "clipchamp.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Clipchamp schneidet Videos im Browser, auch mit Vorlagen und Untertiteln.",
+    "longDescriptionDe": "Clipchamp öffnet eine Timeline im Browser und exportiert das fertige Video. Vorlagen und Text helfen bei kurzen Beiträgen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Schnitt im Browser",
+      "Vorlagen und Untertitel",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Video ohne Installation zu schneiden",
+      "Eine Vorlage für einen kurzen Beitrag zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "VEED",
+    "originalUrl": "https://www.veed.io/",
+    "domain": "veed.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "VEED schneidet Videos im Browser und setzt Untertitel automatisch.",
+    "longDescriptionDe": "VEED kombiniert Schnitt, Untertitel und einfache Bereinigung in einem Browser-Projekt. Die Datei wird online exportiert. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Schnitt und Untertitel im Browser",
+      "Online-Export",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Untertitel unter einen Clip zu setzen",
+      "Einen kurzen Beitrag im Browser zu schneiden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kapwing",
+    "originalUrl": "https://www.kapwing.com/",
+    "domain": "kapwing.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt",
+      "design"
+    ],
+    "shortDescriptionDe": "Kapwing bearbeitet Video, Bild und Untertitel gemeinsam im Browser.",
+    "longDescriptionDe": "Kapwing legt Medien auf eine Arbeitsfläche und exportiert Video oder Bild. Untertitel und Zuschnitt sind Teil desselben Projekts. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Video und Bild im selben Projekt",
+      "Untertitel und Zuschnitt",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Clip zu kürzen und zu untertiteln",
+      "Ein Bild und ein Video in einem Entwurf zu mischen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "InVideo",
+    "originalUrl": "https://invideo.io/",
+    "domain": "invideo.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt",
+      "videogenerierung"
+    ],
+    "shortDescriptionDe": "InVideo baut Videos aus Vorlagen, Texten und eigenem Material.",
+    "longDescriptionDe": "InVideo startet mit einer Vorlage oder einer Texteingabe und füllt Szenen mit Medien. Den Schnitt passt man in der Timeline an. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Vorlagen und Text zu Video",
+      "Eigene Medien in der Timeline",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Erklärvideo aus einem Text zu starten",
+      "Eine Vorlage mit eigenem Material zu füllen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Synthesia",
+    "originalUrl": "https://www.synthesia.io/",
+    "domain": "synthesia.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung"
+    ],
+    "shortDescriptionDe": "Synthesia erzeugt Erklärvideos mit Avatar und gesprochenem Skript.",
+    "longDescriptionDe": "Synthesia nimmt ein Skript und lässt es von einem Avatar vor der Kamera sprechen. Folien und Sprachen lassen sich im Projekt tauschen. Die Tarife sind kostenpflichtig. Die öffentliche Partnerseite ist geprüft und wird nicht als eigener Link gespeichert.",
+    "featuresDe": [
+      "Avatar spricht ein Skript",
+      "Folien und Sprachen im Projekt",
+      "Kostenpflichtige Tarife"
+    ],
+    "useCasesDe": [
+      "Ein Schulungsvideo ohne Dreh zu erstellen",
+      "Dasselbe Skript in einer anderen Sprache auszugeben"
+    ],
+    "partnerStatus": "found",
+    "programPresence": "yes",
+    "programInfoUrl": "https://www.synthesia.io/partners",
+    "network": "direct",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HeyGen",
+    "originalUrl": "https://www.heygen.com/",
+    "domain": "heygen.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "HeyGen erzeugt Avatar-Videos und Übersetzungen aus einem Skript oder einer Aufnahme.",
+    "longDescriptionDe": "HeyGen spricht Texte mit einem Avatar oder überträgt eine vorhandene Aufnahme in eine andere Sprache. Die Projekte liegen im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen. Die öffentliche Partnerseite ist geprüft.",
+    "featuresDe": [
+      "Avatar-Video aus einem Skript",
+      "Übersetzung einer Aufnahme",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Ansage ohne eigenes Set zu produzieren",
+      "Ein Video in eine andere Sprache zu übertragen"
+    ],
+    "partnerStatus": "found",
+    "programPresence": "yes",
+    "programInfoUrl": "https://www.heygen.com/affiliate",
+    "network": "direct",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fliki",
+    "originalUrl": "https://fliki.ai/",
+    "domain": "fliki.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Fliki macht aus einem Text ein Video mit Stimme und Szenen.",
+    "longDescriptionDe": "Fliki spricht ein Skript und legt dazu passende Szenen. Stimme und Medien lassen sich tauschen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Text zu Video mit Stimme",
+      "Tauschbare Szenen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein kurzes Erklärvideo aus einem Text zu bauen",
+      "Dieselbe Geschichte mit einer anderen Stimme zu hören"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Runway",
+    "originalUrl": "https://runwayml.com/",
+    "domain": "runwayml.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung",
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "Runway erzeugt und bearbeitet Videoclips aus Text, Bild oder vorhandenem Material.",
+    "longDescriptionDe": "Runway bietet Werkzeuge, die aus einer Beschreibung oder einem Bild einen Clip machen und bestehendes Video verändern. Die Ergebnisse liegen im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Clips aus Text oder Bild",
+      "Bearbeitung vorhandenen Videos",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen kurzen Clip aus einer Beschreibung zu erzeugen",
+      "Ein vorhandenes Video stilistisch zu verändern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Captions",
+    "originalUrl": "https://captions.ai/",
+    "domain": "captions.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Captions setzt Untertitel und schneidet gesprochene Videos.",
+    "longDescriptionDe": "Captions erkennt Sprache in einem Clip, legt Untertitel darüber und bietet Schnitt an der gesprochenen Spur. Die Arbeit läuft in der App. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Automatische Untertitel",
+      "Schnitt an der Sprachspur",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein gesprochenes Video zu untertiteln",
+      "Pausen aus einer Aufnahme zu entfernen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Descript",
+    "originalUrl": "https://www.descript.com/",
+    "domain": "descript.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Descript schneidet Video und Audio, indem man das Transkript bearbeitet.",
+    "longDescriptionDe": "Descript schreibt die gesprochene Spur mit und lässt Schnitte über den Text zu. Overdub und Untertitel sitzen im selben Projekt. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Schnitt über das Transkript",
+      "Untertitel im selben Projekt",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Podcast anhand des Textes zu kürzen",
+      "Füllwörter aus einer Aufnahme zu entfernen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Dify",
+    "originalUrl": "https://dify.ai/",
+    "domain": "dify.ai",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "ki-chatbots",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Dify baut Assistenten und Abläufe über angebundene Sprachmodelle.",
+    "longDescriptionDe": "Dify verbindet ein Modell mit Wissen, Werkzeugen und einem Chat. Die Anwendung lässt sich selbst betreiben, daneben gibt es eine Cloud. Eine OSI-Kennung wurde hier nicht bestätigt, der Lizenztyp bleibt Unbekannt.",
+    "featuresDe": [
+      "Assistenten mit Wissen und Werkzeugen",
+      "Cloud und Selbstbetrieb",
+      "Lizenztyp nicht als OSI bestätigt"
+    ],
+    "useCasesDe": [
+      "Einen internen Assistenten über eigene Dokumente zu legen",
+      "Einen Modell-Ablauf selbst zu hosten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Flowise",
+    "originalUrl": "https://flowiseai.com/",
+    "domain": "flowiseai.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "ki-chatbots",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Flowise verbindet Sprachmodelle und Werkzeuge in einem visuellen Ablauf.",
+    "longDescriptionDe": "Flowise setzt Bausteine für Modelle, Speicher und Werkzeuge auf eine Fläche und führt den Ablauf auf dem eigenen Server aus. Eine OSI-Kennung wurde hier nicht bestätigt. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Visuelle Modell-Abläufe",
+      "Betrieb auf dem eigenen Server",
+      "Lizenztyp nicht als OSI bestätigt"
+    ],
+    "useCasesDe": [
+      "Einen Chatfluss ohne eigene Oberfläche zu bauen",
+      "Ein Modell mit einem Werkzeug zu verbinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Langflow",
+    "originalUrl": "https://langflow.org/",
+    "domain": "langflow.org",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "ki-chatbots",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Langflow baut Modell-Abläufe visuell und steht unter MIT.",
+    "longDescriptionDe": "Langflow verbindet Eingaben, Modelle und Werkzeuge auf einer Fläche. Der Ablauf läuft auf dem eigenen Server. Die SPDX-Kennung des Repositories ist MIT. Die Software ist ohne Pflichtabo nutzbar.",
+    "featuresDe": [
+      "Visuelle Abläufe für Modelle",
+      "Betrieb auf dem eigenen Server",
+      "Lizenz MIT"
+    ],
+    "useCasesDe": [
+      "Einen Prototyp für einen Assistenten zu zeichnen",
+      "Einen Ablauf lokal auszuprobieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://langflow.org/",
+      "repoUrl": "https://github.com/langflow-ai/langflow",
+      "license": "MIT",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "CrewAI",
+    "originalUrl": "https://www.crewai.com/",
+    "domain": "crewai.com",
+    "pricingModel": "freemium",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "ki-chatbots",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "CrewAI lässt mehrere Agenten eine Aufgabe in Rollen bearbeiten.",
+    "longDescriptionDe": "CrewAI beschreibt Agenten mit Rollen und Werkzeugen, die eine Aufgabe nacheinander oder gemeinsam bearbeiten. Die Bibliothek steht unter MIT. Daneben gibt es eine bezahlte Plattform.",
+    "featuresDe": [
+      "Agenten mit Rollen",
+      "Bibliothek unter MIT",
+      "Bezahlte Plattform daneben"
+    ],
+    "useCasesDe": [
+      "Eine Recherche auf mehrere Rollen zu verteilen",
+      "Einen Agentenablauf im eigenen Code zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://www.crewai.com/",
+      "repoUrl": "https://github.com/crewAIInc/crewAI",
+      "license": "MIT",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "MindStudio",
+    "originalUrl": "https://mindstudio.ai/",
+    "domain": "mindstudio.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "MindStudio baut kleine Assistenten aus Anweisungen und angebundenen Diensten.",
+    "longDescriptionDe": "MindStudio legt einen Assistenten mit Schritten an und stellt ihn als App oder Ablauf bereit. Die Logik bleibt im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Assistenten aus Schritten",
+      "Bereitstellung als App",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen wiederkehrenden Assistenten ohne eigenen Server zu bauen",
+      "Einen Ablauf für ein Team bereitzustellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Relevance AI",
+    "originalUrl": "https://relevanceai.com/",
+    "domain": "relevanceai.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Relevance AI baut Agenten, die Aufgaben über angebundene Werkzeuge erledigen.",
+    "longDescriptionDe": "Relevance AI verbindet ein Modell mit Werkzeugen und Daten und lässt den Agenten eine Aufgabe abarbeiten. Die Einrichtung läuft im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Agenten mit Werkzeugen",
+      "Aufgaben im Konto",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Agenten an interne Daten zu hängen",
+      "Eine wiederkehrende Aufgabe abgeben zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Stack AI",
+    "originalUrl": "https://www.stack-ai.com/",
+    "domain": "stack-ai.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Stack AI verbindet Modelle, Daten und Schnittstellen zu einem Ablauf.",
+    "longDescriptionDe": "Stack AI setzt Bausteine für Eingaben, Modelle und Ziele auf eine Fläche. Den Ablauf kann ein Team im Konto nutzen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Abläufe aus Modell-Bausteinen",
+      "Nutzung im Teamkonto",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen internen Wissensassistenten zu schalten",
+      "Eine Schnittstelle an ein Modell zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bardeen",
+    "originalUrl": "https://www.bardeen.ai/",
+    "domain": "bardeen.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Bardeen führt wiederkehrende Schritte im Browser zwischen Webseiten und Konten aus.",
+    "longDescriptionDe": "Bardeen startet eine Abfolge, wenn eine Seite oder ein Knopfdruck das Signal gibt, und trägt Daten in ein anderes Werkzeug ein. Die Einrichtung läuft als Browser-Erweiterung. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Abläufe im Browser",
+      "Übertrag in andere Werkzeuge",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Daten von einer Seite in eine Tabelle zu übernehmen",
+      "Einen wiederkehrenden Klickpfad zu speichern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Dust",
+    "originalUrl": "https://dust.tt/",
+    "domain": "dust.tt",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Dust baut Assistenten für ein Team auf internen Dokumenten und Werkzeugen.",
+    "longDescriptionDe": "Dust verbindet ein Modell mit dem Wissen eines Teams und stellt den Assistenten im Arbeitsalltag bereit. Zugriffe bleiben im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Team-Assistenten",
+      "Anbindung interner Dokumente",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Fragen an das eigene Handbuch zu stellen",
+      "Einen Assistenten für ein Team freizugeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lindy",
+    "originalUrl": "https://www.lindy.ai/",
+    "domain": "lindy.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Lindy übernimmt wiederkehrende Büroaufgaben als Assistent.",
+    "longDescriptionDe": "Lindy verbindet Postfach, Kalender und andere Dienste und führt daraus kleine Aufgaben aus. Die Regeln legt man im Konto fest. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Assistent für Postfach und Kalender",
+      "Regeln im Konto",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine wiederkehrende E-Mail vorbereiten zu lassen",
+      "Termine und Nachrichten zu sortieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GnuCash",
+    "originalUrl": "https://www.gnucash.org/",
+    "domain": "gnucash.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "GnuCash führt doppelte Buchführung auf dem eigenen Rechner.",
+    "longDescriptionDe": "GnuCash erfasst Konten, Buchungen und Berichte in einer lokalen Datei. Eine Cloud ist nicht erforderlich. Eine OSI-Kennung wurde in diesem Durchgang nicht bestätigt, der Lizenztyp bleibt Unbekannt.",
+    "featuresDe": [
+      "Konten und Buchungen",
+      "Berichte aus der lokalen Datei",
+      "Betrieb ohne Cloud-Pflicht"
+    ],
+    "useCasesDe": [
+      "Eine kleine Buchhaltung lokal zu führen",
+      "Einnahmen und Ausgaben auf Konten zu buchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "KMyMoney",
+    "originalUrl": "https://kmymoney.org/",
+    "domain": "kmymoney.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "KMyMoney führt Konten, Budgets und Buchungen auf dem eigenen Rechner.",
+    "longDescriptionDe": "KMyMoney importiert Umsätze und ordnet sie Kategorien und Konten zu. Die Datei bleibt lokal. Eine OSI-Kennung wurde hier nicht bestätigt.",
+    "featuresDe": [
+      "Konten, Budgets und Buchungen",
+      "Import von Umsätzen",
+      "Lokale Datei"
+    ],
+    "useCasesDe": [
+      "Ein Haushaltsbuch auf dem eigenen Rechner zu führen",
+      "Umsätze Kategorien zuzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "YNAB",
+    "originalUrl": "https://www.youneedabudget.com/",
+    "domain": "youneedabudget.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "YNAB plant Geld in Kategorien, bevor es ausgegeben wird.",
+    "longDescriptionDe": "YNAB teilt verfügbares Geld auf Kategorien und zieht Ausgaben davon ab. Konten lassen sich anbinden. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Kategorien vor der Ausgabe",
+      "Anbindung von Konten",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Monatsbudget nach verfügbarem Geld zu planen",
+      "Ausgaben einer Kategorie gegenüberzustellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Monarch Money",
+    "originalUrl": "https://www.monarchmoney.com/",
+    "domain": "monarchmoney.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Monarch Money bündelt Konten, Budgets und Vermögen in einer Übersicht.",
+    "longDescriptionDe": "Monarch liest angebundene Konten ein und zeigt Budgets, Ziele und Vermögen. Die Planung bleibt im Konto. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Konten, Budgets und Vermögen",
+      "Übersicht im Konto",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Mehrere Konten an einem Ort zu sehen",
+      "Ein Budget gegen echte Umsätze zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wave",
+    "originalUrl": "https://www.waveapps.com/",
+    "domain": "waveapps.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Wave schreibt Rechnungen und führt eine einfache Buchhaltung für kleine Betriebe.",
+    "longDescriptionDe": "Wave legt Kunden, Rechnungen und Zahlungen an und zeigt eine grundlegende Buchhaltung. Der Einstieg für Rechnungen ist ohne Monatsabo möglich, Zahlungsabwicklung und Zusatzfunktionen sind bezahlt.",
+    "featuresDe": [
+      "Rechnungen und Kunden",
+      "Einfache Buchhaltung",
+      "Einstieg ohne Monatsabo, Zusatzfunktionen bezahlt"
+    ],
+    "useCasesDe": [
+      "Eine Rechnung an einen Kunden zu schicken",
+      "Einnahmen eines kleinen Betriebs zu erfassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ghostfolio",
+    "originalUrl": "https://ghostfol.io/",
+    "domain": "ghostfol.io",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Ghostfolio verfolgt ein Depot und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Ghostfolio erfasst Käufe, Positionen und Wertentwicklung eines Depots. Die Daten können auf dem eigenen Server liegen. Die SPDX-Kennung ist AGPL-3.0.",
+    "featuresDe": [
+      "Positionen und Wertentwicklung",
+      "Selbstbetrieb",
+      "Lizenz AGPL-3.0"
+    ],
+    "useCasesDe": [
+      "Ein Depot selbst zu erfassen",
+      "Die Wertentwicklung nicht nur bei einem Broker zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://ghostfol.io/",
+      "repoUrl": "https://github.com/ghostfolio/ghostfolio",
+      "license": "AGPL-3.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Portfolio Performance",
+    "originalUrl": "https://www.portfolio-performance.info/",
+    "domain": "portfolio-performance.info",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Portfolio Performance rechnet Depots und Rendite auf dem eigenen Rechner.",
+    "longDescriptionDe": "Portfolio Performance importiert Buchungen und zeigt Rendite, Risiko und Vermögensaufstellung. Die Datei bleibt lokal. Die SPDX-Kennung des Repositories ist EPL-1.0.",
+    "featuresDe": [
+      "Rendite und Vermögensaufstellung",
+      "Lokale Datei",
+      "Lizenz EPL-1.0"
+    ],
+    "useCasesDe": [
+      "Die Rendite eines Depots nachzurechnen",
+      "Buchungen eines Brokers lokal auszuwerten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://www.portfolio-performance.info/",
+      "repoUrl": "https://github.com/buchen/portfolio",
+      "license": "EPL-1.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "hledger",
+    "originalUrl": "https://hledger.org/",
+    "domain": "hledger.org",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "hledger führt eine Textdatei-Buchhaltung in der Kommandozeile.",
+    "longDescriptionDe": "hledger liest Buchungen aus einer Textdatei und erstellt Berichte, Bilanzen und Register. Die Daten bleiben im eigenen Format. Die SPDX-Kennung ist GPL-3.0.",
+    "featuresDe": [
+      "Buchungen als Text",
+      "Berichte und Bilanzen",
+      "Lizenz GPL-3.0"
+    ],
+    "useCasesDe": [
+      "Eine Buchhaltung in einer Textdatei zu führen",
+      "Einen Bericht aus denselben Buchungen zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://hledger.org/",
+      "repoUrl": "https://github.com/simonmichael/hledger",
+      "license": "GPL-3.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Beancount",
+    "originalUrl": "https://beancount.github.io/docs/",
+    "domain": "beancount.github.io",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Beancount bucht in einer Textdatei mit doppelter Buchführung.",
+    "longDescriptionDe": "Beancount prüft eine Buchungsdatei und erzeugt Bilanzen und Auswertungen. Die Datei lässt sich mit Versionsverwaltung ablegen. Die SPDX-Kennung ist GPL-2.0.",
+    "featuresDe": [
+      "Doppelte Buchführung als Text",
+      "Bilanzen aus der Datei",
+      "Lizenz GPL-2.0"
+    ],
+    "useCasesDe": [
+      "Buchungen versioniert abzulegen",
+      "Eine Bilanz aus einer Textdatei zu rechnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://beancount.github.io/docs/",
+      "repoUrl": "https://github.com/beancount/beancount",
+      "license": "GPL-2.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Copilot Money",
+    "originalUrl": "https://copilot.money/",
+    "domain": "copilot.money",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Copilot Money sortiert Kontoumsätze und Budgets auf dem Handy.",
+    "longDescriptionDe": "Copilot Money liest angebundene Konten und ordnet Umsätze Kategorien zu. Budgets und Rückblicke bleiben in der App. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Umsätze und Kategorien",
+      "Budgets in der App",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Monatsausgaben auf dem Handy zu sehen",
+      "Umsätze automatisch zu kategorisieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cronometer",
+    "originalUrl": "https://cronometer.com/",
+    "domain": "cronometer.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Cronometer zählt Kalorien und Nährstoffe aus Mahlzeiten und Lebensmitteln.",
+    "longDescriptionDe": "Cronometer führt ein Tagebuch für Essen und zeigt Nährstoffe über die Kalorien hinaus. Ziele lassen sich setzen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Ernährungstagebuch",
+      "Nährstoffe neben Kalorien",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Mahlzeit auf Nährstoffe zu prüfen",
+      "Ein Tagesziel für Ernährung zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MyFitnessPal",
+    "originalUrl": "https://www.myfitnesspal.com/",
+    "domain": "myfitnesspal.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "MyFitnessPal protokolliert Essen, Bewegung und ein Kalorienziel.",
+    "longDescriptionDe": "MyFitnessPal sucht Lebensmittel und trägt sie in ein Tagebuch ein. Bewegung kann das Tagesziel verändern. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Lebensmittel-Tagebuch",
+      "Kalorienziel und Bewegung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Mahlzeiten eines Tages zu erfassen",
+      "Ein Kalorienziel zu verfolgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Strava",
+    "originalUrl": "https://www.strava.com/",
+    "domain": "strava.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Strava zeichnet Läufe, Fahrten und andere Aktivitäten auf und zeigt Strecken.",
+    "longDescriptionDe": "Strava speichert Aktivitäten mit Strecke, Zeit und Höhe und kann sie mit anderen teilen. Segmente vergleichen Abschnitte. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Aktivitäten mit Strecke und Zeit",
+      "Teilen und Segmente",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Lauf oder eine Fahrt aufzuzeichnen",
+      "Dieselbe Strecke mit früheren Fahrten zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hevy",
+    "originalUrl": "https://www.hevyapp.com/",
+    "domain": "hevyapp.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Hevy protokolliert Krafttraining mit Sätzen, Wiederholungen und Gewichten.",
+    "longDescriptionDe": "Hevy führt Trainingspläne und trägt jede Einheit mit Sätzen ein. Frühere Werte bleiben zum Vergleich. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Sätze, Wiederholungen und Gewicht",
+      "Trainingspläne",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Krafttraining mitzuschreiben",
+      "Ein Gewicht mit der letzten Einheit zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "wger",
+    "originalUrl": "https://wger.de/",
+    "domain": "wger.de",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "wger verwaltet Trainingspläne und Übungen und lässt sich selbst betreiben.",
+    "longDescriptionDe": "wger speichert Übungen, Pläne und Körperwerte. Eine öffentliche Instanz und der Selbstbetrieb stehen bereit. Die SPDX-Kennung ist AGPL-3.0.",
+    "featuresDe": [
+      "Übungen und Trainingspläne",
+      "Öffentliche Instanz und Selbstbetrieb",
+      "Lizenz AGPL-3.0"
+    ],
+    "useCasesDe": [
+      "Einen Trainingsplan selbst zu hosten",
+      "Übungen einer Einheit festzuhalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://wger.de/",
+      "repoUrl": "https://github.com/wger-project/wger",
+      "license": "AGPL-3.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Headspace",
+    "originalUrl": "https://www.headspace.com/",
+    "domain": "headspace.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Headspace führt durch kurze Meditationen und Schlafübungen.",
+    "longDescriptionDe": "Headspace spielt angeleitete Sitzungen für Aufmerksamkeit, Schlaf und Alltag. Die Länge einer Sitzung ist wählbar. Es gibt einen begrenzten kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Angeleitete Meditationen",
+      "Sitzungen für Schlaf und Alltag",
+      "Begrenzter kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine kurze Atempause anzuleiten",
+      "Eine Schlafübung abzuspielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Insight Timer",
+    "originalUrl": "https://insighttimer.com/",
+    "domain": "insighttimer.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Insight Timer spielt Meditationen, Musik und Kurse von vielen Anleitenden.",
+    "longDescriptionDe": "Insight Timer bietet eine große Bibliothek angeleiteter Sitzungen und einen einfachen Timer. Ein Teil ist ohne Abo hörbar, Kurse und weitere Titel liegen in bezahlten Stufen.",
+    "featuresDe": [
+      "Meditationsbibliothek und Timer",
+      "Viele Anleitende",
+      "Kostenloser Anteil und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine geführte Meditation zu starten",
+      "Einen stillen Timer für eine eigene Sitzung zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lose It",
+    "originalUrl": "https://www.loseit.com/",
+    "domain": "loseit.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Lose It führt ein Kalorientagebuch mit einem Tagesbudget.",
+    "longDescriptionDe": "Lose It trägt Lebensmittel und Bewegung gegen ein Tagesbudget. Barcodes beschleunigen die Erfassung. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kalorien gegen ein Tagesbudget",
+      "Erfassung per Barcode",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Tagesbudget für Essen zu halten",
+      "Ein Lebensmittel schnell einzutragen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenEMR",
+    "originalUrl": "https://www.open-emr.org/",
+    "domain": "open-emr.org",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "OpenEMR führt Patientenakten und Praxisabläufe auf dem eigenen Server.",
+    "longDescriptionDe": "OpenEMR bündelt Akten, Termine und Abrechnung für eine Praxis, die den Server selbst betreibt. Die SPDX-Kennung ist GPL-3.0. Die Einrichtung richtet sich an Praxen mit eigener Administration.",
+    "featuresDe": [
+      "Akten, Termine und Abrechnung",
+      "Betrieb auf dem eigenen Server",
+      "Lizenz GPL-3.0"
+    ],
+    "useCasesDe": [
+      "Eine Praxisakte selbst zu hosten",
+      "Termine und Akten in einem System zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://www.open-emr.org/",
+      "repoUrl": "https://github.com/openemr/openemr",
+      "license": "GPL-3.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "TripIt",
+    "originalUrl": "https://www.tripit.com/",
+    "domain": "tripit.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "TripIt sammelt Buchungen einer Reise in einen Plan.",
+    "longDescriptionDe": "TripIt liest Weiterleitungen von Buchungen und baut daraus einen Ablauf mit Flügen, Hotels und Zeiten. Der Plan ist unterwegs abrufbar. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Reiseplan aus Buchungen",
+      "Flüge, Hotels und Zeiten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Mehrere Buchungen einer Reise zu bündeln",
+      "Einen Tagesablauf unterwegs zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wanderlog",
+    "originalUrl": "https://wanderlog.com/",
+    "domain": "wanderlog.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Wanderlog plant Reiserouten mit Orten, Notizen und Tagen.",
+    "longDescriptionDe": "Wanderlog legt Tage, Orte und Notizen auf eine Karte und eine Liste. Mehrere Personen können denselben Plan sehen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Tage und Orte auf einer Karte",
+      "Gemeinsame Pläne",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Route für mehrere Tage zu skizzieren",
+      "Einen Reiseplan mit anderen zu teilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Polarsteps",
+    "originalUrl": "https://www.polarsteps.com/",
+    "domain": "polarsteps.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Polarsteps zeichnet eine Reise als Route mit Fotos und Tagen auf.",
+    "longDescriptionDe": "Polarsteps speichert den Weg einer Reise und hängt Fotos und Notizen an die Stationen. Das Reisetagebuch lässt sich teilen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Route mit Fotos und Notizen",
+      "Teilbares Reisetagebuch",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Reise als Tagebuch festzuhalten",
+      "Den zurückgelegten Weg später anzusehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Komoot",
+    "originalUrl": "https://www.komoot.com/",
+    "domain": "komoot.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen",
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Komoot plant Wander- und Radrouten und führt darunter entlang.",
+    "longDescriptionDe": "Komoot berechnet eine Route nach Sportart und Wegart und zeigt sie auf der Karte. Regionen lassen sich freischalten. Es gibt einen kostenlosen Einstieg und bezahlte Kartenpakete.",
+    "featuresDe": [
+      "Routen für Wandern und Rad",
+      "Navigation auf der Karte",
+      "Kostenloser Einstieg und bezahlte Kartenpakete"
+    ],
+    "useCasesDe": [
+      "Eine Tageswanderung zu planen",
+      "Eine Radroute nach Wegart zu wählen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Organic Maps",
+    "originalUrl": "https://organicmaps.app/",
+    "domain": "organicmaps.app",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Organic Maps navigiert offline mit OpenStreetMap-Karten.",
+    "longDescriptionDe": "Organic Maps lädt Karten auf das Gerät und führt ohne laufende Verbindung. Die Suche umfasst Orte und Kategorien. Eine OSI-Kennung wurde hier nicht bestätigt. Die App ist ohne Pflichtabo nutzbar.",
+    "featuresDe": [
+      "Offline-Karten",
+      "Suche nach Orten",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Stadt ohne Mobilfunkkarte zu navigieren",
+      "Einen Weg offline zu planen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OsmAnd",
+    "originalUrl": "https://osmand.net/",
+    "domain": "osmand.net",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "OsmAnd navigiert mit Offline-Karten aus OpenStreetMap.",
+    "longDescriptionDe": "OsmAnd speichert Karten auf dem Gerät und führt zu Fuß, mit dem Rad oder im Auto. Zusatzkarten und Funktionen liegen in bezahlten Stufen. Eine OSI-Kennung wurde hier nicht bestätigt.",
+    "featuresDe": [
+      "Offline-Navigation",
+      "Profile für Fuß, Rad und Auto",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Region offline zu speichern",
+      "Dieselbe Karte für Wanderung und Fahrt zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "KAYAK",
+    "originalUrl": "https://www.kayak.com/",
+    "domain": "kayak.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "KAYAK vergleicht Flüge, Hotels und Mietwagen aus mehreren Angeboten.",
+    "longDescriptionDe": "KAYAK sucht Reisetermine über mehrere Anbieter und zeigt Preise nebeneinander. Ein Konto ist für die Suche nicht nötig. Die Buchung selbst liegt beim jeweiligen Anbieter.",
+    "featuresDe": [
+      "Vergleich von Flügen und Hotels",
+      "Preise mehrerer Anbieter",
+      "Suche ohne Pflichtkonto"
+    ],
+    "useCasesDe": [
+      "Einen Flugtermin preislich zu vergleichen",
+      "Hotel und Flug für dieselben Tage zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Booking.com",
+    "originalUrl": "https://www.booking.com/",
+    "domain": "booking.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Booking.com sucht Unterkünfte und zeigt Preise, Lagen und Bewertungen.",
+    "longDescriptionDe": "Booking.com listet Unterkünfte zu einem Ort und einem Zeitraum und filtert nach Lage und Ausstattung. Die Buchung läuft über die Plattform. Ein Konto ist für viele Suchen nicht nötig, Treuefunktionen sind an ein Konto gebunden.",
+    "featuresDe": [
+      "Suche nach Unterkünften",
+      "Filter nach Lage und Ausstattung",
+      "Buchung über die Plattform"
+    ],
+    "useCasesDe": [
+      "Eine Unterkunft für bestimmte Nächte zu suchen",
+      "Lagen innerhalb eines Orts zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Juro",
+    "originalUrl": "https://www.juro.com/",
+    "domain": "juro.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "Juro führt Verträge von der Vorlage bis zur Unterschrift in einem Arbeitsbereich.",
+    "longDescriptionDe": "Juro speichert Vertragsvorlagen, Verhandlungen und den Status bis zur Signatur. Der Ablauf richtet sich an Teams. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Vorlagen und Verhandlung",
+      "Status bis zur Signatur",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Vertragsentwurf im Team zu prüfen",
+      "Den Stand eines Vertrags zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "iubenda",
+    "originalUrl": "https://www.iubenda.com/",
+    "domain": "iubenda.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "iubenda erzeugt Datenschutzerklärungen und Einwilligungsbanner für Websites.",
+    "longDescriptionDe": "iubenda stellt aus Angaben zur Website Texte und ein Banner zusammen und bindet sie ein. Rechtstexte bleiben im Konto pflegbar. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Datenschutztexte und Banner",
+      "Einbindung in die Website",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Datenschutzerklärung für eine Website zu erzeugen",
+      "Ein Einwilligungsbanner einzubinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Termly",
+    "originalUrl": "https://termly.io/",
+    "domain": "termly.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "Termly erstellt Datenschutz-, Cookie- und Nutzungsbedingungen für Websites.",
+    "longDescriptionDe": "Termly führt durch Fragen zur Website und liefert Texte plus ein Cookie-Banner. Die Einbindung erfolgt über einen Ausschnitt. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Rechtstexte aus einem Fragebogen",
+      "Cookie-Banner",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Nutzungsbedingungen für eine kleine Website zu starten",
+      "Ein Cookie-Banner einzubauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DocuSign",
+    "originalUrl": "https://www.docusign.com/",
+    "domain": "docusign.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "DocuSign lässt Dokumente digital unterschreiben und verschickt sie an die Beteiligten.",
+    "longDescriptionDe": "DocuSign legt Felder für Unterschrift und Datum auf ein Dokument und schickt es der Reihe nach an Personen. Der Status bleibt im Konto sichtbar. Es gibt einen begrenzten Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Unterschriftfelder auf Dokumenten",
+      "Versand an Beteiligte",
+      "Begrenzter Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Vertrag zur Unterschrift zu schicken",
+      "Den Status einer Signatur zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DoNotPay",
+    "originalUrl": "https://donotpay.com/",
+    "domain": "donotpay.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht"
+    ],
+    "shortDescriptionDe": "DoNotPay führt durch Schreiben für Verbraucheranliegen wie Gebühren und Kündigungen.",
+    "longDescriptionDe": "DoNotPay stellt Assistenten bereit, die aus Angaben ein Schreiben oder einen Antrag erzeugen. Die Fälle bleiben im Konto. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Assistenten für Verbraucherschreiben",
+      "Fälle im Konto",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Widerspruchsschreiben zu beginnen",
+      "Ein wiederkehrendes Formular auszufüllen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OrangeHRM",
+    "originalUrl": "https://www.orangehrm.com/",
+    "domain": "orangehrm.com",
+    "pricingModel": "freemium",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "OrangeHRM führt Personalakten, Abwesenheiten und Bewerbungen.",
+    "longDescriptionDe": "OrangeHRM speichert Mitarbeitende, Urlaub und offene Stellen. Die Software lässt sich selbst betreiben, die Cloud ist ein bezahltes Angebot. Die SPDX-Kennung des genannten Repositories ist GPL-3.0.",
+    "featuresDe": [
+      "Personalakten und Urlaub",
+      "Stellen und Bewerbungen",
+      "Selbstbetrieb unter GPL-3.0 und bezahlte Cloud"
+    ],
+    "useCasesDe": [
+      "Urlaubsanträge in einer eigenen Installation zu führen",
+      "Eine Personalakte selbst zu hosten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://www.orangehrm.com/",
+      "repoUrl": "https://github.com/orangehrm/orangehrm",
+      "license": "GPL-3.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Horilla",
+    "originalUrl": "https://horilla.com/",
+    "domain": "horilla.com",
+    "pricingModel": "freemium",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "Horilla führt Personal, Anwesenheit und Recruiting und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Horilla bündelt Mitarbeitendendaten, Anwesenheit und Bewerbungen in einer Installation. Die SPDX-Kennung des genannten Repositories ist LGPL-2.1. Daneben gibt es bezahlte Angebote.",
+    "featuresDe": [
+      "Personal und Anwesenheit",
+      "Bewerbungen",
+      "Lizenz LGPL-2.1"
+    ],
+    "useCasesDe": [
+      "Eine Personalverwaltung selbst zu hosten",
+      "Bewerbungen und Anwesenheit in einem System zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://horilla.com/",
+      "repoUrl": "https://github.com/horilla-opensource/horilla",
+      "license": "LGPL-2.1",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "BambooHR",
+    "originalUrl": "https://www.bamboohr.com/",
+    "domain": "bamboohr.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "BambooHR führt Personalakten, Urlaub und das Einarbeiten neuer Leute.",
+    "longDescriptionDe": "BambooHR speichert Stammdaten, Abwesenheiten und Unterlagen zu Mitarbeitenden. Bewerbungen können in denselben Ablauf münden. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Stammdaten und Abwesenheiten",
+      "Unterlagen und Einarbeitung",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Personalakte in der Cloud zu führen",
+      "Urlaubsanträge eines Teams zu sammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Greenhouse",
+    "originalUrl": "https://www.greenhouse.com/",
+    "domain": "greenhouse.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "Greenhouse organisiert Bewerbungen, Interviews und Zusagen.",
+    "longDescriptionDe": "Greenhouse legt Stellen aus, sammelt Bewerbungen und führt Interviews mit Bewertungen. Berichte zeigen den Stand der Pipeline. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Stellen und Bewerbungen",
+      "Interviews und Bewertungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Stelle mit mehreren Interviewenden zu besetzen",
+      "Den Stand aller Bewerbungen zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lever",
+    "originalUrl": "https://www.lever.co/",
+    "domain": "lever.co",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "Lever führt Kandidatinnen und Kandidaten von der Quelle bis zur Zusage.",
+    "longDescriptionDe": "Lever sammelt Profile, Nachrichten und Interviewrückmeldungen an einer Stelle. Die Pipeline zeigt, wo eine Bewerbung steht. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Profile, Nachrichten und Interviews",
+      "Pipeline je Bewerbung",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Bewerbungen aus mehreren Quellen zu sammeln",
+      "Rückmeldungen aus Interviews zu bündeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ashby",
+    "originalUrl": "https://www.ashbyhq.com/",
+    "domain": "ashbyhq.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "Ashby plant Recruiting mit Stellen, Interviews und Auswertungen.",
+    "longDescriptionDe": "Ashby führt Bewerbungen, Terminplanung für Interviews und Berichte zum Recruiting. Der Ablauf ist für wachsende Teams gedacht. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Bewerbungen und Interviewtermine",
+      "Berichte zum Recruiting",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Interviews für eine Stelle zu planen",
+      "Die Herkunft von Bewerbungen auszuwerten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Workable",
+    "originalUrl": "https://www.workable.com/",
+    "domain": "workable.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "Workable veröffentlicht Stellen und sammelt Bewerbungen an einem Ort.",
+    "longDescriptionDe": "Workable schaltet eine Stelle auf mehreren Kanälen und legt eingehende Bewerbungen in eine Pipeline. Nachrichten und Bewertungen bleiben am Profil. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Stellen auf mehreren Kanälen",
+      "Pipeline für Bewerbungen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Stelle auszuschreiben",
+      "Bewerbungen in Stufen zu sortieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Recruitee",
+    "originalUrl": "https://recruitee.com/",
+    "domain": "recruitee.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "Recruitee führt Karriereseiten, Stellen und Bewerbungen.",
+    "longDescriptionDe": "Recruitee baut eine Karriereseite und sammelt Bewerbungen in einem gemeinsamen Posteingang. Das Team bewertet Profile dort. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Karriereseite und Stellen",
+      "Gemeinsamer Posteingang",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Karriereseite mit offenen Stellen zu betreiben",
+      "Bewerbungen im Team zu bewerten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zendesk",
+    "originalUrl": "https://www.zendesk.com/",
+    "domain": "zendesk.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Zendesk sammelt Kundenanfragen aus Mail, Chat und Formularen in Tickets.",
+    "longDescriptionDe": "Zendesk macht aus einer Anfrage ein Ticket mit Verlauf, Zuständigkeit und Status. Hilfecenter können dieselben Themen öffentlich erklären. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Tickets aus mehreren Kanälen",
+      "Zuständigkeit und Status",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Kundenanfragen in einer Warteschlange zu führen",
+      "Ein Hilfecenter zu denselben Themen anzubieten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Freshdesk",
+    "originalUrl": "https://www.freshworks.com/freshdesk/",
+    "domain": "freshworks.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Freshdesk verwandelt Kundenmails und Chats in Tickets für ein Team.",
+    "longDescriptionDe": "Freshdesk legt Anfragen in einer gemeinsamen Warteschlange ab und verteilt sie auf Personen. Antworten und interne Notizen bleiben am Ticket. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Gemeinsame Ticket-Warteschlange",
+      "Antworten und interne Notizen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Support-Mails im Team zu verteilen",
+      "Den Verlauf einer Kundenanfrage zu behalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Help Scout",
+    "originalUrl": "https://www.helpscout.com/",
+    "domain": "helpscout.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Help Scout beantwortet Kundenmail in einem gemeinsamen Postfach.",
+    "longDescriptionDe": "Help Scout legt E-Mails in einem gemeinsamen Posteingang ab, mit Zuweisung und internen Notizen. Ein Hilfecenter kann dieselben Antworten veröffentlichen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Gemeinsames Postfach",
+      "Zuweisung und Notizen",
+      "Hilfecenter neben dem Postfach"
+    ],
+    "useCasesDe": [
+      "Support-Mail ohne ein privates Postfach zu beantworten",
+      "Häufige Antworten in einem Hilfecenter abzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tidio",
+    "originalUrl": "https://www.tidio.com/",
+    "domain": "tidio.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Tidio setzt einen Chat auf eine Website und sammelt die Gespräche.",
+    "longDescriptionDe": "Tidio zeigt ein Chatfenster und kann einfache Fragen automatisch beantworten, bevor ein Mensch übernimmt. Die Verläufe bleiben im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Chatfenster auf der Website",
+      "Automatische erste Antworten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Besucherfragen auf der eigenen Seite anzunehmen",
+      "Einfache Fragen vor dem Team abzufangen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Intercom",
+    "originalUrl": "https://www.intercom.com/",
+    "domain": "intercom.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Intercom führt Chat, Hilfeartikel und Nachrichten an Nutzer in einem Konto.",
+    "longDescriptionDe": "Intercom legt Gespräche mit Nutzerinnen und Nutzern an und kann Hilfeartikel dazu zeigen. Nachrichten lassen sich an Gruppen senden. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Chat und Hilfeartikel",
+      "Nachrichten an Gruppen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch aus der eigenen App anzunehmen",
+      "Einen Hilfeartikel zum selben Thema zu zeigen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Crisp",
+    "originalUrl": "https://crisp.chat/",
+    "domain": "crisp.chat",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Crisp bündelt Chat, Mail und einen gemeinsamen Posteingang für Kundenfragen.",
+    "longDescriptionDe": "Crisp setzt einen Chat auf die Website und sammelt auch andere Kanäle in einem Posteingang. Das Team antwortet von dort. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Chat auf der Website",
+      "Gemeinsamer Posteingang",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Kundenchat auf einer Website anzubieten",
+      "Mehrere Kanäle in einem Posteingang zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zammad",
+    "originalUrl": "https://zammad.com/",
+    "domain": "zammad.com",
+    "pricingModel": "freemium",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Zammad führt Tickets aus Mail, Chat und Telefon und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Zammad sammelt Anfragen in Tickets mit Gruppen und Vorlagen. Die Software steht unter AGPL-3.0 und kann auf dem eigenen Server laufen. Daneben gibt es eine bezahlte gehostete Fassung.",
+    "featuresDe": [
+      "Tickets aus mehreren Kanälen",
+      "Selbstbetrieb unter AGPL-3.0",
+      "Bezahltes Hosting daneben"
+    ],
+    "useCasesDe": [
+      "Einen Support-Desk selbst zu hosten",
+      "Anfragen einer Gruppe zuzuweisen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://zammad.com/",
+      "repoUrl": "https://github.com/zammad/zammad",
+      "license": "AGPL-3.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "FreeScout",
+    "originalUrl": "https://freescout.net/",
+    "domain": "freescout.net",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "FreeScout ist ein gemeinsames Postfach für Support-Mail auf dem eigenen Server.",
+    "longDescriptionDe": "FreeScout legt E-Mails in gemeinsamen Postfächern ab und merkt sich Zuweisung und Notizen. Die SPDX-Kennung ist AGPL-3.0. Die Software ist ohne Pflichtabo nutzbar.",
+    "featuresDe": [
+      "Gemeinsame Support-Postfächer",
+      "Zuweisung und Notizen",
+      "Lizenz AGPL-3.0"
+    ],
+    "useCasesDe": [
+      "Support-Mail selbst zu hosten",
+      "Eine Anfrage einer Person zuzuweisen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://freescout.net/",
+      "repoUrl": "https://github.com/freescout-help-desk/freescout",
+      "license": "AGPL-3.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "osTicket",
+    "originalUrl": "https://osticket.com/",
+    "domain": "osticket.com",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "osTicket macht aus Kundenanfragen Tickets auf dem eigenen Server.",
+    "longDescriptionDe": "osTicket nimmt Anfragen über Mail und Formular entgegen und führt sie als Tickets mit Status. Die SPDX-Kennung ist GPL-2.0. Die Software ist ohne Pflichtabo nutzbar.",
+    "featuresDe": [
+      "Tickets aus Mail und Formular",
+      "Status je Anfrage",
+      "Lizenz GPL-2.0"
+    ],
+    "useCasesDe": [
+      "Ein Hilfeformular selbst zu betreiben",
+      "Offene Anfragen nach Status zu filtern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://osticket.com/",
+      "repoUrl": "https://github.com/osTicket/osTicket",
+      "license": "GPL-2.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Ahrefs",
+    "originalUrl": "https://ahrefs.com/",
+    "domain": "ahrefs.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Ahrefs untersucht Backlinks, Keywords und Seiten einer Website.",
+    "longDescriptionDe": "Ahrefs zeigt, welche Seiten auf eine Domain verweisen, zu welchen Begriffen sie sichtbar ist und welche Seiten mitziehen. Berichte bleiben im Konto. Die Nutzung ist kostenpflichtig. Eine öffentliche Anmeldeseite für ein Partnerprogramm hat diese Prüfung nicht bestätigt.",
+    "featuresDe": [
+      "Backlinks und Keywords",
+      "Seitenberichte im Konto",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Die Backlinks einer Domain zu sichten",
+      "Begriffe zu finden, zu denen eine Seite sichtbar ist"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Semrush",
+    "originalUrl": "https://www.semrush.com/",
+    "domain": "semrush.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Semrush prüft Keywords, Sichtbarkeit und Wettbewerber in der Suche.",
+    "longDescriptionDe": "Semrush liefert Keyword-Ideen, Ranglisten und Hinweise zu Seiten. Ein Teil der Auswertungen ist im Einstieg sichtbar, der volle Umfang ist bezahlt. Eine weiterleitende Partneradresse landete bei dieser Prüfung nicht auf einer Anmeldeseite und wird nicht gespeichert.",
+    "featuresDe": [
+      "Keywords und Sichtbarkeit",
+      "Hinweise zu Seiten",
+      "Einstieg und bezahlter Umfang"
+    ],
+    "useCasesDe": [
+      "Begriffe für eine Seite zu sammeln",
+      "Die Sichtbarkeit einer Domain grob zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Moz",
+    "originalUrl": "https://moz.com/",
+    "domain": "moz.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Moz bewertet Domains und sucht Keywords für die organische Suche.",
+    "longDescriptionDe": "Moz zeigt Kennzahlen zu einer Domain und Vorschläge für Begriffe. Pro-Auswertungen liegen in bezahlten Stufen. Es gibt einen begrenzten kostenlosen Einstieg.",
+    "featuresDe": [
+      "Domain-Kennzahlen",
+      "Keyword-Vorschläge",
+      "Begrenzter Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Domain grob einzuordnen",
+      "Begriffe rund um ein Thema zu sammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Screaming Frog",
+    "originalUrl": "https://www.screamingfrog.co.uk/seo-spider/",
+    "domain": "screamingfrog.co.uk",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Screaming Frog crawlt eine Website und listet technische SEO-Befunde.",
+    "longDescriptionDe": "Der SEO Spider lädt Seiten einer Domain und zeigt Titel, Statuscodes, Weiterleitungen und fehlende Angaben. Die kostenlose Fassung ist in der Zahl der URLs begrenzt, die volle Lizenz ist bezahlt.",
+    "featuresDe": [
+      "Crawl von Titeln und Statuscodes",
+      "Weiterleitungen und fehlende Angaben",
+      "Begrenzte kostenlose Fassung und bezahlte Lizenz"
+    ],
+    "useCasesDe": [
+      "Fehlerhafte Seiten einer Website zu finden",
+      "Titel und Weiterleitungen zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Google Search Console",
+    "originalUrl": "https://search.google.com/search-console",
+    "domain": "search.google.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Die Search Console zeigt, wie Google eine eigene Website crawlt und ausspielt.",
+    "longDescriptionDe": "Die Search Console listet Suchanfragen, Indexierung und technische Hinweise für eine bestätigte Website. Die Nutzung für die eigene Property ist ohne Abo möglich.",
+    "featuresDe": [
+      "Suchanfragen und Indexierung",
+      "Technische Hinweise zur eigenen Website",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Zu sehen, zu welchen Anfragen die eigene Seite erscheint",
+      "Indexierungsfehler zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "AnswerThePublic",
+    "originalUrl": "https://answerthepublic.com/",
+    "domain": "answerthepublic.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "recherche"
+    ],
+    "shortDescriptionDe": "AnswerThePublic sammelt Fragen, die Menschen zu einem Begriff suchen.",
+    "longDescriptionDe": "AnswerThePublic gruppiert Suchformulierungen rund um ein Wort in Fragen, Vergleiche und Präpositionen. Die kostenlose Nutzung ist begrenzt, weitere Suchen sind bezahlt.",
+    "featuresDe": [
+      "Fragen rund um einen Begriff",
+      "Gruppierte Suchformulierungen",
+      "Begrenzte kostenlose Nutzung und bezahlte Suchen"
+    ],
+    "useCasesDe": [
+      "Themen für einen Text zu sammeln",
+      "Fragen zu einem Produktbegriff zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SISTRIX",
+    "originalUrl": "https://www.sistrix.com/",
+    "domain": "sistrix.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "SISTRIX bewertet Sichtbarkeit und Keywords, mit Schwerpunkt auf dem deutschsprachigen Markt.",
+    "longDescriptionDe": "SISTRIX zeigt einen Sichtbarkeitsindex, Keywords und Wettbewerbsvergleiche. Die Auswertungen liegen im Konto. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Sichtbarkeitsindex",
+      "Keywords und Wettbewerbsvergleich",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Die Sichtbarkeit einer deutschen Domain zu verfolgen",
+      "Keywords eines Wettbewerbers zu sichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Surfer",
+    "originalUrl": "https://surferseo.com/",
+    "domain": "surferseo.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Surfer vergleicht einen Text mit Seiten, die zu einem Begriff bereits ranken.",
+    "longDescriptionDe": "Surfer zeigt Begriffe und Strukturen, die in sichtbaren Seiten vorkommen, und legt sie neben den eigenen Entwurf. Es gibt einen Einstieg und bezahlte Stufen. Die öffentliche Partnerseite ist geprüft und wird nicht als eigener Link gespeichert.",
+    "featuresDe": [
+      "Vergleich mit rankenden Seiten",
+      "Begriffe neben dem eigenen Text",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Text an sichtbare Seiten anzunähern",
+      "Fehlende Begriffe in einem Entwurf zu sehen"
+    ],
+    "partnerStatus": "found",
+    "programPresence": "yes",
+    "programInfoUrl": "https://surfer.ai/affiliate-program/",
+    "network": "direct",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Coda",
+    "originalUrl": "https://coda.io/",
+    "domain": "coda.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten",
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Coda verbindet Dokumente mit Tabellen, Schaltflächen und kleinen Abläufen.",
+    "longDescriptionDe": "Coda legt Seiten an, in denen Text, Tabellen und Aktionen zusammenstehen. Ein Knopf kann eine Zeile ändern oder eine Benachrichtigung auslösen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Dokumente mit Tabellen",
+      "Schaltflächen und kleine Abläufe",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Arbeitsseite mit Daten und Text zu bauen",
+      "Einen Knopf an eine Tabellenzeile zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Rows",
+    "originalUrl": "https://rows.com/",
+    "domain": "rows.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Rows ist eine Tabelle, die Daten aus anderen Diensten in Zellen holt.",
+    "longDescriptionDe": "Rows rechnet wie eine Tabellenkalkulation und kann Schnittstellen in Zellen abfragen. Ergebnisse bleiben im Dokument. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Tabelle mit Schnittstellen in Zellen",
+      "Rechnen und Abfragen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Kennzahlen aus einem Dienst in eine Tabelle zu holen",
+      "Eine kleine Auswertung ohne eigenes Skript zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Smartsheet",
+    "originalUrl": "https://www.smartsheet.com/",
+    "domain": "smartsheet.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten",
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Smartsheet führt Tabellen, die wie Projektpläne mit Status und Daten arbeiten.",
+    "longDescriptionDe": "Smartsheet legt Zeilen mit Verantwortlichen, Daten und Status an und kann daraus Berichte bauen. Die Nutzung richtet sich an Teams. Sie ist kostenpflichtig.",
+    "featuresDe": [
+      "Tabellen mit Status und Verantwortlichen",
+      "Berichte aus den Zeilen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Projektplan als Tabelle zu führen",
+      "Den Status vieler Zeilen zu berichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DuckDB",
+    "originalUrl": "https://duckdb.org/",
+    "domain": "duckdb.org",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "DuckDB fragt lokale Dateien mit SQL ab, ohne einen Server zu starten.",
+    "longDescriptionDe": "DuckDB liest CSV, Parquet und andere Dateien und beantwortet SQL direkt auf dem Rechner. Die SPDX-Kennung ist MIT. Ein Pflichtabo gibt es nicht.",
+    "featuresDe": [
+      "SQL auf lokalen Dateien",
+      "Kein eigener Server nötig",
+      "Lizenz MIT"
+    ],
+    "useCasesDe": [
+      "Eine CSV-Datei mit SQL auszuwerten",
+      "Eine Abfrage ohne Datenbankserver zu fahren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://duckdb.org/",
+      "repoUrl": "https://github.com/duckdb/duckdb",
+      "license": "MIT",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "SQLite",
+    "originalUrl": "https://sqlite.org/index.html",
+    "domain": "sqlite.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "SQLite speichert eine Datenbank in einer einzelnen Datei.",
+    "longDescriptionDe": "SQLite führt SQL in einer Datei aus, die eine Anwendung mitliefern kann. Einen separaten Datenbankserver braucht es dafür nicht. Die Website beschreibt die Nutzungsbedingungen selbst. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "SQL in einer Datei",
+      "Kein separater Server",
+      "Nutzungsbedingungen auf der Projektwebsite"
+    ],
+    "useCasesDe": [
+      "Eine Anwendung mit einer lokalen Datenbank auszustatten",
+      "Eine kleine Datenbankdatei abzufragen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Datasette",
+    "originalUrl": "https://datasette.io/",
+    "domain": "datasette.io",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Datasette veröffentlicht eine SQLite-Datei als durchsuchbare Website.",
+    "longDescriptionDe": "Datasette liest eine SQLite-Datenbank und bietet Tabellen, Filter und eine API. Die SPDX-Kennung ist Apache-2.0. Der Betrieb liegt auf dem eigenen Rechner oder Server.",
+    "featuresDe": [
+      "Tabellen und Filter aus SQLite",
+      "API zur selben Datei",
+      "Lizenz Apache-2.0"
+    ],
+    "useCasesDe": [
+      "Eine Datendatei im Browser zu durchsuchen",
+      "Eine kleine Daten-API aus SQLite zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://datasette.io/",
+      "repoUrl": "https://github.com/simonw/datasette",
+      "license": "Apache-2.0",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "EtherCalc",
+    "originalUrl": "https://ethercalc.net/",
+    "domain": "ethercalc.net",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "EtherCalc ist eine Tabelle im Browser, die mehrere Personen gleichzeitig bearbeiten.",
+    "longDescriptionDe": "EtherCalc öffnet ein Rechenblatt unter einer Adresse, ohne ein Konto zu verlangen. Formeln rechnen im Blatt. Eine OSI-Kennung wurde hier nicht bestätigt. Die öffentliche Instanz ist ohne Abo nutzbar.",
+    "featuresDe": [
+      "Tabelle im Browser",
+      "Gleichzeitiges Bearbeiten",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Liste schnell mit anderen zu rechnen",
+      "Ein Blatt ohne Konto zu teilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Microsoft Excel",
+    "originalUrl": "https://www.microsoft.com/en-us/microsoft-365/excel",
+    "domain": "microsoft.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Excel rechnet in Tabellenblättern mit Formeln, Diagrammen und Pivot-Auswertungen.",
+    "longDescriptionDe": "Excel öffnet Arbeitsmappen auf dem Rechner und in Microsoft 365. Formeln, Diagramme und Pivot-Tabellen werten Zeilen aus. Die Desktop- und Cloud-Nutzung ist über Microsoft 365 kostenpflichtig.",
+    "featuresDe": [
+      "Formeln, Diagramme und Pivot",
+      "Arbeitsmappen lokal und in Microsoft 365",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine größere Tabelle mit Formeln auszuwerten",
+      "Eine Pivot-Ansicht über viele Zeilen zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Pitch",
+    "originalUrl": "https://pitch.com/",
+    "domain": "pitch.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "Pitch baut Folien im Browser und lässt ein Team gleichzeitig daran arbeiten.",
+    "longDescriptionDe": "Pitch legt Folien mit Vorlagen, Markenfarben und Kommentaren an. Die Präsentation bleibt im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Folien mit Vorlagen",
+      "Kommentare im Team",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Präsentation mit anderen zu bauen",
+      "Folien in den Farben einer Marke anzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Beautiful.ai",
+    "originalUrl": "https://www.beautiful.ai/",
+    "domain": "beautiful.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "Beautiful.ai setzt Folien aus Inhaltsbausteinen, die das Layout mitziehen.",
+    "longDescriptionDe": "Beautiful.ai passt Abstände und Anordnung an, wenn man Text oder ein Diagramm ergänzt. Vorlagen geben den Rahmen vor. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Folien aus Inhaltsbausteinen",
+      "Layout passt sich dem Inhalt an",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Folie zu bauen, ohne Abstände von Hand zu setzen",
+      "Ein Diagramm in eine bestehende Folie zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Slidev",
+    "originalUrl": "https://sli.dev/",
+    "domain": "sli.dev",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "praesentationen",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Slidev schreibt Folien in Markdown und zeigt sie als Webpräsentation.",
+    "longDescriptionDe": "Slidev rendert Markdown-Dateien zu Folien mit Code-Hervorhebung. Die Präsentation läuft im Browser und bleibt im eigenen Projekt. Die SPDX-Kennung ist MIT.",
+    "featuresDe": [
+      "Folien aus Markdown",
+      "Code-Hervorhebung",
+      "Lizenz MIT"
+    ],
+    "useCasesDe": [
+      "Einen Vortrag neben dem Code zu versionieren",
+      "Folien für eine technische Demo zu schreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://sli.dev/",
+      "repoUrl": "https://github.com/slidevjs/slidev",
+      "license": "MIT",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "reveal.js",
+    "originalUrl": "https://revealjs.com/",
+    "domain": "revealjs.com",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "reveal.js zeigt HTML-Folien im Browser und steht unter MIT.",
+    "longDescriptionDe": "reveal.js baut eine Präsentation aus HTML-Abschnitten und spielt sie im Browser ab. Die Dateien liegen im eigenen Projekt. Die SPDX-Kennung ist MIT.",
+    "featuresDe": [
+      "Folien aus HTML",
+      "Wiedergabe im Browser",
+      "Lizenz MIT"
+    ],
+    "useCasesDe": [
+      "Eine Präsentation ohne einen Folien-Dienst zu halten",
+      "Folien mit der eigenen Website zu stylen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://revealjs.com/",
+      "repoUrl": "https://github.com/hakimel/reveal.js",
+      "license": "MIT",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Marp",
+    "originalUrl": "https://marp.app/",
+    "domain": "marp.app",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "Marp macht aus Markdown Folien und exportiert sie als PDF oder HTML.",
+    "longDescriptionDe": "Marp trennt Folien im Markdown mit Trennlinien und exportiert das Ergebnis. Die Arbeit bleibt in einer Textdatei. Die SPDX-Kennung des genannten Repositories ist MIT.",
+    "featuresDe": [
+      "Folien aus Markdown",
+      "Export als PDF oder HTML",
+      "Lizenz MIT"
+    ],
+    "useCasesDe": [
+      "Einen Vortrag in einer Textdatei zu schreiben",
+      "Folien als PDF zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://marp.app/",
+      "repoUrl": "https://github.com/marp-team/marp",
+      "license": "MIT",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "SketchUp",
+    "originalUrl": "https://www.sketchup.com/",
+    "domain": "sketchup.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid",
+      "design"
+    ],
+    "shortDescriptionDe": "SketchUp modelliert Räume und Körper aus Flächen und Kanten.",
+    "longDescriptionDe": "SketchUp zieht Wände, Möbel und einfache Körper im dreidimensionalen Raum. Eine Fassung für den Browser und Desktop-Ausgaben teilen sich das Modell. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Modelle aus Flächen und Kanten",
+      "Browser und Desktop",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Raum grob zu modellieren",
+      "Ein einfaches Möbelstück in 3D zu zeichnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tinkercad",
+    "originalUrl": "https://www.tinkercad.com/",
+    "domain": "tinkercad.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Tinkercad baut einfache 3D-Modelle im Browser aus Grundformen.",
+    "longDescriptionDe": "Tinkercad setzt Quader, Zylinder und andere Formen zusammen und exportiert sie für den Druck oder für weitere Programme. Ein Konto ist nötig. Die Modellierung im Browser ist ohne Abo nutzbar.",
+    "featuresDe": [
+      "3D aus Grundformen",
+      "Export für den Druck",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Ein erstes 3D-Modell im Unterricht zu bauen",
+      "Eine einfache Form für den Druck zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Meshy",
+    "originalUrl": "https://www.meshy.ai/",
+    "domain": "meshy.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid",
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "Meshy erzeugt 3D-Modelle aus Text oder einem Bild.",
+    "longDescriptionDe": "Meshy liefert ein dreidimensionales Modell zu einer Beschreibung oder einer Vorlage und erlaubt weitere Bearbeitung. Die Datei lässt sich exportieren. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "3D aus Text oder Bild",
+      "Export des Modells",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Spielfigur-Modell aus einer Beschreibung zu starten",
+      "Ein Bild in ein einfaches 3D-Objekt zu überführen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FreeCAD",
+    "originalUrl": "https://www.freecad.org/",
+    "domain": "freecad.org",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "FreeCAD konstruiert parametrische 3D-Modelle auf dem eigenen Rechner.",
+    "longDescriptionDe": "FreeCAD zeichnet Bauteile mit Maßen, die sich nachträglich ändern lassen, und exportiert sie für Fertigung oder Druck. Die SPDX-Kennung ist LGPL-2.1. Die Software ist ohne Pflichtabo nutzbar.",
+    "featuresDe": [
+      "Parametrische Bauteile",
+      "Export für Fertigung und Druck",
+      "Lizenz LGPL-2.1"
+    ],
+    "useCasesDe": [
+      "Ein Bauteil mit änderbaren Maßen zu zeichnen",
+      "Ein Modell für den 3D-Druck zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://www.freecad.org/",
+      "repoUrl": "https://github.com/FreeCAD/FreeCAD",
+      "license": "LGPL-2.1",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "OpenSCAD",
+    "originalUrl": "https://openscad.org/",
+    "domain": "openscad.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "dreid",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "OpenSCAD beschreibt 3D-Modelle als Skript statt als Zeichnung.",
+    "longDescriptionDe": "OpenSCAD baut Körper aus Programmzeilen und rendert daraus ein Modell. Maße stehen als Variablen im Skript. Eine OSI-Kennung wurde hier nicht bestätigt. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "3D aus einem Skript",
+      "Maße als Variablen",
+      "Betrieb ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein parametrisches Teil als Code zu beschreiben",
+      "Ein Modell aus Maßen erneut zu rendern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sweet Home 3D",
+    "originalUrl": "https://www.sweethome3d.com/",
+    "domain": "sweethome3d.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "dreid",
+      "design"
+    ],
+    "shortDescriptionDe": "Sweet Home 3D zeichnet Grundrisse und zeigt sie als begehbare Räume.",
+    "longDescriptionDe": "Sweet Home 3D legt Wände, Möbel und Öffnungen auf einen Grundriss und erzeugt dazu eine 3D-Ansicht. Die Datei bleibt lokal. Eine OSI-Kennung wurde hier nicht bestätigt. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Grundriss mit Möbeln",
+      "3D-Ansicht des Raums",
+      "Betrieb ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Wohnung grob einzurichten",
+      "Einen Grundriss mit Möbelmaßen zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Polycam",
+    "originalUrl": "https://poly.cam/",
+    "domain": "poly.cam",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Polycam scannt Räume und Gegenstände mit dem Handy zu einem 3D-Modell.",
+    "longDescriptionDe": "Polycam nimmt Fotos oder einen Lidar-Scan und rechnet daraus ein Modell oder eine Punktwolke. Der Export hängt von der Stufe ab. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Scan von Räumen und Gegenständen",
+      "Modell oder Punktwolke",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Raum mit dem Handy zu erfassen",
+      "Einen Gegenstand als 3D-Modell zu sichern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Godot",
+    "originalUrl": "https://godotengine.org/",
+    "domain": "godotengine.org",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "gaming"
+    ],
+    "shortDescriptionDe": "Godot ist eine Spiel-Engine für 2D und 3D unter der MIT-Lizenz.",
+    "longDescriptionDe": "Godot bringt Editor, Szenen und Skripte mit, um ein Spiel zu bauen und zu exportieren. Die SPDX-Kennung ist MIT. Eine Lizenzgebühr an die Engine gibt es nicht.",
+    "featuresDe": [
+      "Editor für 2D und 3D",
+      "Export des Spiels",
+      "Lizenz MIT"
+    ],
+    "useCasesDe": [
+      "Ein kleines Spiel ohne Engine-Gebühr zu bauen",
+      "Eine Szene mit Skripten zu testen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://godotengine.org/",
+      "repoUrl": "https://github.com/godotengine/godot",
+      "license": "MIT",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Unity",
+    "originalUrl": "https://unity.com/",
+    "domain": "unity.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gaming"
+    ],
+    "shortDescriptionDe": "Unity ist eine Spiel- und 3D-Engine mit Editor, Assets und Export.",
+    "longDescriptionDe": "Unity baut Szenen, Physik und Oberflächen im Editor und exportiert sie auf mehrere Plattformen. Für kleinere Umsätze gibt es einen kostenlosen Einstieg, darüber liegen bezahlte Pläne.",
+    "featuresDe": [
+      "Szenen, Physik und Export",
+      "Mehrere Zielplattformen",
+      "Kostenloser Einstieg und bezahlte Pläne"
+    ],
+    "useCasesDe": [
+      "Einen Prototyp eines Spiels zu bauen",
+      "Eine 3D-Szene auf eine Plattform zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LÖVE",
+    "originalUrl": "https://love2d.org/",
+    "domain": "love2d.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "gaming",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "LÖVE führt 2D-Spiele aus, die in Lua geschrieben sind.",
+    "longDescriptionDe": "LÖVE ist eine Laufzeitumgebung: Spielcode in Lua zeichnet, spielt Ton und liest Eingaben. Eine OSI-Kennung wurde hier nicht bestätigt. Die Engine ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "2D-Spiele in Lua",
+      "Zeichnen, Ton und Eingabe",
+      "Betrieb ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein kleines 2D-Spiel in Lua zu schreiben",
+      "Einen Prototyp ohne große Engine zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ren'Py",
+    "originalUrl": "https://www.renpy.org/",
+    "domain": "renpy.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "gaming"
+    ],
+    "shortDescriptionDe": "Ren'Py baut visuelle Romane mit Text, Bildern und Entscheidungen.",
+    "longDescriptionDe": "Ren'Py schreibt Dialoge als Skript und zeigt sie mit Hintergründen und Auswahlmöglichkeiten. Das Spiel lässt sich als Anwendung exportieren. Eine OSI-Kennung wurde hier nicht bestätigt. Die Engine ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Dialoge als Skript",
+      "Bilder und Entscheidungen",
+      "Export als Anwendung"
+    ],
+    "useCasesDe": [
+      "Eine visuelle Geschichte zu schreiben",
+      "Eine Entscheidung in einem Dialog anzubieten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GDevelop",
+    "originalUrl": "https://gdevelop.io/",
+    "domain": "gdevelop.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "gaming",
+      "bildung"
+    ],
+    "shortDescriptionDe": "GDevelop baut 2D-Spiele aus Ereignissen, ohne dass jede Zeile Code sein muss.",
+    "longDescriptionDe": "GDevelop setzt Szenen, Objekte und Wenn-dann-Ereignisse im Editor zusammen und exportiert das Spiel. Eine OSI-Kennung wurde hier nicht bestätigt. Es gibt einen kostenlosen Einstieg und bezahlte Angebote.",
+    "featuresDe": [
+      "Szenen und Ereignisse",
+      "Export des Spiels",
+      "Kostenloser Einstieg und bezahlte Angebote"
+    ],
+    "useCasesDe": [
+      "Ein erstes 2D-Spiel ohne viel Code zu bauen",
+      "Eine Spielidee im Unterricht auszuprobieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Aseprite",
+    "originalUrl": "https://www.aseprite.org/",
+    "domain": "aseprite.org",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gaming",
+      "design"
+    ],
+    "shortDescriptionDe": "Aseprite zeichnet Pixelgrafik und Animationen für Spiele.",
+    "longDescriptionDe": "Aseprite arbeitet mit Ebenen, Paletten und Einzelbildern einer Animation. Der Export zielt auf Spiele-Grafik. Die Anwendung ist kostenpflichtig. Der Quelltext ist nicht als OSI-Open-Source eingeordnet.",
+    "featuresDe": [
+      "Pixelgrafik und Animation",
+      "Ebenen und Paletten",
+      "Kostenpflichtige Anwendung"
+    ],
+    "useCasesDe": [
+      "Ein Sprite für ein Spiel zu zeichnen",
+      "Eine kurze Pixelanimation zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "itch.io",
+    "originalUrl": "https://itch.io/",
+    "domain": "itch.io",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gaming"
+    ],
+    "shortDescriptionDe": "itch.io veröffentlicht und lädt unabhängige Spiele, Werkzeuge und Assets.",
+    "longDescriptionDe": "itch.io ist ein Marktplatz und eine Bibliothek für unabhängige Spiele. Entwicklerinnen und Entwickler legen eine Seite an, Spielende laden oder spielen im Browser. Das Anlegen einer Seite ist ohne Monatsabo möglich, Verkäufe haben eigene Konditionen.",
+    "featuresDe": [
+      "Seiten für unabhängige Spiele",
+      "Download und Browser-Spiel",
+      "Seiten ohne Monatsabo, Verkäufe mit eigenen Konditionen"
+    ],
+    "useCasesDe": [
+      "Ein eigenes Spiel zu veröffentlichen",
+      "Unabhängige Spiele zu finden und zu laden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Inworld",
+    "originalUrl": "https://www.inworld.ai/",
+    "domain": "inworld.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gaming",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Inworld baut Spielfiguren, die im Dialog auf Spielende reagieren.",
+    "longDescriptionDe": "Inworld beschreibt eine Figur mit Wissen und Persönlichkeit und bindet den Dialog in ein Spiel ein. Die Nutzung läuft über ein Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Figuren mit Wissen und Persönlichkeit",
+      "Dialog für Spiele",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen NPC mit eigenem Dialog zu entwerfen",
+      "Eine Figur in einem Prototyp sprechen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Convai",
+    "originalUrl": "https://convai.com/",
+    "domain": "convai.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gaming",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Convai lässt Spielfiguren sprechen und auf Fragen im Spiel reagieren.",
+    "longDescriptionDe": "Convai verbindet eine Figur mit Sprache und Wissen und liefert den Dialog an eine Spiel-Engine. Die Einrichtung bleibt im Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Sprechende Spielfiguren",
+      "Anbindung an eine Engine",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Charakter im Spiel antworten zu lassen",
+      "Einen Dialogprototyp an eine Engine zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Have I Been Pwned",
+    "originalUrl": "https://haveibeenpwned.com/",
+    "domain": "haveibeenpwned.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Have I Been Pwned prüft, ob eine E-Mail-Adresse in bekannten Datenlecks auftaucht.",
+    "longDescriptionDe": "Have I Been Pwned sucht eine Adresse in veröffentlichten Leak-Daten und zeigt, in welchen Vorfällen sie vorkam. Die einzelne Suche ist ohne Abo möglich. Die Seite speichert dafür kein eigenes Passwort.",
+    "featuresDe": [
+      "Suche einer E-Mail in Leak-Daten",
+      "Anzeige der betroffenen Vorfälle",
+      "Suche ohne Abo"
+    ],
+    "useCasesDe": [
+      "Zu prüfen, ob eine Adresse in einem Leak stand",
+      "Einen Vorfall zu einer eigenen Adresse nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SSL Labs",
+    "originalUrl": "https://www.ssllabs.com/ssltest/",
+    "domain": "ssllabs.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "SSL Labs prüft die TLS-Konfiguration einer öffentlichen Website.",
+    "longDescriptionDe": "Der SSL Server Test verbindet sich mit einem Host und bewertet Protokolle, Zertifikat und bekannte Schwächen. Der Bericht ist ohne Konto abrufbar. Eine OSI-Lizenz der Website ist nicht hinterlegt, der Dienst ist proprietär eingeordnet.",
+    "featuresDe": [
+      "Prüfung von Zertifikat und Protokollen",
+      "Bericht ohne Konto",
+      "Öffentlicher Test"
+    ],
+    "useCasesDe": [
+      "Die TLS-Einstellung einer eigenen Website zu prüfen",
+      "Ein Zertifikatsproblem zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PageSpeed Insights",
+    "originalUrl": "https://pagespeed.web.dev/",
+    "domain": "pagespeed.web.dev",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "PageSpeed Insights misst Ladezeit und Hinweise einer öffentlichen Seite.",
+    "longDescriptionDe": "PageSpeed Insights lädt eine URL und zeigt Messwerte plus konkrete Hinweise für Mobil und Desktop. Die Abfrage ist ohne Abo möglich.",
+    "featuresDe": [
+      "Messwerte für Mobil und Desktop",
+      "Konkrete Hinweise zur Seite",
+      "Abfrage ohne Abo"
+    ],
+    "useCasesDe": [
+      "Die Ladezeit einer URL zu messen",
+      "Hinweise zu Bildern und Skripten zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Can I use",
+    "originalUrl": "https://caniuse.com/",
+    "domain": "caniuse.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Can I use zeigt, welche Browser eine Webfunktion unterstützen.",
+    "longDescriptionDe": "Can I use listet eine CSS- oder HTML-Funktion und färbt die Browserversionen nach Unterstützung. Die Tabelle ist ohne Konto lesbar. Eine OSI-Lizenz der Website ist hier nicht hinterlegt.",
+    "featuresDe": [
+      "Unterstützung je Browserversion",
+      "Suche nach Webfunktionen",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Vor dem Einsatz einer CSS-Funktion die Browser zu prüfen",
+      "Eine ältere Browserversion einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Coolors",
+    "originalUrl": "https://coolors.co/",
+    "domain": "coolors.co",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Coolors erzeugt Farbpaletten und sperrt einzelne Töne fest.",
+    "longDescriptionDe": "Coolors würfelt eine Palette und lässt einzelne Farben stehen, während der Rest neu gemischt wird. Paletten lassen sich speichern. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Paletten erzeugen und sperren",
+      "Speichern der Farben",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Farbpalette für eine Seite zu finden",
+      "Einen Ton festzuhalten und den Rest neu zu mischen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Google Fonts",
+    "originalUrl": "https://fonts.google.com/",
+    "domain": "fonts.google.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Google Fonts stellt Schriftfamilien zum Einbinden in Websites bereit.",
+    "longDescriptionDe": "Google Fonts zeigt Schriften mit Beispieltext und liefert einen Einbindungs-Ausschnitt für eine Website. Die Nutzung der Bibliothek ist ohne Abo möglich. Die Schriften haben eigene Lizenzen, die auf der jeweiligen Familie stehen.",
+    "featuresDe": [
+      "Schriftfamilien mit Beispieltext",
+      "Einbindung in eine Website",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Schrift für eine Website zu wählen",
+      "Den Einbindungs-Ausschnitt zu kopieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "QR Code Generator",
+    "originalUrl": "https://www.qr-code-generator.com/",
+    "domain": "qr-code-generator.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "QR Code Generator macht aus einem Text oder einer URL einen QR-Code.",
+    "longDescriptionDe": "Die Seite erzeugt einen QR-Code aus einer Adresse oder einem kurzen Text und zeigt ihn zum Download. Erweiterte Gestaltung und dynamische Codes liegen in bezahlten Stufen. Ein einfacher Code ist ohne Abo möglich.",
+    "featuresDe": [
+      "QR-Code aus URL oder Text",
+      "Download des Codes",
+      "Einfacher Code ohne Abo, Gestaltung bezahlt"
+    ],
+    "useCasesDe": [
+      "Einen QR-Code für eine Website zu erzeugen",
+      "Einen Code auf einen Aushang zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SVGOMG",
+    "originalUrl": "https://svgomg.net/",
+    "domain": "svgomg.net",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "SVGOMG verkleinert SVG-Dateien im Browser.",
+    "longDescriptionDe": "SVGOMG nimmt eine SVG-Datei und entfernt überflüssige Angaben, ohne das Bild bewusst zu ändern. Die Bearbeitung läuft lokal im Browser. Die SPDX-Kennung des Repositories ist MIT.",
+    "featuresDe": [
+      "SVG verkleinern",
+      "Bearbeitung im Browser",
+      "Lizenz MIT"
+    ],
+    "useCasesDe": [
+      "Ein Icon vor dem Einbau zu verkleinern",
+      "Eine exportierte SVG-Datei zu bereinigen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": {
+      "projectUrl": "https://svgomg.net/",
+      "repoUrl": "https://github.com/jakearchibald/svgomg",
+      "license": "MIT",
+      "systems": [],
+      "install": "Die Schritte zum Installieren stehen in der Projektdokumentation."
+    }
+  },
+  {
+    "name": "Smallpdf",
+    "originalUrl": "https://smallpdf.com/",
+    "domain": "smallpdf.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Smallpdf komprimiert, verbindet und wandelt PDF-Dateien im Browser.",
+    "longDescriptionDe": "Smallpdf bietet einzelne Werkzeuge für PDF, etwa Komprimieren, Zusammenführen und Umwandeln. Die Datei wird auf den Dienst geladen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Komprimieren und Zusammenführen",
+      "Formatumwandlung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein PDF kleiner zu machen",
+      "Mehrere PDFs zu einer Datei zu verbinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PDF24",
+    "originalUrl": "https://www.pdf24.org/de/",
+    "domain": "pdf24.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "PDF24 bietet viele PDF-Werkzeuge im Browser und als Desktop-Programm.",
+    "longDescriptionDe": "PDF24 Tools fügt Dateien zusammen, teilt sie, komprimiert sie und wandelt Formate. Ein großer Teil der Browser-Werkzeuge ist ohne Abo nutzbar. Die Anwendung ist proprietär.",
+    "featuresDe": [
+      "Zusammenführen, Teilen und Komprimieren",
+      "Browser und Desktop",
+      "Browser-Werkzeuge ohne Abo"
+    ],
+    "useCasesDe": [
+      "Mehrere PDFs zu verbinden",
+      "Eine Datei in PDF umzuwandeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sejda",
+    "originalUrl": "https://www.sejda.com/",
+    "domain": "sejda.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Sejda bearbeitet PDF-Dateien: zusammenfügen, teilen, Text ändern.",
+    "longDescriptionDe": "Sejda öffnet ein PDF im Browser und bietet Werkzeuge zum Zusammenfügen, Teilen und Bearbeiten. Kostenlose Vorgänge sind begrenzt, darüber liegen bezahlte Stufen.",
+    "featuresDe": [
+      "PDF zusammenfügen und teilen",
+      "Text im Dokument bearbeiten",
+      "Begrenzte kostenlose Vorgänge und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Seiten aus einem PDF zu lösen",
+      "Einen Tippfehler in einem PDF zu ändern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "WAVE Evaluation Tool",
+    "originalUrl": "https://wave.webaim.org/",
+    "domain": "wave.webaim.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "WAVE prüft eine Webseite auf erkennbare Barrieren.",
+    "longDescriptionDe": "WAVE lädt eine öffentliche Adresse und markiert Fehler und Warnungen zur Zugänglichkeit direkt auf der Seite. Die einzelne Prüfung ist ohne Konto möglich. Eine OSI-Lizenz der Website ist hier nicht hinterlegt.",
+    "featuresDe": [
+      "Prüfung einer öffentlichen URL",
+      "Fehler und Warnungen auf der Seite",
+      "Prüfung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Seite auf fehlende Alternativtexte zu prüfen",
+      "Kontrast- und Strukturhinweise zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "crontab.guru",
+    "originalUrl": "https://crontab.guru/",
+    "domain": "crontab.guru",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "crontab.guru übersetzt einen Cron-Ausdruck in eine lesbare Zeitangabe.",
+    "longDescriptionDe": "Man tippt fünf Felder eines Cron-Ausdrucks und sieht, wann der Job laufen würde. Die Seite rechnet im Browser. Eine OSI-Lizenz ist hier nicht hinterlegt. Die Nutzung ist ohne Abo möglich.",
+    "featuresDe": [
+      "Cron-Ausdruck in Klartext",
+      "Rechnung im Browser",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Cron-Job zu verstehen, bevor er auf den Server kommt",
+      "Einen Zeitplan für einen wiederkehrenden Lauf zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bundlephobia",
+    "originalUrl": "https://bundlephobia.com/",
+    "domain": "bundlephobia.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Bundlephobia zeigt, wie groß ein npm-Paket im Bundle wird.",
+    "longDescriptionDe": "Bundlephobia sucht ein Paket und nennt die übertragene Größe samt Abhängigkeiten. Die Abfrage ist ohne Konto möglich. Eine OSI-Lizenz der Website ist hier nicht hinterlegt.",
+    "featuresDe": [
+      "Größe eines npm-Pakets",
+      "Abhängigkeiten in der Summe",
+      "Abfrage ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Paket vor dem Einbau auf die Größe zu prüfen",
+      "Zwei Bibliotheken der Größe nach zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cleanup.pictures",
+    "originalUrl": "https://cleanup.pictures/",
+    "domain": "cleanup.pictures",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung",
+      "design"
+    ],
+    "shortDescriptionDe": "Cleanup.pictures entfernt störende Objekte aus einem Foto im Browser.",
+    "longDescriptionDe": "Man markiert einen Bereich im Bild, und die Seite füllt ihn mit der Umgebung. Die Vorschau erscheint im Browser. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Objekte aus Fotos entfernen",
+      "Vorschau im Browser",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Person oder ein Schild aus einem Foto zu nehmen",
+      "Einen Hintergrund zu bereinigen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]

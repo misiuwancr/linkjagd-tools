@@ -2,7 +2,7 @@ import { and, eq, ne } from "drizzle-orm";
 import { affiliatePrograms, categories, newsPosts, tools, users } from "@/db/schema";
 import type { AppDatabase } from "@/db/client";
 import { getAffiliateNetwork } from "@/lib/affiliate/registry";
-import { validateOutboundUrl } from "@/lib/affiliate/redirect";
+import { validateExternalUrl, validateOutboundUrl } from "@/lib/affiliate/redirect";
 import { hashPassword } from "@/lib/auth/password";
 import { domainFromUrl, isSafeLocalImage, slugify } from "@/lib/utils";
 import {
@@ -134,6 +134,14 @@ export async function saveAffiliateRecord(
   if (!getAffiliateNetwork(input.network)) {
     return { ok: false as const, error: "Unbekanntes Partnernetzwerk." };
   }
+  let programInfoUrl: string | null = null;
+  if (input.programInfoUrl) {
+    const checked = validateExternalUrl(input.programInfoUrl, siteHost());
+    if (!checked.ok) {
+      return { ok: false as const, error: "Die Programmseite ist keine gültige öffentliche https-Adresse." };
+    }
+    programInfoUrl = checked.url;
+  }
   let affiliateUrl: string | null = null;
   if (input.affiliateUrl) {
     const checked = validateOutboundUrl(input.affiliateUrl, tool[0].originalUrl, siteHost());
@@ -158,6 +166,8 @@ export async function saveAffiliateRecord(
   const id = programId ?? crypto.randomUUID();
   const values = {
     affiliateUrl,
+    programInfoUrl,
+    programPresence: input.programPresence,
     network: input.network,
     partnerProgramId: input.partnerProgramId || null,
     status: input.status,

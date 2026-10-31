@@ -58,6 +58,16 @@ export function affiliateStatusLabel(value: AffiliateStatus) {
   return affiliateStatusOptions.find((item) => item.value === value)?.label ?? value;
 }
 
+export const programPresenceOptions = [
+  { value: "yes", label: "Ja" },
+  { value: "no", label: "Nein" },
+  { value: "unknown", label: "Unbekannt" },
+] as const;
+
+export function programPresenceLabel(value: string) {
+  return programPresenceOptions.find((item) => item.value === value)?.label ?? "Unbekannt";
+}
+
 export function pricingFromParam(param: string | undefined): PricingModel | "" {
   if (!param) return "";
   return pricingOptions.find((item) => item.param === param)?.value ?? "";

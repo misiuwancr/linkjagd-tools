@@ -19,6 +19,19 @@ const categorySeed = [
   ["Design", "design", "Layout, Varianten und visuelle Entwürfe."],
   ["Bildung", "bildung", "Erklären, Üben und Lernwege."],
   ["E-Commerce", "e-commerce", "Produktdaten, Listings und Shop-Texte."],
+  ["Finanzen", "finanzen", "Haushalt, Rechnungen und Buchhaltung."],
+  ["Gesundheit", "gesundheit", "Training, Ernährung und Wohlbefinden."],
+  ["Reisen", "reisen", "Wege, Unterkünfte und Reisepläne."],
+  ["Recht", "recht", "Verträge, Signaturen und rechtliche Texte."],
+  ["Personal", "personal", "Bewerbungen, Personal und Schichtplanung."],
+  ["Kundenservice", "kundenservice", "Tickets, Chat und Hilfe für Kunden."],
+  ["SEO", "seo", "Sichtbarkeit in der Suche und Seitenprüfung."],
+  ["Daten", "daten", "Tabellen, Abfragen und Auswertungen."],
+  ["Präsentationen", "praesentationen", "Folien und Vorträge."],
+  ["Musik", "musik", "Komposition, Noten und Musikproduktion."],
+  ["3D", "dreid", "Modelle, Räume und Druckvorlagen."],
+  ["Gaming", "gaming", "Spiele, Engines und spielbare Geschichten."],
+  ["Videoschnitt", "videoschnitt", "Schneiden, Untertitel und Schnitt am eigenen Material."],
 ] as const;
 
 const exampleNote = "Beispieldatensatz für die Entwicklung. Kein reales Angebot und kein Partnerlink.";
