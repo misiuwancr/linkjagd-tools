@@ -1,0 +1,2376 @@
+[
+  {
+    "name": "Slidesgo",
+    "originalUrl": "https://slidesgo.com/",
+    "domain": "slidesgo.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "Slidesgo stellt Vorlagen für Folien bereit, die sich in gängige Programme übernehmen lassen.",
+    "longDescriptionDe": "Slidesgo zeigt Gestaltungen nach Thema. Ein Teil ist ohne Abo ladbar, weitere Vorlagen sind bezahlt.",
+    "featuresDe": [
+      "Folienvorlagen nach Thema",
+      "Übernahme in Präsentationsprogramme",
+      "Kostenloser Anteil und bezahlte Vorlagen"
+    ],
+    "useCasesDe": [
+      "Eine Vorlage für einen Vortrag zu suchen",
+      "Folien in ein Programm zu übernehmen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Slidebean",
+    "originalUrl": "https://slidebean.com/",
+    "domain": "slidebean.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "Slidebean baut aus Stichpunkten eine Folienfolge für Pitches.",
+    "longDescriptionDe": "Slidebean setzt Inhalte in ein Layout und lässt das Design wechseln. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Folien aus Stichpunkten",
+      "Wechselbares Layout",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Pitch aus Stichpunkten zu setzen",
+      "Das Layout einer Folge zu wechseln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Genially",
+    "originalUrl": "https://genial.ly/",
+    "domain": "genial.ly",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Genially baut interaktive Folien, Bilder und kleine Lernspiele.",
+    "longDescriptionDe": "Genially legt klickbare Elemente auf eine Fläche. Es gibt einen kostenlosen Einstieg und bezahlte Stufen. Der Dienst kommt aus Spanien.",
+    "featuresDe": [
+      "Interaktive Folien",
+      "Klickbare Elemente",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Folie mit Klicks zu bauen",
+      "Ein Lernspiel aus einer Vorlage zu machen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Slido",
+    "originalUrl": "https://www.slido.com/",
+    "domain": "slido.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Slido sammelt Fragen und Abstimmungen während eines Vortrags.",
+    "longDescriptionDe": "Slido zeigt eine Frage auf der Folie, das Publikum antwortet mit dem Handy. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Fragen und Abstimmungen",
+      "Antworten per Handy",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Fragen aus dem Publikum zu sammeln",
+      "Eine Abstimmung in einem Vortrag zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SlidesAI",
+    "originalUrl": "https://www.slidesai.io/",
+    "domain": "slidesai.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "SlidesAI macht aus einem Text eine Folienfolge.",
+    "longDescriptionDe": "SlidesAI nimmt einen Entwurf und setzt ihn auf Folien. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Folien aus einem Text",
+      "Entwurf als Ausgang",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Aus einem Text eine erste Folge zu erzeugen",
+      "Einen Entwurf auf Folien zu verteilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Plus AI",
+    "originalUrl": "https://www.plusai.com/",
+    "domain": "plusai.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "Plus AI schreibt und überarbeitet Folien in einer Präsentation.",
+    "longDescriptionDe": "Plus AI ergänzt Folien aus einer Anweisung und schreibt Texte um. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Neue Folien aus einer Anweisung",
+      "Umschreiben vorhandener Folien",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Folie aus einem Satz zu erzeugen",
+      "Einen Folientext umschreiben zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Presentations.AI",
+    "originalUrl": "https://www.presentations.ai/",
+    "domain": "presentations.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "Presentations.AI erzeugt eine Folienfolge aus einem Thema.",
+    "longDescriptionDe": "Die Seite nimmt ein Thema und setzt dazu Folien. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Folien aus einem Thema",
+      "Fertige Folge",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Zu einem Thema eine erste Folge zu bekommen",
+      "Einen Vortrag zu skizzieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Decktopus",
+    "originalUrl": "https://www.decktopus.com/",
+    "domain": "decktopus.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "Decktopus baut Präsentationen aus Fragen zu Ziel und Inhalt.",
+    "longDescriptionDe": "Decktopus fragt nach dem Anlass und setzt daraus Folien. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Folien aus Fragen zum Anlass",
+      "Vorgegebene Struktur",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Vortrag entlang von Fragen aufzubauen",
+      "Eine Folge für ein Meeting zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ChatSlide",
+    "originalUrl": "https://www.chatslide.ai/",
+    "domain": "chatslide.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "praesentationen"
+    ],
+    "shortDescriptionDe": "ChatSlide macht aus einem Chat eine Folienfolge.",
+    "longDescriptionDe": "ChatSlide nimmt eine Unterhaltung oder einen Text und setzt Folien. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Folien aus einem Chat",
+      "Text als Ausgang",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Aus einer Notiz eine Folge zu machen",
+      "Einen Entwurf im Chat in Folien zu überführen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mangools",
+    "originalUrl": "https://mangools.com/",
+    "domain": "mangools.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Mangools bündelt Keyword-Suche, Rankings und Linkdaten.",
+    "longDescriptionDe": "Mangools zeigt Suchvolumen, Positionen und verweisende Seiten. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Keywords und Rankings",
+      "Verweisende Seiten",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Keyword nach Volumen zu prüfen",
+      "Die Position einer Seite zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SE Ranking",
+    "originalUrl": "https://seranking.com/",
+    "domain": "seranking.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "SE Ranking verfolgt Positionen und prüft eine Website auf SEO-Fehler.",
+    "longDescriptionDe": "SE Ranking misst Rankings über die Zeit und zeigt technische Hinweise. Es gibt einen Test und bezahlte Stufen.",
+    "featuresDe": [
+      "Positionen über die Zeit",
+      "Technische Hinweise",
+      "Test und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Rankings einer Domain zu verfolgen",
+      "Fehler einer Website zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "AlsoAsked",
+    "originalUrl": "https://alsoasked.com/",
+    "domain": "alsoasked.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "recherche"
+    ],
+    "shortDescriptionDe": "AlsoAsked zeigt, welche Folgefragen Menschen zu einem Begriff stellen.",
+    "longDescriptionDe": "AlsoAsked zeichnet einen Baum verwandter Fragen. Es gibt einen kostenlosen Einstieg und bezahlte Abfragen.",
+    "featuresDe": [
+      "Folgefragen zu einem Begriff",
+      "Baum verwandter Fragen",
+      "Kostenloser Einstieg und bezahlte Abfragen"
+    ],
+    "useCasesDe": [
+      "Themen für einen Text zu sammeln",
+      "Zu sehen, was neben einem Begriff gefragt wird"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Majestic",
+    "originalUrl": "https://majestic.com/",
+    "domain": "majestic.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Majestic bewertet, welche Seiten auf eine Domain verweisen.",
+    "longDescriptionDe": "Majestic zeigt Verweise und einen eigenen Index-Wert. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Verweisende Seiten",
+      "Eigener Index-Wert",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Die Verweise auf eine Domain zu sehen",
+      "Zwei Domains nach Verweisen zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Similarweb",
+    "originalUrl": "https://www.similarweb.com/",
+    "domain": "similarweb.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Similarweb schätzt Besuche und Quellen von Websites.",
+    "longDescriptionDe": "Similarweb zeigt Reichweite, Herkunft und ähnliche Seiten. Ein Teil ist ohne Abo sichtbar, ausführliche Zahlen sind bezahlt.",
+    "featuresDe": [
+      "Geschätzte Besuche und Quellen",
+      "Ähnliche Seiten",
+      "Freier Anteil und bezahlte Zahlen"
+    ],
+    "useCasesDe": [
+      "Die Reichweite einer Website einzuordnen",
+      "Ähnliche Angebote zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SparkToro",
+    "originalUrl": "https://sparktoro.com/",
+    "domain": "sparktoro.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "marketing"
+    ],
+    "shortDescriptionDe": "SparkToro zeigt, welche Quellen und Profile eine Zielgruppe nutzt.",
+    "longDescriptionDe": "SparkToro sucht nach einer Beschreibung der Zielgruppe und listet Medien und Konten. Es gibt einen Einstieg und bezahlte Abfragen.",
+    "featuresDe": [
+      "Quellen einer Zielgruppe",
+      "Medien und Profile",
+      "Einstieg und bezahlte Abfragen"
+    ],
+    "useCasesDe": [
+      "Zu sehen, wo eine Zielgruppe liest",
+      "Profile für eine Ansprache zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Frase",
+    "originalUrl": "https://www.frase.io/",
+    "domain": "frase.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Frase sammelt Fragen aus der Suche und hilft, einen Text daran auszurichten.",
+    "longDescriptionDe": "Frase zeigt, welche Fragen zu einem Thema auftauchen, und vergleicht den eigenen Entwurf. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Fragen aus der Suche",
+      "Vergleich des Entwurfs",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Text an Suchfragen auszurichten",
+      "Lücken gegenüber anderen Seiten zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "NeuronWriter",
+    "originalUrl": "https://www.neuronwriter.com/",
+    "domain": "neuronwriter.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "NeuronWriter bewertet einen Text anhand von Seiten, die schon zu dem Thema ranken.",
+    "longDescriptionDe": "NeuronWriter schlägt Begriffe vor und zeigt eine Punktzahl. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Vergleich mit rankenden Seiten",
+      "Begriffsvorschläge",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Artikel an ein Thema anzupassen",
+      "Fehlende Begriffe zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Clearscope",
+    "originalUrl": "https://www.clearscope.io/",
+    "domain": "clearscope.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Clearscope prüft, ob ein Text die Begriffe eines Themas abdeckt.",
+    "longDescriptionDe": "Clearscope vergleicht den Entwurf mit Seiten aus der Suche und markiert Lücken. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Abdeckung eines Themas",
+      "Lücken im Entwurf",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Text vor der Veröffentlichung zu prüfen",
+      "Begriffe zu ergänzen, die im Thema fehlen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sitebulb",
+    "originalUrl": "https://www.sitebulb.com/",
+    "domain": "sitebulb.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Sitebulb crawlt eine Website und erklärt technische SEO-Befunde.",
+    "longDescriptionDe": "Sitebulb läuft auf dem eigenen Rechner und zeigt Hinweise mit Begründung. Die Lizenz ist kostenpflichtig.",
+    "featuresDe": [
+      "Crawl auf dem eigenen Rechner",
+      "Befunde mit Begründung",
+      "Kostenpflichtige Lizenz"
+    ],
+    "useCasesDe": [
+      "Eine Website vor einem Relaunch zu prüfen",
+      "Einen technischen Fehler nachzuvollziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "XOVI",
+    "originalUrl": "https://www.xovi.de/",
+    "domain": "xovi.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "XOVI beobachtet Rankings, Keywords und Sichtbarkeit, mit Sitz in Deutschland.",
+    "longDescriptionDe": "XOVI zeigt Positionen und Suchbegriffe einer Domain. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Rankings und Keywords",
+      "Sichtbarkeit",
+      "Anbieter aus Deutschland"
+    ],
+    "useCasesDe": [
+      "Die Sichtbarkeit einer Domain zu verfolgen",
+      "Keywords eines Wettbewerbers zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lumar",
+    "originalUrl": "https://www.lumar.io/",
+    "domain": "lumar.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Lumar crawlt große Websites und zeigt technische SEO-Daten.",
+    "longDescriptionDe": "Lumar, früher Deepcrawl, sammelt Indexierung, Links und Inhalte. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Crawl großer Websites",
+      "Indexierung und Links",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine große Website technisch zu prüfen",
+      "Indexierungsprobleme zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Oncrawl",
+    "originalUrl": "https://www.oncrawl.com/",
+    "domain": "oncrawl.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Oncrawl verbindet Crawl-Daten mit der Suche und mit Logs.",
+    "longDescriptionDe": "Oncrawl zeigt, welche Seiten der Crawler und die Suche sehen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Crawl und Suchdaten",
+      "Logs",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Zu sehen, welche Seiten nicht indexiert werden",
+      "Crawl und Logs zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Botify",
+    "originalUrl": "https://www.botify.com/",
+    "domain": "botify.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo"
+    ],
+    "shortDescriptionDe": "Botify analysiert Crawl, Logs und Suche für große Websites.",
+    "longDescriptionDe": "Botify zeigt, wie Suchmaschinen eine Website durchlaufen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Crawl, Logs und Suche",
+      "Große Websites",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Den Weg einer Suchmaschine durch die Seite zu sehen",
+      "Seiten mit wenig Abrufen zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenStreetMap",
+    "originalUrl": "https://www.openstreetmap.org/",
+    "domain": "openstreetmap.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen",
+      "daten"
+    ],
+    "shortDescriptionDe": "OpenStreetMap ist eine Karte, die eine Gemeinschaft fortschreibt.",
+    "longDescriptionDe": "Die Karte zeigt Wege, Orte und Gebäude und lässt sich in eigene Programme einbinden. Das Ansehen ist ohne Konto möglich. Eine einzelne OSI-Kennung der Daten wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Karte der Gemeinschaft",
+      "Wege, Orte und Gebäude",
+      "Ansehen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Weg auf der Karte zu prüfen",
+      "Kartendaten für ein eigenes Programm zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "QGIS",
+    "originalUrl": "https://qgis.org/",
+    "domain": "qgis.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "reisen"
+    ],
+    "shortDescriptionDe": "QGIS zeigt und bearbeitet Geodaten auf dem eigenen Rechner.",
+    "longDescriptionDe": "QGIS legt Karten aus Dateien und Diensten übereinander. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Geodaten auf dem eigenen Rechner",
+      "Überlagerte Karten",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Karte aus eigenen Daten zu zeichnen",
+      "Zwei Ebenen übereinanderzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BRouter",
+    "originalUrl": "https://brouter.de/",
+    "domain": "brouter.de",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "BRouter rechnet Rad- und Wanderrouten aus offenen Kartendaten.",
+    "longDescriptionDe": "BRouter sucht einen Weg nach Profil, etwa fürs Rennrad oder den Alltag. Der Dienst kommt aus Deutschland. Die Berechnung ist ohne Abo möglich. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Routen für Rad und Wandern",
+      "Profile je Fortbewegung",
+      "Berechnung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Radroute abseits der Straße zu rechnen",
+      "Ein Profil für den Alltag zu wählen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GraphHopper",
+    "originalUrl": "https://graphhopper.com/",
+    "domain": "graphhopper.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "GraphHopper rechnet Routen und bietet dafür eine Schnittstelle.",
+    "longDescriptionDe": "GraphHopper sucht Wege für Auto, Rad und Fuß und lässt sich in eigene Programme einbinden. Es gibt einen Einstieg und bezahlte Kontingente. Eine OSI-Kennung der gehosteten Fassung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Routen für Auto, Rad und Fuß",
+      "Schnittstelle",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine Route in eine eigene Anwendung einzubauen",
+      "Einen Weg fürs Rad zu rechnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Leaflet",
+    "originalUrl": "https://leafletjs.com/",
+    "domain": "leafletjs.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "reisen"
+    ],
+    "shortDescriptionDe": "Leaflet zeichnet interaktive Karten im Browser.",
+    "longDescriptionDe": "Leaflet legt Kartenkacheln und Markierungen auf eine Seite. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Bibliothek ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Karten im Browser",
+      "Markierungen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Karte in eine Website einzubauen",
+      "Einen Ort zu markieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MapLibre",
+    "originalUrl": "https://maplibre.org/",
+    "domain": "maplibre.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "reisen"
+    ],
+    "shortDescriptionDe": "MapLibre zeichnet Vektorkarten im Browser und auf dem Handy.",
+    "longDescriptionDe": "MapLibre stellt Bibliotheken bereit, die Kacheln selbst darstellen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Bibliotheken sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Vektorkarten",
+      "Browser und Handy",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Karte ohne einen bestimmten Kartenanbieter zu zeichnen",
+      "Eine Bibliothek fürs Web zu wählen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Geofabrik",
+    "originalUrl": "https://www.geofabrik.de/",
+    "domain": "geofabrik.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten",
+      "reisen"
+    ],
+    "shortDescriptionDe": "Geofabrik stellt Auszüge aus OpenStreetMap nach Regionen bereit.",
+    "longDescriptionDe": "Geofabrik aus Karlsruhe bietet kostenlose Auszüge und feinere, bezahlte Zuschnitte. Der Download der Standardauszüge ist ohne Konto möglich.",
+    "featuresDe": [
+      "Auszüge nach Region",
+      "Kostenlose Standardauszüge",
+      "Feinere Zuschnitte bezahlt"
+    ],
+    "useCasesDe": [
+      "Kartendaten eines Landes zu laden",
+      "Einen Auszug für ein Routing zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ride with GPS",
+    "originalUrl": "https://ridewithgps.com/",
+    "domain": "ridewithgps.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Ride with GPS plant Radrouten und zeichnet Fahrten auf.",
+    "longDescriptionDe": "Die Seite legt eine Route auf die Karte und exportiert sie auf den Radcomputer. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Radrouten auf der Karte",
+      "Export auf den Radcomputer",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Radtour zu planen",
+      "Eine Route zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TomTom",
+    "originalUrl": "https://www.tomtom.com/",
+    "domain": "tomtom.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "TomTom liefert Navigation und Kartendaten für Geräte und Autos.",
+    "longDescriptionDe": "TomTom zeigt Karten, Verkehr und Geräte. Kartenupdates und Geräte sind je nach Angebot kostenpflichtig. Der Sitz ist in den Niederlanden.",
+    "featuresDe": [
+      "Navigation und Karten",
+      "Verkehr",
+      "Geräte und Updates kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Ein Navigationsgerät einzuordnen",
+      "Kartendaten für eine Anwendung zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HERE",
+    "originalUrl": "https://www.here.com/",
+    "domain": "here.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "HERE stellt Karten und eine Schnittstelle für Navigation bereit.",
+    "longDescriptionDe": "HERE zeigt Karten und bietet Entwicklern eine API. Es gibt einen Einstieg und bezahlte Kontingente. Der Dienst hat Wurzeln in Europa.",
+    "featuresDe": [
+      "Karten und Navigation",
+      "Schnittstelle",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine Karte in eine Anwendung einzubauen",
+      "Verkehrsdaten einzubinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mapbox",
+    "originalUrl": "https://www.mapbox.com/",
+    "domain": "mapbox.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung",
+      "reisen"
+    ],
+    "shortDescriptionDe": "Mapbox zeichnet anpassbare Karten und rechnet Routen über eine Schnittstelle.",
+    "longDescriptionDe": "Mapbox liefert Kacheln und Stile für eigene Anwendungen. Es gibt einen kostenlosen Einstieg und bezahlte Abrufe.",
+    "featuresDe": [
+      "Anpassbare Karten",
+      "Routen über die Schnittstelle",
+      "Kostenloser Einstieg und bezahlte Abrufe"
+    ],
+    "useCasesDe": [
+      "Eine Karte im eigenen Stil einzubauen",
+      "Eine Route über die API zu rechnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "bpb",
+    "originalUrl": "https://www.bpb.de/",
+    "domain": "bpb.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Bundeszentrale für politische Bildung erklärt Politik und Gesellschaft.",
+    "longDescriptionDe": "Die bpb veröffentlicht Texte, Hefte und Zahlen. Die Seiten sind ohne Abo lesbar.",
+    "featuresDe": [
+      "Texte zu Politik und Gesellschaft",
+      "Hefte und Zahlen",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Ein politisches Thema nachzulesen",
+      "Eine Zahl aus einem Heft zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "netzpolitik.org",
+    "originalUrl": "https://netzpolitik.org/",
+    "domain": "netzpolitik.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "recht"
+    ],
+    "shortDescriptionDe": "netzpolitik.org berichtet über digitale Grundrechte und Netzpolitik.",
+    "longDescriptionDe": "Die Redaktion in Berlin veröffentlicht Recherchen, die ohne Abo lesbar sind. Das Angebot finanziert sich nicht über einen Einzelverkauf der Texte.",
+    "featuresDe": [
+      "Recherchen zu Grundrechten",
+      "Redaktion in Berlin",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Recherche zur Netzpolitik zu lesen",
+      "Ein Gesetz aus digitaler Sicht einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CORRECTIV",
+    "originalUrl": "https://correctiv.org/",
+    "domain": "correctiv.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "CORRECTIV veröffentlicht Recherchen und Faktenchecks.",
+    "longDescriptionDe": "Das Recherchezentrum zeigt Untersuchungen, die ohne Abo lesbar sind. Der Sitz ist in Essen und Berlin.",
+    "featuresDe": [
+      "Recherchen und Faktenchecks",
+      "Sitz in Essen und Berlin",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Faktencheck zu lesen",
+      "Eine Recherche zu einem Thema zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Deutscher Bundestag",
+    "originalUrl": "https://www.bundestag.de/",
+    "domain": "bundestag.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Bundestag veröffentlicht Drucksachen, das Plenum und die Abgeordneten.",
+    "longDescriptionDe": "Die Website zeigt Dokumente und Mediathek. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Drucksachen und Plenum",
+      "Abgeordnete",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Drucksache zu suchen",
+      "Eine Debatte in der Mediathek zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bundesregierung",
+    "originalUrl": "https://www.bundesregierung.de/",
+    "domain": "bundesregierung.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "recht"
+    ],
+    "shortDescriptionDe": "Die Bundesregierung veröffentlicht Beschlüsse, Meldungen und Erklärstücke.",
+    "longDescriptionDe": "Die Seite zeigt Politikfelder und Dokumente. Die Texte sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Beschlüsse und Meldungen",
+      "Erklärstücke",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Beschluss nachzulesen",
+      "Ein Politikfeld zu überblicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bundesrat",
+    "originalUrl": "https://www.bundesrat.de/",
+    "domain": "bundesrat.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Bundesrat dokumentiert die Mitwirkung der Länder an Bundesgesetzen.",
+    "longDescriptionDe": "Die Website zeigt Sitzungen und Drucksachen. Die Dokumente sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Mitwirkung der Länder",
+      "Sitzungen und Drucksachen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Bundesratsdrucksache zu suchen",
+      "Eine Sitzung nachzuvollziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "vzbv",
+    "originalUrl": "https://www.vzbv.de/",
+    "domain": "vzbv.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recht",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Verbraucherzentrale Bundesverband vertritt Verbraucherinnen und Verbraucher politisch.",
+    "longDescriptionDe": "Der vzbv veröffentlicht Positionen und Meldungen. Die Texte sind ohne Abo lesbar.",
+    "featuresDe": [
+      "Positionen zu Verbraucherthemen",
+      "Meldungen",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Position zu einem Vertragsthema zu lesen",
+      "Eine Meldung des Verbands zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Deutsche Welle",
+    "originalUrl": "https://www.dw.com/de/",
+    "domain": "dw.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Deutsche Welle sendet Nachrichten und Sprachangebote aus Deutschland in viele Sprachen.",
+    "longDescriptionDe": "DW.com zeigt Artikel und Videos. Die deutschsprachigen Seiten sind ohne Abo lesbar.",
+    "featuresDe": [
+      "Nachrichten aus Deutschland",
+      "Mehrere Sprachen",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Nachricht auf Deutsch zu lesen",
+      "Ein Sprachangebot zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "presseportal",
+    "originalUrl": "https://www.presseportal.de/",
+    "domain": "presseportal.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "marketing"
+    ],
+    "shortDescriptionDe": "presseportal veröffentlicht Pressemitteilungen von Unternehmen und Behörden.",
+    "longDescriptionDe": "Die Suche findet Mitteilungen nach Thema und Absender. Das Lesen ist ohne Konto möglich.",
+    "featuresDe": [
+      "Pressemitteilungen",
+      "Suche nach Thema und Absender",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Mitteilung eines Unternehmens zu finden",
+      "Meldungen zu einem Thema zu verfolgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BVG",
+    "originalUrl": "https://www.bvg.de/",
+    "domain": "bvg.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Die BVG informiert zu Bussen und Bahnen in Berlin und verkauft Fahrscheine.",
+    "longDescriptionDe": "Die Seite zeigt Linien und Verbindungen. Die Auskunft ist ohne Konto möglich, die Fahrt ist kostenpflichtig.",
+    "featuresDe": [
+      "Bus und Bahn in Berlin",
+      "Verbindungen",
+      "Auskunft ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Verbindung in Berlin zu suchen",
+      "Einen Fahrschein einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HVV",
+    "originalUrl": "https://www.hvv.de/",
+    "domain": "hvv.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Der HVV informiert zum Nahverkehr in Hamburg.",
+    "longDescriptionDe": "Der Hamburger Verkehrsverbund zeigt Linien, Tickets und Ausfälle. Die Auskunft ist ohne Konto möglich, die Fahrt ist kostenpflichtig.",
+    "featuresDe": [
+      "Nahverkehr in Hamburg",
+      "Tickets und Ausfälle",
+      "Auskunft ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Verbindung in Hamburg zu suchen",
+      "Ein Ticket einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MVG",
+    "originalUrl": "https://www.mvg.de/",
+    "domain": "mvg.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Die MVG informiert zu U-Bahn, Bus und Tram in München.",
+    "longDescriptionDe": "Die Münchner Verkehrsgesellschaft zeigt Linien und Störungen. Die Auskunft ist ohne Konto möglich, die Fahrt ist kostenpflichtig.",
+    "featuresDe": [
+      "U-Bahn, Bus und Tram in München",
+      "Störungen",
+      "Auskunft ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Linie in München nachzusehen",
+      "Eine Störung zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RMV",
+    "originalUrl": "https://www.rmv.de/",
+    "domain": "rmv.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Der RMV informiert zum Nahverkehr in Rhein-Main.",
+    "longDescriptionDe": "Der Rhein-Main-Verkehrsverbund zeigt Verbindungen und Tickets. Die Auskunft ist ohne Konto möglich, die Fahrt ist kostenpflichtig.",
+    "featuresDe": [
+      "Nahverkehr in Rhein-Main",
+      "Verbindungen und Tickets",
+      "Auskunft ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Verbindung im Verbund zu suchen",
+      "Ein Ticket nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "VBB",
+    "originalUrl": "https://www.vbb.de/",
+    "domain": "vbb.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Der VBB informiert zum Nahverkehr in Berlin und Brandenburg.",
+    "longDescriptionDe": "Der Verkehrsverbund Berlin-Brandenburg zeigt Tarife und Verbindungen. Die Auskunft ist ohne Konto möglich, die Fahrt ist kostenpflichtig.",
+    "featuresDe": [
+      "Nahverkehr in Berlin und Brandenburg",
+      "Tarife",
+      "Auskunft ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Tarif des Verbunds nachzulesen",
+      "Eine Verbindung über die Landesgrenze zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "VCD",
+    "originalUrl": "https://www.vcd.org/",
+    "domain": "vcd.org",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der VCD setzt sich für umweltverträglichen Verkehr ein und veröffentlicht Ratgeber.",
+    "longDescriptionDe": "Der Verkehrsclub Deutschland erklärt Alternativen zum Auto und Mitgliedsleistungen. Ein Teil der Texte ist ohne Mitgliedschaft lesbar.",
+    "featuresDe": [
+      "Ratgeber zum Verkehr",
+      "Mitgliedschaft",
+      "Texte ohne Mitgliedschaft lesbar"
+    ],
+    "useCasesDe": [
+      "Einen Ratgeber zu Bus und Bahn zu lesen",
+      "Die Arbeit des Clubs einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ryanair",
+    "originalUrl": "https://www.ryanair.com/",
+    "domain": "ryanair.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Ryanair verkauft Flüge in Europa und zeigt die Verbindungen auf der eigenen Seite.",
+    "longDescriptionDe": "Die Suche listet Abflüge und Preise. Sie ist ohne Konto möglich, das Ticket ist kostenpflichtig.",
+    "featuresDe": [
+      "Flüge in Europa",
+      "Preise und Abflüge",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Flugpreis zu suchen",
+      "Eine Verbindung zu buchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tagesspiegel",
+    "originalUrl": "https://www.tagesspiegel.de/",
+    "domain": "tagesspiegel.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Tagesspiegel berichtet aus Berlin und über Politik.",
+    "longDescriptionDe": "Ein Teil der Artikel ist frei, längere Stücke liegen hinter einem kostenpflichtigen Zugang.",
+    "featuresDe": [
+      "Nachrichten aus Berlin",
+      "Politik",
+      "Freier Anteil und kostenpflichtiger Zugang"
+    ],
+    "useCasesDe": [
+      "Eine Meldung aus Berlin zu lesen",
+      "Einen Hintergrundartikel zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Süddeutsche Zeitung",
+    "originalUrl": "https://www.sueddeutsche.de/",
+    "domain": "sueddeutsche.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Süddeutsche Zeitung berichtet über Politik, Wirtschaft und Kultur.",
+    "longDescriptionDe": "Ein Teil der Artikel ist frei, das digitale Abo ist kostenpflichtig. Der Verlag sitzt in München.",
+    "featuresDe": [
+      "Politik, Wirtschaft und Kultur",
+      "Verlag aus München",
+      "Freier Anteil und kostenpflichtiges Abo"
+    ],
+    "useCasesDe": [
+      "Eine Meldung zu lesen",
+      "Einen längeren Text einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DER SPIEGEL",
+    "originalUrl": "https://www.spiegel.de/",
+    "domain": "spiegel.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Spiegel veröffentlicht Nachrichten und Recherchen.",
+    "longDescriptionDe": "Ein Teil der Texte ist frei, SPIEGEL+ ist kostenpflichtig. Die Redaktion sitzt in Hamburg.",
+    "featuresDe": [
+      "Nachrichten und Recherchen",
+      "Redaktion in Hamburg",
+      "Freier Anteil und kostenpflichtiges SPIEGEL+"
+    ],
+    "useCasesDe": [
+      "Eine Recherche zu lesen",
+      "Eine Meldung des Tages zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "WELT",
+    "originalUrl": "https://www.welt.de/",
+    "domain": "welt.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "WELT berichtet über Nachrichten, Wirtschaft und Meinung.",
+    "longDescriptionDe": "Ein Teil der Artikel ist frei, WELT+ ist kostenpflichtig.",
+    "featuresDe": [
+      "Nachrichten und Wirtschaft",
+      "Meinung",
+      "Freier Anteil und kostenpflichtiges WELT+"
+    ],
+    "useCasesDe": [
+      "Eine Wirtschaftsmeldung zu lesen",
+      "Einen Kommentar zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "NZZ",
+    "originalUrl": "https://www.nzz.ch/",
+    "domain": "nzz.ch",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Neue Zürcher Zeitung berichtet über Politik, Wirtschaft und Kultur.",
+    "longDescriptionDe": "Ein Teil der Artikel ist frei, das Abo ist kostenpflichtig. Der Verlag sitzt in Zürich.",
+    "featuresDe": [
+      "Politik, Wirtschaft und Kultur",
+      "Verlag aus Zürich",
+      "Freier Anteil und kostenpflichtiges Abo"
+    ],
+    "useCasesDe": [
+      "Eine Meldung aus der Schweiz zu lesen",
+      "Einen Wirtschaftstext zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "taz",
+    "originalUrl": "https://www.taz.de/",
+    "domain": "taz.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die taz berichtet über Politik, Gesellschaft und Kultur.",
+    "longDescriptionDe": "Viele Artikel sind frei lesbar, die Genossenschaft bietet eine bezahlte Mitgliedschaft. Die Redaktion sitzt in Berlin.",
+    "featuresDe": [
+      "Politik und Gesellschaft",
+      "Redaktion in Berlin",
+      "Freie Artikel und bezahlte Mitgliedschaft"
+    ],
+    "useCasesDe": [
+      "Einen Artikel zu lesen",
+      "Die Finanzierung der Zeitung einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "der Freitag",
+    "originalUrl": "https://www.freitag.de/",
+    "domain": "freitag.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "der Freitag veröffentlicht Debatten und Hintergründe.",
+    "longDescriptionDe": "Ein Teil der Texte ist frei, das Abo ist kostenpflichtig.",
+    "featuresDe": [
+      "Debatten und Hintergründe",
+      "Freier Anteil",
+      "Kostenpflichtiges Abo"
+    ],
+    "useCasesDe": [
+      "Einen Debattenbeitrag zu lesen",
+      "Ein Thema in der Übersicht zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cicero",
+    "originalUrl": "https://www.cicero.de/",
+    "domain": "cicero.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Cicero veröffentlicht politische Essays und Hintergründe.",
+    "longDescriptionDe": "Ein Teil der Texte ist frei, das Magazin ist kostenpflichtig.",
+    "featuresDe": [
+      "Politische Essays",
+      "Freier Anteil",
+      "Kostenpflichtiges Magazin"
+    ],
+    "useCasesDe": [
+      "Einen Essay zu lesen",
+      "Ein aktuelles Thema einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HORIZONT",
+    "originalUrl": "https://www.horizont.net/",
+    "domain": "horizont.net",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing",
+      "recherche"
+    ],
+    "shortDescriptionDe": "HORIZONT berichtet über Werbung, Medien und Marken.",
+    "longDescriptionDe": "Ein Teil der Meldungen ist frei, weitere Berichte sind kostenpflichtig. Das Fachblatt kommt aus Deutschland.",
+    "featuresDe": [
+      "Werbung, Medien und Marken",
+      "Freie Meldungen",
+      "Weitere Berichte kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Eine Meldung zur Werbebranche zu lesen",
+      "Eine Kampagne einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "euronews",
+    "originalUrl": "https://de.euronews.com/",
+    "domain": "de.euronews.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "euronews berichtet auf Deutsch über Europa und die Welt.",
+    "longDescriptionDe": "Die deutschsprachige Ausgabe zeigt Nachrichten und Videos. Die Artikel sind ohne Abo lesbar.",
+    "featuresDe": [
+      "Nachrichten auf Deutsch",
+      "Europa und die Welt",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine europäische Nachricht zu lesen",
+      "Ein Video zu einem Thema zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "POLITICO Europe",
+    "originalUrl": "https://www.politico.eu/",
+    "domain": "politico.eu",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "POLITICO Europe berichtet über Politik in Brüssel und den Hauptstädten.",
+    "longDescriptionDe": "Ein Teil der Texte ist frei, das Pro-Abo ist kostenpflichtig.",
+    "featuresDe": [
+      "Politik in Europa",
+      "Freier Anteil",
+      "Kostenpflichtiges Pro-Abo"
+    ],
+    "useCasesDe": [
+      "Eine Meldung aus Brüssel zu lesen",
+      "Ein Dossier zu einem Gesetz zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Pulumi",
+    "originalUrl": "https://www.pulumi.com/",
+    "domain": "pulumi.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Pulumi beschreibt Infrastruktur in einer Programmiersprache.",
+    "longDescriptionDe": "Pulumi legt Ressourcen aus Code an. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Infrastruktur aus Code",
+      "Mehrere Sprachen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Server aus einem Programm anzulegen",
+      "Eine Änderung vor dem Anwenden zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Argo CD",
+    "originalUrl": "https://argoproj.io/",
+    "domain": "argoproj.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Argo CD spielt Kubernetes-Anwendungen aus einem Git-Repository aus.",
+    "longDescriptionDe": "Argo CD gleicht den Cluster mit dem Stand im Repository ab. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Ausrollen aus Git",
+      "Abgleich mit dem Cluster",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Anwendung aus Git in ein Cluster zu spielen",
+      "Abweichungen vom Repository zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Flux",
+    "originalUrl": "https://fluxcd.io/",
+    "domain": "fluxcd.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Flux hält ein Kubernetes-Cluster am Stand eines Git-Repository.",
+    "longDescriptionDe": "Flux zieht Änderungen aus Git und wendet sie an. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Cluster folgt Git",
+      "Automatisches Anwenden",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Cluster an ein Repository zu binden",
+      "Ein Update aus Git zu ziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "pnpm",
+    "originalUrl": "https://pnpm.io/",
+    "domain": "pnpm.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "pnpm installiert JavaScript-Pakete und spart dabei Speicher.",
+    "longDescriptionDe": "pnpm legt Abhängigkeiten in einem Speicher ab und verlinkt sie in Projekte. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Pakete für JavaScript",
+      "Gemeinsamer Speicher",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Abhängigkeiten eines Projekts zu installieren",
+      "Dieselben Pakete über Projekte zu teilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bun",
+    "originalUrl": "https://bun.sh/",
+    "domain": "bun.sh",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Bun führt JavaScript und TypeScript und installiert Pakete.",
+    "longDescriptionDe": "Bun startet Skripte und kann als Paketmanager und Bundler dienen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Laufzeit ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Laufzeit für JavaScript",
+      "Pakete und Bundler",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Skript mit Bun zu starten",
+      "Abhängigkeiten zu installieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Deno",
+    "originalUrl": "https://deno.com/",
+    "domain": "deno.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Deno führt TypeScript und JavaScript mit Rechten, die man einzeln freigibt.",
+    "longDescriptionDe": "Deno startet Skripte und kann sie veröffentlichen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Laufzeit ist ohne Pflichtabo erhältlich, Deploy ist bezahlt.",
+    "featuresDe": [
+      "TypeScript ohne eigenen Übersetzungs-Schritt",
+      "Einzelne Rechte",
+      "Laufzeit ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Skript mit eingeschränkten Rechten zu starten",
+      "TypeScript direkt auszuführen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Yarn",
+    "originalUrl": "https://www.yarnpkg.com/",
+    "domain": "yarnpkg.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Yarn installiert JavaScript-Pakete und hält die Versionen fest.",
+    "longDescriptionDe": "Yarn liest ein Manifest und schreibt einen Lockfile. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Installation von Paketen",
+      "Festgeschriebene Versionen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Abhängigkeiten eines Projekts zu installieren",
+      "Versionen für das Team festzuhalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "crates.io",
+    "originalUrl": "https://crates.io/",
+    "domain": "crates.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "crates.io verteilt Bibliotheken für die Sprache Rust.",
+    "longDescriptionDe": "Die Seite zeigt Beschreibungen und Versionen und liefert die Crates an Cargo. Die Suche ist ohne Konto möglich. Eine OSI-Kennung des Index wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Bibliotheken für Rust",
+      "Versionen",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Rust-Bibliothek zu finden",
+      "Die aktuelle Version nachzusehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Packagist",
+    "originalUrl": "https://packagist.org/",
+    "domain": "packagist.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Packagist verteilt Pakete für PHP und Composer.",
+    "longDescriptionDe": "Packagist zeigt Pakete und Versionen. Die Suche ist ohne Konto möglich. Eine OSI-Kennung des Index wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Pakete für PHP",
+      "Versionen für Composer",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein PHP-Paket zu finden",
+      "Eine Version für Composer nachzusehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RubyGems",
+    "originalUrl": "https://rubygems.org/",
+    "domain": "rubygems.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "RubyGems verteilt Bibliotheken für die Sprache Ruby.",
+    "longDescriptionDe": "Die Seite zeigt Gems und Versionen. Die Suche ist ohne Konto möglich. Eine OSI-Kennung des Index wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Bibliotheken für Ruby",
+      "Versionen",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Gem zu finden",
+      "Die Abhängigkeiten eines Gems zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Homebrew",
+    "originalUrl": "https://brew.sh/",
+    "domain": "brew.sh",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Homebrew installiert Programme auf dem Mac und auf Linux über die Kommandozeile.",
+    "longDescriptionDe": "Homebrew lädt Formeln und legt die Programme ab. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Installation über die Kommandozeile",
+      "Formeln",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Programm auf dem Mac zu installieren",
+      "Eine Formel nachzusehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Flatpak",
+    "originalUrl": "https://flatpak.org/",
+    "domain": "flatpak.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Flatpak installiert Desktop-Anwendungen in einer eigenen Umgebung.",
+    "longDescriptionDe": "Flatpak bezieht Anwendungen aus Repositories wie Flathub. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Desktop-Anwendungen",
+      "Eigene Umgebung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine App unabhängig von der Distribution zu installieren",
+      "Ein Repository einzubinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Snapcraft",
+    "originalUrl": "https://snapcraft.io/",
+    "domain": "snapcraft.io",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Snapcraft verteilt Anwendungen als Snap-Pakete.",
+    "longDescriptionDe": "Der Store listet Snaps und installiert sie auf Linux. Die Suche ist ohne Konto möglich. Der Store ist ein proprietäres Angebot.",
+    "featuresDe": [
+      "Snap-Pakete",
+      "Store für Linux",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Anwendung als Snap zu finden",
+      "Ein Paket zu installieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sublime Text",
+    "originalUrl": "https://www.sublimetext.com/",
+    "domain": "sublimetext.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Sublime Text ist ein schneller Editor für Code.",
+    "longDescriptionDe": "Sublime Text öffnet große Dateien und lässt sich mit Paketen erweitern. Es gibt eine Testphase, die Lizenz ist kostenpflichtig.",
+    "featuresDe": [
+      "Editor für Code",
+      "Pakete",
+      "Testphase und kostenpflichtige Lizenz"
+    ],
+    "useCasesDe": [
+      "Eine große Datei zu bearbeiten",
+      "Den Editor mit Paketen zu erweitern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Notepad++",
+    "originalUrl": "https://notepad-plus-plus.org/",
+    "domain": "notepad-plus-plus.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Notepad++ bearbeitet Textdateien unter Windows mit Hervorhebung der Syntax.",
+    "longDescriptionDe": "Notepad++ öffnet viele Dateien in Reitern und färbt Code ein. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Editor ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Text unter Windows",
+      "Syntax-Hervorhebung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Konfigurationsdatei zu bearbeiten",
+      "Mehrere Dateien in Reitern zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kate",
+    "originalUrl": "https://kate-editor.org/",
+    "domain": "kate-editor.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Kate ist der Texteditor der KDE-Oberfläche.",
+    "longDescriptionDe": "Kate öffnet Projekte, hebt Syntax hervor und kann ein Terminal daneben zeigen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Editor ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Editor mit Projekten",
+      "Terminal daneben",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Code in einem KDE-Editor zu schreiben",
+      "Ein Projekt mit mehreren Dateien zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "dpa",
+    "originalUrl": "https://www.dpa.de/",
+    "domain": "dpa.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die dpa ist eine Nachrichtenagentur und zeigt ausgewählte Meldungen auf ihrer Seite.",
+    "longDescriptionDe": "dpa.com und die deutsche Seite stellen die Agentur und Beispiele ihrer Meldungen vor. Der Bezug des Dienstes für Redaktionen ist kostenpflichtig, die Vorstellung ist ohne Konto lesbar.",
+    "featuresDe": [
+      "Nachrichtenagentur",
+      "Beispiele von Meldungen",
+      "Bezug für Redaktionen kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Die Agentur einzuordnen",
+      "Eine Beispielmeldung zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bundeskanzler",
+    "originalUrl": "https://www.bundeskanzler.de/",
+    "domain": "bundeskanzler.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Seite des Bundeskanzlers veröffentlicht Termine, Reden und Meldungen.",
+    "longDescriptionDe": "bundeskanzler.de zeigt das Amt und aktuelle Beiträge. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Termine und Reden",
+      "Meldungen des Amts",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Termin des Kanzlers nachzusehen",
+      "Eine Rede zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Alpenverein Österreich",
+    "originalUrl": "https://www.alpenverein.at/",
+    "domain": "alpenverein.at",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Der Österreichische Alpenverein informiert zu Touren, Hütten und Mitgliedschaft.",
+    "longDescriptionDe": "Die Seite beschreibt Wege und Hütten in Österreich. Ein Teil der Texte ist ohne Mitgliedschaft lesbar.",
+    "featuresDe": [
+      "Touren und Hütten",
+      "Mitgliedschaft",
+      "Texte ohne Mitgliedschaft lesbar"
+    ],
+    "useCasesDe": [
+      "Eine Hütte in Österreich nachzuschlagen",
+      "Die Mitgliedschaft einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SAC",
+    "originalUrl": "https://www.sac-cas.ch/",
+    "domain": "sac-cas.ch",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Der Schweizer Alpen-Club informiert zu Touren und Hütten.",
+    "longDescriptionDe": "Die Seite zeigt Hütten und Touren der Sektionen. Ein Teil ist ohne Mitgliedschaft lesbar.",
+    "featuresDe": [
+      "Hütten und Touren",
+      "Sektionen",
+      "Ein Teil ohne Mitgliedschaft"
+    ],
+    "useCasesDe": [
+      "Eine SAC-Hütte zu finden",
+      "Eine Tour in der Schweiz nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
