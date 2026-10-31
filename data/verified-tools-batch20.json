@@ -1,0 +1,932 @@
+[
+  {
+    "name": "WordPress",
+    "originalUrl": "https://wordpress.org/",
+    "domain": "wordpress.org",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "WordPress betreibt Websites und Blogs und steht unter der GPL.",
+    "longDescriptionDe": "WordPress lässt sich selbst hosten und mit Erweiterungen ausbauen. Die Software ist quelloffen unter der GPL und ohne Lizenzgebühr nutzbar.",
+    "featuresDe": [
+      "Selbst gehostete Websites",
+      "Erweiterungen",
+      "GPL, ohne Lizenzgebühr"
+    ],
+    "useCasesDe": [
+      "Einen Blog selbst zu betreiben",
+      "Eine Website mit Erweiterungen zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "WordPress.com",
+    "originalUrl": "https://wordpress.com/",
+    "domain": "wordpress.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "WordPress.com hostet eine WordPress-Website, ohne einen eigenen Server.",
+    "longDescriptionDe": "WordPress.com veröffentlicht Seiten auf der gehosteten Plattform. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Gehostetes WordPress",
+      "Eigene Domain in bezahlten Stufen",
+      "Kostenloser Einstieg"
+    ],
+    "useCasesDe": [
+      "Einen Blog ohne eigenen Server zu starten",
+      "Eine Seite zu veröffentlichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sanity",
+    "originalUrl": "https://www.sanity.io/",
+    "domain": "sanity.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Sanity speichert Inhalte in einem anpassbaren Redaktionssystem.",
+    "longDescriptionDe": "Sanity liefert Inhalte über eine Schnittstelle an die Website. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Anpassbare Redaktion",
+      "Schnittstelle",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Texte strukturiert abzulegen",
+      "Inhalte an eine Website zu liefern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Strapi",
+    "originalUrl": "https://www.strapi.io/",
+    "domain": "strapi.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "design",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Strapi ist ein Redaktionssystem, das Inhalte über eine Schnittstelle ausliefert.",
+    "longDescriptionDe": "Strapi legt Inhaltstypen an und stellt sie per API bereit. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine selbst betriebene Fassung und eine bezahlte Cloud.",
+    "featuresDe": [
+      "Inhaltstypen",
+      "API",
+      "Selbst betrieben und bezahlte Cloud"
+    ],
+    "useCasesDe": [
+      "Ein eigenes Redaktionssystem zu starten",
+      "Inhalte an ein Frontend zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Payload",
+    "originalUrl": "https://payloadcms.com/",
+    "domain": "payloadcms.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Payload ist ein Redaktionssystem, das im eigenen Code mitläuft.",
+    "longDescriptionDe": "Payload definiert Inhaltstypen neben der Anwendung. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine selbst betriebene Fassung und eine bezahlte Cloud.",
+    "featuresDe": [
+      "Inhaltstypen im eigenen Code",
+      "Selbst betrieben",
+      "Bezahlte Cloud"
+    ],
+    "useCasesDe": [
+      "Inhalte neben der App zu pflegen",
+      "Eine Redaktion ohne separates System zu betreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Storyblok",
+    "originalUrl": "https://www.storyblok.com/",
+    "domain": "storyblok.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Storyblok lässt Inhalte in Blöcken pflegen und an die Website liefern.",
+    "longDescriptionDe": "Storyblok zeigt eine Vorschau der Seite. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Inhalte in Blöcken",
+      "Vorschau",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Seite in Blöcken zu pflegen",
+      "Eine Vorschau vor dem Veröffentlichen zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hygraph",
+    "originalUrl": "https://hygraph.com/",
+    "domain": "hygraph.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Hygraph speichert Inhalte und liefert sie über GraphQL.",
+    "longDescriptionDe": "Hygraph modelliert Inhaltstypen und Beziehungen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Inhalte über GraphQL",
+      "Beziehungen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Inhalte an ein Frontend zu liefern",
+      "Verknüpfte Inhalte zu modellieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DatoCMS",
+    "originalUrl": "https://www.datocms.com/",
+    "domain": "datocms.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "DatoCMS pflegt Inhalte und liefert sie an die Website.",
+    "longDescriptionDe": "DatoCMS legt Modelle an und zeigt eine Vorschau. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Inhaltsmodelle",
+      "Vorschau",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Texte unabhängig vom Code zu pflegen",
+      "Eine Vorschau zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Prismic",
+    "originalUrl": "https://www.prismic.io/",
+    "domain": "prismic.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Prismic speichert Seitenteile und liefert sie an die Website.",
+    "longDescriptionDe": "Prismic setzt Slices und veröffentlicht sie. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Seitenteile",
+      "Veröffentlichen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Landingpage in Teilen zu pflegen",
+      "Inhalte ohne Deploy zu ändern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Builder.io",
+    "originalUrl": "https://www.builder.io/",
+    "domain": "builder.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Builder.io lässt Seiten visuell bauen und an den bestehenden Code hängen.",
+    "longDescriptionDe": "Builder.io setzt Blöcke auf eine vorhandene Website. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Visuelle Seiten",
+      "Anbindung an vorhandenen Code",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Seite ohne Deploy zu ändern",
+      "Einen Block auf eine bestehende Seite zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Auth0",
+    "originalUrl": "https://auth0.com/",
+    "domain": "auth0.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Auth0 übernimmt Anmeldung und Konten für eine Anwendung.",
+    "longDescriptionDe": "Auth0 stellt Login, Social-Login und Rollen bereit. Es gibt einen kostenlosen Einstieg und bezahlte Konten.",
+    "featuresDe": [
+      "Anmeldung",
+      "Social-Login",
+      "Kostenloser Einstieg und bezahlte Konten"
+    ],
+    "useCasesDe": [
+      "Einen Login nicht selbst zu bauen",
+      "Rollen an Konten zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Clerk",
+    "originalUrl": "https://clerk.com/",
+    "domain": "clerk.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Clerk baut Anmeldung, Profile und Organisationen in eine App ein.",
+    "longDescriptionDe": "Clerk liefert fertige Anmelde-Komponenten. Es gibt einen kostenlosen Einstieg und bezahlte Konten.",
+    "featuresDe": [
+      "Anmeldung und Profile",
+      "Fertige Komponenten",
+      "Kostenloser Einstieg und bezahlte Konten"
+    ],
+    "useCasesDe": [
+      "Einen Login in eine App zu setzen",
+      "Organisationen mit Rollen zu führen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Stytch",
+    "originalUrl": "https://stytch.com/",
+    "domain": "stytch.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Stytch meldet Nutzer per Link, Code oder Passkey an.",
+    "longDescriptionDe": "Stytch stellt passwortlose Anmeldung bereit. Es gibt einen kostenlosen Einstieg und bezahlte Konten.",
+    "featuresDe": [
+      "Anmeldung ohne Passwort",
+      "Passkeys",
+      "Kostenloser Einstieg und bezahlte Konten"
+    ],
+    "useCasesDe": [
+      "Einen Login per E-Mail-Link zu bauen",
+      "Passkeys anzubieten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Okta",
+    "originalUrl": "https://www.okta.com/",
+    "domain": "okta.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Okta verwaltet Konten und Anmeldung für Belegschaften und Kunden.",
+    "longDescriptionDe": "Okta bündelt Single Sign-on und Verzeichnisdienste. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Single Sign-on",
+      "Verzeichnis",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Anmeldung für viele interne Tools zu bündeln",
+      "Konten zentral zu sperren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Firebase",
+    "originalUrl": "https://firebase.google.com/",
+    "domain": "firebase.google.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Firebase stellt Datenbank, Anmeldung und Hosting für Apps bereit.",
+    "longDescriptionDe": "Firebase hängt Dienste an eine Anwendung. Es gibt einen kostenlosen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Datenbank, Anmeldung, Hosting",
+      "Dienste für Apps",
+      "Kostenloser Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine App ohne eigenen Server zu starten",
+      "Eine Anmeldung anzubinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PlanetScale",
+    "originalUrl": "https://planetscale.com/",
+    "domain": "planetscale.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "PlanetScale betreibt MySQL-Datenbanken mit Verzweigungen wie im Code.",
+    "longDescriptionDe": "PlanetScale legt eine Datenbank an und trennt Schema-Änderungen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Gehostetes MySQL",
+      "Verzweigte Schema-Änderungen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine MySQL-Datenbank ohne eigenen Server zu betreiben",
+      "Eine Schema-Änderung getrennt auszurollen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Railway",
+    "originalUrl": "https://railway.app/",
+    "domain": "railway.app",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Railway startet Anwendungen und Datenbanken aus einem Repository.",
+    "longDescriptionDe": "Railway baut ein Projekt und stellt es bereit. Es gibt einen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Apps aus einem Repository",
+      "Datenbanken dazu",
+      "Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Dienst ohne eigenen Server zu starten",
+      "Eine Datenbank daneben zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fly.io",
+    "originalUrl": "https://fly.io/",
+    "domain": "fly.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Fly.io startet Anwendungen nah an den Nutzern auf gemieteten Rechnern.",
+    "longDescriptionDe": "Fly.io nimmt ein Image und verteilt es. Es gibt einen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Anwendungen auf gemieteten Rechnern",
+      "Verteilung",
+      "Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Dienst in mehreren Regionen zu starten",
+      "Nur die Laufzeit zu bezahlen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LaunchDarkly",
+    "originalUrl": "https://www.launchdarkly.com/",
+    "domain": "launchdarkly.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "LaunchDarkly schaltet Funktionen für einen Teil der Nutzer frei.",
+    "longDescriptionDe": "LaunchDarkly legt Flags an und steuert, wer eine Funktion sieht. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Feature-Flags",
+      "Freischaltung nach Gruppe",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Funktion erst für ein Team zu zeigen",
+      "Einen Schalter ohne Deploy umzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Split",
+    "originalUrl": "https://www.split.io/",
+    "domain": "split.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Split schaltet Funktionen frei und misst, was sich dadurch ändert.",
+    "longDescriptionDe": "Split verbindet einen Flag mit einer Kennzahl. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Flags mit Messung",
+      "Freischaltung",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Variante nur einem Teil zu zeigen",
+      "Zu messen, ob sich eine Kennzahl ändert"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Statsig",
+    "originalUrl": "https://www.statsig.com/",
+    "domain": "statsig.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Statsig testet Funktionen und misst, welche Fassung besser ist.",
+    "longDescriptionDe": "Statsig legt Experimente und Flags an. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Experimente",
+      "Flags",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Zwei Fassungen einer Funktion zu vergleichen",
+      "Einen Schalter ohne Deploy zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GrowthBook",
+    "originalUrl": "https://growthbook.io/",
+    "domain": "growthbook.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "GrowthBook testet Funktionen und legt Flags für eine Anwendung an.",
+    "longDescriptionDe": "GrowthBook zeigt, welche Variante eine Kennzahl bewegt. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine selbst betriebene Fassung und eine bezahlte Cloud.",
+    "featuresDe": [
+      "Experimente und Flags",
+      "Selbst betrieben",
+      "Bezahlte Cloud"
+    ],
+    "useCasesDe": [
+      "Ein Experiment zu einer Funktion zu fahren",
+      "Einen Flag selbst zu hosten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Flagsmith",
+    "originalUrl": "https://flagsmith.com/",
+    "domain": "flagsmith.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Flagsmith schaltet Funktionen über Flags frei, auch selbst gehostet.",
+    "longDescriptionDe": "Flagsmith legt Schalter je Umgebung an. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine selbst betriebene Fassung und eine bezahlte Cloud.",
+    "featuresDe": [
+      "Flags je Umgebung",
+      "Selbst gehostet",
+      "Bezahlte Cloud"
+    ],
+    "useCasesDe": [
+      "Eine Funktion schrittweise freizuschalten",
+      "Flags auf dem eigenen Server zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Unleash",
+    "originalUrl": "https://www.getunleash.io/",
+    "domain": "getunleash.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Unleash schaltet Funktionen über Flags frei und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Unleash trennt den Schalter vom Deploy. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine selbst betriebene Fassung und eine bezahlte Cloud.",
+    "featuresDe": [
+      "Flags",
+      "Selbst betrieben",
+      "Bezahlte Cloud"
+    ],
+    "useCasesDe": [
+      "Einen Schalter ohne neues Release umzulegen",
+      "Flags im eigenen Netz zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Prisma",
+    "originalUrl": "https://www.prisma.io/",
+    "domain": "prisma.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "daten"
+    ],
+    "shortDescriptionDe": "Prisma beschreibt das Datenbankschema und erzeugt den Zugriff im Code.",
+    "longDescriptionDe": "Prisma legt Modelle fest und wandelt sie in Abfragen. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt einen kostenlosen Einstieg und eine bezahlte Datenplattform.",
+    "featuresDe": [
+      "Schema im Code",
+      "Erzeugte Abfragen",
+      "Kostenloser Einstieg und bezahlte Plattform"
+    ],
+    "useCasesDe": [
+      "Ein Schema neben dem Code zu führen",
+      "Abfragen aus den Modellen zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ContentSquare",
+    "originalUrl": "https://www.contentsquare.com/",
+    "domain": "contentsquare.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "ContentSquare zeigt, wie Leute eine Website nutzen, und wo sie stocken.",
+    "longDescriptionDe": "ContentSquare zeichnet Wege und Zonen auf. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Wege auf der Website",
+      "Zonen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Zu sehen, wo eine Seite nicht weiterführt",
+      "Zonen mit vielen Abbrüchen zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Inspectlet",
+    "originalUrl": "https://www.inspectlet.com/",
+    "domain": "inspectlet.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Inspectlet zeichnet Besuche auf und legt Heatmaps darüber.",
+    "longDescriptionDe": "Inspectlet spielt eine Sitzung nach. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Sitzungsaufzeichnung",
+      "Heatmaps",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Besuch mit Abbruch nachzusehen",
+      "Klicks auf einer Seite zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ptengine",
+    "originalUrl": "https://www.ptengine.com/",
+    "domain": "ptengine.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Ptengine zeigt Heatmaps und zeichnet Sitzungen auf.",
+    "longDescriptionDe": "Ptengine legt eine Karte der Klicks über die Seite. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Heatmaps",
+      "Sitzungen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Zu sehen, welche Stelle geklickt wird",
+      "Eine Sitzung nachzuspielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Glassbox",
+    "originalUrl": "https://www.glassbox.com/",
+    "domain": "glassbox.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Glassbox zeichnet Sitzungen in Web und App auf und macht sie suchbar.",
+    "longDescriptionDe": "Glassbox filtert Besuche nach einem Fehler oder einem Schritt. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Sitzungen in Web und App",
+      "Suche",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Fehler mit der Sitzung zu sehen",
+      "Besuche mit einem bestimmten Schritt zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Quantum Metric",
+    "originalUrl": "https://www.quantummetric.com/",
+    "domain": "quantummetric.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Quantum Metric zeichnet Sitzungen auf und verbindet sie mit Kennzahlen.",
+    "longDescriptionDe": "Quantum Metric zeigt, wo ein Ablauf abbricht. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Sitzungen und Kennzahlen",
+      "Abbrüche",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Abbruch im Checkout zu finden",
+      "Eine Sitzung zu einer Kennzahl zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Verbformen",
+    "originalUrl": "https://www.verbformen.com/",
+    "domain": "verbformen.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Verbformen zeigt die Konjugation deutscher Verben und Beispielsätze.",
+    "longDescriptionDe": "Die Seite nimmt ein Verb und listet die Formen. Die Tabellen sind ohne Abo lesbar, weitere Übungen sind bezahlt.",
+    "featuresDe": [
+      "Konjugation deutscher Verben",
+      "Beispielsätze",
+      "Tabellen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Die Formen eines Verbs nachzuschlagen",
+      "Einen Beispielsatz zu einer Form zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SpanishDict",
+    "originalUrl": "https://www.spanishdict.com/",
+    "domain": "spanishdict.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "SpanishDict übersetzt zwischen Spanisch und Englisch und zeigt die Konjugation.",
+    "longDescriptionDe": "SpanishDict nimmt ein Wort oder einen Satz und liefert Übersetzung und Formen. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Übersetzung Spanisch und Englisch",
+      "Konjugation",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Ein Wort nachzuschlagen",
+      "Die Formen eines spanischen Verbs zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]

@@ -1,0 +1,5 @@
+[
+  {"name": "Contentful", "reason": "contentful.com antwortete mit HTTP 429."},
+  {"name": "Directus.io", "reason": "Dieselbe Marke ist bereits über directus.com eingetragen."},
+  {"name": "Drizzle", "reason": "Bibliothek, kein eigenständiges Produkt für dieses Verzeichnis."}
+]
