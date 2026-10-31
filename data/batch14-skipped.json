@@ -1,0 +1,13 @@
+[
+  {"name": "Perplexity", "reason": "perplexity.ai antwortete mit HTTP 403."},
+  {"name": "Canva", "reason": "canva.com antwortete mit HTTP 403."},
+  {"name": "QuillBot", "reason": "quillbot.com antwortete mit HTTP 403."},
+  {"name": "Gamma", "reason": "gamma.app antwortete mit HTTP 403."},
+  {"name": "Ideogram", "reason": "ideogram.ai antwortete mit HTTP 403."},
+  {"name": "Claude Chat", "reason": "claude.ai antwortete mit HTTP 403."},
+  {"name": "Poe", "reason": "poe.com antwortete mit HTTP 403."},
+  {"name": "Civitai", "reason": "civitai.com antwortete mit HTTP 403."},
+  {"name": "NightCafe", "reason": "nightcafe.studio antwortete mit HTTP 403."},
+  {"name": "Lovable", "reason": "lovable.dev antwortete mit HTTP 403."},
+  {"name": "Play.ht", "reason": "play.ht ist nicht auflösbar."}
+]

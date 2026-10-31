@@ -1,0 +1,2047 @@
+[
+  {
+    "name": "DeepSeek Chat",
+    "originalUrl": "https://chat.deepseek.com/",
+    "domain": "chat.deepseek.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "DeepSeek beantwortet Fragen im Chat und schreibt Code.",
+    "longDescriptionDe": "Der Chat von DeepSeek nimmt Anweisungen auf Deutsch und Englisch entgegen. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Chat für Fragen und Code",
+      "Kostenloser Einstieg",
+      "Bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine Frage im Chat zu stellen",
+      "Einen Codeschnipsel erklären zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kimi",
+    "originalUrl": "https://www.moonshot.cn/",
+    "domain": "moonshot.cn",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Kimi ist der Chat von Moonshot und liest auch lange Dokumente.",
+    "longDescriptionDe": "Über moonshot.cn startet der Assistent Kimi. Er beantwortet Fragen und kann längere Texte verarbeiten. Es gibt einen kostenlosen Einstieg.",
+    "featuresDe": [
+      "Chat mit langen Dokumenten",
+      "Kostenloser Einstieg",
+      "Anbieter Moonshot"
+    ],
+    "useCasesDe": [
+      "Ein langes Dokument befragen zu lassen",
+      "Eine Frage im Chat zu stellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ChatGLM",
+    "originalUrl": "https://chatglm.cn/",
+    "domain": "chatglm.cn",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "ChatGLM ist der Chat von Zhipu und beantwortet Fragen im Browser.",
+    "longDescriptionDe": "ChatGLM führt ein Gespräch und kann Texte zusammenfassen. Es gibt einen kostenlosen Einstieg und weitere Modelle in bezahlten Stufen.",
+    "featuresDe": [
+      "Chat im Browser",
+      "Zusammenfassen von Texten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Frage zu stellen",
+      "Einen Text zusammenfassen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MiniMax",
+    "originalUrl": "https://www.minimax.io/",
+    "domain": "minimax.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "MiniMax bietet Sprachmodelle für Chat, Sprache und Video.",
+    "longDescriptionDe": "MiniMax stellt Modelle über eine Konsole und eine Schnittstelle bereit. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Chat, Sprache und Video",
+      "Konsole und Schnittstelle",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein Modell auszuprobieren",
+      "Sprache oder Video über die API zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Microsoft Designer",
+    "originalUrl": "https://designer.microsoft.com/",
+    "domain": "designer.microsoft.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design",
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "Microsoft Designer baut Social-Media-Grafiken und Bilder aus einer Beschreibung.",
+    "longDescriptionDe": "Designer setzt Vorlagen und erzeugt Bilder aus Text. Es gibt einen kostenlosen Einstieg und Funktionen, die an Microsoft 365 gebunden sind.",
+    "featuresDe": [
+      "Grafiken aus einer Beschreibung",
+      "Vorlagen",
+      "Kostenloser Einstieg"
+    ],
+    "useCasesDe": [
+      "Einen Beitrag für ein soziales Netzwerk zu gestalten",
+      "Ein Bild aus einem Satz zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Otter",
+    "originalUrl": "https://otter.ai/",
+    "domain": "otter.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Otter schreibt Gespräche mit und fasst sie zusammen.",
+    "longDescriptionDe": "Otter nimmt ein Meeting oder eine Aufnahme auf und liefert ein Transkript mit Zusammenfassung. Es gibt einen kostenlosen Einstieg und bezahlte Minuten.",
+    "featuresDe": [
+      "Transkript von Gesprächen",
+      "Zusammenfassung",
+      "Kostenloser Einstieg und bezahlte Minuten"
+    ],
+    "useCasesDe": [
+      "Ein Meeting mitzuschreiben",
+      "Die Zusammenfassung eines Gesprächs zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fireflies",
+    "originalUrl": "https://fireflies.ai/",
+    "domain": "fireflies.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Fireflies sitzt in Meetings und schreibt mit, was besprochen wurde.",
+    "longDescriptionDe": "Fireflies nimmt an einem Videogespräch teil und liefert Transkript und Notizen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Mitschrieb im Meeting",
+      "Notizen und Transkript",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch automatisch mitzuschreiben",
+      "Aufgaben aus dem Meeting zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fathom Video",
+    "originalUrl": "https://fathom.video/",
+    "domain": "fathom.video",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Fathom zeichnet Meetings auf und markiert die wichtigen Stellen.",
+    "longDescriptionDe": "Fathom schreibt mit und lässt Highlights setzen. Es gibt einen kostenlosen Einstieg und bezahlte Team-Funktionen.",
+    "featuresDe": [
+      "Meeting-Aufzeichnung",
+      "Highlights",
+      "Kostenloser Einstieg und bezahlte Team-Funktionen"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch aufzuzeichnen",
+      "Eine Stelle später wiederzufinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "tl;dv",
+    "originalUrl": "https://tldv.io/",
+    "domain": "tldv.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "tl;dv schneidet Meetings in kurze Clips und schreibt mit.",
+    "longDescriptionDe": "tl;dv nimmt das Gespräch auf und erzeugt ein Transkript mit Clips. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Meeting-Clips",
+      "Transkript",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Stelle aus einem Meeting zu teilen",
+      "Das Transkript zu durchsuchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Notta",
+    "originalUrl": "https://www.notta.ai/",
+    "domain": "notta.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Notta wandelt Sprache in Text und übersetzt das Transkript.",
+    "longDescriptionDe": "Notta nimmt Audio auf oder lädt eine Datei und liefert den Text. Es gibt einen kostenlosen Einstieg und bezahlte Minuten.",
+    "featuresDe": [
+      "Sprache zu Text",
+      "Übersetzung des Transkripts",
+      "Kostenloser Einstieg und bezahlte Minuten"
+    ],
+    "useCasesDe": [
+      "Eine Aufnahme abzutippen",
+      "Ein Transkript in eine andere Sprache zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Rytr",
+    "originalUrl": "https://rytr.me/",
+    "domain": "rytr.me",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Rytr schreibt kurze Texte für Mails, Anzeigen und Produktbeschreibungen.",
+    "longDescriptionDe": "Rytr nimmt einen Anwendungsfall und einen Ton und liefert Entwürfe. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Kurze Marketingtexte",
+      "Ton und Anwendungsfall",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine Produktbeschreibung zu entwerfen",
+      "Mehrere Töne für eine Mail zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Simplified",
+    "originalUrl": "https://simplified.com/",
+    "domain": "simplified.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Simplified schreibt Texte und baut dazu Grafiken und kurze Videos.",
+    "longDescriptionDe": "Simplified bündelt Text, Design und Video in einem Konto. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Text, Grafik und Video",
+      "Ein Konto für mehrere Formate",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Beitrag mit Bild und Text zu bauen",
+      "Einen kurzen Clip zu schneiden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Anyword",
+    "originalUrl": "https://www.anyword.com/",
+    "domain": "anyword.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Anyword schreibt Werbetexte und schätzt, welche Fassung besser ankommt.",
+    "longDescriptionDe": "Anyword erzeugt Varianten für Anzeigen und Seiten. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Werbetext-Varianten",
+      "Einschätzung der Fassung",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Mehrere Anzeigentexte zu vergleichen",
+      "Eine Landingpage zu entwerfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hypotenuse",
+    "originalUrl": "https://www.hypotenuse.ai/",
+    "domain": "hypotenuse.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Hypotenuse schreibt Produkttexte und Blogentwürfe in größerer Menge.",
+    "longDescriptionDe": "Hypotenuse nimmt Stichpunkte oder eine Tabelle und erzeugt Beschreibungen. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Produkttexte in Menge",
+      "Blogentwürfe",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Viele Produktbeschreibungen zu erzeugen",
+      "Einen Artikel aus Stichpunkten zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Scalenut",
+    "originalUrl": "https://www.scalenut.com/",
+    "domain": "scalenut.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Scalenut plant Inhalte zu einem Keyword und schreibt den Entwurf.",
+    "longDescriptionDe": "Scalenut zeigt Begriffe aus der Suche und einen Texteditor dazu. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Inhalte zu einem Keyword",
+      "Begriffe aus der Suche",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Artikel an ein Keyword anzupassen",
+      "Eine Gliederung aus der Suche zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Jenni",
+    "originalUrl": "https://jenni.ai/",
+    "domain": "jenni.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Jenni schreibt an Aufsätzen mit und schlägt den nächsten Satz vor.",
+    "longDescriptionDe": "Jenni sitzt im Text und ergänzt Formulierungen und Zitate. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Mitschreiben im Aufsatz",
+      "Satzvorschläge",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Aufsatz weiterzuschreiben",
+      "Eine Formulierung vorschlagen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SciSpace",
+    "originalUrl": "https://scispace.com/",
+    "domain": "scispace.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "SciSpace erklärt wissenschaftliche Paper und beantwortet Fragen dazu.",
+    "longDescriptionDe": "SciSpace öffnet ein PDF und markiert Stellen zu einer Frage. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Fragen an ein Paper",
+      "Markierte Stellen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Paper abschnittsweise zu verstehen",
+      "Eine Methode im PDF zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Connected Papers",
+    "originalUrl": "https://www.connectedpapers.com/",
+    "domain": "connectedpapers.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Connected Papers zeigt, welche Arbeiten mit einem Paper verwandt sind.",
+    "longDescriptionDe": "Aus einem Ausgangspaper entsteht ein Netz ähnlicher Arbeiten. Es gibt einen kostenlosen Einstieg und bezahlte Graphen.",
+    "featuresDe": [
+      "Netz verwandter Paper",
+      "Ein Ausgangspaper",
+      "Kostenloser Einstieg und bezahlte Graphen"
+    ],
+    "useCasesDe": [
+      "Literatur rund um ein Paper zu finden",
+      "Einen Überblick über ein Feld zu bekommen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ResearchRabbit",
+    "originalUrl": "https://www.researchrabbit.ai/",
+    "domain": "researchrabbit.ai",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "ResearchRabbit sammelt Paper und schlägt ähnliche Arbeiten vor.",
+    "longDescriptionDe": "ResearchRabbit legt eine Sammlung an und zeigt neuere, verwandte Titel. Die Nutzung ist ohne Abo beschrieben.",
+    "featuresDe": [
+      "Sammlungen von Papern",
+      "Ähnliche Arbeiten",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Literaturliste wachsen zu lassen",
+      "Neue Arbeiten zu einem Thema zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Litmaps",
+    "originalUrl": "https://www.litmaps.com/",
+    "domain": "litmaps.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Litmaps zeichnet eine Literaturkarte aus zitierten Papern.",
+    "longDescriptionDe": "Litmaps zeigt, welche Arbeiten sich zitieren, und lässt die Karte filtern. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Karte aus Zitaten",
+      "Filter",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Den Weg von Zitat zu Zitat zu sehen",
+      "Eine Literatursuche zu visualisieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Paperpal",
+    "originalUrl": "https://www.paperpal.com/",
+    "domain": "paperpal.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Paperpal prüft wissenschaftliches Englisch und schlägt Formulierungen vor.",
+    "longDescriptionDe": "Paperpal sitzt im Manuskript und markiert Sprache und Aufbau. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Wissenschaftliches Englisch",
+      "Formulierungsvorschläge",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Manuskript sprachlich zu prüfen",
+      "Einen Satz für ein Paper umzuformulieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Getimg",
+    "originalUrl": "https://getimg.ai/",
+    "domain": "getimg.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "Getimg erzeugt und bearbeitet Bilder aus Text in einem Editor.",
+    "longDescriptionDe": "Getimg bietet mehrere Bildmodelle, Freistellen und Variationen. Es gibt einen kostenlosen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Bilder aus Text",
+      "Mehrere Modelle",
+      "Kostenloser Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Ein Bild aus einer Beschreibung zu erzeugen",
+      "Eine Variation eines Motivs zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenArt",
+    "originalUrl": "https://openart.ai/",
+    "domain": "openart.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "OpenArt erzeugt Bilder und kurze Clips aus Text und bietet mehrere Modelle.",
+    "longDescriptionDe": "OpenArt sammelt Werkzeuge zum Erzeugen und Nachbearbeiten. Es gibt einen kostenlosen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Bilder und kurze Clips",
+      "Mehrere Modelle",
+      "Kostenloser Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Ein Motiv aus Text zu erzeugen",
+      "Ein Bild weiterzubearbeiten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SeaArt",
+    "originalUrl": "https://seaart.ai/",
+    "domain": "seaart.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "SeaArt erzeugt Bilder aus Text und stellt Modelle der Community bereit.",
+    "longDescriptionDe": "SeaArt lässt ein Modell wählen und ein Bild erzeugen. Es gibt einen kostenlosen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Bilder aus Text",
+      "Modelle der Community",
+      "Kostenloser Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Ein Bild mit einem Community-Modell zu erzeugen",
+      "Mehrere Stile zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "StarryAI",
+    "originalUrl": "https://starryai.com/",
+    "domain": "starryai.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "StarryAI macht Bilder aus einer Beschreibung, auch in der App.",
+    "longDescriptionDe": "StarryAI nimmt einen Prompt und liefert Bilder. Es gibt einen kostenlosen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Bilder aus einer Beschreibung",
+      "App",
+      "Kostenloser Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Ein Bild auf dem Handy zu erzeugen",
+      "Einen Stil auszuprobieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Playground",
+    "originalUrl": "https://playground.com/",
+    "domain": "playground.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung",
+      "design"
+    ],
+    "shortDescriptionDe": "Playground erzeugt Bilder und legt sie auf eine Arbeitsfläche.",
+    "longDescriptionDe": "Playground mischt Erzeugung und Layout auf einer Fläche. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Bilder auf einer Fläche",
+      "Erzeugung aus Text",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Mehrere Motive nebeneinander zu legen",
+      "Ein Bild aus Text zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Scenario",
+    "originalUrl": "https://www.scenario.gg/",
+    "domain": "scenario.gg",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung",
+      "gaming"
+    ],
+    "shortDescriptionDe": "Scenario trainiert Bildmodelle auf den Stil eines Spiels.",
+    "longDescriptionDe": "Scenario erzeugt Assets, die zum vorhandenen Look passen. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Assets im Spielstil",
+      "Eigene Modelle",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Icons in einem festen Stil zu erzeugen",
+      "Ein Modell auf eigene Bilder zu trainieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mage",
+    "originalUrl": "https://www.mage.space/",
+    "domain": "mage.space",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "Mage erzeugt Bilder aus Text mit mehreren offenen Modellen.",
+    "longDescriptionDe": "Mage lässt das Modell und die Einstellungen wählen. Es gibt einen kostenlosen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Mehrere Bildmodelle",
+      "Einstellungen im Formular",
+      "Kostenloser Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Ein Modell gegen ein anderes zu testen",
+      "Ein Bild aus einer Beschreibung zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Erase.bg",
+    "originalUrl": "https://www.erase.bg/",
+    "domain": "erase.bg",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "Erase.bg entfernt den Hintergrund von Bildern.",
+    "longDescriptionDe": "Erase.bg nimmt ein Foto und liefert das freigestellte Motiv. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Hintergrund entfernen",
+      "Download des Motivs",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein Produktfoto freizustellen",
+      "Ein Porträt vom Hintergrund zu lösen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "WatermarkRemover",
+    "originalUrl": "https://www.watermarkremover.io/",
+    "domain": "watermarkremover.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "WatermarkRemover versucht, Wasserzeichen aus Bildern zu entfernen.",
+    "longDescriptionDe": "Das Werkzeug lädt ein Bild und liefert eine Fassung ohne das erkannte Zeichen. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Wasserzeichen entfernen",
+      "Download der Fassung",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein Wasserzeichen aus einem eigenen Foto zu nehmen",
+      "Eine saubere Fassung zu laden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Relume",
+    "originalUrl": "https://www.relume.io/",
+    "domain": "relume.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Relume erzeugt aus einer Beschreibung eine Sitemap und Wireframes.",
+    "longDescriptionDe": "Relume baut die Struktur einer Website und exportiert sie nach Figma oder Webflow. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Sitemap und Wireframes",
+      "Export nach Figma oder Webflow",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Die Struktur einer Website zu skizzieren",
+      "Wireframes in Figma zu übernehmen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Uizard",
+    "originalUrl": "https://uizard.io/",
+    "domain": "uizard.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Uizard macht aus einer Beschreibung oder einer Skizze einen Oberflächenentwurf.",
+    "longDescriptionDe": "Uizard setzt Screens für Apps und Websites. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Oberflächen aus Text oder Skizze",
+      "Screens für Apps",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen App-Entwurf zu skizzieren",
+      "Aus einem Satz einen Screen zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Visily",
+    "originalUrl": "https://www.visily.ai/",
+    "domain": "visily.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Visily baut Wireframes und klickbare Prototypen aus Text.",
+    "longDescriptionDe": "Visily erzeugt Screens und verbindet sie zu einem Ablauf. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Wireframes und Prototypen",
+      "Abläufe zwischen Screens",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen klickbaren Entwurf zu bauen",
+      "Einen Ablauf ohne Designprogramm zu zeigen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Galileo AI",
+    "originalUrl": "https://www.usegalileo.ai/",
+    "domain": "usegalileo.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Galileo AI erzeugt Oberflächenentwürfe aus einer Beschreibung.",
+    "longDescriptionDe": "Galileo setzt Screens, die sich weiterbearbeiten lassen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Screens aus einer Beschreibung",
+      "Weiterbearbeiten",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen ersten UI-Entwurf zu erzeugen",
+      "Mehrere Screens zu einem Ablauf zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Magic Patterns",
+    "originalUrl": "https://www.magicpatterns.com/",
+    "domain": "magicpatterns.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Magic Patterns erzeugt Oberflächen und den dazu passenden Code.",
+    "longDescriptionDe": "Magic Patterns nimmt eine Beschreibung und liefert einen Entwurf mit Komponenten. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Oberfläche und Code",
+      "Komponenten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Screen mit Code zu starten",
+      "Eine Komponente aus einem Satz zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Replit",
+    "originalUrl": "https://replit.com/",
+    "domain": "replit.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Replit schreibt und startet Programme im Browser, auch mit einem Assistenten.",
+    "longDescriptionDe": "Replit hält den Code online und führt ihn aus. Es gibt einen kostenlosen Einstieg und bezahlte Rechenzeit.",
+    "featuresDe": [
+      "Code im Browser",
+      "Assistent",
+      "Kostenloser Einstieg und bezahlte Rechenzeit"
+    ],
+    "useCasesDe": [
+      "Ein Programm ohne lokale Einrichtung zu starten",
+      "Einen Assistenten am Code mitarbeiten zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "StackBlitz",
+    "originalUrl": "https://www.stackblitz.com/",
+    "domain": "stackblitz.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "StackBlitz startet Webprojekte im Browser, nah an einer lokalen Umgebung.",
+    "longDescriptionDe": "StackBlitz öffnet ein Projekt und führt es ohne Installation aus. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Webprojekte im Browser",
+      "Start ohne Installation",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Frontend sofort zu öffnen",
+      "Eine Abhängigkeit im Browser zu testen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CodeSandbox",
+    "originalUrl": "https://codesandbox.io/",
+    "domain": "codesandbox.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "CodeSandbox zeigt laufende Webprojekte und lässt sie im Browser ändern.",
+    "longDescriptionDe": "CodeSandbox startet eine Vorschau und speichert das Projekt online. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Vorschau im Browser",
+      "Projekte online",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Beispiel sofort auszuführen",
+      "Eine Änderung in der Vorschau zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Glitch",
+    "originalUrl": "https://www.glitch.com/",
+    "domain": "glitch.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Glitch hostet kleine Webprojekte, die sich im Browser bearbeiten lassen.",
+    "longDescriptionDe": "Glitch mischt Editor und laufende Seite. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Editor und laufende Seite",
+      "Kleine Webprojekte",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine kleine Seite sofort zu veröffentlichen",
+      "Code und Ergebnis nebeneinander zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Val Town",
+    "originalUrl": "https://www.val.town/",
+    "domain": "val.town",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Val Town führt kleine JavaScript-Funktionen im Web aus und gibt ihnen eine Adresse.",
+    "longDescriptionDe": "Val Town speichert eine Funktion und ruft sie über HTTP auf. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "JavaScript-Funktionen im Web",
+      "Aufruf über HTTP",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine kleine API ohne Server zu starten",
+      "Eine Funktion per Link zu teilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Windsurf",
+    "originalUrl": "https://www.windsurf.com/",
+    "domain": "windsurf.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Windsurf ist ein Editor, der Code vorschlägt und Aufgaben im Projekt übernimmt.",
+    "longDescriptionDe": "Windsurf schreibt mit und kann Änderungen über mehrere Dateien vorschlagen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Editor mit Vorschlägen",
+      "Änderungen über mehrere Dateien",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Funktion beim Tippen ergänzen zu lassen",
+      "Eine Änderung im Projekt vorzuschlagen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Continue",
+    "originalUrl": "https://www.continue.dev/",
+    "domain": "continue.dev",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Continue hängt einen Chat an den Editor und lässt das Modell wählen.",
+    "longDescriptionDe": "Continue beantwortet Fragen zum offenen Code. Eine OSI-Kennung wird hier nicht erneut eingetragen. Es gibt eine kostenlose Erweiterung und bezahlte Modelle.",
+    "featuresDe": [
+      "Chat im Editor",
+      "Wahl des Modells",
+      "Kostenlose Erweiterung"
+    ],
+    "useCasesDe": [
+      "Den offenen Code erklären zu lassen",
+      "Ein eigenes Modell anzubinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cline",
+    "originalUrl": "https://www.cline.bot/",
+    "domain": "cline.bot",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Cline arbeitet als Agent im Editor und ändert Dateien nach einer Aufgabe.",
+    "longDescriptionDe": "Cline liest das Projekt und schlägt konkrete Änderungen vor. Eine OSI-Kennung wird hier nicht eingetragen. Die Erweiterung ist ohne Pflichtabo erhältlich, das Modell dahinter kann kosten.",
+    "featuresDe": [
+      "Agent im Editor",
+      "Änderungen an Dateien",
+      "Erweiterung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Aufgabe an den Editor zu geben",
+      "Die vorgeschlagenen Änderungen zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Roo Code",
+    "originalUrl": "https://www.roocode.com/",
+    "domain": "roocode.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Roo Code ist ein Coding-Agent im Editor, verwandt mit Cline.",
+    "longDescriptionDe": "Roo Code übernimmt Aufgaben im Projekt und zeigt die Schritte. Eine OSI-Kennung wird hier nicht eingetragen. Die Erweiterung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Coding-Agent",
+      "Schritte im Projekt",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Änderung über mehrere Dateien vorzuschlagen",
+      "Die Schritte des Agenten zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Qodo",
+    "originalUrl": "https://www.qodo.ai/",
+    "domain": "qodo.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Qodo prüft Code und schlägt Tests zu einer Änderung vor.",
+    "longDescriptionDe": "Qodo sitzt in der Entwicklungsumgebung und kommentiert Qualität und Tests. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Prüfung von Änderungen",
+      "Testvorschläge",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Test zu einer Funktion vorzuschlagen",
+      "Eine Änderung vor dem Merge prüfen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Taskade",
+    "originalUrl": "https://www.taskade.com/",
+    "domain": "taskade.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Taskade legt Aufgaben, Notizen und Assistenten in einem Arbeitsbereich an.",
+    "longDescriptionDe": "Taskade mischt Listen und einen Chat, der beim Formulieren hilft. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Aufgaben und Notizen",
+      "Assistent im Arbeitsbereich",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Projektliste mit einem Assistenten zu führen",
+      "Notizen in Aufgaben zu verwandeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mem",
+    "originalUrl": "https://www.mem.ai/",
+    "domain": "mem.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Mem speichert Notizen und findet sie über den Inhalt statt über Ordner.",
+    "longDescriptionDe": "Mem legt Notizen ab und beantwortet Fragen dazu. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Notizen ohne Ordnerzwang",
+      "Fragen an die Notizen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Notiz später über den Inhalt zu finden",
+      "Eine Frage an die eigenen Notizen zu stellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Reflect",
+    "originalUrl": "https://reflect.app/",
+    "domain": "reflect.app",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Reflect verknüpft Notizen und lässt sie durchsuchen.",
+    "longDescriptionDe": "Reflect speichert tägliche Notizen und Verbindungen zwischen ihnen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Verknüpfte Notizen",
+      "Tägliche Seiten",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Tagesprotokoll mit Verweisen zu führen",
+      "Eine Notiz über Verbindungen zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tana",
+    "originalUrl": "https://www.tana.inc/",
+    "domain": "tana.inc",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Tana legt Notizen als strukturierte Objekte mit Feldern an.",
+    "longDescriptionDe": "Tana mischt Freitext und Felder, die sich abfragen lassen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Notizen mit Feldern",
+      "Abfragen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Besprechung als Objekt mit Feldern abzulegen",
+      "Notizen nach einem Feld zu filtern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Craft",
+    "originalUrl": "https://www.craft.do/",
+    "domain": "craft.do",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Craft schreibt Dokumente mit Blöcken und teilt sie als Seite.",
+    "longDescriptionDe": "Craft legt Texte, Bilder und Aufgaben in einem Dokument ab. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Dokumente aus Blöcken",
+      "Teilen als Seite",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein geteiltes Dokument zu schreiben",
+      "Aufgaben neben dem Text zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Limitless",
+    "originalUrl": "https://www.limitless.ai/",
+    "domain": "limitless.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Limitless schreibt Gespräche mit und macht sie später durchsuchbar.",
+    "longDescriptionDe": "Limitless nimmt über ein Gerät oder die App auf und liefert ein Transkript. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Durchsuchbare Gespräche",
+      "Transkript",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch später nach einem Satz zu durchsuchen",
+      "Eine Aufnahme als Text zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Reclaim",
+    "originalUrl": "https://www.reclaim.ai/",
+    "domain": "reclaim.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Reclaim legt Aufgaben als Blöcke in den Kalender und schiebt sie bei Konflikten.",
+    "longDescriptionDe": "Reclaim verbindet sich mit dem Kalender und reserviert Zeit für Gewohnheiten und Aufgaben. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Aufgaben im Kalender",
+      "Verschieben bei Konflikten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Fokuszeit im Kalender zu blocken",
+      "Eine Aufgabe automatisch zu verschieben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Motion",
+    "originalUrl": "https://www.usemotion.com/",
+    "domain": "usemotion.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Motion plant Aufgaben automatisch in die freien Lücken des Kalenders.",
+    "longDescriptionDe": "Motion nimmt Aufgaben mit Frist und legt sie um Termine herum. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Aufgaben in Kalenderlücken",
+      "Fristen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Den Tag automatisch zu planen",
+      "Eine Aufgabe um einen Termin herum zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sunsama",
+    "originalUrl": "https://www.sunsama.com/",
+    "domain": "sunsama.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Sunsama plant den Tag aus Aufgaben mehrerer Werkzeuge.",
+    "longDescriptionDe": "Sunsama zieht Aufgaben heran und lässt den Tag bewusst zusammenstellen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Tagesplan aus mehreren Quellen",
+      "Bewusstes Auswählen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Den Tag aus einer Aufgabenliste zu bauen",
+      "Nur das zu planen, was heute realistisch ist"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Akiflow",
+    "originalUrl": "https://www.akiflow.com/",
+    "domain": "akiflow.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Akiflow sammelt Aufgaben aus mehreren Diensten und legt sie in den Kalender.",
+    "longDescriptionDe": "Akiflow bündelt Eingänge und macht daraus Zeitblöcke. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Aufgaben aus mehreren Diensten",
+      "Zeitblöcke",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eingänge an einem Ort zu sehen",
+      "Eine Aufgabe in den Kalender zu ziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Clockwise",
+    "originalUrl": "https://www.clockwise.com/",
+    "domain": "clockwise.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Clockwise schiebt Meetings, damit längere Fokusblöcke entstehen.",
+    "longDescriptionDe": "Clockwise verbindet sich mit dem Kalender und sucht zusammenhängende freie Zeit. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Fokusblöcke im Kalender",
+      "Verschieben von Meetings",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen langen freien Block zu schützen",
+      "Meetings automatisch zu bündeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Podcastle",
+    "originalUrl": "https://podcastle.ai/",
+    "domain": "podcastle.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Podcastle nimmt Podcasts auf und räumt die Tonspur auf.",
+    "longDescriptionDe": "Podcastle bietet Aufnahme, Transkript und Bereinigung. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Aufnahme und Transkript",
+      "Bereinigung der Tonspur",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Folge im Browser aufzunehmen",
+      "Eine Tonspur von Störgeräuschen zu befreien"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Submagic",
+    "originalUrl": "https://submagic.co/",
+    "domain": "submagic.co",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Submagic setzt automatische Untertitel auf kurze Videos.",
+    "longDescriptionDe": "Submagic nimmt einen Clip und legt animierte Untertitel darüber. Es gibt einen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Automatische Untertitel",
+      "Animierte Stile",
+      "Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Untertitel auf ein Kurzvideo zu legen",
+      "Einen Stil für die Worte zu wählen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Vizard",
+    "originalUrl": "https://vizard.ai/",
+    "domain": "vizard.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Vizard schneidet aus einem langen Video kurze Clips.",
+    "longDescriptionDe": "Vizard sucht Stellen und liefert fertige Kurzvideos mit Untertiteln. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kurze Clips aus einem langen Video",
+      "Untertitel",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Aus einem Webinar mehrere Clips zu holen",
+      "Einen Clip mit Untertiteln zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Klap",
+    "originalUrl": "https://klap.app/",
+    "domain": "klap.app",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Klap macht aus langen Videos kurze Clips für soziale Netze.",
+    "longDescriptionDe": "Klap wählt Stellen aus und setzt sie ins Hochformat. Es gibt einen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Clips im Hochformat",
+      "Auswahl aus einem langen Video",
+      "Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Ein langes Video in Kurzclips zu teilen",
+      "Einen Clip für ein soziales Netz zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Vidnoz",
+    "originalUrl": "https://www.vidnoz.com/",
+    "domain": "vidnoz.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung"
+    ],
+    "shortDescriptionDe": "Vidnoz lässt einen Avatar einen Text sprechen.",
+    "longDescriptionDe": "Vidnoz nimmt ein Skript und erzeugt ein Video mit einer Figur. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Avatar spricht ein Skript",
+      "Video ohne Dreh",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein Erklärvideo ohne Kamera zu machen",
+      "Dasselbe Skript mit einer anderen Figur zu sprechen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FlexClip",
+    "originalUrl": "https://www.flexclip.com/",
+    "domain": "flexclip.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "FlexClip schneidet Videos im Browser aus Vorlagen, Text und Clips.",
+    "longDescriptionDe": "FlexClip legt Szenen auf eine Zeitleiste und exportiert die Datei. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Schnitt im Browser",
+      "Vorlagen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein kurzes Video aus Vorlagen zu bauen",
+      "Text und Clips auf eine Zeitleiste zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Steve AI",
+    "originalUrl": "https://www.steve.ai/",
+    "domain": "steve.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung"
+    ],
+    "shortDescriptionDe": "Steve AI macht aus einem Text ein animiertes Erklärvideo.",
+    "longDescriptionDe": "Steve AI setzt Szenen und eine Stimme unter ein Skript. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Animierte Erklärvideos",
+      "Stimme unter dem Skript",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Erklärvideo aus einem Text zu erzeugen",
+      "Szenen automatisch setzen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Riffusion",
+    "originalUrl": "https://riffusion.com/",
+    "domain": "riffusion.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Riffusion erzeugt Musikclips aus einer Beschreibung.",
+    "longDescriptionDe": "Riffusion nimmt Stil und Text und liefert einen kurzen Track. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Musik aus einer Beschreibung",
+      "Kurze Tracks",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Einen Jingle aus einem Satz zu holen",
+      "Mehrere Stile zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FakeYou",
+    "originalUrl": "https://fakeyou.com/",
+    "domain": "fakeyou.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "FakeYou spricht einen Text mit Stimmen aus einer Bibliothek.",
+    "longDescriptionDe": "FakeYou lässt eine Stimme wählen und den Text vorlesen. Es gibt einen kostenlosen Einstieg und bezahlte Funktionen.",
+    "featuresDe": [
+      "Text mit gewählter Stimme",
+      "Bibliothek von Stimmen",
+      "Kostenloser Einstieg und bezahlte Funktionen"
+    ],
+    "useCasesDe": [
+      "Einen Satz in einer bestimmten Stimme zu hören",
+      "Mehrere Stimmen zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Voicemod",
+    "originalUrl": "https://www.voicemod.net/",
+    "domain": "voicemod.net",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Voicemod verändert die Stimme live in Calls und Aufnahmen.",
+    "longDescriptionDe": "Voicemod sitzt zwischen Mikrofon und Programm und setzt Effekte oder andere Stimmen. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Live-Stimmveränderung",
+      "Effekte und andere Stimmen",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Die Stimme in einem Call zu verändern",
+      "Einen Effekt auf eine Aufnahme zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "WellSaid",
+    "originalUrl": "https://www.wellsaidlabs.com/",
+    "domain": "wellsaidlabs.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "WellSaid liest Skripte mit Studio-Stimmen vor.",
+    "longDescriptionDe": "WellSaid erzeugt Voiceover für Videos und Kurse. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Studio-Stimmen",
+      "Voiceover aus einem Skript",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Sprechertext für ein Video zu erzeugen",
+      "Mehrere Stimmen zu einem Skript zu hören"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Resemble AI",
+    "originalUrl": "https://www.resemble.ai/",
+    "domain": "resemble.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Resemble AI klont eine Stimme und spricht damit neuen Text.",
+    "longDescriptionDe": "Resemble nimmt eine Stimmprobe und erzeugt Sprache. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Stimmklon aus einer Probe",
+      "Neuer Text in der Stimme",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine eigene Stimme für Ansagen zu nutzen",
+      "Einen Text in der geklonten Stimme zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kits AI",
+    "originalUrl": "https://www.kits.ai/",
+    "domain": "kits.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Kits AI wandelt Gesang in eine andere Stimme um.",
+    "longDescriptionDe": "Kits nimmt eine Gesangsspur und setzt ein Stimmmodell darüber. Es gibt einen kostenlosen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Gesang in eine andere Stimme",
+      "Stimmmodelle",
+      "Kostenloser Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Eine Gesangsspur umzufärben",
+      "Mehrere Stimmmodelle zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Uberduck",
+    "originalUrl": "https://www.uberduck.ai/",
+    "domain": "uberduck.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Uberduck spricht Text mit Stimmen und kann dazu Rap-Rhythmen setzen.",
+    "longDescriptionDe": "Uberduck nimmt Text und eine Stimme und liefert Audio. Es gibt einen kostenlosen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Text zu Sprache",
+      "Stimmen und Rhythmus",
+      "Kostenloser Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Einen Satz in einer bestimmten Stimme zu erzeugen",
+      "Einen kurzen Rap aus Text zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
