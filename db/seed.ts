@@ -6,33 +6,22 @@ import { hashPassword } from "@/lib/auth/password";
 import { replaceCategories, replaceTags, refreshSearchText } from "@/lib/tools/repository";
 
 const categorySeed = [
-  ["KI-Chatbots", "ki-chatbots", "Dialogsysteme für Fragen, Texte und Alltagsaufgaben."],
-  ["Bildgenerierung", "bildgenerierung", "Werkzeuge, die aus Beschreibungen Bilder erzeugen."],
-  ["Videogenerierung", "videogenerierung", "Werkzeuge für Clips, Szenen und bewegte Bilder."],
-  ["Programmierung", "programmierung", "Hilfe beim Schreiben, Erklären und Prüfen von Code."],
-  ["Produktivität", "produktivitaet", "Planen, Schreiben und Aufräumen im Arbeitsalltag."],
-  ["Automatisierung", "automatisierung", "Abläufe, die wiederkehrende Schritte abnehmen."],
-  ["Marketing", "marketing", "Texte, Kampagnen und Auswertung für Angebote."],
-  ["Social Media", "social-media", "Beiträge, Formate und Planung für soziale Netzwerke."],
-  ["Recherche", "recherche", "Quellen finden, lesen und gegenüberstellen."],
-  ["Textgenerierung", "textgenerierung", "Entwürfe, Umschreibungen und längere Texte."],
-  ["Audio und Sprache", "audio-und-sprache", "Sprache, Stimmen und Ton."],
-  ["Design", "design", "Layout, Varianten und visuelle Entwürfe."],
-  ["Bildung", "bildung", "Erklären, Üben und Lernwege."],
-  ["E-Commerce", "e-commerce", "Produktdaten, Listings und Shop-Texte."],
-  ["Finanzen", "finanzen", "Haushalt, Rechnungen und Buchhaltung."],
-  ["Gesundheit", "gesundheit", "Training, Ernährung und Wohlbefinden."],
+  ["Chat & Assistenten", "chat-assistenten", "Dialog, Sprachmodelle und Assistenten für Fragen im Chat."],
+  ["Text & Schreiben", "text-schreiben", "Entwürfe, Umschreibungen und längere Texte."],
+  ["Bild & Design", "bild-design", "Bilder, Grafik, Layout und 3D-Entwürfe."],
+  ["Video", "video", "Clips erzeugen und vorhandenes Material schneiden."],
+  ["Audio, Musik & Stimme", "audio-musik-stimme", "Ton, Stimme, Transkript und Musik."],
+  ["Code & Entwicklung", "code-entwicklung", "Editoren, Schnittstellen, Hosting und Daten."],
+  ["Produktivität", "produktivitaet", "Aufgaben, Notizen, Dokumente und Folien."],
+  ["Recherche & Suche", "recherche-suche", "Quellen finden, lesen und gegenüberstellen."],
+  ["Marketing & Social Media", "marketing-social", "Kampagnen, SEO, Beiträge und Reichweitenwerkzeuge."],
+  ["Automatisierung & Agenten", "automatisierung-agenten", "Abläufe, die Schritte zwischen Diensten abnehmen."],
+  ["Bildung & Lernen", "bildung-lernen", "Üben, Erklären und Lernwege."],
+  ["Business & Finanzen", "business-finanzen", "Rechnung, Personal, Recht und Kundenvorgänge."],
+  ["E-Commerce", "e-commerce", "Shop, Kasse, Bestellung und Zahlungsabwicklung."],
+  ["Gesundheit", "gesundheit", "Training, Ernährung und Gesundheitsverwaltung."],
   ["Reisen", "reisen", "Wege, Unterkünfte und Reisepläne."],
-  ["Recht", "recht", "Verträge, Signaturen und rechtliche Texte."],
-  ["Personal", "personal", "Bewerbungen, Personal und Schichtplanung."],
-  ["Kundenservice", "kundenservice", "Tickets, Chat und Hilfe für Kunden."],
-  ["SEO", "seo", "Sichtbarkeit in der Suche und Seitenprüfung."],
-  ["Daten", "daten", "Tabellen, Abfragen und Auswertungen."],
-  ["Präsentationen", "praesentationen", "Folien und Vorträge."],
-  ["Musik", "musik", "Komposition, Noten und Musikproduktion."],
-  ["3D", "dreid", "Modelle, Räume und Druckvorlagen."],
-  ["Gaming", "gaming", "Spiele, Engines und spielbare Geschichten."],
-  ["Videoschnitt", "videoschnitt", "Schneiden, Untertitel und Schnitt am eigenen Material."],
+  ["Spaß & Sonstiges", "spass-sonstiges", "Spiele und Einträge, die in keine andere Kategorie passen."],
 ] as const;
 
 const exampleNote = "Beispieldatensatz für die Entwicklung. Kein reales Angebot und kein Partnerlink.";
@@ -54,7 +43,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "nordlicht-chat",
     name: "Nordlicht Chat",
-    category: "ki-chatbots",
+    category: "chat-assistenten",
     pricing: "freemium",
     featured: true,
     rank: 1,
@@ -64,7 +53,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "hafenbot",
     name: "Hafenbot",
-    category: "ki-chatbots",
+    category: "chat-assistenten",
     pricing: "free",
     short: "Zweites Beispiel in derselben Kategorie, damit ähnliche Tools sichtbar sind.",
     tags: ["Beispiel", "Chat"],
@@ -72,7 +61,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "atelier-pixel",
     name: "Atelier Pixel",
-    category: "bildgenerierung",
+    category: "bild-design",
     pricing: "paid",
     featured: true,
     rank: 2,
@@ -82,7 +71,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "rolle-24",
     name: "Rolle 24",
-    category: "videogenerierung",
+    category: "video",
     pricing: "freemium",
     featured: true,
     rank: 3,
@@ -92,7 +81,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "klammer-code",
     name: "Klammer Code",
-    category: "programmierung",
+    category: "code-entwicklung",
     pricing: "free",
     rank: 4,
     short: "Beispiel eines offenen Werkzeugs, das Code erklärt.",
@@ -110,7 +99,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "webstuhl",
     name: "Webstuhl",
-    category: "automatisierung",
+    category: "automatisierung-agenten",
     pricing: "freemium",
     featured: true,
     rank: 6,
@@ -120,7 +109,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "marktfunke",
     name: "Marktfunke",
-    category: "marketing",
+    category: "marketing-social",
     pricing: "paid",
     rank: 7,
     short: "Beispiel für Kampagnentexte und einfache Auswertungen.",
@@ -129,7 +118,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "pinnwand-social",
     name: "Pinnwand Social",
-    category: "social-media",
+    category: "marketing-social",
     pricing: "freemium",
     rank: 8,
     short: "Beispiel, das Beitragsskizzen für soziale Netzwerke sammelt.",
@@ -138,7 +127,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "quellenkamm",
     name: "Quellenkamm",
-    category: "recherche",
+    category: "recherche-suche",
     pricing: "free",
     short: "Beispiel, das Fundstellen nebeneinanderlegt.",
     tags: ["Beispiel"],
@@ -146,7 +135,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "satzwerk",
     name: "Satzwerk",
-    category: "textgenerierung",
+    category: "text-schreiben",
     pricing: "freemium",
     featured: true,
     short: "Beispiel für Entwürfe längerer deutscher Texte.",
@@ -155,7 +144,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "klangraum",
     name: "Klangraum",
-    category: "audio-und-sprache",
+    category: "audio-musik-stimme",
     pricing: "paid",
     short: "Beispiel für Sprache zu Ton und zurück.",
     tags: ["Beispiel"],
@@ -163,7 +152,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "formlinie",
     name: "Formlinie",
-    category: "design",
+    category: "bild-design",
     pricing: "freemium",
     short: "Beispiel für Layoutvarianten einer einfachen Seite.",
     tags: ["Beispiel"],
@@ -171,7 +160,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "lernpfad",
     name: "Lernpfad",
-    category: "bildung",
+    category: "bildung-lernen",
     pricing: "free",
     short: "Beispiel, das ein Thema in kurze Übungsschritte teilt.",
     tags: ["Beispiel"],
@@ -187,7 +176,7 @@ const exampleTools: ExampleTool[] = [
   {
     slug: "stilles-werkzeug",
     name: "Stilles Werkzeug",
-    category: "recherche",
+    category: "recherche-suche",
     pricing: "free",
     status: "draft",
     source: "import",

@@ -19,8 +19,11 @@ export default async function Top20Page() {
       <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Auswahl</p>
       <h1 className="mt-3 text-4xl font-bold tracking-tight">Top 20 Tools</h1>
       <p className="mt-3 max-w-2xl text-muted-foreground">
-        Zuerst Einträge mit gesetzter Redaktionsreihenfolge, danach als empfohlen markierte Tools, dann die neuesten. Es gibt keine Stimmen und keine erfundene Platzierung. Steht bei einem Tool keine Reihenfolge, ist die Position nur die Auffüllung bis zwanzig.
+        Nur veröffentlichte Tools mit einer Zahl im Feld editorial_rank. Die Redaktion setzt die Reihenfolge im Admin. Fehlt die Zahl, erscheint das Tool hier nicht. Es gibt keine Stimmen und keine aufgefüllten Plätze.
       </p>
+      {tools.length === 0 ? (
+        <p className="mt-8 rounded-2xl border border-dashed border-border bg-card p-6 text-sm">Noch keine Redaktionsreihenfolge gesetzt.</p>
+      ) : null}
       <div className="mt-8">
         <ToolGrid tools={tools} />
       </div>

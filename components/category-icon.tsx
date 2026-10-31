@@ -30,6 +30,18 @@ import {
 } from "lucide-react";
 
 const ICONS: Record<string, LucideIcon> = {
+  "chat-assistenten": Bot,
+  "text-schreiben": FileText,
+  "bild-design": ImageIcon,
+  video: Video,
+  "audio-musik-stimme": AudioLines,
+  "code-entwicklung": Code,
+  "recherche-suche": Search,
+  "marketing-social": Megaphone,
+  "automatisierung-agenten": Workflow,
+  "bildung-lernen": GraduationCap,
+  "business-finanzen": Briefcase,
+  "spass-sonstiges": Gamepad2,
   "audio-und-sprache": AudioLines,
   automatisierung: Workflow,
   bildgenerierung: ImageIcon,

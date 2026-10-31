@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "bfdi",
+    "name": "BfDI",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "bsi",
+    "name": "BSI",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "activemind",
+    "name": "ActiveMind",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "bafa",
+    "name": "BAFA",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "bafin",
+    "name": "BaFin",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "gog",
+    "name": "GOG",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "techniker-krankenkasse",
+    "name": "Techniker Krankenkasse",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "aok",
+    "name": "AOK",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "barmer",
+    "name": "Barmer",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "dak",
+    "name": "DAK",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "alternate",
+    "name": "Alternate",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "adafruit",
+    "name": "Adafruit",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  },
+  {
+    "slug": "creality",
+    "name": "Creality",
+    "from": [
+      "spass-sonstiges"
+    ],
+    "to": "spass-sonstiges",
+    "reason": "Der vorhandene Text beschreibt eine Behörde, eine Kasse oder einen Verkauf, kein Werkzeug."
+  }
+]

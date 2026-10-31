@@ -4,6 +4,34 @@ import { directoryHref, type ToolListQuery } from "@/lib/tools/query";
 import type { PublicTool } from "@/lib/tools/public";
 import { ToolCard } from "@/components/tool-card";
 
+export function CategoryChips({
+  query,
+  categories,
+  basePath,
+}: {
+  query: ToolListQuery;
+  categories: { name: string; slug: string }[];
+  basePath: string;
+}) {
+  return (
+    <div className="flex flex-wrap gap-2" aria-label="Kategorien">
+      <Link href={directoryHref(basePath, query, { categorySlug: "", page: 1 })} className={chipClass(query.categorySlug === "")}>
+        Alle Kategorien
+      </Link>
+      {categories.map((category) => (
+        <Link
+          key={category.slug}
+          href={directoryHref(basePath, query, { categorySlug: category.slug, page: 1 })}
+          className={chipClass(query.categorySlug === category.slug)}
+          aria-current={query.categorySlug === category.slug ? "true" : undefined}
+        >
+          {category.name}
+        </Link>
+      ))}
+    </div>
+  );
+}
+
 export function PriceChips({
   query,
   basePath,
@@ -69,11 +97,14 @@ export function DirectoryFilters({
   query,
   categories,
   action = "/tools",
+  showPopular = true,
 }: {
   query: ToolListQuery;
   categories: { name: string; slug: string }[];
   action?: string;
+  showPopular?: boolean;
 }) {
+  const sorts = sortOptions.filter((item) => showPopular || item.value !== "popular");
   return (
     <form method="get" action={action} className="grid gap-3 rounded-2xl border border-border bg-card p-3 sm:p-4 lg:grid-cols-[1.4fr_1fr_1fr_1fr_auto]">
       <div>
@@ -113,8 +144,8 @@ export function DirectoryFilters({
           Sortierung
         </label>
         {query.company ? <input type="hidden" name="firma" value={query.company} /> : null}
-        <select id="sort" name="sort" defaultValue={sortOptions.find((item) => item.value === query.sort)?.param ?? "neueste"} className="field">
-          {sortOptions.map((item) => (
+        <select id="sort" name="sort" defaultValue={sorts.find((item) => item.value === query.sort)?.param ?? "neueste"} className="field">
+          {sorts.map((item) => (
             <option key={item.value} value={item.param}>
               {item.label}
             </option>

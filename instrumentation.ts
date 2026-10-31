@@ -4,5 +4,7 @@ export async function register() {
     const { ensureAdmin } = await import("./db/seed");
     const database = await getDb();
     await ensureAdmin(database);
+    const { ensureDirectoryTaxonomy } = await import("./lib/reclassify");
+    await ensureDirectoryTaxonomy();
   }
 }

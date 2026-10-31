@@ -10,6 +10,6 @@ describe("Startseite", () => {
     expect(weeklyPopularVisible(2)).toBe(false);
     expect(weeklyPopularVisible(3)).toBe(true);
     expect(categoryIconName("unbekannt")).toBe("fallback");
-    expect(categoryIconName("ki-chatbots")).toBe("ki-chatbots");
+    expect(categoryIconName("chat-assistenten")).toBe("chat-assistenten");
   });
 });

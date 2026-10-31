@@ -16,6 +16,7 @@
     "db:setup": "tsx db/setup.ts",
     "db:export": "tsx scripts/export-database.ts",
     "db:push-remote": "tsx scripts/push-remote.ts",
+    "db:reclassify": "tsx scripts/reclassify-directory.ts",
     "import:futuretools": "tsx scripts/import-futuretools-top100.ts",
     "import:verified": "tsx scripts/import-verified-directory.ts",
     "logos:fetch": "tsx scripts/fetch-logos.ts",

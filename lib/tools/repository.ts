@@ -19,6 +19,7 @@ import type { ToolListQuery } from "@/lib/tools/query";
 import type { PublicCategory, PublicTag } from "@/lib/tools/public";
 import { weeklyPopularVisible } from "@/lib/tools/popular";
 import { companiesForTools, companyBySlug, type CompanyToolRef } from "@/lib/companies";
+import { isHomepageFresh } from "@/lib/taxonomy";
 
 export type ToolWithRelations = Tool & {
   categories: PublicCategory[];
@@ -471,15 +472,39 @@ export async function listTopTools(database: AppDatabase, limit = 20) {
   const rows = await database
     .select()
     .from(tools)
-    .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false)))
-    .orderBy(
-      sql`case when ${tools.editorialRank} is null then 1 else 0 end`,
-      asc(tools.editorialRank),
-      desc(tools.featured),
-      desc(tools.createdAt),
-    )
+    .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false), sql`${tools.editorialRank} is not null`))
+    .orderBy(asc(tools.editorialRank), asc(tools.name))
     .limit(limit);
   return attachRelations(database, rows);
+}
+
+export async function listHomepageFresh(database: AppDatabase, limit = 6) {
+  const fresh = ["chat-assistenten", "text-schreiben", "bild-design", "video", "audio-musik-stimme", "recherche-suche", "automatisierung-agenten"];
+  const rows = await database
+    .select()
+    .from(tools)
+    .where(
+      and(
+        eq(tools.publishStatus, "published"),
+        eq(tools.isExample, false),
+        sql`${tools.id} in (
+          select tc.tool_id from tool_categories tc
+          inner join categories c on c.id = tc.category_id
+          where c.slug in (${sql.join(fresh.map((slug) => sql`${slug}`), sql`, `)})
+        )`,
+      ),
+    )
+    .orderBy(desc(tools.createdAt))
+    .limit(160);
+  const withCategories = await attachRelations(database, rows);
+  return withCategories
+    .filter((tool) => tool.categories.some((category) => isHomepageFresh(category.slug, `${tool.name} ${tool.shortDescriptionDe}`)))
+    .slice(0, limit);
+}
+
+export async function totalClicks(database: AppDatabase) {
+  const rows = await database.select({ total: sql<number>`coalesce(sum(count), 0)` }).from(clickDaily);
+  return Number(rows[0]?.total ?? 0);
 }
 
 export async function getNewsBySlug(database: AppDatabase, slug: string) {

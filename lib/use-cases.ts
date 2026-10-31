@@ -15,7 +15,7 @@ export const USE_CASES: UseCase[] = [
     slug: "lehrer",
     title: "Tools für Lehrerinnen und Lehrer",
     intro: "Unterricht braucht Material, das sich in einer Stunde vorbereiten lässt. In dieser Sammlung stehen veröffentlichte Werkzeuge aus Bildung und Text, die beim Erklären, Üben oder Zusammenfassen helfen. Es ist keine amtliche Empfehlungsliste und keine Aussage darüber, ob ein Tool in der Schule erlaubt ist. Das klärt die eigene Schule.",
-    categorySlug: "bildung",
+    categorySlug: "bildung-lernen",
     pricing: "",
     license: "",
     faqs: [
@@ -27,7 +27,7 @@ export const USE_CASES: UseCase[] = [
     slug: "studierende",
     title: "Tools für Studierende",
     intro: "Für Hausarbeiten zählen Lesen, Zitieren und eine ruhige Aufgabenliste. Hier liegen veröffentlichte Recherche- und Bildungswerkzeuge nebeneinander. Die Seite ersetzt keine Bibliothek und prüft nicht, ob eine Hochschule ein Werkzeug für Prüfungen zulässt.",
-    categorySlug: "recherche",
+    categorySlug: "recherche-suche",
     pricing: "",
     license: "",
     faqs: [
@@ -39,7 +39,7 @@ export const USE_CASES: UseCase[] = [
     slug: "tiktok-creator",
     title: "Tools für TikTok-Creator",
     intro: "Kurze Videos brauchen Schnitt, Untertitel, Ton und manchmal ein Bild. Diese Seite sammelt veröffentlichte Werkzeuge aus Videoschnitt, Videogenerierung und Audio. Sie sagt nicht, welches Format gerade Reichweite bringt.",
-    categorySlug: "videoschnitt",
+    categorySlug: "video",
     pricing: "",
     license: "",
     faqs: [
@@ -51,7 +51,7 @@ export const USE_CASES: UseCase[] = [
     slug: "bewerbungen",
     title: "Tools für Bewerbungen",
     intro: "Ein Lebenslauf und ein Anschreiben sind Texte mit einem klaren Empfänger. Hier stehen veröffentlichte Schreibwerkzeuge. Sie formulieren Vorschläge, sie ersetzen nicht deine eigenen Angaben zu Beruf und Werdegang.",
-    categorySlug: "textgenerierung",
+    categorySlug: "text-schreiben",
     pricing: "",
     license: "",
     faqs: [
@@ -87,7 +87,7 @@ export const USE_CASES: UseCase[] = [
     slug: "kostenlose-ki-bilder",
     title: "Kostenlose KI-Bildgeneratoren",
     intro: "Diese Seite zeigt veröffentlichte Bildwerkzeuge mit dem Preismodell kostenlos. Ob ein Konto nötig ist, steht nur dann auf Ja oder Nein, wenn das in der Faktenleiste geprüft wurde. Sonst bleibt es unklar. Ein kostenloses Modell ist kein Versprechen, dass jede Funktion ohne Bezahlung bleibt.",
-    categorySlug: "bildgenerierung",
+    categorySlug: "bild-design",
     pricing: "free",
     license: "",
     faqs: [
@@ -99,7 +99,7 @@ export const USE_CASES: UseCase[] = [
     slug: "meetings",
     title: "Tools für Meetings",
     intro: "Wer Gespräche mitschreibt, sucht Transkript, Zusammenfassung oder eine Aufnahme. In dieser Sammlung stehen veröffentlichte Audio-Werkzeuge. Eine Einwilligung der Teilnehmenden ist davon unabhängig und hier nicht geprüft.",
-    categorySlug: "audio-und-sprache",
+    categorySlug: "audio-musik-stimme",
     pricing: "",
     license: "",
     faqs: [
@@ -123,7 +123,7 @@ export const USE_CASES: UseCase[] = [
     slug: "recherche",
     title: "Tools für Recherche",
     intro: "Recherchewerkzeuge helfen, eine Frage an Texte oder Paper zu stellen. Diese Seite listet veröffentlichte Einträge aus der Kategorie Recherche. Sie prüft nicht, ob eine Antwort fachlich stimmt.",
-    categorySlug: "recherche",
+    categorySlug: "recherche-suche",
     pricing: "",
     license: "",
     faqs: [
@@ -135,7 +135,7 @@ export const USE_CASES: UseCase[] = [
     slug: "untertitel",
     title: "Tools für Untertitel",
     intro: "Untertitel entstehen aus Sprache. Hier stehen veröffentlichte Werkzeuge aus Videoschnitt und Audio, die Sprache in Text oder Text ins Bild bringen können. Die Genauigkeit hängt von der Aufnahme ab und wird hier nicht gemessen.",
-    categorySlug: "videoschnitt",
+    categorySlug: "video",
     pricing: "",
     license: "",
     faqs: [
@@ -159,7 +159,7 @@ export const USE_CASES: UseCase[] = [
     slug: "newsletter",
     title: "Tools für Newsletter",
     intro: "Wer eine Liste selbst verschickt, braucht einen Versanddienst. Hier stehen veröffentlichte Marketing-Werkzeuge. Linkjagd Tools selbst verschickt keinen Newsletter und speichert dafür keine Adressen.",
-    categorySlug: "marketing",
+    categorySlug: "marketing-social",
     pricing: "",
     license: "",
     faqs: [
@@ -171,7 +171,7 @@ export const USE_CASES: UseCase[] = [
     slug: "programmieren",
     title: "Tools zum Programmieren",
     intro: "Editoren, Agenten und Hosting stehen in der Kategorie Programmierung. Diese Seite zeigt die veröffentlichten Einträge daraus. Sie ist keine Rangliste und kein Ersatz für eine Code-Review.",
-    categorySlug: "programmierung",
+    categorySlug: "code-entwicklung",
     pricing: "",
     license: "",
     faqs: [
@@ -183,7 +183,7 @@ export const USE_CASES: UseCase[] = [
     slug: "praesentationen",
     title: "Tools für Präsentationen",
     intro: "Folien und Prototypen entstehen in eigenen Programmen. Diese Sammlung nimmt die veröffentlichte Kategorie Präsentationen. Wenn sie bei dir leer wirkt, liegt das an der Zahl der Einträge, nicht an einer ausgeblendeten Bestenliste.",
-    categorySlug: "praesentationen",
+    categorySlug: "produktivitaet",
     pricing: "",
     license: "",
     faqs: [
@@ -195,7 +195,7 @@ export const USE_CASES: UseCase[] = [
     slug: "buchhaltung",
     title: "Tools für Buchhaltung",
     intro: "Rechnungen und Belege sind eigene Programme. Diese Seite zeigt veröffentlichte Finanzwerkzeuge. Sie erstellt keine Buchung und keinen Steuerbescheid.",
-    categorySlug: "finanzen",
+    categorySlug: "business-finanzen",
     pricing: "",
     license: "",
     faqs: [
@@ -207,7 +207,7 @@ export const USE_CASES: UseCase[] = [
     slug: "musik",
     title: "Tools für Musik",
     intro: "Wer einen Jingle oder eine Spur braucht, findet hier veröffentlichte Musik- und Audio-Werkzeuge. Die Seite sagt nichts über Chart-Tauglichkeit und nichts über GEMA-Pflichten.",
-    categorySlug: "musik",
+    categorySlug: "audio-musik-stimme",
     pricing: "",
     license: "",
     faqs: [
@@ -219,7 +219,7 @@ export const USE_CASES: UseCase[] = [
     slug: "design",
     title: "Tools für Design",
     intro: "Oberflächen, Logos und Freisteller liegen in der Kategorie Design. Diese Sammlung zeigt die veröffentlichten Einträge. Geschmack und Markenrechte bleiben außerhalb der Karte.",
-    categorySlug: "design",
+    categorySlug: "bild-design",
     pricing: "",
     license: "",
     faqs: [

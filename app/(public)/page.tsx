@@ -6,7 +6,7 @@ import { JsonLd } from "@/components/json-ld";
 import { CategoryIcon } from "@/components/category-icon";
 import { NewsletterForm } from "@/components/newsletter-form";
 import { ToolCard } from "@/components/tool-card";
-import { listCategories, listCompaniesInDirectory, listTools, listTopTools, listWeeklyPopular, socialProofText } from "@/lib/tools/repository";
+import { listCategories, listCompaniesInDirectory, listHomepageFresh, listTools, listTopTools, listWeeklyPopular, socialProofText } from "@/lib/tools/repository";
 import { CompanyStrip } from "@/components/company-strip";
 import { toPublicTool } from "@/lib/tools/public";
 import { publicListQuery } from "@/lib/tools/query";
@@ -39,7 +39,7 @@ export default async function HomePage({
   since.setUTCDate(since.getUTCDate() - 6);
   const [featured, newest, fromVideos, categories, popular, proof, top, companies] = await Promise.all([
     listTools(database, { ...base, featuredOnly: true, sort: "featured", pageSize: 6 }),
-    listTools(database, { ...base, sort: "newest", pageSize: 6 }),
+    listHomepageFresh(database, 6),
     listTools(database, { ...base, fromVideo: true, sort: "newest", pageSize: 6 }),
     listCategories(database),
     listWeeklyPopular(database, utcDay(since), 6),
@@ -49,7 +49,7 @@ export default async function HomePage({
   ]);
   const siteHost = host();
   const featuredTools = featured.items.map((tool) => toPublicTool(tool, siteHost));
-  const newTools = newest.items.map((tool) => toPublicTool(tool, siteHost));
+  const newTools = newest.map((tool) => toPublicTool(tool, siteHost));
   const videoTools = fromVideos.items.map((tool) => toPublicTool(tool, siteHost));
   const popularTools = popular.map((tool) => toPublicTool(tool, siteHost));
   const topTools = top.map((tool) => toPublicTool(tool, siteHost));
@@ -133,7 +133,7 @@ export default async function HomePage({
             ))}
           </ol>
           <p className="mt-3 text-xs leading-5 text-muted-foreground">
-            Zuerst gesetzte Redaktionsreihenfolge, dann Empfehlungen, dann die neuesten. Keine Stimmen.
+            Nur Tools mit gesetzter Redaktionsreihenfolge im Feld editorial_rank. Keine Stimmen, keine aufgefüllte Platzierung.
           </p>
         </aside>
       </section>
@@ -167,15 +167,6 @@ export default async function HomePage({
           </div>
         </section>
       ) : null}
-
-      <section className="page-wrap py-14">
-        <SectionHead kicker="Frisch" title="Neu hinzugefügt" href="/neu" linkLabel="Alle neuen Tools" />
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-          {newTools.map((tool) => (
-            <ToolCard key={tool.id} tool={tool} />
-          ))}
-        </div>
-      </section>
 
       <section className="border-t border-border bg-card">
         <div className="page-wrap py-14">

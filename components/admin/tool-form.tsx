@@ -121,6 +121,7 @@ export function ToolForm({
         <label className="grid gap-1 text-sm font-medium">
           Top-20-Position
           <input name="editorialRank" inputMode="numeric" defaultValue={initial.editorialRank} className="field" placeholder="1–20 oder leer" />
+          <span className="text-xs font-normal text-muted-foreground">Feld editorial_rank. Leer heißt: nicht in der Top 20. Keine Stimmen.</span>
         </label>
       </div>
       <fieldset className="grid gap-2">

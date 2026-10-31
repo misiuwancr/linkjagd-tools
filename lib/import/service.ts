@@ -3,6 +3,7 @@ import { categories, tools } from "@/db/schema";
 import type { AppDatabase } from "@/db/client";
 import { importToolSchema } from "@/lib/validation/tool";
 import { domainFromUrl, slugify } from "@/lib/utils";
+import { chooseCategory } from "@/lib/taxonomy";
 import {
   findDuplicateTool,
   refreshSearchText,
@@ -57,9 +58,10 @@ export async function importDiscoveredTool(database: AppDatabase, payload: unkno
     createdAt: now,
     updatedAt: now,
   });
-  if (input.categorySlugs.length > 0) {
+  const categorySlugs = [chooseCategory(input.categorySlugs, `${input.name} ${input.shortDescriptionDe}`).slug];
+  if (categorySlugs.length > 0) {
     const matched: string[] = [];
-    for (const categorySlug of input.categorySlugs) {
+    for (const categorySlug of categorySlugs) {
       const rows = await database.select().from(categories).where(eq(categories.slug, categorySlug)).limit(1);
       if (rows[0]) matched.push(rows[0].id);
     }

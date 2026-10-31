@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
-import { DirectoryFilters, LicenseChips, Pagination, PriceChips, ResultMeta, ToolGrid } from "@/components/directory";
+import { CategoryChips, DirectoryFilters, LicenseChips, Pagination, PriceChips, ResultMeta, ToolGrid } from "@/components/directory";
 import { JsonLd } from "@/components/json-ld";
-import { listCategories, listTools } from "@/lib/tools/repository";
+import { listCategories, listTools, totalClicks } from "@/lib/tools/repository";
+import { weeklyPopularVisible } from "@/lib/tools/popular";
 import { directoryHref, publicListQuery } from "@/lib/tools/query";
 import { toPublicTool } from "@/lib/tools/public";
 import { sortOptions } from "@/lib/labels";
@@ -45,7 +46,12 @@ export default async function ToolsPage({
 }) {
   const query = publicListQuery(searchParams);
   const database = await getDb();
-  const [result, categories] = await Promise.all([listTools(database, query), listCategories(database)]);
+  const [result, categories, clicks] = await Promise.all([
+    listTools(database, query),
+    listCategories(database),
+    totalClicks(database),
+  ]);
+  const showPopular = weeklyPopularVisible(clicks);
   const tools = result.items.map((tool) => toPublicTool(tool));
   const safeQuery = { ...query, page: result.page };
 
@@ -73,7 +79,10 @@ export default async function ToolsPage({
         Suche nach Namen oder Aufgabe. Filter und Sortierung bleiben in der Adresse, damit du die Ansicht teilen kannst.
       </p>
       <div className="mt-8 rounded-3xl border border-border bg-card/60 p-4 sm:p-5">
-        <PriceChips query={safeQuery} basePath="/tools" />
+        <CategoryChips query={safeQuery} categories={categories} basePath="/tools" />
+        <div className="mt-3">
+          <PriceChips query={safeQuery} basePath="/tools" />
+        </div>
         <LicenseChips query={safeQuery} basePath="/tools" />
         <div className="mt-3">
           <a
@@ -109,7 +118,7 @@ export default async function ToolsPage({
           </a>
         </div>
         <div className="mt-4">
-          <DirectoryFilters query={safeQuery} categories={categories} />
+          <DirectoryFilters query={safeQuery} categories={categories} showPopular={showPopular} />
         </div>
       </div>
       <div className="mt-6 flex items-center justify-between gap-3">
