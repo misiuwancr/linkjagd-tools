@@ -27,6 +27,7 @@ export type ToolListQuery = {
   fromVideo: boolean;
   germanUi: "ja" | "nein" | "unklar" | "";
   noSignup: "ja" | "nein" | "unklar" | "";
+  company: string;
   discoverySources: string[];
 };
 
@@ -39,6 +40,11 @@ function first(value: string | string[] | undefined) {
 function triParam(value: string | undefined): "ja" | "nein" | "unklar" | "" {
   if (value === "ja" || value === "nein" || value === "unklar") return value;
   return "";
+}
+
+function companyParam(value: string | undefined) {
+  const slug = (value ?? "").trim().toLowerCase();
+  return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) ? slug : "";
 }
 
 function pageNumber(value: string | undefined) {
@@ -65,6 +71,7 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
     fromVideo: first(params.video) === "ja",
     germanUi: triParam(first(params.deutsch)),
     noSignup: triParam(first(params.anmeldung)),
+    company: companyParam(first(params.firma)),
     discoverySources: [],
     ...overrides,
   };
@@ -72,8 +79,8 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
 
 export function directoryHref(
   basePath: string,
-  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup">,
-  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup">> = {},
+  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company">,
+  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company">> = {},
 ) {
   const next = { ...query, ...patch };
   const params = new URLSearchParams();
@@ -84,6 +91,7 @@ export function directoryHref(
   if (next.fromVideo) params.set("video", "ja");
   if (next.germanUi) params.set("deutsch", next.germanUi);
   if (next.noSignup) params.set("anmeldung", next.noSignup);
+  if (next.company) params.set("firma", next.company);
   if (next.sort !== "newest") params.set("sort", sortParam(next.sort));
   if (next.page > 1) params.set("seite", String(next.page));
   const qs = params.toString();

@@ -4,9 +4,10 @@ import { siteConfig } from "@/site.config";
 import { DirectoryFilters, LicenseChips, Pagination, PriceChips, ResultMeta, ToolGrid } from "@/components/directory";
 import { JsonLd } from "@/components/json-ld";
 import { listCategories, listTools } from "@/lib/tools/repository";
-import { publicListQuery } from "@/lib/tools/query";
+import { directoryHref, publicListQuery } from "@/lib/tools/query";
 import { toPublicTool } from "@/lib/tools/public";
 import { sortOptions } from "@/lib/labels";
+import { companyBySlug } from "@/lib/companies";
 
 export const revalidate = 60;
 
@@ -16,13 +17,15 @@ export async function generateMetadata({
   searchParams: Record<string, string | string[] | undefined>;
 }): Promise<Metadata> {
   const query = publicListQuery(searchParams);
-  const title = query.q ? `Suche: ${query.q}` : "Alle KI-Tools";
+  const company = companyBySlug(query.company);
+  const title = company ? `Tools von ${company.name}` : query.q ? `Suche: ${query.q}` : "Alle KI-Tools";
   const description = query.q
     ? `Suchergebnisse für „${query.q}“ im Verzeichnis ${siteConfig.name}.`
     : "Durchsuche das Verzeichnis nach Name, Beschreibung, Kategorie und Preismodell.";
   const canonical = new URL("/tools", siteConfig.url);
   if (query.categorySlug) canonical.searchParams.set("kategorie", query.categorySlug);
   if (query.pricing) canonical.searchParams.set("preis", searchParams.preis as string);
+  if (query.company) canonical.searchParams.set("firma", query.company);
   if (query.sort !== "newest") {
     const sort = sortOptions.find((item) => item.value === query.sort)?.param;
     if (sort) canonical.searchParams.set("sort", sort);
@@ -58,7 +61,13 @@ export default async function ToolsPage({
         }}
       />
       <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-        Das <span className="text-hunt">Verzeichnis</span>
+        {companyBySlug(safeQuery.company) ? (
+          <>Tools von {companyBySlug(safeQuery.company)?.name}</>
+        ) : (
+          <>
+            Das <span className="text-hunt">Verzeichnis</span>
+          </>
+        )}
       </h1>
       <p className="mt-3 max-w-2xl text-base leading-7 text-muted-foreground">
         Suche nach Namen oder Aufgabe. Filter und Sortierung bleiben in der Adresse, damit du die Ansicht teilen kannst.
@@ -68,7 +77,7 @@ export default async function ToolsPage({
         <LicenseChips query={safeQuery} basePath="/tools" />
         <div className="mt-3">
           <a
-            href={safeQuery.fromVideo ? "/tools" : "/tools?video=ja"}
+            href={directoryHref("/tools", safeQuery, { fromVideo: !safeQuery.fromVideo, page: 1 })}
             className={
               safeQuery.fromVideo
                 ? "inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
@@ -79,7 +88,7 @@ export default async function ToolsPage({
             Aus meinen Videos
           </a>
           <a
-            href="/tools?deutsch=ja"
+            href={directoryHref("/tools", safeQuery, { germanUi: "ja", page: 1 })}
             className={
               safeQuery.germanUi === "ja"
                 ? "ml-2 inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
@@ -89,7 +98,7 @@ export default async function ToolsPage({
             Auf Deutsch
           </a>
           <a
-            href="/tools?anmeldung=ja"
+            href={directoryHref("/tools", safeQuery, { noSignup: "ja", page: 1 })}
             className={
               safeQuery.noSignup === "ja"
                 ? "ml-2 inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"

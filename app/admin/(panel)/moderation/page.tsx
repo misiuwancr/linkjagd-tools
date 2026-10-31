@@ -22,6 +22,7 @@ export default async function ModerationPage() {
     fromVideo: false,
     germanUi: "",
     noSignup: "",
+    company: "",
     discoverySources: ["import", "submission", "futuretools-top100"],
   };
   const result = await listTools(await getDb(), query);

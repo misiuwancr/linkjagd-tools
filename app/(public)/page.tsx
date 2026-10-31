@@ -6,7 +6,8 @@ import { JsonLd } from "@/components/json-ld";
 import { CategoryIcon } from "@/components/category-icon";
 import { NewsletterForm } from "@/components/newsletter-form";
 import { ToolCard } from "@/components/tool-card";
-import { listCategories, listTools, listTopTools, listWeeklyPopular, socialProofText } from "@/lib/tools/repository";
+import { listCategories, listCompaniesInDirectory, listTools, listTopTools, listWeeklyPopular, socialProofText } from "@/lib/tools/repository";
+import { CompanyStrip } from "@/components/company-strip";
 import { toPublicTool } from "@/lib/tools/public";
 import { publicListQuery } from "@/lib/tools/query";
 import { utcDay } from "@/lib/utils";
@@ -36,7 +37,7 @@ export default async function HomePage({
   const base = publicListQuery({});
   const since = new Date();
   since.setUTCDate(since.getUTCDate() - 6);
-  const [featured, newest, fromVideos, categories, popular, proof, top] = await Promise.all([
+  const [featured, newest, fromVideos, categories, popular, proof, top, companies] = await Promise.all([
     listTools(database, { ...base, featuredOnly: true, sort: "featured", pageSize: 6 }),
     listTools(database, { ...base, sort: "newest", pageSize: 6 }),
     listTools(database, { ...base, fromVideo: true, sort: "newest", pageSize: 6 }),
@@ -44,6 +45,7 @@ export default async function HomePage({
     listWeeklyPopular(database, utcDay(since), 6),
     socialProofText(database),
     listTopTools(database, 8),
+    listCompaniesInDirectory(database),
   ]);
   const siteHost = host();
   const featuredTools = featured.items.map((tool) => toPublicTool(tool, siteHost));
@@ -81,6 +83,7 @@ export default async function HomePage({
           <div id="anmeldung" className="mt-8 scroll-mt-24">
             <NewsletterForm notice={searchParams.hinweis} returnTo="/" />
           </div>
+          <CompanyStrip companies={companies} />
           {proof ? <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{proof}</p> : null}
           <form action="/tools" method="get" className="mt-8 flex max-w-2xl flex-col gap-2 sm:flex-row" role="search">
             <label htmlFor="start-suche" className="sr-only">

@@ -112,6 +112,7 @@ export function DirectoryFilters({
         <label htmlFor="sort" className="mb-1 block text-xs font-medium text-muted-foreground">
           Sortierung
         </label>
+        {query.company ? <input type="hidden" name="firma" value={query.company} /> : null}
         <select id="sort" name="sort" defaultValue={sortOptions.find((item) => item.value === query.sort)?.param ?? "neueste"} className="field">
           {sortOptions.map((item) => (
             <option key={item.value} value={item.param}>

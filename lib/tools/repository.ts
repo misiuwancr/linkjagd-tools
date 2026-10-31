@@ -18,6 +18,7 @@ import { normalizeSearch, slugify } from "@/lib/utils";
 import type { ToolListQuery } from "@/lib/tools/query";
 import type { PublicCategory, PublicTag } from "@/lib/tools/public";
 import { weeklyPopularVisible } from "@/lib/tools/popular";
+import { companiesForTools, companyBySlug, type CompanyToolRef } from "@/lib/companies";
 
 export type ToolWithRelations = Tool & {
   categories: PublicCategory[];
@@ -62,7 +63,25 @@ function filters(query: ToolListQuery): SQL[] {
       or coalesce(${tools.youtubeShortUrl}, '') != ''
     )`);
   }
+  if (query.company) parts.push(companySql(query.company));
   return parts;
+}
+
+function companySql(slug: string): SQL {
+  const company = companyBySlug(slug);
+  if (!company) return sql`0`;
+  const parts: SQL[] = [];
+  for (const suffix of company.suffixes) {
+    parts.push(sql`${tools.domain} = ${suffix} or ${tools.domain} like ${`%.${suffix}`}`);
+  }
+  for (const exact of company.exact) parts.push(sql`${tools.domain} = ${exact}`);
+  for (const toolSlug of company.toolSlugs) parts.push(sql`${tools.slug} = ${toolSlug}`);
+  if (parts.length === 0) return sql`0`;
+  let clause = sql`(${sql.join(parts, sql` or `)})`;
+  for (const denied of company.deny) {
+    clause = sql`(${clause} and ${tools.domain} != ${denied} and ${tools.domain} not like ${`%.${denied}`})`;
+  }
+  return clause;
 }
 
 function orderBy(query: ToolListQuery) {
@@ -482,6 +501,14 @@ export async function setSetting(database: AppDatabase, key: string, value: stri
     .insert(siteSettings)
     .values({ key, value })
     .onConflictDoUpdate({ target: siteSettings.key, set: { value } });
+}
+
+export async function listCompaniesInDirectory(database: AppDatabase) {
+  const rows = await database
+    .select({ slug: tools.slug, domain: tools.domain })
+    .from(tools)
+    .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false)));
+  return companiesForTools(rows satisfies CompanyToolRef[]);
 }
 
 export async function socialProofText(database: AppDatabase) {

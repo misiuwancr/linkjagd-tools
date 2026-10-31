@@ -30,6 +30,7 @@ export default async function AdminToolsPage({
     fromVideo: false,
     germanUi: "",
     noSignup: "",
+    company: "",
     discoverySources: [],
   };
   const result = await listTools(await getDb(), query);
