@@ -66,6 +66,9 @@ function filters(query: ToolListQuery): SQL[] {
 function orderBy(query: ToolListQuery) {
   const clicks = sql`(select coalesce(sum(count), 0) from click_daily where tool_id = ${tools.id})`;
   if (query.sort === "alpha") return [asc(tools.name)];
+  if (query.sort === "freeFirst") {
+    return [sql`case ${tools.pricingModel} when 'free' then 0 when 'freemium' then 1 else 2 end`, desc(tools.createdAt)];
+  }
   if (query.sort === "popular") return [desc(clicks), desc(tools.createdAt)];
   if (query.sort === "featured" || query.rankedOnly) {
     return [

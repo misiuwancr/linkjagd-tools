@@ -17,6 +17,7 @@ export const sortOptions = [
   { value: "popular", label: "Beliebteste", param: "beliebteste" },
   { value: "alpha", label: "Alphabetisch", param: "alphabetisch" },
   { value: "featured", label: "Empfohlen", param: "empfohlen" },
+  { value: "freeFirst", label: "Kostenlos zuerst", param: "kostenlos" },
 ] as const;
 
 export type SortKey = (typeof sortOptions)[number]["value"];
