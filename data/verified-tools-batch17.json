@@ -1,0 +1,1979 @@
+[
+  {
+    "name": "Read AI",
+    "originalUrl": "https://www.read.ai/",
+    "domain": "read.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Read AI schreibt Meetings mit und fasst sie zusammen.",
+    "longDescriptionDe": "Read AI nimmt am Gespräch teil und liefert Notizen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Meeting-Notizen",
+      "Zusammenfassung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch mitzuschreiben",
+      "Die Zusammenfassung zu teilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tactiq",
+    "originalUrl": "https://www.tactiq.io/",
+    "domain": "tactiq.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Tactiq schreibt Videogespräche im Browser mit.",
+    "longDescriptionDe": "Tactiq läuft als Erweiterung und liefert ein Transkript. Es gibt einen kostenlosen Einstieg und bezahlte Minuten.",
+    "featuresDe": [
+      "Transkript im Browser",
+      "Erweiterung",
+      "Kostenloser Einstieg und bezahlte Minuten"
+    ],
+    "useCasesDe": [
+      "Ein Meeting live mitzuschreiben",
+      "Das Transkript zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MeetGeek",
+    "originalUrl": "https://www.meetgeek.ai/",
+    "domain": "meetgeek.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "MeetGeek zeichnet Meetings auf und zieht Aufgaben daraus.",
+    "longDescriptionDe": "MeetGeek liefert Transkript, Zusammenfassung und Aufgaben. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Transkript und Aufgaben",
+      "Zusammenfassung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Aufgaben aus einem Meeting zu ziehen",
+      "Die Aufnahme später zu durchsuchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Circleback",
+    "originalUrl": "https://www.circleback.ai/",
+    "domain": "circleback.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Circleback schreibt Meetings mit und legt Notizen automatisch ab.",
+    "longDescriptionDe": "Circleback nimmt das Gespräch auf und verteilt die Notizen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Automatische Meeting-Notizen",
+      "Verteilen der Notizen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Notizen ohne manuelles Tippen zu bekommen",
+      "Ein Gespräch später nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fellow",
+    "originalUrl": "https://www.fellow.app/",
+    "domain": "fellow.app",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Fellow plant Meetings und hält Agenda und Notizen an einem Ort.",
+    "longDescriptionDe": "Fellow verbindet Kalender, Agenda und Protokoll. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Agenda und Notizen",
+      "Kalender",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Agenda vor dem Meeting zu teilen",
+      "Beschlüsse festzuhalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Noota",
+    "originalUrl": "https://www.noota.io/",
+    "domain": "noota.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Noota schreibt Meetings und Telefonate mit.",
+    "longDescriptionDe": "Noota liefert Transkript und Zusammenfassung. Es gibt einen kostenlosen Einstieg und bezahlte Minuten.",
+    "featuresDe": [
+      "Transkript von Gesprächen",
+      "Zusammenfassung",
+      "Kostenloser Einstieg und bezahlte Minuten"
+    ],
+    "useCasesDe": [
+      "Ein Telefonat abzutippen",
+      "Die Zusammenfassung zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sembly",
+    "originalUrl": "https://www.sembly.ai/",
+    "domain": "sembly.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Sembly fasst Meetings zusammen und markiert Aufgaben.",
+    "longDescriptionDe": "Sembly sitzt im Gespräch und liefert Notizen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Zusammenfassung",
+      "Aufgaben",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein langes Meeting auf den Punkt zu bringen",
+      "Aufgaben an Personen zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Humata",
+    "originalUrl": "https://www.humata.ai/",
+    "domain": "humata.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Humata beantwortet Fragen zu hochgeladenen PDF-Dateien.",
+    "longDescriptionDe": "Humata liest ein Dokument und zeigt die Stelle zur Antwort. Es gibt einen kostenlosen Einstieg und bezahlte Seiten.",
+    "featuresDe": [
+      "Fragen an PDFs",
+      "Fundstelle",
+      "Kostenloser Einstieg und bezahlte Seiten"
+    ],
+    "useCasesDe": [
+      "Eine Klausel in einem Vertrag zu finden",
+      "Ein langes PDF zu befragen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Explainpaper",
+    "originalUrl": "https://www.explainpaper.com/",
+    "domain": "explainpaper.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Explainpaper erklärt markierte Stellen in einem wissenschaftlichen PDF.",
+    "longDescriptionDe": "Explainpaper öffnet ein Paper und beantwortet Fragen zu einer Passage. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Erklärungen zu einer Passage",
+      "PDF eines Papers",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen schwierigen Absatz erklären zu lassen",
+      "Ein Paper abschnittsweise zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ChatDoc",
+    "originalUrl": "https://www.chatdoc.com/",
+    "domain": "chatdoc.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "ChatDoc beantwortet Fragen zu Dokumenten und Tabellen.",
+    "longDescriptionDe": "ChatDoc nimmt Dateien entgegen und verweist auf die Stelle. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Fragen an Dokumente",
+      "Verweis auf die Stelle",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine Zahl in einem Bericht zu finden",
+      "Mehrere Dateien zu befragen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PDF.ai",
+    "originalUrl": "https://pdf.ai/",
+    "domain": "pdf.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "PDF.ai lässt Fragen an eine hochgeladene PDF-Datei stellen.",
+    "longDescriptionDe": "PDF.ai liest die Datei und antwortet im Chat. Es gibt einen kostenlosen Einstieg und bezahlte Dokumente.",
+    "featuresDe": [
+      "Chat mit einer PDF",
+      "Upload",
+      "Kostenloser Einstieg und bezahlte Dokumente"
+    ],
+    "useCasesDe": [
+      "Ein Handbuch zu durchsuchen",
+      "Eine Antwort mit der Stelle zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tally",
+    "originalUrl": "https://tally.so/",
+    "domain": "tally.so",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Tally baut Formulare, die sich wie ein Dokument anfühlen.",
+    "longDescriptionDe": "Tally setzt Fragen untereinander und sammelt die Antworten. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Formulare wie ein Dokument",
+      "Gesammelte Antworten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Anmeldung zu bauen",
+      "Antworten zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fillout",
+    "originalUrl": "https://www.fillout.com/",
+    "domain": "fillout.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Fillout baut Formulare und verbindet sie mit Tabellen.",
+    "longDescriptionDe": "Fillout setzt Fragen und schreibt Antworten in angebundene Dienste. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Formulare",
+      "Anbindung an Tabellen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Formular an eine Tabelle zu hängen",
+      "Antworten an einem Ort zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Typeform",
+    "originalUrl": "https://www.typeform.com/",
+    "domain": "typeform.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Typeform zeigt Fragen nacheinander in einem Gesprächsformular.",
+    "longDescriptionDe": "Typeform führt durch eine Frage nach der anderen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Eine Frage nach der anderen",
+      "Gesprächsformular",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Umfrage zu gestalten",
+      "Eine Anmeldung Schritt für Schritt abzufragen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Jotform",
+    "originalUrl": "https://www.jotform.com/",
+    "domain": "jotform.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Jotform baut Formulare mit vielen Feldtypen und sammelt die Einsendungen.",
+    "longDescriptionDe": "Jotform setzt Felder per Drag-and-drop und speichert die Antworten. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Viele Feldtypen",
+      "Gespeicherte Einsendungen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Bewerbungsformular zu bauen",
+      "Einsendungen als Tabelle zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SurveyMonkey",
+    "originalUrl": "https://www.surveymonkey.com/",
+    "domain": "surveymonkey.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "SurveyMonkey erstellt Umfragen und wertet die Antworten aus.",
+    "longDescriptionDe": "SurveyMonkey verteilt einen Fragebogen und zeigt Diagramme. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Fragebögen",
+      "Auswertung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Umfrage zu verschicken",
+      "Antworten in Diagrammen zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bubble",
+    "originalUrl": "https://bubble.io/",
+    "domain": "bubble.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Bubble baut Web-Apps im Browser, ohne den Code selbst zu schreiben.",
+    "longDescriptionDe": "Bubble setzt Seiten, Daten und Abläufe visuell. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Web-Apps ohne eigenen Code",
+      "Daten und Abläufe",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine kleine App zu starten",
+      "Einen Ablauf visuell zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FlutterFlow",
+    "originalUrl": "https://www.flutterflow.io/",
+    "domain": "flutterflow.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "FlutterFlow gestaltet App-Oberflächen und erzeugt daraus ein Flutter-Projekt.",
+    "longDescriptionDe": "FlutterFlow setzt Screens und exportiert den Code. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "App-Oberflächen",
+      "Export als Flutter-Projekt",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen App-Screen zu gestalten",
+      "Das Projekt weiter in Flutter zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Softr",
+    "originalUrl": "https://www.softr.io/",
+    "domain": "softr.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Softr macht aus einer Tabelle eine Website mit Anmeldung.",
+    "longDescriptionDe": "Softr setzt Seiten auf Daten und veröffentlicht sie. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Website aus einer Tabelle",
+      "Anmeldung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Verzeichnis aus einer Tabelle zu bauen",
+      "Eine Seite mit Login zu veröffentlichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Glide",
+    "originalUrl": "https://www.glideapps.com/",
+    "domain": "glideapps.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Glide macht aus einer Tabelle eine App fürs Handy und den Browser.",
+    "longDescriptionDe": "Glide liest Zeilen als Einträge und setzt Listen und Formulare. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "App aus einer Tabelle",
+      "Listen und Formulare",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine einfache App ohne Code zu starten",
+      "Einträge aus einer Tabelle anzuzeigen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Adalo",
+    "originalUrl": "https://www.adalo.com/",
+    "domain": "adalo.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Adalo baut Apps aus Komponenten und veröffentlicht sie.",
+    "longDescriptionDe": "Adalo setzt Screens und Daten visuell. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Apps aus Komponenten",
+      "Visuelle Daten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine kleine App zu skizzieren",
+      "Screens miteinander zu verbinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Fibery",
+    "originalUrl": "https://fibery.io/",
+    "domain": "fibery.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Fibery legt Arbeit in eigenen Datenbanken, Dokumenten und Ansichten ab.",
+    "longDescriptionDe": "Fibery verbindet Aufgaben, Texte und Felder. Es gibt einen kostenlosen Einstieg und bezahlte Plätze.",
+    "featuresDe": [
+      "Eigene Datenbanken",
+      "Dokumente und Ansichten",
+      "Kostenloser Einstieg und bezahlte Plätze"
+    ],
+    "useCasesDe": [
+      "Ein Produktboard selbst zu modellieren",
+      "Aufgaben und Notizen zu verknüpfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Shortcut",
+    "originalUrl": "https://www.shortcut.com/",
+    "domain": "shortcut.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Shortcut plant Stories, Iterationen und Dokumente für Softwareteams.",
+    "longDescriptionDe": "Shortcut hält Aufgaben auf einem Board und in Iterationen. Es gibt einen kostenlosen Einstieg und bezahlte Plätze.",
+    "featuresDe": [
+      "Stories und Iterationen",
+      "Board",
+      "Kostenloser Einstieg und bezahlte Plätze"
+    ],
+    "useCasesDe": [
+      "Eine Iteration zu planen",
+      "Stories einem Board zuzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Evernote",
+    "originalUrl": "https://evernote.com/",
+    "domain": "evernote.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Evernote sammelt Notizen, Scans und Aufgaben in Notizbüchern.",
+    "longDescriptionDe": "Evernote durchsucht Notizen über Geräte hinweg. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Notizbücher",
+      "Suche über Geräte",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Notiz mit Anhang abzulegen",
+      "Ein Notizbuch zu durchsuchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OmniFocus",
+    "originalUrl": "https://www.omnifocus.com/",
+    "domain": "omnifocus.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "OmniFocus sortiert Aufgaben nach Projekten, Kontexten und Fristen.",
+    "longDescriptionDe": "OmniFocus ist eine Aufgaben-App mit Perspektiven auf das, was als Nächstes ansteht. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Projekte und Kontexte",
+      "Perspektiven",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Aufgaben nach Kontext zu filtern",
+      "Eine Wochenplanung zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Causal",
+    "originalUrl": "https://www.causal.app/",
+    "domain": "causal.app",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Causal rechnet Modelle und Szenarien statt einer klassischen Tabelle.",
+    "longDescriptionDe": "Causal setzt Formeln als Modell und zeigt Szenarien. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Modelle und Szenarien",
+      "Formeln",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Umsatzmodell mit Varianten zu rechnen",
+      "Ein Szenario gegen ein anderes zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Equals",
+    "originalUrl": "https://equals.com/",
+    "domain": "equals.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Equals verbindet eine Tabelle mit Live-Daten aus anderen Diensten.",
+    "longDescriptionDe": "Equals zieht Zahlen in Zellen und rechnet damit. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Tabelle mit Live-Daten",
+      "Berechnungen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Kennzahlen ohne manuellen Export zu sehen",
+      "Eine Tabelle an eine Quelle zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Clay",
+    "originalUrl": "https://www.clay.com/",
+    "domain": "clay.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Clay sammelt Firmendaten und reichert Listen mit weiteren Angaben an.",
+    "longDescriptionDe": "Clay zieht Zeilen aus Quellen und ergänzt Felder. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Listen von Firmen",
+      "Angereicherte Felder",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine Kontaktliste anzureichern",
+      "Felder aus mehreren Quellen zu füllen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Apollo",
+    "originalUrl": "https://www.apollo.io/",
+    "domain": "apollo.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Apollo sucht Kontakte und Firmen und startet E-Mail-Sequenzen.",
+    "longDescriptionDe": "Apollo filtert eine Datenbank und schreibt Sequenzen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kontaktsuche",
+      "E-Mail-Sequenzen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Kontakte nach Branche zu filtern",
+      "Eine Sequenz zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Instantly",
+    "originalUrl": "https://www.instantly.ai/",
+    "domain": "instantly.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Instantly verschickt kalte E-Mail-Sequenzen über mehrere Postfächer.",
+    "longDescriptionDe": "Instantly verteilt den Versand und zeigt Antworten. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "E-Mail-Sequenzen",
+      "Mehrere Postfächer",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Sequenz an eine Liste zu schicken",
+      "Antworten an einem Ort zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Smartlead",
+    "originalUrl": "https://www.smartlead.ai/",
+    "domain": "smartlead.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Smartlead verschickt E-Mail-Kampagnen und wärmt Postfächer an.",
+    "longDescriptionDe": "Smartlead legt Sequenzen an und verteilt den Versand. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kampagnen",
+      "Angewärmte Postfächer",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Kampagne über mehrere Postfächer zu fahren",
+      "Antworten zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "beehiiv",
+    "originalUrl": "https://www.beehiiv.com/",
+    "domain": "beehiiv.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "beehiiv verschickt Newsletter und zeigt, welche Ausgaben gelesen werden.",
+    "longDescriptionDe": "beehiiv schreibt, sendet und wertet eine Ausgabe aus. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Newsletter",
+      "Auswertung der Ausgaben",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Newsletter zu verschicken",
+      "Zu sehen, welche Links geklickt wurden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Buttondown",
+    "originalUrl": "https://buttondown.com/",
+    "domain": "buttondown.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Buttondown verschickt einen Newsletter aus Markdown.",
+    "longDescriptionDe": "Buttondown nimmt einen Text und sendet ihn an die Liste. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Newsletter aus Markdown",
+      "Liste",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Ausgabe in Markdown zu schreiben",
+      "Die Liste zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Substack",
+    "originalUrl": "https://substack.com/",
+    "domain": "substack.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Substack veröffentlicht einen Newsletter und optional kostenpflichtige Ausgaben.",
+    "longDescriptionDe": "Substack schreibt, sendet und kann ein Abo für Leser anbieten. Der Einstieg für Autorinnen und Autoren ist ohne Pflichtgebühr möglich, bezahlte Funktionen kommen dazu.",
+    "featuresDe": [
+      "Newsletter",
+      "Optionale kostenpflichtige Ausgaben",
+      "Einstieg ohne Pflichtgebühr"
+    ],
+    "useCasesDe": [
+      "Eine Ausgabe zu veröffentlichen",
+      "Ein Abo für Leser anzubieten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Typefully",
+    "originalUrl": "https://www.typefully.com/",
+    "domain": "typefully.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Typefully schreibt und plant Beiträge für X und LinkedIn.",
+    "longDescriptionDe": "Typefully zeigt die Vorschau und legt einen Zeitpunkt fest. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Beiträge planen",
+      "Vorschau",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Thread zu entwerfen",
+      "Einen Beitrag auf eine Uhrzeit zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Taplio",
+    "originalUrl": "https://www.taplio.com/",
+    "domain": "taplio.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Taplio hilft beim Schreiben und Planen von LinkedIn-Beiträgen.",
+    "longDescriptionDe": "Taplio schlägt Formulierungen vor und legt den Zeitpunkt fest. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "LinkedIn-Beiträge",
+      "Formulierungsvorschläge",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Beitrag zu entwerfen",
+      "Mehrere Posts in der Woche zu planen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hypefury",
+    "originalUrl": "https://www.hypefury.com/",
+    "domain": "hypefury.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Hypefury plant Beiträge und verteilt sie über den Tag.",
+    "longDescriptionDe": "Hypefury nimmt Entwürfe und postet sie nach einem Plan. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Geplante Beiträge",
+      "Verteilung über den Tag",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Woche an Beiträgen vorzuplanen",
+      "Einen Entwurf automatisch zu posten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tweet Hunter",
+    "originalUrl": "https://tweethunter.io/",
+    "domain": "tweethunter.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Tweet Hunter sammelt Ideen und plant Beiträge für X.",
+    "longDescriptionDe": "Tweet Hunter zeigt Vorlagen und einen Kalender. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Ideen und Vorlagen",
+      "Kalender",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Beitrag aus einer Vorlage zu starten",
+      "Posts für die Woche zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Folk",
+    "originalUrl": "https://www.folk.app/",
+    "domain": "folk.app",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Folk hält Kontakte in einem leichten CRM und an Pipelines.",
+    "longDescriptionDe": "Folk legt Personen an und zeigt den Stand einer Beziehung. Es gibt einen Einstieg und bezahlte Plätze.",
+    "featuresDe": [
+      "Leichtes CRM",
+      "Pipelines",
+      "Einstieg und bezahlte Plätze"
+    ],
+    "useCasesDe": [
+      "Kontakte ohne ein großes CRM zu führen",
+      "Den Stand einer Anfrage zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Close",
+    "originalUrl": "https://www.close.com/",
+    "domain": "close.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Close führt Vertrieb mit Anrufen, Mails und einer Pipeline.",
+    "longDescriptionDe": "Close legt Leads an und protokolliert Gespräche. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Pipeline",
+      "Anrufe und Mails",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Lead mit dem letzten Gespräch zu sehen",
+      "Eine Mail aus dem CRM zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Resend",
+    "originalUrl": "https://resend.com/",
+    "domain": "resend.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Resend verschickt transaktionale E-Mails über eine Schnittstelle.",
+    "longDescriptionDe": "Resend nimmt eine Vorlage und sendet sie an eine Adresse. Es gibt einen kostenlosen Einstieg und bezahlte Mengen.",
+    "featuresDe": [
+      "Transaktionale E-Mails",
+      "Vorlagen",
+      "Kostenloser Einstieg und bezahlte Mengen"
+    ],
+    "useCasesDe": [
+      "Eine Bestätigungsmail zu senden",
+      "Eine Vorlage im Code zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Loops",
+    "originalUrl": "https://www.loops.so/",
+    "domain": "loops.so",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Loops verschickt Produktmails und Sequenzen an Nutzerinnen und Nutzer.",
+    "longDescriptionDe": "Loops legt eine Sequenz an und sendet sie nach einem Ereignis. Es gibt einen kostenlosen Einstieg und bezahlte Kontakte.",
+    "featuresDe": [
+      "Produktmails",
+      "Sequenzen nach Ereignis",
+      "Kostenloser Einstieg und bezahlte Kontakte"
+    ],
+    "useCasesDe": [
+      "Eine Willkommensserie zu starten",
+      "Eine Mail nach einer Anmeldung zu senden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OneSignal",
+    "originalUrl": "https://onesignal.com/",
+    "domain": "onesignal.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "OneSignal verschickt Push-Nachrichten und E-Mails an App-Nutzer.",
+    "longDescriptionDe": "OneSignal spricht Geräte und Adressen an. Es gibt einen kostenlosen Einstieg und bezahlte Mengen.",
+    "featuresDe": [
+      "Push und E-Mail",
+      "Ansprache von Geräten",
+      "Kostenloser Einstieg und bezahlte Mengen"
+    ],
+    "useCasesDe": [
+      "Eine Push-Nachricht an eine App zu senden",
+      "Eine Zielgruppe zu wählen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Postmark",
+    "originalUrl": "https://postmarkapp.com/",
+    "domain": "postmarkapp.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Postmark stellt transaktionale E-Mails zu und trennt sie vom Newsletter.",
+    "longDescriptionDe": "Postmark sendet über eine Schnittstelle und zeigt die Zustellung. Es gibt einen Einstieg und bezahlte Mengen.",
+    "featuresDe": [
+      "Transaktionale E-Mails",
+      "Zustellbericht",
+      "Einstieg und bezahlte Mengen"
+    ],
+    "useCasesDe": [
+      "Eine Passwortmail zuzustellen",
+      "Zu sehen, ob eine Mail angekommen ist"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SendGrid",
+    "originalUrl": "https://www.sendgrid.com/",
+    "domain": "sendgrid.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "SendGrid verschickt transaktionale Mails und Kampagnen über eine API.",
+    "longDescriptionDe": "SendGrid nimmt Vorlagen und Adressen entgegen. Es gibt einen kostenlosen Einstieg und bezahlte Mengen.",
+    "featuresDe": [
+      "API für E-Mails",
+      "Vorlagen",
+      "Kostenloser Einstieg und bezahlte Mengen"
+    ],
+    "useCasesDe": [
+      "Eine Mail aus einer Anwendung zu senden",
+      "Eine Vorlage wiederzuverwenden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hotjar",
+    "originalUrl": "https://www.hotjar.com/",
+    "domain": "hotjar.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Hotjar zeigt, wo Leute auf einer Seite klicken, und sammelt Umfragen.",
+    "longDescriptionDe": "Hotjar zeichnet Sitzungen auf und legt Heatmaps an. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Heatmaps",
+      "Sitzungsaufzeichnungen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Zu sehen, wo eine Seite nicht geklickt wird",
+      "Eine kurze Umfrage einzublenden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FullStory",
+    "originalUrl": "https://www.fullstory.com/",
+    "domain": "fullstory.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "FullStory zeichnet Sitzungen auf und macht Fehler in der Oberfläche suchbar.",
+    "longDescriptionDe": "FullStory spielt eine Sitzung nach und filtert nach Ereignissen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Sitzungsaufzeichnung",
+      "Suche nach Ereignissen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Fehler im Ablauf nachzusehen",
+      "Sitzungen mit einem bestimmten Klick zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LogRocket",
+    "originalUrl": "https://logrocket.com/",
+    "domain": "logrocket.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "LogRocket zeichnet Sitzungen auf und zeigt Fehler im Frontend.",
+    "longDescriptionDe": "LogRocket verbindet eine Session mit der Konsole und dem Netzwerk. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Sitzung und Konsole",
+      "Netzwerk zur Session",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Frontend-Fehler mit der Sitzung zu sehen",
+      "Zu prüfen, welcher Request fehlschlug"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Paddle",
+    "originalUrl": "https://www.paddle.com/",
+    "domain": "paddle.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Paddle verkauft Software-Abos und übernimmt die Zahlung und die Steuer.",
+    "longDescriptionDe": "Paddle legt Preise an und checkt Käufer aus. Die Nutzung ist an Verkäufe gebunden und damit kostenpflichtig.",
+    "featuresDe": [
+      "Abos für Software",
+      "Zahlung und Steuer",
+      "Nutzung an Verkäufe gebunden"
+    ],
+    "useCasesDe": [
+      "Ein Abo für eine Software zu verkaufen",
+      "Die Steuer beim Checkout abzugeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lemon Squeezy",
+    "originalUrl": "https://www.lemonsqueezy.com/",
+    "domain": "lemonsqueezy.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Lemon Squeezy verkauft digitale Produkte und Abos und erstellt die Rechnung.",
+    "longDescriptionDe": "Lemon Squeezy legt ein Produkt an und übernimmt die Zahlung. Es gibt einen Einstieg und Gebühren je Verkauf.",
+    "featuresDe": [
+      "Digitale Produkte und Abos",
+      "Rechnung",
+      "Gebühren je Verkauf"
+    ],
+    "useCasesDe": [
+      "Ein digitales Produkt zu verkaufen",
+      "Ein Abo mit Rechnung anzubieten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SavvyCal",
+    "originalUrl": "https://savvycal.com/",
+    "domain": "savvycal.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "SavvyCal legt Termine und zeigt dabei den eigenen Kalender überlagert.",
+    "longDescriptionDe": "SavvyCal teilt einen Link und blendet belegte Zeiten ein. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Terminlink",
+      "Überlagerter Kalender",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Termin zu vergeben, ohne hin und her zu schreiben",
+      "Belegte Zeiten sichtbar zu machen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TidyCal",
+    "originalUrl": "https://tidycal.com/",
+    "domain": "tidycal.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "TidyCal vergibt Termine über einen Link mit einer einmaligen Zahlung oder kostenlos.",
+    "longDescriptionDe": "TidyCal zeigt freie Slots und schreibt den Termin in den Kalender. Es gibt einen kostenlosen Einstieg und eine bezahlte Stufe.",
+    "featuresDe": [
+      "Terminlink",
+      "Freie Slots",
+      "Kostenloser Einstieg und eine bezahlte Stufe"
+    ],
+    "useCasesDe": [
+      "Einen Buchungslink zu teilen",
+      "Termine in den Kalender schreiben zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zcal",
+    "originalUrl": "https://zcal.co/",
+    "domain": "zcal.co",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Zcal teilt einen Buchungslink und schreibt den Termin in den Kalender.",
+    "longDescriptionDe": "Zcal zeigt freie Zeiten und bestätigt die Buchung. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Buchungslink",
+      "Bestätigung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Termin ohne Mailwechsel zu finden",
+      "Eine Buchung bestätigen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Dorik",
+    "originalUrl": "https://dorik.com/",
+    "domain": "dorik.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Dorik baut Websites aus Blöcken im Browser.",
+    "longDescriptionDe": "Dorik setzt Seiten und veröffentlicht sie. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Websites aus Blöcken",
+      "Veröffentlichen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine einfache Seite zu bauen",
+      "Einen Block zu verschieben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Super",
+    "originalUrl": "https://super.so/",
+    "domain": "super.so",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Super veröffentlicht eine Notion-Seite als eigene Website.",
+    "longDescriptionDe": "Super nimmt eine Notion-Seite und legt eine Domain darüber. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Notion-Seite als Website",
+      "Eigene Domain",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Dokumentationsseite zu veröffentlichen",
+      "Eine Domain auf Notion zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Typedream",
+    "originalUrl": "https://typedream.com/",
+    "domain": "typedream.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Typedream baut eine Website, indem man den Text direkt auf die Seite schreibt.",
+    "longDescriptionDe": "Typedream mischt Schreiben und Layout. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Schreiben direkt auf der Seite",
+      "Layout",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Landingpage im Textfluss zu bauen",
+      "Eine Seite zu veröffentlichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Unicorn Platform",
+    "originalUrl": "https://unicornplatform.com/",
+    "domain": "unicornplatform.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Unicorn Platform setzt Landingpages aus fertigen Blöcken.",
+    "longDescriptionDe": "Unicorn Platform veröffentlicht eine Seite ohne eigenes Frontend. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Landingpages aus Blöcken",
+      "Veröffentlichen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Produktseite schnell zu setzen",
+      "Einen Block auszutauschen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Drift",
+    "originalUrl": "https://www.drift.com/",
+    "domain": "drift.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Drift legt einen Chat auf die Website und qualifiziert Anfragen.",
+    "longDescriptionDe": "Drift spricht Besucher an und übergibt ein Gespräch. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Chat auf der Website",
+      "Qualifizierte Anfragen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Besucher auf einer Seite anzusprechen",
+      "Ein Gespräch an den Vertrieb zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LiveChat",
+    "originalUrl": "https://www.livechat.com/",
+    "domain": "livechat.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "LiveChat legt ein Chat-Fenster auf die Website und sammelt die Gespräche.",
+    "longDescriptionDe": "LiveChat verbindet Besucher mit einem Menschen im Team. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Chat-Fenster",
+      "Gespräche im Team",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Frage auf der Website live zu beantworten",
+      "Ein Gespräch später nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Klaviyo",
+    "originalUrl": "https://www.klaviyo.com/",
+    "domain": "klaviyo.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Klaviyo verschickt E-Mails und SMS an Käufer eines Shops.",
+    "longDescriptionDe": "Klaviyo segmentiert nach dem, was jemand gekauft hat. Es gibt einen kostenlosen Einstieg und bezahlte Kontakte.",
+    "featuresDe": [
+      "E-Mail und SMS",
+      "Segmente nach Käufen",
+      "Kostenloser Einstieg und bezahlte Kontakte"
+    ],
+    "useCasesDe": [
+      "Eine Mail nach einem Kauf zu senden",
+      "Ein Segment der Käufer zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Customer.io",
+    "originalUrl": "https://www.customer.io/",
+    "domain": "customer.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Customer.io sendet Nachrichten, wenn jemand etwas in der App tut.",
+    "longDescriptionDe": "Customer.io startet eine Mail oder Push nach einem Ereignis. Es gibt einen Einstieg und bezahlte Profile.",
+    "featuresDe": [
+      "Nachrichten nach Ereignis",
+      "Mail und Push",
+      "Einstieg und bezahlte Profile"
+    ],
+    "useCasesDe": [
+      "Eine Mail nach einer Anmeldung zu senden",
+      "Eine Nachricht an ein Segment zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ActiveCampaign",
+    "originalUrl": "https://www.activecampaign.com/",
+    "domain": "activecampaign.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "ActiveCampaign verbindet E-Mail-Automation mit einem kleinen CRM.",
+    "longDescriptionDe": "ActiveCampaign startet Strecken nach einem Verhalten. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "E-Mail-Automation",
+      "Kleines CRM",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Strecke nach einem Klick zu starten",
+      "Kontakte in einer Pipeline zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GetResponse",
+    "originalUrl": "https://www.getresponse.com/",
+    "domain": "getresponse.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "GetResponse verschickt Newsletter und baut dazu einfache Seiten.",
+    "longDescriptionDe": "GetResponse legt eine Liste, eine Ausgabe und eine Landingpage an. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Newsletter",
+      "Landingpages",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Newsletter zu starten",
+      "Eine Anmeldeseite dazuzusetzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Omnisend",
+    "originalUrl": "https://www.omnisend.com/",
+    "domain": "omnisend.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Omnisend sendet E-Mails und SMS an Shop-Kunden nach ihrem Verhalten.",
+    "longDescriptionDe": "Omnisend startet Nachrichten nach einem Warenkorb oder einem Kauf. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "E-Mail und SMS",
+      "Nachrichten nach Verhalten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Mail zu einem offenen Warenkorb zu senden",
+      "Käufer nach einem Kauf anzuschreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Woodpecker",
+    "originalUrl": "https://www.woodpecker.co/",
+    "domain": "woodpecker.co",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Woodpecker verschickt kalte E-Mail-Sequenzen und stoppt bei einer Antwort.",
+    "longDescriptionDe": "Woodpecker legt Schritte an und protokolliert Öffnungen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Kalte Sequenzen",
+      "Stopp bei Antwort",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Folge von Mails zu planen",
+      "Zu sehen, wer geantwortet hat"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Productboard",
+    "originalUrl": "https://www.productboard.com/",
+    "domain": "productboard.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Productboard sammelt Kundenfeedback und ordnet es Ideen zu.",
+    "longDescriptionDe": "Productboard zeigt, welche Anfrage zu welchem Feature gehört. Es gibt einen Einstieg und bezahlte Plätze.",
+    "featuresDe": [
+      "Feedback zu Ideen",
+      "Prioritäten",
+      "Einstieg und bezahlte Plätze"
+    ],
+    "useCasesDe": [
+      "Kundenstimmen einem Feature zuzuordnen",
+      "Eine Roadmap aus Feedback zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Aha",
+    "originalUrl": "https://www.aha.io/",
+    "domain": "aha.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Aha plant eine Produkt-Roadmap mit Zielen und Features.",
+    "longDescriptionDe": "Aha legt Ziele, Ideen und einen Zeitplan an. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Roadmap",
+      "Ziele und Features",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Roadmap zu zeichnen",
+      "Ein Feature einem Ziel zuzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OneNote",
+    "originalUrl": "https://www.onenote.com/",
+    "domain": "onenote.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "OneNote legt Notizen in Abschnitten und durchsucht sie.",
+    "longDescriptionDe": "OneNote mischt Text, Bilder und Zeichnungen. Es gibt einen kostenlosen Einstieg über ein Microsoft-Konto und bezahlte Funktionen in Microsoft 365.",
+    "featuresDe": [
+      "Notizen in Abschnitten",
+      "Text, Bilder, Zeichnungen",
+      "Kostenloser Einstieg und Funktionen in Microsoft 365"
+    ],
+    "useCasesDe": [
+      "Eine Vorlesung mitzuschreiben",
+      "Ein Notizbuch zu durchsuchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
