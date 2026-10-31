@@ -13,6 +13,7 @@
     "db:setup": "tsx db/setup.ts",
     "import:futuretools": "tsx scripts/import-futuretools-top100.ts",
     "import:verified": "tsx scripts/import-verified-directory.ts",
+    "logos:fetch": "tsx scripts/fetch-logos.ts",
     "verify:batch2": "python3 scripts/batch2_catalog.py && python3 scripts/verify-batch2.py",
     "test": "vitest run"
   },
@@ -33,6 +34,7 @@
     "next": "^14.2.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "sharp": "^0.35.5",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.23.8"
