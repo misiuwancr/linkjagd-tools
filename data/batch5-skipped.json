@@ -1,0 +1,10 @@
+[
+  {
+    "name": "AnyDesk",
+    "reason": "anydesk.com antwortete mit HTTP 403."
+  },
+  {
+    "name": "Open Food Facts deutsch",
+    "reason": "de.openfoodfacts.org ist bereits im Verzeichnis."
+  }
+]
