@@ -1,16 +1,55 @@
 "use server";
 
 import { redirect } from "next/navigation";
-import { categories, tools } from "@/db/schema";
+import { categories, newsletterSubscribers, tools } from "@/db/schema";
 import { getDb } from "@/db/client";
 import { eq } from "drizzle-orm";
 import { submissionSchema } from "@/lib/validation/tool";
 import { domainFromUrl, slugify } from "@/lib/utils";
 import { findByDomainOrSlug, refreshSearchText, replaceCategories } from "@/lib/tools/repository";
+import { siteConfig } from "@/site.config";
+import {
+  confirmTokenHash,
+  isNewsletterEmail,
+  mailConfig,
+  newConfirmToken,
+  normalizeNewsletterEmail,
+  sendConfirmationMail,
+} from "@/lib/newsletter";
 
-export async function newsletterIntent(formData: FormData) {
-  if (String(formData.get("firma") || "").trim()) redirect("/?hinweis=newsletter#newsletter");
-  redirect("/?hinweis=newsletter#newsletter");
+export async function subscribeNewsletter(formData: FormData) {
+  const back = String(formData.get("zurueck") || "/");
+  const target = back.startsWith("/") && !back.startsWith("//") ? back : "/";
+  if (String(formData.get("firma") || "").trim()) redirect(`${target}?hinweis=bot#anmeldung`);
+  if (formData.get("datenschutz") !== "ja") redirect(`${target}?hinweis=datenschutz#anmeldung`);
+  const email = normalizeNewsletterEmail(String(formData.get("email") || ""));
+  if (!isNewsletterEmail(email)) redirect(`${target}?hinweis=email#anmeldung`);
+  const database = await getDb();
+  const existing = await database.select().from(newsletterSubscribers).where(eq(newsletterSubscribers.email, email)).limit(1);
+  if (existing[0]?.status === "confirmed") redirect(`${target}?hinweis=bereits#anmeldung`);
+  const token = newConfirmToken();
+  const tokenHash = confirmTokenHash(token);
+  const now = new Date();
+  if (existing[0]) {
+    await database
+      .update(newsletterSubscribers)
+      .set({ confirmToken: tokenHash, status: "pending", createdAt: now, confirmedAt: null })
+      .where(eq(newsletterSubscribers.id, existing[0].id));
+  } else {
+    await database.insert(newsletterSubscribers).values({
+      id: crypto.randomUUID(),
+      email,
+      status: "pending",
+      confirmToken: tokenHash,
+      createdAt: now,
+      confirmedAt: null,
+    });
+  }
+  const link = `${siteConfig.url.replace(/\/$/, "")}/newsletter/bestaetigen?token=${token}`;
+  const config = mailConfig();
+  if (config.provider === "none") redirect(`${target}?hinweis=gespeichert#anmeldung`);
+  const sent = await sendConfirmationMail({ to: email, link, config });
+  redirect(`${target}?hinweis=${sent.sent ? "mail" : "gespeichert"}#anmeldung`);
 }
 
 export async function submitTool(formData: FormData) {

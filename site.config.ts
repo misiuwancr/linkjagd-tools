@@ -91,7 +91,9 @@ export const siteConfig = {
         {
           heading: "Newsletter",
           body: [
-            "Das Newsletter-Formular verschickt nichts und speichert keine E-Mail-Adresse, solange kein Anbieter in der Umgebung konfiguriert ist.",
+            "Wenn du eine Adresse einträgst und die Einwilligung bestätigst, speichert Linkjagd Tools E-Mail, Zeitpunkt und einen Bestätigungswert. Der Status bleibt offen, bis der Link in der Mail aufgerufen wird.",
+            "Ohne konfigurierten Versanddienst wird keine Mail verschickt. Die Adresse bleibt dann unbestätigt liegen.",
+            "Ein bestätigter Eintrag kann in der Redaktion als CSV ausgegeben werden. Der Bestätigungswert selbst steht nicht in dieser Datei.",
           ],
         },
         {

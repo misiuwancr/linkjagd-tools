@@ -193,10 +193,29 @@ export const newsPosts = sqliteTable("news_posts", {
   excerpt: text("excerpt").notNull(),
   body: text("body").notNull().default(""),
   sourceName: text("source_name"),
+  coverImageUrl: text("cover_image_url"),
+  seoTitle: text("seo_title"),
+  seoDescription: text("seo_description"),
   status: text("status", { enum: newsStatuses }).notNull().default("draft"),
   publishedAt: integer("published_at", { mode: "timestamp" }),
   createdAt: timestamp("created_at"),
   updatedAt: timestamp("updated_at"),
+});
+
+export const newsletterStatuses = ["pending", "confirmed"] as const;
+
+export const newsletterSubscribers = sqliteTable("newsletter_subscribers", {
+  id: text("id").primaryKey(),
+  email: text("email").notNull().unique(),
+  status: text("status", { enum: newsletterStatuses }).notNull().default("pending"),
+  confirmToken: text("confirm_token").notNull().unique(),
+  createdAt: timestamp("created_at"),
+  confirmedAt: integer("confirmed_at", { mode: "timestamp" }),
+});
+
+export const siteSettings = sqliteTable("site_settings", {
+  key: text("key").primaryKey(),
+  value: text("value").notNull().default(""),
 });
 
 export const usersRelations = relations(users, () => ({}));

@@ -1,5 +1,5 @@
 import { eq } from "drizzle-orm";
-import { categories, tools, users } from "@/db/schema";
+import { categories, newsPosts, tools, users } from "@/db/schema";
 import { getDb, type AppDatabase } from "@/db/client";
 import { bootstrapAdminDecision } from "@/db/resolve";
 import { hashPassword } from "@/lib/auth/password";
@@ -285,6 +285,21 @@ async function seed() {
     await refreshSearchText(database, id);
   }
 
+  const existingNews = await database.select({ id: newsPosts.id }).from(newsPosts).limit(1);
+  if (!existingNews[0]) {
+    const now = new Date();
+    await database.insert(newsPosts).values({
+      id: crypto.randomUUID(),
+      title: "Woran ein Beitrag erkannt wird",
+      slug: "woran-ein-beitrag-erkannt-wird",
+      excerpt: "Ein Entwurf, der erklärt, wann ein Text auf dem Blog öffentlich wird.",
+      body: "Dieser Text ist ein Entwurf.\n\nEr wird nicht ausgeliefert, solange der Status Entwurf bleibt.\n\n- Die Redaktion schreibt selbst.\n- Nichts davon ist eine Meldung einer Nachrichtenagentur.",
+      status: "draft",
+      publishedAt: null,
+      createdAt: now,
+      updatedAt: now,
+    });
+  }
   await ensureAdmin(database);
   console.log("Seed geprüft.");
 }

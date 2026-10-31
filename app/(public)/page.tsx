@@ -4,9 +4,9 @@ import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
 import { JsonLd } from "@/components/json-ld";
 import { CategoryIcon } from "@/components/category-icon";
-import { Newsletter } from "@/components/newsletter";
+import { NewsletterForm } from "@/components/newsletter-form";
 import { ToolCard } from "@/components/tool-card";
-import { listCategories, listTools, listWeeklyPopular } from "@/lib/tools/repository";
+import { listCategories, listTools, listWeeklyPopular, socialProofText } from "@/lib/tools/repository";
 import { toPublicTool } from "@/lib/tools/public";
 import { publicListQuery } from "@/lib/tools/query";
 import { utcDay } from "@/lib/utils";
@@ -36,12 +36,13 @@ export default async function HomePage({
   const base = publicListQuery({});
   const since = new Date();
   since.setUTCDate(since.getUTCDate() - 6);
-  const [featured, newest, fromVideos, categories, popular] = await Promise.all([
+  const [featured, newest, fromVideos, categories, popular, proof] = await Promise.all([
     listTools(database, { ...base, featuredOnly: true, sort: "featured", pageSize: 6 }),
     listTools(database, { ...base, sort: "newest", pageSize: 6 }),
     listTools(database, { ...base, fromVideo: true, sort: "newest", pageSize: 6 }),
     listCategories(database),
     listWeeklyPopular(database, utcDay(since), 6),
+    socialProofText(database),
   ]);
   const siteHost = host();
   const featuredTools = featured.items.map((tool) => toPublicTool(tool, siteHost));
@@ -67,12 +68,18 @@ export default async function HomePage({
       />
       <section className="relative overflow-hidden border-b border-border">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(520px_220px_at_18%_0%,rgba(198,245,49,0.18),transparent_70%)]" />
-        <div className="page-wrap relative py-14 sm:py-20">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-hunt">Verzeichnis</p>
-          <h1 className="mt-4 max-w-3xl text-4xl font-bold tracking-tight text-foreground sm:text-6xl sm:leading-[1.02]">
-            {siteConfig.tagline}
+        <div className="page-wrap relative py-16 sm:py-24">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-hunt">Kuratiert von Linkjagd</p>
+          <h1 className="mt-4 max-w-4xl text-5xl font-bold tracking-tight text-foreground sm:text-7xl sm:leading-[0.95]">
+            Die besten Tools. <span className="text-hunt">Alle</span> an einem Ort.
           </h1>
-          <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">{siteConfig.description}</p>
+          <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">
+            Bekannt aus TikTok {siteConfig.creator.channel}. Werkzeuge für Alltag, Arbeit und Projekte, auf Deutsch erklärt.
+          </p>
+          <div id="anmeldung" className="mt-8 scroll-mt-24">
+            <NewsletterForm notice={searchParams.hinweis} returnTo="/" />
+          </div>
+          {proof ? <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{proof}</p> : null}
           <form action="/tools" method="get" className="mt-8 flex max-w-2xl flex-col gap-2 sm:flex-row" role="search">
             <label htmlFor="start-suche" className="sr-only">
               Tools durchsuchen
@@ -156,7 +163,17 @@ export default async function HomePage({
         </div>
       </section>
 
-      <Newsletter notice={searchParams.hinweis === "newsletter"} />
+      <section className="border-t border-border bg-card">
+        <div className="page-wrap py-14">
+          <h2 className="text-3xl font-bold tracking-tight">Hinweise per Mail</h2>
+          <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground">
+            Nur nach Bestätigung. Ohne Versanddienst bleibt die Adresse unbestätigt liegen, es geht keine Mail raus.
+          </p>
+          <div className="mt-6">
+            <NewsletterForm notice={searchParams.hinweis} returnTo="/" />
+          </div>
+        </div>
+      </section>
     </>
   );
 }

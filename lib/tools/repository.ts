@@ -4,6 +4,8 @@ import {
   categories,
   clickDaily,
   newsPosts,
+  newsletterSubscribers,
+  siteSettings,
   tags,
   toolCategories,
   tools,
@@ -444,4 +446,50 @@ export async function dashboardCounts(database: AppDatabase) {
     moderation: Number(moderationRow[0]?.total ?? 0),
     publishedWithoutCta: Number(withoutCta[0]?.total ?? 0),
   };
+}
+
+export async function listTopTools(database: AppDatabase, limit = 20) {
+  const rows = await database
+    .select()
+    .from(tools)
+    .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false)))
+    .orderBy(
+      sql`case when ${tools.editorialRank} is null then 1 else 0 end`,
+      asc(tools.editorialRank),
+      desc(tools.featured),
+      desc(tools.createdAt),
+    )
+    .limit(limit);
+  return attachRelations(database, rows);
+}
+
+export async function getNewsBySlug(database: AppDatabase, slug: string) {
+  const rows = await database.select().from(newsPosts).where(eq(newsPosts.slug, slug)).limit(1);
+  return rows[0] ?? null;
+}
+
+export async function listAllNews(database: AppDatabase) {
+  return database.select().from(newsPosts).orderBy(desc(newsPosts.updatedAt));
+}
+
+export async function getSetting(database: AppDatabase, key: string) {
+  const rows = await database.select().from(siteSettings).where(eq(siteSettings.key, key)).limit(1);
+  return rows[0]?.value ?? "";
+}
+
+export async function setSetting(database: AppDatabase, key: string, value: string) {
+  await database
+    .insert(siteSettings)
+    .values({ key, value })
+    .onConflictDoUpdate({ target: siteSettings.key, set: { value } });
+}
+
+export async function socialProofText(database: AppDatabase) {
+  const stored = (await getSetting(database, "social_proof")).trim();
+  if (stored) return stored;
+  return (process.env.NEXT_PUBLIC_SOCIAL_PROOF || "").trim();
+}
+
+export async function listSubscribers(database: AppDatabase) {
+  return database.select().from(newsletterSubscribers).orderBy(desc(newsletterSubscribers.createdAt));
 }

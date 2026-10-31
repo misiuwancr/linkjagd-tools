@@ -9,6 +9,9 @@ const links = [
   { href: "/admin/moderation", label: "Moderation" },
   { href: "/admin/kategorien", label: "Kategorien" },
   { href: "/admin/klicks", label: "Klicks" },
+  { href: "/admin/blog", label: "Blog" },
+  { href: "/admin/newsletter", label: "Newsletter" },
+  { href: "/admin/einstellungen", label: "Einstellungen" },
 ];
 
 export function AdminShell({

@@ -8,12 +8,15 @@ export const DATA_TABLES = [
   "affiliate_programs",
   "click_daily",
   "news_posts",
+  "newsletter_subscribers",
+  "site_settings",
 ] as const;
 
 export type DataTable = (typeof DATA_TABLES)[number];
 
 const SECRET_COLUMNS: Record<string, string[]> = {
   users: ["password_hash"],
+  newsletter_subscribers: ["confirm_token"],
 };
 
 export function publicExportRow(table: string, row: Record<string, unknown>) {

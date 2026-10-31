@@ -97,10 +97,15 @@ export const categoryInputSchema = z.object({
 });
 
 export const newsInputSchema = z.object({
+  id: z.string().trim().optional().default(""),
   title: z.string().trim().min(4).max(160),
+  slug: z.string().trim().max(80).optional().default(""),
   excerpt: z.string().trim().min(10).max(300),
-  body: z.string().trim().max(20000).default(""),
+  body: z.string().trim().max(50000).default(""),
   sourceName: z.string().trim().max(120).optional().default(""),
+  coverImageUrl: z.string().trim().max(500).optional().default(""),
+  seoTitle: z.string().trim().max(70).optional().default(""),
+  seoDescription: z.string().trim().max(180).optional().default(""),
   status: z.enum(["draft", "published"]),
 });
 

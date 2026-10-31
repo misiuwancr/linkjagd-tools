@@ -233,22 +233,33 @@ export async function saveNewsRecord(database: AppDatabase, raw: unknown) {
   if (!parsed.success) {
     return { ok: false as const, error: parsed.error.issues[0]?.message ?? "Die Meldung ist ungültig." };
   }
-  const slug = slugify(parsed.data.title);
+  const slug = slugify(parsed.data.slug || parsed.data.title);
   if (!slug) return { ok: false as const, error: "Aus dem Titel lässt sich kein Kurzname bilden." };
+  const cover = parsed.data.coverImageUrl;
+  if (cover && !/^https?:\/\//.test(cover)) {
+    return { ok: false as const, error: "Das Cover braucht eine http- oder https-Adresse." };
+  }
   const now = new Date();
-  await database.insert(newsPosts).values({
-    id: crypto.randomUUID(),
+  const values = {
     title: parsed.data.title,
     slug,
     excerpt: parsed.data.excerpt,
     body: parsed.data.body,
     sourceName: parsed.data.sourceName || null,
+    coverImageUrl: cover || null,
+    seoTitle: parsed.data.seoTitle || null,
+    seoDescription: parsed.data.seoDescription || null,
     status: parsed.data.status,
     publishedAt: parsed.data.status === "published" ? now : null,
-    createdAt: now,
     updatedAt: now,
-  });
-  return { ok: true as const };
+  };
+  if (parsed.data.id) {
+    await database.update(newsPosts).set(values).where(eq(newsPosts.id, parsed.data.id));
+    return { ok: true as const, id: parsed.data.id };
+  }
+  const id = crypto.randomUUID();
+  await database.insert(newsPosts).values({ ...values, id, createdAt: now });
+  return { ok: true as const, id };
 }
 
 export async function createEditor(database: AppDatabase, email: string, password: string) {

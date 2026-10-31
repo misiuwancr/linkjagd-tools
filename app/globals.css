@@ -35,6 +35,22 @@
     scroll-behavior: smooth;
   }
 
+  html.light {
+    color-scheme: light;
+    --background: 90 20% 97%;
+    --foreground: 140 18% 8%;
+    --card: 0 0% 100%;
+    --card-foreground: 140 18% 8%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 140 18% 8%;
+    --secondary: 90 14% 92%;
+    --secondary-foreground: 140 18% 8%;
+    --muted: 90 14% 92%;
+    --muted-foreground: 140 8% 32%;
+    --border: 140 10% 82%;
+    --input: 140 10% 82%;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "ss01" on, "cv11" on;
