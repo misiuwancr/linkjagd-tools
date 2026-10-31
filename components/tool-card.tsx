@@ -24,7 +24,17 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
         </div>
       </div>
       <p className="mt-3 line-clamp-3 flex-1 text-sm leading-6 text-muted-foreground">{tool.shortDescriptionDe}</p>
-      <div className="mt-4 flex flex-wrap gap-1.5">
+      <div className="mt-4 flex items-center justify-between gap-2">
+        <a
+          href={`/go/${tool.slug}`}
+          rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
+          className="inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-semibold text-primary-foreground"
+        >
+          Testen
+          {tool.ctaKind === "affiliate" ? <span className="ml-2 text-[10px] uppercase tracking-wide">Anzeige</span> : null}
+        </a>
+      </div>
+      <div className="mt-3 flex flex-wrap gap-1.5">
         {tool.categories.slice(0, 2).map((category) => (
           <CategoryBadge key={category.slug} name={category.name} slug={category.slug} />
         ))}

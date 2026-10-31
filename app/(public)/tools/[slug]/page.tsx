@@ -6,6 +6,7 @@ import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
 import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge, VideoBadge } from "@/components/badges";
 import { VideoGate } from "@/components/video-gate";
+import { BookmarkButton } from "@/components/bookmark-button";
 import { licenseLabel, pricingLabel } from "@/lib/labels";
 import { JsonLd } from "@/components/json-ld";
 import { ToolCard } from "@/components/tool-card";
@@ -62,7 +63,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
   ];
 
   return (
-    <div className="page-wrap py-8 sm:py-12">
+    <div className="page-wrap py-8 pb-28 sm:py-12 sm:pb-12">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -125,6 +126,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             {tool.categories.map((category) => (
               <CategoryBadge key={category.slug} name={category.name} slug={category.slug} />
             ))}
+            <BookmarkButton slug={tool.slug} />
           </div>
           {tool.isExample ? (
             <p className="note mt-4 max-w-2xl">
@@ -310,6 +312,19 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           </section>
         </div>
         <div className="hidden lg:block" />
+      </div>
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-card/95 p-3 backdrop-blur sm:hidden">
+        {tool.ctaKind === "disabled" ? (
+          <p className="text-center text-sm text-muted-foreground">Keine Zieladresse hinterlegt.</p>
+        ) : (
+          <a
+            href={`/go/${tool.slug}`}
+            rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
+            className="flex h-12 items-center justify-center rounded-xl bg-primary text-sm font-semibold text-primary-foreground"
+          >
+            {tool.ctaKind === "affiliate" ? "Testen · Anzeige" : "Zur offiziellen Website"}
+          </a>
+        )}
       </div>
     </div>
   );

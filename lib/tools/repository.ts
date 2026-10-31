@@ -224,6 +224,28 @@ export async function listAlternativePool(database: AppDatabase, tool: ToolWithR
   return attachRelations(database, rows);
 }
 
+export async function listClickStats(database: AppDatabase, since7: string, since30: string) {
+  const rows = await database
+    .select({
+      id: tools.id,
+      name: tools.name,
+      slug: tools.slug,
+      days7: sql<number>`coalesce(sum(case when ${clickDaily.day} >= ${since7} then ${clickDaily.count} else 0 end), 0)`,
+      days30: sql<number>`coalesce(sum(case when ${clickDaily.day} >= ${since30} then ${clickDaily.count} else 0 end), 0)`,
+      programPresence: sql<string>`coalesce(max(${affiliatePrograms.programPresence}), 'unknown')`,
+    })
+    .from(tools)
+    .leftJoin(clickDaily, eq(clickDaily.toolId, tools.id))
+    .leftJoin(affiliatePrograms, eq(affiliatePrograms.toolId, tools.id))
+    .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false)))
+    .groupBy(tools.id, tools.name, tools.slug);
+  return rows.map((row) => ({
+    ...row,
+    days7: Number(row.days7),
+    days30: Number(row.days30),
+  }));
+}
+
 export async function listCategories(database: AppDatabase) {
   const rows = await database.select().from(categories).orderBy(asc(categories.sortOrder), asc(categories.name));
   const counts = await database
