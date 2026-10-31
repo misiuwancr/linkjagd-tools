@@ -4,6 +4,7 @@ import { createClient } from "@libsql/client";
 import { drizzle, type LibSQLDatabase } from "drizzle-orm/libsql";
 import * as schema from "./schema";
 import { applyMigrations } from "./migrate";
+import { createRetryingFetch } from "./http";
 import { resolveAppDatabase } from "./resolve";
 
 export type AppDatabase = LibSQLDatabase<typeof schema>;
@@ -17,7 +18,11 @@ async function init(): Promise<AppDatabase> {
     const absolute = path.resolve(relative);
     fs.mkdirSync(path.dirname(absolute), { recursive: true });
   }
-  const client = createClient({ url: target.url, authToken: target.authToken });
+  const client = createClient({
+    url: target.url,
+    authToken: target.authToken,
+    ...(target.kind === "turso" ? { fetch: createRetryingFetch() } : {}),
+  });
   await client.execute("PRAGMA foreign_keys = ON");
   if (target.kind === "file") {
     await client.execute("PRAGMA journal_mode = WAL");
@@ -27,6 +32,11 @@ async function init(): Promise<AppDatabase> {
 }
 
 export function getDb() {
-  if (!ready) ready = init();
+  if (!ready) {
+    ready = init().catch((error) => {
+      ready = null;
+      throw error;
+    });
+  }
   return ready;
 }

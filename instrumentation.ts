@@ -1,10 +1,5 @@
 export async function register() {
-  if (process.env.NEXT_RUNTIME === "nodejs") {
-    const { getDb } = await import("./db/client");
-    const { ensureAdmin } = await import("./db/seed");
-    const database = await getDb();
-    await ensureAdmin(database);
-    const { ensureDirectoryTaxonomy } = await import("./lib/reclassify");
-    await ensureDirectoryTaxonomy();
-  }
+  // Bewusst ohne Datenbank. Admin-Bootstrap läuft beim Login.
+  // Die Kategorie-Umsortierung ist `npm run db:reclassify`, nicht Teil des Boots.
+  // Ein Timeout gegen Turso in diesem Hook bricht sonst den ganzen Server ab.
 }
