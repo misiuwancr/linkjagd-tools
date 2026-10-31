@@ -29,6 +29,10 @@ Partnerstatus:
 
 Voice.ai stand bei FutureTools hinter einem Xsolla-Link. Gespeichert ist `https://voice.ai/`.
 
+## Spätere Prüfung
+
+Die Erweiterung veröffentlicht geprüfte Tools auch ohne eigenen Partnerlink. `/go/[slug]` geht zum hinterlegten Affiliate-Link, wenn einer aktiv ist, sonst zur offiziellen Website ohne Zusatzparameter. GeoSpy, Maze und Godmode sowie tote Domains bleiben archiviert. Die kuratierte Liste liegt in `data/verified-tools.json`. Wiederholen mit `npm run import:verified`. Manuelle Admin-Speicherungen setzen `content_locked` und werden nicht überschrieben.
+
 ## Wiederholen
 
 ```bash

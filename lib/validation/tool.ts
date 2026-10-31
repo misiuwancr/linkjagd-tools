@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { affiliateStatuses, pricingModels, publishStatuses } from "@/db/schema";
+import { affiliateStatuses, licenseTypes, pricingModels, publishStatuses } from "@/db/schema";
 import { domainFromUrl } from "@/lib/utils";
 
 z.setErrorMap((issue, ctx) => {
@@ -37,6 +37,18 @@ export const toolInputSchema = z.object({
   longDescriptionDe: z.string().trim().max(20000).default(""),
   featuresDe: z.array(z.string().trim().min(1).max(180)).max(12),
   pricingModel: z.enum(pricingModels),
+  licenseType: z.enum(licenseTypes).default("unknown"),
+  useCasesDe: z.array(z.string().trim().min(1).max(180)).max(12).default([]),
+  beginnerFriendly: z.boolean().default(false),
+  ossProjectUrl: z.string().trim().max(500).default(""),
+  ossRepoUrl: z.string().trim().max(500).default(""),
+  ossLicense: z.string().trim().max(80).default(""),
+  ossOperatingSystems: z.array(z.string().trim().min(1).max(40)).max(8).default([]),
+  ossInstallNotes: z.string().trim().max(2000).default(""),
+  tiktokUrl: z.string().trim().max(500).default(""),
+  instagramReelUrl: z.string().trim().max(500).default(""),
+  youtubeShortUrl: z.string().trim().max(500).default(""),
+  editorRating: z.number().int().min(1).max(5).nullable().default(null),
   publishStatus: z.enum(publishStatuses),
   featured: z.boolean(),
   editorialRank: z.number().int().min(1).max(20).nullable(),

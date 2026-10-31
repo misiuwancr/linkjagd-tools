@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { PublicTool } from "@/lib/tools/public";
-import { CategoryBadge, ExampleBadge, PriceBadge, RecommendBadge } from "@/components/badges";
+import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge } from "@/components/badges";
 import { ToolLogo } from "@/components/tool-logo";
 
 export function ToolCard({ tool }: { tool: PublicTool }) {
@@ -28,6 +28,7 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
           <CategoryBadge key={category.slug} name={category.name} slug={category.slug} />
         ))}
         <PriceBadge value={tool.pricingModel} />
+        {tool.licenseType === "open_source" ? <LicenseBadge value="open_source" /> : null}
       </div>
     </article>
   );

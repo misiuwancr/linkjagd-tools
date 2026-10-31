@@ -1,10 +1,15 @@
-import type { AffiliateStatus, PricingModel, PublishStatus } from "@/db/schema";
+import type { AffiliateStatus, LicenseType, PricingModel, PublishStatus } from "@/db/schema";
 
 export const pricingOptions: { value: PricingModel; label: string; param: string }[] = [
   { value: "free", label: "Kostenlos", param: "kostenlos" },
   { value: "freemium", label: "Freemium", param: "freemium" },
   { value: "paid", label: "Kostenpflichtig", param: "kostenpflichtig" },
+];
+
+export const licenseOptions: { value: LicenseType; label: string; param: string }[] = [
   { value: "open_source", label: "Open Source", param: "open-source" },
+  { value: "proprietary", label: "Proprietär", param: "proprietaer" },
+  { value: "unknown", label: "Unbekannt", param: "unbekannt" },
 ];
 
 export const sortOptions = [
@@ -33,6 +38,20 @@ export const affiliateStatusOptions: { value: AffiliateStatus; label: string }[]
 
 export function pricingLabel(value: PricingModel) {
   return pricingOptions.find((item) => item.value === value)?.label ?? value;
+}
+
+export function licenseLabel(value: LicenseType) {
+  return licenseOptions.find((item) => item.value === value)?.label ?? value;
+}
+
+export function licenseFromParam(param: string | undefined): LicenseType | "" {
+  if (!param) return "";
+  return licenseOptions.find((item) => item.param === param)?.value ?? "";
+}
+
+export function licenseParam(value: LicenseType | "") {
+  if (!value) return "";
+  return licenseOptions.find((item) => item.value === value)?.param ?? "";
 }
 
 export function affiliateStatusLabel(value: AffiliateStatus) {

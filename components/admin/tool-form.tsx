@@ -2,8 +2,8 @@
 
 import { useFormState } from "react-dom";
 import { saveToolAction, type ActionState } from "@/lib/actions/admin";
-import { pricingOptions, publishLabels } from "@/lib/labels";
-import type { PricingModel, PublishStatus } from "@/db/schema";
+import { licenseOptions, pricingOptions, publishLabels } from "@/lib/labels";
+import type { LicenseType, PricingModel, PublishStatus } from "@/db/schema";
 
 const publishStatuses = ["draft", "published", "archived"] as const;
 
@@ -16,6 +16,18 @@ export type ToolFormInitial = {
   longDescriptionDe: string;
   featuresDe: string;
   pricingModel: PricingModel;
+  licenseType: LicenseType;
+  useCasesDe: string;
+  beginnerFriendly: boolean;
+  ossProjectUrl: string;
+  ossRepoUrl: string;
+  ossLicense: string;
+  ossOperatingSystems: string;
+  ossInstallNotes: string;
+  tiktokUrl: string;
+  instagramReelUrl: string;
+  youtubeShortUrl: string;
+  editorRating: string;
   publishStatus: PublishStatus;
   featured: boolean;
   editorialRank: string;
@@ -85,6 +97,16 @@ export function ToolForm({
           </select>
         </label>
         <label className="grid gap-1 text-sm font-medium">
+          Lizenztyp
+          <select name="licenseType" defaultValue={initial.licenseType} className="field">
+            {licenseOptions.map((item) => (
+              <option key={item.value} value={item.value}>
+                {item.label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="grid gap-1 text-sm font-medium">
           Status
           <select name="publishStatus" defaultValue={initial.publishStatus} className="field">
             {publishStatuses.map((status) => (
@@ -110,6 +132,54 @@ export function ToolForm({
           ))}
         </div>
       </fieldset>
+      <label className="grid gap-1 text-sm font-medium">
+        Anwendungsfälle, eine pro Zeile
+        <textarea name="useCasesDe" defaultValue={initial.useCasesDe} className="area" />
+      </label>
+      <div className="grid gap-4 sm:grid-cols-2">
+        <label className="grid gap-1 text-sm font-medium">
+          Projektwebsite, nur bei Open Source
+          <input name="ossProjectUrl" defaultValue={initial.ossProjectUrl} className="field" />
+        </label>
+        <label className="grid gap-1 text-sm font-medium">
+          Repository
+          <input name="ossRepoUrl" defaultValue={initial.ossRepoUrl} className="field" />
+        </label>
+        <label className="grid gap-1 text-sm font-medium">
+          Lizenzname, nur wenn bekannt
+          <input name="ossLicense" defaultValue={initial.ossLicense} className="field" placeholder="leer lassen, wenn unbekannt" />
+        </label>
+        <label className="grid gap-1 text-sm font-medium">
+          Betriebssysteme, durch Komma
+          <input name="ossOperatingSystems" defaultValue={initial.ossOperatingSystems} className="field" />
+        </label>
+      </div>
+      <label className="grid gap-1 text-sm font-medium">
+        Installationshinweis
+        <textarea name="ossInstallNotes" defaultValue={initial.ossInstallNotes} className="area" />
+      </label>
+      <div className="grid gap-4 sm:grid-cols-3">
+        <label className="grid gap-1 text-sm font-medium">
+          TikTok-Video
+          <input name="tiktokUrl" defaultValue={initial.tiktokUrl} className="field" />
+        </label>
+        <label className="grid gap-1 text-sm font-medium">
+          Instagram-Reel
+          <input name="instagramReelUrl" defaultValue={initial.instagramReelUrl} className="field" />
+        </label>
+        <label className="grid gap-1 text-sm font-medium">
+          YouTube-Short
+          <input name="youtubeShortUrl" defaultValue={initial.youtubeShortUrl} className="field" />
+        </label>
+      </div>
+      <label className="grid gap-1 text-sm font-medium">
+        Eigene Bewertung, 1 bis 5, nur wenn wirklich vergeben
+        <input name="editorRating" defaultValue={initial.editorRating} className="field" placeholder="leer" />
+      </label>
+      <label className="flex items-center gap-2 text-sm">
+        <input type="checkbox" name="beginnerFriendly" defaultChecked={initial.beginnerFriendly} />
+        Für Anfänger geeignet
+      </label>
       <label className="grid gap-1 text-sm font-medium">
         Tags, durch Komma getrennt
         <input name="tags" defaultValue={initial.tags} className="field" />

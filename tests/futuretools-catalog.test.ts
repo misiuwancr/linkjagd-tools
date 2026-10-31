@@ -57,8 +57,11 @@ describe("FutureTools-Top-100-Katalog", () => {
     if (!imported.ok) return;
     const tool = await getToolBySlug(database, imported.slug);
     expect(tool?.publishStatus).toBe("draft");
-    expect(tool?.discoverySource).toBe("futuretools-top100");
     expect(decideRedirect(tool, []).ok).toBe(false);
+    const published = { ...tool!, publishStatus: "published" as const };
+    const decision = decideRedirect(published, []);
+    expect(decision.ok).toBe(true);
+    if (decision.ok) expect(decision.kind).toBe("official");
     expect(tool?.originalUrl).toBe(entry.originalUrl);
     const again = await importDiscoveredTool(database, {
       name: `${entry.name} Kopie`,

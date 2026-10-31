@@ -10,6 +10,7 @@ export default async function ModerationPage() {
     q: "",
     categorySlug: "",
     pricing: "",
+    license: "",
     sort: "newest",
     page: 1,
     pageSize: 200,

@@ -17,7 +17,12 @@ export async function handleGoRedirect(
   slug: string,
   deps: {
     load: (slug: string) => Promise<GoLoadResult>;
-    track: (input: { toolId: string; programId: string; day: string }) => Promise<void>;
+    track: (input: {
+      toolId: string;
+      programId: string | null;
+      kind: "affiliate" | "official";
+      day: string;
+    }) => Promise<void>;
     siteHost?: string;
     now?: Date;
   },
@@ -32,6 +37,7 @@ export async function handleGoRedirect(
     await deps.track({
       toolId: decision.toolId,
       programId: decision.programId,
+      kind: decision.kind,
       day: utcDay(deps.now),
     });
   } catch {

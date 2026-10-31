@@ -1,7 +1,10 @@
 import type { AffiliateProgram, Tool } from "@/db/schema";
 
+export type RedirectKind = "affiliate" | "official";
+
 export type RedirectDecision =
-  | { ok: true; location: string; programId: string; toolId: string }
+  | { ok: true; location: string; toolId: string; kind: "affiliate"; programId: string }
+  | { ok: true; location: string; toolId: string; kind: "official"; programId: null }
   | { ok: false; reason: string };
 
 export type UrlCheck =
@@ -52,11 +55,7 @@ function isBlockedHost(hostname: string) {
   return false;
 }
 
-export function validateOutboundUrl(
-  raw: string | null | undefined,
-  originalUrl: string,
-  siteHost?: string,
-): UrlCheck {
+export function validateExternalUrl(raw: string | null | undefined, siteHost?: string): UrlCheck {
   if (!raw || !raw.trim()) return { ok: false, reason: "missing_url" };
   let url: URL;
   try {
@@ -69,12 +68,21 @@ export function validateOutboundUrl(
   }
   if (url.username || url.password) return { ok: false, reason: "credentials_in_url" };
   if (isBlockedHost(url.hostname)) return { ok: false, reason: "blocked_host" };
-  if (siteHost && url.hostname.replace(/^www\./, "").toLowerCase() === siteHost.toLowerCase()) {
+  if (siteHost && url.hostname.replace(/^www\./, "").toLowerCase() === siteHost.replace(/^www\./, "").toLowerCase()) {
     return { ok: false, reason: "own_host" };
   }
-  const href = url.toString();
-  if (sameDestination(href, originalUrl)) return { ok: false, reason: "matches_original" };
-  return { ok: true, url: href };
+  return { ok: true, url: url.toString() };
+}
+
+export function validateOutboundUrl(
+  raw: string | null | undefined,
+  originalUrl: string,
+  siteHost?: string,
+): UrlCheck {
+  const checked = validateExternalUrl(raw, siteHost);
+  if (!checked.ok) return checked;
+  if (sameDestination(checked.url, originalUrl)) return { ok: false, reason: "matches_original" };
+  return checked;
 }
 
 export function decideRedirect(
@@ -88,12 +96,21 @@ export function decideRedirect(
   const candidates = programs
     .filter((program) => program.isActive && program.status === "active")
     .sort((a, b) => b.priority - a.priority);
-  if (candidates.length === 0) return { ok: false, reason: "no_active_affiliate" };
   for (const program of candidates) {
     const checked = validateOutboundUrl(program.affiliateUrl, tool.originalUrl, siteHost);
     if (checked.ok) {
-      return { ok: true, location: checked.url, programId: program.id, toolId: tool.id };
+      return {
+        ok: true,
+        location: checked.url,
+        programId: program.id,
+        toolId: tool.id,
+        kind: "affiliate",
+      };
     }
   }
-  return { ok: false, reason: "invalid_affiliate" };
+  const official = validateExternalUrl(tool.originalUrl, siteHost);
+  if (official.ok) {
+    return { ok: true, location: official.url, programId: null, toolId: tool.id, kind: "official" };
+  }
+  return { ok: false, reason: official.reason };
 }

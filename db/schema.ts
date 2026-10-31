@@ -8,7 +8,8 @@ import {
 } from "drizzle-orm/sqlite-core";
 
 export const publishStatuses = ["draft", "published", "archived"] as const;
-export const pricingModels = ["free", "freemium", "paid", "open_source"] as const;
+export const pricingModels = ["free", "freemium", "paid"] as const;
+export const licenseTypes = ["open_source", "proprietary", "unknown"] as const;
 export const affiliateStatuses = [
   "none_found",
   "found",
@@ -22,6 +23,7 @@ export const newsStatuses = ["draft", "published"] as const;
 
 export type PublishStatus = (typeof publishStatuses)[number];
 export type PricingModel = (typeof pricingModels)[number];
+export type LicenseType = (typeof licenseTypes)[number];
 export type AffiliateStatus = (typeof affiliateStatuses)[number];
 export type UserRole = (typeof userRoles)[number];
 
@@ -68,6 +70,21 @@ export const tools = sqliteTable(
     pricingModel: text("pricing_model", { enum: pricingModels })
       .notNull()
       .default("freemium"),
+    licenseType: text("license_type", { enum: licenseTypes }).notNull().default("unknown"),
+    ossProjectUrl: text("oss_project_url"),
+    ossRepoUrl: text("oss_repo_url"),
+    ossLicense: text("oss_license"),
+    ossOperatingSystems: text("oss_operating_systems").notNull().default("[]"),
+    ossInstallNotes: text("oss_install_notes"),
+    useCasesDe: text("use_cases_de").notNull().default("[]"),
+    tiktokUrl: text("tiktok_url"),
+    instagramReelUrl: text("instagram_reel_url"),
+    youtubeShortUrl: text("youtube_short_url"),
+    editorRating: integer("editor_rating"),
+    lastCheckedAt: integer("last_checked_at", { mode: "timestamp" }),
+    beginnerFriendly: integer("beginner_friendly", { mode: "boolean" }).notNull().default(false),
+    contentLocked: integer("content_locked", { mode: "boolean" }).notNull().default(false),
+    missingFields: text("missing_fields").notNull().default("[]"),
     publishStatus: text("publish_status", { enum: publishStatuses })
       .notNull()
       .default("draft"),
@@ -149,14 +166,15 @@ export const clickDaily = sqliteTable(
     toolId: text("tool_id")
       .notNull()
       .references(() => tools.id, { onDelete: "cascade" }),
-    programId: text("program_id")
-      .notNull()
-      .references(() => affiliatePrograms.id, { onDelete: "cascade" }),
+    programSlot: text("program_slot").notNull().default(""),
+    targetKind: text("target_kind", { enum: ["affiliate", "official"] }).notNull(),
     day: text("day").notNull(),
     count: integer("count").notNull().default(0),
   },
   (table) => ({
-    pk: primaryKey({ columns: [table.toolId, table.programId, table.day] }),
+    pk: primaryKey({
+      columns: [table.toolId, table.targetKind, table.day, table.programSlot],
+    }),
   }),
 );
 

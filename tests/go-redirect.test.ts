@@ -43,21 +43,34 @@ describe("Weiterleitung /go", () => {
     expect(decision.ok && decision.location).toBe(stored);
   });
 
-  it("fällt ohne Programm nicht auf die Original-URL zurück", () => {
+  it("leitet ohne Partnerlink auf die offizielle Website, ohne Zusatzparameter", () => {
     const decision = decideRedirect(tool(), []);
-    expect(decision).toEqual({ ok: false, reason: "no_active_affiliate" });
+    expect(decision.ok).toBe(true);
+    if (decision.ok) {
+      expect(decision.kind).toBe("official");
+      expect(decision.programId).toBeNull();
+      expect(decision.location.startsWith("https://nordlicht.example/app")).toBe(true);
+      expect(decision.location).not.toMatch(/ref=|via=|utm_/);
+    }
   });
 
-  it("ignoriert deaktivierte und nicht freigeschaltete Links", () => {
-    expect(decideRedirect(tool(), [program({ isActive: false })]).ok).toBe(false);
-    expect(decideRedirect(tool(), [program({ status: "approved" })]).ok).toBe(false);
-    expect(decideRedirect(tool(), [program({ status: "disabled" })]).ok).toBe(false);
-    expect(decideRedirect(tool(), [program({ affiliateUrl: null })]).ok).toBe(false);
+  it("ignoriert deaktivierte Partnerlinks und nutzt dann die offizielle Website", () => {
+    for (const extra of [
+      program({ isActive: false }),
+      program({ status: "approved" }),
+      program({ status: "disabled" }),
+      program({ affiliateUrl: null }),
+    ]) {
+      const decision = decideRedirect(tool(), [extra]);
+      expect(decision.ok).toBe(true);
+      if (decision.ok) expect(decision.kind).toBe("official");
+    }
   });
 
-  it("lehnt die Original-URL als Partnerziel ab", () => {
+  it("lehnt die Original-URL als Partnerziel ab und fällt auf die offizielle Website zurück", () => {
     const decision = decideRedirect(tool(), [program({ affiliateUrl: original })]);
-    expect(decision).toMatchObject({ ok: false, reason: "invalid_affiliate" });
+    expect(decision.ok).toBe(true);
+    if (decision.ok) expect(decision.kind).toBe("official");
     expect(validateOutboundUrl(original, original)).toMatchObject({ reason: "matches_original" });
   });
 
@@ -93,19 +106,26 @@ describe("Weiterleitung /go", () => {
     expect(track).toHaveBeenCalledWith({
       toolId: "tool-1",
       programId: "program-1",
+      kind: "affiliate",
       day: "2026-10-31",
     });
   });
 
-  it("zählt nicht und nennt die Original-URL nicht, wenn kein Partnerlink aktiv ist", async () => {
+  it("zählt offizielle Klicks ohne Programm und hängt keine Parameter an", async () => {
     const track = vi.fn(async () => undefined);
     const result = await handleGoRedirect("nordlicht-chat", {
+      now: new Date("2026-10-31T12:00:00.000Z"),
       load: async () => ({ tool: tool(), programs: [] }),
       track,
     });
-    expect(result.status).toBe(404);
-    if (result.status === 404) expect(result.body).not.toContain(original);
-    expect(track).not.toHaveBeenCalled();
+    expect(result.status).toBe(302);
+    if (result.status === 302) expect(result.location).not.toMatch(/ref=|via=/);
+    expect(track).toHaveBeenCalledWith({
+      toolId: "tool-1",
+      programId: null,
+      kind: "official",
+      day: "2026-10-31",
+    });
   });
 
   it("leitet auch dann weiter, wenn das Zählen scheitert", async () => {

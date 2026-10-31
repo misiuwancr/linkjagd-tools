@@ -1,4 +1,4 @@
-import type { AffiliateProgram, Category, PricingModel, Tag, Tool } from "@/db/schema";
+import type { AffiliateProgram, Category, LicenseType, PricingModel, Tag, Tool } from "@/db/schema";
 import { decideRedirect } from "@/lib/affiliate/redirect";
 import { parseStringList } from "@/lib/utils";
 
@@ -16,6 +16,16 @@ export type PublicTool = {
   featuresDe: string[];
   screenshots: string[];
   pricingModel: PricingModel;
+  licenseType: LicenseType;
+  ossProjectUrl: string | null;
+  ossRepoUrl: string | null;
+  ossLicense: string | null;
+  ossOperatingSystems: string[];
+  ossInstallNotes: string | null;
+  useCasesDe: string[];
+  beginnerFriendly: boolean;
+  editorRating: number | null;
+  lastCheckedAt: string | null;
   featured: boolean;
   editorialRank: number | null;
   isExample: boolean;
@@ -24,6 +34,7 @@ export type PublicTool = {
   categories: PublicCategory[];
   tags: PublicTag[];
   ctaEnabled: boolean;
+  ctaKind: "affiliate" | "official" | "disabled";
 };
 
 type ToolRelations = Tool & {
@@ -45,6 +56,16 @@ export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool
     featuresDe: parseStringList(tool.featuresDe),
     screenshots: parseStringList(tool.screenshots).filter((item) => item.startsWith("/")),
     pricingModel: tool.pricingModel,
+    licenseType: tool.licenseType,
+    ossProjectUrl: tool.ossProjectUrl,
+    ossRepoUrl: tool.ossRepoUrl,
+    ossLicense: tool.ossLicense,
+    ossOperatingSystems: parseStringList(tool.ossOperatingSystems),
+    ossInstallNotes: tool.ossInstallNotes,
+    useCasesDe: parseStringList(tool.useCasesDe),
+    beginnerFriendly: tool.beginnerFriendly,
+    editorRating: tool.editorRating,
+    lastCheckedAt: tool.lastCheckedAt ? tool.lastCheckedAt.toISOString() : null,
     featured: tool.featured,
     editorialRank: tool.editorialRank,
     isExample: tool.isExample,
@@ -53,5 +74,6 @@ export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool
     categories: tool.categories,
     tags: tool.tags,
     ctaEnabled: decision.ok,
+    ctaKind: decision.ok ? decision.kind : "disabled",
   };
 }

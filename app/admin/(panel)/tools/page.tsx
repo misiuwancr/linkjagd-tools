@@ -17,6 +17,7 @@ export default async function AdminToolsPage({
     q: "",
     categorySlug: "",
     pricing: "",
+    license: "",
     sort: "newest",
     page: 1,
     pageSize: 100,

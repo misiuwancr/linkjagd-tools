@@ -123,8 +123,8 @@ describe("Datenbankfilter und Import", () => {
     if (decision.ok) {
       expect(decision.location).toContain("example.com/affiliate/testwerkzeug");
       expect(decision.location).not.toContain("testwerkzeug.example");
-      await recordClick(db, { toolId: decision.toolId, programId: decision.programId, day: "2026-10-31" });
-      await recordClick(db, { toolId: decision.toolId, programId: decision.programId, day: "2026-10-31" });
+      await recordClick(db, { toolId: decision.toolId, programId: decision.programId, kind: "affiliate", day: "2026-10-31" });
+      await recordClick(db, { toolId: decision.toolId, programId: decision.programId, kind: "affiliate", day: "2026-10-31" });
     }
     const popular = await listTools(db, publicListQuery({ sort: "beliebteste" }));
     expect(popular.items[0]?.slug).toBe("testwerkzeug");

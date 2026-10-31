@@ -27,7 +27,7 @@ type ExampleTool = {
   slug: string;
   name: string;
   category: string;
-  pricing: "free" | "freemium" | "paid" | "open_source";
+  pricing: "free" | "freemium" | "paid";
   featured?: boolean;
   rank?: number;
   status?: "draft" | "published" | "archived";
@@ -79,7 +79,7 @@ const exampleTools: ExampleTool[] = [
     slug: "klammer-code",
     name: "Klammer Code",
     category: "programmierung",
-    pricing: "open_source",
+    pricing: "free",
     rank: 4,
     short: "Beispiel eines offenen Werkzeugs, das Code erklärt.",
     tags: ["Beispiel", "Code"],
@@ -242,6 +242,7 @@ async function seed() {
       featuresDe: JSON.stringify(features),
       screenshots: JSON.stringify(screenshots),
       pricingModel: example.pricing,
+      licenseType: example.slug === "klammer-code" ? "open_source" : "unknown",
       publishStatus: example.status ?? "published",
       featured: Boolean(example.featured),
       editorialRank: example.rank ?? null,

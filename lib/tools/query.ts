@@ -1,5 +1,7 @@
-import type { PricingModel, PublishStatus } from "@/db/schema";
+import type { LicenseType, PricingModel, PublishStatus } from "@/db/schema";
 import {
+  licenseFromParam,
+  licenseParam,
   pricingFromParam,
   pricingParam,
   sortFromParam,
@@ -13,6 +15,7 @@ export type ToolListQuery = {
   q: string;
   categorySlug: string;
   pricing: PricingModel | "";
+  license: LicenseType | "";
   sort: SortKey;
   page: number;
   pageSize: number;
@@ -40,6 +43,7 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
     q: (first(params.q) ?? "").trim().slice(0, 120),
     categorySlug: /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(category) ? category : "",
     pricing: pricingFromParam(first(params.preis)),
+    license: licenseFromParam(first(params.lizenz)),
     sort: sortFromParam(first(params.sort)),
     page: pageNumber(first(params.seite)),
     pageSize: PAGE_SIZE,
@@ -53,14 +57,15 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
 
 export function directoryHref(
   basePath: string,
-  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "sort" | "page">,
-  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "sort" | "page">> = {},
+  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page">,
+  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page">> = {},
 ) {
   const next = { ...query, ...patch };
   const params = new URLSearchParams();
   if (next.q) params.set("q", next.q);
   if (next.categorySlug && basePath === "/tools") params.set("kategorie", next.categorySlug);
   if (next.pricing) params.set("preis", pricingParam(next.pricing));
+  if (next.license) params.set("lizenz", licenseParam(next.license));
   if (next.sort !== "newest") params.set("sort", sortParam(next.sort));
   if (next.page > 1) params.set("seite", String(next.page));
   const qs = params.toString();

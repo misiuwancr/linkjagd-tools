@@ -4,7 +4,7 @@ import type { AppDatabase } from "@/db/client";
 import { importToolSchema } from "@/lib/validation/tool";
 import { domainFromUrl, slugify } from "@/lib/utils";
 import {
-  findByDomainOrSlug,
+  findDuplicateTool,
   refreshSearchText,
   replaceCategories,
   replaceTags,
@@ -26,14 +26,14 @@ export async function importDiscoveredTool(database: AppDatabase, payload: unkno
   if (!slug) {
     return { ok: false as const, status: 400, error: "Aus dem Namen lässt sich kein Kurzname bilden." };
   }
-  const existing = await findByDomainOrSlug(database, domain, slug);
+  const existing = await findDuplicateTool(database, domain, slug, input.originalUrl);
   if (existing) {
     return {
       ok: false as const,
       status: 409,
       error: "Ein Tool mit dieser Domain oder diesem Kurznamen existiert bereits.",
       existingSlug: existing.slug,
-      duplicate: existing.domain === domain ? "domain" : "slug",
+      duplicate: existing.duplicate,
     };
   }
   const now = new Date();

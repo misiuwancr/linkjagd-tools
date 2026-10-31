@@ -42,6 +42,18 @@ export default async function EditToolPage({
             longDescriptionDe: tool.longDescriptionDe,
             featuresDe: parseStringList(tool.featuresDe).join("\n"),
             pricingModel: tool.pricingModel,
+            licenseType: tool.licenseType,
+            useCasesDe: parseStringList(tool.useCasesDe).join("\n"),
+            beginnerFriendly: tool.beginnerFriendly,
+            ossProjectUrl: tool.ossProjectUrl ?? "",
+            ossRepoUrl: tool.ossRepoUrl ?? "",
+            ossLicense: tool.ossLicense ?? "",
+            ossOperatingSystems: parseStringList(tool.ossOperatingSystems).join(", "),
+            ossInstallNotes: tool.ossInstallNotes ?? "",
+            tiktokUrl: tool.tiktokUrl ?? "",
+            instagramReelUrl: tool.instagramReelUrl ?? "",
+            youtubeShortUrl: tool.youtubeShortUrl ?? "",
+            editorRating: tool.editorRating ? String(tool.editorRating) : "",
             publishStatus: tool.publishStatus,
             featured: tool.featured,
             editorialRank: tool.editorialRank ? String(tool.editorialRank) : "",
@@ -59,7 +71,7 @@ export default async function EditToolPage({
       <section className="rounded-3xl border border-border bg-card p-5">
         <h2 className="text-xl font-bold">Partnerprogramme</h2>
         <p className="mt-2 text-sm text-muted-foreground">
-          Öffentlich wird nur ein Programm verwendet, das aktiv ist, den Status „Affiliate-Link aktiv“ hat und eine gültige URL besitzt. Die Original-URL ist kein Ersatz.
+          Der öffentliche Button bleibt /go und die Adresse der Detailseite ändert sich nicht. Liegt ein aktiver Partnerlink vor, geht die Weiterleitung dorthin und wird als Werbung gekennzeichnet. Sonst geht sie zur offiziellen Website, ohne Partnerkennzeichnung. Die Originaladresse wird nicht als Partnerlink gespeichert.
         </p>
         <div className="mt-4 grid gap-4">
           {tool.programs.map((program) => (

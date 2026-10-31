@@ -12,6 +12,7 @@
     "db:seed": "tsx db/seed.ts",
     "db:setup": "tsx db/setup.ts",
     "import:futuretools": "tsx scripts/import-futuretools-top100.ts",
+    "import:verified": "tsx scripts/import-verified-directory.ts",
     "test": "vitest run"
   },
   "dependencies": {

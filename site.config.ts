@@ -116,7 +116,7 @@ export const siteConfig = {
           body: [
             "Auf einer öffentlichen Tool-Seite gibt es höchstens einen ausgehenden Werkzeug-Link. Er führt über /go/[slug] und nur dann, wenn in der Redaktion ein gültiger, aktiver Partnerlink hinterlegt ist.",
             "Der Link ist mit rel=\"sponsored nofollow\" gekennzeichnet. Die Weiterleitung ist ein HTTP-302 auf genau die gespeicherte Adresse. Es werden keine Partnerparameter angehängt.",
-            "Liegt kein gültiger aktiver Partnerlink vor, ist der Button deaktiviert. Die Originaladresse des Tools wird nicht als Ersatz verlinkt und nicht als Ziel der Weiterleitung verwendet.",
+            "Liegt ein gültiger eigener Partnerlink vor, führt /go/[slug] dorthin und der Button ist als Werbung gekennzeichnet. Ohne Partnerlink führt dieselbe Adresse zur offiziellen Website und wird nicht als Werbung bezeichnet. Es werden keine Empfehlungsparameter angehängt.",
           ],
         },
         {

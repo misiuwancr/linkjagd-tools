@@ -4,7 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
-import { CategoryBadge, ExampleBadge, PriceBadge, RecommendBadge } from "@/components/badges";
+import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge } from "@/components/badges";
+import { licenseLabel, pricingLabel } from "@/lib/labels";
 import { JsonLd } from "@/components/json-ld";
 import { ToolCard } from "@/components/tool-card";
 import { ToolLogo } from "@/components/tool-logo";
@@ -81,6 +82,10 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             {tool.featured ? <RecommendBadge /> : null}
             {tool.isExample ? <ExampleBadge /> : null}
             <PriceBadge value={tool.pricingModel} />
+            <LicenseBadge value={tool.licenseType} />
+            {tool.beginnerFriendly ? (
+              <span className="inline-flex items-center rounded-full bg-secondary px-2.5 py-1 text-xs font-medium">Für Anfänger</span>
+            ) : null}
             {tool.categories.map((category) => (
               <CategoryBadge key={category.slug} name={category.name} slug={category.slug} />
             ))}
@@ -96,7 +101,11 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           <dl className="mt-4 space-y-3 text-sm">
             <div className="flex justify-between gap-4">
               <dt className="text-muted-foreground">Preismodell</dt>
-              <dd className="font-medium">{tool.pricingModel === "free" ? "Kostenlos" : tool.pricingModel === "paid" ? "Kostenpflichtig" : tool.pricingModel === "open_source" ? "Open Source" : "Freemium"}</dd>
+              <dd className="font-medium">{pricingLabel(tool.pricingModel)}</dd>
+            </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-muted-foreground">Lizenz</dt>
+              <dd className="font-medium">{licenseLabel(tool.licenseType)}</dd>
             </div>
             <div className="flex justify-between gap-4">
               <dt className="text-muted-foreground">Website</dt>
@@ -104,27 +113,29 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             </div>
           </dl>
           <div className="mt-5">
-            {tool.ctaEnabled ? (
-              <a
-                href={`/go/${tool.slug}`}
-                rel="sponsored nofollow"
-                className="flex h-12 items-center justify-center rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground"
-              >
-                Jetzt Tool ausprobieren
-              </a>
-            ) : (
+            {tool.ctaKind === "disabled" ? (
               <button
                 type="button"
                 disabled
                 className="flex h-12 w-full cursor-not-allowed items-center justify-center rounded-xl bg-secondary px-4 text-sm font-semibold text-muted-foreground"
               >
-                Jetzt Tool ausprobieren
+                Zur Website
               </button>
+            ) : (
+              <a
+                href={`/go/${tool.slug}`}
+                rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "noopener noreferrer"}
+                className="flex h-12 items-center justify-center rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground"
+              >
+                {tool.ctaKind === "affiliate" ? "Jetzt Tool ausprobieren" : "Zur offiziellen Website"}
+              </a>
             )}
             <p className="mt-3 text-xs leading-5 text-muted-foreground">
-              {tool.ctaEnabled
+              {tool.ctaKind === "affiliate"
                 ? "Werbung. Der Button ist ein Partnerlink. Für dich entsteht dadurch kein Aufpreis."
-                : "Für dieses Tool ist noch kein aktiver Partnerlink hinterlegt. Der Button bleibt deaktiviert, es gibt keine Weiterleitung zur Originaladresse."}
+                : tool.ctaKind === "official"
+                  ? "Kein Partnerlink. Der Button führt zur offiziellen Website, ohne zusätzliche Empfehlungsparameter."
+                  : "Für dieses Tool ist keine gültige Zieladresse hinterlegt."}
             </p>
             <Link href="/affiliate-hinweis" className="mt-2 inline-block text-xs font-medium underline">
               Affiliate-Hinweis
@@ -152,6 +163,45 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
                 ))}
               </ul>
             </section>
+          ) : null}
+          {tool.useCasesDe.length > 0 ? (
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight">Typische Anwendungen</h2>
+              <ul className="mt-4 max-w-3xl list-disc space-y-2 pl-5 text-sm leading-6">
+                {tool.useCasesDe.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+          {tool.licenseType === "open_source" ? (
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight">Open Source</h2>
+              <dl className="mt-4 max-w-3xl space-y-2 text-sm">
+                <div className="flex justify-between gap-4">
+                  <dt className="text-muted-foreground">Lizenz</dt>
+                  <dd>{tool.ossLicense || "Unbekannt"}</dd>
+                </div>
+                {tool.ossOperatingSystems.length > 0 ? (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-muted-foreground">Systeme</dt>
+                    <dd>{tool.ossOperatingSystems.join(", ")}</dd>
+                  </div>
+                ) : null}
+              </dl>
+              {tool.ossInstallNotes ? <p className="mt-3 max-w-3xl text-sm leading-6 text-muted-foreground">{tool.ossInstallNotes}</p> : null}
+              <div className="mt-3 flex flex-wrap gap-3 text-sm">
+                {tool.ossProjectUrl ? (
+                  <a href={tool.ossProjectUrl} rel="noopener noreferrer" className="underline">Projektwebsite</a>
+                ) : null}
+                {tool.ossRepoUrl ? (
+                  <a href={tool.ossRepoUrl} rel="noopener noreferrer" className="underline">Repository</a>
+                ) : null}
+              </div>
+            </section>
+          ) : null}
+          {tool.editorRating ? (
+            <p className="text-sm text-muted-foreground">Redaktionelle Bewertung: {tool.editorRating} von 5. Das ist keine Nutzerwertung.</p>
           ) : null}
           <section>
             <h2 className="text-2xl font-bold tracking-tight">Vorschau</h2>

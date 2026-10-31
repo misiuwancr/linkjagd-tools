@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDb } from "@/db/client";
-import { DirectoryFilters, Pagination, PriceChips, ResultMeta, ToolGrid } from "@/components/directory";
+import { DirectoryFilters, LicenseChips, Pagination, PriceChips, ResultMeta, ToolGrid } from "@/components/directory";
 import { getCategoryBySlug, listCategories, listTools } from "@/lib/tools/repository";
 import { publicListQuery } from "@/lib/tools/query";
 import { toPublicTool } from "@/lib/tools/public";
@@ -40,6 +40,7 @@ export default async function CategoryPage({
       {category.description ? <p className="mt-3 max-w-2xl text-muted-foreground">{category.description}</p> : null}
       <div className="mt-8">
         <PriceChips query={safeQuery} basePath={basePath} />
+        <LicenseChips query={safeQuery} basePath={basePath} />
       </div>
       <div className="mt-3">
         <DirectoryFilters query={query} categories={categories} action="/tools" />

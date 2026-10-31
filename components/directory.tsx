@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { pricingOptions, sortOptions } from "@/lib/labels";
+import { licenseOptions, pricingOptions, sortOptions } from "@/lib/labels";
 import { directoryHref, type ToolListQuery } from "@/lib/tools/query";
 import type { PublicTool } from "@/lib/tools/public";
 import { ToolCard } from "@/components/tool-card";
@@ -26,6 +26,31 @@ export function PriceChips({
           href={directoryHref(basePath, query, { pricing: item.value, page: 1 })}
           className={chipClass(query.pricing === item.value)}
           aria-current={query.pricing === item.value ? "true" : undefined}
+        >
+          {item.label}
+        </Link>
+      ))}
+    </div>
+  );
+}
+
+export function LicenseChips({
+  query,
+  basePath,
+}: {
+  query: ToolListQuery;
+  basePath: string;
+}) {
+  return (
+    <div className="mt-3 flex flex-wrap gap-2" aria-label="Lizenz">
+      <Link href={directoryHref(basePath, query, { license: "", page: 1 })} className={chipClass(query.license === "")}>
+        Alle Lizenzen
+      </Link>
+      {licenseOptions.map((item) => (
+        <Link
+          key={item.value}
+          href={directoryHref(basePath, query, { license: item.value, page: 1 })}
+          className={chipClass(query.license === item.value)}
         >
           {item.label}
         </Link>

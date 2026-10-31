@@ -18,7 +18,7 @@ import {
 import { getToolById } from "@/lib/tools/repository";
 import { parseStringList } from "@/lib/utils";
 import { saveImageUpload } from "@/lib/uploads";
-import { pricingModels, publishStatuses } from "@/db/schema";
+import { licenseTypes, pricingModels, publishStatuses } from "@/db/schema";
 
 export type ActionState = { error?: string };
 
@@ -76,7 +76,9 @@ export async function saveToolAction(_prev: ActionState, formData: FormData): Pr
     return { error: error instanceof Error ? error.message : "Das Bild konnte nicht gespeichert werden." };
   }
   const pricing = String(formData.get("pricingModel") || "");
+  const license = String(formData.get("licenseType") || "");
   const status = String(formData.get("publishStatus") || "");
+  const ratingRaw = String(formData.get("editorRating") || "").trim();
   const result = await saveToolRecord(
     database,
     {
@@ -87,6 +89,21 @@ export async function saveToolAction(_prev: ActionState, formData: FormData): Pr
       longDescriptionDe: formData.get("longDescriptionDe") || "",
       featuresDe: lines(formData.get("featuresDe")),
       pricingModel: pricingModels.includes(pricing as (typeof pricingModels)[number]) ? pricing : "freemium",
+      licenseType: licenseTypes.includes(license as (typeof licenseTypes)[number]) ? license : "unknown",
+      useCasesDe: lines(formData.get("useCasesDe")),
+      beginnerFriendly: checked(formData, "beginnerFriendly"),
+      ossProjectUrl: String(formData.get("ossProjectUrl") || ""),
+      ossRepoUrl: String(formData.get("ossRepoUrl") || ""),
+      ossLicense: String(formData.get("ossLicense") || ""),
+      ossOperatingSystems: String(formData.get("ossOperatingSystems") || "")
+        .split(",")
+        .map((item) => item.trim())
+        .filter(Boolean),
+      ossInstallNotes: String(formData.get("ossInstallNotes") || ""),
+      tiktokUrl: String(formData.get("tiktokUrl") || ""),
+      instagramReelUrl: String(formData.get("instagramReelUrl") || ""),
+      youtubeShortUrl: String(formData.get("youtubeShortUrl") || ""),
+      editorRating: ratingRaw ? Number(ratingRaw) : null,
       publishStatus: publishStatuses.includes(status as (typeof publishStatuses)[number]) ? status : "draft",
       featured: checked(formData, "featured"),
       editorialRank: rank,

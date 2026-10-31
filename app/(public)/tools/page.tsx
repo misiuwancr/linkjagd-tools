@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
-import { DirectoryFilters, Pagination, PriceChips, ResultMeta, ToolGrid } from "@/components/directory";
+import { DirectoryFilters, LicenseChips, Pagination, PriceChips, ResultMeta, ToolGrid } from "@/components/directory";
 import { JsonLd } from "@/components/json-ld";
 import { listCategories, listTools } from "@/lib/tools/repository";
 import { publicListQuery } from "@/lib/tools/query";
@@ -64,6 +64,7 @@ export default async function ToolsPage({
       </p>
       <div className="mt-8">
         <PriceChips query={safeQuery} basePath="/tools" />
+        <LicenseChips query={safeQuery} basePath="/tools" />
       </div>
       <div className="mt-3">
         <DirectoryFilters query={safeQuery} categories={categories} />

@@ -28,6 +28,7 @@ function filters(query: ToolListQuery): SQL[] {
   if (query.featuredOnly) parts.push(eq(tools.featured, true));
   if (query.rankedOnly) parts.push(sql`${tools.editorialRank} is not null`);
   if (query.pricing) parts.push(eq(tools.pricingModel, query.pricing));
+  if (query.license) parts.push(eq(tools.licenseType, query.license));
   const needle = normalizeSearch(query.q);
   if (needle) parts.push(like(tools.searchText, `%${needle}%`));
   if (query.categorySlug) {
@@ -228,6 +229,43 @@ export async function refreshSearchText(database: AppDatabase, toolId: string) {
     .where(eq(tools.id, toolId));
 }
 
+const sharedHosts = new Set([
+  "github.com",
+  "gitlab.com",
+  "invent.kde.org",
+  "huggingface.co",
+  "apps.apple.com",
+  "chromewebstore.google.com",
+]);
+
+export async function findDuplicateTool(
+  database: AppDatabase,
+  domain: string,
+  slug: string,
+  originalUrl: string,
+) {
+  const bySlug = await database.select().from(tools).where(eq(tools.slug, slug)).limit(1);
+  if (bySlug[0]) return { ...bySlug[0], duplicate: "slug" as const };
+  const byDomain = await database.select().from(tools).where(eq(tools.domain, domain));
+  if (!sharedHosts.has(domain)) {
+    return byDomain[0] ? { ...byDomain[0], duplicate: "domain" as const } : null;
+  }
+  let path = "/";
+  try {
+    path = new URL(originalUrl).pathname.replace(/\/$/, "") || "/";
+  } catch {
+    return byDomain[0] ? { ...byDomain[0], duplicate: "domain" as const } : null;
+  }
+  const hit = byDomain.find((row) => {
+    try {
+      return (new URL(row.originalUrl).pathname.replace(/\/$/, "") || "/") === path;
+    } catch {
+      return false;
+    }
+  });
+  return hit ? { ...hit, duplicate: "domain" as const } : null;
+}
+
 export async function findByDomainOrSlug(database: AppDatabase, domain: string, slug: string) {
   const rows = await database
     .select()
@@ -239,13 +277,20 @@ export async function findByDomainOrSlug(database: AppDatabase, domain: string, 
 
 export async function recordClick(
   database: AppDatabase,
-  input: { toolId: string; programId: string; day: string },
+  input: { toolId: string; programId: string | null; kind: "affiliate" | "official"; day: string },
 ) {
+  const programSlot = input.kind === "affiliate" ? input.programId || "" : "";
   await database
     .insert(clickDaily)
-    .values({ ...input, count: 1 })
+    .values({
+      toolId: input.toolId,
+      programSlot,
+      targetKind: input.kind,
+      day: input.day,
+      count: 1,
+    })
     .onConflictDoUpdate({
-      target: [clickDaily.toolId, clickDaily.programId, clickDaily.day],
+      target: [clickDaily.toolId, clickDaily.targetKind, clickDaily.day, clickDaily.programSlot],
       set: { count: sql`${clickDaily.count} + 1` },
     });
 }

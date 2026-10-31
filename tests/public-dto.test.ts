@@ -49,10 +49,11 @@ describe("öffentliche Tool-Daten", () => {
     expect(serialized).not.toContain("person@example.com");
     expect(serialized).not.toContain("intern");
     expect(publicTool.ctaEnabled).toBe(true);
+    expect(publicTool.ctaKind).toBe("affiliate");
     expect(publicTool).not.toHaveProperty("originalUrl");
   });
 
-  it("deaktiviert den Button ohne aktiven Partnerlink", () => {
+  it("führt ohne Partnerlink auf die offizielle Website", () => {
     const tool = {
       id: "1",
       name: "Fokusplan",
@@ -77,6 +78,7 @@ describe("öffentliche Tool-Daten", () => {
       updatedAt: new Date(),
     } as Tool;
     const publicTool = toPublicTool({ ...tool, categories: [], tags: [], programs: [] });
-    expect(publicTool.ctaEnabled).toBe(false);
+    expect(publicTool.ctaEnabled).toBe(true);
+    expect(publicTool.ctaKind).toBe("official");
   });
 });
