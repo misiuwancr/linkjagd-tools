@@ -1,6 +1,7 @@
 import type { AffiliateProgram, Category, LicenseType, PricingModel, Tag, Tool } from "@/db/schema";
 import { decideRedirect } from "@/lib/affiliate/redirect";
 import { parseStringList } from "@/lib/utils";
+import { videosFromUrls, type PublicVideo } from "@/lib/videos";
 
 export type PublicCategory = Pick<Category, "name" | "slug">;
 export type PublicTag = Pick<Tag, "name" | "slug">;
@@ -35,6 +36,8 @@ export type PublicTool = {
   tags: PublicTag[];
   ctaEnabled: boolean;
   ctaKind: "affiliate" | "official" | "disabled";
+  fromVideo: boolean;
+  videos: PublicVideo[];
 };
 
 type ToolRelations = Tool & {
@@ -45,6 +48,7 @@ type ToolRelations = Tool & {
 
 export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool {
   const decision = decideRedirect(tool, tool.programs, siteHost);
+  const videos = videosFromUrls(tool);
   return {
     id: tool.id,
     name: tool.name,
@@ -75,5 +79,7 @@ export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool
     tags: tool.tags,
     ctaEnabled: decision.ok,
     ctaKind: decision.ok ? decision.kind : "disabled",
+    videos,
+    fromVideo: videos.length > 0,
   };
 }

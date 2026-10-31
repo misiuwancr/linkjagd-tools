@@ -24,6 +24,7 @@ export type ToolListQuery = {
   rankedOnly: boolean;
   excludeExamples: boolean;
   partnerGap: boolean;
+  fromVideo: boolean;
   discoverySources: string[];
 };
 
@@ -54,6 +55,7 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
     rankedOnly: false,
     excludeExamples: true,
     partnerGap: false,
+    fromVideo: first(params.video) === "ja",
     discoverySources: [],
     ...overrides,
   };
@@ -61,8 +63,8 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
 
 export function directoryHref(
   basePath: string,
-  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page">,
-  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page">> = {},
+  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo">,
+  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo">> = {},
 ) {
   const next = { ...query, ...patch };
   const params = new URLSearchParams();
@@ -70,6 +72,7 @@ export function directoryHref(
   if (next.categorySlug && basePath === "/tools") params.set("kategorie", next.categorySlug);
   if (next.pricing) params.set("preis", pricingParam(next.pricing));
   if (next.license) params.set("lizenz", licenseParam(next.license));
+  if (next.fromVideo) params.set("video", "ja");
   if (next.sort !== "newest") params.set("sort", sortParam(next.sort));
   if (next.page > 1) params.set("seite", String(next.page));
   const qs = params.toString();

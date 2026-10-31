@@ -4,7 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
-import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge } from "@/components/badges";
+import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge, VideoBadge } from "@/components/badges";
+import { VideoGate } from "@/components/video-gate";
 import { licenseLabel, pricingLabel } from "@/lib/labels";
 import { JsonLd } from "@/components/json-ld";
 import { ToolCard } from "@/components/tool-card";
@@ -80,6 +81,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           </div>
           <div className="mt-5 flex flex-wrap gap-2">
             {tool.featured ? <RecommendBadge /> : null}
+            {tool.fromVideo ? <VideoBadge /> : null}
             {tool.isExample ? <ExampleBadge /> : null}
             <PriceBadge value={tool.pricingModel} />
             <LicenseBadge value={tool.licenseType} />
@@ -146,6 +148,16 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
 
       <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="space-y-12">
+          {tool.videos.length > 0 ? (
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight">Aus dem Video</h2>
+              <div className="mt-4 grid max-w-3xl gap-4 sm:grid-cols-2">
+                {tool.videos.map((video) => (
+                  <VideoGate key={video.platform} video={video} />
+                ))}
+              </div>
+            </section>
+          ) : null}
           <section>
             <h2 className="text-2xl font-bold tracking-tight">Über das Tool</h2>
             <div className="mt-4 max-w-3xl whitespace-pre-wrap text-base leading-8 text-foreground/90">

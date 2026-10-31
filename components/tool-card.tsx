@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { PublicTool } from "@/lib/tools/public";
-import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge } from "@/components/badges";
+import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge, VideoBadge } from "@/components/badges";
 import { ToolLogo } from "@/components/tool-logo";
 
 export function ToolCard({ tool }: { tool: PublicTool }) {
@@ -18,6 +18,7 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
           </h3>
           <div className="mt-2 flex flex-wrap gap-1.5">
             {tool.featured ? <RecommendBadge /> : null}
+            {tool.fromVideo ? <VideoBadge /> : null}
             {tool.isExample ? <ExampleBadge /> : null}
           </div>
         </div>

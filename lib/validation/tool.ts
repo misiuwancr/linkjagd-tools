@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { affiliateStatuses, licenseTypes, pricingModels, programPresences, publishStatuses } from "@/db/schema";
 import { domainFromUrl } from "@/lib/utils";
+import { optionalVideoUrl } from "@/lib/videos";
 
 z.setErrorMap((issue, ctx) => {
   if (issue.code === "invalid_type") return { message: "Bitte dieses Feld ausfüllen." };
@@ -45,9 +46,24 @@ export const toolInputSchema = z.object({
   ossLicense: z.string().trim().max(80).default(""),
   ossOperatingSystems: z.array(z.string().trim().min(1).max(40)).max(8).default([]),
   ossInstallNotes: z.string().trim().max(2000).default(""),
-  tiktokUrl: z.string().trim().max(500).default(""),
-  instagramReelUrl: z.string().trim().max(500).default(""),
-  youtubeShortUrl: z.string().trim().max(500).default(""),
+  tiktokUrl: z
+    .string()
+    .trim()
+    .max(500)
+    .default("")
+    .refine((value) => optionalVideoUrl(value, "tiktok") !== null, "Nur Adressen von tiktok.com."),
+  instagramReelUrl: z
+    .string()
+    .trim()
+    .max(500)
+    .default("")
+    .refine((value) => optionalVideoUrl(value, "instagram") !== null, "Nur Adressen von instagram.com."),
+  youtubeShortUrl: z
+    .string()
+    .trim()
+    .max(500)
+    .default("")
+    .refine((value) => optionalVideoUrl(value, "youtube") !== null, "Nur Adressen von youtube.com oder youtu.be."),
   editorRating: z.number().int().min(1).max(5).nullable().default(null),
   publishStatus: z.enum(publishStatuses),
   featured: z.boolean(),

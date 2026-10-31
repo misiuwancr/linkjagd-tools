@@ -65,6 +65,19 @@ export default async function ToolsPage({
       <div className="mt-8">
         <PriceChips query={safeQuery} basePath="/tools" />
         <LicenseChips query={safeQuery} basePath="/tools" />
+        <div className="mt-3">
+          <a
+            href={safeQuery.fromVideo ? "/tools" : "/tools?video=ja"}
+            className={
+              safeQuery.fromVideo
+                ? "inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
+                : "inline-flex h-9 items-center rounded-full border border-border bg-card px-3 text-sm font-medium"
+            }
+            aria-current={safeQuery.fromVideo ? "true" : undefined}
+          >
+            Aus meinen Videos
+          </a>
+        </div>
       </div>
       <div className="mt-3">
         <DirectoryFilters query={safeQuery} categories={categories} />

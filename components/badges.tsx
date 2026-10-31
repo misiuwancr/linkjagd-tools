@@ -28,6 +28,14 @@ export function CategoryBadge({ name, slug }: { name: string; slug?: string }) {
   );
 }
 
+export function VideoBadge() {
+  return (
+    <span className="inline-flex items-center rounded-full bg-black px-2.5 py-1 text-xs font-medium text-hunt ring-1 ring-hunt/40">
+      Aus dem Video
+    </span>
+  );
+}
+
 export function RecommendBadge() {
   return (
     <span className="inline-flex items-center rounded-full bg-hunt px-2.5 py-1 text-xs font-bold text-primary-foreground">

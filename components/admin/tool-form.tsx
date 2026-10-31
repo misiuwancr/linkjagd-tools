@@ -161,15 +161,15 @@ export function ToolForm({
       <div className="grid gap-4 sm:grid-cols-3">
         <label className="grid gap-1 text-sm font-medium">
           TikTok-Video
-          <input name="tiktokUrl" defaultValue={initial.tiktokUrl} className="field" />
+          <input name="tiktokUrl" defaultValue={initial.tiktokUrl} placeholder="https://www.tiktok.com/…" className="field" />
         </label>
         <label className="grid gap-1 text-sm font-medium">
           Instagram-Reel
-          <input name="instagramReelUrl" defaultValue={initial.instagramReelUrl} className="field" />
+          <input name="instagramReelUrl" defaultValue={initial.instagramReelUrl} placeholder="https://www.instagram.com/reel/…" className="field" />
         </label>
         <label className="grid gap-1 text-sm font-medium">
           YouTube-Short
-          <input name="youtubeShortUrl" defaultValue={initial.youtubeShortUrl} className="field" />
+          <input name="youtubeShortUrl" defaultValue={initial.youtubeShortUrl} placeholder="https://www.youtube.com/shorts/…" className="field" />
         </label>
       </div>
       <label className="grid gap-1 text-sm font-medium">

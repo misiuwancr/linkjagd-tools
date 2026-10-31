@@ -27,6 +27,7 @@ export default async function AdminToolsPage({
     rankedOnly: false,
     excludeExamples: false,
     partnerGap,
+    fromVideo: false,
     discoverySources: [],
   };
   const result = await listTools(await getDb(), query);
