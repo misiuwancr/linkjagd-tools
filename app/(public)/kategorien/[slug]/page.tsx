@@ -35,8 +35,8 @@ export default async function CategoryPage({
   const basePath = `/kategorien/${category.slug}`;
   return (
     <div className="page-wrap py-12 sm:py-16">
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-copper">Kategorie</p>
-      <h1 className="mt-3 text-4xl font-semibold tracking-tight">{category.name}</h1>
+      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Kategorie</p>
+      <h1 className="mt-3 text-4xl font-bold tracking-tight">{category.name}</h1>
       {category.description ? <p className="mt-3 max-w-2xl text-muted-foreground">{category.description}</p> : null}
       <div className="mt-8">
         <PriceChips query={safeQuery} basePath={basePath} />

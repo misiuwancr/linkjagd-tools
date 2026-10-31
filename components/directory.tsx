@@ -36,8 +36,8 @@ export function PriceChips({
 
 function chipClass(active: boolean) {
   return active
-    ? "inline-flex h-9 items-center rounded-full bg-ink px-3 text-sm font-medium text-white"
-    : "inline-flex h-9 items-center rounded-full border border-border bg-white px-3 text-sm font-medium text-foreground hover:border-[#d9d0c4]";
+    ? "inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
+    : "inline-flex h-9 items-center rounded-full border border-border bg-card px-3 text-sm font-medium text-foreground hover:border-hunt/40";
 }
 
 export function DirectoryFilters({
@@ -50,7 +50,7 @@ export function DirectoryFilters({
   action?: string;
 }) {
   return (
-    <form method="get" action={action} className="grid gap-3 rounded-2xl border border-border bg-white p-3 sm:p-4 lg:grid-cols-[1.4fr_1fr_1fr_1fr_auto]">
+    <form method="get" action={action} className="grid gap-3 rounded-2xl border border-border bg-card p-3 sm:p-4 lg:grid-cols-[1.4fr_1fr_1fr_1fr_auto]">
       <div>
         <label htmlFor="q" className="mb-1 block text-xs font-medium text-muted-foreground">
           Suche
@@ -96,7 +96,7 @@ export function DirectoryFilters({
         </select>
       </div>
       <div className="flex items-end gap-2">
-        <button type="submit" className="h-11 rounded-xl bg-ink px-4 text-sm font-medium text-white">
+        <button type="submit" className="h-11 rounded-xl bg-primary px-4 text-sm font-medium text-primary-foreground">
           Filtern
         </button>
         <Link href={action} className="inline-flex h-11 items-center rounded-xl px-3 text-sm text-muted-foreground hover:text-foreground">
@@ -110,7 +110,7 @@ export function DirectoryFilters({
 export function ToolGrid({ tools }: { tools: PublicTool[] }) {
   if (tools.length === 0) {
     return (
-      <div className="rounded-2xl border border-dashed border-border bg-white px-6 py-16 text-center">
+      <div className="rounded-2xl border border-dashed border-border bg-card px-6 py-16 text-center">
         <p className="text-base font-medium">Keine Tools passen zu dieser Auswahl.</p>
         <p className="mt-2 text-sm text-muted-foreground">Setze die Filter zurück oder such nach einem anderen Begriff.</p>
       </div>
@@ -145,7 +145,7 @@ export function Pagination({
   return (
     <nav aria-label="Seiten" className="mt-8 flex flex-wrap items-center justify-center gap-2">
       {current > 1 ? (
-        <Link href={directoryHref(basePath, query, { page: current - 1 })} className={linkClass + " border border-border bg-white"}>
+        <Link href={directoryHref(basePath, query, { page: current - 1 })} className={linkClass + " border border-border bg-card"}>
           Zurück
         </Link>
       ) : null}
@@ -154,13 +154,13 @@ export function Pagination({
           key={page}
           href={directoryHref(basePath, query, { page })}
           aria-current={page === current ? "page" : undefined}
-          className={linkClass + (page === current ? " bg-ink text-white" : " border border-border bg-white")}
+          className={linkClass + (page === current ? " bg-primary text-primary-foreground" : " border border-border bg-card")}
         >
           {page}
         </Link>
       ))}
       {current < pages ? (
-        <Link href={directoryHref(basePath, query, { page: current + 1 })} className={linkClass + " border border-border bg-white"}>
+        <Link href={directoryHref(basePath, query, { page: current + 1 })} className={linkClass + " border border-border bg-card"}>
           Weiter
         </Link>
       ) : null}

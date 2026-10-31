@@ -4,10 +4,10 @@ import { pricingLabel } from "@/lib/labels";
 import { cn } from "@/lib/utils";
 
 const priceClass: Record<PricingModel, string> = {
-  free: "bg-emerald-50 text-emerald-900 ring-emerald-200",
-  freemium: "bg-sky-50 text-sky-900 ring-sky-200",
-  paid: "bg-amber-50 text-amber-950 ring-amber-200",
-  open_source: "bg-violet-50 text-violet-900 ring-violet-200",
+  free: "bg-[#12352A] text-[#B7F7D4] ring-[#1F6B4E]",
+  freemium: "bg-[#123044] text-[#D7EEFF] ring-[#1E4E73]",
+  paid: "bg-[#3A2A10] text-[#FFE7B0] ring-[#6B5420]",
+  open_source: "bg-[#2A2044] text-[#E9D5FF] ring-[#5B3D86]",
 };
 
 export function PriceBadge({ value }: { value: PricingModel }) {
@@ -23,7 +23,7 @@ export function CategoryBadge({ name, slug }: { name: string; slug?: string }) {
     "inline-flex items-center rounded-full bg-secondary px-2.5 py-1 text-xs font-medium text-secondary-foreground";
   if (!slug) return <span className={className}>{name}</span>;
   return (
-    <Link href={`/kategorien/${slug}`} className={cn(className, "hover:bg-[#E7E1D8]")}>
+    <Link href={`/kategorien/${slug}`} className={cn(className, "hover:bg-hunt/15 hover:text-hunt")}>
       {name}
     </Link>
   );
@@ -31,7 +31,7 @@ export function CategoryBadge({ name, slug }: { name: string; slug?: string }) {
 
 export function RecommendBadge() {
   return (
-    <span className="inline-flex items-center rounded-full bg-[#F8E7DC] px-2.5 py-1 text-xs font-semibold text-[#8A3E16]">
+    <span className="inline-flex items-center rounded-full bg-hunt px-2.5 py-1 text-xs font-bold text-primary-foreground">
       Empfohlen
     </span>
   );
@@ -39,7 +39,7 @@ export function RecommendBadge() {
 
 export function ExampleBadge() {
   return (
-    <span className="inline-flex items-center rounded-full bg-white px-2.5 py-1 text-xs font-medium text-muted-foreground ring-1 ring-inset ring-border">
+    <span className="inline-flex items-center rounded-full bg-transparent px-2.5 py-1 text-xs font-medium text-muted-foreground ring-1 ring-inset ring-border">
       Beispiel
     </span>
   );

@@ -5,7 +5,7 @@ import { ToolLogo } from "@/components/tool-logo";
 
 export function ToolCard({ tool }: { tool: PublicTool }) {
   return (
-    <article className="flex h-full flex-col rounded-2xl border border-border bg-card p-4 shadow-card transition hover:-translate-y-0.5 hover:border-[#d9d0c4]">
+    <article className="flex h-full flex-col rounded-2xl border border-border bg-card p-4 shadow-card transition hover:-translate-y-0.5 hover:border-hunt/50">
       <div className="flex items-start gap-3">
         <Link href={`/tools/${tool.slug}`} className="shrink-0 rounded-xl" aria-label={tool.name}>
           <ToolLogo name={tool.name} logo={tool.logo} />

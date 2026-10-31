@@ -3,7 +3,7 @@ import { siteConfig } from "@/site.config";
 
 export function SiteFooter() {
   return (
-    <footer className="mt-16 border-t border-border bg-white">
+    <footer className="mt-16 border-t border-border bg-[#090C0A]">
       <div className="page-wrap grid gap-8 py-10 sm:grid-cols-[1.4fr_1fr]">
         <div>
           <p className="text-sm font-semibold">{siteConfig.name}</p>

@@ -17,18 +17,18 @@ export default async function SubmitPage({
   const categories = await listCategories(await getDb());
   return (
     <div className="page-wrap max-w-2xl py-12 sm:py-16">
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-copper">Mitmachen</p>
-      <h1 className="mt-3 text-4xl font-semibold tracking-tight">Tool einreichen</h1>
+      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Mitmachen</p>
+      <h1 className="mt-3 text-4xl font-bold tracking-tight">Tool einreichen</h1>
       <p className="mt-3 text-muted-foreground">
         Dein Vorschlag landet als Entwurf bei der Redaktion. Er wird nicht automatisch veröffentlicht und es wird keine Mail verschickt.
       </p>
       {searchParams.fehler ? (
-        <p role="alert" className="mt-6 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-900">
+        <p role="alert" className="mt-6 rounded-xl border border-red-800 bg-red-950 px-4 py-3 text-sm text-red-100">
           {searchParams.fehler}
         </p>
       ) : null}
       {searchParams.hinweis === "danke" ? (
-        <p role="status" className="mt-6 rounded-xl bg-emerald-50 px-4 py-3 text-sm text-emerald-900">
+        <p role="status" className="mt-6 rounded-xl border border-emerald-800 bg-emerald-950 px-4 py-3 text-sm text-emerald-100">
           Danke. Der Entwurf ist angekommen und noch nicht öffentlich.
         </p>
       ) : null}
@@ -61,7 +61,7 @@ export default async function SubmitPage({
           <input name="submitterEmail" type="email" className="field" />
         </label>
         <input name="firma" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
-        <button type="submit" className="h-12 rounded-xl bg-ink text-sm font-semibold text-white">
+        <button type="submit" className="h-12 rounded-xl bg-primary text-sm font-semibold text-primary-foreground">
           Entwurf senden
         </button>
       </form>

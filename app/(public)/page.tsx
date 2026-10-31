@@ -62,10 +62,11 @@ export default async function HomePage({
           },
         }}
       />
-      <section className="border-b border-border">
-        <div className="page-wrap py-14 sm:py-20">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-copper">Verzeichnis</p>
-          <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight text-ink sm:text-6xl sm:leading-[1.02]">
+      <section className="relative overflow-hidden border-b border-border">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(520px_220px_at_18%_0%,rgba(198,245,49,0.18),transparent_70%)]" />
+        <div className="page-wrap relative py-14 sm:py-20">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-hunt">Verzeichnis</p>
+          <h1 className="mt-4 max-w-3xl text-4xl font-bold tracking-tight text-foreground sm:text-6xl sm:leading-[1.02]">
             {siteConfig.tagline}
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">{siteConfig.description}</p>
@@ -74,7 +75,7 @@ export default async function HomePage({
               Tools durchsuchen
             </label>
             <input id="start-suche" name="q" placeholder="Zum Beispiel Chat, Bild oder Recherche" className="field h-12" />
-            <button type="submit" className="h-12 rounded-xl bg-ink px-6 text-sm font-semibold text-white">
+            <button type="submit" className="h-12 rounded-xl bg-primary px-6 text-sm font-semibold text-primary-foreground">
               Suchen
             </button>
           </form>
@@ -90,7 +91,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="border-y border-border bg-white">
+      <section className="border-y border-border bg-card">
         <div className="page-wrap py-14">
           <SectionHead kicker="Auswahl" title="Top 20 Tools" href="/top-20" linkLabel="Die ganze Liste" />
           <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
@@ -125,7 +126,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="border-t border-border bg-white">
+      <section className="border-t border-border bg-card">
         <div className="page-wrap py-14">
           <SectionHead kicker="Themen" title="Kategorien" href="/kategorien" linkLabel="Alle Kategorien" />
           <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -133,7 +134,7 @@ export default async function HomePage({
               <Link
                 key={category.id}
                 href={`/kategorien/${category.slug}`}
-                className="rounded-2xl border border-border bg-paper px-4 py-4 hover:border-[#d9d0c4]"
+                className="rounded-2xl border border-border bg-background px-4 py-4 hover:border-hunt/40"
               >
                 <span className="block font-semibold tracking-tight">{category.name}</span>
                 <span className="mt-1 block text-sm text-muted-foreground">
@@ -148,7 +149,7 @@ export default async function HomePage({
       <section className="page-wrap py-14">
         <SectionHead kicker="Später automatisch" title="KI-News" href="/blog" linkLabel="Zum Bereich" />
         {news.length === 0 ? (
-          <div className="mt-6 rounded-2xl border border-dashed border-border bg-white p-6 sm:p-8">
+          <div className="mt-6 rounded-2xl border border-dashed border-border bg-card p-6 sm:p-8">
             <p className="font-medium">Hier erscheinen später Meldungen.</p>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">
               In Phase 1 wird keine Nachrichtenquelle abgefragt und kein Artikel erfunden. Der Bereich ist vorbereitet und bleibt leer, bis die Redaktion etwas freigibt oder eine erlaubte Quelle angebunden wird.
@@ -157,7 +158,7 @@ export default async function HomePage({
         ) : (
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             {news.map((item) => (
-              <article key={item.id} className="rounded-2xl border border-border bg-white p-5">
+              <article key={item.id} className="rounded-2xl border border-border bg-card p-5">
                 <h3 className="font-semibold tracking-tight">{item.title}</h3>
                 <p className="mt-2 text-sm leading-6 text-muted-foreground">{item.excerpt}</p>
               </article>
@@ -184,8 +185,8 @@ function SectionHead({
   return (
     <div className="flex items-end justify-between gap-4">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-copper">{kicker}</p>
-        <h2 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">{title}</h2>
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">{kicker}</p>
+        <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">{title}</h2>
       </div>
       <Link href={href} className="shrink-0 text-sm font-medium text-muted-foreground hover:text-foreground">
         {linkLabel}

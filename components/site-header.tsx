@@ -16,7 +16,7 @@ function active(pathname: string, href: string) {
 export function SiteHeader() {
   const pathname = usePathname();
   return (
-    <header className="sticky top-0 z-40 border-b border-border/80 bg-[#F7F5F2]/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-border/80 bg-[#0B0E0C]/85 backdrop-blur">
       <div className="page-wrap flex h-16 items-center justify-between gap-4">
         <BrandLockup />
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-1 lg:flex">
@@ -25,8 +25,8 @@ export function SiteHeader() {
               key={item.href}
               href={item.href}
               className={cn(
-                "rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:bg-white hover:text-foreground",
-                active(pathname, item.href) && "bg-white text-foreground shadow-sm",
+                "rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:bg-secondary hover:text-foreground",
+                active(pathname, item.href) && "bg-hunt/15 text-hunt",
               )}
               aria-current={active(pathname, item.href) ? "page" : undefined}
             >
@@ -36,7 +36,7 @@ export function SiteHeader() {
         </nav>
         <Sheet>
           <SheetTrigger
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-white lg:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card lg:hidden"
             aria-label="Menü öffnen"
           >
             <Menu className="h-4 w-4" />

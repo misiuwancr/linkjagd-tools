@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <article className="page-wrap max-w-3xl py-12 sm:py-16">
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-copper">{siteConfig.name}</p>
-      <h1 className="mt-3 text-4xl font-semibold tracking-tight">Über uns</h1>
+      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">{siteConfig.name}</p>
+      <h1 className="mt-3 text-4xl font-bold tracking-tight">Über uns</h1>
       <div className="mt-6 space-y-4 text-base leading-8">
         <p>
           {siteConfig.name} sammelt KI-Tools für Alltag, Arbeit und Projekte. Hinter dem Verzeichnis steht {siteConfig.creator.name}. Auf TikTok stellt er unter {siteConfig.creator.channel} Websites und Werkzeuge vor.

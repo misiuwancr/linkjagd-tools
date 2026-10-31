@@ -73,7 +73,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           <div className="flex items-start gap-4">
             <ToolLogo name={tool.name} logo={tool.logo} size={72} />
             <div>
-              <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">{tool.name}</h1>
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">{tool.name}</h1>
               <p className="mt-3 max-w-2xl text-lg leading-8 text-muted-foreground">{tool.shortDescriptionDe}</p>
             </div>
           </div>
@@ -86,12 +86,12 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             ))}
           </div>
           {tool.isExample ? (
-            <p className="mt-4 max-w-2xl rounded-2xl bg-[#F8E7DC] px-4 py-3 text-sm leading-6 text-[#6B3A22]">
+            <p className="note mt-4 max-w-2xl">
               Dieser Eintrag ist ein Beispieldatensatz. Es ist kein reales Angebot und es ist kein Partnerlink hinterlegt.
             </p>
           ) : null}
         </div>
-        <aside className="rounded-3xl border border-border bg-white p-5 shadow-card lg:sticky lg:top-24">
+        <aside className="rounded-3xl border border-border bg-card p-5 shadow-card lg:sticky lg:top-24">
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">Auf einen Blick</p>
           <dl className="mt-4 space-y-3 text-sm">
             <div className="flex justify-between gap-4">
@@ -108,7 +108,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
               <a
                 href={`/go/${tool.slug}`}
                 rel="sponsored nofollow"
-                className="flex h-12 items-center justify-center rounded-xl bg-ink px-4 text-sm font-semibold text-white"
+                className="flex h-12 items-center justify-center rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground"
               >
                 Jetzt Tool ausprobieren
               </a>
@@ -116,7 +116,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
               <button
                 type="button"
                 disabled
-                className="flex h-12 w-full cursor-not-allowed items-center justify-center rounded-xl bg-[#E7E1D8] px-4 text-sm font-semibold text-[#6D655C]"
+                className="flex h-12 w-full cursor-not-allowed items-center justify-center rounded-xl bg-secondary px-4 text-sm font-semibold text-muted-foreground"
               >
                 Jetzt Tool ausprobieren
               </button>
@@ -136,17 +136,17 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
       <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="space-y-12">
           <section>
-            <h2 className="text-2xl font-semibold tracking-tight">Über das Tool</h2>
+            <h2 className="text-2xl font-bold tracking-tight">Über das Tool</h2>
             <div className="mt-4 max-w-3xl whitespace-pre-wrap text-base leading-8 text-foreground/90">
               {tool.longDescriptionDe || "Eine ausführliche Beschreibung folgt."}
             </div>
           </section>
           {tool.featuresDe.length > 0 ? (
             <section>
-              <h2 className="text-2xl font-semibold tracking-tight">Besondere Funktionen</h2>
+              <h2 className="text-2xl font-bold tracking-tight">Besondere Funktionen</h2>
               <ul className="mt-4 max-w-3xl space-y-3">
                 {tool.featuresDe.map((feature) => (
-                  <li key={feature} className="rounded-2xl border border-border bg-white px-4 py-3 text-sm leading-6">
+                  <li key={feature} className="rounded-2xl border border-border bg-card px-4 py-3 text-sm leading-6">
                     {feature}
                   </li>
                 ))}
@@ -154,13 +154,13 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             </section>
           ) : null}
           <section>
-            <h2 className="text-2xl font-semibold tracking-tight">Vorschau</h2>
+            <h2 className="text-2xl font-bold tracking-tight">Vorschau</h2>
             {tool.screenshots.length > 0 ? (
               <div className="mt-4 grid gap-4">
                 {tool.screenshots.map((shot) =>
                   shot.endsWith(".svg") ? (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img key={shot} src={shot} alt={`Beispielvorschau von ${tool.name}`} className="w-full rounded-2xl border border-border bg-white" />
+                    <img key={shot} src={shot} alt={`Beispielvorschau von ${tool.name}`} className="w-full rounded-2xl border border-border bg-card" />
                   ) : (
                     <Image
                       key={shot}
@@ -168,7 +168,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
                       alt={`Vorschau von ${tool.name}`}
                       width={1200}
                       height={750}
-                      className="h-auto w-full rounded-2xl border border-border bg-white"
+                      className="h-auto w-full rounded-2xl border border-border bg-card"
                     />
                   ),
                 )}
@@ -178,7 +178,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             )}
           </section>
           <section>
-            <h2 className="text-2xl font-semibold tracking-tight">Ähnliche Tools</h2>
+            <h2 className="text-2xl font-bold tracking-tight">Ähnliche Tools</h2>
             {similar.length === 0 ? (
               <p className="mt-4 text-sm text-muted-foreground">In dieser Kategorie gibt es noch keine weiteren veröffentlichten Tools.</p>
             ) : (

@@ -43,7 +43,7 @@ export function ToolForm({
       {initial.id ? <input type="hidden" name="id" value={initial.id} /> : null}
       <input type="hidden" name="discoverySource" value={initial.discoverySource} />
       {state.error ? (
-        <p role="alert" className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-900">
+        <p role="alert" className="rounded-xl border border-red-800 bg-red-950 px-4 py-3 text-sm text-red-100">
           {state.error}
         </p>
       ) : null}
@@ -151,7 +151,7 @@ export function ToolForm({
       <p className="text-xs text-muted-foreground">
         Quelle: {initial.discoverySource}. Ohne aktiven Partnerlink bleibt ein veröffentlichtes Tool ohne öffentlichen Button. Partnerlinks pflegst du unter dem Formular.
       </p>
-      <button type="submit" className="h-11 rounded-xl bg-ink px-4 text-sm font-semibold text-white">
+      <button type="submit" className="h-11 rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground">
         Speichern
       </button>
     </form>

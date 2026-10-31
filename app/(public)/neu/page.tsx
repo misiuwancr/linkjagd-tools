@@ -24,8 +24,8 @@ export default async function NewPage({
   const safeQuery = { ...query, page: result.page };
   return (
     <div className="page-wrap py-12 sm:py-16">
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-copper">Frisch</p>
-      <h1 className="mt-3 text-4xl font-semibold tracking-tight">Neu hinzugefügt</h1>
+      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Frisch</p>
+      <h1 className="mt-3 text-4xl font-bold tracking-tight">Neu hinzugefügt</h1>
       <p className="mt-3 max-w-2xl text-muted-foreground">Sortiert nach dem Zeitpunkt, an dem das Tool angelegt wurde.</p>
       <div className="mt-8">
         <ResultMeta page={safeQuery.page} pageSize={query.pageSize} total={result.total} />

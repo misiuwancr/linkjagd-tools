@@ -24,13 +24,13 @@ export default async function AdminHome({
   ];
   return (
     <div>
-      <h1 className="text-3xl font-semibold tracking-tight">Übersicht</h1>
+      <h1 className="text-3xl font-bold tracking-tight">Übersicht</h1>
       <p className="mt-2 text-sm text-muted-foreground">Werkzeuge, Partnerlinks und Entwürfe aus Import oder Einreichung.</p>
       <Flash gespeichert={searchParams.gespeichert} fehler={searchParams.fehler} />
       <div className="mt-6 grid gap-3 sm:grid-cols-3">
         {cards.map(([label, value]) => (
-          <div key={label} className="rounded-2xl border border-border bg-white p-4">
-            <p className="text-2xl font-semibold tabular-nums">{value}</p>
+          <div key={label} className="rounded-2xl border border-border bg-card p-4">
+            <p className="text-2xl font-bold tabular-nums">{value}</p>
             <p className="text-sm text-muted-foreground">{label}</p>
           </div>
         ))}
@@ -41,8 +41,8 @@ export default async function AdminHome({
         </Link>
       </p>
 
-      <section id="meldungen" className="mt-12 rounded-3xl border border-border bg-white p-5">
-        <h2 className="text-xl font-semibold">KI-News</h2>
+      <section id="meldungen" className="mt-12 rounded-3xl border border-border bg-card p-5">
+        <h2 className="text-xl font-bold">KI-News</h2>
         <p className="mt-2 text-sm text-muted-foreground">
           Manuelle Notiz für den Blog. Es wird keine Quelle automatisch gelesen.
         </p>
@@ -55,15 +55,15 @@ export default async function AdminHome({
             <option value="draft">Entwurf</option>
             <option value="published">Veröffentlicht</option>
           </select>
-          <button className="h-11 rounded-xl bg-ink text-sm font-semibold text-white" type="submit">
+          <button className="h-11 rounded-xl bg-primary text-sm font-semibold text-primary-foreground" type="submit">
             Meldung speichern
           </button>
         </form>
       </section>
 
       {user.role === "admin" ? (
-        <section className="mt-8 rounded-3xl border border-border bg-white p-5">
-          <h2 className="text-xl font-semibold">Redaktionskonto</h2>
+        <section className="mt-8 rounded-3xl border border-border bg-card p-5">
+          <h2 className="text-xl font-bold">Redaktionskonto</h2>
           <p className="mt-2 text-sm text-muted-foreground">Legt ein Konto mit der Rolle Redaktion an. Admins bleiben unangetastet.</p>
           <form action={createEditorAction} className="mt-4 grid gap-3 sm:grid-cols-2">
             <input name="email" type="email" required placeholder="E-Mail" className="field" />

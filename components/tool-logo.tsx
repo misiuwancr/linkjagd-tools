@@ -28,7 +28,7 @@ export function ToolLogo({
         alt=""
         width={size}
         height={size}
-        className={cn("rounded-xl border border-border bg-white object-cover", className)}
+        className={cn("rounded-xl border border-border bg-card object-cover", className)}
         style={box}
       />
     );
@@ -42,7 +42,7 @@ export function ToolLogo({
         alt=""
         width={size}
         height={size}
-        className={cn("rounded-xl border border-border bg-white object-cover", className)}
+        className={cn("rounded-xl border border-border bg-card object-cover", className)}
       />
     );
   }
@@ -50,7 +50,7 @@ export function ToolLogo({
     <span
       aria-hidden="true"
       className={cn(
-        "inline-grid shrink-0 place-items-center rounded-xl bg-ink font-semibold text-[#F6F1EA]",
+        "inline-grid shrink-0 place-items-center rounded-xl bg-black font-semibold text-hunt ring-1 ring-hunt/40",
         className,
       )}
       style={{ width: size, height: size, fontSize: size < 40 ? 12 : 15 }}

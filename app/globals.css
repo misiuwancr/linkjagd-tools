@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 40 23% 97%;
-    --foreground: 30 12% 10%;
-    --card: 0 0% 100%;
-    --card-foreground: 30 12% 10%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 30 12% 10%;
-    --primary: 30 12% 10%;
-    --primary-foreground: 40 33% 97%;
-    --secondary: 36 16% 93%;
-    --secondary-foreground: 30 12% 14%;
-    --muted: 36 16% 93%;
-    --muted-foreground: 25 8% 38%;
-    --accent: 18 64% 47%;
-    --accent-foreground: 0 0% 100%;
+    --background: 140 12% 5%;
+    --foreground: 96 24% 96%;
+    --card: 144 11% 9%;
+    --card-foreground: 96 24% 96%;
+    --popover: 150 12% 13%;
+    --popover-foreground: 96 24% 96%;
+    --primary: 74 91% 58%;
+    --primary-foreground: 140 12% 5%;
+    --secondary: 150 12% 13%;
+    --secondary-foreground: 96 24% 96%;
+    --muted: 150 12% 13%;
+    --muted-foreground: 127 8% 79%;
+    --accent: 74 91% 58%;
+    --accent-foreground: 140 12% 5%;
     --destructive: 0 72% 42%;
     --destructive-foreground: 0 0% 100%;
-    --border: 32 16% 86%;
-    --input: 32 16% 86%;
-    --ring: 18 64% 47%;
+    --border: 150 12% 20%;
+    --input: 150 12% 20%;
+    --ring: 74 91% 58%;
     --radius: 0.9rem;
   }
 
@@ -31,17 +31,24 @@
   }
 
   html {
+    color-scheme: dark;
     scroll-behavior: smooth;
   }
 
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "ss01" on, "cv11" on;
+    background-image: radial-gradient(900px 420px at 12% -10%, rgba(198, 245, 49, 0.08), transparent 55%);
   }
 
   :focus-visible {
     outline: 2px solid hsl(var(--ring));
     outline-offset: 2px;
+  }
+
+  ::selection {
+    background: #c6f531;
+    color: #0b0e0c;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -65,10 +72,14 @@
   }
 
   .field {
-    @apply h-11 w-full rounded-xl border border-input bg-white px-3 text-sm text-foreground shadow-sm outline-none placeholder:text-muted-foreground;
+    @apply h-11 w-full rounded-xl border border-input bg-[#101411] px-3 text-sm text-foreground shadow-sm outline-none placeholder:text-muted-foreground;
   }
 
   .area {
-    @apply min-h-28 w-full rounded-xl border border-input bg-white px-3 py-2 text-sm text-foreground shadow-sm outline-none placeholder:text-muted-foreground;
+    @apply min-h-28 w-full rounded-xl border border-input bg-[#101411] px-3 py-2 text-sm text-foreground shadow-sm outline-none placeholder:text-muted-foreground;
+  }
+
+  .note {
+    @apply rounded-2xl border border-hunt/30 bg-hunt/10 px-4 py-3 text-sm leading-6 text-foreground;
   }
 }

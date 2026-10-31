@@ -57,8 +57,8 @@ export default async function ToolsPage({
           inLanguage: "de",
         }}
       />
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-copper">Verzeichnis</p>
-      <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Alle Tools</h1>
+      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Verzeichnis</p>
+      <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">Alle Tools</h1>
       <p className="mt-3 max-w-2xl text-base leading-7 text-muted-foreground">
         Suche im Namen, in der Beschreibung und in der Kategorie. Filter und Sortierung stehen in der Adresse, damit du eine Ansicht teilen kannst.
       </p>

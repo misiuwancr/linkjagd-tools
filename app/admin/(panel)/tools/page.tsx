@@ -30,10 +30,10 @@ export default async function AdminToolsPage({
     <div>
       <div className="flex items-end justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-semibold tracking-tight">Tools</h1>
+          <h1 className="text-3xl font-bold tracking-tight">Tools</h1>
           <p className="mt-2 text-sm text-muted-foreground">{result.total} Einträge in dieser Ansicht.</p>
         </div>
-        <Link href="/admin/tools/neu" className="rounded-full bg-ink px-4 py-2 text-sm font-medium text-white">
+        <Link href="/admin/tools/neu" className="rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground">
           Neu
         </Link>
       </div>
@@ -45,12 +45,12 @@ export default async function AdminToolsPage({
           ["draft", "Entwürfe"],
           ["archived", "Archiv"],
         ].map(([value, label]) => (
-          <Link key={value} href={value === "all" ? "/admin/tools" : `/admin/tools?status=${value}`} className="rounded-full border border-border bg-white px-3 py-1">
+          <Link key={value} href={value === "all" ? "/admin/tools" : `/admin/tools?status=${value}`} className="rounded-full border border-border bg-card px-3 py-1">
             {label}
           </Link>
         ))}
       </div>
-      <div className="mt-4 overflow-hidden rounded-2xl border border-border bg-white">
+      <div className="mt-4 overflow-hidden rounded-2xl border border-border bg-card">
         <table className="w-full min-w-[720px] text-left text-sm">
           <thead className="border-b border-border text-xs uppercase tracking-wide text-muted-foreground">
             <tr>

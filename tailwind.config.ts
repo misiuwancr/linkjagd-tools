@@ -42,9 +42,10 @@ const config: Config = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        ink: "#1C1915",
-        paper: "#F7F5F2",
-        copper: "#C4622D",
+        ink: "#0B0E0C",
+        paper: "#0B0E0C",
+        hunt: "#C6F531",
+        copper: "#C6F531",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -52,7 +53,7 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       boxShadow: {
-        card: "0 1px 2px rgba(28, 25, 21, 0.04), 0 12px 32px -24px rgba(28, 25, 21, 0.45)",
+        card: "0 0 0 1px rgba(198, 245, 49, 0.06), 0 18px 40px -28px rgba(0, 0, 0, 0.8)",
       },
       maxWidth: {
         page: "1120px",

@@ -2,7 +2,7 @@
 
 Deutschsprachiges Verzeichnis für KI-Tools. Öffentliche Ausprobieren-Buttons führen nur über `/go/[slug]` und nur auf einen hinterlegten Partnerlink.
 
-Der Projektname steht allein in [`site.config.ts`](site.config.ts).
+Der Projektname steht allein in [`site.config.ts`](site.config.ts). Das dunkle Erscheinungsbild ist in [`docs/MARKE.md`](docs/MARKE.md) begründet.
 
 Grundlage ist das MIT-lizenzierte [9d8/directory](https://github.com/9d8dev/directory). Siehe `LICENSE` und `NOTICE`. Die Analyse der Vorlage steht in [`docs/ANALYSE.md`](docs/ANALYSE.md).
 

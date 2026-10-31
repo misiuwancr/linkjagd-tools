@@ -24,13 +24,13 @@ export default async function EditToolPage({
   return (
     <div className="grid gap-8">
       <div>
-        <h1 className="text-3xl font-semibold tracking-tight">{tool.name}</h1>
+        <h1 className="text-3xl font-bold tracking-tight">{tool.name}</h1>
         <p className="mt-2 text-sm text-muted-foreground">
           {publishLabels[tool.publishStatus]} · {tool.slug}
         </p>
       </div>
       <Flash gespeichert={searchParams.gespeichert} fehler={searchParams.fehler} />
-      <div className="rounded-3xl border border-border bg-white p-5">
+      <div className="rounded-3xl border border-border bg-card p-5">
         <ToolForm
           categories={categories}
           initial={{
@@ -56,8 +56,8 @@ export default async function EditToolPage({
         />
       </div>
 
-      <section className="rounded-3xl border border-border bg-white p-5">
-        <h2 className="text-xl font-semibold">Partnerprogramme</h2>
+      <section className="rounded-3xl border border-border bg-card p-5">
+        <h2 className="text-xl font-bold">Partnerprogramme</h2>
         <p className="mt-2 text-sm text-muted-foreground">
           Öffentlich wird nur ein Programm verwendet, das aktiv ist, den Status „Affiliate-Link aktiv“ hat und eine gültige URL besitzt. Die Original-URL ist kein Ersatz.
         </p>
@@ -106,7 +106,7 @@ export default async function EditToolPage({
               </div>
               <textarea name="notes" defaultValue={program.notes ?? ""} className="area" placeholder="Notiz" />
               <div className="flex flex-wrap gap-2">
-                <button type="submit" className="h-10 rounded-xl bg-ink px-4 text-sm font-medium text-white">
+                <button type="submit" className="h-10 rounded-xl bg-primary px-4 text-sm font-medium text-primary-foreground">
                   Programm speichern
                 </button>
               </div>
@@ -161,7 +161,7 @@ export default async function EditToolPage({
           <form key={status} action={statusAction}>
             <input type="hidden" name="id" value={tool.id} />
             <input type="hidden" name="status" value={status} />
-            <button type="submit" className="h-10 rounded-full border border-border bg-white px-4 text-sm">
+            <button type="submit" className="h-10 rounded-full border border-border bg-card px-4 text-sm">
               {publishLabels[status]}
             </button>
           </form>

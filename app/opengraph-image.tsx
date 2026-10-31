@@ -12,19 +12,19 @@ export default function OpenGraphImage() {
           display: "flex",
           height: "100%",
           width: "100%",
-          background: "#1C1915",
-          color: "#F6F1EA",
+          background: "#0B0E0C",
+          color: "#F4F7F2",
           padding: "72px",
           flexDirection: "column",
           justifyContent: "space-between",
         }}
       >
-        <div style={{ display: "flex", fontSize: 28, letterSpacing: 6, color: "#E08A45" }}>LINKJAGD TOOLS</div>
+        <div style={{ display: "flex", fontSize: 28, letterSpacing: 6, color: "#C6F531" }}>LINKJAGD TOOLS</div>
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <div style={{ display: "flex", fontSize: 68, fontWeight: 600, lineHeight: 1.05, maxWidth: 900 }}>
             Entdecke die besten KI-Tools.
           </div>
-          <div style={{ display: "flex", fontSize: 28, color: "#D9D0C5" }}>
+          <div style={{ display: "flex", fontSize: 28, color: "#C5CEC6" }}>
             Alltag, Arbeit und Projekte.
           </div>
         </div>
