@@ -21,6 +21,7 @@ export const siteConfig = {
     { href: "/neu", label: "Neu hinzugefügt" },
     { href: "/kategorien", label: "Kategorien" },
     { href: "/fuer", label: "Sammlungen" },
+    { href: "/merkliste", label: "Merkliste" },
     { href: "/blog", label: "Blog" },
     { href: "/einreichen", label: "Tool einreichen" },
   ],
