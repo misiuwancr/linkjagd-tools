@@ -1,0 +1,1259 @@
+[
+  {
+    "name": "Voiceflow",
+    "originalUrl": "https://www.voiceflow.com/",
+    "domain": "voiceflow.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Voiceflow baut Gesprächsabläufe für Chat und Sprache.",
+    "longDescriptionDe": "Voiceflow setzt Schritte visuell und bindet ein Modell an. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Gesprächsabläufe",
+      "Chat und Sprache",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Support-Chat zu bauen",
+      "Einen Ablauf ohne Code zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Botpress",
+    "originalUrl": "https://www.botpress.com/",
+    "domain": "botpress.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Botpress baut Chatbots und stellt sie auf eine Website.",
+    "longDescriptionDe": "Botpress legt Wissen und Abläufe an. Es gibt einen kostenlosen Einstieg und bezahlte Nachrichten.",
+    "featuresDe": [
+      "Chatbots",
+      "Wissen und Abläufe",
+      "Kostenloser Einstieg und bezahlte Nachrichten"
+    ],
+    "useCasesDe": [
+      "Einen Bot auf die eigene Seite zu setzen",
+      "Antworten aus eigenen Texten zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Landbot",
+    "originalUrl": "https://www.landbot.io/",
+    "domain": "landbot.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Landbot macht aus einem Flussdiagramm einen Chat auf der Website.",
+    "longDescriptionDe": "Landbot verbindet Fragen und leitet zu einer Person. Es gibt einen kostenlosen Einstieg und bezahlte Chats.",
+    "featuresDe": [
+      "Chat aus einem Diagramm",
+      "Weiterleitung",
+      "Kostenloser Einstieg und bezahlte Chats"
+    ],
+    "useCasesDe": [
+      "Eine Anmeldung als Chat zu bauen",
+      "Besucher an das Team zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Chatfuel",
+    "originalUrl": "https://www.chatfuel.com/",
+    "domain": "chatfuel.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Chatfuel baut Chats für WhatsApp und andere Messenger.",
+    "longDescriptionDe": "Chatfuel legt Antworten und Sequenzen an. Es gibt einen kostenlosen Einstieg und bezahlte Kontakte.",
+    "featuresDe": [
+      "Chats für Messenger",
+      "Sequenzen",
+      "Kostenloser Einstieg und bezahlte Kontakte"
+    ],
+    "useCasesDe": [
+      "Einen WhatsApp-Ablauf zu starten",
+      "Eine Sequenz an Kontakte zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Relay.app",
+    "originalUrl": "https://www.relay.app/",
+    "domain": "relay.app",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Relay verbindet Dienste und lässt einen Assistenten Schritte prüfen.",
+    "longDescriptionDe": "Relay startet einen Ablauf nach einem Ereignis. Es gibt einen kostenlosen Einstieg und bezahlte Schritte.",
+    "featuresDe": [
+      "Abläufe zwischen Diensten",
+      "Prüfung durch einen Menschen",
+      "Kostenloser Einstieg und bezahlte Schritte"
+    ],
+    "useCasesDe": [
+      "Eine Mail in eine Aufgabe zu verwandeln",
+      "Einen Schritt vor dem Senden zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Axiom.ai",
+    "originalUrl": "https://www.axiom.ai/",
+    "domain": "axiom.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Axiom klickt Webseiten nach einem aufgenommenen Ablauf ab.",
+    "longDescriptionDe": "Axiom zeichnet Klicks auf und wiederholt sie. Es gibt einen kostenlosen Einstieg und bezahlte Läufe.",
+    "featuresDe": [
+      "Aufgezeichnete Klicks",
+      "Wiederholung",
+      "Kostenloser Einstieg und bezahlte Läufe"
+    ],
+    "useCasesDe": [
+      "Eine wiederkehrende Klickfolge aufzunehmen",
+      "Einen Ablauf ohne API zu wiederholen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Browse AI",
+    "originalUrl": "https://www.browse.ai/",
+    "domain": "browse.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Browse AI liest Daten von Webseiten nach einem einmal gezeigten Muster.",
+    "longDescriptionDe": "Browse AI überwacht eine Seite und liefert Zeilen. Es gibt einen kostenlosen Einstieg und bezahlte Läufe.",
+    "featuresDe": [
+      "Daten von Seiten",
+      "Überwachung",
+      "Kostenloser Einstieg und bezahlte Läufe"
+    ],
+    "useCasesDe": [
+      "Eine Liste von einer Seite zu ziehen",
+      "Eine Änderung auf einer Seite zu bemerken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PhantomBuster",
+    "originalUrl": "https://www.phantombuster.com/",
+    "domain": "phantombuster.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung",
+      "marketing"
+    ],
+    "shortDescriptionDe": "PhantomBuster zieht Daten aus dem Web und startet kleine Abläufe.",
+    "longDescriptionDe": "PhantomBuster führt fertige Bausteine auf Seiten aus. Es gibt einen Einstieg und bezahlte Stunden.",
+    "featuresDe": [
+      "Daten aus dem Web",
+      "Fertige Bausteine",
+      "Einstieg und bezahlte Stunden"
+    ],
+    "useCasesDe": [
+      "Eine Liste aus einer Seite zu exportieren",
+      "Einen kleinen Ablauf täglich laufen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Workato",
+    "originalUrl": "https://www.workato.com/",
+    "domain": "workato.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Workato verbindet Unternehmenssoftware über fertige Abläufe.",
+    "longDescriptionDe": "Workato startet Schritte zwischen Systemen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Abläufe zwischen Systemen",
+      "Fertige Verbindungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Zwei Systeme ohne eigenen Code zu verbinden",
+      "Einen Ablauf im Team zu betreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tray.io",
+    "originalUrl": "https://tray.io/",
+    "domain": "tray.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Tray verbindet Dienste in grafischen Abläufen.",
+    "longDescriptionDe": "Tray setzt Schritte zwischen APIs. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Grafische Abläufe",
+      "Schritte zwischen APIs",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Ablauf zwischen zwei Diensten zu bauen",
+      "Einen Fehler im Schritt zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Systeme.io",
+    "originalUrl": "https://www.systeme.io/",
+    "domain": "systeme.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Systeme.io bündelt Seiten, E-Mails und einen einfachen Shop.",
+    "longDescriptionDe": "Systeme.io legt eine Strecke aus Seite und Mail an. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Seiten und E-Mails",
+      "Einfacher Shop",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Anmeldeseite mit Mailfolge zu bauen",
+      "Ein digitales Produkt anzubieten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kajabi",
+    "originalUrl": "https://www.kajabi.com/",
+    "domain": "kajabi.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Kajabi verkauft Kurse, Mitgliedschaften und E-Mails an einem Ort.",
+    "longDescriptionDe": "Kajabi legt Lektionen und eine Kasse an. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Kurse und Mitgliedschaften",
+      "E-Mails",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Kurs online zu verkaufen",
+      "Eine Mail an die Teilnehmenden zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Teachable",
+    "originalUrl": "https://www.teachable.com/",
+    "domain": "teachable.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Teachable veröffentlicht Kurse und nimmt die Zahlung dafür an.",
+    "longDescriptionDe": "Teachable legt Lektionen und eine Verkaufsseite an. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kurse",
+      "Zahlung",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Kurs mit Videos zu veröffentlichen",
+      "Eine Lektion freizuschalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Podia",
+    "originalUrl": "https://www.podia.com/",
+    "domain": "podia.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Podia verkauft Kurse, Downloads und Newsletter.",
+    "longDescriptionDe": "Podia legt ein Produkt an und verschickt es an Käufer. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kurse und Downloads",
+      "Newsletter",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein digitales Produkt zu verkaufen",
+      "Einen Newsletter an Käufer zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ClickFunnels",
+    "originalUrl": "https://www.clickfunnels.com/",
+    "domain": "clickfunnels.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "ClickFunnels baut Verkaufsstrecken aus Seiten, die aufeinander folgen.",
+    "longDescriptionDe": "ClickFunnels setzt eine Seite nach der anderen bis zur Kasse. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Verkaufsstrecken",
+      "Seitenfolge",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Anmeldeseite mit der nächsten Seite zu verbinden",
+      "Eine Kasse an die Strecke zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Unbounce",
+    "originalUrl": "https://www.unbounce.com/",
+    "domain": "unbounce.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing",
+      "design"
+    ],
+    "shortDescriptionDe": "Unbounce baut Landingpages und testet zwei Fassungen gegeneinander.",
+    "longDescriptionDe": "Unbounce veröffentlicht eine Seite und verteilt den Traffic. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Landingpages",
+      "Zwei Fassungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Seite für eine Anzeige zu bauen",
+      "Zwei Überschriften zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Leadpages",
+    "originalUrl": "https://www.leadpages.com/",
+    "domain": "leadpages.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing",
+      "design"
+    ],
+    "shortDescriptionDe": "Leadpages setzt Anmeldeseiten und hängt sie an eine Liste.",
+    "longDescriptionDe": "Leadpages veröffentlicht eine Seite und sammelt Adressen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Anmeldeseiten",
+      "Liste",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Seite für eine Anmeldung zu bauen",
+      "Adressen an eine Liste zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Instapage",
+    "originalUrl": "https://www.instapage.com/",
+    "domain": "instapage.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing",
+      "design"
+    ],
+    "shortDescriptionDe": "Instapage baut Landingpages und zeigt, welche Fassung besser ankommt.",
+    "longDescriptionDe": "Instapage setzt Seiten für Anzeigen und vergleicht sie. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Landingpages",
+      "Vergleich von Fassungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Seite zu einer Kampagne zu bauen",
+      "Zwei Varianten zu messen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "VWO",
+    "originalUrl": "https://www.vwo.com/",
+    "domain": "vwo.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "VWO testet zwei Fassungen einer Seite und zeichnet Sitzungen auf.",
+    "longDescriptionDe": "VWO verteilt Besucher auf Varianten. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Tests von Seitenvarianten",
+      "Sitzungen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Überschrift gegen eine andere zu testen",
+      "Zu sehen, wo Leute abspringen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Optimizely",
+    "originalUrl": "https://www.optimizely.com/",
+    "domain": "optimizely.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Optimizely testet Inhalte und Funktionen auf einer Website.",
+    "longDescriptionDe": "Optimizely schaltet Varianten für einen Teil der Besucher frei. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Tests von Inhalten",
+      "Varianten",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Funktion nur für einen Teil zu zeigen",
+      "Zwei Fassungen zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kameleoon",
+    "originalUrl": "https://www.kameleoon.com/",
+    "domain": "kameleoon.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Kameleoon testet Seitenvarianten und personalisiert Inhalte.",
+    "longDescriptionDe": "Kameleoon zeigt verschiedenen Gruppen verschiedene Fassungen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Seitenvarianten",
+      "Personalisierung",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Variante nur einer Gruppe zu zeigen",
+      "Einen Test auszuwerten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Crazy Egg",
+    "originalUrl": "https://www.crazyegg.com/",
+    "domain": "crazyegg.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Crazy Egg zeigt, wo auf einer Seite geklickt wird.",
+    "longDescriptionDe": "Crazy Egg legt eine Heatmap über die Seite. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Heatmap",
+      "Klicks",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Zu sehen, welche Stelle niemand klickt",
+      "Eine Seite nach den Klicks zu ändern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Smartlook",
+    "originalUrl": "https://www.smartlook.com/",
+    "domain": "smartlook.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Smartlook zeichnet Sitzungen auf und zeigt Heatmaps.",
+    "longDescriptionDe": "Smartlook spielt einen Besuch nach. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Sitzungsaufzeichnung",
+      "Heatmaps",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Besuch nachzusehen",
+      "Zu sehen, wo eine Seite hakt"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lucky Orange",
+    "originalUrl": "https://www.luckyorange.com/",
+    "domain": "luckyorange.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Lucky Orange zeichnet Besuche auf und bietet einen Chat dazu.",
+    "longDescriptionDe": "Lucky Orange zeigt Heatmaps und einzelne Sitzungen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Sitzungen und Heatmaps",
+      "Chat",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Besuch mit Abbruch nachzusehen",
+      "Eine Frage im Chat zu beantworten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Maze UX",
+    "originalUrl": "https://www.maze.co/",
+    "domain": "maze.co",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Maze lässt Menschen einen Prototyp durchklicken und sammelt die Wege.",
+    "longDescriptionDe": "Maze misst, wo jemand hängen bleibt. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Tests von Prototypen",
+      "Wege der Tester",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Prototyp testen zu lassen",
+      "Zu sehen, welche Aufgabe scheitert"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Useberry",
+    "originalUrl": "https://www.useberry.com/",
+    "domain": "useberry.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Useberry testet Prototypen und zeigt, wohin geklickt wurde.",
+    "longDescriptionDe": "Useberry sammelt Aufgaben und Klickpfade. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Prototyp-Tests",
+      "Klickpfade",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Entwurf vor dem Bau zu testen",
+      "Klickpfade zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Optimal Workshop",
+    "originalUrl": "https://www.optimalworkshop.com/",
+    "domain": "optimalworkshop.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Optimal Workshop testet, wie Leute Informationen sortieren und suchen.",
+    "longDescriptionDe": "Optimal Workshop legt Kartensortierungen und Baumtests an. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kartensortierung",
+      "Baumtests",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Navigation testen zu lassen",
+      "Zu sehen, wie Begriffe sortiert werden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "UserTesting",
+    "originalUrl": "https://www.usertesting.com/",
+    "domain": "usertesting.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "UserTesting zeichnet auf, wie Menschen eine Website laut bedienen.",
+    "longDescriptionDe": "UserTesting liefert Videos von echten Aufgaben. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Videos von Tests",
+      "Aufgaben",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Zu hören, wo jemand auf einer Seite stockt",
+      "Eine Aufgabe an Testpersonen zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zeplin",
+    "originalUrl": "https://www.zeplin.io/",
+    "domain": "zeplin.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Zeplin übergibt Designs mit Maßen und Farben an die Entwicklung.",
+    "longDescriptionDe": "Zeplin zeigt Abstände und Farben aus der Datei. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Maße und Farben",
+      "Übergabe an die Entwicklung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Abstand aus dem Design abzulesen",
+      "Eine Farbe an die Entwicklung zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ProtoPie",
+    "originalUrl": "https://www.protopie.io/",
+    "domain": "protopie.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "ProtoPie macht aus Designs einen klickbaren Prototyp mit Sensoren.",
+    "longDescriptionDe": "ProtoPie verbindet Screens und Reaktionen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Klickbare Prototypen",
+      "Sensoren",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Ablauf zum Durchklicken zu bauen",
+      "Eine Interaktion ohne Code zu zeigen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "InVision",
+    "originalUrl": "https://www.invisionapp.com/",
+    "domain": "invisionapp.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "InVision macht aus Bildschirmen einen klickbaren Prototyp.",
+    "longDescriptionDe": "InVision verbindet Screens und sammelt Kommentare. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Klickbare Prototypen",
+      "Kommentare",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Ablauf zu zeigen",
+      "Kommentare auf einem Screen zu sammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Principle",
+    "originalUrl": "https://principleformac.com/",
+    "domain": "principleformac.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Principle animiert Übergänge zwischen App-Screens auf dem Mac.",
+    "longDescriptionDe": "Principle verbindet Zeichenflächen mit Bewegungen. Die App ist kostenpflichtig.",
+    "featuresDe": [
+      "Animierte Übergänge",
+      "Screens",
+      "Kostenpflichtige App"
+    ],
+    "useCasesDe": [
+      "Einen Übergang zwischen zwei Screens zu zeigen",
+      "Eine Bewegung zeitlich zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Copper",
+    "originalUrl": "https://www.copper.com/",
+    "domain": "copper.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Copper führt Kontakte und Deals direkt in Google Workspace.",
+    "longDescriptionDe": "Copper hängt das CRM an Gmail und den Kalender. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "CRM in Google Workspace",
+      "Deals",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Deal neben der Mail zu sehen",
+      "Kontakte aus Gmail zu übernehmen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Streak",
+    "originalUrl": "https://www.streak.com/",
+    "domain": "streak.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Streak legt eine Pipeline in den Gmail-Posteingang.",
+    "longDescriptionDe": "Streak macht aus Mails Phasen eines Vorgangs. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Pipeline in Gmail",
+      "Phasen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Bewerbungen im Posteingang zu führen",
+      "Eine Mail einer Phase zuzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Affinity CRM",
+    "originalUrl": "https://www.affinity.co/",
+    "domain": "affinity.co",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Affinity führt Beziehungen und zeigt, wer wen im Netzwerk kennt.",
+    "longDescriptionDe": "Affinity liest Mailkontakte und baut daraus ein Beziehungsnetz. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Beziehungsnetz",
+      "Mailkontakte",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Zu sehen, wer einen Kontakt kennt",
+      "Eine Beziehung über die Zeit zu führen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zoho",
+    "originalUrl": "https://www.zoho.com/",
+    "domain": "zoho.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Zoho bündelt CRM, Mail, Projekte und weitere Büro-Apps.",
+    "longDescriptionDe": "Zoho bietet einzelne Apps mit eigenem Einstieg. Viele haben einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "CRM, Mail, Projekte",
+      "Einzelne Apps",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein CRM ohne ein zweites System zu starten",
+      "Mail und Kontakte zu verbinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Busuu",
+    "originalUrl": "https://www.busuu.com/",
+    "domain": "busuu.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Busuu übt Sprachen mit Lektionen und Rückmeldung von anderen Lernenden.",
+    "longDescriptionDe": "Busuu legt kurze Einheiten und Wiederholungen an. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Sprachlektionen",
+      "Rückmeldung",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Täglich eine kurze Lektion zu machen",
+      "Einen Text korrigieren zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Memrise",
+    "originalUrl": "https://www.memrise.com/",
+    "domain": "memrise.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Memrise übt Vokabeln mit kurzen Wiederholungen und Videos.",
+    "longDescriptionDe": "Memrise zeigt Karten und merkt sich, was noch unsicher ist. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Vokabeln",
+      "Wiederholung",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Wörter über Tage zu wiederholen",
+      "Eine kurze Einheit unterwegs zu machen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cambly",
+    "originalUrl": "https://www.cambly.com/",
+    "domain": "cambly.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Cambly verbindet mit Lehrkräften für Gespräche auf Englisch per Video.",
+    "longDescriptionDe": "Cambly bucht eine Unterrichtsstunde im Video. Die Stunden sind kostenpflichtig.",
+    "featuresDe": [
+      "Video-Unterricht",
+      "Englisch",
+      "Kostenpflichtige Stunden"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch auf Englisch zu üben",
+      "Eine Stunde zu buchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Weebly",
+    "originalUrl": "https://www.weebly.com/",
+    "domain": "weebly.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Weebly baut Websites und einen kleinen Shop im Browser.",
+    "longDescriptionDe": "Weebly setzt Seiten per Drag-and-drop. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Websites",
+      "Kleiner Shop",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine einfache Seite zu veröffentlichen",
+      "Einen kleinen Shop dazuzusetzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sellfy",
+    "originalUrl": "https://www.sellfy.com/",
+    "domain": "sellfy.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Sellfy verkauft Downloads und Abos und liefert die Datei nach der Zahlung.",
+    "longDescriptionDe": "Sellfy legt ein digitales Produkt an und schickt den Link. Es gibt einen Einstieg und Gebühren je Verkauf.",
+    "featuresDe": [
+      "Downloads und Abos",
+      "Lieferung nach Zahlung",
+      "Einstieg und Gebühren je Verkauf"
+    ],
+    "useCasesDe": [
+      "Eine Datei direkt zu verkaufen",
+      "Ein Abo für Inhalte anzubieten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Google Übersetzer",
+    "originalUrl": "https://translate.google.com/",
+    "domain": "translate.google.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Google Übersetzer überträgt Texte und kurze Gespräche zwischen Sprachen.",
+    "longDescriptionDe": "Der Übersetzer nimmt Text, Sprache oder ein Bild. Die Nutzung im Browser ist ohne Abo möglich.",
+    "featuresDe": [
+      "Text- und Bildübersetzung",
+      "Mehrere Sprachen",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Absatz zu übersetzen",
+      "Ein Gespräch live übertragen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cursor",
+    "originalUrl": "https://www.cursor.com/",
+    "domain": "cursor.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Cursor ist ein Editor, der Code vorschlägt und Aufgaben im Projekt übernimmt.",
+    "longDescriptionDe": "Cursor schreibt beim Tippen mit und kann Änderungen über Dateien vorschlagen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Editor mit Vorschlägen",
+      "Aufgaben im Projekt",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Funktion beim Tippen ergänzen zu lassen",
+      "Eine Änderung über mehrere Dateien vorzuschlagen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]

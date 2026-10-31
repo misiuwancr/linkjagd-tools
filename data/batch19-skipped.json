@@ -1,0 +1,12 @@
+[
+  {"name": "AnkiWeb", "reason": "Anki ist bereits über apps.ankiweb.net eingetragen."},
+  {"name": "PONS.com", "reason": "PONS ist bereits über de.pons.com eingetragen."},
+  {"name": "Jira.com", "reason": "Jira ist bereits über atlassian.com eingetragen."},
+  {"name": "Linguee.com", "reason": "Linguee ist bereits über linguee.de eingetragen."},
+  {"name": "Freshdesk", "reason": "Dieselbe Marke ist bereits über freshworks.com eingetragen."},
+  {"name": "Amazon", "reason": "Kein einzelnes Werkzeug, sondern ein Marktplatz."},
+  {"name": "Apple", "reason": "Kein einzelnes Werkzeug, sondern ein Konzernauftritt."},
+  {"name": "Google", "reason": "Kein einzelnes Werkzeug, sondern ein Konzernauftritt. Der Übersetzer ist separat erfasst."},
+  {"name": "Netflix", "reason": "Streaming-Angebot, kein Werkzeug."},
+  {"name": "Spotify", "reason": "Streaming-Angebot, kein Werkzeug."}
+]
