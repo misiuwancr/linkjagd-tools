@@ -20,6 +20,7 @@ export const siteConfig = {
     { href: "/tools?sort=alphabetisch", label: "Alphabetisch" },
     { href: "/neu", label: "Neu hinzugefügt" },
     { href: "/kategorien", label: "Kategorien" },
+    { href: "/fuer", label: "Sammlungen" },
     { href: "/blog", label: "Blog" },
     { href: "/einreichen", label: "Tool einreichen" },
   ],
