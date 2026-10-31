@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Hailuo",
+    "originalUrl": "https://hailuoai.video/",
+    "domain": "hailuoai.video",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung"
+    ],
+    "shortDescriptionDe": "Hailuo erzeugt kurze Videos aus Text oder einem Bild.",
+    "longDescriptionDe": "Hailuo, von MiniMax, nimmt eine Beschreibung und liefert einen Clip. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Video aus Text oder Bild",
+      "Kurze Clips",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Einen kurzen Clip aus einer Beschreibung zu erzeugen",
+      "Ein Standbild in Bewegung zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Haiper",
+    "originalUrl": "https://haiper.ai/",
+    "domain": "haiper.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung"
+    ],
+    "shortDescriptionDe": "Haiper macht kurze Videos aus Text und Bildern.",
+    "longDescriptionDe": "Haiper nimmt einen Prompt und erzeugt einen Clip. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Video aus Text",
+      "Kurze Clips",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Einen Clip aus einem Satz zu holen",
+      "Mehrere Varianten zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Manus",
+    "originalUrl": "https://manus.im/",
+    "domain": "manus.im",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Manus übernimmt Aufgaben im Browser und arbeitet sie als Agent ab.",
+    "longDescriptionDe": "Manus nimmt einen Auftrag und führt Schritte auf Webseiten und in Dateien aus. Es gibt einen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Agent für Aufgaben",
+      "Schritte im Browser",
+      "Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Recherche an einen Agenten zu geben",
+      "Den Ablauf der Schritte zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Qwen",
+    "originalUrl": "https://qwen.ai/",
+    "domain": "qwen.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Qwen ist der Chat von Alibaba und beantwortet Fragen im Browser.",
+    "longDescriptionDe": "Qwen führt ein Gespräch und kann Texte und Code bearbeiten. Es gibt einen kostenlosen Einstieg.",
+    "featuresDe": [
+      "Chat im Browser",
+      "Text und Code",
+      "Kostenloser Einstieg"
+    ],
+    "useCasesDe": [
+      "Eine Frage im Chat zu stellen",
+      "Einen Text umschreiben zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Z.ai",
+    "originalUrl": "https://z.ai/",
+    "domain": "z.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Z.ai führt einen Chat mit den GLM-Modellen von Zhipu.",
+    "longDescriptionDe": "Z.ai nimmt Fragen entgegen und antwortet im Browser. Es gibt einen kostenlosen Einstieg.",
+    "featuresDe": [
+      "Chat mit GLM-Modellen",
+      "Browser",
+      "Kostenloser Einstieg"
+    ],
+    "useCasesDe": [
+      "Eine Frage zu stellen",
+      "Einen Entwurf gegenzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Pi",
+    "originalUrl": "https://www.inflection.ai/",
+    "domain": "inflection.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Inflection stellt den Gesprächsassistenten Pi vor.",
+    "longDescriptionDe": "Die Seite führt zu Pi, einem Chat für Alltagsfragen. Es gibt einen kostenlosen Einstieg.",
+    "featuresDe": [
+      "Gesprächsassistent",
+      "Alltagsfragen",
+      "Kostenloser Einstieg"
+    ],
+    "useCasesDe": [
+      "Eine Frage im Gespräch zu stellen",
+      "Einen Gedanken laut zu sortieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Replika",
+    "originalUrl": "https://www.replika.com/",
+    "domain": "replika.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Replika führt ein fortlaufendes Gespräch und merkt sich Themen.",
+    "longDescriptionDe": "Replika chattet im Alltag und bietet Übungen zur Stimmung. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Fortlaufender Chat",
+      "Übungen zur Stimmung",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch über den Tag zu führen",
+      "Eine Übung in der App zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Roam Research",
+    "originalUrl": "https://www.roamresearch.com/",
+    "domain": "roamresearch.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Roam verknüpft Notizen über Seiten und Rückverweise.",
+    "longDescriptionDe": "Roam legt tägliche Notizen an und zeigt, wo ein Begriff noch vorkommt. Es gibt einen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Verknüpfte Notizen",
+      "Rückverweise",
+      "Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Ein Wissensnetz aus Notizen zu bauen",
+      "Zu sehen, wo ein Begriff noch steht"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RemNote",
+    "originalUrl": "https://www.remnote.com/",
+    "domain": "remnote.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung",
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "RemNote verbindet Notizen mit Karteikarten und Wiederholung.",
+    "longDescriptionDe": "RemNote macht aus einer Notiz Karten und legt den nächsten Wiederholungstermin fest. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Notizen und Karteikarten",
+      "Wiederholung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Aus einer Vorlesungsnotiz Karten zu machen",
+      "Einen Stapel über Wochen zu wiederholen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wordtune",
+    "originalUrl": "https://www.wordtune.com/",
+    "domain": "wordtune.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Wordtune formuliert Sätze um und schlägt einen anderen Ton vor.",
+    "longDescriptionDe": "Wordtune sitzt im Text und bietet kürzere, längere oder formellere Fassungen. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Sätze umformulieren",
+      "Anderer Ton",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Einen Satz klarer zu machen",
+      "Mehrere Töne zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Turnitin",
+    "originalUrl": "https://www.turnitin.com/",
+    "domain": "turnitin.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Turnitin prüft Texte auf übereinstimmende Stellen und auf KI-Muster.",
+    "longDescriptionDe": "Turnitin vergleicht eine Arbeit mit Quellen und markiert Treffer. Die Nutzung läuft über Schulen und Hochschulen und ist kostenpflichtig.",
+    "featuresDe": [
+      "Ähnlichkeit mit Quellen",
+      "Hinweise auf KI-Muster",
+      "Kostenpflichtig über Bildungseinrichtungen"
+    ],
+    "useCasesDe": [
+      "Eine Arbeit vor der Abgabe prüfen zu lassen",
+      "Übereinstimmende Stellen zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cosine",
+    "originalUrl": "https://www.cosine.sh/",
+    "domain": "cosine.sh",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Cosine lässt einen Coding-Agenten Aufgaben in einem Repository bearbeiten.",
+    "longDescriptionDe": "Cosine nimmt einen Auftrag und arbeitet im Code. Es gibt einen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Coding-Agent",
+      "Aufgaben im Repository",
+      "Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Änderung an einen Agenten zu geben",
+      "Den Verlauf im Code zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]

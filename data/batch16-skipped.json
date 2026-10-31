@@ -1,0 +1,11 @@
+[
+  {"name": "Kimi.com", "reason": "Dieselbe Marke ist bereits über moonshot.cn als Kimi eingetragen."},
+  {"name": "Notion.so", "reason": "Dieselbe Marke ist bereits über notion.com eingetragen."},
+  {"name": "Black Forest Labs", "reason": "Dieselbe Marke ist bereits über bfl.ai eingetragen."},
+  {"name": "Perplexity", "reason": "perplexity.ai antwortete mit HTTP 403."},
+  {"name": "Canva", "reason": "canva.com antwortete mit HTTP 403."},
+  {"name": "Gamma", "reason": "gamma.app antwortete mit HTTP 403."},
+  {"name": "Ideogram", "reason": "ideogram.ai antwortete mit HTTP 403."},
+  {"name": "Claude", "reason": "claude.ai antwortete mit HTTP 403."},
+  {"name": "Poe", "reason": "poe.com antwortete mit HTTP 403."}
+]

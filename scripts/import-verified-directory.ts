@@ -22,8 +22,9 @@ import catalogL from "@/data/verified-tools-batch12.json";
 import catalogM from "@/data/verified-tools-batch13.json";
 import catalogN from "@/data/verified-tools-batch14.json";
 import catalogO from "@/data/verified-tools-batch15.json";
+import catalogP from "@/data/verified-tools-batch16.json";
 
-const catalog = [...catalogA, ...catalogB, ...catalogC, ...catalogD, ...catalogE, ...catalogF, ...catalogG, ...catalogH, ...catalogI, ...catalogJ, ...catalogK, ...catalogL, ...catalogM, ...catalogN, ...catalogO];
+const catalog = [...catalogA, ...catalogB, ...catalogC, ...catalogD, ...catalogE, ...catalogF, ...catalogG, ...catalogH, ...catalogI, ...catalogJ, ...catalogK, ...catalogL, ...catalogM, ...catalogN, ...catalogO, ...catalogP];
 
 const notToolNames = new Set(
   JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "not-tools.json"), "utf8")) as string[],
