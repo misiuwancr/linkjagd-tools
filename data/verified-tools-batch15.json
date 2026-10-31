@@ -1,0 +1,1292 @@
+[
+  {
+    "name": "Sonix",
+    "originalUrl": "https://www.sonix.ai/",
+    "domain": "sonix.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Sonix schreibt Audio und Video mit und übersetzt das Transkript.",
+    "longDescriptionDe": "Sonix lädt eine Datei hoch und liefert einen durchsuchbaren Text. Es gibt einen Einstieg und bezahlte Minuten.",
+    "featuresDe": [
+      "Transkript aus Audio und Video",
+      "Übersetzung",
+      "Einstieg und bezahlte Minuten"
+    ],
+    "useCasesDe": [
+      "Eine Aufnahme abzutippen",
+      "Ein Transkript zu übersetzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Trint",
+    "originalUrl": "https://www.trint.com/",
+    "domain": "trint.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Trint wandelt Interviews in bearbeitbaren Text.",
+    "longDescriptionDe": "Trint spielt die Aufnahme neben dem Transkript ab. Es gibt einen Einstieg und bezahlte Stunden.",
+    "featuresDe": [
+      "Transkript neben der Aufnahme",
+      "Bearbeitbarer Text",
+      "Einstieg und bezahlte Stunden"
+    ],
+    "useCasesDe": [
+      "Ein Interview zu verschriftlichen",
+      "Eine Stelle im Ton über den Text zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Rev",
+    "originalUrl": "https://www.rev.com/",
+    "domain": "rev.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Rev schreibt Sprache mit, maschinell oder durch Menschen.",
+    "longDescriptionDe": "Rev nimmt Audio entgegen und liefert ein Transkript oder Untertitel. Die maschinelle Fassung hat einen Einstieg, menschliche Abschrift ist kostenpflichtig.",
+    "featuresDe": [
+      "Maschinelle und menschliche Abschrift",
+      "Untertitel",
+      "Einstieg und kostenpflichtige Abschrift"
+    ],
+    "useCasesDe": [
+      "Eine Datei abtippen zu lassen",
+      "Untertitel für ein Video zu bestellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Temi",
+    "originalUrl": "https://www.temi.com/",
+    "domain": "temi.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Temi schreibt Aufnahmen automatisch mit und rechnet pro Minute.",
+    "longDescriptionDe": "Temi lädt Audio hoch und liefert den Text in kurzer Zeit. Die Abschrift ist kostenpflichtig.",
+    "featuresDe": [
+      "Automatische Abschrift",
+      "Abrechnung pro Minute",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Besprechung schnell abzutippen",
+      "Den Text einer Aufnahme zu laden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Grain",
+    "originalUrl": "https://www.grain.com/",
+    "domain": "grain.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Grain schneidet Meetings in Clips und schreibt die Stellen mit.",
+    "longDescriptionDe": "Grain nimmt das Gespräch auf und lässt Highlights teilen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Meeting-Clips",
+      "Highlights",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Stelle aus einem Gespräch zu teilen",
+      "Highlights statt des ganzen Meetings zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Listnr",
+    "originalUrl": "https://www.listnr.tech/",
+    "domain": "listnr.tech",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Listnr liest Texte mit vielen Stimmen vor.",
+    "longDescriptionDe": "Listnr nimmt ein Skript und liefert eine Sprachdatei. Es gibt einen kostenlosen Einstieg und bezahlte Zeichen.",
+    "featuresDe": [
+      "Vorlesen von Skripten",
+      "Viele Stimmen",
+      "Kostenloser Einstieg und bezahlte Zeichen"
+    ],
+    "useCasesDe": [
+      "Einen Artikel als Audio zu erzeugen",
+      "Mehrere Stimmen zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "VoiceMaker",
+    "originalUrl": "https://voicemaker.in/",
+    "domain": "voicemaker.in",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "VoiceMaker erzeugt Sprache aus Text mit einstellbarer Betonung.",
+    "longDescriptionDe": "VoiceMaker lässt Stimme und Tempo wählen. Es gibt einen kostenlosen Einstieg und bezahlte Zeichen.",
+    "featuresDe": [
+      "Text zu Sprache",
+      "Tempo und Betonung",
+      "Kostenloser Einstieg und bezahlte Zeichen"
+    ],
+    "useCasesDe": [
+      "Eine Ansage aus einem Text zu machen",
+      "Das Tempo einer Stimme zu ändern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zubtitle",
+    "originalUrl": "https://www.zubtitle.com/",
+    "domain": "zubtitle.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Zubtitle setzt Untertitel auf Videos und spricht sie mit.",
+    "longDescriptionDe": "Zubtitle nimmt einen Clip und legt den erkannten Text darüber. Es gibt einen Einstieg und bezahlte Videos.",
+    "featuresDe": [
+      "Automatische Untertitel",
+      "Text auf dem Video",
+      "Einstieg und bezahlte Videos"
+    ],
+    "useCasesDe": [
+      "Untertitel auf ein Video zu legen",
+      "Den erkannten Text zu korrigieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DeepBrain",
+    "originalUrl": "https://www.deepbrain.io/",
+    "domain": "deepbrain.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung"
+    ],
+    "shortDescriptionDe": "DeepBrain lässt einen Avatar einen Text in einem Video sprechen.",
+    "longDescriptionDe": "DeepBrain nimmt ein Skript und erzeugt eine sprechende Figur. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Avatar mit Skript",
+      "Video ohne Dreh",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein Schulungsvideo ohne Kamera zu machen",
+      "Einen Text von einer Figur sprechen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Creatify",
+    "originalUrl": "https://www.creatify.ai/",
+    "domain": "creatify.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Creatify macht aus einem Produktlink ein Werbevideo.",
+    "longDescriptionDe": "Creatify liest eine Produktseite und setzt Clips und Text dazu. Es gibt einen Einstieg und bezahlte Videos.",
+    "featuresDe": [
+      "Werbevideo aus einem Produktlink",
+      "Clips und Text",
+      "Einstieg und bezahlte Videos"
+    ],
+    "useCasesDe": [
+      "Ein Anzeigenvideo aus einer Shopseite zu holen",
+      "Mehrere Fassungen eines Produkts zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Munch",
+    "originalUrl": "https://www.getmunch.com/",
+    "domain": "getmunch.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Munch schneidet aus langen Videos kurze Clips für soziale Netze.",
+    "longDescriptionDe": "Munch sucht Stellen und liefert Kurzvideos. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kurzclips aus langen Videos",
+      "Formate für soziale Netze",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Webinar in mehrere Clips zu teilen",
+      "Einen Clip für ein soziales Netz zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Splitter",
+    "originalUrl": "https://www.splitter.ai/",
+    "domain": "splitter.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "musik"
+    ],
+    "shortDescriptionDe": "Splitter trennt Gesang und Instrumente in einer Aufnahme.",
+    "longDescriptionDe": "Splitter nimmt einen Song und liefert getrennte Spuren. Es gibt einen kostenlosen Einstieg und bezahlte Dateien.",
+    "featuresDe": [
+      "Getrennte Spuren",
+      "Gesang und Instrumente",
+      "Kostenloser Einstieg und bezahlte Dateien"
+    ],
+    "useCasesDe": [
+      "Eine Gesangsspur aus einem Song zu ziehen",
+      "Eine Instrumental-Fassung zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Splash",
+    "originalUrl": "https://www.splashmusic.com/",
+    "domain": "splashmusic.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Splash erzeugt Songs aus einer Beschreibung oder einem Text.",
+    "longDescriptionDe": "Splash liefert einen Track zu Stil und Inhalt. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Songs aus einer Beschreibung",
+      "Stil und Text",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen kurzen Song zu einem Thema zu erzeugen",
+      "Mehrere Stile zu hören"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "AIPRM",
+    "originalUrl": "https://www.aiprm.com/",
+    "domain": "aiprm.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "AIPRM sammelt Prompt-Vorlagen für Chat-Werkzeuge.",
+    "longDescriptionDe": "AIPRM zeigt fertige Anweisungen nach Aufgabe und Ton. Es gibt einen kostenlosen Einstieg und bezahlte Vorlagen.",
+    "featuresDe": [
+      "Prompt-Vorlagen",
+      "Aufgaben und Töne",
+      "Kostenloser Einstieg und bezahlte Vorlagen"
+    ],
+    "useCasesDe": [
+      "Eine Vorlage für einen Blogtext zu nehmen",
+      "Prompts nach Aufgabe zu filtern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PromptHero",
+    "originalUrl": "https://prompthero.com/",
+    "domain": "prompthero.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung"
+    ],
+    "shortDescriptionDe": "PromptHero zeigt Bild-Prompts und die dazugehörigen Ergebnisse.",
+    "longDescriptionDe": "PromptHero durchsucht Beispiele nach Stil und Modell. Ein Teil ist ohne Abo sichtbar, weitere Funktionen sind bezahlt.",
+    "featuresDe": [
+      "Beispiele von Bild-Prompts",
+      "Suche nach Stil",
+      "Freier Anteil und bezahlte Funktionen"
+    ],
+    "useCasesDe": [
+      "Einen Prompt zu einem Stil zu finden",
+      "Zu sehen, welches Modell ein Bild erzeugt hat"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Snack Prompt",
+    "originalUrl": "https://snackprompt.com/",
+    "domain": "snackprompt.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Snack Prompt sammelt kurze Prompt-Bausteine zum Kopieren.",
+    "longDescriptionDe": "Snack Prompt zeigt Anweisungen, die sich in einen Chat übernehmen lassen. Die Suche ist ohne Abo möglich.",
+    "featuresDe": [
+      "Kurze Prompt-Bausteine",
+      "Kopieren in den Chat",
+      "Suche ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Baustein für eine Aufgabe zu kopieren",
+      "Prompts zu einem Thema zu durchsuchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CopyMatic",
+    "originalUrl": "https://www.copymatic.ai/",
+    "domain": "copymatic.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "marketing"
+    ],
+    "shortDescriptionDe": "CopyMatic schreibt Anzeigen, Produkttexte und Blogentwürfe.",
+    "longDescriptionDe": "CopyMatic nimmt ein Thema und liefert mehrere Textarten. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Anzeigen und Produkttexte",
+      "Blogentwürfe",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Einen Anzeigentext zu entwerfen",
+      "Mehrere Überschriften zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ClosersCopy",
+    "originalUrl": "https://www.closerscopy.com/",
+    "domain": "closerscopy.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "marketing"
+    ],
+    "shortDescriptionDe": "ClosersCopy schreibt Verkaufstexte für Seiten und Mails.",
+    "longDescriptionDe": "ClosersCopy erzeugt Longform und kurze Werbetexte aus Stichpunkten. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Verkaufstexte",
+      "Seiten und Mails",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Verkaufsseite zu entwerfen",
+      "Eine Mail-Sequenz zu skizzieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HoppyCopy",
+    "originalUrl": "https://www.hoppycopy.co/",
+    "domain": "hoppycopy.co",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "marketing"
+    ],
+    "shortDescriptionDe": "HoppyCopy schreibt E-Mail-Sequenzen und Betreffzeilen.",
+    "longDescriptionDe": "HoppyCopy nimmt ein Angebot und liefert mehrere Mail-Fassungen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "E-Mail-Sequenzen",
+      "Betreffzeilen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Folge von Mails zu entwerfen",
+      "Mehrere Betreffzeilen zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Peppertype",
+    "originalUrl": "https://www.peppertype.ai/",
+    "domain": "peppertype.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Peppertype schreibt kurze Texte für Social Media und Blogs.",
+    "longDescriptionDe": "Peppertype nimmt ein Thema und einen Ton. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Kurze Texte",
+      "Ton und Thema",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Einen Social-Media-Text zu entwerfen",
+      "Mehrere Töne zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MarketMuse",
+    "originalUrl": "https://www.marketmuse.com/",
+    "domain": "marketmuse.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "MarketMuse zeigt, welche Themen ein Text noch abdecken sollte.",
+    "longDescriptionDe": "MarketMuse vergleicht einen Entwurf mit Seiten aus der Suche. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Themenlücken im Text",
+      "Vergleich mit der Suche",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Artikel auf fehlende Themen zu prüfen",
+      "Eine Gliederung aus der Suche zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Dashword",
+    "originalUrl": "https://www.dashword.com/",
+    "domain": "dashword.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Dashword richtet einen Text an den Begriffen aus, die zu einem Thema ranken.",
+    "longDescriptionDe": "Dashword zeigt Zielbegriffe neben dem Entwurf. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Zielbegriffe neben dem Entwurf",
+      "Ausrichtung auf ein Thema",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Text an ein Keyword anzupassen",
+      "Fehlende Begriffe zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Eraser",
+    "originalUrl": "https://www.eraser.io/",
+    "domain": "eraser.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Eraser zeichnet Diagramme und kann sie aus einer Beschreibung erzeugen.",
+    "longDescriptionDe": "Eraser legt Abläufe und Architektur auf eine Fläche. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Diagramme aus einer Beschreibung",
+      "Architektur und Abläufe",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Ablauf zu skizzieren",
+      "Ein Diagramm aus einem Satz zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Banani",
+    "originalUrl": "https://www.banani.co/",
+    "domain": "banani.co",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Banani erzeugt Oberflächenentwürfe aus einer Beschreibung.",
+    "longDescriptionDe": "Banani setzt Screens, die sich weiter anpassen lassen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Screens aus einer Beschreibung",
+      "Weiter anpassen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen UI-Entwurf zu starten",
+      "Mehrere Screens zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "iAsk",
+    "originalUrl": "https://iask.ai/",
+    "domain": "iask.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "iAsk beantwortet Fragen und zeigt Quellen aus der Suche.",
+    "longDescriptionDe": "iAsk verbindet eine Antwort mit Links. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Antworten mit Quellen",
+      "Suche im Chat",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Frage mit Belegen zu stellen",
+      "Die verlinkte Quelle zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Komo",
+    "originalUrl": "https://komo.ai/",
+    "domain": "komo.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Komo sucht und fasst die Treffer in einer Antwort zusammen.",
+    "longDescriptionDe": "Komo zeigt eine Suche mit einer kurzen Zusammenfassung. Es gibt einen kostenlosen Einstieg.",
+    "featuresDe": [
+      "Suche mit Zusammenfassung",
+      "Treffer und Antwort",
+      "Kostenloser Einstieg"
+    ],
+    "useCasesDe": [
+      "Ein Thema suchen und zusammenfassen zu lassen",
+      "Treffer neben der Antwort zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Andi",
+    "originalUrl": "https://andisearch.com/",
+    "domain": "andisearch.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Andi antwortet auf Suchanfragen in ganzen Sätzen statt nur mit einer Linkliste.",
+    "longDescriptionDe": "Andi zeigt eine Antwort und die zugehörigen Seiten. Die Suche ist ohne Konto möglich.",
+    "featuresDe": [
+      "Antwort statt nur Linkliste",
+      "Zugehörige Seiten",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Frage als Suche zu stellen",
+      "Die Quelle unter der Antwort zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Modal",
+    "originalUrl": "https://modal.com/",
+    "domain": "modal.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Modal startet Python-Jobs und Modelle in der Cloud, ohne einen Server einzurichten.",
+    "longDescriptionDe": "Modal führt Funktionen auf gemieteter Rechenzeit aus. Es gibt einen kostenlosen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Python-Jobs in der Cloud",
+      "Modelle ohne eigenen Server",
+      "Kostenloser Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Funktion in der Cloud laufen zu lassen",
+      "Ein Modell ohne eigene GPU aufzurufen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RunPod",
+    "originalUrl": "https://www.runpod.io/",
+    "domain": "runpod.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "RunPod vermietet Grafikchips für Training und Inferenz.",
+    "longDescriptionDe": "RunPod startet eine Umgebung mit GPU und rechnet die Zeit ab. Es gibt einen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Grafikchips auf Zeit",
+      "Umgebungen für Modelle",
+      "Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Modell auf einer gemieteten GPU zu starten",
+      "Eine Umgebung nur für die Laufzeit zu bezahlen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Vast.ai",
+    "originalUrl": "https://vast.ai/",
+    "domain": "vast.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Vast.ai vermittelt Grafikchip-Rechner von Anbietern zu einem Stundenpreis.",
+    "longDescriptionDe": "Vast listet Maschinen und startet darauf eine Umgebung. Die Nutzung ist nach Zeit kostenpflichtig, ein Guthaben lässt sich vorher laden.",
+    "featuresDe": [
+      "Grafikchip-Rechner auf Zeit",
+      "Stundenpreis",
+      "Nutzung nach Zeit"
+    ],
+    "useCasesDe": [
+      "Eine günstige GPU für einen Lauf zu mieten",
+      "Maschinen nach Preis zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cerebras",
+    "originalUrl": "https://www.cerebras.ai/",
+    "domain": "cerebras.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Cerebras stellt schnelle Inferenz für Sprachmodelle über eine Schnittstelle bereit.",
+    "longDescriptionDe": "Cerebras betreibt eigene Chips und bietet Modelle per API. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Inferenz auf eigenen Chips",
+      "Modelle per API",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein Sprachmodell über eine schnelle API aufzurufen",
+      "Antwortzeiten zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SambaNova",
+    "originalUrl": "https://www.sambanova.ai/",
+    "domain": "sambanova.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "SambaNova betreibt Modelle auf eigener Hardware und bietet sie als Dienst.",
+    "longDescriptionDe": "SambaNova stellt Sprachmodelle über eine Plattform bereit. Es gibt einen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Modelle als Dienst",
+      "Eigene Hardware",
+      "Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Modell ohne eigene Rechner anzubinden",
+      "Eine Plattform für Inferenz zu testen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lambda",
+    "originalUrl": "https://lambdalabs.com/",
+    "domain": "lambdalabs.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Lambda vermietet Rechner mit Grafikchips und bietet eine Cloud für Modelle.",
+    "longDescriptionDe": "Lambda startet Instanzen für Training und Inferenz. Die Miete ist kostenpflichtig.",
+    "featuresDe": [
+      "Rechner mit Grafikchips",
+      "Cloud für Modelle",
+      "Kostenpflichtige Miete"
+    ],
+    "useCasesDe": [
+      "Eine GPU-Instanz zu starten",
+      "Ein Modell in der Cloud zu trainieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Factory",
+    "originalUrl": "https://www.factory.ai/",
+    "domain": "factory.ai",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Factory lässt Software-Agenten Aufgaben in einem Repository bearbeiten.",
+    "longDescriptionDe": "Factory nimmt einen Auftrag und arbeitet im Code. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Agenten im Repository",
+      "Aufträge an den Code",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Änderung an ein Agenten-Team zu geben",
+      "Den Verlauf im Repository zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Magic",
+    "originalUrl": "https://www.magic.dev/",
+    "domain": "magic.dev",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Magic arbeitet als Coding-Agent an längeren Softwareaufgaben.",
+    "longDescriptionDe": "Magic nimmt eine Aufgabe und schlägt Änderungen im Projekt vor. Es gibt einen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Coding-Agent",
+      "Änderungen im Projekt",
+      "Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine größere Code-Aufgabe abzugeben",
+      "Den Vorschlag des Agenten zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Poolside",
+    "originalUrl": "https://www.poolside.ai/",
+    "domain": "poolside.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Poolside bietet ein Modell und einen Assistenten für Softwareentwicklung.",
+    "longDescriptionDe": "Poolside sitzt in der Entwicklung und schlägt Code vor. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Assistent für Software",
+      "Codevorschläge",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Code im Editor vorschlagen zu lassen",
+      "Ein Modell für Entwicklung zu testen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "01.AI",
+    "originalUrl": "https://www.01.ai/",
+    "domain": "01.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "01.AI entwickelt die Yi-Modelle und stellt sie zum Ausprobieren bereit.",
+    "longDescriptionDe": "Die Seite zeigt die Modelle und den Zugang. Es gibt einen Einstieg und weitere, kostenpflichtige Nutzung.",
+    "featuresDe": [
+      "Yi-Modelle",
+      "Zugang zum Ausprobieren",
+      "Einstieg und weitere Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Yi-Modell zu testen",
+      "Den Zugang zur API zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Baichuan",
+    "originalUrl": "https://www.baichuan-ai.com/",
+    "domain": "baichuan-ai.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Baichuan bietet Sprachmodelle und einen Chat auf Chinesisch und weiteren Sprachen.",
+    "longDescriptionDe": "Baichuan stellt Modelle über eine Plattform bereit. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Sprachmodelle und Chat",
+      "Plattform",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein Modell auszuprobieren",
+      "Einen Chat der Plattform zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "StepFun",
+    "originalUrl": "https://www.stepfun.com/",
+    "domain": "stepfun.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "StepFun bietet Sprachmodelle und einen Chat im Browser.",
+    "longDescriptionDe": "StepFun lässt ein Gespräch starten und Modelle vergleichen. Es gibt einen kostenlosen Einstieg.",
+    "featuresDe": [
+      "Chat im Browser",
+      "Mehrere Modelle",
+      "Kostenloser Einstieg"
+    ],
+    "useCasesDe": [
+      "Eine Frage im Chat zu stellen",
+      "Modelle nebeneinander zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zhipu",
+    "originalUrl": "https://www.zhipuai.cn/",
+    "domain": "zhipuai.cn",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Zhipu stellt die GLM-Modelle und eine Plattform dafür bereit.",
+    "longDescriptionDe": "Zhipu bietet Chat und eine Schnittstelle. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "GLM-Modelle",
+      "Chat und Schnittstelle",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein GLM-Modell aufzurufen",
+      "Den Chat der Plattform zu testen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Falcon",
+    "originalUrl": "https://falconllm.tii.ae/",
+    "domain": "falconllm.tii.ae",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Falcon stellt die offenen Falcon-Sprachmodelle und ihre Modellkarten vor.",
+    "longDescriptionDe": "Die Seite des Technology Innovation Institute beschreibt die Falcon-Reihe und verweist auf die Gewichte. Eine einzelne OSI-Lizenz aller Modelle wird hier nicht eingetragen. Die Modellkarten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Modellkarten der Falcon-Reihe",
+      "Verweis auf die Gewichte",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Falcon-Modell einzuordnen",
+      "Die Modellkarte zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Layer",
+    "originalUrl": "https://www.layer.ai/",
+    "domain": "layer.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildgenerierung",
+      "design"
+    ],
+    "shortDescriptionDe": "Layer erzeugt Grafiken für Spiele und Marken in einem festen Stil.",
+    "longDescriptionDe": "Layer trainiert auf vorhandene Bilder und liefert neue Assets. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Grafiken in einem festen Stil",
+      "Eigene Vorlagen",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Ein Icon-Set im Markenstil zu erzeugen",
+      "Neue Assets zu vorhandenen Bildern zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Weights",
+    "originalUrl": "https://www.weights.gg/",
+    "domain": "weights.gg",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "musik"
+    ],
+    "shortDescriptionDe": "Weights wandelt eine Stimme in ein anderes Stimmmodell um.",
+    "longDescriptionDe": "Weights nimmt Audio und setzt ein Modell darüber. Es gibt einen kostenlosen Einstieg und bezahlte Credits.",
+    "featuresDe": [
+      "Stimmmodelle auf Audio",
+      "Upload einer Aufnahme",
+      "Kostenloser Einstieg und bezahlte Credits"
+    ],
+    "useCasesDe": [
+      "Eine Aufnahme in eine andere Stimme zu legen",
+      "Mehrere Modelle zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PromptPerfect",
+    "originalUrl": "https://www.promptperfect.xyz/",
+    "domain": "promptperfect.xyz",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "PromptPerfect formuliert einen knappen Prompt ausführlicher um.",
+    "longDescriptionDe": "PromptPerfect nimmt eine kurze Anweisung und liefert eine ausgearbeitete Fassung. Es gibt einen kostenlosen Einstieg und bezahlte Läufe.",
+    "featuresDe": [
+      "Prompts umformulieren",
+      "Ausgearbeitete Fassung",
+      "Kostenloser Einstieg und bezahlte Läufe"
+    ],
+    "useCasesDe": [
+      "Einen kurzen Prompt zu erweitern",
+      "Mehrere Fassungen zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
