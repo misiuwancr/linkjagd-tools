@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 23% 97%;
+    --foreground: 30 12% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 30 12% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 12% 10%;
+    --primary: 30 12% 10%;
+    --primary-foreground: 40 33% 97%;
+    --secondary: 36 16% 93%;
+    --secondary-foreground: 30 12% 14%;
+    --muted: 36 16% 93%;
+    --muted-foreground: 25 8% 38%;
+    --accent: 18 64% 47%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 32 16% 86%;
+    --input: 32 16% 86%;
+    --ring: 18 64% 47%;
+    --radius: 0.9rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01" on, "cv11" on;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .page-wrap {
+    @apply mx-auto w-full max-w-page px-4 sm:px-6;
+  }
+
+  .field {
+    @apply h-11 w-full rounded-xl border border-input bg-white px-3 text-sm text-foreground shadow-sm outline-none placeholder:text-muted-foreground;
+  }
+
+  .area {
+    @apply min-h-28 w-full rounded-xl border border-input bg-white px-3 py-2 text-sm text-foreground shadow-sm outline-none placeholder:text-muted-foreground;
+  }
+}

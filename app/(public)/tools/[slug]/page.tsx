@@ -1,0 +1,197 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { getDb } from "@/db/client";
+import { siteConfig } from "@/site.config";
+import { CategoryBadge, ExampleBadge, PriceBadge, RecommendBadge } from "@/components/badges";
+import { JsonLd } from "@/components/json-ld";
+import { ToolCard } from "@/components/tool-card";
+import { ToolLogo } from "@/components/tool-logo";
+import { getToolBySlug, listSimilar } from "@/lib/tools/repository";
+import { toPublicTool } from "@/lib/tools/public";
+
+export const revalidate = 60;
+
+function host() {
+  try {
+    return new URL(siteConfig.url).hostname;
+  } catch {
+    return undefined;
+  }
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const database = await getDb();
+  const tool = await getToolBySlug(database, params.slug);
+  if (!tool || tool.publishStatus !== "published") return { title: "Tool nicht gefunden" };
+  const publicTool = toPublicTool(tool, host());
+  return {
+    title: publicTool.name,
+    description: publicTool.shortDescriptionDe,
+    alternates: { canonical: `/tools/${publicTool.slug}` },
+    openGraph: {
+      title: publicTool.name,
+      description: publicTool.shortDescriptionDe,
+      url: `/tools/${publicTool.slug}`,
+    },
+  };
+}
+
+export default async function ToolDetailPage({ params }: { params: { slug: string } }) {
+  const database = await getDb();
+  const record = await getToolBySlug(database, params.slug);
+  if (!record || record.publishStatus !== "published") notFound();
+  const siteHost = host();
+  const tool = toPublicTool(record, siteHost);
+  const similar = (await listSimilar(database, record)).map((item) => toPublicTool(item, siteHost));
+  const canonical = new URL(`/tools/${tool.slug}`, siteConfig.url).toString();
+
+  return (
+    <div className="page-wrap py-8 sm:py-12">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          name: tool.name,
+          description: tool.shortDescriptionDe,
+          applicationCategory: tool.categories[0]?.name,
+          url: canonical,
+          inLanguage: "de",
+        }}
+      />
+      <nav aria-label="Brotkrumen" className="text-sm text-muted-foreground">
+        <Link href="/tools" className="hover:text-foreground">
+          Alle Tools
+        </Link>
+        <span aria-hidden="true"> / </span>
+        <span className="text-foreground">{tool.name}</span>
+      </nav>
+
+      <header className="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-start">
+        <div>
+          <div className="flex items-start gap-4">
+            <ToolLogo name={tool.name} logo={tool.logo} size={72} />
+            <div>
+              <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">{tool.name}</h1>
+              <p className="mt-3 max-w-2xl text-lg leading-8 text-muted-foreground">{tool.shortDescriptionDe}</p>
+            </div>
+          </div>
+          <div className="mt-5 flex flex-wrap gap-2">
+            {tool.featured ? <RecommendBadge /> : null}
+            {tool.isExample ? <ExampleBadge /> : null}
+            <PriceBadge value={tool.pricingModel} />
+            {tool.categories.map((category) => (
+              <CategoryBadge key={category.slug} name={category.name} slug={category.slug} />
+            ))}
+          </div>
+          {tool.isExample ? (
+            <p className="mt-4 max-w-2xl rounded-2xl bg-[#F8E7DC] px-4 py-3 text-sm leading-6 text-[#6B3A22]">
+              Dieser Eintrag ist ein Beispieldatensatz. Es ist kein reales Angebot und es ist kein Partnerlink hinterlegt.
+            </p>
+          ) : null}
+        </div>
+        <aside className="rounded-3xl border border-border bg-white p-5 shadow-card lg:sticky lg:top-24">
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">Auf einen Blick</p>
+          <dl className="mt-4 space-y-3 text-sm">
+            <div className="flex justify-between gap-4">
+              <dt className="text-muted-foreground">Preismodell</dt>
+              <dd className="font-medium">{tool.pricingModel === "free" ? "Kostenlos" : tool.pricingModel === "paid" ? "Kostenpflichtig" : tool.pricingModel === "open_source" ? "Open Source" : "Freemium"}</dd>
+            </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-muted-foreground">Website</dt>
+              <dd className="font-medium">{tool.domain}</dd>
+            </div>
+          </dl>
+          <div className="mt-5">
+            {tool.ctaEnabled ? (
+              <a
+                href={`/go/${tool.slug}`}
+                rel="sponsored nofollow"
+                className="flex h-12 items-center justify-center rounded-xl bg-ink px-4 text-sm font-semibold text-white"
+              >
+                Jetzt Tool ausprobieren
+              </a>
+            ) : (
+              <button
+                type="button"
+                disabled
+                className="flex h-12 w-full cursor-not-allowed items-center justify-center rounded-xl bg-[#E7E1D8] px-4 text-sm font-semibold text-[#6D655C]"
+              >
+                Jetzt Tool ausprobieren
+              </button>
+            )}
+            <p className="mt-3 text-xs leading-5 text-muted-foreground">
+              {tool.ctaEnabled
+                ? "Werbung. Der Button ist ein Partnerlink. Für dich entsteht dadurch kein Aufpreis."
+                : "Für dieses Tool ist noch kein aktiver Partnerlink hinterlegt. Der Button bleibt deaktiviert, es gibt keine Weiterleitung zur Originaladresse."}
+            </p>
+            <Link href="/affiliate-hinweis" className="mt-2 inline-block text-xs font-medium underline">
+              Affiliate-Hinweis
+            </Link>
+          </div>
+        </aside>
+      </header>
+
+      <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_320px]">
+        <div className="space-y-12">
+          <section>
+            <h2 className="text-2xl font-semibold tracking-tight">Über das Tool</h2>
+            <div className="mt-4 max-w-3xl whitespace-pre-wrap text-base leading-8 text-foreground/90">
+              {tool.longDescriptionDe || "Eine ausführliche Beschreibung folgt."}
+            </div>
+          </section>
+          {tool.featuresDe.length > 0 ? (
+            <section>
+              <h2 className="text-2xl font-semibold tracking-tight">Besondere Funktionen</h2>
+              <ul className="mt-4 max-w-3xl space-y-3">
+                {tool.featuresDe.map((feature) => (
+                  <li key={feature} className="rounded-2xl border border-border bg-white px-4 py-3 text-sm leading-6">
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+          <section>
+            <h2 className="text-2xl font-semibold tracking-tight">Vorschau</h2>
+            {tool.screenshots.length > 0 ? (
+              <div className="mt-4 grid gap-4">
+                {tool.screenshots.map((shot) =>
+                  shot.endsWith(".svg") ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img key={shot} src={shot} alt={`Beispielvorschau von ${tool.name}`} className="w-full rounded-2xl border border-border bg-white" />
+                  ) : (
+                    <Image
+                      key={shot}
+                      src={shot}
+                      alt={`Vorschau von ${tool.name}`}
+                      width={1200}
+                      height={750}
+                      className="h-auto w-full rounded-2xl border border-border bg-white"
+                    />
+                  ),
+                )}
+              </div>
+            ) : (
+              <p className="mt-4 text-sm text-muted-foreground">Für dieses Tool sind noch keine Vorschaubilder hinterlegt.</p>
+            )}
+          </section>
+          <section>
+            <h2 className="text-2xl font-semibold tracking-tight">Ähnliche Tools</h2>
+            {similar.length === 0 ? (
+              <p className="mt-4 text-sm text-muted-foreground">In dieser Kategorie gibt es noch keine weiteren veröffentlichten Tools.</p>
+            ) : (
+              <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                {similar.map((item) => (
+                  <ToolCard key={item.id} tool={item} />
+                ))}
+              </div>
+            )}
+          </section>
+        </div>
+        <div className="hidden lg:block" />
+      </div>
+    </div>
+  );
+}
