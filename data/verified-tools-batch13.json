@@ -1,0 +1,1139 @@
+[
+  {
+    "name": "Go",
+    "originalUrl": "https://go.dev/",
+    "domain": "go.dev",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Go ist eine Programmiersprache für Dienste und Werkzeuge auf dem Server.",
+    "longDescriptionDe": "go.dev stellt Compiler, Module und die Dokumentation bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Compiler und Module",
+      "Dokumentation",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Dienst in Go zu schreiben",
+      "Ein Modul zu beziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TypeScript",
+    "originalUrl": "https://www.typescriptlang.org/",
+    "domain": "typescriptlang.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "TypeScript ergänzt JavaScript um Typen und übersetzt in gewöhnliches JavaScript.",
+    "longDescriptionDe": "Die Seite stellt den Compiler und das Handbuch bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Compiler ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Typen für JavaScript",
+      "Compiler und Handbuch",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Typfehler vor dem Lauf zu sehen",
+      "JavaScript aus TypeScript zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PostgreSQL",
+    "originalUrl": "https://www.postgresql.org/",
+    "domain": "postgresql.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "PostgreSQL ist ein relationaler Datenbankserver.",
+    "longDescriptionDe": "PostgreSQL speichert Tabellen und beantwortet SQL. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Server ist ohne Pflichtabo nutzbar.",
+    "featuresDe": [
+      "Relationale Tabellen",
+      "SQL",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Anwendungsdatenbank selbst zu betreiben",
+      "SQL auf dem eigenen Server auszuführen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kubernetes",
+    "originalUrl": "https://kubernetes.io/",
+    "domain": "kubernetes.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Kubernetes verteilt Container auf mehrere Rechner und startet sie neu, wenn einer ausfällt.",
+    "longDescriptionDe": "Die Dokumentation beschreibt Cluster, Deployments und Dienste. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Container auf mehreren Rechnern",
+      "Neustart bei Ausfall",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Anwendung auf mehrere Rechner zu verteilen",
+      "Einen Dienst im Cluster zu beschreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Portainer",
+    "originalUrl": "https://www.portainer.io/",
+    "domain": "portainer.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Portainer verwaltet Container über eine Weboberfläche.",
+    "longDescriptionDe": "Portainer zeigt laufende Container und startet Stacks. Es gibt eine Community-Ausgabe und bezahlte Business-Funktionen. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Weboberfläche für Container",
+      "Community-Ausgabe",
+      "Bezahlte Business-Funktionen"
+    ],
+    "useCasesDe": [
+      "Container ohne nur die Kommandozeile zu starten",
+      "Einen Stack zu überblicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Elastic",
+    "originalUrl": "https://www.elastic.co/",
+    "domain": "elastic.co",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Elasticsearch speichert und durchsucht große Mengen von Dokumenten und Logs.",
+    "longDescriptionDe": "Elastic bietet Suche, Logs und Observability. Eine OSI-Kennung der aktuellen Ausgabe wird hier nicht eingetragen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Suche über Dokumente",
+      "Logs",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Logs einer Anwendung zu durchsuchen",
+      "Einen Suchindex aufzubauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SigNoz",
+    "originalUrl": "https://signoz.io/",
+    "domain": "signoz.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "SigNoz zeigt Traces, Metriken und Logs und lässt sich selbst betreiben.",
+    "longDescriptionDe": "SigNoz sammelt Telemetrie einer Anwendung. Eine OSI-Kennung wird hier nicht erneut eingetragen. Es gibt den Selbstbetrieb und eine Cloud.",
+    "featuresDe": [
+      "Traces, Metriken und Logs",
+      "Selbstbetrieb und Cloud",
+      "Lizenz nicht erneut eingetragen"
+    ],
+    "useCasesDe": [
+      "Eine langsame Anfrage zu verfolgen",
+      "Die Telemetrie selbst zu hosten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ownCloud",
+    "originalUrl": "https://owncloud.com/",
+    "domain": "owncloud.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "ownCloud synchronisiert Dateien und lässt sich auf dem eigenen Server betreiben.",
+    "longDescriptionDe": "ownCloud legt Ordner ab und teilt sie im Team. Es gibt eine selbst betreibbare Ausgabe und eine gehostete Fassung. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Dateiabgleich",
+      "Selbstbetrieb und Hosting",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Dateien eines Teams selbst zu hosten",
+      "Einen Ordner freizugeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Collabora Online",
+    "originalUrl": "https://www.collaboraoffice.com/",
+    "domain": "collaboraoffice.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Collabora Online bearbeitet Textdokumente, Tabellen und Folien im Browser.",
+    "longDescriptionDe": "Collabora setzt auf LibreOffice und lässt sich an eine eigene Cloud hängen. Es gibt eine Community-Ausgabe und bezahlte Angebote. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Dokumente im Browser",
+      "Anbindung an eine eigene Cloud",
+      "Community-Ausgabe und bezahlte Angebote"
+    ],
+    "useCasesDe": [
+      "Eine Datei im Browser zu bearbeiten",
+      "Office an den eigenen Server zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FileZilla",
+    "originalUrl": "https://www.filezilla-project.org/",
+    "domain": "filezilla-project.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "FileZilla überträgt Dateien per FTP und SFTP.",
+    "longDescriptionDe": "FileZilla Client verbindet sich mit einem Server und kopiert Dateien. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Client ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "FTP und SFTP",
+      "Dateiübertragung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Website auf den Server zu kopieren",
+      "Dateien per SFTP zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "KeePass",
+    "originalUrl": "https://www.keepass.info/",
+    "domain": "keepass.info",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "KeePass speichert Passwörter in einer verschlüsselten Datei.",
+    "longDescriptionDe": "KeePass legt Einträge lokal ab und öffnet sie mit einem Hauptschlüssel. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Verschlüsselte Passwortdatei",
+      "Lokale Speicherung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Passwörter in einer Datei zu halten",
+      "Einen Eintrag mit dem Hauptschlüssel zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Magic Earth",
+    "originalUrl": "https://www.magic.earth/",
+    "domain": "magic.earth",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Magic Earth navigiert offline mit Karten und zeigt Verkehr, wo eine Verbindung da ist.",
+    "longDescriptionDe": "Die App führt zu einem Ziel und kann Karten vorausladen. Es gibt einen kostenlosen Einstieg und bezahlte Funktionen.",
+    "featuresDe": [
+      "Navigation",
+      "Karten zum Vorausladen",
+      "Kostenloser Einstieg und bezahlte Funktionen"
+    ],
+    "useCasesDe": [
+      "Eine Route ohne ständige Verbindung zu fahren",
+      "Ein Ziel in der App zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenLayers",
+    "originalUrl": "https://openlayers.org/",
+    "domain": "openlayers.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "reisen"
+    ],
+    "shortDescriptionDe": "OpenLayers zeichnet Karten im Browser.",
+    "longDescriptionDe": "OpenLayers legt Kacheln, Vektoren und Markierungen auf eine Seite. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Bibliothek ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Karten im Browser",
+      "Kacheln und Vektoren",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Karte in eine Website einzubauen",
+      "Eine Markierung zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "deck.gl",
+    "originalUrl": "https://deck.gl/",
+    "domain": "deck.gl",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "deck.gl zeichnet große Mengen von Punkten und Wegen als WebGL-Karte.",
+    "longDescriptionDe": "deck.gl legt Ebenen über eine Grundkarte. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Bibliothek ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "WebGL-Karten",
+      "Ebenen für Punkte und Wege",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Viele Standorte auf einmal zu zeichnen",
+      "Eine Datenebene über eine Karte zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "mapshaper",
+    "originalUrl": "https://mapshaper.org/",
+    "domain": "mapshaper.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "mapshaper vereinfacht und wandelt Geodaten im Browser.",
+    "longDescriptionDe": "mapshaper öffnet Shapefiles und GeoJSON und kann sie verkleinern. Die Nutzung im Browser ist ohne Konto möglich. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Vereinfachen von Geodaten",
+      "Shapefile und GeoJSON",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Karte fürs Web zu verkleinern",
+      "Ein Format in ein anderes zu wandeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Marble",
+    "originalUrl": "https://marble.kde.org/",
+    "domain": "marble.kde.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Marble ist ein virtueller Globus für den Desktop.",
+    "longDescriptionDe": "Marble zeigt Erde und weitere Karten offline, soweit die Daten geladen sind. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Virtueller Globus",
+      "Desktop-Anwendung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Ort auf dem Globus zu suchen",
+      "Eine Karte ohne Browser zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "uMap",
+    "originalUrl": "https://umap.openstreetmap.fr/",
+    "domain": "umap.openstreetmap.fr",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen",
+      "daten"
+    ],
+    "shortDescriptionDe": "uMap zeichnet eigene Karten auf OpenStreetMap und teilt sie per Link.",
+    "longDescriptionDe": "uMap setzt Markierungen und Flächen und bettet die Karte ein. Die Nutzung ist ohne Abo möglich. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Eigene Karten",
+      "Markierungen und Einbettung",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Karte mit Orten zu teilen",
+      "Eine Fläche einzuzeichnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MkDocs",
+    "originalUrl": "https://www.mkdocs.org/",
+    "domain": "mkdocs.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "MkDocs baut eine Dokumentationswebsite aus Markdown.",
+    "longDescriptionDe": "MkDocs erzeugt statische Seiten mit Navigation. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Dokumentation aus Markdown",
+      "Statische Seiten",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Projektdoku zu erzeugen",
+      "Markdown in eine Website zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "VitePress",
+    "originalUrl": "https://vitepress.dev/",
+    "domain": "vitepress.dev",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "VitePress baut Dokumentationsseiten mit Vite aus Markdown.",
+    "longDescriptionDe": "VitePress erzeugt eine schnelle statische Doku. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Dokumentation mit Vite",
+      "Markdown",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Dokumentation zu veröffentlichen",
+      "Eine Seite lokal vorzuschauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sphinx",
+    "originalUrl": "https://www.sphinx-doc.org/",
+    "domain": "sphinx-doc.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Sphinx erzeugt Dokumentation, besonders für Python-Projekte.",
+    "longDescriptionDe": "Sphinx baut aus reStructuredText oder Markdown HTML und PDF. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Dokumentation als HTML und PDF",
+      "Python-Projekte",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine API-Dokumentation zu bauen",
+      "Ein Handbuch zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TiddlyWiki",
+    "originalUrl": "https://tiddlywiki.com/",
+    "domain": "tiddlywiki.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "TiddlyWiki hält Notizen in einer einzigen HTML-Datei.",
+    "longDescriptionDe": "TiddlyWiki speichert kurze Einträge, die sich gegenseitig verlinken. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Notizen in einer HTML-Datei",
+      "Verlinkte Einträge",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Notizbuch als eine Datei zu führen",
+      "Einträge miteinander zu verlinken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BorgBackup",
+    "originalUrl": "https://www.borgbackup.org/",
+    "domain": "borgbackup.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "BorgBackup sichert Verzeichnisse dedupliziert und verschlüsselt.",
+    "longDescriptionDe": "Borg speichert nur geänderte Blöcke und kann einzelne Dateien zurückspielen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Deduplizierte Sicherungen",
+      "Verschlüsselung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Verzeichnis regelmäßig zu sichern",
+      "Eine einzelne Datei zurückzuholen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "restic",
+    "originalUrl": "https://restic.net/",
+    "domain": "restic.net",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "restic sichert Dateien verschlüsselt auf ein Ziel eigener Wahl.",
+    "longDescriptionDe": "restic legt Schnappschüsse an und spielt sie zurück. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Verschlüsselte Schnappschüsse",
+      "Viele Speicherziele",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Backup auf einen eigenen Speicher zu legen",
+      "Einen Schnappschuss zurückzuspielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cloudron",
+    "originalUrl": "https://www.cloudron.io/",
+    "domain": "cloudron.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Cloudron installiert Webanwendungen auf dem eigenen Server über eine Oberfläche.",
+    "longDescriptionDe": "Cloudron richtet Apps, Updates und Mail ein. Es gibt einen kostenlosen Umfang und bezahlte Pläne.",
+    "featuresDe": [
+      "Apps auf dem eigenen Server",
+      "Updates über die Oberfläche",
+      "Kostenloser Umfang und bezahlte Pläne"
+    ],
+    "useCasesDe": [
+      "Mehrere Webapps ohne einzelne Einrichtung zu starten",
+      "Updates zentral zu spielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Magit",
+    "originalUrl": "https://magit.vc/",
+    "domain": "magit.vc",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Magit bedient Git aus Emacs.",
+    "longDescriptionDe": "Magit zeigt Status, Diffs und Commits in Emacs. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Paket ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Git in Emacs",
+      "Status, Diff und Commit",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Änderungen in Emacs zu committen",
+      "Einen Diff zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "micro",
+    "originalUrl": "https://micro-editor.github.io/",
+    "domain": "micro-editor.github.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "micro ist ein Terminal-Editor, der sich mit der Maus und üblichen Tasten bedienen lässt.",
+    "longDescriptionDe": "micro öffnet Textdateien im Terminal und hebt Syntax hervor. Eine OSI-Kennung wird hier nicht eingetragen. Der Editor ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Editor im Terminal",
+      "Syntax-Hervorhebung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Datei auf einem Server zu bearbeiten",
+      "Einen Text ohne vim-Befehle zu ändern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Poetry",
+    "originalUrl": "https://python-poetry.org/",
+    "domain": "python-poetry.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Poetry verwaltet Abhängigkeiten und Pakete eines Python-Projekts.",
+    "longDescriptionDe": "Poetry legt eine Lock-Datei an und installiert die genannten Versionen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Abhängigkeiten für Python",
+      "Lock-Datei",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Die Pakete eines Projekts festzuschreiben",
+      "Eine Bibliothek zu veröffentlichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "uv",
+    "originalUrl": "https://docs.astral.sh/uv/",
+    "domain": "docs.astral.sh",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "uv installiert Python-Pakete und legt Umgebungen an.",
+    "longDescriptionDe": "uv ersetzt mehrere Werkzeuge rund um pip durch ein Programm. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Schnelle Paketinstallation",
+      "Umgebungen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Abhängigkeiten eines Python-Projekts zu installieren",
+      "Eine Umgebung anzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Astral",
+    "originalUrl": "https://astral.sh/",
+    "domain": "astral.sh",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Astral entwickelt uv und den Linter Ruff für Python.",
+    "longDescriptionDe": "Die Seite stellt die Werkzeuge vor. Ruff prüft Python-Code, uv installiert Pakete. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Ruff und uv",
+      "Python-Werkzeuge",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Den Linter und den Installer einzuordnen",
+      "Zur Dokumentation zu wechseln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ruby",
+    "originalUrl": "https://www.ruby-lang.org/",
+    "domain": "ruby-lang.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Ruby ist eine Programmiersprache, oft für Webanwendungen.",
+    "longDescriptionDe": "ruby-lang.org stellt die Sprache und die Dokumentation bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Interpreter ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Programmiersprache",
+      "Dokumentation",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Skript in Ruby zu schreiben",
+      "Die Dokumentation einer Klasse zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Elixir",
+    "originalUrl": "https://elixir-lang.org/",
+    "domain": "elixir-lang.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Elixir ist eine Programmiersprache für nebenläufige Dienste auf der Erlang-VM.",
+    "longDescriptionDe": "elixir-lang.org stellt Compiler und Dokumentation bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Nebenläufige Dienste",
+      "Erlang-VM",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Dienst in Elixir zu schreiben",
+      "Die Dokumentation zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Haskell",
+    "originalUrl": "https://www.haskell.org/",
+    "domain": "haskell.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Haskell ist eine funktionale Programmiersprache mit starkem Typsystem.",
+    "longDescriptionDe": "haskell.org stellt Compiler und Dokumentation bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Funktionale Sprache",
+      "Starkes Typsystem",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Programm in Haskell zu schreiben",
+      "Den Compiler zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OCaml",
+    "originalUrl": "https://ocaml.org/",
+    "domain": "ocaml.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "OCaml ist eine funktionale Programmiersprache mit einem nativen Compiler.",
+    "longDescriptionDe": "ocaml.org stellt Werkzeuge und Dokumentation bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Funktionale Sprache",
+      "Nativer Compiler",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Programm in OCaml zu bauen",
+      "Die Dokumentation zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Scala",
+    "originalUrl": "https://www.scala-lang.org/",
+    "domain": "scala-lang.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Scala verbindet funktionale und objektorientierte Programmierung auf der JVM.",
+    "longDescriptionDe": "scala-lang.org stellt Compiler und Dokumentation bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Sprache auf der JVM",
+      "Dokumentation",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Programm in Scala zu schreiben",
+      "Den Compiler zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Swift",
+    "originalUrl": "https://www.swift.org/",
+    "domain": "swift.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Swift ist eine Programmiersprache für Apple-Plattformen und Server.",
+    "longDescriptionDe": "swift.org stellt die Sprache und den Compiler außerhalb des App Stores vor. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Compiler ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Sprache für Apple-Plattformen und Server",
+      "Compiler",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Programm in Swift zu bauen",
+      "Die Sprachdokumentation zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zig",
+    "originalUrl": "https://ziglang.org/",
+    "domain": "ziglang.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Zig ist eine Systemsprache mit manuellem Speicher und einem eigenen Build-System.",
+    "longDescriptionDe": "ziglang.org stellt Compiler und Dokumentation bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Systemsprache",
+      "Eigenes Build-System",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Programm in Zig zu schreiben",
+      "Den Compiler zu laden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Julia",
+    "originalUrl": "https://julialang.org/",
+    "domain": "julialang.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "daten"
+    ],
+    "shortDescriptionDe": "Julia ist eine Sprache für numerische Arbeit und wissenschaftliche Programme.",
+    "longDescriptionDe": "julialang.org stellt die Sprache und Pakete vor. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Laufzeit ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Numerische Sprache",
+      "Pakete",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Berechnung in Julia zu schreiben",
+      "Ein Paket zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hex",
+    "originalUrl": "https://hex.pm/",
+    "domain": "hex.pm",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Hex verteilt Pakete für Elixir und Erlang.",
+    "longDescriptionDe": "Hex zeigt Bibliotheken und Versionen. Die Suche ist ohne Konto möglich. Eine OSI-Kennung des Index wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Pakete für Elixir und Erlang",
+      "Versionen",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Bibliothek zu finden",
+      "Die aktuelle Version nachzusehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "pub.dev",
+    "originalUrl": "https://pub.dev/",
+    "domain": "pub.dev",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "pub.dev verteilt Pakete für Dart und Flutter.",
+    "longDescriptionDe": "Die Seite zeigt Pakete, Versionen und Beispielcode. Die Suche ist ohne Konto möglich. Eine OSI-Kennung des Index wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Pakete für Dart und Flutter",
+      "Beispielcode",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Flutter-Paket zu finden",
+      "Die API eines Pakets zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
