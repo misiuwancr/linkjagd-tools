@@ -1,0 +1,844 @@
+[
+  {
+    "name": "Bexio",
+    "originalUrl": "https://www.bexio.com/",
+    "domain": "bexio.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Bexio schreibt Rechnungen und führt die Buchhaltung im Browser.",
+    "longDescriptionDe": "Bexio legt Angebote, Rechnungen und Belege an. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Rechnungen",
+      "Belege",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Rechnung zu schreiben",
+      "Belege in der Buchhaltung abzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Accountable",
+    "originalUrl": "https://www.accountable.de/",
+    "domain": "accountable.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Accountable erfasst Einnahmen und Ausgaben für Selbstständige.",
+    "longDescriptionDe": "Accountable sortiert Belege und bereitet die Steuer vor. Es gibt einen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Einnahmen und Ausgaben",
+      "Belege",
+      "Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Einen Beleg abzufotografieren",
+      "Einnahmen für die Steuer zu sammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Amazing Marvin",
+    "originalUrl": "https://www.amazingmarvin.com/",
+    "domain": "amazingmarvin.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Amazing Marvin plant Aufgaben und lässt die Methode selbst wählen.",
+    "longDescriptionDe": "Amazing Marvin kombiniert Listen, Kalender und Strategien. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Aufgaben",
+      "Wählbare Methoden",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Den Tag aus einer Aufgabenliste zu bauen",
+      "Eine Methode wie Zeitblöcke einzuschalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Any.do",
+    "originalUrl": "https://www.any.do/",
+    "domain": "any.do",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Any.do hält Aufgaben, Listen und Termine an einem Ort.",
+    "longDescriptionDe": "Any.do legt Erinnerungen und geteilte Listen an. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Aufgaben und Listen",
+      "Erinnerungen",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Eine Einkaufsliste zu teilen",
+      "Eine Aufgabe mit Erinnerung anzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Banana Buchhaltung",
+    "originalUrl": "https://www.banana.ch/",
+    "domain": "banana.ch",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Banana Buchhaltung führt Konten in einer Tabelle auf dem eigenen Rechner.",
+    "longDescriptionDe": "Banana rechnet Soll und Haben in einer Datei. Es gibt einen Einstieg und eine kostenpflichtige Lizenz.",
+    "featuresDe": [
+      "Buchhaltung in einer Tabelle",
+      "Datei auf dem eigenen Rechner",
+      "Einstieg und kostenpflichtige Lizenz"
+    ],
+    "useCasesDe": [
+      "Eine einfache Buchhaltung zu führen",
+      "Einen Abschluss aus der Datei zu rechnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Candis",
+    "originalUrl": "https://www.candis.io/",
+    "domain": "candis.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Candis liest Eingangsrechnungen und schlägt die Buchung vor.",
+    "longDescriptionDe": "Candis nimmt einen Beleg und übergibt ihn an die Buchhaltung. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Eingangsrechnungen",
+      "Buchungsvorschlag",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Rechnung automatisch auszulesen",
+      "Einen Beleg freizugeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CashCtrl",
+    "originalUrl": "https://www.cashctrl.com/",
+    "domain": "cashctrl.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "CashCtrl führt Buchhaltung, Rechnungen und Belege im Browser.",
+    "longDescriptionDe": "CashCtrl legt Geschäftsfälle an und erstellt Auswertungen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Buchhaltung im Browser",
+      "Rechnungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Rechnung zu stellen",
+      "Einen Monatsabschluss zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Debitoor",
+    "originalUrl": "https://www.debitoor.com/",
+    "domain": "debitoor.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Debitoor schreibt Rechnungen und erfasst Belege für kleine Firmen.",
+    "longDescriptionDe": "Debitoor legt Kunden und Rechnungen an. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Rechnungen",
+      "Belege",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Rechnung an einen Kunden zu schicken",
+      "Belege zu sammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HRworks",
+    "originalUrl": "https://www.hrworks.de/",
+    "domain": "hrworks.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "personal"
+    ],
+    "shortDescriptionDe": "HRworks verwaltet Abwesenheiten, Arbeitszeiten und Personalakten.",
+    "longDescriptionDe": "HRworks nimmt Urlaubsanträge entgegen und führt Zeiten. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Abwesenheiten",
+      "Arbeitszeiten",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Urlaubsantrag zu stellen",
+      "Zeiten im Monat zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Lexware",
+    "originalUrl": "https://www.lexware.de/",
+    "domain": "lexware.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Lexware führt Buchhaltung, Lohn und Warenwirtschaft für kleine Firmen.",
+    "longDescriptionDe": "Lexware bietet einzelne Programme für Rechnung, Lohn und Buchhaltung. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Buchhaltung und Lohn",
+      "Rechnungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Lohnabrechnung zu erstellen",
+      "Eine Rechnung aus dem Programm zu schreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Missive",
+    "originalUrl": "https://www.missiveapp.com/",
+    "domain": "missiveapp.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Missive führt E-Mail und Chat eines Teams in einem Posteingang.",
+    "longDescriptionDe": "Missive teilt Unterhaltungen und interne Kommentare. Es gibt einen kostenlosen Einstieg und bezahlte Plätze.",
+    "featuresDe": [
+      "Gemeinsamer Posteingang",
+      "Interne Kommentare",
+      "Kostenloser Einstieg und bezahlte Plätze"
+    ],
+    "useCasesDe": [
+      "Eine Mail im Team zu beantworten",
+      "Einen Kommentar neben der Mail zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "NoMachine",
+    "originalUrl": "https://www.nomachine.com/",
+    "domain": "nomachine.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "NoMachine zeigt den Bildschirm eines anderen Rechners und steuert ihn.",
+    "longDescriptionDe": "NoMachine verbindet sich mit einem Rechner im Netz. Es gibt eine kostenlose Fassung und bezahlte Funktionen.",
+    "featuresDe": [
+      "Fernsteuerung",
+      "Bildschirm",
+      "Kostenlose Fassung und bezahlte Funktionen"
+    ],
+    "useCasesDe": [
+      "Einen Rechner aus der Ferne zu bedienen",
+      "Eine Datei über die Verbindung zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Notesnook",
+    "originalUrl": "https://www.notesnook.com/",
+    "domain": "notesnook.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Notesnook speichert Notizen verschlüsselt und gleicht sie zwischen Geräten ab.",
+    "longDescriptionDe": "Notesnook legt Notizbücher an. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Verschlüsselte Notizen",
+      "Abgleich zwischen Geräten",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Eine Notiz nur für sich abzulegen",
+      "Dieselbe Notiz auf dem Handy zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Shortwave",
+    "originalUrl": "https://www.shortwave.com/",
+    "domain": "shortwave.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Shortwave sortiert E-Mails und fasst Threads zusammen.",
+    "longDescriptionDe": "Shortwave bündelt den Posteingang und schlägt Antworten vor. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Sortierter Posteingang",
+      "Zusammengefasste Threads",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Einen langen Thread auf den Punkt zu bringen",
+      "Den Posteingang nach Themen zu bündeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Simplenote",
+    "originalUrl": "https://simplenote.com/",
+    "domain": "simplenote.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Simplenote hält schlichte Notizen und gleicht sie zwischen Geräten ab.",
+    "longDescriptionDe": "Simplenote speichert Text und eine Verlaufsliste. Die Nutzung ist ohne Abo möglich.",
+    "featuresDe": [
+      "Schlichte Notizen",
+      "Verlauf",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Notiz schnell festzuhalten",
+      "Dieselbe Notiz auf einem zweiten Gerät zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SkedPal",
+    "originalUrl": "https://www.skedpal.com/",
+    "domain": "skedpal.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "SkedPal legt Aufgaben automatisch in freie Zeiten des Kalenders.",
+    "longDescriptionDe": "SkedPal nimmt Fristen und Prioritäten und plant den Tag. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Aufgaben im Kalender",
+      "Fristen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Den Tag aus einer Aufgabenliste planen zu lassen",
+      "Eine Aufgabe um einen Termin herum zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Splashtop",
+    "originalUrl": "https://www.splashtop.com/",
+    "domain": "splashtop.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Splashtop steuert einen anderen Rechner über das Netz.",
+    "longDescriptionDe": "Splashtop zeigt den entfernten Bildschirm und nimmt Eingaben entgegen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Fernsteuerung",
+      "Entfernter Bildschirm",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Bürorechner von unterwegs zu bedienen",
+      "Jemandem am Bildschirm zu helfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Taxdoo",
+    "originalUrl": "https://www.taxdoo.com/",
+    "domain": "taxdoo.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Taxdoo rechnet Umsatzsteuer für Verkäufe über mehrere Länder.",
+    "longDescriptionDe": "Taxdoo liest Shop-Daten und bereitet Meldungen vor. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Umsatzsteuer über Länder",
+      "Shop-Daten",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Verkäufe aus einem Shop für die Steuer zu sammeln",
+      "Eine Meldung vorzubereiten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Things 3",
+    "originalUrl": "https://www.things.app/",
+    "domain": "things.app",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Things sortiert Aufgaben nach Bereichen, Projekten und dem heutigen Tag.",
+    "longDescriptionDe": "Things hält eine Heute-Liste und Fristen. Die Apps sind kostenpflichtig.",
+    "featuresDe": [
+      "Heute-Liste",
+      "Projekte",
+      "Kostenpflichtige Apps"
+    ],
+    "useCasesDe": [
+      "Nur das für heute auszuwählen",
+      "Ein Projekt in nächste Schritte zu teilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DWService",
+    "originalUrl": "https://www.dwservice.net/",
+    "domain": "dwservice.net",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "DWService gibt einen Rechner für eine Sitzung zur Fernsteuerung frei.",
+    "longDescriptionDe": "DWService erzeugt einen Zugangscode und öffnet den Bildschirm. Eine OSI-Kennung wird hier nicht eingetragen. Die Nutzung ist ohne Abo beschrieben.",
+    "featuresDe": [
+      "Fernsteuerung per Code",
+      "Sitzung",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Jemandem kurz den eigenen Rechner zu zeigen",
+      "Einen Rechner ohne Installation beim Gegenüber zu erreichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Exact",
+    "originalUrl": "https://www.exact.com/",
+    "domain": "exact.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Exact führt Buchhaltung, Projekte und Warenwirtschaft für Firmen.",
+    "longDescriptionDe": "Exact bündelt Belege, Rechnungen und Auswertungen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Buchhaltung",
+      "Projekte",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Rechnung in der Buchhaltung zu sehen",
+      "Ein Projekt mit Kosten zu führen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Klippa",
+    "originalUrl": "https://www.klippa.com/",
+    "domain": "klippa.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "Klippa liest Belege und zieht die Felder in eine strukturierte Form.",
+    "longDescriptionDe": "Klippa nimmt ein Foto oder eine PDF und liefert Betrag und Datum. Es gibt einen Einstieg und bezahlte Mengen.",
+    "featuresDe": [
+      "Belege auslesen",
+      "Felder wie Betrag und Datum",
+      "Einstieg und bezahlte Mengen"
+    ],
+    "useCasesDe": [
+      "Eine Rechnung automatisch zu erfassen",
+      "Felder in die Buchhaltung zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "PlentyONE",
+    "originalUrl": "https://www.plentyone.com/",
+    "domain": "plentyone.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "PlentyONE steuert Bestellungen und Artikel über mehrere Verkaufskanäle.",
+    "longDescriptionDe": "PlentyONE bündelt Lager und Marktplatz-Bestellungen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Bestellungen",
+      "Mehrere Kanäle",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Artikel an mehrere Kanäle zu geben",
+      "Bestellungen an einem Ort zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ScreenConnect",
+    "originalUrl": "https://www.screenconnect.com/",
+    "domain": "screenconnect.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "ScreenConnect öffnet eine Fernwartungssitzung auf einem anderen Rechner.",
+    "longDescriptionDe": "ScreenConnect verbindet Support und Bildschirm. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Fernwartung",
+      "Support-Sitzung",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Bildschirm im Support zu sehen",
+      "Eine Sitzung mit einem Kunden zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenTalk",
+    "originalUrl": "https://www.opentalk.eu/",
+    "domain": "opentalk.eu",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "OpenTalk führt Videokonferenzen, auch auf eigener Infrastruktur.",
+    "longDescriptionDe": "OpenTalk stellt Räume für Gespräche bereit. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt betriebene Angebote und eine selbst zu betreibende Fassung.",
+    "featuresDe": [
+      "Videokonferenzen",
+      "Eigene Infrastruktur",
+      "Betriebene und selbst betriebene Fassung"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch ohne einen US-Dienst zu führen",
+      "Einen Raum für ein Team zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Canary Mail",
+    "originalUrl": "https://www.canarymail.io/",
+    "domain": "canarymail.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Canary Mail verschlüsselt E-Mails und fasst den Posteingang zusammen.",
+    "longDescriptionDe": "Canary Mail liest bei den großen Anbietern mit und bietet Verschlüsselung. Es gibt einen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Verschlüsselte Mails",
+      "Zusammengefasster Posteingang",
+      "Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Eine Mail verschlüsselt zu senden",
+      "Den Posteingang kürzer zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Skype",
+    "originalUrl": "https://www.skype.com/",
+    "domain": "skype.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Skype führt Videoanrufe und Chats zwischen Kontakten.",
+    "longDescriptionDe": "Skype startet einen Anruf oder eine Nachricht. Es gibt einen kostenlosen Einstieg und bezahlte Guthaben für einige Nummern.",
+    "featuresDe": [
+      "Videoanrufe",
+      "Chat",
+      "Kostenloser Einstieg"
+    ],
+    "useCasesDe": [
+      "Jemanden per Video anzurufen",
+      "Eine Nachricht zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TightVNC",
+    "originalUrl": "https://www.tightvnc.com/",
+    "domain": "tightvnc.com",
+    "pricingModel": "free",
+    "licenseType": "open_source",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "TightVNC zeigt einen Windows-Bildschirm im Netz und steht unter der GPL.",
+    "longDescriptionDe": "TightVNC besteht aus Server und Betrachter. Die Software ist quelloffen unter der GPL und ohne Lizenzgebühr nutzbar.",
+    "featuresDe": [
+      "Fernsteuerung unter Windows",
+      "Server und Betrachter",
+      "GPL, ohne Lizenzgebühr"
+    ],
+    "useCasesDe": [
+      "Einen Windows-Rechner im eigenen Netz zu sehen",
+      "Eine Sitzung ohne Abo zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SteuerGo",
+    "originalUrl": "https://www.steuergo.de/",
+    "domain": "steuergo.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen"
+    ],
+    "shortDescriptionDe": "SteuerGo führt durch die Einkommensteuererklärung im Browser.",
+    "longDescriptionDe": "SteuerGo stellt Fragen und füllt die Felder. Es gibt einen Einstieg und eine kostenpflichtige Abgabe.",
+    "featuresDe": [
+      "Einkommensteuer im Browser",
+      "Geführte Fragen",
+      "Einstieg und kostenpflichtige Abgabe"
+    ],
+    "useCasesDe": [
+      "Eine Steuererklärung Schritt für Schritt auszufüllen",
+      "Die Daten vor der Abgabe zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]

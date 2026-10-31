@@ -1,0 +1,13 @@
+[
+  {"name": "Google Keep", "reason": "Die Adresse liegt auf google.com und ist damit kein eigener Werkzeug-Host."},
+  {"name": "Holvi", "reason": "Geschäftskonto, kein Werkzeug."},
+  {"name": "Klarna", "reason": "Zahlungsdienst, kein Verzeichnis-Werkzeug."},
+  {"name": "Penta", "reason": "Geschäftskonto, kein Werkzeug."},
+  {"name": "AnkiWeb", "reason": "Anki ist bereits über apps.ankiweb.net eingetragen."},
+  {"name": "Linguee", "reason": "Bereits über linguee.de eingetragen."},
+  {"name": "PONS", "reason": "Bereits über de.pons.com eingetragen."},
+  {"name": "Jitsi Meet", "reason": "Dieselbe Marke ist bereits eingetragen."},
+  {"name": "Standard Notes App", "reason": "Dieselbe Marke ist bereits eingetragen."},
+  {"name": "DATEV", "reason": "In dieser Runde nicht erneut geprüft, weil Behörden- und Kammerportale ausgeschlossen bleiben."},
+  {"name": "ELSTER", "reason": "Behördenportal, kein Werkzeug."}
+]
