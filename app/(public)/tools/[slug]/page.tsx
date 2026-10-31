@@ -12,6 +12,7 @@ import { ToolCard } from "@/components/tool-card";
 import { ToolLogo } from "@/components/tool-logo";
 import { getToolBySlug, listSimilar } from "@/lib/tools/repository";
 import { toPublicTool } from "@/lib/tools/public";
+import { softwareOffer, toolMetaTitle } from "@/lib/seo";
 
 export const revalidate = 60;
 
@@ -29,11 +30,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!tool || tool.publishStatus !== "published" || tool.isExample) return { title: "Tool nicht gefunden" };
   const publicTool = toPublicTool(tool, host());
   return {
-    title: publicTool.name,
+    title: toolMetaTitle(publicTool.name),
     description: publicTool.shortDescriptionDe,
     alternates: { canonical: `/tools/${publicTool.slug}` },
     openGraph: {
-      title: publicTool.name,
+      title: toolMetaTitle(publicTool.name),
       description: publicTool.shortDescriptionDe,
       url: `/tools/${publicTool.slug}`,
     },
@@ -48,6 +49,16 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
   const tool = toPublicTool(record, siteHost);
   const similar = (await listSimilar(database, record)).map((item) => toPublicTool(item, siteHost));
   const canonical = new URL(`/tools/${tool.slug}`, siteConfig.url).toString();
+  const offer = softwareOffer(tool.pricingModel);
+  const category = tool.categories[0];
+  const crumbs = [
+    { name: "Linkjagd Tools", url: siteConfig.url },
+    { name: "Alle Tools", url: new URL("/tools", siteConfig.url).toString() },
+    ...(category
+      ? [{ name: category.name, url: new URL(`/kategorien/${category.slug}`, siteConfig.url).toString() }]
+      : []),
+    { name: tool.name, url: canonical },
+  ];
 
   return (
     <div className="page-wrap py-8 sm:py-12">
@@ -56,16 +67,38 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
           name: tool.name,
-          description: tool.shortDescriptionDe,
-          applicationCategory: tool.categories[0]?.name,
+          description: tool.longDescriptionDe || tool.shortDescriptionDe,
+          applicationCategory: category?.name,
           url: canonical,
           inLanguage: "de",
+          ...(tool.ossOperatingSystems.length > 0 ? { operatingSystem: tool.ossOperatingSystems.join(", ") } : {}),
+          ...(offer ? { offers: offer } : {}),
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: crumbs.map((crumb, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            name: crumb.name,
+            item: crumb.url,
+          })),
         }}
       />
       <nav aria-label="Brotkrumen" className="text-sm text-muted-foreground">
         <Link href="/tools" className="hover:text-foreground">
           Alle Tools
         </Link>
+        {category ? (
+          <>
+            <span aria-hidden="true"> / </span>
+            <Link href={`/kategorien/${category.slug}`} className="hover:text-foreground">
+              {category.name}
+            </Link>
+          </>
+        ) : null}
         <span aria-hidden="true"> / </span>
         <span className="text-foreground">{tool.name}</span>
       </nav>
@@ -158,12 +191,14 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
               </div>
             </section>
           ) : null}
-          <section>
-            <h2 className="text-2xl font-bold tracking-tight">Über das Tool</h2>
-            <div className="mt-4 max-w-3xl whitespace-pre-wrap text-base leading-8 text-foreground/90">
-              {tool.longDescriptionDe || "Eine ausführliche Beschreibung folgt."}
-            </div>
-          </section>
+          {tool.longDescriptionDe.trim() ? (
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight">Über das Tool</h2>
+              <div className="mt-4 max-w-3xl whitespace-pre-wrap text-base leading-8 text-foreground/90">
+                {tool.longDescriptionDe}
+              </div>
+            </section>
+          ) : null}
           {tool.featuresDe.length > 0 ? (
             <section>
               <h2 className="text-2xl font-bold tracking-tight">Besondere Funktionen</h2>
@@ -215,9 +250,9 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           {tool.editorRating ? (
             <p className="text-sm text-muted-foreground">Redaktionelle Bewertung: {tool.editorRating} von 5. Das ist keine Nutzerwertung.</p>
           ) : null}
-          <section>
-            <h2 className="text-2xl font-bold tracking-tight">Vorschau</h2>
-            {tool.screenshots.length > 0 ? (
+          {tool.screenshots.length > 0 ? (
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight">Vorschau</h2>
               <div className="mt-4 grid gap-4">
                 {tool.screenshots.map((shot) =>
                   shot.endsWith(".svg") ? (
@@ -235,10 +270,8 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
                   ),
                 )}
               </div>
-            ) : (
-              <p className="mt-4 text-sm text-muted-foreground">Für dieses Tool sind noch keine Vorschaubilder hinterlegt.</p>
-            )}
-          </section>
+            </section>
+          ) : null}
           <section>
             <h2 className="text-2xl font-bold tracking-tight">Ähnliche Tools</h2>
             {similar.length === 0 ? (
