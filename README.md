@@ -15,6 +15,7 @@ cp .env.example .env
 # JWT_SECRET und ADMIN_PASSWORD setzen (Passwort mindestens 12 Zeichen)
 npm install
 npm run db:setup
+npm run import:futuretools
 npm run dev
 ```
 
@@ -61,6 +62,8 @@ Partnerstatus: Kein Partnerprogramm gefunden, Partnerprogramm gefunden, Bewerbun
 Migrationen liegen in `migrations/` und laufen über `npm run db:migrate` oder beim Start. `npm run db:setup` migriert und legt fehlende Kategorien, Beispieldatensätze und den Admin an. Vorhandene Zeilen werden nicht überschrieben.
 
 Die Beispiele sind gekennzeichnet, haben keine Partnerlinks und verlinken ihre `.example`-Adressen nicht. Echte Affiliate-URLs gehören nicht in den Seed. Testdaten mit `example.com` existieren nur in den Tests.
+
+`npm run import:futuretools` legt die 100 beliebtesten Tools aus FutureTools als Entwürfe an. Herkunft und Sortierung stehen in [`docs/FUTURETOOLS-TOP100.md`](docs/FUTURETOOLS-TOP100.md).
 
 ## Umgebung
 
