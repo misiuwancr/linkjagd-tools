@@ -25,6 +25,8 @@ export type PublicTool = {
   ossInstallNotes: string | null;
   useCasesDe: string[];
   beginnerFriendly: boolean;
+  germanUi: "ja" | "nein" | "unklar";
+  noSignup: "ja" | "nein" | "unklar";
   editorRating: number | null;
   lastCheckedAt: string | null;
   featured: boolean;
@@ -68,6 +70,8 @@ export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool
     ossInstallNotes: tool.ossInstallNotes,
     useCasesDe: parseStringList(tool.useCasesDe),
     beginnerFriendly: tool.beginnerFriendly,
+    germanUi: tool.germanUi ?? "unklar",
+    noSignup: tool.noSignup ?? "unklar",
     editorRating: tool.editorRating,
     lastCheckedAt: tool.lastCheckedAt ? tool.lastCheckedAt.toISOString() : null,
     featured: tool.featured,

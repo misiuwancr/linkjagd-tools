@@ -19,6 +19,8 @@ export type ToolFormInitial = {
   licenseType: LicenseType;
   useCasesDe: string;
   beginnerFriendly: boolean;
+  germanUi: string;
+  noSignup: string;
   ossProjectUrl: string;
   ossRepoUrl: string;
   ossLicense: string;
@@ -176,6 +178,24 @@ export function ToolForm({
         Eigene Bewertung, 1 bis 5, nur wenn wirklich vergeben
         <input name="editorRating" defaultValue={initial.editorRating} className="field" placeholder="leer" />
       </label>
+      <div className="grid gap-4 sm:grid-cols-2">
+        <label className="grid gap-1 text-sm font-medium">
+          Auf Deutsch nutzbar
+          <select name="germanUi" defaultValue={initial.germanUi || "unklar"} className="field">
+            <option value="unklar">Unklar</option>
+            <option value="ja">Ja</option>
+            <option value="nein">Nein</option>
+          </select>
+        </label>
+        <label className="grid gap-1 text-sm font-medium">
+          Ohne Anmeldung nutzbar
+          <select name="noSignup" defaultValue={initial.noSignup || "unklar"} className="field">
+            <option value="unklar">Unklar</option>
+            <option value="ja">Ja</option>
+            <option value="nein">Nein</option>
+          </select>
+        </label>
+      </div>
       <label className="flex items-center gap-2 text-sm">
         <input type="checkbox" name="beginnerFriendly" defaultChecked={initial.beginnerFriendly} />
         Für Anfänger geeignet

@@ -19,6 +19,7 @@ export const affiliateStatuses = [
   "disabled",
 ] as const;
 export const programPresences = ["yes", "no", "unknown"] as const;
+export const triStates = ["ja", "nein", "unklar"] as const;
 export const userRoles = ["admin", "editor"] as const;
 export const newsStatuses = ["draft", "published"] as const;
 
@@ -27,6 +28,7 @@ export type PricingModel = (typeof pricingModels)[number];
 export type LicenseType = (typeof licenseTypes)[number];
 export type AffiliateStatus = (typeof affiliateStatuses)[number];
 export type ProgramPresence = (typeof programPresences)[number];
+export type TriState = (typeof triStates)[number];
 export type UserRole = (typeof userRoles)[number];
 
 const timestamp = (name: string) =>
@@ -85,6 +87,8 @@ export const tools = sqliteTable(
     editorRating: integer("editor_rating"),
     lastCheckedAt: integer("last_checked_at", { mode: "timestamp" }),
     beginnerFriendly: integer("beginner_friendly", { mode: "boolean" }).notNull().default(false),
+    germanUi: text("german_ui", { enum: triStates }).notNull().default("unklar"),
+    noSignup: text("no_signup", { enum: triStates }).notNull().default("unklar"),
     contentLocked: integer("content_locked", { mode: "boolean" }).notNull().default(false),
     missingFields: text("missing_fields").notNull().default("[]"),
     publishStatus: text("publish_status", { enum: publishStatuses })

@@ -77,6 +77,26 @@ export default async function ToolsPage({
           >
             Aus meinen Videos
           </a>
+          <a
+            href="/tools?deutsch=ja"
+            className={
+              safeQuery.germanUi === "ja"
+                ? "ml-2 inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
+                : "ml-2 inline-flex h-9 items-center rounded-full border border-border bg-card px-3 text-sm font-medium"
+            }
+          >
+            Auf Deutsch
+          </a>
+          <a
+            href="/tools?anmeldung=ja"
+            className={
+              safeQuery.noSignup === "ja"
+                ? "ml-2 inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
+                : "ml-2 inline-flex h-9 items-center rounded-full border border-border bg-card px-3 text-sm font-medium"
+            }
+          >
+            Ohne Anmeldung
+          </a>
         </div>
       </div>
       <div className="mt-3">

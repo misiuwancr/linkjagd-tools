@@ -146,6 +146,22 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
               <dt className="text-muted-foreground">Website</dt>
               <dd className="font-medium">{tool.domain}</dd>
             </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-muted-foreground">Zuletzt geprüft</dt>
+              <dd className="font-medium">
+                {tool.lastCheckedAt
+                  ? new Date(tool.lastCheckedAt).toLocaleDateString("de-DE", { day: "numeric", month: "long", year: "numeric" })
+                  : "Kein Prüfdatum hinterlegt"}
+              </dd>
+            </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-muted-foreground">Auf Deutsch nutzbar</dt>
+              <dd className="font-medium">{tool.germanUi === "ja" ? "Ja" : tool.germanUi === "nein" ? "Nein" : "Unklar"}</dd>
+            </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-muted-foreground">Ohne Anmeldung</dt>
+              <dd className="font-medium">{tool.noSignup === "ja" ? "Ja" : tool.noSignup === "nein" ? "Nein" : "Unklar"}</dd>
+            </div>
           </dl>
           <div className="mt-5">
             {tool.ctaKind === "disabled" ? (

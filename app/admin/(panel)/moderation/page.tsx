@@ -20,6 +20,8 @@ export default async function ModerationPage() {
     excludeExamples: false,
     partnerGap: false,
     fromVideo: false,
+    germanUi: "",
+    noSignup: "",
     discoverySources: ["import", "submission", "futuretools-top100"],
   };
   const result = await listTools(await getDb(), query);

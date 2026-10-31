@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { affiliateStatuses, licenseTypes, pricingModels, programPresences, publishStatuses } from "@/db/schema";
+import { affiliateStatuses, licenseTypes, pricingModels, programPresences, publishStatuses, triStates } from "@/db/schema";
 import { domainFromUrl } from "@/lib/utils";
 import { optionalVideoUrl } from "@/lib/videos";
 
@@ -41,6 +41,8 @@ export const toolInputSchema = z.object({
   licenseType: z.enum(licenseTypes).default("unknown"),
   useCasesDe: z.array(z.string().trim().min(1).max(180)).max(12).default([]),
   beginnerFriendly: z.boolean().default(false),
+  germanUi: z.enum(triStates).default("unklar"),
+  noSignup: z.enum(triStates).default("unklar"),
   ossProjectUrl: z.string().trim().max(500).default(""),
   ossRepoUrl: z.string().trim().max(500).default(""),
   ossLicense: z.string().trim().max(80).default(""),

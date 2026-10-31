@@ -51,6 +51,8 @@ function filters(query: ToolListQuery): SQL[] {
   if (query.discoverySources.length > 0) {
     parts.push(inArray(tools.discoverySource, query.discoverySources));
   }
+  if (query.germanUi) parts.push(eq(tools.germanUi, query.germanUi));
+  if (query.noSignup) parts.push(eq(tools.noSignup, query.noSignup));
   if (query.fromVideo) {
     parts.push(sql`(
       coalesce(${tools.tiktokUrl}, '') != ''

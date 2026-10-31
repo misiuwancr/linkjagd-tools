@@ -25,6 +25,8 @@ export type ToolListQuery = {
   excludeExamples: boolean;
   partnerGap: boolean;
   fromVideo: boolean;
+  germanUi: "ja" | "nein" | "unklar" | "";
+  noSignup: "ja" | "nein" | "unklar" | "";
   discoverySources: string[];
 };
 
@@ -32,6 +34,11 @@ type SearchParams = Record<string, string | string[] | undefined>;
 
 function first(value: string | string[] | undefined) {
   return Array.isArray(value) ? value[0] : value;
+}
+
+function triParam(value: string | undefined): "ja" | "nein" | "unklar" | "" {
+  if (value === "ja" || value === "nein" || value === "unklar") return value;
+  return "";
 }
 
 function pageNumber(value: string | undefined) {
@@ -56,6 +63,8 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
     excludeExamples: true,
     partnerGap: false,
     fromVideo: first(params.video) === "ja",
+    germanUi: triParam(first(params.deutsch)),
+    noSignup: triParam(first(params.anmeldung)),
     discoverySources: [],
     ...overrides,
   };
@@ -63,8 +72,8 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
 
 export function directoryHref(
   basePath: string,
-  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo">,
-  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo">> = {},
+  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup">,
+  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup">> = {},
 ) {
   const next = { ...query, ...patch };
   const params = new URLSearchParams();
@@ -73,6 +82,8 @@ export function directoryHref(
   if (next.pricing) params.set("preis", pricingParam(next.pricing));
   if (next.license) params.set("lizenz", licenseParam(next.license));
   if (next.fromVideo) params.set("video", "ja");
+  if (next.germanUi) params.set("deutsch", next.germanUi);
+  if (next.noSignup) params.set("anmeldung", next.noSignup);
   if (next.sort !== "newest") params.set("sort", sortParam(next.sort));
   if (next.page > 1) params.set("seite", String(next.page));
   const qs = params.toString();

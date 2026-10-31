@@ -45,6 +45,8 @@ export default async function EditToolPage({
             licenseType: tool.licenseType,
             useCasesDe: parseStringList(tool.useCasesDe).join("\n"),
             beginnerFriendly: tool.beginnerFriendly,
+            germanUi: tool.germanUi,
+            noSignup: tool.noSignup,
             ossProjectUrl: tool.ossProjectUrl ?? "",
             ossRepoUrl: tool.ossRepoUrl ?? "",
             ossLicense: tool.ossLicense ?? "",

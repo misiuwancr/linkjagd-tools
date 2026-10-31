@@ -28,6 +28,8 @@ export default async function AdminToolsPage({
     excludeExamples: false,
     partnerGap,
     fromVideo: false,
+    germanUi: "",
+    noSignup: "",
     discoverySources: [],
   };
   const result = await listTools(await getDb(), query);

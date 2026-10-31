@@ -92,6 +92,8 @@ export async function saveToolAction(_prev: ActionState, formData: FormData): Pr
       licenseType: licenseTypes.includes(license as (typeof licenseTypes)[number]) ? license : "unknown",
       useCasesDe: lines(formData.get("useCasesDe")),
       beginnerFriendly: checked(formData, "beginnerFriendly"),
+      germanUi: ["ja", "nein", "unklar"].includes(String(formData.get("germanUi"))) ? String(formData.get("germanUi")) : "unklar",
+      noSignup: ["ja", "nein", "unklar"].includes(String(formData.get("noSignup"))) ? String(formData.get("noSignup")) : "unklar",
       ossProjectUrl: String(formData.get("ossProjectUrl") || ""),
       ossRepoUrl: String(formData.get("ossRepoUrl") || ""),
       ossLicense: String(formData.get("ossLicense") || ""),

@@ -76,6 +76,8 @@ export async function saveToolRecord(
     licenseType: input.licenseType,
     useCasesDe: JSON.stringify(input.useCasesDe),
     beginnerFriendly: input.beginnerFriendly,
+    germanUi: input.germanUi,
+    noSignup: input.noSignup,
     ossProjectUrl: input.ossProjectUrl || null,
     ossRepoUrl: input.ossRepoUrl || null,
     ossLicense: input.ossLicense || null,

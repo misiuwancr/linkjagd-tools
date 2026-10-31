@@ -15,6 +15,8 @@ const initial: ToolFormInitial = {
   licenseType: "unknown",
   useCasesDe: "",
   beginnerFriendly: false,
+  germanUi: "unklar",
+  noSignup: "unklar",
   ossProjectUrl: "",
   ossRepoUrl: "",
   ossLicense: "",
