@@ -1,0 +1,14 @@
+[
+  {
+    "name": "1NCE",
+    "reason": "1nce.com/de antwortete beim zweiten Abruf mit HTTP 404."
+  },
+  {
+    "name": "Framework",
+    "reason": "frame.work antwortete mit HTTP 403."
+  },
+  {
+    "name": "IFTTT",
+    "reason": "Der Kurzname ist bereits vergeben."
+  }
+]

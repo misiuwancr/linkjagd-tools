@@ -1,0 +1,3809 @@
+[
+  {
+    "name": "KfW",
+    "originalUrl": "https://www.kfw.de/",
+    "domain": "kfw.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "finanzen",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die KfW vergibt Förderkredite für Gründung, Wohnen und Unternehmen.",
+    "longDescriptionDe": "Die Kreditanstalt für Wiederaufbau beschreibt Programme und den Weg über die Hausbank. Die Informationen sind ohne Konto lesbar. Der Kredit selbst ist kostenpflichtig und läuft über ein Finanzierungsinstitut.",
+    "featuresDe": [
+      "Förderkredite",
+      "Programme für Gründung und Wohnen",
+      "Informationen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Förderprogramm zu finden",
+      "Den Weg über die Hausbank nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "IHK",
+    "originalUrl": "https://www.ihk.de/",
+    "domain": "ihk.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "recht"
+    ],
+    "shortDescriptionDe": "Die IHK informiert Unternehmen zu Ausbildung, Recht und Standort.",
+    "longDescriptionDe": "Das Portal der Industrie- und Handelskammern verweist auf die örtliche Kammer und deren Angebote. Die Übersichtsseiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Ausbildung, Recht und Standort",
+      "Verweis auf die örtliche Kammer",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Die zuständige Kammer zu finden",
+      "Ein Angebot zur Ausbildung nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DIHK",
+    "originalUrl": "https://www.dihk.de/",
+    "domain": "dihk.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der DIHK vertritt die Industrie- und Handelskammern und veröffentlicht Positionen.",
+    "longDescriptionDe": "Die Seite des Deutschen Industrie- und Handelskammertags erklärt Aufgaben und Publikationen. Die Texte sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Positionen und Publikationen",
+      "Aufgaben der Kammern",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Position der Kammern zu lesen",
+      "Eine Publikation zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ADAC",
+    "originalUrl": "https://www.adac.de/",
+    "domain": "adac.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Der ADAC informiert zu Verkehr, Pannenhilfe und Reisen.",
+    "longDescriptionDe": "Der Allgemeine Deutsche Automobil-Club beschreibt Mitgliedschaft, Pannenhilfe und Ratgeber. Ein Teil der Texte ist ohne Mitgliedschaft lesbar, die Hilfeleistung ist an die Mitgliedschaft gebunden.",
+    "featuresDe": [
+      "Verkehr und Pannenhilfe",
+      "Reiseratgeber",
+      "Texte frei, Hilfe über die Mitgliedschaft"
+    ],
+    "useCasesDe": [
+      "Einen Ratgeber zu einer Reise zu lesen",
+      "Die Pannenhilfe einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HRS",
+    "originalUrl": "https://www.hrs.de/",
+    "domain": "hrs.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "HRS zeigt Hotels mit Preis und Lage, mit Schwerpunkt auf Geschäftsreisen.",
+    "longDescriptionDe": "HRS filtert Unterkünfte nach Ort und Zeitraum. Die Suche ist ohne Konto möglich, die Buchung ist kostenpflichtig. Der Dienst kommt aus Deutschland.",
+    "featuresDe": [
+      "Hotelsuche",
+      "Fokus auf Geschäftsreisen",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Hotel für einen Zeitraum zu suchen",
+      "Preise in einer Stadt zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Techniker Krankenkasse",
+    "originalUrl": "https://www.tk.de/",
+    "domain": "tk.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Die Techniker Krankenkasse informiert zu Leistungen der gesetzlichen Krankenversicherung.",
+    "longDescriptionDe": "Die TK beschreibt Leistungen, Bonus und den Weg in die Mitgliedschaft. Die Informationsseiten sind ohne Login lesbar. Die Versicherung selbst setzt eine Mitgliedschaft voraus.",
+    "featuresDe": [
+      "Leistungen der gesetzlichen Krankenversicherung",
+      "Bonus und Mitgliedschaft",
+      "Informationen ohne Login"
+    ],
+    "useCasesDe": [
+      "Eine Leistung nachzulesen",
+      "Den Weg in die Mitgliedschaft zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "AOK",
+    "originalUrl": "https://www.aok.de/",
+    "domain": "aok.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Die AOK informiert zu Leistungen der gesetzlichen Krankenversicherung.",
+    "longDescriptionDe": "Das Portal verweist auf die regionalen AOKs und beschreibt Leistungen. Die Übersichten sind ohne Login lesbar.",
+    "featuresDe": [
+      "Leistungen und regionale Kassen",
+      "Übersichten ohne Login",
+      "Gesetzliche Krankenversicherung"
+    ],
+    "useCasesDe": [
+      "Die regionale AOK zu finden",
+      "Eine Leistung nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Barmer",
+    "originalUrl": "https://www.barmer.de/",
+    "domain": "barmer.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Die Barmer informiert zu Leistungen der gesetzlichen Krankenversicherung.",
+    "longDescriptionDe": "Die Barmer beschreibt Leistungen, Bonusprogramme und Anträge. Die Informationsseiten sind ohne Login lesbar.",
+    "featuresDe": [
+      "Leistungen und Bonus",
+      "Anträge",
+      "Informationen ohne Login"
+    ],
+    "useCasesDe": [
+      "Eine Leistung nachzulesen",
+      "Einen Antragsweg zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DAK",
+    "originalUrl": "https://www.dak.de/",
+    "domain": "dak.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Die DAK-Gesundheit informiert zu Leistungen der gesetzlichen Krankenversicherung.",
+    "longDescriptionDe": "Die DAK beschreibt Leistungen und Services. Die Informationsseiten sind ohne Login lesbar.",
+    "featuresDe": [
+      "Leistungen und Services",
+      "Gesetzliche Krankenversicherung",
+      "Informationen ohne Login"
+    ],
+    "useCasesDe": [
+      "Eine Leistung nachzulesen",
+      "Einen Service der Kasse zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "jameda",
+    "originalUrl": "https://www.jameda.de/",
+    "domain": "jameda.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "jameda findet Ärztinnen und Ärzte und zeigt Termine und Bewertungen.",
+    "longDescriptionDe": "jameda filtert nach Fachrichtung und Ort. Die Suche ist ohne Konto möglich. Ein Termin kann über die Praxis laufen.",
+    "featuresDe": [
+      "Arztsuche nach Fach und Ort",
+      "Bewertungen und Termine",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Praxis in der Nähe zu finden",
+      "Einen Termin zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "FHEM",
+    "originalUrl": "https://fhem.de/",
+    "domain": "fhem.de",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "FHEM steuert Geräte im Haus auf dem eigenen Server.",
+    "longDescriptionDe": "FHEM bindet Sensoren und Aktoren an und legt Abläufe fest. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Steuerung im eigenen Haus",
+      "Abläufe auf dem eigenen Server",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Lampe oder Heizung selbst zu schalten",
+      "Einen Ablauf ohne Cloud zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "tado",
+    "originalUrl": "https://www.tado.com/de",
+    "domain": "tado.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "tado steuert Heizung und Klima über eine App.",
+    "longDescriptionDe": "tado hängt Thermostate an die bestehende Heizung und regelt sie nach Zeit und Abwesenheit. Der Dienst kommt aus München. Geräte sind kostenpflichtig, die App hat einen Einstieg und bezahlte Funktionen.",
+    "featuresDe": [
+      "Thermostate für Heizung und Klima",
+      "Regelung nach Zeit und Abwesenheit",
+      "Geräte kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Eine Heizung per App zu regeln",
+      "Die Temperatur bei Abwesenheit zu senken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TUXEDO",
+    "originalUrl": "https://www.tuxedo.de/",
+    "domain": "tuxedo.de",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "TUXEDO verkauft Laptops und PCs, die mit Linux ausgeliefert werden.",
+    "longDescriptionDe": "TUXEDO stellt Geräte mit eigener Linux-Distribution und Support bereit. Der Sitz ist in Augsburg. Die Rechner sind kostenpflichtig.",
+    "featuresDe": [
+      "Rechner mit Linux",
+      "Eigener Support",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Einen Laptop mit Linux zu kaufen",
+      "Support für die vorinstallierte Distribution zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DENIC",
+    "originalUrl": "https://www.denic.de/",
+    "domain": "denic.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die DENIC verwaltet die Domain-Endung .de und bietet eine Whois-Abfrage.",
+    "longDescriptionDe": "Über die DENIC lässt sich prüfen, ob eine .de-Domain vergeben ist. Die Abfrage ist ohne Konto möglich. Die Registrierung selbst läuft über einen Provider.",
+    "featuresDe": [
+      "Whois für .de",
+      "Verwaltung der Endung",
+      "Abfrage ohne Konto"
+    ],
+    "useCasesDe": [
+      "Zu prüfen, ob eine .de-Domain frei ist",
+      "Den Zuständigen für .de nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MetaGer",
+    "originalUrl": "https://metager.de/",
+    "domain": "metager.de",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "MetaGer ist eine Metasuchmaschine, die aus Deutschland betrieben wird.",
+    "longDescriptionDe": "MetaGer fragt mehrere Suchmaschinen ab und zeigt die Treffer gebündelt. Der Dienst wird von SUMA-EV getragen. Die Suche ist ohne Konto möglich. Eine OSI-Kennung der Plattform wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Metasuche über mehrere Quellen",
+      "Betrieb aus Deutschland",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Suche ohne eigenes Profil zu starten",
+      "Treffer mehrerer Quellen zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HHV",
+    "originalUrl": "https://www.hhv.de/",
+    "domain": "hhv.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "HHV verkauft Schallplatten und Musikbücher, mit Schwerpunkt auf unabhängigen Labels.",
+    "longDescriptionDe": "HHV zeigt Titel mit Preis und Verfügbarkeit. Die Suche ist ohne Konto möglich, der Kauf ist kostenpflichtig. Der Shop sitzt in Deutschland.",
+    "featuresDe": [
+      "Schallplatten und Bücher",
+      "Unabhängige Labels",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Platte zu suchen",
+      "Die Verfügbarkeit eines Titels zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "jpc",
+    "originalUrl": "https://www.jpc.de/",
+    "domain": "jpc.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik",
+      "bildung"
+    ],
+    "shortDescriptionDe": "jpc verkauft CDs, Schallplatten, Bücher und Filme.",
+    "longDescriptionDe": "jpc zeigt Titel mit Preis. Die Suche ist ohne Konto möglich, der Kauf ist kostenpflichtig. Der Händler sitzt in Deutschland.",
+    "featuresDe": [
+      "Tonträger, Bücher und Filme",
+      "Preise und Verfügbarkeit",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine CD oder ein Buch zu suchen",
+      "Einen Titel zu bestellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Alternate",
+    "originalUrl": "https://www.alternate.de/",
+    "domain": "alternate.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Alternate verkauft Computer, Bauteile und Unterhaltungselektronik.",
+    "longDescriptionDe": "Alternate zeigt Geräte mit Preis und Verfügbarkeit. Die Suche ist ohne Konto möglich, der Kauf ist kostenpflichtig. Der Händler sitzt in Deutschland.",
+    "featuresDe": [
+      "Computer und Bauteile",
+      "Preis und Verfügbarkeit",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Bauteil zu suchen",
+      "Den Preis eines Rechners zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "reichelt",
+    "originalUrl": "https://www.reichelt.de/",
+    "domain": "reichelt.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "reichelt verkauft Elektronikbauteile und Werkstattbedarf.",
+    "longDescriptionDe": "reichelt listet Bauteile mit Datenblatt und Preis. Die Suche ist ohne Konto möglich, der Kauf ist kostenpflichtig. Der Händler sitzt in Deutschland.",
+    "featuresDe": [
+      "Elektronikbauteile",
+      "Datenblatt und Preis",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Bauteil mit Datenblatt zu finden",
+      "Werkstattbedarf zu bestellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mindfactory",
+    "originalUrl": "https://www.mindfactory.de/",
+    "domain": "mindfactory.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce"
+    ],
+    "shortDescriptionDe": "Mindfactory verkauft PC-Komponenten und fertige Rechner.",
+    "longDescriptionDe": "Mindfactory zeigt Prozessoren, Grafikkarten und Komplettsysteme mit Preis. Die Suche ist ohne Konto möglich, der Kauf ist kostenpflichtig.",
+    "featuresDe": [
+      "PC-Komponenten",
+      "Komplettsysteme",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Grafikkarte zu suchen",
+      "Einen Komplettrechner zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Storytel",
+    "originalUrl": "https://www.storytel.com/de",
+    "domain": "storytel.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Storytel verleiht Hörbücher und E-Books über ein Abo.",
+    "longDescriptionDe": "Storytel spielt Titel in der App. Der Zugang ist kostenpflichtig. Es gibt eine deutsche Ausgabe.",
+    "featuresDe": [
+      "Hörbücher und E-Books",
+      "Deutsche Ausgabe",
+      "Kostenpflichtiges Abo"
+    ],
+    "useCasesDe": [
+      "Ein Hörbuch im Abo zu hören",
+      "Einen Roman in der App zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Jellyfin",
+    "originalUrl": "https://jellyfin.org/",
+    "domain": "jellyfin.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Jellyfin spielt die eigene Filmsammlung im Netz des Haushalts ab.",
+    "longDescriptionDe": "Jellyfin läuft auf dem eigenen Server und streamt Filme und Serien an Geräte im Haus. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Eigene Filmsammlung",
+      "Stream im eigenen Netz",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Film vom eigenen Server abzuspielen",
+      "Eine Sammlung ohne Abo zu verwalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "VLC",
+    "originalUrl": "https://www.videolan.org/vlc/",
+    "domain": "videolan.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "videoschnitt",
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "VLC spielt Video- und Audiodateien in sehr vielen Formaten.",
+    "longDescriptionDe": "VLC öffnet lokale Dateien und Streams und setzt Untertitel. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Player ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Viele Formate",
+      "Untertitel und Streams",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Datei abzuspielen, die ein anderer Player ablehnt",
+      "Einen Stream mit Untertitel zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Proxmox",
+    "originalUrl": "https://www.proxmox.com/de",
+    "domain": "proxmox.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Proxmox betreibt virtuelle Maschinen und Container auf dem eigenen Server.",
+    "longDescriptionDe": "Proxmox Virtual Environment richtet VMs und Container über eine Weboberfläche ein. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich, Support-Abos sind bezahlt.",
+    "featuresDe": [
+      "Virtuelle Maschinen und Container",
+      "Weboberfläche",
+      "Software ohne Pflichtabo, Support bezahlt"
+    ],
+    "useCasesDe": [
+      "Einen Server in mehrere Maschinen zu teilen",
+      "Einen Container neben einer VM zu betreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Debian",
+    "originalUrl": "https://www.debian.org/",
+    "domain": "debian.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Debian ist ein Betriebssystem, das aus frei weitergebbaren Paketen besteht.",
+    "longDescriptionDe": "Debian installiert ein System und bezieht Programme aus eigenen Archiven. Eine einzelne OSI-Kennung für die ganze Distribution wird hier nicht eingetragen. Das System ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Betriebssystem aus Paketen",
+      "Eigene Archive",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Server mit Debian zu installieren",
+      "Ein Paket aus dem Archiv zu beziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Python",
+    "originalUrl": "https://www.python.org/",
+    "domain": "python.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Python ist eine Programmiersprache mit Interpreter und Standardbibliothek.",
+    "longDescriptionDe": "python.org stellt den Interpreter und die Dokumentation bereit. Eine einzelne OSI-Kennung wird hier nicht erneut eingetragen. Der Interpreter ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Interpreter und Standardbibliothek",
+      "Dokumentation",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Skript auszuführen",
+      "Die Dokumentation einer Funktion zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Rust",
+    "originalUrl": "https://www.rust-lang.org/",
+    "domain": "rust-lang.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Rust ist eine Programmiersprache mit Fokus auf Speicher und Nebenläufigkeit.",
+    "longDescriptionDe": "rust-lang.org stellt Compiler, Werkzeuge und das Buch zur Sprache bereit. Eine einzelne OSI-Kennung wird hier nicht erneut eingetragen. Die Werkzeuge sind ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Compiler und Werkzeuge",
+      "Buch zur Sprache",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Programm in Rust zu bauen",
+      "Das Buch zur Sprache zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "KiCad",
+    "originalUrl": "https://www.kicad.org/",
+    "domain": "kicad.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "design",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "KiCad zeichnet Schaltpläne und Leiterplatten.",
+    "longDescriptionDe": "KiCad setzt Symbole, Netze und das Layout einer Platine. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Schaltplan und Layout",
+      "Eigene Bauteilbibliotheken",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Schaltplan zu zeichnen",
+      "Eine Leiterplatte zu layouten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Seafile",
+    "originalUrl": "https://www.seafile.com/",
+    "domain": "seafile.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Seafile synchronisiert Dateien und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Seafile hält Bibliotheken auf dem eigenen Server oder in einer Cloud und gleicht sie mit den Geräten ab. Der Ursprung liegt in Peking und es gibt Anbieter in Deutschland. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Dateibibliotheken",
+      "Selbstbetrieb und Cloud",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Dateien eines Teams selbst zu hosten",
+      "Einen Ordner zwischen Geräten abzugleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Filen",
+    "originalUrl": "https://www.filen.io/",
+    "domain": "filen.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Filen speichert Dateien verschlüsselt in einer Cloud aus Deutschland.",
+    "longDescriptionDe": "Filen legt Dateien ab und gleicht sie mit den Geräten ab. Der Anbieter sitzt in Deutschland. Es gibt einen kostenlosen Speicher und bezahlte Stufen.",
+    "featuresDe": [
+      "Verschlüsselte Cloud",
+      "Abgleich mit Geräten",
+      "Kostenloser Speicher und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Dateien verschlüsselt abzulegen",
+      "Einen Ordner zwischen Rechnern abzugleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Tresorit",
+    "originalUrl": "https://www.tresorit.com/",
+    "domain": "tresorit.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Tresorit speichert und teilt Dateien Ende-zu-Ende-verschlüsselt.",
+    "longDescriptionDe": "Tresorit legt Ordner ab und gibt sie gezielt frei. Der Dienst kommt aus der Schweiz und Ungarn. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Ende-zu-Ende-Verschlüsselung",
+      "Gezieltes Freigeben",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Ordner verschlüsselt zu teilen",
+      "Dateien eines Teams abzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "pCloud",
+    "originalUrl": "https://www.pcloud.com/",
+    "domain": "pcloud.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "pCloud speichert Dateien und kann sie clientseitig verschlüsseln.",
+    "longDescriptionDe": "pCloud gleicht Ordner ab und bietet einen verschlüsselten Bereich als Zusatz. Der Dienst kommt aus der Schweiz. Es gibt einen kostenlosen Speicher und bezahlte Stufen.",
+    "featuresDe": [
+      "Dateiabgleich",
+      "Optionaler verschlüsselter Bereich",
+      "Kostenloser Speicher und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Dateien in einer Cloud zu halten",
+      "Einen Ordner zusätzlich zu verschlüsseln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "UrBackup",
+    "originalUrl": "https://www.urbackup.org/",
+    "domain": "urbackup.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "UrBackup sichert Rechner auf einen eigenen Server.",
+    "longDescriptionDe": "UrBackup legt Abbilder und Dateisicherungen an und spielt sie zurück. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Abbilder und Dateisicherungen",
+      "Eigener Server",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Rechner auf den eigenen Server zu sichern",
+      "Eine Datei zurückzuspielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "IPFire",
+    "originalUrl": "https://www.ipfire.org/",
+    "domain": "ipfire.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "IPFire ist eine Firewall-Distribution für den eigenen Router.",
+    "longDescriptionDe": "IPFire filtert den Verkehr und kann als Gateway im Netz stehen. Das Projekt kommt aus Deutschland. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Firewall für das eigene Netz",
+      "Projekt aus Deutschland",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Den Internetzugang eines Netzes zu filtern",
+      "Einen eigenen Router zu betreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OPNsense",
+    "originalUrl": "https://opnsense.org/",
+    "domain": "opnsense.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "OPNsense ist eine Firewall mit Weboberfläche für das eigene Netz.",
+    "longDescriptionDe": "OPNsense filtert Verkehr, baut VPN und zeigt Zustände. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Firewall und VPN",
+      "Weboberfläche",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Router mit Weboberfläche zu betreiben",
+      "Ein VPN für das eigene Netz einzurichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "DuckDuckGo",
+    "originalUrl": "https://duckduckgo.com/",
+    "domain": "duckduckgo.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "DuckDuckGo liefert Suchergebnisse, ohne ein Profil der suchenden Person zu bauen.",
+    "longDescriptionDe": "DuckDuckGo zeigt Treffer und eine kurze Zusammenfassung. Die Suche ist ohne Konto möglich. Das Angebot ist proprietär.",
+    "featuresDe": [
+      "Suche ohne Profil",
+      "Kurze Zusammenfassung",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Frage zu suchen, ohne ein Konto",
+      "Treffer ohne personalisiertes Profil zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Startpage",
+    "originalUrl": "https://www.startpage.com/",
+    "domain": "startpage.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Startpage zeigt Suchergebnisse, ohne die Abfrage direkt an die suchende Person zu knüpfen.",
+    "longDescriptionDe": "Startpage reicht eine Suche weiter und liefert die Treffer zurück. Die Nutzung ist ohne Konto möglich.",
+    "featuresDe": [
+      "Weitergereichte Suche",
+      "Treffer ohne eigenes Profil",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Suche ohne eigenes Konto zu starten",
+      "Treffer einer großen Suche zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Qwant",
+    "originalUrl": "https://www.qwant.com/",
+    "domain": "qwant.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Qwant ist eine Suchmaschine aus Europa ohne Werbeprofil der Person.",
+    "longDescriptionDe": "Qwant zeigt Webtreffer und Nachrichten. Die Suche ist ohne Konto möglich. Der Dienst kommt aus Frankreich.",
+    "featuresDe": [
+      "Websuche und Nachrichten",
+      "Anbieter aus Frankreich",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Suche ohne Profil zu starten",
+      "Nachrichten zu einem Thema zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Proton VPN",
+    "originalUrl": "https://protonvpn.com/",
+    "domain": "protonvpn.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Proton VPN leitet den Verkehr über einen verschlüsselten Tunnel.",
+    "longDescriptionDe": "Proton VPN bietet einen kostenlosen Zugang mit Einschränkungen und bezahlte Server. Der Dienst kommt aus der Schweiz.",
+    "featuresDe": [
+      "Verschlüsselter Tunnel",
+      "Kostenloser Zugang und bezahlte Server",
+      "Anbieter aus der Schweiz"
+    ],
+    "useCasesDe": [
+      "Den Verkehr über einen Tunnel zu schicken",
+      "Einen Server in einem anderen Land zu wählen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mullvad VPN",
+    "originalUrl": "https://mullvad.net/en/vpn",
+    "domain": "mullvad.net",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Mullvad VPN leitet den Verkehr durch einen Tunnel und verlangt keine E-Mail.",
+    "longDescriptionDe": "Mullvad nummeriert Konten statt Namen zu speichern. Der Dienst kommt aus Schweden. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Tunnel ohne E-Mail-Konto",
+      "Nummerierte Konten",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Den Verkehr über einen schwedischen Dienst zu leiten",
+      "Ein Konto ohne Namen anzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "deepset",
+    "originalUrl": "https://www.deepset.ai/",
+    "domain": "deepset.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "ki-chatbots",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "deepset baut Anwendungen, die Fragen an eigene Dokumente stellen.",
+    "longDescriptionDe": "deepset, der Macher von Haystack, stellt eine Plattform bereit, die Texte durchsucht und antwortet. Der Sitz ist in Berlin. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Fragen an eigene Dokumente",
+      "Plattform aus Berlin",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Suche über eigene Texte zu bauen",
+      "Eine Antwort mit Quellen aus Dokumenten zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Plex",
+    "originalUrl": "https://www.plex.tv/de/",
+    "domain": "plex.tv",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Plex spielt die eigene Filmsammlung und zusätzliche Kanäle ab.",
+    "longDescriptionDe": "Plex streamt Dateien vom eigenen Server an Fernseher und Handy. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo für weitere Funktionen.",
+    "featuresDe": [
+      "Eigene Filme und zusätzliche Kanäle",
+      "Stream auf mehrere Geräte",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Einen Film vom eigenen Server zu sehen",
+      "Dieselbe Bibliothek auf dem Fernseher zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Spotify",
+    "originalUrl": "https://www.spotify.com/",
+    "domain": "spotify.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Spotify spielt Musik, Podcasts und Hörbücher.",
+    "longDescriptionDe": "Spotify streamt einen Katalog und legt Playlists an. Es gibt einen werbefinanzierten Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Musik, Podcasts und Hörbücher",
+      "Playlists",
+      "Werbefinanzierter Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Ein Album zu hören",
+      "Eine Playlist für eine Strecke zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Deezer",
+    "originalUrl": "https://www.deezer.com/",
+    "domain": "deezer.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Deezer streamt Musik und Podcasts.",
+    "longDescriptionDe": "Deezer spielt einen Katalog und empfiehlt Titel. Es gibt einen Einstieg und ein bezahltes Abo. Der Dienst kommt aus Frankreich.",
+    "featuresDe": [
+      "Musik und Podcasts",
+      "Empfehlungen",
+      "Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Ein Album zu hören",
+      "Einen Sender nach Stimmung zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Qobuz",
+    "originalUrl": "https://www.qobuz.com/de-de",
+    "domain": "qobuz.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Qobuz streamt Musik in hoher Auflösung und verkauft Downloads.",
+    "longDescriptionDe": "Qobuz spielt Alben in höheren Bitraten als ein normaler Stream und bietet den Kauf einzelner Titel. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Stream in hoher Auflösung",
+      "Download einzelner Titel",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Album in hoher Qualität zu hören",
+      "Einen Titel zu kaufen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SoundCloud",
+    "originalUrl": "https://soundcloud.com/",
+    "domain": "soundcloud.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "SoundCloud spielt Tracks von unabhängigen Künstlerinnen und Künstlern.",
+    "longDescriptionDe": "SoundCloud streamt einzelne Stücke und Mixe und lässt eigene Tracks hochladen. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Tracks und Mixe",
+      "Eigener Upload",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Einen Mix zu hören",
+      "Einen eigenen Track hochzuladen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Wikipedia",
+    "originalUrl": "https://de.wikipedia.org/",
+    "domain": "de.wikipedia.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "bildung",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die deutschsprachige Wikipedia erklärt Begriffe, die eine Gemeinschaft fortschreibt.",
+    "longDescriptionDe": "Artikel nennen Quellen und lassen sich ohne Konto lesen. Eine einzelne OSI-Kennung für die Plattform wird hier nicht eingetragen. Das Lesen ist ohne Abo möglich.",
+    "featuresDe": [
+      "Artikel mit Quellen",
+      "Gemeinschaftlich fortgeschrieben",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Begriff nachzuschlagen",
+      "Die Quellen eines Artikels zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Project Gutenberg",
+    "originalUrl": "https://www.gutenberg.org/",
+    "domain": "gutenberg.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "bildung"
+    ],
+    "shortDescriptionDe": "Project Gutenberg stellt gemeinfreie Bücher als Datei bereit.",
+    "longDescriptionDe": "Die Bibliothek bietet vor allem englischsprachige Werke, deren Schutz abgelaufen ist, zum Download. Das Lesen ist ohne Konto möglich. Eine OSI-Kennung der Plattform wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Gemeinfreie Bücher",
+      "Download als Datei",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen gemeinfreien Roman zu laden",
+      "Ein Werk nach Autor zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zenodo",
+    "originalUrl": "https://zenodo.org/",
+    "domain": "zenodo.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "recherche",
+      "daten"
+    ],
+    "shortDescriptionDe": "Zenodo speichert Forschungsdaten und Texte und vergibt eine DOI.",
+    "longDescriptionDe": "Zenodo nimmt Dateien eines Projekts entgegen und macht sie zitierfähig. Der Dienst wird von CERN betrieben. Das Ablegen ist ohne Abo möglich. Eine OSI-Kennung der Plattform wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Forschungsdaten mit DOI",
+      "Betrieb durch CERN",
+      "Ablegen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Datensatz zitierfähig abzulegen",
+      "Eine veröffentlichte Datei zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ORCID",
+    "originalUrl": "https://orcid.org/",
+    "domain": "orcid.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "ORCID vergibt eine dauerhafte Kennung für Forschende.",
+    "longDescriptionDe": "ORCID verbindet eine Person mit ihren Publikationen, unabhängig vom Arbeitgeber. Die Kennung ist ohne Abo erhältlich.",
+    "featuresDe": [
+      "Dauerhafte Kennung",
+      "Verknüpfung mit Publikationen",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Forschenden-Kennung anzulegen",
+      "Publikationen einer Person zuzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mendeley",
+    "originalUrl": "https://www.mendeley.com/",
+    "domain": "mendeley.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Mendeley sammelt Literatur und setzt Zitate in ein Dokument.",
+    "longDescriptionDe": "Mendeley speichert Papers und formatiert das Literaturverzeichnis. Es gibt einen kostenlosen Einstieg und bezahlten Speicher.",
+    "featuresDe": [
+      "Literatursammlung",
+      "Zitate im Dokument",
+      "Kostenloser Einstieg und bezahlter Speicher"
+    ],
+    "useCasesDe": [
+      "Papers zu einem Thema zu sammeln",
+      "Ein Literaturverzeichnis zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Onshape",
+    "originalUrl": "https://www.onshape.com/",
+    "domain": "onshape.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Onshape konstruiert CAD-Modelle im Browser, auch zu mehreren.",
+    "longDescriptionDe": "Onshape zeichnet Bauteile und Baugruppen und speichert die Versionen. Es gibt einen kostenlosen Einstieg für öffentliche Projekte und bezahlte Pläne.",
+    "featuresDe": [
+      "CAD im Browser",
+      "Baugruppen und Versionen",
+      "Öffentliche Projekte frei, Pläne bezahlt"
+    ],
+    "useCasesDe": [
+      "Ein Bauteil mit anderen zu konstruieren",
+      "Eine Version eines Modells festzuhalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Poly Haven",
+    "originalUrl": "https://polyhaven.com/",
+    "domain": "polyhaven.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "design",
+      "dreid"
+    ],
+    "shortDescriptionDe": "Poly Haven stellt Texturen, Modelle und HDRIs zum Herunterladen bereit.",
+    "longDescriptionDe": "Poly Haven veröffentlicht Materialien, die sich in 3D-Programmen verwenden lassen. Der Download ist ohne Konto möglich. Eine einzelne OSI-Kennung für alle Inhalte wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Texturen, Modelle und HDRIs",
+      "Download",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Textur für eine Szene zu laden",
+      "Ein HDRI für die Beleuchtung zu nehmen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sketchfab",
+    "originalUrl": "https://sketchfab.com/",
+    "domain": "sketchfab.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Sketchfab zeigt 3D-Modelle im Browser und nimmt eigene Uploads an.",
+    "longDescriptionDe": "Sketchfab dreht ein Modell im Fenster und kann es in eine Seite einbetten. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "3D-Modelle im Browser",
+      "Einbettung und Upload",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Modell im Browser zu drehen",
+      "Ein eigenes Modell zu veröffentlichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LibreCAD",
+    "originalUrl": "https://www.librecad.org/",
+    "domain": "librecad.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "dreid",
+      "design"
+    ],
+    "shortDescriptionDe": "LibreCAD zeichnet zweidimensionale CAD-Pläne.",
+    "longDescriptionDe": "LibreCAD setzt Linien, Bögen und Bemaßung in einer technischen Zeichnung. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "2D-Zeichnungen",
+      "Bemaßung",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Grundriss zu zeichnen",
+      "Eine technische Zeichnung zu bemaßen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SolveSpace",
+    "originalUrl": "https://www.solvespace.com/",
+    "domain": "solvespace.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "SolveSpace konstruiert kleine Bauteile mit Zwangsbedingungen.",
+    "longDescriptionDe": "SolveSpace setzt Linien und Flächen und löst die gesetzten Maße. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Konstruktion mit Zwangsbedingungen",
+      "Kleine Bauteile",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein einfaches Bauteil zu konstruieren",
+      "Ein Maß zu ändern und die Zeichnung neu zu lösen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TrueNAS",
+    "originalUrl": "https://www.truenas.com/",
+    "domain": "truenas.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "TrueNAS speichert Dateien auf dem eigenen Server mit Prüfsummen.",
+    "longDescriptionDe": "TrueNAS richtet Freigaben und Sicherungen ein. Eine OSI-Kennung wird hier nicht erneut eingetragen. Es gibt eine Ausgabe ohne Pflichtabo und bezahlte Appliances.",
+    "featuresDe": [
+      "Dateispeicher mit Prüfsummen",
+      "Freigaben und Sicherungen",
+      "Ausgabe ohne Pflichtabo und bezahlte Geräte"
+    ],
+    "useCasesDe": [
+      "Einen Dateiserver selbst zu betreiben",
+      "Eine Freigabe für ein Team einzurichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Synology",
+    "originalUrl": "https://www.synology.com/",
+    "domain": "synology.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Synology verkauft Netzwerkspeicher und das System DSM dafür.",
+    "longDescriptionDe": "Synology-Geräte halten Dateien, Sicherungen und Freigaben im eigenen Netz. Die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "Netzwerkspeicher",
+      "Sicherungen und Freigaben",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Dateien im eigenen Netz zu halten",
+      "Eine Sicherung mehrerer Rechner abzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "QNAP",
+    "originalUrl": "https://www.qnap.com/",
+    "domain": "qnap.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "QNAP verkauft Netzwerkspeicher für Dateien und Sicherungen.",
+    "longDescriptionDe": "QNAP-Geräte stellen Freigaben im eigenen Netz bereit. Die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "Netzwerkspeicher",
+      "Freigaben im eigenen Netz",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Einen gemeinsamen Ordner im Netz zu betreiben",
+      "Sicherungen auf das eigene Gerät zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "VirtualBox",
+    "originalUrl": "https://www.virtualbox.org/",
+    "domain": "virtualbox.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "VirtualBox startet ein zweites Betriebssystem in einem Fenster.",
+    "longDescriptionDe": "VirtualBox richtet eine virtuelle Maschine ein und startet sie auf dem vorhandenen Rechner. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Zweites System im Fenster",
+      "Virtuelle Maschinen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein anderes System zum Testen zu starten",
+      "Eine Anwendung isoliert auszuprobieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "mpv",
+    "originalUrl": "https://mpv.io/",
+    "domain": "mpv.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "mpv spielt Video- und Audiodateien mit wenig Oberfläche.",
+    "longDescriptionDe": "mpv öffnet Dateien und Streams über die Tastatur. Eine OSI-Kennung wird hier nicht erneut eingetragen. Der Player ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Wiedergabe mit wenig Oberfläche",
+      "Dateien und Streams",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Datei ohne große Oberfläche abzuspielen",
+      "Einen Stream zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Navidrome",
+    "originalUrl": "https://www.navidrome.org/",
+    "domain": "navidrome.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Navidrome streamt die eigene Musiksammlung im Netz.",
+    "longDescriptionDe": "Navidrome liest einen Ordner mit Musik und stellt sie Apps bereit. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Eigene Musiksammlung",
+      "Stream an Apps",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Die eigene Musik auf dem Handy zu hören",
+      "Einen Musikordner selbst zu hosten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MusicBrainz",
+    "originalUrl": "https://musicbrainz.org/",
+    "domain": "musicbrainz.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "musik",
+      "daten"
+    ],
+    "shortDescriptionDe": "MusicBrainz sammelt Metadaten zu Aufnahmen, Alben und Künstlerinnen.",
+    "longDescriptionDe": "MusicBrainz hält eine offene Datenbank, die andere Programme abfragen. Das Lesen ist ohne Konto möglich. Eine einzelne OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Metadaten zu Aufnahmen",
+      "Abfrage durch andere Programme",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Album eindeutig zuzuordnen",
+      "Metadaten für eine Sammlung zu beziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Last.fm",
+    "originalUrl": "https://www.last.fm/de",
+    "domain": "last.fm",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Last.fm protokolliert gehörte Musik und empfiehlt Ähnliches.",
+    "longDescriptionDe": "Last.fm schreibt mit, was gespielt wurde, und zeigt Statistiken. Es gibt einen kostenlosen Einstieg und ein bezahltes Abo.",
+    "featuresDe": [
+      "Protokoll gehörter Musik",
+      "Statistiken und Empfehlungen",
+      "Kostenloser Einstieg und bezahltes Abo"
+    ],
+    "useCasesDe": [
+      "Zu sehen, was man im Jahr gehört hat",
+      "Ähnliche Künstler zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "setlist.fm",
+    "originalUrl": "https://www.setlist.fm/",
+    "domain": "setlist.fm",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik",
+      "recherche"
+    ],
+    "shortDescriptionDe": "setlist.fm sammelt Setlists von Konzerten.",
+    "longDescriptionDe": "setlist.fm zeigt, welche Stücke bei einem Auftritt gespielt wurden. Die Suche ist ohne Konto möglich.",
+    "featuresDe": [
+      "Setlists von Konzerten",
+      "Suche nach Künstlerin und Stadt",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Die Setlist eines Konzerts nachzuschlagen",
+      "Zu sehen, welche Stücke eine Tour spielt"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Songkick",
+    "originalUrl": "https://www.songkick.com/",
+    "domain": "songkick.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "musik",
+      "reisen"
+    ],
+    "shortDescriptionDe": "Songkick zeigt Konzerte in einer Stadt und zu einer Künstlerin.",
+    "longDescriptionDe": "Songkick listet Termine und Spielorte. Die Suche ist ohne Konto möglich, die Karte liegt beim Veranstalter.",
+    "featuresDe": [
+      "Konzerttermine",
+      "Spielorte",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Konzerte in einer Stadt zu finden",
+      "Die nächste Tour einer Künstlerin zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Garmin",
+    "originalUrl": "https://www.garmin.com/",
+    "domain": "garmin.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit",
+      "reisen"
+    ],
+    "shortDescriptionDe": "Garmin verkauft Uhren und Navis und zeigt die Aktivitäten in einer App.",
+    "longDescriptionDe": "Garmin Connect nimmt Läufe, Fahrten und Routen auf. Die Geräte sind kostenpflichtig, die Anzeige der eigenen Aktivitäten ist ohne separates Abo beschrieben.",
+    "featuresDe": [
+      "Uhren und Navis",
+      "Aktivitäten und Routen",
+      "Geräte kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Einen Lauf aufzuzeichnen",
+      "Eine Route auf das Gerät zu laden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Zwift",
+    "originalUrl": "https://www.zwift.com/",
+    "domain": "zwift.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "Zwift setzt Radfahren und Laufen in eine virtuelle Strecke.",
+    "longDescriptionDe": "Zwift nimmt die Leistung eines Trainers oder Laufbands und bewegt eine Figur auf einer Strecke. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Virtuelle Strecken",
+      "Anbindung an Trainer und Laufband",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Einheit auf der Rolle zu fahren",
+      "Mit anderen auf einer virtuellen Strecke zu sein"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Airtable",
+    "originalUrl": "https://www.airtable.com/",
+    "domain": "airtable.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten",
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Airtable legt Tabellen an, die sich wie eine kleine Datenbank verhalten.",
+    "longDescriptionDe": "Airtable mischt Zeilen, Ansichten und Formulare. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Tabellen mit Ansichten",
+      "Formulare",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Liste mit mehreren Ansichten zu führen",
+      "Ein Formular an eine Tabelle zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "monday.com",
+    "originalUrl": "https://www.monday.com/",
+    "domain": "monday.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "monday.com führt Arbeit als Tabelle mit Status und Datum.",
+    "longDescriptionDe": "monday legt Boards an und zeigt, wer woran arbeitet. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Boards mit Status",
+      "Zuständigkeiten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Projekt als Tabelle zu führen",
+      "Den Status einer Aufgabe zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Anytype",
+    "originalUrl": "https://www.anytype.io/",
+    "domain": "anytype.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Anytype speichert Notizen als verknüpfte Objekte, auch lokal.",
+    "longDescriptionDe": "Anytype legt Seiten an und kann sie auf dem Gerät halten. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt einen Einstieg und weitere Angebote.",
+    "featuresDe": [
+      "Verknüpfte Notizen",
+      "Lokal auf dem Gerät",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Ein Wissensnetz auf dem eigenen Gerät zu bauen",
+      "Seiten miteinander zu verknüpfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "AFFiNE",
+    "originalUrl": "https://www.affine.pro/",
+    "domain": "affine.pro",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "AFFiNE mischt Dokument, Tafel und Datenbank in einem Arbeitsbereich.",
+    "longDescriptionDe": "AFFiNE schreibt Seiten und schaltet dieselbe Fläche in eine Tafel um. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Dokument und Tafel",
+      "Ein Arbeitsbereich",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Notiz in eine Tafel umzuschalten",
+      "Ein Projekt an einem Ort zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Capacities",
+    "originalUrl": "https://www.capacities.io/",
+    "domain": "capacities.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Capacities legt Notizen als Objekte mit Typ an.",
+    "longDescriptionDe": "Capacities unterscheidet Personen, Bücher und eigene Typen und verknüpft sie. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Objekte mit Typ",
+      "Verknüpfungen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Lese-Notiz an ein Buch zu hängen",
+      "Ein Thema über Objekte zu ordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ulysses",
+    "originalUrl": "https://ulysses.app/",
+    "domain": "ulysses.app",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung",
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Ulysses schreibt längere Texte in einer Bibliothek aus Blättern.",
+    "longDescriptionDe": "Ulysses sammelt Kapitel als einzelne Blätter und führt sie zu einem Export zusammen. Die App ist kostenpflichtig.",
+    "featuresDe": [
+      "Texte als Blätter",
+      "Export aus der Bibliothek",
+      "Kostenpflichtige App"
+    ],
+    "useCasesDe": [
+      "Ein langes Dokument in Kapitel zu teilen",
+      "Einen Text für die Veröffentlichung zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Novelcrafter",
+    "originalUrl": "https://www.novelcrafter.com/",
+    "domain": "novelcrafter.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "textgenerierung"
+    ],
+    "shortDescriptionDe": "Novelcrafter hält Figuren, Orte und Szenen eines Romans und kann einen Entwurf fortsetzen.",
+    "longDescriptionDe": "Novelcrafter legt die Bibel einer Geschichte an und schickt Szenen an ein Sprachmodell. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Figuren, Orte und Szenen",
+      "Anbindung eines Sprachmodells",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Die Figuren eines Romans festzuhalten",
+      "Eine Szene fortschreiben zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kanka",
+    "originalUrl": "https://kanka.io/",
+    "domain": "kanka.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "gaming"
+    ],
+    "shortDescriptionDe": "Kanka sammelt Orte, Figuren und Chroniken einer Spielwelt.",
+    "longDescriptionDe": "Kanka legt Einträge einer Kampagne an und verknüpft sie. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Orte, Figuren und Chronik",
+      "Verknüpfte Einträge",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Spielwelt für eine Runde zu bauen",
+      "Einen Ort mit den Figuren zu verknüpfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Whereby",
+    "originalUrl": "https://whereby.com/",
+    "domain": "whereby.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Whereby öffnet einen Videoraum im Browser, ohne eine App zu installieren.",
+    "longDescriptionDe": "Whereby vergibt einen Raumnamen und lässt Gäste per Link eintreten. Es gibt einen kostenlosen Einstieg und bezahlte Räume.",
+    "featuresDe": [
+      "Videoraum im Browser",
+      "Eintritt per Link",
+      "Kostenloser Einstieg und bezahlte Räume"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch ohne Installation zu starten",
+      "Einen festen Raumlink zu verschicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Parsec",
+    "originalUrl": "https://www.parsec.app/",
+    "domain": "parsec.app",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gaming",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Parsec überträgt einen Desktop mit geringer Verzögerung, auch zum Spielen.",
+    "longDescriptionDe": "Parsec zeigt den Bildschirm eines anderen Rechners und gibt Eingaben zurück. Es gibt einen kostenlosen Einstieg und bezahlte Team-Funktionen.",
+    "featuresDe": [
+      "Desktop mit geringer Verzögerung",
+      "Eingaben aus der Ferne",
+      "Kostenloser Einstieg und bezahlte Team-Funktionen"
+    ],
+    "useCasesDe": [
+      "Einen starken Rechner aus der Ferne zu nutzen",
+      "Einen Bildschirm zum gemeinsamen Sehen freizugeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Typesense",
+    "originalUrl": "https://typesense.org/",
+    "domain": "typesense.org",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Typesense liefert eine Suche, die sich selbst betreiben lässt.",
+    "longDescriptionDe": "Typesense indexiert Datensätze und beantwortet Suchanfragen mit Tippfehler-Toleranz. Eine OSI-Kennung wird hier nicht erneut eingetragen. Es gibt den Selbstbetrieb und eine Cloud.",
+    "featuresDe": [
+      "Suche mit Tippfehler-Toleranz",
+      "Selbstbetrieb und Cloud",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Eine Produktsuche selbst zu hosten",
+      "Tippfehler in der Suche abzufangen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Turso",
+    "originalUrl": "https://turso.tech/",
+    "domain": "turso.tech",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Turso stellt SQLite-Datenbanken am Rand des Netzes bereit.",
+    "longDescriptionDe": "Turso startet eine LibSQL-Datenbank und kann sie nah an die Anwendung legen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "SQLite am Rand des Netzes",
+      "LibSQL",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine kleine Datenbank ohne eigenen Server zu starten",
+      "Lesezugriffe nah an die Nutzer zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Twenty",
+    "originalUrl": "https://twenty.com/",
+    "domain": "twenty.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Twenty ist ein CRM, das sich selbst betreiben lässt.",
+    "longDescriptionDe": "Twenty legt Personen, Firmen und Chancen an. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Cloud und den Selbstbetrieb.",
+    "featuresDe": [
+      "Personen, Firmen und Chancen",
+      "Cloud und Selbstbetrieb",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Ein CRM selbst zu hosten",
+      "Eine Verkaufschance zu führen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Aptabase",
+    "originalUrl": "https://aptabase.com/",
+    "domain": "aptabase.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Aptabase zählt Ereignisse in einer App, ohne ein Profil der Person zu bauen.",
+    "longDescriptionDe": "Aptabase nimmt wenige Ereignisse entgegen und zeigt Häufigkeiten. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Ereignisse ohne Personenprofil",
+      "Häufigkeiten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Zu sehen, welche Funktion genutzt wird",
+      "Eine App ohne großes Tracking zu messen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Axiom",
+    "originalUrl": "https://axiom.co/",
+    "domain": "axiom.co",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Axiom durchsucht Logs und Ereignisse einer Anwendung.",
+    "longDescriptionDe": "Axiom nimmt Logs entgegen und lässt sie abfragen. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Logs und Ereignisse",
+      "Abfragen",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Einen Fehler in den Logs zu suchen",
+      "Ereignisse eines Dienstes zu filtern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Arc",
+    "originalUrl": "https://arc.net/",
+    "domain": "arc.net",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Arc ist ein Browser, der Tabs in Seitenleisten und Räume sortiert.",
+    "longDescriptionDe": "Arc legt Tabs beiseite und trennt Bereiche wie Arbeit und Privat. Der Browser ist ohne Abo nutzbar.",
+    "featuresDe": [
+      "Tabs in der Seitenleiste",
+      "Getrennte Räume",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Viele Tabs in Räume zu sortieren",
+      "Arbeit und Privat zu trennen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Coder",
+    "originalUrl": "https://coder.com/",
+    "domain": "coder.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Coder stellt Entwicklungsumgebungen im Browser bereit.",
+    "longDescriptionDe": "Coder startet eine Umgebung pro Person oder Aufgabe, auf der eigenen Infrastruktur oder gehostet. Es gibt eine Ausgabe zum Selbstbetrieb und bezahlte Angebote. Die gehostete Plattform ist proprietär.",
+    "featuresDe": [
+      "Entwicklungsumgebung im Browser",
+      "Selbstbetrieb und Hosting",
+      "Bezahlte Angebote neben dem Selbstbetrieb"
+    ],
+    "useCasesDe": [
+      "Eine Umgebung für ein Team bereitzustellen",
+      "Einen Workspace pro Aufgabe zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ferdium",
+    "originalUrl": "https://ferdium.org/",
+    "domain": "ferdium.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Ferdium bündelt mehrere Webdienste in einem Fenster.",
+    "longDescriptionDe": "Ferdium zeigt Chat, Mail und weitere Dienste nebeneinander. Eine OSI-Kennung wird hier nicht eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Mehrere Dienste in einem Fenster",
+      "Chat und Mail",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Mehrere Chats in einer App zu halten",
+      "Zwischen Diensten zu wechseln, ohne den Browser zu füllen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Floorp",
+    "originalUrl": "https://floorp.app/",
+    "domain": "floorp.app",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Floorp ist ein Browser auf Firefox-Basis mit stark verstellbarer Oberfläche.",
+    "longDescriptionDe": "Floorp lässt Leisten verschieben und setzt eigene Startseiten. Eine OSI-Kennung wird hier nicht getrennt eingetragen. Der Browser ist ohne Abo erhältlich.",
+    "featuresDe": [
+      "Firefox-Basis",
+      "Verstellbare Oberfläche",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Browser mit eigener Leistenanordnung zu nutzen",
+      "Eine Startseite selbst zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Haystack",
+    "originalUrl": "https://haystack.deepset.ai/",
+    "domain": "haystack.deepset.ai",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "Haystack baut Pipelines, die Dokumente durchsuchen und antworten.",
+    "longDescriptionDe": "Haystack von deepset verbindet Abruf und ein Sprachmodell in Python. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Bibliothek ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Pipelines für Suche und Antwort",
+      "Python",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Frage-Antwort-Pipeline zu bauen",
+      "Dokumente an ein Modell anzubinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LangChain",
+    "originalUrl": "https://www.langchain.com/",
+    "domain": "langchain.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "ki-chatbots"
+    ],
+    "shortDescriptionDe": "LangChain verknüpft Sprachmodelle mit Werkzeugen und Daten.",
+    "longDescriptionDe": "LangChain stellt Bausteine für Ketten, Abruf und Agenten bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Bibliothek ist ohne Pflichtabo erhältlich, LangSmith ist ein bezahltes Zusatzangebot.",
+    "featuresDe": [
+      "Bausteine für Modelle und Daten",
+      "Abruf und Agenten",
+      "Bibliothek ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Modell an eigene Dokumente zu hängen",
+      "Einen Ablauf aus mehreren Schritten zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "LlamaIndex",
+    "originalUrl": "https://www.llamaindex.ai/",
+    "domain": "llamaindex.ai",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "daten"
+    ],
+    "shortDescriptionDe": "LlamaIndex indexiert Dokumente für Fragen an ein Sprachmodell.",
+    "longDescriptionDe": "LlamaIndex liest Dateien ein und beantwortet Fragen darüber. Eine OSI-Kennung wird hier nicht eingetragen. Die Bibliothek ist ohne Pflichtabo erhältlich, gehostete Angebote sind bezahlt.",
+    "featuresDe": [
+      "Index über Dokumente",
+      "Fragen an die Dateien",
+      "Bibliothek ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Ordner für ein Modell zu indexieren",
+      "Eine Frage an eigene Dateien zu stellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Baserow",
+    "originalUrl": "https://baserow.io/",
+    "domain": "baserow.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Baserow legt Tabellen im Browser an und lässt sich selbst betreiben.",
+    "longDescriptionDe": "Baserow mischt Zeilen, Ansichten und eine API. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Cloud und den Selbstbetrieb.",
+    "featuresDe": [
+      "Tabellen im Browser",
+      "API",
+      "Cloud und Selbstbetrieb"
+    ],
+    "useCasesDe": [
+      "Eine Tabelle selbst zu hosten",
+      "Eine Ansicht für ein Team zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Appsmith",
+    "originalUrl": "https://www.appsmith.com/",
+    "domain": "appsmith.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Appsmith baut interne Werkzeuge aus Datenquellen im Browser.",
+    "longDescriptionDe": "Appsmith setzt Formulare und Tabellen auf eine API oder Datenbank. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Cloud und den Selbstbetrieb.",
+    "featuresDe": [
+      "Formulare und Tabellen",
+      "Anbindung an Datenquellen",
+      "Cloud und Selbstbetrieb"
+    ],
+    "useCasesDe": [
+      "Ein internes Formular auf eine Datenbank zu setzen",
+      "Ein Werkzeug selbst zu hosten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Retool",
+    "originalUrl": "https://www.retool.com/",
+    "domain": "retool.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Retool baut interne Oberflächen auf Datenbanken und APIs.",
+    "longDescriptionDe": "Retool setzt Tabellen, Formulare und Knöpfe auf bestehende Systeme. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Interne Oberflächen",
+      "Anbindung an Datenbanken und APIs",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Admin-Werkzeug ohne eigenes Frontend zu bauen",
+      "Eine Tabelle auf eine API zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Budibase",
+    "originalUrl": "https://www.budibase.com/",
+    "domain": "budibase.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Budibase baut interne Anwendungen aus Daten und Formularen.",
+    "longDescriptionDe": "Budibase legt Tabellen und Oberflächen an und kann sie selbst betreiben. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Cloud und den Selbstbetrieb.",
+    "featuresDe": [
+      "Tabellen und Formulare",
+      "Cloud und Selbstbetrieb",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Eine interne App selbst zu hosten",
+      "Ein Formular auf eine Tabelle zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Prefect",
+    "originalUrl": "https://www.prefect.io/",
+    "domain": "prefect.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "automatisierung",
+      "daten"
+    ],
+    "shortDescriptionDe": "Prefect plant und überwacht Datenläufe in Python.",
+    "longDescriptionDe": "Prefect hängt Aufgaben zu einem Ablauf und zeigt, welcher Lauf fehlgeschlagen ist. Eine OSI-Kennung wird hier nicht erneut eingetragen. Es gibt den Selbstbetrieb und eine Cloud.",
+    "featuresDe": [
+      "Abläufe in Python",
+      "Übersicht fehlgeschlagener Läufe",
+      "Selbstbetrieb und Cloud"
+    ],
+    "useCasesDe": [
+      "Einen täglichen Datenlauf zu planen",
+      "Einen fehlgeschlagenen Schritt zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Dagster",
+    "originalUrl": "https://dagster.io/",
+    "domain": "dagster.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "automatisierung",
+      "daten"
+    ],
+    "shortDescriptionDe": "Dagster beschreibt Datenpipelines als Assets und führt sie aus.",
+    "longDescriptionDe": "Dagster zeigt, welches Asset von welchem abhängt, und startet die Läufe. Eine OSI-Kennung wird hier nicht erneut eingetragen. Es gibt den Selbstbetrieb und eine Cloud.",
+    "featuresDe": [
+      "Pipelines als Assets",
+      "Abhängigkeiten",
+      "Selbstbetrieb und Cloud"
+    ],
+    "useCasesDe": [
+      "Eine Pipeline mit Abhängigkeiten zu bauen",
+      "Einen Lauf nachzuvollziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kestra",
+    "originalUrl": "https://kestra.io/",
+    "domain": "kestra.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Kestra plant Abläufe, die in einer Beschreibung statt nur in Code stehen.",
+    "longDescriptionDe": "Kestra führt Aufgaben nach einem Zeitplan oder einem Ereignis aus. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt den Selbstbetrieb und eine Cloud.",
+    "featuresDe": [
+      "Abläufe als Beschreibung",
+      "Zeitplan und Ereignisse",
+      "Selbstbetrieb und Cloud"
+    ],
+    "useCasesDe": [
+      "Einen Ablauf ohne großen Orchestrierer zu starten",
+      "Eine Aufgabe zeitlich zu planen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Firecrawl",
+    "originalUrl": "https://www.firecrawl.dev/",
+    "domain": "firecrawl.dev",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung",
+      "daten"
+    ],
+    "shortDescriptionDe": "Firecrawl liest Webseiten und liefert den Inhalt für eigene Anwendungen.",
+    "longDescriptionDe": "Firecrawl holt Seiten und gibt sie als Text oder Markdown zurück. Es gibt einen kostenlosen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Seiten als Text oder Markdown",
+      "Schnittstelle",
+      "Kostenloser Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Den Inhalt einer Seite für ein Modell zu holen",
+      "Mehrere Unterseiten einzusammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Apify",
+    "originalUrl": "https://www.apify.com/",
+    "domain": "apify.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "automatisierung",
+      "daten"
+    ],
+    "shortDescriptionDe": "Apify lässt fertige Web-Scraper laufen und eigene bauen.",
+    "longDescriptionDe": "Apify startet Actors, die Seiten auslesen und das Ergebnis ablegen. Es gibt einen kostenlosen Einstieg und bezahlte Nutzung.",
+    "featuresDe": [
+      "Fertige und eigene Scraper",
+      "Ergebnisse ablegen",
+      "Kostenloser Einstieg und bezahlte Nutzung"
+    ],
+    "useCasesDe": [
+      "Daten von einer öffentlichen Seite zu holen",
+      "Einen wiederkehrenden Lauf zu planen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Unstructured",
+    "originalUrl": "https://www.unstructured.io/",
+    "domain": "unstructured.io",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Unstructured zerlegt Dokumente in Stücke für eine Suche oder ein Modell.",
+    "longDescriptionDe": "Unstructured liest PDF und andere Formate und gibt Abschnitte zurück. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Bibliothek und eine bezahlte API.",
+    "featuresDe": [
+      "Zerlegen von PDF und anderen Formaten",
+      "Abschnitte für eine Suche",
+      "Bibliothek und bezahlte API"
+    ],
+    "useCasesDe": [
+      "Ein PDF für einen Index vorzubereiten",
+      "Abschnitte statt der ganzen Datei zu übergeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Inngest",
+    "originalUrl": "https://www.inngest.com/",
+    "domain": "inngest.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Inngest führt Hintergrundschritte einer Anwendung zuverlässig aus.",
+    "longDescriptionDe": "Inngest hängt Funktionen an Ereignisse und wiederholt sie bei Fehlern. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Schritte an Ereignisse",
+      "Wiederholung bei Fehlern",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Hintergrundjob an ein Ereignis zu hängen",
+      "Einen fehlgeschlagenen Schritt erneut laufen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Trigger.dev",
+    "originalUrl": "https://trigger.dev/",
+    "domain": "trigger.dev",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Trigger.dev startet längere Aufgaben aus einer Anwendung heraus.",
+    "longDescriptionDe": "Trigger.dev führt Jobs außerhalb der Anfrage aus und zeigt den Verlauf. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Jobs außerhalb der Anfrage",
+      "Verlauf",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine lange Aufgabe aus einer App auszulagern",
+      "Den Verlauf eines Jobs zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hightouch",
+    "originalUrl": "https://www.hightouch.com/",
+    "domain": "hightouch.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Hightouch kopiert Daten aus einem Warehouse in andere Werkzeuge.",
+    "longDescriptionDe": "Hightouch liest eine Tabelle und schreibt sie in ein CRM oder ein Werbenetz. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Daten aus dem Warehouse",
+      "Ziele wie CRM",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Zielgruppe in ein CRM zu schieben",
+      "Eine Tabelle regelmäßig zu synchronisieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RudderStack",
+    "originalUrl": "https://www.rudderstack.com/",
+    "domain": "rudderstack.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "RudderStack sammelt Ereignisse und leitet sie an andere Werkzeuge weiter.",
+    "longDescriptionDe": "RudderStack nimmt Ereignisse aus einer App und schickt sie an mehrere Ziele. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Cloud und den Selbstbetrieb.",
+    "featuresDe": [
+      "Ereignisse aus der App",
+      "Weiterleitung an Ziele",
+      "Cloud und Selbstbetrieb"
+    ],
+    "useCasesDe": [
+      "Ereignisse selbst zu hosten",
+      "Dieselben Ereignisse an mehrere Ziele zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Segment",
+    "originalUrl": "https://segment.com/",
+    "domain": "segment.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Segment sammelt Ereignisse und verteilt sie an Analysewerkzeuge.",
+    "longDescriptionDe": "Segment nimmt eine Ereignisquelle und schickt sie an mehrere Ziele, ohne den Code jedes Mal zu ändern. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Eine Quelle, mehrere Ziele",
+      "Ereignisse aus der App",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Ereignis an mehrere Werkzeuge zu geben",
+      "Eine Quelle zu wechseln, ohne jedes Ziel neu zu bauen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Backblaze",
+    "originalUrl": "https://www.backblaze.com/",
+    "domain": "backblaze.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Backblaze sichert einen Rechner und bietet Objektspeicher.",
+    "longDescriptionDe": "Backblaze B2 speichert Dateien über eine Schnittstelle, die persönliche Sicherung legt ein Abbild des Rechners ab. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Objektspeicher und Rechnersicherung",
+      "Schnittstelle",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Backup eines Rechners abzulegen",
+      "Dateien wie in einem Objektspeicher zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MEGA",
+    "originalUrl": "https://mega.nz/",
+    "domain": "mega.nz",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "MEGA speichert Dateien verschlüsselt und teilt sie per Link.",
+    "longDescriptionDe": "MEGA legt Dateien in einem Konto ab und erzeugt Freigabelinks. Es gibt einen kostenlosen Speicher und bezahlte Stufen.",
+    "featuresDe": [
+      "Verschlüsselte Dateien",
+      "Freigabelinks",
+      "Kostenloser Speicher und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine große Datei zu verschicken",
+      "Einen Ordner in der Cloud zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sync.com",
+    "originalUrl": "https://www.sync.com/",
+    "domain": "sync.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Sync speichert Dateien mit Ende-zu-Ende-Verschlüsselung.",
+    "longDescriptionDe": "Sync gleicht Ordner ab und teilt sie mit einem Link oder einem Konto. Es gibt einen kostenlosen Speicher und bezahlte Stufen.",
+    "featuresDe": [
+      "Ende-zu-Ende-Verschlüsselung",
+      "Abgleich und Freigabe",
+      "Kostenloser Speicher und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Ordner verschlüsselt abzulegen",
+      "Eine Datei per Link zu teilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Box",
+    "originalUrl": "https://www.box.com/",
+    "domain": "box.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Box speichert Dateien für Teams und setzt Freigaben und Aufbewahrung.",
+    "longDescriptionDe": "Box legt Ordner an, regelt, wer sie sieht, und kann Versionen halten. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Team-Ordner und Freigaben",
+      "Versionen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Dateien eines Teams mit Rechten zu teilen",
+      "Eine alte Version einer Datei zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Dropbox",
+    "originalUrl": "https://www.dropbox.com/",
+    "domain": "dropbox.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Dropbox gleicht einen Ordner zwischen Geräten ab.",
+    "longDescriptionDe": "Dropbox hält Dateien in der Cloud und auf der Festplatte und teilt Links. Es gibt einen kostenlosen Speicher und bezahlte Stufen.",
+    "featuresDe": [
+      "Ordnerabgleich",
+      "Freigabelinks",
+      "Kostenloser Speicher und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Datei auf mehreren Geräten zu halten",
+      "Einen Link auf einen Ordner zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "WeeChat",
+    "originalUrl": "https://weechat.org/",
+    "domain": "weechat.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "WeeChat ist ein Chat-Client für IRC im Terminal.",
+    "longDescriptionDe": "WeeChat verbindet sich mit IRC-Netzen und legt Fenster und Skripte an. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "IRC im Terminal",
+      "Fenster und Skripte",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen IRC-Kanal im Terminal zu öffnen",
+      "Mehrere Netze in einem Client zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Libera Chat",
+    "originalUrl": "https://libera.chat/",
+    "domain": "libera.chat",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "Libera Chat betreibt ein IRC-Netz für freie Software.",
+    "longDescriptionDe": "Libera Chat stellt Kanäle bereit, in denen Projekte sich treffen. Der Zutritt mit einem Client ist ohne Abo möglich.",
+    "featuresDe": [
+      "IRC-Netz für freie Software",
+      "Kanäle je Projekt",
+      "Zutritt ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Projektkanal zu betreten",
+      "Hilfe zu einem freien Programm zu fragen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kiwi IRC",
+    "originalUrl": "https://kiwiirc.com/",
+    "domain": "kiwiirc.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "Kiwi IRC öffnet IRC-Kanäle im Browser.",
+    "longDescriptionDe": "Kiwi IRC verbindet sich mit einem Netz, ohne einen eigenen Client zu installieren. Die Nutzung im Browser ist ohne Abo möglich.",
+    "featuresDe": [
+      "IRC im Browser",
+      "Ohne eigenen Client",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einen Kanal ohne Installation zu öffnen",
+      "Kurz in einem Netz mitzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bluesky",
+    "originalUrl": "https://bsky.app/",
+    "domain": "bsky.app",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "social-media"
+    ],
+    "shortDescriptionDe": "Bluesky zeigt kurze Beiträge in einem Netz, das mehrere Server zulässt.",
+    "longDescriptionDe": "Bluesky führt ein Profil und eine Zeitleiste. Das Lesen ist ohne Abo möglich. Eine OSI-Kennung der App wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Kurze Beiträge",
+      "Zeitleiste",
+      "Nutzung ohne Abo"
+    ],
+    "useCasesDe": [
+      "Einer Person zu folgen",
+      "Einen kurzen Beitrag zu schreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "JLCPCB",
+    "originalUrl": "https://jlcpcb.com/",
+    "domain": "jlcpcb.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "JLCPCB fertigt Leiterplatten nach hochgeladenen Daten.",
+    "longDescriptionDe": "JLCPCB nimmt Gerber-Dateien entgegen und liefert die Platinen. Die Fertigung ist kostenpflichtig.",
+    "featuresDe": [
+      "Fertigung nach Gerber-Dateien",
+      "Lieferung der Platinen",
+      "Kostenpflichtige Fertigung"
+    ],
+    "useCasesDe": [
+      "Eine Platine fertigen zu lassen",
+      "Eine Stückzahl für einen Prototyp zu bestellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "EasyEDA",
+    "originalUrl": "https://easyeda.com/",
+    "domain": "easyeda.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "EasyEDA zeichnet Schaltpläne und Leiterplatten im Browser.",
+    "longDescriptionDe": "EasyEDA setzt Schaltplan und Layout und kann die Daten an eine Fertigung geben. Es gibt einen kostenlosen Einstieg und bezahlte Funktionen.",
+    "featuresDe": [
+      "Schaltplan und Layout im Browser",
+      "Übergabe an die Fertigung",
+      "Kostenloser Einstieg und bezahlte Funktionen"
+    ],
+    "useCasesDe": [
+      "Eine Platine im Browser zu zeichnen",
+      "Die Daten zur Fertigung zu geben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GrabCAD",
+    "originalUrl": "https://grabcad.com/",
+    "domain": "grabcad.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "GrabCAD stellt CAD-Modelle von Bauteilen zum Herunterladen bereit.",
+    "longDescriptionDe": "GrabCAD zeigt Modelle, die andere hochgeladen haben, und Werkzeuge der Firma. Ein Teil ist ohne Abo ladbar.",
+    "featuresDe": [
+      "CAD-Modelle zum Download",
+      "Community und Werkzeuge",
+      "Teil ohne Abo"
+    ],
+    "useCasesDe": [
+      "Ein Normteil als Modell zu finden",
+      "Ein hochgeladenes Bauteil zu laden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Shapr3D",
+    "originalUrl": "https://www.shapr3d.com/",
+    "domain": "shapr3d.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Shapr3D konstruiert CAD-Modelle auf dem Tablet und am Rechner.",
+    "longDescriptionDe": "Shapr3D zeichnet Körper mit dem Stift oder der Maus und exportiert sie. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "CAD auf Tablet und Rechner",
+      "Export",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Bauteil auf dem Tablet zu skizzieren",
+      "Einen Körper zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Rhino",
+    "originalUrl": "https://www.rhino3d.com/",
+    "domain": "rhino3d.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "Rhino modelliert freie Formen für Design und Fertigung.",
+    "longDescriptionDe": "Rhino zeichnet Kurven und Flächen und gibt sie an andere Programme weiter. Die Lizenz ist kostenpflichtig.",
+    "featuresDe": [
+      "Freiform-Modellierung",
+      "Kurven und Flächen",
+      "Kostenpflichtige Lizenz"
+    ],
+    "useCasesDe": [
+      "Eine freie Form zu modellieren",
+      "Ein Modell für die Fertigung zu exportieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MeshLab",
+    "originalUrl": "https://www.meshlab.net/",
+    "domain": "meshlab.net",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "dreid"
+    ],
+    "shortDescriptionDe": "MeshLab bearbeitet und repariert Dreiecksnetze.",
+    "longDescriptionDe": "MeshLab öffnet Scandaten und Netze, vereinfacht sie und schließt Löcher. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Anwendung ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Bearbeitung von Netzen",
+      "Vereinfachen und Löcher schließen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Scan zu bereinigen",
+      "Ein Netz zu vereinfachen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Arduino",
+    "originalUrl": "https://www.arduino.cc/",
+    "domain": "arduino.cc",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Arduino liefert Platinen und eine Umgebung für kleine Steuerungen.",
+    "longDescriptionDe": "Arduino-Boards lesen Sensoren und schalten Ausgänge, die IDE schreibt das Programm. Die Platinen sind kostenpflichtig, die Software zum Entwickeln ist ohne Abo erhältlich. Die Marke und die gehosteten Dienste sind proprietär.",
+    "featuresDe": [
+      "Platinen und Entwicklungsumgebung",
+      "Sensoren und Ausgänge",
+      "Platinen kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Eine kleine Steuerung zu programmieren",
+      "Einen Sensor an einen Ausgang zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Espressif",
+    "originalUrl": "https://www.espressif.com/",
+    "domain": "espressif.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Espressif stellt Chips der ESP-Reihe für WLAN und Steuerung her.",
+    "longDescriptionDe": "Espressif dokumentiert Module, die sich mit eigener Firmware betreiben lassen. Die Chips sind kostenpflichtig, ein Teil der Werkzeuge ist ohne Abo erhältlich.",
+    "featuresDe": [
+      "Chips mit WLAN",
+      "Dokumentation und Werkzeuge",
+      "Chips kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Ein Gerät mit WLAN zu bauen",
+      "Die Dokumentation eines Moduls zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Adafruit",
+    "originalUrl": "https://www.adafruit.com/",
+    "domain": "adafruit.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Adafruit verkauft Platinen und schreibt Anleitungen dazu.",
+    "longDescriptionDe": "Adafruit zeigt Bauteile und Lerntexte für kleine Elektronikprojekte. Die Anleitungen sind ohne Konto lesbar, die Bauteile sind kostenpflichtig.",
+    "featuresDe": [
+      "Platinen und Anleitungen",
+      "Lerntexte",
+      "Anleitungen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Anleitung zu einem Sensor zu lesen",
+      "Ein Bauteil für ein Projekt zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "SparkFun",
+    "originalUrl": "https://www.sparkfun.com/",
+    "domain": "sparkfun.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung",
+      "bildung"
+    ],
+    "shortDescriptionDe": "SparkFun verkauft Elektronikmodule und dokumentiert sie.",
+    "longDescriptionDe": "SparkFun zeigt Breakouts und Anleitungen. Die Texte sind ohne Konto lesbar, die Module sind kostenpflichtig.",
+    "featuresDe": [
+      "Module und Anleitungen",
+      "Breakouts",
+      "Texte ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Modul mit Anleitung zu finden",
+      "Ein Breakout für einen Sensor zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "balena",
+    "originalUrl": "https://www.balena.io/",
+    "domain": "balena.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "balena spielt Container auf eine Flotte kleiner Geräte aus.",
+    "longDescriptionDe": "balenaOS und balenaCloud verteilen eine Anwendung auf viele Geräte und aktualisieren sie. Es gibt einen kostenlosen Einstieg und bezahlte Gerätezahlen.",
+    "featuresDe": [
+      "Container auf Geräten",
+      "Aktualisierung einer Flotte",
+      "Kostenloser Einstieg und bezahlte Gerätezahlen"
+    ],
+    "useCasesDe": [
+      "Eine Anwendung auf viele Geräte zu verteilen",
+      "Ein Update aus der Ferne zu spielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "System76",
+    "originalUrl": "https://www.system76.com/",
+    "domain": "system76.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "System76 verkauft Rechner mit dem Linux-System Pop!_OS.",
+    "longDescriptionDe": "System76 liefert Laptops und Desktops, die mit der eigenen Distribution starten. Die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "Rechner mit Pop!_OS",
+      "Laptops und Desktops",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Einen Rechner mit vorinstalliertem Linux zu kaufen",
+      "Pop!_OS auf der eigenen Seite nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MikroTik",
+    "originalUrl": "https://www.mikrotik.com/",
+    "domain": "mikrotik.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "MikroTik stellt Router und das System RouterOS her.",
+    "longDescriptionDe": "MikroTik-Geräte routen Netze und lassen sich über eine eigene Oberfläche konfigurieren. Die Hardware ist kostenpflichtig.",
+    "featuresDe": [
+      "Router und RouterOS",
+      "Eigene Oberfläche",
+      "Kostenpflichtige Hardware"
+    ],
+    "useCasesDe": [
+      "Ein Netz mit einem Router zu betreiben",
+      "Eine Route zu konfigurieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Ubiquiti",
+    "originalUrl": "https://www.ui.com/",
+    "domain": "ui.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Ubiquiti verkauft Netzgeräte für WLAN, Routing und Kameras.",
+    "longDescriptionDe": "Ubiquiti steuert Access Points und Gateways über eine zentrale Oberfläche. Die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "WLAN, Routing und Kameras",
+      "Zentrale Oberfläche",
+      "Kostenpflichtige Geräte"
+    ],
+    "useCasesDe": [
+      "Ein WLAN für ein Gebäude zu planen",
+      "Access Points zentral zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mosquitto",
+    "originalUrl": "https://mosquitto.org/",
+    "domain": "mosquitto.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "automatisierung"
+    ],
+    "shortDescriptionDe": "Mosquitto ist ein Nachrichtenbroker für das Protokoll MQTT.",
+    "longDescriptionDe": "Mosquitto nimmt Nachrichten von Geräten entgegen und verteilt sie an Abonnenten. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "MQTT-Broker",
+      "Nachrichten an Abonnenten",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Sensordaten im eigenen Netz zu verteilen",
+      "Einen Broker selbst zu betreiben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ESPHome",
+    "originalUrl": "https://esphome.io/",
+    "domain": "esphome.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "automatisierung",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "ESPHome beschreibt die Firmware eines ESP-Chips in einer Konfiguration.",
+    "longDescriptionDe": "ESPHome erzeugt aus einer Textdatei die Software für Sensoren und Schalter. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Firmware aus einer Konfiguration",
+      "Sensoren und Schalter",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Sensor ohne eigenes C-Programm anzubinden",
+      "Eine Konfiguration auf einen Chip zu spielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
