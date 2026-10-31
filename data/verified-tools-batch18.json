@@ -1,0 +1,875 @@
+[
+  {
+    "name": "Gong",
+    "originalUrl": "https://www.gong.io/",
+    "domain": "gong.io",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Gong zeichnet Vertriebsgespräche auf und zeigt, was darin vorkam.",
+    "longDescriptionDe": "Gong schreibt Calls mit und filtert nach Themen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Aufzeichnung von Vertriebsgesprächen",
+      "Themenfilter",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Verkaufsgespräch später zu durchsuchen",
+      "Zu sehen, welche Themen oft vorkommen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Avoma",
+    "originalUrl": "https://www.avoma.com/",
+    "domain": "avoma.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Avoma schreibt Meetings mit und zieht daraus Notizen und Coaching.",
+    "longDescriptionDe": "Avoma liefert Transkript und Zusammenfassung. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Meeting-Notizen",
+      "Transkript",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch zusammenzufassen",
+      "Stellen im Transkript zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Bluedot",
+    "originalUrl": "https://www.bluedot.org/",
+    "domain": "bluedot.org",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Bluedot schreibt Google-Meetings mit und legt die Notizen ab.",
+    "longDescriptionDe": "Bluedot nimmt am Meet teil und liefert eine Zusammenfassung. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Notizen zu Google Meet",
+      "Zusammenfassung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Meet automatisch mitzuschreiben",
+      "Die Notizen zu teilen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Supernormal",
+    "originalUrl": "https://www.supernormal.com/",
+    "domain": "supernormal.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache"
+    ],
+    "shortDescriptionDe": "Supernormal schreibt Meetings mit und macht daraus Notizen.",
+    "longDescriptionDe": "Supernormal liefert Transkript und eine kurze Fassung. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Meeting-Notizen",
+      "Kurze Fassung",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Meeting nachzulesen",
+      "Die kurze Fassung zu verschicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Demodesk",
+    "originalUrl": "https://www.demodesk.com/",
+    "domain": "demodesk.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Demodesk führt Verkaufsdemos und schreibt das Gespräch mit.",
+    "longDescriptionDe": "Demodesk kombiniert einen Demo-Raum mit Notizen. Es gibt einen Einstieg und bezahlte Plätze.",
+    "featuresDe": [
+      "Demo-Raum",
+      "Notizen zum Gespräch",
+      "Einstieg und bezahlte Plätze"
+    ],
+    "useCasesDe": [
+      "Eine Produktdemo zu halten",
+      "Das Gespräch danach nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Chorus",
+    "originalUrl": "https://www.chorus.ai/",
+    "domain": "chorus.ai",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "audio-und-sprache",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Chorus zeichnet Vertriebsgespräche auf und macht sie durchsuchbar.",
+    "longDescriptionDe": "Chorus schreibt Calls mit und zeigt Themen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Durchsuchbare Calls",
+      "Themen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Ein Gespräch nach einem Stichwort zu finden",
+      "Themen über viele Calls zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Clari",
+    "originalUrl": "https://www.clari.com/",
+    "domain": "clari.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Clari bündelt die Vertriebs-Pipeline und prognostiziert Abschlüsse.",
+    "longDescriptionDe": "Clari liest Aktivitäten aus dem CRM und zeigt eine Prognose. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Pipeline",
+      "Prognose",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Den Stand der Abschlüsse zu sehen",
+      "Eine Prognose aus dem CRM zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Around",
+    "originalUrl": "https://www.around.co/",
+    "domain": "around.co",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Around führt kleine Videogespräche mit wenig Bildfläche.",
+    "longDescriptionDe": "Around setzt die Kamera als kleinen Kreis über die Arbeit. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Kleine Videogespräche",
+      "Kamera als Kreis",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Kurz über eine Datei zu sprechen",
+      "Den Bildschirm dabei sichtbar zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "mmhmm",
+    "originalUrl": "https://www.mmhmm.app/",
+    "domain": "mmhmm.app",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videogenerierung"
+    ],
+    "shortDescriptionDe": "mmhmm legt Folien und die eigene Kamera in eine Präsentation.",
+    "longDescriptionDe": "mmhmm mischt Person und Inhalt in einer Aufnahme. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Folien und Kamera",
+      "Aufnahme",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Präsentation mit Gesicht aufzunehmen",
+      "Folien hinter der Person zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Iris.ai",
+    "originalUrl": "https://www.iris.ai/",
+    "domain": "iris.ai",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Iris.ai sucht wissenschaftliche Texte zu einer beschriebenen Frage.",
+    "longDescriptionDe": "Iris.ai nimmt eine Forschungsfrage und zeigt passende Arbeiten. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Suche nach Forschungsfragen",
+      "Passende Arbeiten",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Literatur zu einer Frage zu finden",
+      "Einen Überblick über ein Feld zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Qualtrics",
+    "originalUrl": "https://www.qualtrics.com/",
+    "domain": "qualtrics.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Qualtrics baut Umfragen und wertet Erfahrungswerte aus.",
+    "longDescriptionDe": "Qualtrics verteilt Fragebögen und zeigt die Auswertung. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Umfragen",
+      "Auswertung",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Kundenbefragung zu fahren",
+      "Antworten in Berichten zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Foxit",
+    "originalUrl": "https://www.foxit.com/",
+    "domain": "foxit.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Foxit liest, kommentiert und signiert PDF-Dateien.",
+    "longDescriptionDe": "Foxit öffnet PDFs und legt Anmerkungen darauf. Es gibt einen kostenlosen Reader und bezahlte Editor-Funktionen.",
+    "featuresDe": [
+      "PDF lesen und kommentieren",
+      "Signatur",
+      "Kostenloser Reader und bezahlter Editor"
+    ],
+    "useCasesDe": [
+      "Eine PDF zu kommentieren",
+      "Ein Dokument zu signieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "HelloSign",
+    "originalUrl": "https://www.hellosign.com/",
+    "domain": "hellosign.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "HelloSign holt Unterschriften auf Dokumente, ohne sie auszudrucken.",
+    "longDescriptionDe": "HelloSign schickt eine Datei zur Signatur und legt sie ab. Es gibt einen Einstieg und bezahlte Signaturen.",
+    "featuresDe": [
+      "Elektronische Signatur",
+      "Ablage",
+      "Einstieg und bezahlte Signaturen"
+    ],
+    "useCasesDe": [
+      "Einen Vertrag unterschreiben zu lassen",
+      "Die signierte Datei abzulegen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "pdfFiller",
+    "originalUrl": "https://www.pdffiller.com/",
+    "domain": "pdffiller.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "pdfFiller füllt PDF-Formulare im Browser aus.",
+    "longDescriptionDe": "pdfFiller schreibt in Felder und speichert die Datei. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "PDF-Formulare ausfüllen",
+      "Speichern im Browser",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Formular ohne Druck auszufüllen",
+      "Die ausgefüllte Datei zu laden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Pigment",
+    "originalUrl": "https://www.pigment.com/",
+    "domain": "pigment.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Pigment plant Zahlen in Modellen für Teams statt in einzelnen Tabellen.",
+    "longDescriptionDe": "Pigment verbindet Datenquellen mit einem Planungsmodell. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Planungsmodelle",
+      "Datenquellen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Planung über Teams zu rechnen",
+      "Eine Quelle an ein Modell zu hängen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kustomer",
+    "originalUrl": "https://www.kustomer.com/",
+    "domain": "kustomer.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Kustomer sammelt Kundenanfragen und die bisherige Historie an einem Ort.",
+    "longDescriptionDe": "Kustomer zeigt Mails, Chats und Bestellungen zu einer Person. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Anfragen und Historie",
+      "Mails und Chats",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Anfrage mit der Bestellhistorie zu sehen",
+      "Ein Gespräch im Team zu übergeben"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Braze",
+    "originalUrl": "https://www.braze.com/",
+    "domain": "braze.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Braze sendet Nachrichten in App, Push und E-Mail nach dem Verhalten.",
+    "longDescriptionDe": "Braze startet eine Nachricht nach einem Ereignis. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Nachrichten nach Verhalten",
+      "App, Push, E-Mail",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Push-Nachricht nach einem Ereignis zu senden",
+      "Kanäle in einer Kampagne zu mischen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Pusher",
+    "originalUrl": "https://www.pusher.com/",
+    "domain": "pusher.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Pusher liefert Ereignisse in Echtzeit an Browser und Apps.",
+    "longDescriptionDe": "Pusher schickt eine Nachricht an verbundene Clients. Es gibt einen kostenlosen Einstieg und bezahlte Mengen.",
+    "featuresDe": [
+      "Ereignisse in Echtzeit",
+      "Clients",
+      "Kostenloser Einstieg und bezahlte Mengen"
+    ],
+    "useCasesDe": [
+      "Einen Live-Stand in eine Seite zu schicken",
+      "Mehrere Browser gleichzeitig zu aktualisieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MessageBird",
+    "originalUrl": "https://www.messagebird.com/",
+    "domain": "messagebird.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "MessageBird verschickt SMS, WhatsApp und Anrufe über eine Schnittstelle.",
+    "longDescriptionDe": "MessageBird spricht Kanäle aus einer Plattform an. Es gibt einen Einstieg und bezahlte Nachrichten.",
+    "featuresDe": [
+      "SMS, WhatsApp, Anrufe",
+      "Eine Plattform",
+      "Einstieg und bezahlte Nachrichten"
+    ],
+    "useCasesDe": [
+      "Eine SMS aus einer Anwendung zu senden",
+      "Einen WhatsApp-Kanal anzubinden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Salesforce",
+    "originalUrl": "https://www.salesforce.com/",
+    "domain": "salesforce.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Salesforce führt Kunden, Leads und Vorgänge in einem CRM.",
+    "longDescriptionDe": "Salesforce legt Datensätze an und zeigt Pipelines. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "CRM",
+      "Leads und Vorgänge",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Lead mit seiner Historie zu sehen",
+      "Eine Pipeline zu filtern"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "AuthoredUp",
+    "originalUrl": "https://www.authoredup.com/",
+    "domain": "authoredup.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "AuthoredUp schreibt und plant LinkedIn-Beiträge mit Vorschau.",
+    "longDescriptionDe": "AuthoredUp zeigt, wie der Beitrag später aussieht, und legt den Zeitpunkt fest. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "LinkedIn-Vorschau",
+      "Planung",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Beitrag vor dem Posten zu sehen",
+      "Mehrere Posts zu planen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Awario",
+    "originalUrl": "https://www.awario.com/",
+    "domain": "awario.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Awario sucht Erwähnungen einer Marke im Web und in sozialen Netzen.",
+    "longDescriptionDe": "Awario legt eine Suche an und sammelt Treffer. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Erwähnungen einer Marke",
+      "Suche",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Zu sehen, wo eine Marke genannt wird",
+      "Treffer über die Woche zu sammeln"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Brandwatch",
+    "originalUrl": "https://www.brandwatch.com/",
+    "domain": "brandwatch.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Brandwatch wertet Erwähnungen und Stimmung in sozialen Netzen aus.",
+    "longDescriptionDe": "Brandwatch sammelt Beiträge und zeigt Themen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Erwähnungen",
+      "Stimmung und Themen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Die Stimmung zu einer Marke zu sehen",
+      "Themen in Beiträgen zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Meltwater",
+    "originalUrl": "https://www.meltwater.com/",
+    "domain": "meltwater.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Meltwater durchsucht Medien und soziale Netze nach Erwähnungen.",
+    "longDescriptionDe": "Meltwater legt eine Beobachtung an und liefert Treffer. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Mediensuche",
+      "Erwähnungen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Artikel zu einem Thema zu finden",
+      "Eine Marke in den Medien zu beobachten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Talkwalker",
+    "originalUrl": "https://www.talkwalker.com/",
+    "domain": "talkwalker.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Talkwalker beobachtet Marken in sozialen Netzen und im Web.",
+    "longDescriptionDe": "Talkwalker sammelt Erwähnungen und zeigt Themen. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Markenbeobachtung",
+      "Themen",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Erwähnungen einer Marke zu sammeln",
+      "Ein Thema über die Zeit zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Sprout Social",
+    "originalUrl": "https://www.sproutsocial.com/",
+    "domain": "sproutsocial.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Sprout Social plant Beiträge und beantwortet Nachrichten mehrerer Netze.",
+    "longDescriptionDe": "Sprout Social bündelt Posteingänge und einen Kalender. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Beitragskalender",
+      "Gemeinsamer Posteingang",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Beitrag für mehrere Netze zu planen",
+      "Nachrichten an einem Ort zu beantworten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Planoly",
+    "originalUrl": "https://www.planoly.com/",
+    "domain": "planoly.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Planoly plant das Raster von Instagram und Pinterest im Voraus.",
+    "longDescriptionDe": "Planoly legt Bilder in eine Vorschau und postet sie später. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Raster-Vorschau",
+      "Geplante Beiträge",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Ein Instagram-Raster zu planen",
+      "Einen Beitrag auf einen Tag zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hugo",
+    "originalUrl": "https://www.hugo.team/",
+    "domain": "hugo.team",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Hugo hält Meeting-Notizen an der Agenda und teilt sie danach.",
+    "longDescriptionDe": "Hugo verbindet Kalender und Protokoll. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Notizen an der Agenda",
+      "Teilen nach dem Meeting",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Während des Meetings mitzuschreiben",
+      "Das Protokoll an die Runde zu schicken"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Soda PDF",
+    "originalUrl": "https://www.sodapdf.com/",
+    "domain": "sodapdf.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "shortDescriptionDe": "Soda PDF bearbeitet, verbindet und signiert PDF-Dateien.",
+    "longDescriptionDe": "Soda PDF öffnet eine Datei im Browser oder in der App. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "PDF bearbeiten",
+      "Verbinden und signieren",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Zwei PDFs zu verbinden",
+      "Ein Formular auszufüllen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Vonage",
+    "originalUrl": "https://www.vonage.com/",
+    "domain": "vonage.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "kundenservice"
+    ],
+    "shortDescriptionDe": "Vonage stellt Telefonie und Nachrichten über eine Schnittstelle bereit.",
+    "longDescriptionDe": "Vonage verbindet Anrufe und SMS mit einer Anwendung. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Telefonie und SMS",
+      "Schnittstelle",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Einen Anruf aus einer App zu starten",
+      "Eine SMS zuzustellen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
