@@ -1,0 +1,1005 @@
+[
+  {
+    "name": "Docusaurus",
+    "originalUrl": "https://docusaurus.io/",
+    "domain": "docusaurus.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Docusaurus baut Dokumentationsseiten aus Markdown.",
+    "longDescriptionDe": "Docusaurus erzeugt eine Website mit Navigation, Suche und Versionen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Dokumentation aus Markdown",
+      "Navigation und Versionen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Dokumentation zu veröffentlichen",
+      "Mehrere Versionen einer Anleitung zu halten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Quarto",
+    "originalUrl": "https://quarto.org/",
+    "domain": "quarto.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Quarto setzt Texte, Code und Grafiken zu einem Bericht oder einer Website zusammen.",
+    "longDescriptionDe": "Quarto rendert Markdown mit eingebettetem Code. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Berichte aus Text und Code",
+      "Websites und PDFs",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Bericht mit Grafiken zu schreiben",
+      "Eine Projektdokumentation zu erzeugen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenTopoMap",
+    "originalUrl": "https://opentopomap.org/",
+    "domain": "opentopomap.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "OpenTopoMap zeigt eine topografische Karte aus offenen Daten.",
+    "longDescriptionDe": "Die Karte stellt Höhenlinien und Wege dar. Das Ansehen ist ohne Konto möglich. Eine OSI-Kennung der Darstellung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Höhenlinien und Wege",
+      "Offene Kartendaten",
+      "Ansehen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Wanderung im Gelände zu prüfen",
+      "Höhenlinien einer Region zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Overpass Turbo",
+    "originalUrl": "https://overpass-turbo.eu/",
+    "domain": "overpass-turbo.eu",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "reisen"
+    ],
+    "shortDescriptionDe": "Overpass Turbo fragt Daten aus OpenStreetMap mit einer Abfrage ab.",
+    "longDescriptionDe": "Die Seite zeigt das Ergebnis einer Abfrage auf der Karte. Die Nutzung ist ohne Konto möglich. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Abfragen an OpenStreetMap",
+      "Ergebnis auf der Karte",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Alle Cafés in einem Ausschnitt zu finden",
+      "Eine Abfrage zu testen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "OpenStreetMap Deutschland",
+    "originalUrl": "https://www.openstreetmap.de/",
+    "domain": "openstreetmap.de",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen",
+      "recherche"
+    ],
+    "shortDescriptionDe": "OpenStreetMap Deutschland informiert die deutschsprachige Gemeinschaft der Karte.",
+    "longDescriptionDe": "Die Seite erklärt, wie man mitmacht, und verweist auf die Karte. Die Texte sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Deutschsprachige Gemeinschaft",
+      "Hinweise zum Mitmachen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Zu erfahren, wie die Karte entsteht",
+      "Einen Einstieg in die Mitarbeit zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Natural Earth",
+    "originalUrl": "https://www.naturalearthdata.com/",
+    "domain": "naturalearthdata.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Natural Earth stellt Kartengrundlagen in mehreren Maßstäben bereit.",
+    "longDescriptionDe": "Die Daten eignen sich für Übersichtskarten. Der Download ist ohne Konto möglich. Eine einzelne OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Kartengrundlagen",
+      "Mehrere Maßstäbe",
+      "Download ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Weltkarte für eine Grafik zu laden",
+      "Länderumrisse zu beziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "geojson.io",
+    "originalUrl": "https://geojson.io/",
+    "domain": "geojson.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "geojson.io zeichnet Punkte und Flächen und zeigt das GeoJSON dazu.",
+    "longDescriptionDe": "Die Seite lässt Formen auf einer Karte setzen und kopiert den Text. Die Nutzung ist ohne Konto möglich. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Zeichnen auf der Karte",
+      "GeoJSON als Text",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Bereich als GeoJSON zu zeichnen",
+      "Eine Fläche für eine Anwendung zu umreißen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kepler.gl",
+    "originalUrl": "https://kepler.gl/",
+    "domain": "kepler.gl",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Kepler.gl zeigt große Mengen von Punkten und Wegen auf einer Karte.",
+    "longDescriptionDe": "Kepler.gl nimmt eine Tabelle und zeichnet sie. Die Nutzung im Browser ist ohne Konto möglich. Eine OSI-Kennung wird hier nicht erneut eingetragen.",
+    "featuresDe": [
+      "Punkte und Wege auf der Karte",
+      "Tabelle als Eingabe",
+      "Nutzung ohne Konto"
+    ],
+    "useCasesDe": [
+      "Viele Standorte auf einmal zu sehen",
+      "Eine Tabelle geografisch zu prüfen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Cesium",
+    "originalUrl": "https://cesium.com/",
+    "domain": "cesium.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "dreid",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Cesium zeichnet einen Globus im Browser, auch mit 3D-Gelände.",
+    "longDescriptionDe": "Cesium stellt eine Bibliothek und gehostete Kacheln bereit. Eine OSI-Kennung wird hier nicht erneut eingetragen. Es gibt einen Einstieg und bezahlte Kontingente.",
+    "featuresDe": [
+      "Globus im Browser",
+      "3D-Gelände",
+      "Einstieg und bezahlte Kontingente"
+    ],
+    "useCasesDe": [
+      "Eine 3D-Karte in eine Website einzubauen",
+      "Gelände eines Orts zu zeigen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Felt",
+    "originalUrl": "https://felt.com/",
+    "domain": "felt.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen",
+      "daten"
+    ],
+    "shortDescriptionDe": "Felt zeichnet Karten im Browser, die ein Team gemeinsam bearbeitet.",
+    "longDescriptionDe": "Felt legt Markierungen und Flächen auf eine Karte. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Gemeinsame Karten",
+      "Markierungen und Flächen",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Eine Karte mit einem Team zu zeichnen",
+      "Orte für ein Projekt zu markieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "intervals.icu",
+    "originalUrl": "https://www.intervals.icu/",
+    "domain": "intervals.icu",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "intervals.icu wertet Trainings aus, die von der Uhr oder vom Radcomputer kommen.",
+    "longDescriptionDe": "Die Seite zeigt Belastung, Fitness und einzelne Einheiten. Es gibt einen kostenlosen Einstieg und eine bezahlte Stufe.",
+    "featuresDe": [
+      "Belastung und Fitness",
+      "Einheiten aus Uhr und Radcomputer",
+      "Kostenloser Einstieg und bezahlte Stufe"
+    ],
+    "useCasesDe": [
+      "Eine Trainingswoche auszuwerten",
+      "Die Belastung über Wochen zu sehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TrainingPeaks",
+    "originalUrl": "https://www.trainingpeaks.com/",
+    "domain": "trainingpeaks.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "TrainingPeaks plant und auswertet Ausdauertraining.",
+    "longDescriptionDe": "TrainingPeaks legt Pläne an und zeigt die Belastung der Einheiten. Es gibt einen kostenlosen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Trainingspläne",
+      "Belastung der Einheiten",
+      "Kostenloser Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Einen Trainingsplan zu führen",
+      "Eine Einheit auszuwerten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "TrainerRoad",
+    "originalUrl": "https://www.trainerroad.com/",
+    "domain": "trainerroad.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "gesundheit"
+    ],
+    "shortDescriptionDe": "TrainerRoad steuert Einheiten auf der Rolle fürs Rad.",
+    "longDescriptionDe": "TrainerRoad gibt Intervalle vor und passt sie an. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Intervalle auf der Rolle",
+      "Anpassung der Einheiten",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Eine Einheit auf der Rolle zu fahren",
+      "Einen Plan für mehrere Wochen zu folgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BuzzSumo",
+    "originalUrl": "https://buzzsumo.com/",
+    "domain": "buzzsumo.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "seo",
+      "marketing"
+    ],
+    "shortDescriptionDe": "BuzzSumo zeigt, welche Inhalte zu einem Thema geteilt werden.",
+    "longDescriptionDe": "BuzzSumo sucht Artikel und deren Verbreitung. Es gibt einen Einstieg und bezahlte Abfragen.",
+    "featuresDe": [
+      "Geteilte Inhalte",
+      "Suche nach Thema",
+      "Einstieg und bezahlte Abfragen"
+    ],
+    "useCasesDe": [
+      "Zu sehen, welcher Text zu einem Thema läuft",
+      "Themen für einen Artikel zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Mention",
+    "originalUrl": "https://mention.com/",
+    "domain": "mention.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing",
+      "seo"
+    ],
+    "shortDescriptionDe": "Mention benachrichtigt, wenn ein Name im Web oder in sozialen Netzen auftaucht.",
+    "longDescriptionDe": "Mention legt eine Beobachtung an und sammelt Treffer. Es gibt einen Einstieg und bezahlte Stufen.",
+    "featuresDe": [
+      "Beobachtung eines Namens",
+      "Treffer aus Web und Netzen",
+      "Einstieg und bezahlte Stufen"
+    ],
+    "useCasesDe": [
+      "Erwähnungen einer Marke zu sehen",
+      "Einen Namen zu beobachten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Brand24",
+    "originalUrl": "https://www.brand24.com/",
+    "domain": "brand24.com",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing"
+    ],
+    "shortDescriptionDe": "Brand24 sammelt Erwähnungen einer Marke und zeigt die Stimmung.",
+    "longDescriptionDe": "Brand24 durchsucht Quellen und fasst die Treffer. Die Nutzung ist kostenpflichtig.",
+    "featuresDe": [
+      "Erwähnungen einer Marke",
+      "Stimmung der Treffer",
+      "Kostenpflichtige Nutzung"
+    ],
+    "useCasesDe": [
+      "Zu sehen, was über eine Marke geschrieben wird",
+      "Eine Häufung von Erwähnungen zu erkennen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Basic Thinking",
+    "originalUrl": "https://www.basicthinking.de/",
+    "domain": "basicthinking.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "marketing"
+    ],
+    "shortDescriptionDe": "Basic Thinking schreibt über digitales Marketing und Netzkultur.",
+    "longDescriptionDe": "Das Magazin veröffentlicht Artikel, die ohne Abo lesbar sind. Die Redaktion sitzt in Deutschland.",
+    "featuresDe": [
+      "Digitales Marketing",
+      "Artikel ohne Abo",
+      "Redaktion in Deutschland"
+    ],
+    "useCasesDe": [
+      "Einen Text zu einem Werkzeug zu lesen",
+      "Ein Marketingthema nachzuvollziehen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "etailment",
+    "originalUrl": "https://www.etailment.de/",
+    "domain": "etailment.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce",
+      "recherche"
+    ],
+    "shortDescriptionDe": "etailment berichtet über den Onlinehandel in Deutschland.",
+    "longDescriptionDe": "Ein Teil der Meldungen ist frei, weitere Berichte sind kostenpflichtig.",
+    "featuresDe": [
+      "Onlinehandel",
+      "Freie Meldungen",
+      "Weitere Berichte kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Eine Meldung zum Handel zu lesen",
+      "Einen Trend im Onlinehandel einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Onlinehändler-News",
+    "originalUrl": "https://www.onlinehaendler-news.de/",
+    "domain": "onlinehaendler-news.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Onlinehändler-News berichtet über Shop-Systeme, Marktplätze und Recht für Händler.",
+    "longDescriptionDe": "Die Meldungen sind ohne Abo lesbar. Das Angebot richtet sich an den deutschen Handel.",
+    "featuresDe": [
+      "Shop-Systeme und Marktplätze",
+      "Recht für Händler",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Änderung an einem Marktplatz nachzulesen",
+      "Eine Meldung zum Handel zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Shopbetreiber-Blog",
+    "originalUrl": "https://www.shopbetreiber-blog.de/",
+    "domain": "shopbetreiber-blog.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce",
+      "recht"
+    ],
+    "shortDescriptionDe": "Der Shopbetreiber-Blog schreibt über Recht und Alltag im Onlinehandel.",
+    "longDescriptionDe": "Die Artikel sind ohne Abo lesbar und richten sich an Shopbetreiber in Deutschland.",
+    "featuresDe": [
+      "Recht im Onlinehandel",
+      "Artikel ohne Abo",
+      "Zielgruppe Shopbetreiber"
+    ],
+    "useCasesDe": [
+      "Eine Rechtsfrage für einen Shop nachzulesen",
+      "Eine Änderung bei Marktplätzen zu verfolgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "iBusiness",
+    "originalUrl": "https://www.ibusiness.de/",
+    "domain": "ibusiness.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "e-commerce",
+      "recherche"
+    ],
+    "shortDescriptionDe": "iBusiness berichtet über digitalen Handel und Marketing.",
+    "longDescriptionDe": "Ein Teil der Texte ist frei, das Abo ist kostenpflichtig.",
+    "featuresDe": [
+      "Digitaler Handel",
+      "Freier Anteil",
+      "Kostenpflichtiges Abo"
+    ],
+    "useCasesDe": [
+      "Eine Analyse zum Handel zu lesen",
+      "Ein Marketingthema einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "news aktuell",
+    "originalUrl": "https://www.newsaktuell.de/",
+    "domain": "newsaktuell.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "marketing",
+      "recherche"
+    ],
+    "shortDescriptionDe": "news aktuell verbreitet Pressemitteilungen an Redaktionen.",
+    "longDescriptionDe": "Unternehmen stellen Mitteilungen ein, Redaktionen lesen sie. Das Einstellen ist kostenpflichtig, ein Teil der öffentlichen Meldungen ist ohne Konto lesbar.",
+    "featuresDe": [
+      "Verbreitung von Pressemitteilungen",
+      "Öffentliche Meldungen",
+      "Einstellen kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Eine Pressemitteilung zu verbreiten",
+      "Eine öffentliche Meldung zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "APA-OTS",
+    "originalUrl": "https://www.ots.at/",
+    "domain": "ots.at",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "APA-OTS veröffentlicht Pressemitteilungen aus Österreich.",
+    "longDescriptionDe": "Die Originaltext-Service-Seite zeigt Mitteilungen, die ohne Konto lesbar sind.",
+    "featuresDe": [
+      "Pressemitteilungen aus Österreich",
+      "Originaltexte",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Mitteilung aus Österreich zu finden",
+      "Meldungen eines Absenders zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Der Standard",
+    "originalUrl": "https://www.derstandard.at/",
+    "domain": "derstandard.at",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Der Standard berichtet über Politik, Wirtschaft und Kultur in Österreich.",
+    "longDescriptionDe": "Ein Teil der Artikel ist frei, PUR ist kostenpflichtig. Die Redaktion sitzt in Wien.",
+    "featuresDe": [
+      "Nachrichten aus Österreich",
+      "Freier Anteil und kostenpflichtiges PUR",
+      "Redaktion in Wien"
+    ],
+    "useCasesDe": [
+      "Eine Meldung aus Österreich zu lesen",
+      "Einen Hintergrundartikel zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Republik",
+    "originalUrl": "https://www.republik.ch/",
+    "domain": "republik.ch",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Republik veröffentlicht Recherchen aus der Schweiz für Genossenschafterinnen.",
+    "longDescriptionDe": "Ein Teil der Texte ist offen, das volle Angebot ist an die Mitgliedschaft gebunden. Die Redaktion sitzt in Zürich.",
+    "featuresDe": [
+      "Recherchen aus der Schweiz",
+      "Offener Anteil",
+      "Mitgliedschaft für das volle Angebot"
+    ],
+    "useCasesDe": [
+      "Eine Recherche zu lesen",
+      "Das Modell der Genossenschaft einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Blätter",
+    "originalUrl": "https://www.blaetter.de/",
+    "domain": "blaetter.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Blätter für deutsche und internationale Politik veröffentlichen Essays.",
+    "longDescriptionDe": "Ein Teil der Texte ist frei, das Heft ist kostenpflichtig.",
+    "featuresDe": [
+      "Politische Essays",
+      "Freier Anteil",
+      "Kostenpflichtiges Heft"
+    ],
+    "useCasesDe": [
+      "Einen Essay zu lesen",
+      "Ein Heftthema zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "IPG-Journal",
+    "originalUrl": "https://www.ipg-journal.de/",
+    "domain": "ipg-journal.de",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Das IPG-Journal veröffentlicht Texte zu internationaler Politik.",
+    "longDescriptionDe": "Die Beiträge sind ohne Abo lesbar. Das Journal gehört zur Friedrich-Ebert-Stiftung.",
+    "featuresDe": [
+      "Internationale Politik",
+      "Beiträge ohne Abo",
+      "Angebot der Friedrich-Ebert-Stiftung"
+    ],
+    "useCasesDe": [
+      "Einen Text zur internationalen Politik zu lesen",
+      "Ein Land oder ein Thema zu suchen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Internationale Politik",
+    "originalUrl": "https://www.internationalepolitik.de/",
+    "domain": "internationalepolitik.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Internationale Politik ist die Zeitschrift der Deutschen Gesellschaft für Auswärtige Politik.",
+    "longDescriptionDe": "Ein Teil der Texte ist frei, das Abo ist kostenpflichtig.",
+    "featuresDe": [
+      "Außenpolitik",
+      "Freier Anteil",
+      "Kostenpflichtiges Abo"
+    ],
+    "useCasesDe": [
+      "Einen Text zur Außenpolitik zu lesen",
+      "Ein Thema der Zeitschrift zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Perlentaucher",
+    "originalUrl": "https://www.perlentaucher.de/",
+    "domain": "perlentaucher.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche",
+      "bildung"
+    ],
+    "shortDescriptionDe": "Perlentaucher fasst Feuilleton und Buchkritik deutschsprachiger Zeitungen zusammen.",
+    "longDescriptionDe": "Die Übersichten sind ohne Abo lesbar, ein Magazinanteil ist bezahlt.",
+    "featuresDe": [
+      "Zusammenfassungen von Feuilleton",
+      "Buchkritik",
+      "Freie Übersichten und bezahlter Anteil"
+    ],
+    "useCasesDe": [
+      "Zu sehen, welche Bücher besprochen werden",
+      "Eine Debatte über Zeitungen hinweg zu verfolgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "MapTiler",
+    "originalUrl": "https://www.maptiler.com/",
+    "domain": "maptiler.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung",
+      "reisen"
+    ],
+    "shortDescriptionDe": "MapTiler stellt Kartenkacheln und Stile für eigene Anwendungen bereit.",
+    "longDescriptionDe": "MapTiler liefert Karten über eine Schnittstelle. Es gibt einen kostenlosen Einstieg und bezahlte Abrufe.",
+    "featuresDe": [
+      "Kartenkacheln und Stile",
+      "Schnittstelle",
+      "Kostenloser Einstieg und bezahlte Abrufe"
+    ],
+    "useCasesDe": [
+      "Eine Karte in eine Anwendung einzubauen",
+      "Einen eigenen Kartenstil zu nutzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Thunderforest",
+    "originalUrl": "https://www.thunderforest.com/",
+    "domain": "thunderforest.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Thunderforest zeichnet Kartenstile auf Basis von OpenStreetMap.",
+    "longDescriptionDe": "Thunderforest bietet Stile für Wandern, Rad und den Stadtplan. Es gibt einen kostenlosen Einstieg und bezahlte Abrufe.",
+    "featuresDe": [
+      "Kartenstile",
+      "Wandern, Rad und Stadt",
+      "Kostenloser Einstieg und bezahlte Abrufe"
+    ],
+    "useCasesDe": [
+      "Eine Wanderkarte in eine App einzubauen",
+      "Einen Stil fürs Rad zu wählen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "GPSBabel",
+    "originalUrl": "https://www.gpsbabel.org/",
+    "domain": "gpsbabel.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "GPSBabel wandelt Routen und Tracks zwischen Formaten.",
+    "longDescriptionDe": "GPSBabel liest Dateien von Geräten und schreibt sie in ein anderes Format. Eine OSI-Kennung wird hier nicht erneut eingetragen. Das Werkzeug ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Umwandlung von Tracks und Routen",
+      "Viele Formate",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Route für ein anderes Gerät zu wandeln",
+      "Einen Track in ein gängiges Format zu bringen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Flix",
+    "originalUrl": "https://www.flix.com/",
+    "domain": "flix.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Flix bündelt Fernbus und Zug unter einer Marke.",
+    "longDescriptionDe": "Die Seite zeigt Verbindungen und Preise. Die Suche ist ohne Konto möglich, die Fahrt ist kostenpflichtig.",
+    "featuresDe": [
+      "Fernbus und Zug",
+      "Preise und Verbindungen",
+      "Suche ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Fernverbindung zu suchen",
+      "Einen Preis zu vergleichen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CalTopo",
+    "originalUrl": "https://caltopo.com/",
+    "domain": "caltopo.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "CalTopo zeichnet Routen auf topografischen Karten.",
+    "longDescriptionDe": "CalTopo legt Wege und Markierungen auf Geländekarten. Es gibt einen kostenlosen Einstieg und bezahlte Karten.",
+    "featuresDe": [
+      "Routen auf Geländekarten",
+      "Markierungen",
+      "Kostenloser Einstieg und bezahlte Karten"
+    ],
+    "useCasesDe": [
+      "Eine Tour im Gelände zu planen",
+      "Eine Karte für unterwegs vorzubereiten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]

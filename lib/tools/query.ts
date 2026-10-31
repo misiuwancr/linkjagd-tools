@@ -9,7 +9,7 @@ import {
   type SortKey,
 } from "@/lib/labels";
 
-export const PAGE_SIZE = 12;
+export const PAGE_SIZE = 24;
 
 export type ToolListQuery = {
   q: string;

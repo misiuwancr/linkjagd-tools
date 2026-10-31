@@ -18,8 +18,13 @@ import catalogH from "@/data/verified-tools-batch8.json";
 import catalogI from "@/data/verified-tools-batch9.json";
 import catalogJ from "@/data/verified-tools-batch10.json";
 import catalogK from "@/data/verified-tools-batch11.json";
+import catalogL from "@/data/verified-tools-batch12.json";
 
-const catalog = [...catalogA, ...catalogB, ...catalogC, ...catalogD, ...catalogE, ...catalogF, ...catalogG, ...catalogH, ...catalogI, ...catalogJ, ...catalogK];
+const catalog = [...catalogA, ...catalogB, ...catalogC, ...catalogD, ...catalogE, ...catalogF, ...catalogG, ...catalogH, ...catalogI, ...catalogJ, ...catalogK, ...catalogL];
+
+const notToolNames = new Set(
+  JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "not-tools.json"), "utf8")) as string[],
+);
 
 const deadNames = [
   "GeoSpy.ai",
@@ -124,10 +129,15 @@ async function main() {
           patch.ossOperatingSystems = JSON.stringify(entry.oss.systems);
           patch.ossInstallNotes = entry.oss.install;
         }
-        if (current?.publishStatus === "draft" && entry.verified) {
+        if (current?.publishStatus === "draft" && entry.verified && !notToolNames.has(entry.name)) {
           patch.publishStatus = "published";
           published += 1;
         }
+      }
+      if (notToolNames.has(entry.name) && !locked) {
+        patch.publishStatus = "archived";
+        patch.internalNotes = "kein Tool";
+        archived += 1;
       }
       await database.update(tools).set(patch).where(eq(tools.id, id));
       await refreshSearchText(database, id);

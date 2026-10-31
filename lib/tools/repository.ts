@@ -322,32 +322,42 @@ export async function publishedSlugs(database: AppDatabase) {
 }
 
 export async function dashboardCounts(database: AppDatabase) {
-  const [toolRows, categoryRows, draftRows] = await Promise.all([
-    database.select().from(tools),
-    database.select().from(categories),
+  const [grouped, categoryRow, moderationRow, withoutCta] = await Promise.all([
     database
-      .select()
+      .select({ status: tools.publishStatus, total: sql<number>`count(*)` })
+      .from(tools)
+      .groupBy(tools.publishStatus),
+    database.select({ total: sql<number>`count(*)` }).from(categories),
+    database
+      .select({ total: sql<number>`count(*)` })
       .from(tools)
       .where(
         and(eq(tools.publishStatus, "draft"), inArray(tools.discoverySource, ["import", "submission", "futuretools-top100"])),
       ),
+    database
+      .select({ total: sql<number>`count(*)` })
+      .from(tools)
+      .where(
+        and(
+          eq(tools.publishStatus, "published"),
+          sql`not exists (
+            select 1 from affiliate_programs
+            where affiliate_programs.tool_id = ${tools.id}
+              and affiliate_programs.is_active = 1
+              and affiliate_programs.status = 'active'
+              and affiliate_programs.affiliate_url is not null
+              and affiliate_programs.affiliate_url != ''
+          )`,
+        ),
+      ),
   ]);
-  const published = toolRows.filter((tool) => tool.publishStatus === "published");
-  const programs = published.length
-    ? await database
-        .select()
-        .from(affiliatePrograms)
-        .where(inArray(affiliatePrograms.toolId, published.map((tool) => tool.id)))
-    : [];
-  const withCta = new Set(
-    programs.filter((program) => program.isActive && program.status === "active" && program.affiliateUrl).map((program) => program.toolId),
-  );
+  const byStatus = new Map(grouped.map((row) => [row.status, Number(row.total)]));
   return {
-    published: published.length,
-    drafts: toolRows.filter((tool) => tool.publishStatus === "draft").length,
-    archived: toolRows.filter((tool) => tool.publishStatus === "archived").length,
-    categories: categoryRows.length,
-    moderation: draftRows.length,
-    publishedWithoutCta: published.filter((tool) => !withCta.has(tool.id)).length,
+    published: byStatus.get("published") ?? 0,
+    drafts: byStatus.get("draft") ?? 0,
+    archived: byStatus.get("archived") ?? 0,
+    categories: Number(categoryRow[0]?.total ?? 0),
+    moderation: Number(moderationRow[0]?.total ?? 0),
+    publishedWithoutCta: Number(withoutCta[0]?.total ?? 0),
   };
 }
