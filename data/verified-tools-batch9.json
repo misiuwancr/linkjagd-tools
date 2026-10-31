@@ -1,0 +1,875 @@
+[
+  {
+    "name": "Emby",
+    "originalUrl": "https://emby.media/",
+    "domain": "emby.media",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "Emby spielt die eigene Filmsammlung auf Fernseher und Handy.",
+    "longDescriptionDe": "Emby streamt Filme vom eigenen Server. Es gibt eine kostenlose Ausgabe und ein bezahltes Premiere.",
+    "featuresDe": [
+      "Eigene Filmsammlung",
+      "Stream auf mehrere Geräte",
+      "Kostenlose Ausgabe und bezahltes Premiere"
+    ],
+    "useCasesDe": [
+      "Einen Film vom eigenen Server zu sehen",
+      "Dieselbe Bibliothek auf dem Fernseher zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "IINA",
+    "originalUrl": "https://iina.io/",
+    "domain": "iina.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "videoschnitt"
+    ],
+    "shortDescriptionDe": "IINA spielt Videos auf dem Mac mit einer schmalen Oberfläche.",
+    "longDescriptionDe": "IINA öffnet Dateien und Streams und setzt Untertitel. Eine OSI-Kennung wird hier nicht eingetragen. Der Player ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Wiedergabe auf dem Mac",
+      "Untertitel und Streams",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Videodatei auf dem Mac abzuspielen",
+      "Einen Stream mit Untertitel zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kopia",
+    "originalUrl": "https://kopia.io/",
+    "domain": "kopia.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Kopia sichert Dateien verschlüsselt auf ein eigenes Ziel.",
+    "longDescriptionDe": "Kopia legt Schnappschüsse an und spielt einzelne Dateien zurück. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Verschlüsselte Schnappschüsse",
+      "Rückspiel einzelner Dateien",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein Verzeichnis verschlüsselt zu sichern",
+      "Eine einzelne Datei zurückzuholen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Unraid",
+    "originalUrl": "https://unraid.net/",
+    "domain": "unraid.net",
+    "pricingModel": "paid",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Unraid betreibt Speicher und virtuelle Maschinen auf eigener Hardware.",
+    "longDescriptionDe": "Unraid legt Festplatten zu einem Speicher zusammen und startet VMs und Container. Die Lizenz ist kostenpflichtig.",
+    "featuresDe": [
+      "Speicher aus mehreren Platten",
+      "VMs und Container",
+      "Kostenpflichtige Lizenz"
+    ],
+    "useCasesDe": [
+      "Einen Heimserver mit gemischten Platten zu betreiben",
+      "Eine virtuelle Maschine daneben zu starten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "NextDNS",
+    "originalUrl": "https://nextdns.io/",
+    "domain": "nextdns.io",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "NextDNS filtert DNS-Anfragen und blockiert bekannte Tracker.",
+    "longDescriptionDe": "NextDNS beantwortet Namensauflösung nach eigenen Regeln. Es gibt einen kostenlosen Einstieg und bezahlte Abfragen.",
+    "featuresDe": [
+      "DNS mit Filterregeln",
+      "Blockieren bekannter Tracker",
+      "Kostenloser Einstieg und bezahlte Abfragen"
+    ],
+    "useCasesDe": [
+      "Tracker über DNS zu filtern",
+      "Eigene Sperrlisten zu setzen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Alpenverein",
+    "originalUrl": "https://www.alpenverein.de/",
+    "domain": "alpenverein.de",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "shortDescriptionDe": "Der Deutsche Alpenverein informiert zu Touren, Hütten und Mitgliedschaft.",
+    "longDescriptionDe": "Die Seite beschreibt Wege, Hütten und die Mitgliedschaft. Ein Teil der Texte ist ohne Mitgliedschaft lesbar, Hütten und Versicherung hängen an der Mitgliedschaft.",
+    "featuresDe": [
+      "Touren und Hütten",
+      "Mitgliedschaft",
+      "Texte frei, Leistungen über die Mitgliedschaft"
+    ],
+    "useCasesDe": [
+      "Eine Hütte nachzuschlagen",
+      "Die Mitgliedschaft einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Apache Software Foundation",
+    "originalUrl": "https://www.apache.org/",
+    "domain": "apache.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Die Apache Software Foundation trägt viele freie Server- und Entwicklerprojekte.",
+    "longDescriptionDe": "apache.org listet Projekte und ihre Downloads. Eine einzelne OSI-Kennung für die Stiftung wird hier nicht eingetragen. Die Projektseiten sind ohne Abo lesbar.",
+    "featuresDe": [
+      "Übersicht freier Projekte",
+      "Downloads",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Ein Apache-Projekt zu finden",
+      "Den Download eines Projekts zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "BeagleBoard",
+    "originalUrl": "https://www.beagleboard.org/",
+    "domain": "beagleboard.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "BeagleBoard dokumentiert Einplatinenrechner für eigene Steuerungen.",
+    "longDescriptionDe": "Die Seite beschreibt Boards und Bilder zum Start. Die Dokumentation ist ohne Konto lesbar, die Platinen sind kostenpflichtig.",
+    "featuresDe": [
+      "Einplatinenrechner",
+      "Dokumentation",
+      "Platinen kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Ein Board für ein Projekt auszuwählen",
+      "Ein Startbild zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "CNCF",
+    "originalUrl": "https://www.cncf.io/",
+    "domain": "cncf.io",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Die Cloud Native Computing Foundation trägt Projekte rund um Container und Orchestrierung.",
+    "longDescriptionDe": "Die CNCF listet abgestufte Projekte und deren Status. Die Übersicht ist ohne Konto lesbar. Eine OSI-Kennung der Stiftung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Projekte rund um Container",
+      "Abstufung nach Reife",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Den Status eines Projekts nachzusehen",
+      "Ein Werkzeug der Landschaft zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Duplicati",
+    "originalUrl": "https://www.duplicati.com/",
+    "domain": "duplicati.com",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Duplicati sichert Ordner verschlüsselt auf ein Ziel eigener Wahl.",
+    "longDescriptionDe": "Duplicati plant Sicherungen und lädt sie zu einem Speicher hoch. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Geplante Sicherungen",
+      "Verschlüsselter Upload",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Einen Ordner täglich zu sichern",
+      "Eine Datei aus einer Sicherung zu holen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Eclipse Foundation",
+    "originalUrl": "https://www.eclipse.org/",
+    "domain": "eclipse.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Die Eclipse Foundation trägt Entwicklungswerkzeuge und Spezifikationen.",
+    "longDescriptionDe": "eclipse.org listet Projekte und Downloads. Eine einzelne OSI-Kennung wird hier nicht eingetragen. Die Seiten sind ohne Abo lesbar.",
+    "featuresDe": [
+      "Entwicklungswerkzeuge",
+      "Spezifikationen und Downloads",
+      "Lesen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Ein Eclipse-Projekt zu finden",
+      "Einen Download zu öffnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Free Software Foundation",
+    "originalUrl": "https://www.fsf.org/",
+    "domain": "fsf.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung",
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die Free Software Foundation erklärt freie Software und die Lizenzen der GNU-Familie.",
+    "longDescriptionDe": "Die FSF veröffentlicht Texte zu Lizenzen und Freiheit der Software. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Texte zu freien Lizenzen",
+      "Erläuterung freier Software",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine GNU-Lizenz nachzulesen",
+      "Den Unterschied freier Lizenzen einzuordnen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Funkwhale",
+    "originalUrl": "https://www.funkwhale.audio/",
+    "domain": "funkwhale.audio",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "musik"
+    ],
+    "shortDescriptionDe": "Funkwhale streamt Musik auf einem eigenen Server und im Verbund.",
+    "longDescriptionDe": "Funkwhale spielt eine eigene Sammlung und kann anderen Instanzen folgen. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Eigene Musik auf dem Server",
+      "Verbund mehrerer Instanzen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Eine Musiksammlung selbst zu hosten",
+      "Einer anderen Instanz zu folgen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Hardkernel",
+    "originalUrl": "https://www.hardkernel.com/",
+    "domain": "hardkernel.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Hardkernel stellt die ODROID-Einplatinenrechner her.",
+    "longDescriptionDe": "Die Seite zeigt Boards und Zubehör. Die Dokumentation ist ohne Konto lesbar, die Platinen sind kostenpflichtig.",
+    "featuresDe": [
+      "Einplatinenrechner",
+      "Zubehör",
+      "Platinen kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Ein Board für ein Projekt zu wählen",
+      "Zubehör zu einem ODROID zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "IANA",
+    "originalUrl": "https://www.iana.org/",
+    "domain": "iana.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die IANA verwaltet Nummern und Namen, die das Internet zum Funktionieren braucht.",
+    "longDescriptionDe": "Die IANA veröffentlicht Register zu Ports, Protokollen und der Wurzel des Namensraums. Die Register sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Register zu Ports und Protokollen",
+      "Wurzel des Namensraums",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Port nachzuschlagen",
+      "Ein Protokoll im Register zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ICANN",
+    "originalUrl": "https://www.icann.org/",
+    "domain": "icann.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Die ICANN koordiniert Namen und Adressen im Internet.",
+    "longDescriptionDe": "Die ICANN erklärt Domain-Endungen und veröffentlicht Beschlüsse. Die Seiten sind ohne Konto lesbar.",
+    "featuresDe": [
+      "Namen und Adressen",
+      "Beschlüsse zu Domain-Endungen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Domain-Endung einzuordnen",
+      "Einen Beschluss nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "IETF",
+    "originalUrl": "https://www.ietf.org/",
+    "domain": "ietf.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "recherche",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Die IETF erarbeitet die technischen Standards des Internets.",
+    "longDescriptionDe": "Die IETF veröffentlicht Entwürfe und Standards. Die Dokumente sind ohne Konto lesbar. Eine OSI-Kennung der Organisation wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Technische Standards",
+      "Entwürfe und fertige Texte",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen Internet-Standard zu finden",
+      "Einen Entwurf zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Linux Foundation",
+    "originalUrl": "https://www.linuxfoundation.org/",
+    "domain": "linuxfoundation.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Die Linux Foundation trägt den Kernel und viele weitere Projekte.",
+    "longDescriptionDe": "Die Stiftung listet Projekte und Veranstaltungen. Die Übersicht ist ohne Konto lesbar. Eine OSI-Kennung der Stiftung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Projekte rund um Linux",
+      "Veranstaltungen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Ein Projekt der Stiftung zu finden",
+      "Den Bezug zum Kernel nachzulesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "pfSense",
+    "originalUrl": "https://www.pfsense.org/",
+    "domain": "pfsense.org",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "pfSense ist eine Firewall-Distribution für eigene Hardware.",
+    "longDescriptionDe": "pfSense filtert Verkehr und baut VPN. Es gibt eine Community-Ausgabe und eine bezahlte Plus-Ausgabe. Eine OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Firewall und VPN",
+      "Community-Ausgabe und Plus",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Einen Router selbst zu betreiben",
+      "Ein VPN auf der Firewall einzurichten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Pine64",
+    "originalUrl": "https://www.pine64.org/",
+    "domain": "pine64.org",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Pine64 stellt günstige Einplatinenrechner und Linux-Geräte her.",
+    "longDescriptionDe": "Die Seite zeigt Boards und den Stand der Software. Die Dokumentation ist ohne Konto lesbar, die Geräte sind kostenpflichtig.",
+    "featuresDe": [
+      "Einplatinenrechner",
+      "Linux-Geräte",
+      "Geräte kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Ein Board für ein Experiment zu wählen",
+      "Den Softwarestand eines Geräts zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "QEMU",
+    "originalUrl": "https://www.qemu.org/",
+    "domain": "qemu.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "QEMU startet andere Betriebssysteme und Prozessoren in Software.",
+    "longDescriptionDe": "QEMU emuliert Maschinen und kann als Unterbau für virtuelle Maschinen dienen. Eine OSI-Kennung wird hier nicht erneut eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Emulation und virtuelle Maschinen",
+      "Viele Prozessoren",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Ein anderes System zum Testen zu starten",
+      "Eine Architektur zu emulieren"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RFC Editor",
+    "originalUrl": "https://www.rfc-editor.org/",
+    "domain": "rfc-editor.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "recherche",
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Der RFC Editor veröffentlicht die Standards und Notizen der IETF.",
+    "longDescriptionDe": "Die Seite stellt RFCs im Volltext bereit. Das Lesen ist ohne Konto möglich. Eine OSI-Kennung der Texte wird hier nicht pauschal eingetragen.",
+    "featuresDe": [
+      "Volltexte der RFCs",
+      "Standards und Notizen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Einen RFC im Wortlaut zu lesen",
+      "Einen Standard nach Nummer zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RIPE NCC",
+    "originalUrl": "https://www.ripe.net/",
+    "domain": "ripe.net",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "recherche"
+    ],
+    "shortDescriptionDe": "Das RIPE NCC verteilt IP-Adressen in Europa und veröffentlicht dazu Daten.",
+    "longDescriptionDe": "ripe.net zeigt Statistiken und Werkzeuge zur Registrierung. Ein Teil der Seiten ist ohne Konto lesbar.",
+    "featuresDe": [
+      "IP-Adressen in Europa",
+      "Statistiken und Werkzeuge",
+      "Ein Teil ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Registrierung nachzuschlagen",
+      "Statistiken zu Adressen zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "RISC-V",
+    "originalUrl": "https://www.riscv.org/",
+    "domain": "riscv.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "RISC-V International veröffentlicht die offene Befehlssatzarchitektur RISC-V.",
+    "longDescriptionDe": "Die Seite erklärt die Architektur und verweist auf Spezifikationen. Die Übersicht ist ohne Konto lesbar. Eine einzelne OSI-Kennung wird hier nicht eingetragen.",
+    "featuresDe": [
+      "Befehlssatzarchitektur",
+      "Spezifikationen",
+      "Lesen ohne Konto"
+    ],
+    "useCasesDe": [
+      "Die Architektur einzuordnen",
+      "Eine Spezifikation zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Seeed Studio",
+    "originalUrl": "https://www.seeedstudio.com/",
+    "domain": "seeedstudio.com",
+    "pricingModel": "free",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "Seeed Studio verkauft Module und fertigt kleine Elektronikserien.",
+    "longDescriptionDe": "Seeed zeigt Bauteile und einen Fertigungsservice. Die Katalogseiten sind ohne Konto lesbar, Bauteile und Fertigung sind kostenpflichtig.",
+    "featuresDe": [
+      "Module und Fertigung",
+      "Katalog",
+      "Bauteile kostenpflichtig"
+    ],
+    "useCasesDe": [
+      "Ein Modul für ein Projekt zu finden",
+      "Eine kleine Serie fertigen zu lassen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "ToolJet",
+    "originalUrl": "https://www.tooljet.com/",
+    "domain": "tooljet.com",
+    "pricingModel": "freemium",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "ToolJet baut interne Werkzeuge auf Datenquellen.",
+    "longDescriptionDe": "ToolJet setzt Oberflächen auf Datenbanken und APIs und lässt sich selbst betreiben. Eine OSI-Kennung wird hier nicht eingetragen. Es gibt eine Cloud und den Selbstbetrieb.",
+    "featuresDe": [
+      "Oberflächen auf Datenquellen",
+      "Cloud und Selbstbetrieb",
+      "Lizenz nicht eingetragen"
+    ],
+    "useCasesDe": [
+      "Ein internes Werkzeug selbst zu hosten",
+      "Eine Tabelle auf eine API zu legen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Veeam",
+    "originalUrl": "https://www.veeam.com/",
+    "domain": "veeam.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "daten"
+    ],
+    "shortDescriptionDe": "Veeam sichert virtuelle Maschinen, Server und Cloud-Workloads.",
+    "longDescriptionDe": "Veeam legt Sicherungen an und spielt sie zurück. Es gibt einen Einstieg und kostenpflichtige Editionen.",
+    "featuresDe": [
+      "Sicherung von VMs und Servern",
+      "Rückspiel",
+      "Einstieg und kostenpflichtige Editionen"
+    ],
+    "useCasesDe": [
+      "Eine virtuelle Maschine zu sichern",
+      "Einen Server zurückzuspielen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "XCP-ng",
+    "originalUrl": "https://www.xcp-ng.org/",
+    "domain": "xcp-ng.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "XCP-ng betreibt virtuelle Maschinen auf dem eigenen Server.",
+    "longDescriptionDe": "XCP-ng richtet einen Hypervisor ein und verwaltet die Maschinen über eine Oberfläche. Eine OSI-Kennung wird hier nicht eingetragen. Die Software ist ohne Pflichtabo erhältlich.",
+    "featuresDe": [
+      "Hypervisor",
+      "Oberfläche für die Maschinen",
+      "Nutzung ohne Pflichtabo"
+    ],
+    "useCasesDe": [
+      "Mehrere virtuelle Maschinen auf einem Server zu betreiben",
+      "Einen Host ohne Abo zu verwalten"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Dribbble",
+    "originalUrl": "https://dribbble.com/",
+    "domain": "dribbble.com",
+    "pricingModel": "freemium",
+    "licenseType": "proprietary",
+    "categorySlugs": [
+      "design"
+    ],
+    "shortDescriptionDe": "Dribbble zeigt Arbeiten von Designerinnen und Designern.",
+    "longDescriptionDe": "Dribbble veröffentlicht kurze Arbeitsproben und Profile. Das Ansehen ist ohne Abo möglich, weitere Funktionen sind bezahlt.",
+    "featuresDe": [
+      "Arbeitsproben",
+      "Profile",
+      "Ansehen ohne Abo"
+    ],
+    "useCasesDe": [
+      "Eine Gestaltungsidee zu sichten",
+      "Ein Profil zu finden"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": true,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  },
+  {
+    "name": "Kernel.org",
+    "originalUrl": "https://www.kernel.org/",
+    "domain": "kernel.org",
+    "pricingModel": "free",
+    "licenseType": "unknown",
+    "categorySlugs": [
+      "programmierung"
+    ],
+    "shortDescriptionDe": "kernel.org veröffentlicht den Quelltext und die Versionen des Linux-Kernels.",
+    "longDescriptionDe": "Die Seite stellt Tarballs und Hinweise zu den aktuellen Versionen bereit. Der Download ist ohne Konto möglich. Eine einzelne OSI-Kennung wird hier nicht erneut eingetragen.",
+    "featuresDe": [
+      "Quelltext des Linux-Kernels",
+      "Versionshinweise",
+      "Download ohne Konto"
+    ],
+    "useCasesDe": [
+      "Eine Kernel-Version zu laden",
+      "Den Stand einer Veröffentlichung zu lesen"
+    ],
+    "partnerStatus": "none_found",
+    "programPresence": "unknown",
+    "programInfoUrl": "",
+    "network": "manual",
+    "verified": true,
+    "beginnerFriendly": false,
+    "discoverySource": "offizielle-website",
+    "oss": null
+  }
+]
