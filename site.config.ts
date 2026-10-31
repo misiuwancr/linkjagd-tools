@@ -6,9 +6,9 @@ export const siteConfig = {
   name: "Linkjagd Tools",
   shortName: "Linkjagd",
   locale: "de",
-  tagline: "Entdecke die besten KI-Tools.",
+  tagline: "KI-Tools, kostenlose Webtools & Open Source – auf Deutsch erklärt",
   description:
-    "Finde die passenden KI-Tools für deinen Alltag, deine Arbeit und deine Projekte.",
+    "Ein Verzeichnis für KI-Werkzeuge, Web-Apps und Open-Source-Programme. Texte auf Deutsch, ohne erfundene Platzierungen.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "http://127.0.0.1:4327",
   creator: {
     name: "Michał Bohdanowicz",
@@ -20,7 +20,7 @@ export const siteConfig = {
     { href: "/tools?sort=alphabetisch", label: "Alphabetisch" },
     { href: "/neu", label: "Neu hinzugefügt" },
     { href: "/kategorien", label: "Kategorien" },
-    { href: "/blog", label: "Blog / KI-News" },
+    { href: "/blog", label: "Blog" },
     { href: "/einreichen", label: "Tool einreichen" },
   ],
   footer: [
@@ -31,9 +31,9 @@ export const siteConfig = {
     { href: "/affiliate-hinweis", label: "Affiliate-Hinweis" },
   ],
   seo: {
-    title: "Linkjagd Tools – KI-Tools entdecken",
+    title: "Linkjagd Tools – KI, Webtools und Open Source",
     description:
-      "Deutschsprachiges Verzeichnis für KI-Tools: Suche, Kategorien und Werkzeuge von Linkjagd.",
+      "Deutschsprachiges Verzeichnis für KI-Tools, kostenlose Web-Apps und Open-Source-Programme.",
   },
   legal: {
     impressum: {

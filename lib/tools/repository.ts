@@ -15,6 +15,7 @@ import type { AppDatabase } from "@/db/client";
 import { normalizeSearch, slugify } from "@/lib/utils";
 import type { ToolListQuery } from "@/lib/tools/query";
 import type { PublicCategory, PublicTag } from "@/lib/tools/public";
+import { weeklyPopularVisible } from "@/lib/tools/popular";
 
 export type ToolWithRelations = Tool & {
   categories: PublicCategory[];
@@ -167,6 +168,32 @@ export async function listSimilar(database: AppDatabase, tool: ToolWithRelations
     .orderBy(desc(tools.featured), desc(tools.createdAt))
     .limit(limit);
   return attachRelations(database, rows);
+}
+
+export async function listWeeklyPopular(database: AppDatabase, sinceDay: string, limit = 6) {
+  const ranked = await database
+    .select({
+      toolId: clickDaily.toolId,
+      total: sql<number>`coalesce(sum(${clickDaily.count}), 0)`,
+    })
+    .from(clickDaily)
+    .where(sql`${clickDaily.day} >= ${sinceDay}`)
+    .groupBy(clickDaily.toolId)
+    .orderBy(sql`coalesce(sum(${clickDaily.count}), 0) desc`)
+    .limit(limit);
+  const clicks = ranked.reduce((sum, row) => sum + Number(row.total), 0);
+  if (!weeklyPopularVisible(clicks)) return [];
+  const ids = ranked.map((row) => row.toolId);
+  const rows = await database
+    .select()
+    .from(tools)
+    .where(and(inArray(tools.id, ids), eq(tools.publishStatus, "published"), eq(tools.isExample, false)));
+  const byId = new Map(rows.map((row) => [row.id, row]));
+  const ordered = ids.flatMap((id) => {
+    const row = byId.get(id);
+    return row ? [row] : [];
+  });
+  return attachRelations(database, ordered);
 }
 
 export async function listCategories(database: AppDatabase) {

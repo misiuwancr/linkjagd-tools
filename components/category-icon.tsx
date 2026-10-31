@@ -1,0 +1,70 @@
+import {
+  AudioLines,
+  Bot,
+  Box,
+  Briefcase,
+  Clapperboard,
+  Code,
+  Database,
+  FileText,
+  Gamepad2,
+  GraduationCap,
+  HeartPulse,
+  Image as ImageIcon,
+  Languages,
+  Layout,
+  type LucideIcon,
+  Megaphone,
+  Music,
+  Palette,
+  Plane,
+  Presentation,
+  Scale,
+  Search,
+  Share2,
+  ShoppingBag,
+  Users,
+  Video,
+  Workflow,
+  Wrench,
+} from "lucide-react";
+
+const ICONS: Record<string, LucideIcon> = {
+  "audio-und-sprache": AudioLines,
+  automatisierung: Workflow,
+  bildgenerierung: ImageIcon,
+  bildung: GraduationCap,
+  daten: Database,
+  design: Palette,
+  dreid: Box,
+  "e-commerce": ShoppingBag,
+  finanzen: Briefcase,
+  gaming: Gamepad2,
+  gesundheit: HeartPulse,
+  "ki-chatbots": Bot,
+  kundenservice: Users,
+  marketing: Megaphone,
+  musik: Music,
+  personal: Users,
+  praesentationen: Presentation,
+  produktivitaet: Wrench,
+  programmierung: Code,
+  recherche: Search,
+  recht: Scale,
+  reisen: Plane,
+  seo: Search,
+  "social-media": Share2,
+  textgenerierung: FileText,
+  videogenerierung: Video,
+  videoschnitt: Clapperboard,
+  sprachen: Languages,
+};
+
+export function CategoryIcon({ slug }: { slug: string }) {
+  const Icon = ICONS[slug] ?? Layout;
+  return <Icon aria-hidden="true" className="h-5 w-5 text-hunt" />;
+}
+
+export function categoryIconName(slug: string) {
+  return ICONS[slug] ? slug : "fallback";
+}
