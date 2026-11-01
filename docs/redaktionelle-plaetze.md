@@ -1,0 +1,7 @@
+# Redaktionelle Platzänderungen
+
+Der aktuelle Export enthält weder Empfehlungen noch gesetzte Plätze. `lib/editorial-selection.ts` schlägt deshalb eine explizite redaktionelle Startliste von 20 vorhandenen, veröffentlichten Tools vor. Diese Auswahl wird durch diesen PR zur redaktionellen Prüfung gestellt; sie ist keine gemessene Beliebtheitsliste und enthält keine erfundenen Bewertungen oder Stimmen. Es werden keine Datenbankzeilen geändert. Empfehlungen verwenden ebenfalls diese Startauswahl. Eine vorhandene Datenbank-Rangliste hat Vorrang und wird nicht durch zusätzliche Plätze aufgefüllt. Nur tatsächlich veröffentlichte Nicht-Beispiel-Tools erscheinen.
+
+Ohne einen gespeicherten vorherigen Rang zeigt die Seitenleiste „–“. `site_settings.editorial_previous_ranks` kann eine von der Redaktion bestätigte frühere Rangliste als JSON-Objekt aus Tool-ID und damaligem Rang enthalten. Nur echte vorherige Platzierungen eintragen. Vor einer redaktionellen Rangänderung den tatsächlichen Ausgangsstand erfassen; keinen früheren Rang erfinden. Ohne historische Aufnahme bleiben neue Tools neutral. Community-Votes sind unabhängig von dieser Liste.
+
+Partner-Plätze verwenden `partner_top20_title` und `partner_top20_url` beziehungsweise im Verzeichnis `partner_directory_title` und `partner_directory_url`. Ohne beide Angaben wird kein Platz eingeblendet. Nur echte freigegebene HTTPS-Partnerlinks eintragen; keine Parameter anhängen. Der sichtbare Link wird als Anzeige und mit `rel=sponsored` markiert.
