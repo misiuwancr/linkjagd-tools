@@ -84,7 +84,7 @@
 
 @layer components {
   .page-wrap {
-    @apply mx-auto w-full max-w-page px-4 sm:px-6;
+    @apply mx-auto w-full px-4 sm:px-6 lg:px-10;
   }
 
   .field {

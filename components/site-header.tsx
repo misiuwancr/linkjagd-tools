@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { ChevronDown, Menu, Moon, Sun, X } from "lucide-react";
 import { BrandLockup } from "@/components/brand";
 import { cn } from "@/lib/utils";
 
@@ -37,6 +37,26 @@ const groups = [
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const [light, setLight] = useState(false);
+  const [activeGroup, setActiveGroup] = useState<string | null>(null);
+  const header = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const outside = (event: PointerEvent) => {
+      if (!(event.target instanceof Element) || !event.target.closest("[data-navigation-group]")) setActiveGroup(null);
+    };
+    const escape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setOpen(false);
+        if (activeGroup) header.current?.querySelector<HTMLButtonElement>(`[data-group="${activeGroup}"]`)?.focus();
+        setActiveGroup(null);
+      }
+    };
+    document.addEventListener("pointerdown", outside);
+    document.addEventListener("keydown", escape);
+    return () => {
+      document.removeEventListener("pointerdown", outside);
+      document.removeEventListener("keydown", escape);
+    };
+  }, [activeGroup]);
   useEffect(() => {
     const stored = window.localStorage.getItem("linkjagd-theme");
     const next = stored === "light";
@@ -58,16 +78,18 @@ export function SiteHeader() {
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border/80 bg-background/85 backdrop-blur">
+    <header ref={header} className="sticky top-0 z-40 border-b border-border/80 bg-background/85 backdrop-blur" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node)) setActiveGroup(null); }}>
       <div className="page-wrap flex h-16 items-center justify-between gap-4">
         <BrandLockup />
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-1 lg:flex">
           {groups.map((group) => (
-            <details key={group.label} className="group relative">
-              <summary className="cursor-pointer list-none rounded-full px-3 py-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
+            <div key={group.label} data-navigation-group className="relative" onMouseLeave={() => setActiveGroup(null)}>
+              <button type="button" data-group={group.label} aria-expanded={activeGroup === group.label} aria-controls={`navigation-${group.label}`} onClick={() => setActiveGroup(activeGroup === group.label ? null : group.label)} className="inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-base font-medium text-muted-foreground hover:text-foreground">
                 {group.label}
-              </summary>
-              <div className="absolute left-0 top-full z-50 mt-2 w-56 rounded-2xl border border-border bg-card p-2 shadow-card">
+                <ChevronDown aria-hidden="true" className={cn("h-4 w-4 transition-transform", activeGroup === group.label && "rotate-180")} />
+              </button>
+              <div id={`navigation-${group.label}`} hidden={activeGroup !== group.label} className="absolute left-0 top-full z-50 w-56 pt-2">
+              <div className="rounded-2xl border border-border bg-card p-2 shadow-card" onClick={() => setActiveGroup(null)}>
                 {group.links.map((item) =>
                   item.external ? (
                     <a key={item.href} href={item.href} target="_blank" rel="noopener noreferrer" className="block rounded-xl px-3 py-2 text-sm hover:bg-secondary">
@@ -80,12 +102,13 @@ export function SiteHeader() {
                   ),
                 )}
               </div>
-            </details>
+              </div>
+            </div>
           ))}
         </nav>
         <div className="hidden items-center gap-2 lg:flex">
           <button type="button" onClick={toggleTheme} className="rounded-full border border-border px-3 py-2 text-[13px] text-muted-foreground" aria-label="Darstellung umschalten">
-            {light ? "Dunkel" : "Hell"}
+            {light ? <Moon aria-hidden="true" className="h-5 w-5" /> : <Sun aria-hidden="true" className="h-5 w-5" />}
           </button>
           <a href="/newsletter#anmeldung" className="rounded-full bg-primary px-4 py-2 text-[13px] font-bold text-primary-foreground">
             Abonnieren
@@ -133,8 +156,8 @@ export function SiteHeader() {
             <a href="/newsletter#anmeldung" onClick={() => setOpen(false)} className="flex h-12 items-center justify-center rounded-full bg-primary text-base font-bold text-primary-foreground">
               Abonnieren
             </a>
-            <button type="button" onClick={toggleTheme} className={cn("text-sm text-muted-foreground")}>
-              Darstellung: {light ? "Hell" : "Dunkel"}
+            <button type="button" onClick={toggleTheme} aria-label="Darstellung umschalten" className="inline-flex items-center gap-2 text-base text-muted-foreground">
+              {light ? <Moon className="h-5 w-5" aria-hidden="true" /> : <Sun className="h-5 w-5" aria-hidden="true" />} Darstellung: {light ? "Hell" : "Dunkel"}
             </button>
           </nav>
         </div>
