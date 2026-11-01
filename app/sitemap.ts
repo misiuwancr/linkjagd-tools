@@ -3,7 +3,7 @@ import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
 import { ALTERNATIVE_SLUGS } from "@/lib/alternatives";
 import { USE_CASES } from "@/lib/use-cases";
-import { listCategories } from "@/lib/tools/repository";
+import { listCategories, publishedBlogSlugs } from "@/lib/tools/repository";
 import { indexablePublished } from "@/lib/allow-index";
 import { indexingPolicy } from "@/lib/indexing";
 
@@ -11,7 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   if (!indexingPolicy().index) return [];
   const database = await getDb();
   const base = siteConfig.url.replace(/\/$/, "");
-  const [tools, categories] = await Promise.all([indexablePublished(database), listCategories(database)]);
+  const [tools, categories, blog] = await Promise.all([indexablePublished(database), listCategories(database), publishedBlogSlugs(database)]);
   const staticPaths = [
     "",
     "/tools",
@@ -27,6 +27,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/fuer",
   ];
   return [
+    ...blog.map((post) => ({ url: `${base}/blog/${post.slug}`, lastModified: post.updatedAt, changeFrequency: "weekly" as const, priority: 0.6 })),
     ...staticPaths.map((path) => ({
       url: `${base}${path || "/"}`,
       changeFrequency: "daily" as const,

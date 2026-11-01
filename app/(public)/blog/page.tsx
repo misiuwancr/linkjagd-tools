@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getDb } from "@/db/client";
-import { listPublishedNews } from "@/lib/tools/repository";
+import { listPublishedNews, publishedBlogCount } from "@/lib/tools/repository";
+import { Pagination } from "@/components/directory";
+import { publicListQuery } from "@/lib/tools/query";
 
 export const revalidate = 60;
 
@@ -11,8 +13,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/blog" },
 };
 
-export default async function BlogPage() {
-  const news = await listPublishedNews(await getDb(), 24);
+export default async function BlogPage({ searchParams }: { searchParams: Record<string, string | string[] | undefined> }) {
+  const database = await getDb();
+  const total = await publishedBlogCount(database);
+  const requested = publicListQuery(searchParams);
+  const query = publicListQuery({}, { page: Math.min(requested.page, Math.max(1, Math.ceil(total / 24))) });
+  const news = await listPublishedNews(database, 24, (query.page - 1) * 24);
   return (
     <div className="page-wrap py-12 sm:py-16">
       <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl">Blog</h1>
@@ -32,6 +38,7 @@ export default async function BlogPage() {
           ))}
         </ul>
       )}
+      <Pagination query={query} total={total} basePath="/blog" />
     </div>
   );
 }
