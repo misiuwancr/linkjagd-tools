@@ -94,7 +94,6 @@ export default async function HomePage({
             </button>
           </form>
           <CompanyStrip companies={companies} />
-          {proof ? <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{proof}</p> : null}
         </div>
       </section>
 
