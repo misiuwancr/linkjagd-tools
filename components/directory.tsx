@@ -98,11 +98,13 @@ export function DirectoryFilters({
   categories,
   action = "/tools",
   showPopular = true,
+  toolCount,
 }: {
   query: ToolListQuery;
   categories: { name: string; slug: string }[];
   action?: string;
   showPopular?: boolean;
+  toolCount?: number;
 }) {
   const sorts = sortOptions.filter((item) => showPopular || item.value !== "popular");
   return (
@@ -111,7 +113,12 @@ export function DirectoryFilters({
         <label htmlFor="q" className="mb-1 block text-xs font-medium text-muted-foreground">
           Suche
         </label>
-        <input id="q" name="q" defaultValue={query.q} placeholder="Name, Beschreibung, Kategorie" className="field" />
+        <input id="q" name="q" defaultValue={query.q} placeholder={toolCount === undefined ? "Name, Beschreibung, Kategorie" : `${toolCount.toLocaleString("de-DE")} Tools durchsuchen …`} className="field" />
+        {query.license ? <input type="hidden" name="lizenz" value={licenseOptions.find((item) => item.value === query.license)?.param} /> : null}
+        {query.featuredOnly ? <input type="hidden" name="picks" value="ja" /> : null}
+        {query.fromVideo ? <input type="hidden" name="video" value="ja" /> : null}
+        {query.germanUi ? <input type="hidden" name="deutsch" value={query.germanUi} /> : null}
+        {query.noSignup ? <input type="hidden" name="anmeldung" value={query.noSignup} /> : null}
       </div>
       <div>
         <label htmlFor="kategorie" className="mb-1 block text-xs font-medium text-muted-foreground">
@@ -231,7 +238,7 @@ export function ResultMeta({ page, pageSize, total }: { page: number; pageSize: 
   const end = Math.min(total, page * pageSize);
   return (
     <p className="text-sm text-muted-foreground">
-      {start}–{end} von {total} {total === 1 ? "Tool" : "Tools"}
+      Zeige {start}–{end} von {total} {total === 1 ? "Tool" : "Tools"}
     </p>
   );
 }
