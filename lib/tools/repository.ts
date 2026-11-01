@@ -411,13 +411,24 @@ export async function recordClick(
     });
 }
 
-export async function listPublishedNews(database: AppDatabase, limit = 6) {
+export async function listPublishedNews(database: AppDatabase, limit = 6, offset = 0) {
   return database
     .select()
     .from(newsPosts)
     .where(eq(newsPosts.status, "published"))
-    .orderBy(desc(newsPosts.publishedAt))
-    .limit(limit);
+    .orderBy(desc(newsPosts.publishedAt), asc(newsPosts.id))
+    .limit(limit)
+    .offset(offset);
+}
+
+export async function publishedBlogSlugs(database: AppDatabase) {
+  return database.select({ slug: newsPosts.slug, updatedAt: newsPosts.updatedAt }).from(newsPosts)
+    .where(eq(newsPosts.status, "published")).orderBy(asc(newsPosts.slug));
+}
+
+export async function publishedBlogCount(database: AppDatabase) {
+  const rows = await database.select({ total: sql<number>`count(*)` }).from(newsPosts).where(eq(newsPosts.status, "published"));
+  return Number(rows[0]?.total ?? 0);
 }
 
 export async function publishedSlugs(database: AppDatabase) {
