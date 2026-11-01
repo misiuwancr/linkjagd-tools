@@ -38,7 +38,6 @@ export type ToolFormInitial = {
   tags: string;
   internalNotes: string;
   discoverySource: string;
-  indexingReady?: boolean;
   allowIndex?: boolean;
   qualityNotes?: string[];
   logo: string | null;
@@ -126,17 +125,11 @@ export function ToolForm({
           <input name="editorialRank" inputMode="numeric" defaultValue={initial.editorialRank} className="field" placeholder="1–20 oder leer" />
           <span className="text-xs font-normal text-muted-foreground">Feld editorial_rank. Leer heißt: nicht in der Top 20. Keine Stimmen.</span>
         </label>
-        {initial.indexingReady ? (
-          <label className="flex items-center gap-2 text-sm">
-            <input type="hidden" name="allowIndexField" value="1" />
-            <input type="checkbox" name="allowIndex" defaultChecked={initial.allowIndex !== false} />
-            Für Google freigeben, sobald der Eintrag geprüft ist
-          </label>
-        ) : (
-          <p className="text-xs text-muted-foreground">
-            Die Spalte für einzelne noindex-Schalter ist noch nicht in der Datenbank. Veröffentlichte Tools bleiben wie bisher indexierbar, sobald die Produktion selbst indexiert.
-          </p>
-        )}
+        <label className="flex items-center gap-2 text-sm">
+          <input type="hidden" name="allowIndexField" value="1" />
+          <input type="checkbox" name="allowIndex" defaultChecked={initial.allowIndex !== false} />
+          Für Google freigeben, sobald der Eintrag geprüft ist
+        </label>
         {initial.qualityNotes && initial.qualityNotes.length > 0 ? (
           <ul className="list-disc pl-5 text-xs text-muted-foreground">
             {initial.qualityNotes.map((note) => (

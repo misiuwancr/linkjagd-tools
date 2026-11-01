@@ -71,7 +71,7 @@ describe("Persistenz auf einer Datei-Kopie", () => {
     fs.rmSync(file, { force: true });
   });
 
-  it("fügt allow_index hinzu, ohne Zeilen zu verlieren", async () => {
+  it("legt allow_index an und führt die Datei kein zweites Mal aus", async () => {
     const file = path.join(os.tmpdir(), `linkjagd-migrate-${Date.now()}.db`);
     const client = createClient({ url: `file:${file}` });
     await applyMigrations(client);
@@ -82,16 +82,15 @@ describe("Persistenz auf einer Datei-Kopie", () => {
       args: [now, now],
     });
     const before = await client.execute("select count(*) as n from tools");
-    const sql = fs.readFileSync(path.join(process.cwd(), "db/pending/0007_allow_index.sql"), "utf8");
-    const statement = sql
-      .split("\n")
-      .filter((line) => line.trim() && !line.trim().startsWith("--"))
-      .join("\n");
-    await client.execute(statement);
+    const marked = await client.execute("select count(*) as n from schema_migrations where id = '0007_allow_index.sql'");
+    await applyMigrations(client);
     const after = await client.execute("select count(*) as n from tools");
+    const markedAgain = await client.execute("select count(*) as n from schema_migrations where id = '0007_allow_index.sql'");
     const column = await client.execute("select allow_index as allow_index from tools where id = 't1'");
     expect(Number(before.rows[0]?.n)).toBe(1);
     expect(Number(after.rows[0]?.n)).toBe(1);
+    expect(Number(marked.rows[0]?.n)).toBe(1);
+    expect(Number(markedAgain.rows[0]?.n)).toBe(1);
     expect(Number(column.rows[0]?.allow_index)).toBe(1);
     fs.rmSync(file, { force: true });
   });

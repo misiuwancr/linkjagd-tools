@@ -96,6 +96,7 @@ export const tools = sqliteTable(
       .default("draft"),
     featured: integer("featured", { mode: "boolean" }).notNull().default(false),
     editorialRank: integer("editorial_rank"),
+    allowIndex: integer("allow_index", { mode: "boolean" }).notNull().default(true),
     discoverySource: text("discovery_source").notNull().default("manual"),
     isExample: integer("is_example", { mode: "boolean" }).notNull().default(false),
     searchText: text("search_text").notNull().default(""),
