@@ -7,7 +7,7 @@ export function CompanyStrip({ companies }: { companies: DirectoryCompany[] }) {
     <section aria-label={COMPANY_STRIP_LABEL} className="mt-8 max-w-5xl">
       <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">{COMPANY_STRIP_LABEL}</p>
       <ul className="mt-3 flex flex-wrap gap-2">
-        {companies.map((company) => (
+        {companies.slice(0, 15).map((company) => (
           <li key={company.slug}>
             <Link
               href={company.href}

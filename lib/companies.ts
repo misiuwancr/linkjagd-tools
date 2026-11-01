@@ -1,6 +1,6 @@
 import { companyMarkPaths } from "@/lib/company-marks";
 
-export const COMPANY_STRIP_LABEL = "Tools von diesen Firmen im Verzeichnis";
+export const COMPANY_STRIP_LABEL = "Für alle, die Tools von Firmen wie diesen nutzen:";
 
 export type CompanyRule = {
   slug: string;
