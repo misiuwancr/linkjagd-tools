@@ -15,7 +15,7 @@ import { listCompaniesInDirectory, listTools } from "@/lib/tools/repository";
 
 describe("Firmenleiste", () => {
   it("nennt das Verzeichnis und keine Leserschaft", () => {
-    expect(COMPANY_STRIP_LABEL).toBe("Tools von diesen Firmen im Verzeichnis");
+    expect(COMPANY_STRIP_LABEL).toBe("Für alle, die Tools von Firmen wie diesen nutzen:");
     expect(COMPANY_STRIP_LABEL.toLowerCase()).not.toContain("leser");
   });
 

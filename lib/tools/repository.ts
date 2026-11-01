@@ -1,4 +1,4 @@
-import { and, asc, desc, eq, inArray, like, sql, type SQL } from "drizzle-orm";
+import { and, or, asc, desc, eq, inArray, like, sql, type SQL } from "drizzle-orm";
 import {
   affiliatePrograms,
   categories,
@@ -20,6 +20,7 @@ import type { PublicCategory, PublicTag } from "@/lib/tools/public";
 import { weeklyPopularVisible } from "@/lib/tools/popular";
 import { companiesForTools, companyBySlug, type CompanyToolRef } from "@/lib/companies";
 import { isHomepageFresh } from "@/lib/taxonomy";
+import { editorialStarterSlugs, starterRank } from "@/lib/editorial-selection";
 
 export type ToolWithRelations = Tool & {
   categories: PublicCategory[];
@@ -30,7 +31,7 @@ export type ToolWithRelations = Tool & {
 function filters(query: ToolListQuery): SQL[] {
   const parts: SQL[] = [];
   if (query.status !== "all") parts.push(eq(tools.publishStatus, query.status));
-  if (query.featuredOnly) parts.push(eq(tools.featured, true));
+  if (query.featuredOnly) parts.push(or(eq(tools.featured, true), inArray(tools.slug, [...editorialStarterSlugs]))!);
   if (query.rankedOnly) parts.push(sql`${tools.editorialRank} is not null`);
   if (query.excludeExamples) parts.push(eq(tools.isExample, false));
   if (query.partnerGap) {
@@ -97,10 +98,15 @@ function orderBy(query: ToolListQuery) {
       sql`case when ${tools.editorialRank} is null then 1 else 0 end`,
       asc(tools.editorialRank),
       desc(tools.featured),
+      starterOrder(),
       desc(tools.createdAt),
     ];
   }
   return [desc(tools.createdAt)];
+}
+
+function starterOrder() {
+  return sql`case ${tools.slug} ${sql.join(editorialStarterSlugs.map((slug, index) => sql`when ${slug} then ${index + 1}`), sql` `)} else 999 end`;
 }
 
 export async function attachRelations(
@@ -133,6 +139,7 @@ export async function attachRelations(
 
   return rows.map((row) => ({
     ...row,
+    featured: row.featured || starterRank(row.slug) !== null,
     categories: categoryRows
       .filter((item) => item.toolId === row.id)
       .map(({ name, slug }) => ({ name, slug })),
@@ -411,13 +418,24 @@ export async function recordClick(
     });
 }
 
-export async function listPublishedNews(database: AppDatabase, limit = 6) {
+export async function listPublishedNews(database: AppDatabase, limit = 6, offset = 0) {
   return database
     .select()
     .from(newsPosts)
     .where(eq(newsPosts.status, "published"))
-    .orderBy(desc(newsPosts.publishedAt))
-    .limit(limit);
+    .orderBy(desc(newsPosts.publishedAt), asc(newsPosts.id))
+    .limit(limit)
+    .offset(offset);
+}
+
+export async function publishedBlogSlugs(database: AppDatabase) {
+  return database.select({ slug: newsPosts.slug, updatedAt: newsPosts.updatedAt }).from(newsPosts)
+    .where(eq(newsPosts.status, "published")).orderBy(asc(newsPosts.slug));
+}
+
+export async function publishedBlogCount(database: AppDatabase) {
+  const rows = await database.select({ total: sql<number>`count(*)` }).from(newsPosts).where(eq(newsPosts.status, "published"));
+  return Number(rows[0]?.total ?? 0);
 }
 
 export async function publishedSlugs(database: AppDatabase) {
@@ -475,7 +493,12 @@ export async function listTopTools(database: AppDatabase, limit = 20) {
     .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false), sql`${tools.editorialRank} is not null`))
     .orderBy(asc(tools.editorialRank), asc(tools.name))
     .limit(limit);
-  return attachRelations(database, rows);
+  if (rows.length > 0) return attachRelations(database, rows);
+  // Nur wenn noch keine Datenbank-Rangliste besteht: explizite redaktionelle Startauswahl.
+  const starter = await database.select().from(tools)
+    .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false), inArray(tools.slug, [...editorialStarterSlugs])))
+    .orderBy(starterOrder()).limit(limit);
+  return attachRelations(database, starter.map((tool) => ({ ...tool, editorialRank: starterRank(tool.slug) })));
 }
 
 export async function listHomepageFresh(database: AppDatabase, limit = 6) {

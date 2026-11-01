@@ -9,11 +9,22 @@ import * as schema from "@/db/schema";
 import { affiliatePrograms, categories, toolCategories, tools } from "@/db/schema";
 import { applyMigrations } from "@/db/migrate";
 
+function removeTemporaryDatabase(file: string) {
+  try { fs.rmSync(file, { force: true }); }
+  catch (error) {
+    // libSQL kann unter Windows native Statements bis zum Prozessende halten.
+    // Nur die Aufräumphase toleriert diesen Fall; alle Datenprüfungen bleiben strikt.
+    if (process.platform !== "win32" || (error as NodeJS.ErrnoException).code !== "EBUSY") throw error;
+  }
+}
+
 describe("Persistenz auf einer Datei-Kopie", () => {
   it("behält Tool, Kategorie und Partnerlink über einen neuen Verbindungsaufbau", async () => {
     const file = path.join(os.tmpdir(), `linkjagd-persist-${Date.now()}.db`);
+    const clients: ReturnType<typeof createClient>[] = [];
     const open = async () => {
       const client = createClient({ url: `file:${file}` });
+      clients.push(client);
       await applyMigrations(client);
       return drizzle(client, { schema });
     };
@@ -68,7 +79,8 @@ describe("Persistenz auf einer Datei-Kopie", () => {
     expect(tool[0]?.name).toBe("Probe geändert");
     expect(link[0]?.affiliateUrl).toBe("https://partner.example/probe");
     expect(category[0]?.categoryId).toBe("chat");
-    fs.rmSync(file, { force: true });
+    clients.forEach((client) => client.close());
+    removeTemporaryDatabase(file);
   });
 
   it("legt allow_index an und führt die Datei kein zweites Mal aus", async () => {
@@ -92,6 +104,7 @@ describe("Persistenz auf einer Datei-Kopie", () => {
     expect(Number(marked.rows[0]?.n)).toBe(1);
     expect(Number(markedAgain.rows[0]?.n)).toBe(1);
     expect(Number(column.rows[0]?.allow_index)).toBe(1);
-    fs.rmSync(file, { force: true });
+    client.close();
+    removeTemporaryDatabase(file);
   });
 });

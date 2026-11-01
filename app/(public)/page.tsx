@@ -12,6 +12,9 @@ import { toPublicTool } from "@/lib/tools/public";
 import { publicListQuery } from "@/lib/tools/query";
 import { utcDay } from "@/lib/utils";
 import { newsletterOpen } from "@/lib/newsletter";
+import { AiNewsSection } from "@/components/ai-news";
+import { listPublishedNews } from "@/lib/tools/repository";
+import { TopToolsSidebar } from "@/components/top-tools-sidebar";
 
 export const revalidate = 60;
 
@@ -45,7 +48,7 @@ export default async function HomePage({
     listCategories(database),
     listWeeklyPopular(database, utcDay(since), 6),
     socialProofText(database),
-    listTopTools(database, 8),
+    listTopTools(database, 20),
     listCompaniesInDirectory(database),
   ]);
   const siteHost = host();
@@ -54,6 +57,7 @@ export default async function HomePage({
   const videoTools = fromVideos.items.map((tool) => toPublicTool(tool, siteHost));
   const popularTools = popular.map((tool) => toPublicTool(tool, siteHost));
   const topTools = top.map((tool) => toPublicTool(tool, siteHost));
+  const blog = await listPublishedNews(database, 3);
 
   return (
     <>
@@ -91,7 +95,6 @@ export default async function HomePage({
             </button>
           </form>
           <CompanyStrip companies={companies} />
-          {proof ? <p className="mt-4 max-w-2xl text-sm text-muted-foreground">{proof}</p> : null}
         </div>
       </section>
 
@@ -118,22 +121,7 @@ export default async function HomePage({
             ))}
           </div>
         </div>
-        <aside>
-          <SectionHead kicker="Reihenfolge" title="Top-Tools" href="/top-20" linkLabel="Alle 20" />
-          <ol className="mt-4 divide-y divide-border rounded-2xl border border-border bg-card">
-            {topTools.map((tool, index) => (
-              <li key={tool.id}>
-                <Link href={`/tools/${tool.slug}`} className="flex items-center gap-3 px-4 py-3 hover:bg-secondary/60">
-                  <span className="w-6 text-sm text-muted-foreground">{index + 1}</span>
-                  <span className="font-medium">{tool.name}</span>
-                </Link>
-              </li>
-            ))}
-          </ol>
-          <p className="mt-3 text-xs leading-5 text-muted-foreground">
-            Nur Tools mit gesetzter Redaktionsreihenfolge im Feld editorial_rank. Keine Stimmen, keine aufgefüllte Platzierung.
-          </p>
-        </aside>
+        <TopToolsSidebar database={database} tools={topTools} />
       </section>
 
       <section className="border-t border-border">
@@ -198,7 +186,11 @@ export default async function HomePage({
           </div>
         </div>
       </section>
-
+      <AiNewsSection />
+      <section className="page-wrap border-t border-border py-14">
+        <SectionHead kicker="Redaktion" title="Aus dem Blog" href="/blog" linkLabel="Alle Beiträge →" />
+        {blog.length ? <div className="mt-6 grid gap-4 md:grid-cols-3">{blog.map((post) => <Link href={`/blog/${post.slug}`} key={post.id} className="rounded-2xl border border-border bg-card p-5"><h3 className="text-xl font-bold">{post.title}</h3><p className="mt-3 text-sm text-muted-foreground">{post.excerpt}</p></Link>)}</div> : <p className="mt-5 text-muted-foreground">Noch keine Beiträge veröffentlicht.</p>}
+      </section>
     </>
   );
 }

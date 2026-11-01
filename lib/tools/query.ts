@@ -64,7 +64,7 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
     page: pageNumber(first(params.seite)),
     pageSize: PAGE_SIZE,
     status: "published",
-    featuredOnly: false,
+    featuredOnly: first(params.picks) === "ja",
     rankedOnly: false,
     excludeExamples: true,
     partnerGap: false,
@@ -79,8 +79,8 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
 
 export function directoryHref(
   basePath: string,
-  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company">,
-  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company">> = {},
+  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company"> & { featuredOnly?: boolean },
+  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company" | "featuredOnly">> = {},
 ) {
   const next = { ...query, ...patch };
   const params = new URLSearchParams();
@@ -92,6 +92,7 @@ export function directoryHref(
   if (next.germanUi) params.set("deutsch", next.germanUi);
   if (next.noSignup) params.set("anmeldung", next.noSignup);
   if (next.company) params.set("firma", next.company);
+  if (next.featuredOnly) params.set("picks", "ja");
   if (next.sort !== "newest") params.set("sort", sortParam(next.sort));
   if (next.page > 1) params.set("seite", String(next.page));
   const qs = params.toString();

@@ -98,6 +98,14 @@ export const siteConfig = {
           ],
         },
         {
+          heading: "Freiwillige Tool-Stimmen",
+          body: [
+            "Das anonyme Voting ist standardmäßig deaktiviert. Wenn es freigeschaltet wird, setzt eine Abstimmung ein signiertes Funktionscookie für ein Jahr. Gespeichert werden das Tool, der Zeitpunkt sowie getrennt pseudonymisierte Werte aus Cookie und IP-Adresse; die Roh-IP wird nicht in der Voting-Datenbank abgelegt.",
+            "Die IP-Zuordnung verhindert wiederholte Stimmen pro Tool. Gemeinsam genutzte IP-Adressen teilen sich deshalb eine Stimme pro Tool. Versuche werden zusätzlich auf zehn pro IP und Stunde begrenzt; diese Begrenzungsdaten werden nach einem Tag bereinigt.",
+            "[VON MICHAŁ VOR AKTIVIERUNG ZU PRÜFEN] Rechtsgrundlage, Speicherdauer der Stimmen und Verfahren für Betroffenenanfragen ergänzen.",
+          ],
+        },
+        {
           heading: "Tool-Einreichung",
           body: [
             "Angaben aus dem Formular „Tool einreichen“ werden als Entwurf in der Datenbank gespeichert, damit die Redaktion sie prüfen kann. Eine Bestätigungsmail wird nicht versendet.",
