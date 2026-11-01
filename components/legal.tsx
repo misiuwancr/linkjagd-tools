@@ -18,7 +18,7 @@ export function LegalDocument({
             <h2 className="text-xl font-bold tracking-tight">{section.heading}</h2>
             <div className="mt-3 space-y-3 text-sm leading-7 text-foreground/90">
               {section.body.map((paragraph) => (
-                <p key={paragraph} className={paragraph.startsWith("[PLATZHALTER") ? "rounded-xl bg-hunt/10 px-3 py-2" : ""}>
+                <p key={paragraph} className={paragraph.includes("[VON MICHAŁ ZU ERGÄNZEN]") ? "rounded-xl bg-hunt/10 px-3 py-2" : ""}>
                   {paragraph}
                 </p>
               ))}

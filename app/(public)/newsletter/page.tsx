@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { NewsletterForm } from "@/components/newsletter-form";
+import { newsletterOpen } from "@/lib/newsletter";
 
 export const metadata: Metadata = {
   title: "Newsletter-Archiv",
@@ -17,8 +18,8 @@ export default function NewsletterArchivePage({
       <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Mail</p>
       <h1 className="mt-3 text-4xl font-bold tracking-tight">Newsletter-Archiv</h1>
       <p className="mt-3 text-muted-foreground">Noch keine Ausgabe verschickt. Eine Anmeldung gilt erst nach dem Bestätigungslink.</p>
-      <div id="anmeldung" className="mt-8 scroll-mt-24">
-        <NewsletterForm notice={searchParams.hinweis} returnTo="/newsletter" />
+      <div className="mt-8">
+        <NewsletterForm notice={searchParams.hinweis} returnTo="/newsletter" open={newsletterOpen()} />
       </div>
     </div>
   );

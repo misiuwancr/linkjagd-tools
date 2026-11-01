@@ -15,7 +15,9 @@ Noch nichts ist deployed. Die Accounts legst du selbst an. Zugangsdaten bleiben 
 | `IMPORT_API_TOKEN` | nein | ohne Wert ist `POST /api/import` aus |
 | `DATABASE_URL` | nein | auf Vercel weglassen; lokal `file:./data/linkjagd.db` |
 
-Ohne `JWT_SECRET` zeigt `/admin/login` kein Formular. Ist die Tabelle `users` leer, legt der Serverstart und die Anmeldung genau einen Admin aus `ADMIN_EMAIL` und `ADMIN_PASSWORD` an. Ein vorhandenes Konto wird nicht überschrieben. Node auf Vercel ist `22.x` über `engines` in `package.json`.
+Ohne `JWT_SECRET` zeigt `/admin/login` kein Formular. Ist die Tabelle `users` leer, legt die Anmeldung genau einen Admin aus `ADMIN_EMAIL` und `ADMIN_PASSWORD` an. Der Serverstart selbst öffnet dafür keine Datenbank. Ein vorhandenes Konto wird nicht überschrieben. Node auf Vercel ist `22.x` über `engines` in `package.json`.
+
+`INDEXING_ENABLED` bleibt auf Produktion leer, sonst ändert sich die Google-Freigabe. Vorschau (`VERCEL_ENV=preview`) und der lokale Rechner setzen noindex von selbst. Die Vorschau nutzt derzeit dieselben Turso-Variablen wie die Produktion. Dafür eine eigene kostenlose Turso-Datenbank anlegen und die beiden Turso-Variablen nur in der Vorschau darauf zeigen lassen. Die Datei `db/pending/0007_allow_index.sql` wird nicht automatisch ausgeführt.
 
 ## Turso anlegen
 

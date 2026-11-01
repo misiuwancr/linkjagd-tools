@@ -18,8 +18,9 @@ import {
 } from "@/lib/newsletter";
 
 export async function subscribeNewsletter(formData: FormData) {
-  const back = String(formData.get("zurueck") || "/");
-  const target = back.startsWith("/") && !back.startsWith("//") ? back : "/";
+  const back = String(formData.get("zurueck") || "/newsletter");
+  const target = back.startsWith("/") && !back.startsWith("//") ? back : "/newsletter";
+  if (mailConfig().provider === "none") redirect(`${target}?hinweis=aus#anmeldung`);
   if (String(formData.get("firma") || "").trim()) redirect(`${target}?hinweis=bot#anmeldung`);
   if (formData.get("datenschutz") !== "ja") redirect(`${target}?hinweis=datenschutz#anmeldung`);
   const email = normalizeNewsletterEmail(String(formData.get("email") || ""));

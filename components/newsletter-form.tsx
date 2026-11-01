@@ -4,22 +4,36 @@ const messages: Record<string, string> = {
   datenschutz: "Bitte die Einwilligung zur Speicherung der Adresse bestätigen.",
   email: "Die E-Mail-Adresse sieht ungültig aus.",
   bereits: "Diese Adresse ist schon bestätigt.",
-  gespeichert: "Die Adresse ist als unbestätigt gespeichert. Eine Bestätigungsmail geht erst raus, wenn ein Versanddienst eingerichtet ist.",
+  gespeichert: "Der Versand ist gerade fehlgeschlagen. Die Anmeldung gilt erst nach dem Link in der Mail.",
   mail: "Schau in dein Postfach und bestätige die Adresse. Vorher gilt die Anmeldung nicht.",
   bot: "Die Anmeldung wurde verworfen.",
+  aus: "Die Anmeldung ist noch nicht geöffnet. Es wurde keine Adresse gespeichert.",
 };
 
 export function NewsletterForm({
   notice,
   compact = false,
-  returnTo = "/",
+  returnTo = "/newsletter",
+  open,
 }: {
   notice?: string;
   compact?: boolean;
   returnTo?: string;
+  open: boolean;
 }) {
+  if (!open) {
+    return (
+      <div id="anmeldung" className="scroll-mt-24 rounded-2xl border border-border bg-card/60 p-4 text-sm leading-6 text-muted-foreground">
+        <p className="font-medium text-foreground">Newsletter noch nicht geöffnet</p>
+        <p className="mt-2">
+          Es ist kein Versanddienst eingerichtet. Das Formular nimmt deshalb keine Adresse an und speichert nichts.
+        </p>
+        {notice === "aus" ? <p className="mt-2 text-foreground">Es wurde keine Adresse gespeichert.</p> : null}
+      </div>
+    );
+  }
   return (
-    <form action={subscribeNewsletter} className={compact ? "grid gap-3" : "grid max-w-xl gap-3"}>
+    <form id="anmeldung" action={subscribeNewsletter} className={(compact ? "grid gap-3" : "grid max-w-xl gap-3") + " scroll-mt-24"}>
       <input type="hidden" name="zurueck" value={returnTo} />
       <input name="firma" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
       <div className="flex flex-col gap-2 sm:flex-row">

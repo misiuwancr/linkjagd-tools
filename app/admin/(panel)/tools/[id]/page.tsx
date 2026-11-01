@@ -7,6 +7,8 @@ import { listAffiliateNetworks } from "@/lib/affiliate/registry";
 import { affiliateStatusOptions, programPresenceOptions, publishLabels } from "@/lib/labels";
 import { parseStringList } from "@/lib/utils";
 import { getToolById, listCategories } from "@/lib/tools/repository";
+import { allowIndexColumnExists, readAllowIndex } from "@/lib/allow-index";
+import { qualityIssues } from "@/lib/quality";
 
 export const dynamic = "force-dynamic";
 
@@ -18,8 +20,13 @@ export default async function EditToolPage({
   searchParams: { gespeichert?: string; fehler?: string };
 }) {
   const database = await getDb();
-  const [tool, categories] = await Promise.all([getToolById(database, params.id), listCategories(database)]);
+  const [tool, categories, indexingReady] = await Promise.all([
+    getToolById(database, params.id),
+    listCategories(database),
+    allowIndexColumnExists(),
+  ]);
   if (!tool) notFound();
+  const allowIndex = await readAllowIndex(database, tool.id);
   const networks = listAffiliateNetworks();
   return (
     <div className="grid gap-8">
@@ -64,6 +71,16 @@ export default async function EditToolPage({
             tags: tool.tags.map((tag) => tag.name).join(", "),
             internalNotes: tool.internalNotes ?? "",
             discoverySource: tool.discoverySource,
+            indexingReady,
+            allowIndex,
+            qualityNotes: qualityIssues({
+              name: tool.name,
+              shortDescriptionDe: tool.shortDescriptionDe,
+              originalUrl: tool.originalUrl,
+              pricingModel: tool.pricingModel,
+              categoryCount: tool.categories.length,
+              publishStatus: tool.publishStatus,
+            }),
             logo: tool.logo,
             screenshots: parseStringList(tool.screenshots),
           }}

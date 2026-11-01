@@ -19,6 +19,7 @@ import { getToolById } from "@/lib/tools/repository";
 import { parseStringList } from "@/lib/utils";
 import { saveImageUpload } from "@/lib/uploads";
 import { licenseTypes, pricingModels, publishStatuses } from "@/db/schema";
+import { writeAllowIndex } from "@/lib/allow-index";
 
 export type ActionState = { error?: string };
 
@@ -122,6 +123,9 @@ export async function saveToolAction(_prev: ActionState, formData: FormData): Pr
     uploads,
   );
   if (!result.ok) return { error: result.error };
+  if (formData.get("allowIndexField") === "1") {
+    await writeAllowIndex(database, result.id, checked(formData, "allowIndex"));
+  }
   revalidatePublic(result.slug);
   revalidatePath("/admin");
   revalidatePath("/admin/tools");
