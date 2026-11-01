@@ -10,6 +10,8 @@ import { toPublicTool } from "@/lib/tools/public";
 import { sortOptions } from "@/lib/labels";
 import { companyBySlug } from "@/lib/companies";
 import { indexingPolicy, robotsDirective } from "@/lib/indexing";
+import Link from "next/link";
+import { PartnerBanner } from "@/components/partner-banner";
 
 export const revalidate = 60;
 
@@ -47,10 +49,12 @@ export default async function ToolsPage({
 }) {
   const query = publicListQuery(searchParams);
   const database = await getDb();
-  const [result, categories, clicks] = await Promise.all([
+  const [result, categories, clicks, all, recommended] = await Promise.all([
     listTools(database, query),
     listCategories(database),
     totalClicks(database),
+    listTools(database, publicListQuery({}, { pageSize: 1 })),
+    listTools(database, publicListQuery({}, { featuredOnly: true, sort: "featured", pageSize: 6 })),
   ]);
   const showPopular = weeklyPopularVisible(clicks);
   const tools = result.items.map((tool) => toPublicTool(tool));
@@ -72,7 +76,7 @@ export default async function ToolsPage({
           <>Tools von {companyBySlug(safeQuery.company)?.name}</>
         ) : (
           <>
-            Das <span className="text-hunt">Verzeichnis</span>
+            Das <span className="text-hunt">KI-Tools</span> Verzeichnis
           </>
         )}
       </h1>
@@ -80,11 +84,18 @@ export default async function ToolsPage({
         Suche nach Namen oder Aufgabe. Filter und Sortierung bleiben in der Adresse, damit du die Ansicht teilen kannst.
       </p>
       <div className="mt-8 rounded-3xl border border-border bg-card/60 p-4 sm:p-5">
-        <CategoryChips query={safeQuery} categories={categories} basePath="/tools" />
+        <DirectoryFilters query={safeQuery} categories={categories} showPopular={showPopular} toolCount={all.total} />
+        <details className="mt-4" open={!!safeQuery.categorySlug}>
+          <summary className="cursor-pointer text-sm font-semibold">Kategorien ({categories.length})</summary>
+          <div className="mt-3"><CategoryChips query={safeQuery} categories={categories} basePath="/tools" /></div>
+        </details>
         <div className="mt-3">
           <PriceChips query={safeQuery} basePath="/tools" />
         </div>
-        <LicenseChips query={safeQuery} basePath="/tools" />
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Link href={directoryHref("/tools", safeQuery, { license: safeQuery.license === "open_source" ? "" : "open_source", page: 1 })} aria-current={safeQuery.license === "open_source" ? "true" : undefined} className="rounded-full border border-border px-3 py-2 text-sm aria-[current=true]:bg-primary aria-[current=true]:text-primary-foreground">Open Source</Link>
+          <Link href={directoryHref("/tools", safeQuery, { featuredOnly: !safeQuery.featuredOnly, page: 1 })} aria-current={safeQuery.featuredOnly ? "true" : undefined} className="rounded-full border border-border px-3 py-2 text-sm aria-[current=true]:bg-primary aria-[current=true]:text-primary-foreground">Michals Picks</Link>
+        </div>
         <div className="mt-3">
           <a
             href={directoryHref("/tools", safeQuery, { fromVideo: !safeQuery.fromVideo, page: 1 })}
@@ -118,10 +129,12 @@ export default async function ToolsPage({
             Ohne Anmeldung
           </a>
         </div>
-        <div className="mt-4">
-          <DirectoryFilters query={safeQuery} categories={categories} showPopular={showPopular} />
-        </div>
       </div>
+      {recommended.items.length ? <section className="mt-8" aria-label="Gerade empfohlen">
+        <div className="flex items-center justify-between gap-3"><h2 className="text-xl font-bold">Gerade empfohlen</h2><Link href="/top-20" className="text-sm text-hunt">Zu den Top 20 →</Link></div>
+        <div className="mt-3 grid gap-2 sm:grid-cols-3 xl:grid-cols-6">{recommended.items.map((tool) => <Link key={tool.id} href={`/tools/${tool.slug}`} className="rounded-xl border border-border bg-card p-4 font-semibold hover:border-hunt/40">{tool.name}</Link>)}</div>
+      </section> : null}
+      <PartnerBanner database={database} slot="directory" />
       <div className="mt-6 flex items-center justify-between gap-3">
         <ResultMeta page={safeQuery.page} pageSize={query.pageSize} total={result.total} />
         {tools.some((tool) => tool.isExample) ? (
