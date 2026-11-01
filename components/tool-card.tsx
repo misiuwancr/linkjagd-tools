@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { PublicTool } from "@/lib/tools/public";
 import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge, VideoBadge } from "@/components/badges";
 import { ToolLogo } from "@/components/tool-logo";
+import { VoteButton } from "@/components/vote-button";
 
 export function ToolCard({ tool }: { tool: PublicTool }) {
   return (
@@ -24,6 +25,7 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
         </div>
       </div>
       <p className="mt-3 line-clamp-2 flex-1 text-sm leading-6 text-muted-foreground">{tool.shortDescriptionDe}</p>
+      <VoteButton slug={tool.slug} name={tool.name} />
       <div className="mt-3 flex justify-end">
         <a
           href={`/go/${tool.slug}`}
