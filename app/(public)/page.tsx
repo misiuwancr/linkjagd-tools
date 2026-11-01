@@ -12,6 +12,8 @@ import { toPublicTool } from "@/lib/tools/public";
 import { publicListQuery } from "@/lib/tools/query";
 import { utcDay } from "@/lib/utils";
 import { newsletterOpen } from "@/lib/newsletter";
+import { AiNewsSection } from "@/components/ai-news";
+import { listPublishedNews } from "@/lib/tools/repository";
 
 export const revalidate = 60;
 
@@ -54,6 +56,7 @@ export default async function HomePage({
   const videoTools = fromVideos.items.map((tool) => toPublicTool(tool, siteHost));
   const popularTools = popular.map((tool) => toPublicTool(tool, siteHost));
   const topTools = top.map((tool) => toPublicTool(tool, siteHost));
+  const blog = await listPublishedNews(database, 3);
 
   return (
     <>
@@ -198,7 +201,11 @@ export default async function HomePage({
           </div>
         </div>
       </section>
-
+      <AiNewsSection />
+      <section className="page-wrap border-t border-border py-14">
+        <SectionHead kicker="Redaktion" title="Aus dem Blog" href="/blog" linkLabel="Alle Beiträge →" />
+        {blog.length ? <div className="mt-6 grid gap-4 md:grid-cols-3">{blog.map((post) => <Link href={`/blog/${post.slug}`} key={post.id} className="rounded-2xl border border-border bg-card p-5"><h3 className="text-xl font-bold">{post.title}</h3><p className="mt-3 text-sm text-muted-foreground">{post.excerpt}</p></Link>)}</div> : <p className="mt-5 text-muted-foreground">Noch keine Beiträge veröffentlicht.</p>}
+      </section>
     </>
   );
 }

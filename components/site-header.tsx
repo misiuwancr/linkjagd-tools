@@ -20,6 +20,7 @@ const groups = [
     label: "Redaktion",
     links: [
       { href: "/blog", label: "Blog" },
+      { href: "/news", label: "KI-News" },
       { href: "/newsletter", label: "Newsletter-Archiv" },
     ],
   },
