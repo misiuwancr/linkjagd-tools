@@ -1,3 +1,4 @@
+import { ToolArticles } from "@/components/article-connections";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,6 +18,7 @@ import { softwareOffer, toolMetaTitle } from "@/lib/seo";
 import { isAlternativeSlug } from "@/lib/alternatives";
 import { indexingPolicy, robotsDirective, toolIsIndexable } from "@/lib/indexing";
 import { decisionTools } from "@/lib/comparisons";
+import { goHref } from "@/lib/affiliate/context";
 import { LinkjagdToolVideos } from "@/components/linkjagd-tool-videos";
 import { DecisionToolPage } from "@/components/decision-tool-page";
 
@@ -153,7 +155,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           <div className="mt-5">
             {tool.ctaKind === "disabled" ? null : (
               <a
-                href={`/go/${tool.slug}`}
+                href={goHref(tool.slug, "/tools/" + tool.slug, "hero")}
                 rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
                 className="inline-flex h-11 items-center rounded-full bg-primary px-5 text-sm font-bold text-primary-foreground"
               >
@@ -205,7 +207,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
               </button>
             ) : (
               <a
-                href={`/go/${tool.slug}`}
+                href={goHref(tool.slug, "/tools/" + tool.slug, "sidebar")}
                 rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "noopener noreferrer"}
                 className="flex h-12 items-center justify-center rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground"
               >
@@ -225,6 +227,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           </div>
         </aside>
       </header>
+      <ToolArticles slug={tool.slug} />
 
       <dl className="mt-8 grid gap-4 border-y border-border py-5 sm:grid-cols-2 lg:grid-cols-4">
         <div>
@@ -356,7 +359,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             ) : (
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
                 {similar.map((item) => (
-                  <ToolCard key={item.id} tool={item} />
+                  <ToolCard key={item.id} tool={item} source={"/tools/" + tool.slug} position="alternatives" />
                 ))}
               </div>
             )}
@@ -369,7 +372,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
           <p className="text-center text-sm text-muted-foreground">Keine Zieladresse hinterlegt.</p>
         ) : (
           <a
-            href={`/go/${tool.slug}`}
+            href={goHref(tool.slug, "/tools/" + tool.slug, "sticky")}
             rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
             className="flex h-12 items-center justify-center rounded-xl bg-primary text-sm font-semibold text-primary-foreground"
           >

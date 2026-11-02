@@ -25,7 +25,7 @@ export default async function Top20Page() {
         <p className="mt-8 rounded-2xl border border-dashed border-border bg-card p-6 text-sm">Noch keine Redaktionsreihenfolge gesetzt.</p>
       ) : null}
       <div className="mt-8">
-        <ToolGrid tools={tools} />
+        <ToolGrid source="/top-20" tools={tools} />
       </div>
     </div>
   );

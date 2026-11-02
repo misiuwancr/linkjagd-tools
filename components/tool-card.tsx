@@ -2,9 +2,10 @@ import Link from "next/link";
 import type { PublicTool } from "@/lib/tools/public";
 import { CategoryBadge, ExampleBadge, LicenseBadge, PriceBadge, RecommendBadge, VideoBadge } from "@/components/badges";
 import { ToolLogo } from "@/components/tool-logo";
+import { goHref, type CtaPosition } from "@/lib/affiliate/context";
 import { VoteButton } from "@/components/vote-button";
 
-export function ToolCard({ tool }: { tool: PublicTool }) {
+export function ToolCard({ tool, source = "/tools", position = "card" }: { tool: PublicTool; source?: string; position?: CtaPosition }) {
   return (
     <article className="flex h-full flex-col rounded-2xl border border-border bg-card/80 p-4 transition hover:border-hunt/40">
       <div className="flex items-start gap-3">
@@ -31,7 +32,7 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
         <Link href={`/tools/${tool.slug}`} className="inline-flex min-h-10 items-center text-sm font-semibold text-hunt">Details ansehen →</Link>
         <a
-          href={`/go/${tool.slug}`}
+          href={goHref(tool.slug, source, position)}
           rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
           className="text-xs font-semibold text-muted-foreground hover:text-foreground"
         >

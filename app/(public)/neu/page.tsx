@@ -31,7 +31,7 @@ export default async function NewPage({
         <ResultMeta page={safeQuery.page} pageSize={query.pageSize} total={result.total} />
       </div>
       <div className="mt-4">
-        <ToolGrid tools={tools} resetHref="/tools" />
+        <ToolGrid source="/neu" tools={tools} resetHref="/tools" />
       </div>
       <Pagination query={safeQuery} total={result.total} basePath="/neu" />
     </div>

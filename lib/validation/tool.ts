@@ -3,6 +3,7 @@ import { affiliateStatuses, licenseTypes, pricingModels, programPresences, publi
 import { domainFromUrl } from "@/lib/utils";
 import { optionalVideoUrl } from "@/lib/videos";
 import { toolEditorialSchema } from "@/lib/tool-editorial";
+import { postEditorialSchema } from "@/lib/blog-metadata";
 
 z.setErrorMap((issue, ctx) => {
   if (issue.code === "invalid_type") return { message: "Bitte dieses Feld ausfüllen." };
@@ -99,6 +100,7 @@ export const categoryInputSchema = z.object({
 });
 
 export const newsInputSchema = z.object({
+  editorial: postEditorialSchema.optional(),
   id: z.string().trim().optional().default(""),
   title: z.string().trim().min(4).max(160),
   slug: z.string().trim().max(80).optional().default(""),

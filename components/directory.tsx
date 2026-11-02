@@ -171,7 +171,7 @@ export function DirectoryFilters({
   );
 }
 
-export function ToolGrid({ tools, resetHref }: { tools: PublicTool[]; resetHref?: string }) {
+export function ToolGrid({ tools, resetHref, source = "/tools" }: { tools: PublicTool[]; resetHref?: string; source?: string }) {
   if (tools.length === 0) {
     return (
       <div className="rounded-2xl border border-dashed border-border bg-card px-6 py-16 text-center">
@@ -184,7 +184,7 @@ export function ToolGrid({ tools, resetHref }: { tools: PublicTool[]; resetHref?
   return (
     <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
       {tools.map((tool) => (
-        <ToolCard key={tool.id} tool={tool} />
+        <ToolCard key={tool.id} tool={tool} source={source} />
       ))}
     </div>
   );

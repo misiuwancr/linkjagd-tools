@@ -7,6 +7,7 @@ import { getDb } from "@/db/client";
 import { requireUser } from "@/lib/auth/session";
 import { saveNewsRecord } from "@/lib/tools/mutations";
 import { setSetting } from "@/lib/tools/repository";
+import { revalidatePath } from "next/cache";
 
 export async function saveNewsAction(formData: FormData) {
   await requireUser("editor");
@@ -21,8 +22,17 @@ export async function saveNewsAction(formData: FormData) {
     seoTitle: formData.get("seoTitle") || "",
     seoDescription: formData.get("seoDescription") || "",
     status: formData.get("status") === "published" ? "published" : "draft",
+    editorial: {
+      topic: String(formData.get("topic") || "entdecken"),
+      toolSlugs: String(formData.get("toolSlugs") || "").split(/[\s,]+/).filter(Boolean),
+      relatedSlugs: String(formData.get("relatedSlugs") || "").split(/[\s,]+/).filter(Boolean),
+    },
   });
   if (!result.ok) redirect(`/admin/blog?fehler=${encodeURIComponent(result.error)}`);
+  revalidatePath("/blog", "layout");
+  revalidatePath("/tools", "layout");
+  revalidatePath("/");
+  revalidatePath("/sitemap.xml");
   redirect("/admin/blog?gespeichert=1");
 }
 

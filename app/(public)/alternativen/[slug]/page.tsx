@@ -65,14 +65,14 @@ export default async function AlternativesPage({ params }: { params: { slug: str
       <p className="mt-3 text-sm">
         <Link href={`/tools/${tool.slug}`} className="underline">Zurück zu {tool.name}</Link>
       </p>
-      <Group title="Kostenlose Alternativen" tools={groups.free} empty="In derselben Kategorie ist gerade kein kostenloses Tool veröffentlicht." />
-      <Group title="Open Source" tools={groups.openSource} empty="In derselben Kategorie ist gerade kein Open-Source-Programm veröffentlicht." />
-      <Group title="Weitere Tools aus der Kategorie" tools={groups.rest} empty="Keine weiteren veröffentlichten Tools in derselben Kategorie." />
+      <Group source={"/alternativen/" + tool.slug} title="Kostenlose Alternativen" tools={groups.free} empty="In derselben Kategorie ist gerade kein kostenloses Tool veröffentlicht." />
+      <Group source={"/alternativen/" + tool.slug} title="Open Source" tools={groups.openSource} empty="In derselben Kategorie ist gerade kein Open-Source-Programm veröffentlicht." />
+      <Group source={"/alternativen/" + tool.slug} title="Weitere Tools aus der Kategorie" tools={groups.rest} empty="Keine weiteren veröffentlichten Tools in derselben Kategorie." />
     </div>
   );
 }
 
-function Group({ title, tools, empty }: { title: string; tools: PublicTool[]; empty: string }) {
+function Group({ title, tools, empty, source }: { title: string; tools: PublicTool[]; empty: string; source: string }) {
   return (
     <section className="mt-12">
       <h2 className="text-2xl font-bold tracking-tight">{title}</h2>
@@ -81,7 +81,7 @@ function Group({ title, tools, empty }: { title: string; tools: PublicTool[]; em
       ) : (
         <div className="mt-4 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {tools.map((item) => (
-            <ToolCard key={item.id} tool={item} />
+            <ToolCard key={item.id} tool={item} source={source} position="alternatives" />
           ))}
         </div>
       )}

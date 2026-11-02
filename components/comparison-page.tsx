@@ -1,16 +1,20 @@
+import { ArticleConnections } from "@/components/article-connections";
+import { publicArticles } from "@/lib/content-hub";
 import Link from "next/link";
 import { JsonLd } from "@/components/json-ld";
 import { siteConfig } from "@/site.config";
 import { comparisonHref, comparisons, decisionTools, researchDate, type Comparison } from "@/lib/comparisons";
 
-export function ProviderCta({ slug }: { slug: string }) {
-  const tool = decisionTools[slug];
-  return <a href={tool.providerUrl} rel="noopener noreferrer" target="_blank" className="inline-flex min-h-11 items-center justify-center rounded-xl bg-primary px-4 py-2 text-sm font-bold text-primary-foreground">Zu {tool.name} ↗</a>;
+import { ProviderLink } from "@/components/provider-link";
+import type { CtaPosition } from "@/lib/affiliate/context";
+
+export function ProviderCta({ slug, source = "/vergleiche", position = "hero" }: { slug: string; source?: string; position?: CtaPosition }) {
+  return <ProviderLink slug={slug} source={source} position={position} className="inline-flex min-h-11 items-center justify-center rounded-xl bg-primary px-4 py-2 text-sm font-bold text-primary-foreground" />;
 }
 
 export function EditorialMethod() {
   return <div className="rounded-2xl border border-border bg-card p-5 text-sm leading-6 text-muted-foreground">
-    <p><strong className="text-foreground">So ordnen wir ein:</strong> Anbieterinformationen und daraus abgeleitete redaktionelle Empfehlungen, keine eigenen Produkttests, Sterne oder bezahlte Rangfolge. Partnerstatus beeinflusst diese Einordnung nicht. Die Anbieter-CTAs hier sind direkte Links ohne Affiliate-Parameter.</p>
+    <p><strong className="text-foreground">So ordnen wir ein:</strong> Anbieterinformationen und daraus abgeleitete redaktionelle Empfehlungen, keine eigenen Produkttests, Sterne oder bezahlte Rangfolge. Partnerstatus beeinflusst diese Einordnung nicht. Anbieter-CTAs führen über unsere Weiterleitung zur hinterlegten offiziellen Adresse oder zu einem als Anzeige gekennzeichneten aktiven Partnerlink.</p>
     <p className="mt-2">Quellenstand: <time dateTime={researchDate}>2. November 2026</time>. Konkrete Preise, Tarifgrenzen, Zustellbarkeit und rechtliche Eignung sind nicht unabhängig geprüft. Bitte vor einer Buchung beim Anbieter und für deinen Anwendungsfall klären.</p>
   </div>;
 }
@@ -25,7 +29,8 @@ export function ComparisonCards() {
   </Link>)}</div>;
 }
 
-export function ComparisonPage({ comparison }: { comparison: Comparison }) {
+export async function ComparisonPage({ comparison }: { comparison: Comparison }) {
+  const article = (await publicArticles()).find((post) => post.slug === comparison.slug)!;
   return <article className="page-wrap min-w-0 py-10 sm:py-16">
     <JsonLd data={{ "@context": "https://schema.org", "@type": "Article", headline: comparison.title, description: comparison.intro, inLanguage: "de", url: new URL(comparisonHref(comparison), siteConfig.url).toString(), dateModified: researchDate }} />
     <nav aria-label="Brotkrumen" className="flex flex-wrap gap-2 text-sm text-muted-foreground"><Link href="/">Start</Link><span aria-hidden="true">/</span><Link href="/vergleiche">Vergleiche</Link><span aria-hidden="true">/</span><span>{comparison.topic}</span></nav>
@@ -33,7 +38,7 @@ export function ComparisonPage({ comparison }: { comparison: Comparison }) {
     <div className="mt-7"><EditorialMethod /></div>
     <section className="mt-10" aria-labelledby="zielgruppen"><h2 id="zielgruppen" className="text-2xl font-bold">Welche Lösung passt zu deiner Situation?</h2>
       <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{comparison.recommendations.map((item) => <div className="rounded-2xl border border-border bg-card p-5" key={item.situation}>
-        <h3 className="text-lg font-semibold">{item.situation}</h3><p className="mt-3 text-sm leading-6 text-muted-foreground">{item.reason}</p><div className="mt-4"><ProviderCta slug={item.tool} /></div>
+        <h3 className="text-lg font-semibold">{item.situation}</h3><p className="mt-3 text-sm leading-6 text-muted-foreground">{item.reason}</p><div className="mt-4"><ProviderCta slug={item.tool} source={comparisonHref(comparison)} position="recommendation" /></div>
       </div>)}</div>
     </section>
     <section className="mt-12" aria-labelledby="vergleich"><h2 id="vergleich" className="text-2xl font-bold">Die Unterschiede auf einen Blick</h2>
@@ -43,7 +48,7 @@ export function ComparisonPage({ comparison }: { comparison: Comparison }) {
           <caption className="sr-only">{comparison.title}: gemeinsame Entscheidungskriterien</caption>
           <thead><tr><th scope="col" className="sticky left-0 z-10 w-36 border-b border-border bg-card p-4 sm:w-44">Kriterium</th>{comparison.tools.map((slug) => <th scope="col" key={slug} className="border-b border-border bg-card p-4"><Link href={`/tools/${slug}`} className="font-bold text-hunt underline underline-offset-4">{decisionTools[slug].name}</Link></th>)}</tr></thead>
           <tbody>{comparison.rows.map((row) => <tr key={row.label}><th scope="row" className="sticky left-0 z-10 border-b border-border bg-card p-4 align-top font-semibold">{row.label}</th>{row.values.map((value, index) => <td key={comparison.tools[index]} className="border-b border-border bg-background p-4 align-top text-muted-foreground">{value}</td>)}</tr>)}</tbody>
-          <tfoot><tr><th scope="row" className="sticky left-0 bg-card p-4">Nächster Schritt</th>{comparison.tools.map((slug) => <td key={slug} className="p-4 align-top"><ProviderCta slug={slug} /><Link href={`/tools/${slug}`} className="mt-3 block underline">Tool-Profil lesen</Link></td>)}</tr></tfoot>
+          <tfoot><tr><th scope="row" className="sticky left-0 bg-card p-4">Nächster Schritt</th>{comparison.tools.map((slug) => <td key={slug} className="p-4 align-top"><ProviderCta slug={slug} source={comparisonHref(comparison)} position="table" /><Link href={`/tools/${slug}`} className="mt-3 block underline">Tool-Profil lesen</Link></td>)}</tr></tfoot>
         </table>
       </div>
     </section>
@@ -55,6 +60,7 @@ export function ComparisonPage({ comparison }: { comparison: Comparison }) {
       </section>;
     })}</div></section>
     <section className="mt-12 max-w-4xl rounded-2xl border border-hunt/40 bg-card p-6"><h2 className="text-2xl font-bold">Vor deiner Entscheidung selbst prüfen</h2><TextList items={comparison.checklist} /><p className="mt-4 text-sm text-muted-foreground">Diese Punkte sind noch nicht für dein Unternehmen verifiziert. Nutze eine kleine Testaufgabe, bevor du Verträge abschließt oder produktive Daten überträgst.</p></section>
+    <ArticleConnections article={article} />
     <nav aria-label="Weitere Vergleiche" className="mt-10 flex flex-wrap gap-4">{comparisons.filter((item) => item.slug !== comparison.slug).map((item) => <Link className="text-sm font-semibold text-hunt underline" href={comparisonHref(item)} key={item.slug}>{item.title} →</Link>)}<Link href="/tools" className="text-sm underline">Gesamtes Tool-Verzeichnis</Link></nav>
   </article>;
 }
