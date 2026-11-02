@@ -17,7 +17,6 @@ const columns = [
     links: [
       { href: "/vergleiche", label: "Vergleiche & Entscheidungshilfen" },
       { href: "/blog", label: "Blog" },
-      { href: "/newsletter", label: "Newsletter-Archiv" },
       { href: "/glossar", label: "Glossar" },
       { href: "/faq", label: "FAQ" },
     ],
@@ -71,7 +70,7 @@ export function SiteFooter() {
           <p>
             © {new Date().getFullYear()} {siteConfig.name}
           </p>
-          <p>Keine erfundenen Bewertungen oder Nutzerzahlen.</p>
+          <a href="/affiliate-hinweis" className="hover:text-foreground">Transparenz zu Partnerlinks</a>
         </div>
       </div>
     </footer>

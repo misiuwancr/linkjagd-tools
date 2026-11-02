@@ -17,6 +17,7 @@ export function AiNewsCards({ news }: { news: AiNews[] }) {
 
 export function AiNewsSection() {
   const news = publishedAiNews().slice(0, 6);
+  if (!news.length) return null;
   return <section className="page-wrap py-14" aria-labelledby="ki-news-heading">
     <h2 id="ki-news-heading" className="text-3xl font-bold">KI-News</h2>
     <p className="mt-3 text-muted-foreground">Die wichtigsten KI-Schlagzeilen – mit Einordnung und Originalquelle.</p>

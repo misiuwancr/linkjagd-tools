@@ -61,6 +61,7 @@ export default async function SubmitPage({
           <input name="submitterEmail" type="email" className="field" />
         </label>
         <input name="firma" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
+        <p className="text-sm leading-6 text-muted-foreground">Wir speichern deinen Vorschlag und die freiwillige Kontaktadresse zur redaktionellen Prüfung. Weitere Informationen findest du in den <a href="/datenschutz" className="underline">Datenschutzhinweisen</a>.</p>
         <button type="submit" className="h-12 rounded-xl bg-primary text-sm font-semibold text-primary-foreground">
           Entwurf senden
         </button>

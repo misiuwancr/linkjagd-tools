@@ -22,7 +22,6 @@ const groups = [
     links: [
       { href: "/blog", label: "Blog" },
       { href: "/news", label: "KI-News" },
-      { href: "/newsletter", label: "Newsletter-Archiv" },
     ],
   },
   {
@@ -36,7 +35,7 @@ const groups = [
   },
 ];
 
-export function SiteHeader() {
+export function SiteHeader({ newsletterAvailable = false, newsAvailable = false }: { newsletterAvailable?: boolean; newsAvailable?: boolean }) {
   const [open, setOpen] = useState(false);
   const [light, setLight] = useState(false);
   const [activeGroup, setActiveGroup] = useState<string | null>(null);
@@ -92,7 +91,7 @@ export function SiteHeader() {
               </button>
               <div id={`navigation-${group.label}`} hidden={activeGroup !== group.label} className="absolute left-0 top-full z-50 w-56 pt-2">
               <div className="rounded-2xl border border-border bg-card p-2 shadow-card" onClick={() => setActiveGroup(null)}>
-                {group.links.map((item) =>
+                {group.links.filter((item) => item.href !== "/news" || newsAvailable).map((item) =>
                   item.external ? (
                     <a key={item.href} href={item.href} target="_blank" rel="noopener noreferrer" className="block rounded-xl px-3 py-2 text-sm hover:bg-secondary">
                       {item.label} ↗
@@ -112,9 +111,9 @@ export function SiteHeader() {
           <button type="button" onClick={toggleTheme} className="rounded-full border border-border px-3 py-2 text-[13px] text-muted-foreground" aria-label="Darstellung umschalten">
             {light ? <Moon aria-hidden="true" className="h-5 w-5" /> : <Sun aria-hidden="true" className="h-5 w-5" />}
           </button>
-          <a href="/newsletter#anmeldung" className="rounded-full bg-primary px-4 py-2 text-[13px] font-bold text-primary-foreground">
+          {newsletterAvailable ? <a href="/newsletter#anmeldung" className="rounded-full bg-primary px-4 py-2 text-[13px] font-bold text-primary-foreground">
             Abonnieren
-          </a>
+          </a> : null}
         </div>
         <button
           type="button"
@@ -127,7 +126,7 @@ export function SiteHeader() {
         </button>
       </div>
       {open ? (
-        <div className="fixed inset-0 z-50 overflow-y-auto bg-background lg:hidden">
+        <div className="fixed inset-x-0 top-0 z-50 h-dvh overflow-y-auto bg-background lg:hidden">
           <div className="page-wrap flex h-16 items-center justify-between">
             <BrandLockup />
             <button type="button" aria-label="Menü schließen" onClick={() => setOpen(false)} className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border">
@@ -139,7 +138,7 @@ export function SiteHeader() {
               <div key={group.label}>
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">{group.label}</p>
                 <ul className="mt-3 grid gap-1">
-                  {group.links.map((item) => (
+                  {group.links.filter((item) => item.href !== "/news" || newsAvailable).map((item) => (
                     <li key={item.href}>
                       {item.external ? (
                         <a href={item.href} target="_blank" rel="noopener noreferrer" className="block py-2 text-lg font-medium" onClick={() => setOpen(false)}>
@@ -155,9 +154,9 @@ export function SiteHeader() {
                 </ul>
               </div>
             ))}
-            <a href="/newsletter#anmeldung" onClick={() => setOpen(false)} className="flex h-12 items-center justify-center rounded-full bg-primary text-base font-bold text-primary-foreground">
+            {newsletterAvailable ? <a href="/newsletter#anmeldung" onClick={() => setOpen(false)} className="flex h-12 items-center justify-center rounded-full bg-primary text-base font-bold text-primary-foreground">
               Abonnieren
-            </a>
+            </a> : null}
             <button type="button" onClick={toggleTheme} aria-label="Darstellung umschalten" className="inline-flex items-center gap-2 text-base text-muted-foreground">
               {light ? <Moon className="h-5 w-5" aria-hidden="true" /> : <Sun className="h-5 w-5" aria-hidden="true" />} Darstellung: {light ? "Hell" : "Dunkel"}
             </button>

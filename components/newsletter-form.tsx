@@ -21,17 +21,7 @@ export function NewsletterForm({
   returnTo?: string;
   open: boolean;
 }) {
-  if (!open) {
-    return (
-      <div id="anmeldung" className="scroll-mt-24 rounded-2xl border border-border bg-card/60 p-4 text-sm leading-6 text-muted-foreground">
-        <p className="font-medium text-foreground">Newsletter noch nicht geöffnet</p>
-        <p className="mt-2">
-          Es ist kein Versanddienst eingerichtet. Das Formular nimmt deshalb keine Adresse an und speichert nichts.
-        </p>
-        {notice === "aus" ? <p className="mt-2 text-foreground">Es wurde keine Adresse gespeichert.</p> : null}
-      </div>
-    );
-  }
+  if (!open) return null;
   return (
     <form id="anmeldung" action={subscribeNewsletter} className={(compact ? "grid gap-3" : "grid max-w-xl gap-3") + " scroll-mt-24"}>
       <input type="hidden" name="zurueck" value={returnTo} />

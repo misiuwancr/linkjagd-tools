@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Kontakt zur Redaktion von Linkjagd Tools. Die Adresse fehlt noch.",
+  description: "Kontakt und Tool-Vorschläge für Linkjagd Tools.",
   alternates: { canonical: "/kontakt" },
   robots: { index: false, follow: false },
 };
@@ -12,9 +12,8 @@ export default function ContactPage() {
     <article className="page-wrap max-w-3xl py-12 sm:py-16">
       <h1 className="text-4xl font-bold tracking-tight">Kontakt</h1>
       <p className="mt-4 text-muted-foreground">
-        Eine erreichbare Adresse wird hier eingesetzt, sobald sie feststeht. Es ist absichtlich keine E-Mail erfunden.
+        Eine direkte E-Mail-Kontaktadresse ist derzeit nicht veröffentlicht. Tool-Vorschläge kannst du über das Einreichungsformular senden.
       </p>
-      <p className="mt-6 rounded-2xl bg-hunt/10 px-4 py-3 text-sm">[VON MICHAŁ ZU ERGÄNZEN] E-Mail-Adresse der Redaktion</p>
       <p className="mt-6 text-sm leading-6">
         Tool-Vorschläge laufen über <a className="underline" href="/einreichen">Tool einreichen</a> und bleiben Entwürfe.
       </p>

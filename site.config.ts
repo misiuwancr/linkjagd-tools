@@ -42,7 +42,7 @@ export const siteConfig = {
     impressum: {
       title: "Impressum",
       intro:
-        "Diese Seite ist ein Platzhalter. Vor einer öffentlichen Veröffentlichung müssen die Angaben von einer rechtskundigen Person ergänzt werden. Es wurden keine Firmen- oder Rechtsangaben erfunden.",
+        "Die Anbieterangaben sind noch unvollständig. Die fehlenden Angaben sind unten gekennzeichnet.",
       sections: [
         {
           heading: "Anbieter",
@@ -68,7 +68,7 @@ export const siteConfig = {
     datenschutz: {
       title: "Datenschutz",
       intro:
-        "Dieser Text erklärt nur, was die Anwendung in Phase 1 tatsächlich tut. Er ist kein fertiges Datenschutzerklärungsmuster und ersetzt keine rechtliche Prüfung.",
+        "Diese Hinweise beschreiben die Datenverarbeitung der Website. Fehlende Angaben sind gekennzeichnet; eine vollständige rechtliche Prüfung steht noch aus.",
       sections: [
         {
           heading: "Verantwortlicher",
@@ -79,7 +79,6 @@ export const siteConfig = {
           body: [
             "Die öffentliche Website wird bei Vercel ausgeliefert, Funktionsregion Frankfurt (fra1). Die Datenbank der Live-Seite ist Turso, ein libSQL-Dienst, Region aws-eu-central-1. Das beschreibt den tatsächlichen Betrieb und ist kein fertiger Auftragsverarbeitungsvertrag.",
             "[VON MICHAŁ ZU ERGÄNZEN] Auftragsverarbeitung und Kontaktdaten für Datenschutzanfragen.",
-            "Auf dem Rechner der Redaktion kann dieselbe Anwendung zusätzlich eine lokale SQLite-Datei nutzen. Die Live-Einträge liegen in Turso.",
           ],
         },
         {
@@ -93,7 +92,7 @@ export const siteConfig = {
         {
           heading: "Newsletter",
           body: [
-            "Solange kein Versanddienst eingerichtet ist, zeigt das Formular einen Hinweis und speichert keine Adresse.",
+            "Bei deaktivierter Newsletter-Anmeldung ist kein Formular sichtbar und es werden darüber keine Adressen angenommen.",
             "Ist ein Versanddienst eingerichtet und du willigst ein, speichert Linkjagd Tools E-Mail, Zeitpunkt und einen Bestätigungswert. Der Status bleibt offen, bis der Link in der Mail aufgerufen wird.",
             "Ein bestätigter Eintrag kann in der Redaktion als CSV ausgegeben werden. Der Bestätigungswert selbst steht nicht in dieser Datei.",
           ],
@@ -109,8 +108,16 @@ export const siteConfig = {
         {
           heading: "Tool-Einreichung",
           body: [
-            "Angaben aus dem Formular „Tool einreichen“ werden als Entwurf in der Datenbank gespeichert, damit die Redaktion sie prüfen kann. Eine Bestätigungsmail wird nicht versendet.",
+            "Angaben aus dem Formular „Tool einreichen“, einschließlich einer freiwillig angegebenen E-Mail-Adresse, werden als Entwurf in der Datenbank gespeichert, damit die Redaktion sie prüfen kann. Eine Bestätigungsmail wird nicht versendet.",
           ],
+        },
+        {
+          heading: "Merkliste und Darstellung",
+          body: ["Die Merkliste und die gewählte helle oder dunkle Darstellung werden im lokalen Speicher deines Browsers abgelegt. Du kannst diese Angaben über die Website-Daten deines Browsers löschen."],
+        },
+        {
+          heading: "Externe Videos",
+          body: ["Eingebettete Videos werden erst nach Klick auf „Video laden“ vom jeweiligen Anbieter angefordert. Dabei wird eine Verbindung zu diesem Anbieter aufgebaut. Alternativ können Video-Links direkt auf dessen Website führen.", "[VON MICHAŁ ZU ERGÄNZEN] Eingesetzte Videoanbieter, Rechtsgrundlagen und gegebenenfalls Übermittlungen in Drittländer prüfen."],
         },
         {
           heading: "Admin-Sitzung",
@@ -123,12 +130,12 @@ export const siteConfig = {
     affiliate: {
       title: "Affiliate-Hinweis",
       intro:
-        "Linkjagd Tools kann Vergütungen erhalten, wenn du ein Tool über einen gekennzeichneten Partnerlink öffnest. Für dich soll dadurch kein Aufpreis entstehen. Konkrete Sätze und Vertragspartner werden hier nicht erfunden.",
+        "Linkjagd Tools kann Vergütungen erhalten, wenn du ein Tool über einen gekennzeichneten Partnerlink öffnest. Die Preise und Vertragsbedingungen legt der jeweilige Anbieter fest.",
       sections: [
         {
           heading: "Wie Links funktionieren",
           body: [
-            "Auf einer öffentlichen Tool-Seite gibt es höchstens einen ausgehenden Werkzeug-Link. Er führt über /go/[slug].",
+            "Anbieterlinks führen zur offiziellen Website oder bei gekennzeichneten Partnerlinks zu einer hinterlegten Partneradresse.",
             "Mit aktivem Partnerlink ist der Link mit rel=\"sponsored nofollow\" gekennzeichnet. Ohne Partnerlink bleibt er ein normaler Link zur offiziellen Website. Die Weiterleitung ist ein HTTP-302 auf genau die gespeicherte Adresse. Es werden keine Partnerparameter angehängt.",
             "Liegt ein gültiger eigener Partnerlink vor, führt /go/[slug] dorthin und der Button ist als Werbung gekennzeichnet. Ohne Partnerlink führt dieselbe Adresse zur offiziellen Website und wird nicht als Werbung bezeichnet. Es werden keine Empfehlungsparameter angehängt.",
           ],
@@ -136,11 +143,11 @@ export const siteConfig = {
         {
           heading: "Kennzeichnung",
           body: [
-            "Partnerlinks sind im Button-Umfeld als Werbung erkennbar. Beispieldatensätze sind archiviert und erscheinen nicht im öffentlichen Verzeichnis.",
+            "Partnerlinks sind im Button-Umfeld als Werbung erkennbar. Ein Partnerstatus bestimmt nicht automatisch unsere redaktionelle Einordnung.",
           ],
         },
         {
-          heading: "Offen zu lassen",
+          heading: "Ergänzende Angaben",
           body: [
             "[VON MICHAŁ ZU ERGÄNZEN] Konkrete Netzwerke, Provisionshinweise und der finale Transparenztext nach rechtlicher Prüfung.",
           ],

@@ -93,7 +93,7 @@ export default async function HomePage({
               { title: "Geschäftsprozesse automatisieren", text: "Finde den passenden Ansatz für Datenübergaben zwischen deinen Anwendungen.", comparison: comparisons[0], cta: "Zapier, Make und n8n vergleichen" },
             ].map((task) => <Link href={comparisonHref(task.comparison)} key={task.title} className="rounded-2xl border border-border bg-card p-5 transition hover:border-hunt/50"><h2 className="text-xl font-bold">{task.title}</h2><p className="mt-3 text-sm leading-7 text-muted-foreground">{task.text}</p><span className="mt-4 block text-sm font-semibold text-hunt">{task.cta} →</span></Link>)}
           </nav>
-          <p className="mt-6 text-sm"><Link href="/vergleiche" className="font-semibold text-hunt underline">Alle Entscheidungshilfen</Link><span className="px-2 text-muted-foreground">·</span><Link href="/tools" className="text-muted-foreground underline">Gesamtes Verzeichnis erhalten und durchsuchen</Link></p>
+          <p className="mt-6 text-sm"><Link href="/vergleiche" className="font-semibold text-hunt underline">Alle Entscheidungshilfen</Link><span className="px-2 text-muted-foreground">·</span><Link href="/tools" className="text-muted-foreground underline">Alle Tools durchsuchen</Link></p>
           <form action="/tools" method="get" className="mt-8 flex max-w-2xl flex-col gap-2 sm:flex-row" role="search">
             <label htmlFor="start-suche" className="sr-only">
               Tools durchsuchen
@@ -122,7 +122,7 @@ export default async function HomePage({
       ) : null}
 
       <section className="page-wrap grid gap-10 py-6 lg:grid-cols-[minmax(0,1fr)_320px]">
-        <div>
+        <div className="min-w-0">
           <SectionHead kicker="Frisch" title="Neu hinzugefügt" href="/neu" linkLabel="Alle neuen Tools" />
           <div className="mt-4 grid gap-3">
             {newTools.map((tool) => (
@@ -133,17 +133,19 @@ export default async function HomePage({
         <TopToolsSidebar database={database} tools={topTools} />
       </section>
 
+      {newsletterOpen() ? (
       <section className="border-t border-border">
         <div className="page-wrap py-10">
           <h2 className="text-2xl font-bold tracking-tight">Hinweise per Mail</h2>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground">
-            Erst nach den Tools. Ohne Versanddienst wird keine Adresse angenommen.
+            Neue Hinweise von Linkjagd direkt in dein Postfach.
           </p>
           <div className="mt-6">
             <NewsletterForm notice={searchParams.hinweis} returnTo="/" open={newsletterOpen()} />
           </div>
         </div>
       </section>
+      ) : null}
 
       {videoTools.length > 0 ? (
         <section className="border-y border-border bg-card">
@@ -165,7 +167,7 @@ export default async function HomePage({
         <section className="page-wrap py-14">
           <SectionHead kicker="Weiterleitungen" title="Beliebt diese Woche" href="/tools?sort=beliebteste" linkLabel="Nach Klicks sortieren" />
           <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-            Reihenfolge nach echten Klicks auf /go in den letzten sieben Tagen. Ohne genug Klicks bleibt der Block leer.
+            Häufig aufgerufene Anbieter in den letzten sieben Tagen.
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
             {popularTools.map((tool) => (
@@ -216,7 +218,7 @@ function SectionHead({
   linkLabel: string;
 }) {
   return (
-    <div className="flex items-end justify-between gap-4">
+    <div className="flex flex-wrap items-end justify-between gap-4">
       <div>
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">{kicker}</p>
         <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">{title}</h2>
