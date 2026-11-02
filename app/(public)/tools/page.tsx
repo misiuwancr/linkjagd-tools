@@ -11,6 +11,7 @@ import { ActiveDirectoryFilters, DirectorySearch } from "@/components/directory-
 import { companyBySlug } from "@/lib/companies";
 import { indexingPolicy, robotsDirective } from "@/lib/indexing";
 import Link from "next/link";
+import { sortOptions } from "@/lib/labels";
 import { PartnerBanner } from "@/components/partner-banner";
 
 export const revalidate = 60;
@@ -90,6 +91,7 @@ export default async function ToolsPage({
           <p className="text-xs text-muted-foreground">Beispiel-Karten sind keine echten Angebote.</p>
         ) : null}
       </div>
+      <nav aria-label="Ergebnisse sortieren" className="mt-4 flex flex-wrap gap-2">{sortOptions.filter((sort) => showPopular || sort.value !== "popular").map((sort) => <Link key={sort.value} href={directoryHref("/tools", safeQuery, { sort: sort.value, page: 1 })} aria-current={safeQuery.sort === sort.value ? "true" : undefined} className={`rounded-full border px-4 py-2 text-sm ${safeQuery.sort === sort.value ? "border-hunt bg-hunt/10 text-hunt" : "border-border hover:border-hunt/50"}`}>{sort.value === "alpha" ? "A–Z" : sort.label}</Link>)}</nav>
       <div className="mt-4">
         <ToolGrid tools={tools} resetHref="/tools" />
       </div>

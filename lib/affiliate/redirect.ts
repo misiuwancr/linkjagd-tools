@@ -4,7 +4,6 @@ export type RedirectKind = "affiliate" | "official";
 
 export type RedirectDecision =
   | { ok: true; location: string; toolId: string; kind: "affiliate"; programId: string }
-  | { ok: true; location: string; toolId: string; kind: "official"; programId: null }
   | { ok: false; reason: string };
 
 export type UrlCheck =
@@ -93,24 +92,28 @@ export function decideRedirect(
   if (!tool || tool.publishStatus !== "published") {
     return { ok: false, reason: "not_published" };
   }
+  const target = affiliateTarget(programs, tool.originalUrl, siteHost);
+  if (!target) return { ok: false, reason: "affiliate_missing" };
+  return { ok: true, ...target, toolId: tool.id, kind: "affiliate" };
+}
+
+/** Also used by the internal missing-link indicator, independently of publication status. */
+export function affiliateTarget(
+  programs: Pick<AffiliateProgram, "id" | "affiliateUrl" | "status" | "isActive" | "priority">[],
+  originalUrl: string,
+  siteHost?: string,
+) {
   const candidates = programs
     .filter((program) => program.isActive && program.status === "active")
     .sort((a, b) => b.priority - a.priority || a.id.localeCompare(b.id));
   for (const program of candidates) {
-    const checked = validateOutboundUrl(program.affiliateUrl, tool.originalUrl, siteHost);
+    const checked = validateOutboundUrl(program.affiliateUrl, originalUrl, siteHost);
     if (checked.ok) {
       return {
-        ok: true,
         location: checked.url,
         programId: program.id,
-        toolId: tool.id,
-        kind: "affiliate",
       };
     }
   }
-  const official = validateExternalUrl(tool.originalUrl, siteHost);
-  if (official.ok) {
-    return { ok: true, location: official.url, programId: null, toolId: tool.id, kind: "official" };
-  }
-  return { ok: false, reason: official.reason };
+  return null;
 }

@@ -60,8 +60,7 @@ describe("FutureTools-Top-100-Katalog", () => {
     expect(decideRedirect(tool, []).ok).toBe(false);
     const published = { ...tool!, publishStatus: "published" as const };
     const decision = decideRedirect(published, []);
-    expect(decision.ok).toBe(true);
-    if (decision.ok) expect(decision.kind).toBe("official");
+    expect(decision).toEqual({ ok: false, reason: "affiliate_missing" });
     expect(tool?.originalUrl).toBe(entry.originalUrl);
     const again = await importDiscoveredTool(database, {
       name: `${entry.name} Kopie`,

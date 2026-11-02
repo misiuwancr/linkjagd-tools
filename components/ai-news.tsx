@@ -4,9 +4,9 @@ import { publishedAiNews, type AiNews } from "@/lib/ai-news";
 
 export function AiNewsCards({ news }: { news: AiNews[] }) {
   if (!news.length) return <p className="mt-6 rounded-2xl border border-dashed border-border p-6 text-muted-foreground">Noch keine KI-News veröffentlicht. Neue Meldungen erscheinen hier nach redaktioneller Prüfung.</p>;
-  return <ul className="mt-6 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{news.map((item) => <li key={item.id}>
+  return <ul className="mt-6 grid gap-5 md:grid-cols-2">{news.map((item) => <li key={item.id}>
     <article className="h-full overflow-hidden rounded-2xl border border-border bg-card transition-transform duration-200 motion-safe:hover:-translate-y-1">
-      <Image src={item.imageUrl || "/news-placeholder.svg"} alt="" width={640} height={360} unoptimized className="aspect-video w-full object-cover" />
+      {item.imageUrl ? <Image src={item.imageUrl} alt="" width={640} height={360} unoptimized className="aspect-video w-full object-cover" /> : <div aria-hidden="true" className="flex aspect-[3/1] items-end justify-between border-b border-border bg-[radial-gradient(ellipse_at_top_right,rgba(208,255,40,0.2),transparent_75%)] p-5"><span className="text-xs font-semibold uppercase tracking-widest text-hunt">{item.category}</span><span className="text-4xl text-hunt/60">✳</span></div>}
       <div className="p-5"><div className="flex justify-between gap-3 text-xs text-muted-foreground"><span className="text-hunt">{item.category}</span><time dateTime={item.publishedAt}>{new Date(item.publishedAt).toLocaleDateString("de-DE", { timeZone: "Europe/Berlin" })}</time></div>
         <h3 className="mt-3 text-xl font-bold">{item.title}</h3><p className="mt-3 text-sm leading-6 text-muted-foreground">{item.summary}</p>
         <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block text-sm font-semibold text-hunt">Originalquelle: {item.sourceName} ↗</a>

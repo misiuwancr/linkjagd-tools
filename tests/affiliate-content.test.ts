@@ -21,8 +21,8 @@ describe("Affiliate-Messung und Content-Hub", () => {
     const deps = { load: async () => ({ tool: { id: "tool", originalUrl: "https://official.example/path", publishStatus: "published" as const }, programs: [{ id: "program", affiliateUrl: "https://partner.example/stored?ref=test", status: "active" as const, isActive: true, priority: 1 }] }), track, context: { source: "/linkjagd", position: "card" as const } };
     expect(await handleGoRedirect("tool", { ...deps, skipTracking: true })).toEqual({ status: 302, location: "https://partner.example/stored?ref=test" });
     expect(track).not.toHaveBeenCalled();
-    expect(await handleGoRedirect("tool", { ...deps, officialOnly: true })).toEqual({ status: 302, location: "https://official.example/path" });
-    expect(track).toHaveBeenCalledWith(expect.objectContaining({ kind: "official", programId: null, source: "/linkjagd", position: "card" }));
+    expect(await handleGoRedirect("tool", { ...deps, officialOnly: true })).toMatchObject({ status: 404 });
+    expect(track).not.toHaveBeenCalled();
     expect(goHref("tool", "/blog/ratgeber", "article")).not.toContain("destination");
   });
 

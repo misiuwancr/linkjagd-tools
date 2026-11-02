@@ -43,34 +43,18 @@ describe("Weiterleitung /go", () => {
     expect(decision.ok && decision.location).toBe(stored);
   });
 
-  it("leitet ohne Partnerlink auf die offizielle Website, ohne Zusatzparameter", () => {
-    const decision = decideRedirect(tool(), []);
-    expect(decision.ok).toBe(true);
-    if (decision.ok) {
-      expect(decision.kind).toBe("official");
-      expect(decision.programId).toBeNull();
-      expect(decision.location.startsWith("https://nordlicht.example/app")).toBe(true);
-      expect(decision.location).not.toMatch(/ref=|via=|utm_/);
+  it("verwendet die Originaladresse niemals als Ersatz", () => {
+    expect(decideRedirect(tool(), [])).toEqual({ ok: false, reason: "affiliate_missing" });
+  });
+
+  it("blendet fehlende, inaktive und ungültige Partnerlinks aus", () => {
+    for (const extra of [program({ isActive: false }), program({ status: "approved" }), program({ status: "disabled" }), program({ affiliateUrl: null }), program({ affiliateUrl: "javascript:alert(1)" })]) {
+      expect(decideRedirect(tool(), [extra])).toEqual({ ok: false, reason: "affiliate_missing" });
     }
   });
 
-  it("ignoriert deaktivierte Partnerlinks und nutzt dann die offizielle Website", () => {
-    for (const extra of [
-      program({ isActive: false }),
-      program({ status: "approved" }),
-      program({ status: "disabled" }),
-      program({ affiliateUrl: null }),
-    ]) {
-      const decision = decideRedirect(tool(), [extra]);
-      expect(decision.ok).toBe(true);
-      if (decision.ok) expect(decision.kind).toBe("official");
-    }
-  });
-
-  it("lehnt die Original-URL als Partnerziel ab und fällt auf die offizielle Website zurück", () => {
-    const decision = decideRedirect(tool(), [program({ affiliateUrl: original })]);
-    expect(decision.ok).toBe(true);
-    if (decision.ok) expect(decision.kind).toBe("official");
+  it("lehnt eine als Partnerlink eingetragene Originaladresse ab", () => {
+    expect(decideRedirect(tool(), [program({ affiliateUrl: original })]).ok).toBe(false);
     expect(validateOutboundUrl(original, original)).toMatchObject({ reason: "matches_original" });
   });
 
@@ -111,21 +95,11 @@ describe("Weiterleitung /go", () => {
     });
   });
 
-  it("zählt offizielle Klicks ohne Programm und hängt keine Parameter an", async () => {
-    const track = vi.fn(async () => undefined);
-    const result = await handleGoRedirect("nordlicht-chat", {
-      now: new Date("2026-10-31T12:00:00.000Z"),
-      load: async () => ({ tool: tool(), programs: [] }),
-      track,
-    });
-    expect(result.status).toBe(302);
-    if (result.status === 302) expect(result.location).not.toMatch(/ref=|via=/);
-    expect(track).toHaveBeenCalledWith({
-      toolId: "tool-1",
-      programId: null,
-      kind: "official",
-      day: "2026-10-31",
-    });
+  it("antwortet ohne Partnerlink mit 404 und zählt keinen Klick", async () => {
+    const track = vi.fn();
+    const result = await handleGoRedirect("nordlicht-chat", { load: async () => ({ tool: tool(), programs: [] }), track });
+    expect(result.status).toBe(404);
+    expect(track).not.toHaveBeenCalled();
   });
 
   it("leitet auch dann weiter, wenn das Zählen scheitert", async () => {

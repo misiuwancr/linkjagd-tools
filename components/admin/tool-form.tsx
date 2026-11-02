@@ -1,4 +1,5 @@
 "use client";
+import { siteConfig } from "@/site.config";
 
 import { useFormState } from "react-dom";
 import { saveToolAction, type ActionState } from "@/lib/actions/admin";
@@ -228,7 +229,7 @@ export function ToolForm({
       <div className="flex flex-wrap gap-4 text-sm">
         <label className="flex items-center gap-2">
           <input type="checkbox" name="featured" defaultChecked={initial.featured} />
-          Linkjagd-Empfehlung (Bereich „Unsere Empfehlungen“)
+          {siteConfig.name}-Empfehlung (Bereich „Unsere Empfehlungen“)
         </label>
         <label className="flex items-center gap-2">
           <input type="checkbox" name="isExample" defaultChecked={initial.isExample} />
@@ -260,7 +261,7 @@ export function ToolForm({
         <textarea name="internalNotes" defaultValue={initial.internalNotes} className="area" />
       </label>
       <p className="text-xs text-muted-foreground">
-        Quelle: {initial.discoverySource}. Ein veröffentlichtes Tool ohne Partnerlink zeigt den Button „Zur offiziellen Website“. Mit aktivem Partnerlink heißt der Button „Jetzt Tool ausprobieren“ und ist als Werbung gekennzeichnet. Partnerlinks pflegst du unter dem Formular.
+        Quelle: {initial.discoverySource}. Ohne gültigen aktiven Affiliate-Link werden keine Anbieter-Buttons angezeigt. Der Tool-Eintrag bleibt erhalten; intern wird „Affiliate-Link fehlt“ angezeigt. Aktive Partnerlinks sind als Anzeige gekennzeichnet. Partnerlinks pflegst du unter dem Formular.
       </p>
       <button type="submit" className="h-11 rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground">
         Speichern

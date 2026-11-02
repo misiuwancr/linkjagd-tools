@@ -1,3 +1,5 @@
+import { affiliateTarget } from "@/lib/affiliate/redirect";
+import { siteConfig } from "@/site.config";
 import Link from "next/link";
 import { getDb } from "@/db/client";
 import { Flash } from "@/components/admin/shell";
@@ -87,7 +89,7 @@ export default async function AdminToolsPage({
                 : tool.programs.some((program) => program.programPresence === "no")
                   ? "no"
                   : "unknown";
-              const hasOwnLink = tool.programs.some((program) => program.affiliateUrl && program.isActive && program.status === "active");
+              const hasOwnLink = Boolean(affiliateTarget(tool.programs, tool.originalUrl, new URL(siteConfig.url).hostname));
               return (
                 <tr key={tool.id} className="border-b border-border last:border-0">
                   <td className="px-4 py-3">
@@ -99,7 +101,7 @@ export default async function AdminToolsPage({
                   <td className="px-4 py-3">{publishLabels[tool.publishStatus]}</td>
                   <td className="px-4 py-3">{pricingLabel(tool.pricingModel)}</td>
                   <td className="px-4 py-3">{programPresenceLabel(presence)}{presence === "yes" && !hasOwnLink ? ", Link fehlt" : ""}</td>
-                  <td className="px-4 py-3">{hasOwnLink ? "hinterlegt" : "keiner"}</td>
+                  <td className="px-4 py-3">{hasOwnLink ? "hinterlegt" : "Affiliate-Link fehlt"}</td>
                 </tr>
               );
             })}

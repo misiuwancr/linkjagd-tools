@@ -31,13 +31,13 @@ export function ToolCard({ tool, source = "/tools", position = "card" }: { tool:
       <VoteButton slug={tool.slug} name={tool.name} />
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
         <Link href={`/tools/${tool.slug}`} className="inline-flex min-h-10 items-center text-sm font-semibold text-hunt">Details ansehen →</Link>
-        <a
+        {tool.ctaKind === "affiliate" ? <a
           href={goHref(tool.slug, source, position)}
           rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
           className="text-xs font-semibold text-muted-foreground hover:text-foreground"
         >
           {tool.ctaKind === "affiliate" ? "Zum Anbieter · Anzeige ↗" : "Zum Anbieter ↗"}
-        </a>
+        </a> : null}
       </div>
       <div className="mt-3 flex flex-wrap gap-1.5">
         {tool.categories.slice(0, 2).map((category) => (

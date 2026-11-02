@@ -14,6 +14,7 @@ export const licenseOptions: { value: LicenseType; label: string; param: string 
 
 export const sortOptions = [
   { value: "newest", label: "Neueste", param: "neueste" },
+  { value: "oldest", label: "Älteste Einträge", param: "aelteste" },
   { value: "popular", label: "Beliebteste", param: "beliebteste" },
   { value: "alpha", label: "Alphabetisch", param: "alphabetisch" },
   { value: "featured", label: "Redaktionelle Empfehlungen", param: "empfohlen" },

@@ -1,8 +1,10 @@
 import { ImageResponse } from "next/og";
+import { siteConfig } from "@/site.config";
+import { BrandWordmark } from "@/components/brand-wordmark";
 
 export const runtime = "edge";
 
-export const alt = "Linkjagd Tools";
+export const alt = siteConfig.seo.title;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -21,13 +23,13 @@ export default function OpenGraphImage() {
           justifyContent: "space-between",
         }}
       >
-        <div style={{ display: "flex", fontSize: 28, letterSpacing: 6, color: "#C6F531" }}>LINKJAGD TOOLS</div>
+        <div style={{ display: "flex" }}><BrandWordmark width={470} height={93} color="#D0FF28" /></div>
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <div style={{ display: "flex", fontSize: 68, fontWeight: 600, lineHeight: 1.05, maxWidth: 900 }}>
-            Entdecke die besten KI-Tools.
+            {siteConfig.tagline}
           </div>
           <div style={{ display: "flex", fontSize: 28, color: "#C5CEC6" }}>
-            Alltag, Arbeit und Projekte.
+            Websites. KI-Tools. Digitale Entdeckungen.
           </div>
         </div>
       </div>

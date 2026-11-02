@@ -1,3 +1,4 @@
+import { BrandLockup } from "@/components/brand";
 import Link from "next/link";
 import { siteConfig } from "@/site.config";
 
@@ -45,6 +46,7 @@ const columns = [
 export function SiteFooter() {
   return (
     <footer className="mt-20 border-t border-border bg-background">
+      <div className="page-wrap pt-10"><BrandLockup /><p className="mt-3 text-sm text-muted-foreground">{siteConfig.tagline}</p></div>
       <div className="page-wrap grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
         {columns.map((column) => (
           <nav key={column.title} aria-label={column.title}>

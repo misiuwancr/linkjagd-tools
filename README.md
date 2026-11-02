@@ -1,4 +1,4 @@
-# Linkjagd Tools
+# Linknarr
 
 Deutschsprachiges Verzeichnis für KI-Tools. Öffentliche Ausprobieren-Buttons führen nur über `/go/[slug]` und nur auf einen hinterlegten Partnerlink.
 

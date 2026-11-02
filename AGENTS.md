@@ -1,7 +1,7 @@
-# Linkjagd Tools – Projektregeln
+# Linknarr – Projektregeln
 
-Linkjagd Tools ist ein deutsches Verzeichnis für KI-Tools (Alternative zu futuretools.io).
-Live: https://linkjagd-tools.vercel.app.
+Linknarr ist ein deutsches Verzeichnis für KI-Tools (Alternative zu futuretools.io).
+Live: https://linknarr.com.
 Stack: Next.js 14, Drizzle ORM, Turso/libSQL; Hosting auf Vercel.
 Die Seite ist ausschließlich auf Deutsch; keine englische Version bauen.
 Der Markenname steht zentral in `site.config.ts` und soll an einer Stelle austauschbar bleiben.

@@ -33,11 +33,11 @@ export async function handleGoRedirect(
     skipTracking?: boolean;
   },
 ): Promise<GoResult> {
-  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
+  if (deps.officialOnly || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
     return { status: 404, body: unavailable };
   }
   const loaded = await deps.load(slug);
-  const decision = decideRedirect(loaded.tool, deps.officialOnly ? [] : loaded.programs, deps.siteHost);
+  const decision = decideRedirect(loaded.tool, loaded.programs, deps.siteHost);
   if (!decision.ok) return { status: 404, body: unavailable };
   try {
     if (!deps.skipTracking) await deps.track({

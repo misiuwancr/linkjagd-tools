@@ -3,7 +3,7 @@ import { siteConfig } from "@/site.config";
 
 export const metadata: Metadata = {
   title: "Über uns",
-  description: "Linkjagd Tools ist das KI-Verzeichnis zum TikTok-Kanal @linkjagd.",
+  description: `${siteConfig.name} ist das KI-Verzeichnis zum TikTok-Kanal @linkjagd.`,
   alternates: { canonical: "/ueber-uns" },
 };
 
@@ -17,7 +17,7 @@ export default function AboutPage() {
           {siteConfig.name} sammelt KI-Tools für Alltag, Arbeit und Projekte. Hinter dem Verzeichnis steht {siteConfig.creator.name}. Auf TikTok stellt er unter {siteConfig.creator.channel} Websites und Werkzeuge vor.
         </p>
         <p>
-          Empfohlene Tools erscheinen auf der Startseite nur, wenn die Redaktion ein Tool ausdrücklich markiert. Es gibt keine erfundenen Bewertungen, Nutzerzahlen oder Testimonials. Ohne Partnerlink führt der Button zur offiziellen Website. Mit Partnerlink ist er als Werbung gekennzeichnet.
+          Empfohlene Tools erscheinen auf der Startseite nur, wenn die Redaktion ein Tool ausdrücklich markiert. Es gibt keine erfundenen Bewertungen, Nutzerzahlen oder Testimonials. Anbieter-Buttons erscheinen nur mit gültigem aktivem Partnerlink und sind als Werbung gekennzeichnet.
         </p>
         <p>
           <a href={siteConfig.creator.channelUrl} rel="me noopener noreferrer" className="font-medium underline">

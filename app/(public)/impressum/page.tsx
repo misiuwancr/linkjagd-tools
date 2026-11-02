@@ -4,7 +4,7 @@ import { siteConfig } from "@/site.config";
 
 export const metadata: Metadata = {
   title: "Impressum",
-  description: "Anbieterangaben zu Linkjagd Tools; derzeit noch unvollständig.",
+  description: `Anbieterangaben zu ${siteConfig.name}; derzeit noch unvollständig.`,
   alternates: { canonical: "/impressum" },
   robots: { index: false, follow: false },
 };

@@ -1,3 +1,4 @@
+import { siteConfig } from "@/site.config";
 import type { LicenseType, PricingModel } from "@/db/schema";
 
 export type UseCase = {
@@ -43,7 +44,7 @@ export const USE_CASES: UseCase[] = [
     pricing: "",
     license: "",
     faqs: [
-      { question: "Sind das die Tools aus den Linkjagd-Videos?", answer: "Nur wenn beim Tool eine Video-Adresse hinterlegt ist. Diese Sammlung folgt der Kategorie, nicht dem Kanal." },
+      { question: `Sind das die Tools aus den Linkjagd-Videos?`, answer: "Nur wenn beim Tool eine Video-Adresse hinterlegt ist. Diese Sammlung folgt der Kategorie, nicht dem Kanal." },
       { question: "Darf ich die Musik kommerziell nutzen?", answer: "Das steht in den Bedingungen des jeweiligen Anbieters. Das Verzeichnis vergibt keine Nutzungsrechte." },
     ],
   },
@@ -56,7 +57,7 @@ export const USE_CASES: UseCase[] = [
     license: "",
     faqs: [
       { question: "Schreibt das Tool die Bewerbung für mich?", answer: "Es kann einen Entwurf liefern. Für den Inhalt bleibst du verantwortlich." },
-      { question: "Werden meine Unterlagen hier gespeichert?", answer: "Linkjagd Tools speichert keine Bewerbungsunterlagen. Was ein externes Tool speichert, steht in dessen Datenschutzerklärung." },
+      { question: "Werden meine Unterlagen hier gespeichert?", answer: `${siteConfig.name} speichert keine Bewerbungsunterlagen. Was ein externes Tool speichert, steht in dessen Datenschutzerklärung.` },
     ],
   },
   {
@@ -151,14 +152,14 @@ export const USE_CASES: UseCase[] = [
     pricing: "",
     license: "",
     faqs: [
-      { question: "Empfiehlt Linkjagd einen bestimmten Tresor?", answer: "Nein. Es gibt keine Rangfolge." },
-      { question: "Liegen meine Passwörter bei Linkjagd?", answer: "Nein. Das Verzeichnis speichert keine Zugangsdaten." },
+      { question: `Empfiehlt ${siteConfig.name} einen bestimmten Tresor?`, answer: "Nein. Es gibt keine Rangfolge." },
+      { question: `Liegen meine Passwörter bei ${siteConfig.name}?`, answer: "Nein. Das Verzeichnis speichert keine Zugangsdaten." },
     ],
   },
   {
     slug: "newsletter",
     title: "Tools für Newsletter",
-    intro: "Wer eine Liste selbst verschickt, braucht einen Versanddienst. Hier stehen veröffentlichte Marketing-Werkzeuge. Linkjagd Tools selbst verschickt keinen Newsletter und speichert dafür keine Adressen.",
+    intro: `Wer eine Liste selbst verschickt, braucht einen Versanddienst. Hier stehen veröffentlichte Marketing-Werkzeuge. ${siteConfig.name} selbst verschickt keinen Newsletter und speichert dafür keine Adressen.`,
     categorySlug: "marketing-social",
     pricing: "",
     license: "",
@@ -187,7 +188,7 @@ export const USE_CASES: UseCase[] = [
     pricing: "",
     license: "",
     faqs: [
-      { question: "Gibt es Vorlagen von Linkjagd?", answer: "Nein. Vorlagen gehören zum jeweiligen Tool." },
+      { question: `Gibt es Vorlagen von ${siteConfig.name}?`, answer: "Nein. Vorlagen gehören zum jeweiligen Tool." },
       { question: "Werden Folien hier gehostet?", answer: "Nein. Die Seite verlinkt nur." },
     ],
   },

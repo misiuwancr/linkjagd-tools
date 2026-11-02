@@ -97,6 +97,7 @@ function companySql(slug: string): SQL {
 
 function orderBy(query: ToolListQuery) {
   const clicks = sql`(select coalesce(sum(count), 0) from click_daily where tool_id = ${tools.id})`;
+  if (query.sort === "oldest") return [asc(tools.createdAt), asc(tools.id)];
   if (query.sort === "alpha") return [sql`lower(${tools.name})`, asc(tools.id)];
   if (query.sort === "freeFirst") {
     return [sql`case ${tools.pricingModel} when 'free' then 0 when 'freemium' then 1 else 2 end`, desc(tools.createdAt), asc(tools.id)];

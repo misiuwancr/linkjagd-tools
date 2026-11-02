@@ -1,11 +1,11 @@
 {
-  "name": "linkjagd-tools",
+  "name": "linknarr",
   "version": "0.1.0",
   "private": true,
   "engines": {
     "node": "22.x"
   },
-  "description": "Linkjagd Tools – deutschsprachiges Verzeichnis für KI-Tools mit Affiliate-Weiterleitung.",
+  "description": "Linknarr – deutschsprachige Plattform für Websites, KI-Tools und digitale Anwendungen.",
   "scripts": {
     "dev": "next dev -H 0.0.0.0 -p 4327",
     "build": "tsx db/setup.ts && next build",

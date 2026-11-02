@@ -1,4 +1,4 @@
-import { decideRedirect } from "@/lib/affiliate/redirect";
+import { affiliateTarget, decideRedirect } from "@/lib/affiliate/redirect";
 import { siteConfig } from "@/site.config";
 import { notFound } from "next/navigation";
 import { getDb } from "@/db/client";
@@ -87,9 +87,10 @@ export default async function EditToolPage({
 
       <section className="rounded-3xl border border-border bg-card p-5">
         <h2 className="text-xl font-bold">Partnerprogramme</h2>
-        <p className="mt-3 break-all rounded-xl border border-border p-3 text-sm">{redirectTarget.ok ? <>Aktuelles Weiterleitungsziel: <strong>{redirectTarget.kind === "affiliate" ? "Partnerlink · Anzeige" : "Offizielle Anbieter-URL"}</strong><br />{redirectTarget.location}{redirectTarget.kind === "affiliate" ? <><br />Interne Programmkennung: {redirectTarget.programId}</> : null}</> : "Kein gültiges Weiterleitungsziel hinterlegt."}</p>
+        {!affiliateTarget(tool.programs, tool.originalUrl, new URL(siteConfig.url).hostname) ? <p className="mt-2 font-semibold text-amber-300">Affiliate-Link fehlt</p> : null}
+        <p className="mt-3 break-all rounded-xl border border-border p-3 text-sm">{redirectTarget.ok ? <>Aktuelles Weiterleitungsziel: <strong>{redirectTarget.kind === "affiliate" ? "Partnerlink · Anzeige" : "Offizielle Anbieter-URL"}</strong><br />{redirectTarget.location}{redirectTarget.kind === "affiliate" ? <><br />Interne Programmkennung: {redirectTarget.programId}</> : null}</> : "Kein öffentliches Weiterleitungsziel verfügbar."}</p>
         <p className="mt-2 text-sm text-muted-foreground">
-          Der öffentliche Button bleibt /go und die Adresse der Detailseite ändert sich nicht. Liegt ein aktiver Partnerlink vor, geht die Weiterleitung dorthin und wird als Werbung gekennzeichnet. Sonst geht sie zur offiziellen Website, ohne Partnerkennzeichnung. Die Originaladresse wird nicht als Partnerlink gespeichert.
+          Der öffentliche Button bleibt /go und die Adresse der Detailseite ändert sich nicht. Liegt ein aktiver Partnerlink vor, geht die Weiterleitung dorthin und wird als Werbung gekennzeichnet. Ohne gültigen Affiliate-Link werden öffentliche Anbieter-Buttons ausgeblendet. Die Originaladresse wird weder als Ersatz verwendet noch als Partnerlink gespeichert.
         </p>
         <div className="mt-4 grid gap-4">
           {tool.programs.map((program) => (

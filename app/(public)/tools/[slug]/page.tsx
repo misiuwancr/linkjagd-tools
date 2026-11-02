@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     published: tool.publishStatus === "published" && !tool.isExample,
   });
   return {
-    title: toolMetaTitle(publicTool.name),
+    title: { absolute: toolMetaTitle(publicTool.name) },
     description,
     robots: robotsDirective(index),
     alternates: { canonical: `/tools/${publicTool.slug}` },
@@ -68,7 +68,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
   const offer = softwareOffer(tool.pricingModel);
   const category = tool.categories[0];
   const crumbs = [
-    { name: "Linkjagd Tools", url: siteConfig.url },
+    { name: siteConfig.name, url: siteConfig.url },
     { name: "Alle Tools", url: new URL("/tools", siteConfig.url).toString() },
     ...(category
       ? [{ name: category.name, url: new URL(`/kategorien/${category.slug}`, siteConfig.url).toString() }]
@@ -153,7 +153,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
             </p>
           ) : null}
           <div className="mt-5">
-            {tool.ctaKind === "disabled" ? null : (
+            {tool.ctaKind !== "affiliate" ? null : (
               <a
                 href={goHref(tool.slug, "/tools/" + tool.slug, "hero")}
                 rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
@@ -196,35 +196,11 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
               <dd className="font-medium">{tool.noSignup === "ja" ? "Ja" : tool.noSignup === "nein" ? "Nein" : "Unklar"}</dd>
             </div>
           </dl>
-          <div className="mt-5">
-            {tool.ctaKind === "disabled" ? (
-              <button
-                type="button"
-                disabled
-                className="flex h-12 w-full cursor-not-allowed items-center justify-center rounded-xl bg-secondary px-4 text-sm font-semibold text-muted-foreground"
-              >
-                Zur Website
-              </button>
-            ) : (
-              <a
-                href={goHref(tool.slug, "/tools/" + tool.slug, "sidebar")}
-                rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "noopener noreferrer"}
-                className="flex h-12 items-center justify-center rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground"
-              >
-                {tool.ctaKind === "affiliate" ? "Jetzt Tool ausprobieren" : "Zur offiziellen Website"}
-              </a>
-            )}
-            <p className="mt-3 text-xs leading-5 text-muted-foreground">
-              {tool.ctaKind === "affiliate"
-                ? "Werbung. Der Button ist ein Partnerlink. Für dich entsteht dadurch kein Aufpreis."
-                : tool.ctaKind === "official"
-                  ? "Kein Partnerlink. Der Button führt zur offiziellen Website, ohne zusätzliche Empfehlungsparameter."
-                  : "Für dieses Tool ist keine gültige Zieladresse hinterlegt."}
-            </p>
-            <Link href="/affiliate-hinweis" className="mt-2 inline-block text-xs font-medium underline">
-              Affiliate-Hinweis
-            </Link>
-          </div>
+          {tool.ctaKind === "affiliate" ? <div className="mt-5">
+            <a href={goHref(tool.slug, "/tools/" + tool.slug, "sidebar")} rel="sponsored nofollow noopener" className="flex h-12 items-center justify-center rounded-xl bg-primary px-4 text-sm font-semibold text-primary-foreground">Jetzt Tool ausprobieren · Anzeige</a>
+            <p className="mt-3 text-xs leading-5 text-muted-foreground">Werbung. Preise und Bedingungen legt der Anbieter fest.</p>
+            <Link href="/affiliate-hinweis" className="mt-2 inline-block text-xs font-medium underline">Affiliate-Hinweis</Link>
+          </div> : null}
         </aside>
       </header>
       <ToolArticles slug={tool.slug} />
@@ -367,19 +343,9 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
         </div>
         <div className="hidden lg:block" />
       </div>
-      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-card/95 p-3 backdrop-blur sm:hidden">
-        {tool.ctaKind === "disabled" ? (
-          <p className="text-center text-sm text-muted-foreground">Keine Zieladresse hinterlegt.</p>
-        ) : (
-          <a
-            href={goHref(tool.slug, "/tools/" + tool.slug, "sticky")}
-            rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
-            className="flex h-12 items-center justify-center rounded-xl bg-primary text-sm font-semibold text-primary-foreground"
-          >
-            {tool.ctaKind === "affiliate" ? "Testen · Anzeige" : "Zur offiziellen Website"}
-          </a>
-        )}
-      </div>
+      {tool.ctaKind === "affiliate" ? <div className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-card/95 p-3 backdrop-blur sm:hidden">
+        <a href={goHref(tool.slug, "/tools/" + tool.slug, "sticky")} rel="sponsored nofollow noopener" className="flex h-12 items-center justify-center rounded-xl bg-primary text-sm font-semibold text-primary-foreground">Testen · Anzeige</a>
+      </div> : null}
     </div>
   );
 }
