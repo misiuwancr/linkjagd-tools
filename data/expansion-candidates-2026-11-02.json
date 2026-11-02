@@ -1431,7 +1431,7 @@
     "name": "MyBB",
     "originalUrl": "https://mybb.com/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "NodeBB",
@@ -1443,7 +1443,7 @@
     "name": "OSSN",
     "originalUrl": "https://www.opensource-socialnetwork.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "phpBB",
@@ -1455,7 +1455,7 @@
     "name": "PieFed",
     "originalUrl": "https://join.piefed.social",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "PixelFed",
@@ -1467,7 +1467,7 @@
     "name": "Pleroma",
     "originalUrl": "https://pleroma.social",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "qpixel",
@@ -1509,7 +1509,7 @@
     "name": "yarn.social",
     "originalUrl": "https://yarn.social",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "BigBlueButton",
@@ -1521,7 +1521,7 @@
     "name": "Galene",
     "originalUrl": "https://galene.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Janus",
@@ -1563,25 +1563,25 @@
     "name": "plugNmeet",
     "originalUrl": "https://www.plugnmeet.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "ejabberd",
     "originalUrl": "https://www.ejabberd.im/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "MongooseIM",
     "originalUrl": "https://www.erlang-solutions.com/products/mongooseim.html",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Openfire",
     "originalUrl": "https://www.igniterealtime.org/projects/openfire/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Prosody IM",
@@ -1677,13 +1677,13 @@
     "name": "motion.tools (Antragsgrün)",
     "originalUrl": "https://motion.tools/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "OpenSlides",
     "originalUrl": "https://openslides.com/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "osem",
@@ -1713,13 +1713,13 @@
     "name": "Automad",
     "originalUrl": "https://automad.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Backdrop CMS",
     "originalUrl": "https://backdropcms.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Bolt CMS",
@@ -1737,13 +1737,13 @@
     "name": "Cockpit",
     "originalUrl": "https://getcockpit.com",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Concrete 5 CMS",
     "originalUrl": "https://www.concretecms.com",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Contao",
@@ -1767,7 +1767,7 @@
     "name": "eLabFTW",
     "originalUrl": "https://www.elabftw.net",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Expressa",
@@ -1779,13 +1779,13 @@
     "name": "Joomla!",
     "originalUrl": "https://www.joomla.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "KeystoneJS",
     "originalUrl": "https://keystonejs.com/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "MODX",
@@ -1797,7 +1797,7 @@
     "name": "Neos",
     "originalUrl": "https://www.neos.io",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Noosfero",
@@ -1839,7 +1839,7 @@
     "name": "Pushword",
     "originalUrl": "https://pushword.piedweb.com",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "REDAXO",
@@ -1863,7 +1863,7 @@
     "name": "Squidex",
     "originalUrl": "https://squidex.io",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Strapi",
@@ -1875,13 +1875,13 @@
     "name": "Textpattern",
     "originalUrl": "https://textpattern.com/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Typemill",
     "originalUrl": "https://typemill.net/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "TYPO3",
@@ -1911,7 +1911,7 @@
     "name": "WinterCMS",
     "originalUrl": "https://wintercms.com/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "WonderCMS",
@@ -1935,7 +1935,7 @@
     "name": "Django-CRM",
     "originalUrl": "https://DjangoCRM.github.io/info/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "EspoCRM",
@@ -1953,13 +1953,13 @@
     "name": "Relaticle",
     "originalUrl": "https://relaticle.com",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "SuiteCRM",
     "originalUrl": "https://suitecrm.com",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Twenty",
@@ -1971,7 +1971,7 @@
     "name": "Adminer",
     "originalUrl": "https://www.adminer.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Azimutt",
@@ -2001,7 +2001,7 @@
     "name": "ChartDB",
     "originalUrl": "https://chartdb.io/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "CloudBeaver",
@@ -2013,7 +2013,7 @@
     "name": "d9",
     "originalUrl": "https://d9.webcapsule.io",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Databunker",
@@ -2037,7 +2037,7 @@
     "name": "drawDB",
     "originalUrl": "https://www.drawdb.app",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Evidence",
@@ -2049,7 +2049,7 @@
     "name": "LibreDB Studio",
     "originalUrl": "https://libredb.org",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Limbas",
@@ -2073,7 +2073,7 @@
     "name": "StackRender",
     "originalUrl": "https://stackrender.io/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "AdGuard Home",
@@ -2097,7 +2097,7 @@
     "name": "Numa",
     "originalUrl": "https://numa.rs/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Pi-hole",
@@ -2109,13 +2109,13 @@
     "name": "Technitium DNS Server",
     "originalUrl": "https://technitium.com/dns/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Bottle Rocket",
     "originalUrl": "https://bottle-rocket.app/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Docspell",
@@ -2133,7 +2133,7 @@
     "name": "Docuseal",
     "originalUrl": "https://www.docuseal.co",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "EveryDocs",
@@ -2145,7 +2145,7 @@
     "name": "Gotenberg",
     "originalUrl": "https://gotenberg.dev",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "I, Librarian",
@@ -2271,7 +2271,7 @@
     "name": "Kavita",
     "originalUrl": "https://www.kavitareader.com/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "kiwix-serve",
@@ -2325,7 +2325,7 @@
     "name": "Islandora",
     "originalUrl": "https://www.islandora.ca/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Samvera Hyrax",
@@ -2355,7 +2355,7 @@
     "name": "Aimeos",
     "originalUrl": "https://aimeos.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Bagisto",
@@ -2415,7 +2415,7 @@
     "name": "s-cart",
     "originalUrl": "https://s-cart.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Saleor",
@@ -2523,7 +2523,7 @@
     "name": "Miniflux",
     "originalUrl": "https://miniflux.app/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "NewsBlur",
@@ -2589,7 +2589,7 @@
     "name": "Tiny Tiny RSS",
     "originalUrl": "https://tt-rss.org",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "TinyFeed",
@@ -2673,7 +2673,7 @@
     "name": "Samba",
     "originalUrl": "https://www.samba.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Seafile",
@@ -2745,13 +2745,13 @@
     "name": "DashBeam",
     "originalUrl": "https://dashbeam.net",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "Deluge",
     "originalUrl": "https://deluge-torrent.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "PrivyDrop",
@@ -2871,7 +2871,7 @@
     "name": "ProjectSend",
     "originalUrl": "https://www.projectsend.org/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "PsiTransfer",
@@ -2973,7 +2973,7 @@
     "name": "FileGator",
     "originalUrl": "https://filegator.io/",
     "source": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "status": "unverified"
+    "status": "reviewed-ready"
   },
   {
     "name": "FileRise",

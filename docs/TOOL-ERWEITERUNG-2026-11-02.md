@@ -13,8 +13,8 @@ Der Nutzer hat Veröffentlichung und Deployment ausdrücklich freigegeben und de
 | Erkannte Überschneidungen im Kandidatenpool | 158 |
 | Potenziell neue Kandidaten | 1.042 |
 | Offizielle Zielseite erreichbar | 712 |
-| Inhaltlich geprüft, deutsche Beschreibung und Preis-/Lizenzbeleg vorbereitet | 50 |
-| Erreichbar, aber noch nicht vollständig redaktionell geprüft | 662 |
+| Inhaltlich geprüft, deutsche Beschreibung und Preis-/Lizenzbeleg vorbereitet | 100 |
+| Erreichbar, aber noch nicht vollständig redaktionell geprüft | 612 |
 | Technisch problematisch oder automatisierte Prüfung zurückgestellt | 330 |
 | Lokal freigabe-/importbereit | 50 |
 | Tatsächlich neu in Produktion importiert | **50** |
@@ -59,7 +59,7 @@ Abschließend bestätigt: `npm test` 110 Tests in 53 Dateien erfolgreich; `npm r
 
 ## Noch offen
 
-662 erreichbare Kandidaten brauchen individuelle inhaltliche Prüfung, deutsche Beschreibung und belastbare Preis-/Lizenzinformationen. 330 Fälle bleiben zurückgestellt. Für das Ziel von 1.000 **veröffentlichten** neuen Tools sind weitere Belege und gegebenenfalls weitere erlaubte Entdeckungsquellen nötig. Fehlende Daten werden nicht erfunden, unvollständige Kandidaten nicht veröffentlicht.
+612 erreichbare Kandidaten brauchen individuelle inhaltliche Prüfung, deutsche Beschreibung und belastbare Preis-/Lizenzinformationen. 330 Fälle bleiben zurückgestellt. Für das Ziel von 1.000 **veröffentlichten** neuen Tools sind weitere Belege und gegebenenfalls weitere erlaubte Entdeckungsquellen nötig. Fehlende Daten werden nicht erfunden, unvollständige Kandidaten nicht veröffentlicht.
 
 Der frühere HTTP-403-Zugriffsblock ist aufgehoben. Die Produktions-Zugangsdaten sind als nicht auslesbare Vercel-Geheimnisse hinterlegt. Der Import wurde deshalb innerhalb der bestehenden Vercel-Buildumgebung mit deren vorhandenen Zugangsdaten ausgeführt; keine Geheimnisse ausgelesen, exportiert oder in Logs geschrieben, keine Geheimnis-Einstellungen geändert.
 
@@ -76,3 +76,9 @@ Das Import-Deployment ist **READY** und der öffentlichen Domain `linkjagd-tools
 Vercel-Funktionsprotokolle für dieses Import-Deployment, 20:35:17–20:50:17 UTC, Level `error`/`fatal`: keine passenden Logs. Dies ist eine abgegrenzte Beobachtung, keine unbegrenzte Stabilitätsgarantie. Keine erneute vollständige Prüfung aller 1.706 URLs behauptet; der große initiale Produktionslauf ist im separaten Stabilitätsbericht dokumentiert.
 
 Der Build-Befehl dieses Import-Deployments besteht aus dem geprüften Batch-Importer und dem bestehenden regulären Website-Build. Bei gewöhnlichen späteren Git-Deployments bleibt der normale Paket-Build maßgeblich; es wurde kein automatischer Import in `package.json` ergänzt. Ein erneuter Batch-Aufruf würde die bereits vorhandenen 50 Einträge überspringen.
+
+## Zweiter vorbereiteter Batch
+
+`data/expansion-reviewed-batch2-2026-11-02.json` enthält weitere 50 eigenständig beschriebene und anhand offizieller Seiten geprüfte Tools, darunter CMS, Dokumentenwerkzeuge, Webkonferenzen und E-Commerce-Software. Bei der Preisangabe ist jeweils die freie selbst betriebene Ausgabe gemeint; kostenpflichtige Hosting- oder Zusatzangebote werden nicht als kostenlos ausgegeben. Automad wird insbesondere nicht unbelegt als Open Source klassifiziert: Die offizielle Seite beschreibt eine kostenlose Nutzung für persönliche und kommerzielle Projekte, aber eine Source-available-Lizenz.
+
+Dry-Run gegen isolierte Bestandskopie einschließlich der ersten 50 Einträge: 50 `ready`, keine Duplikate oder Validierungsfehler. Der produktive Import dieses zweiten Batches ist noch nicht als durchgeführt zu zählen; bis dahin bleiben kumulativ 50 tatsächlich veröffentlichte Einträge maßgeblich.
