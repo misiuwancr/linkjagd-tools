@@ -1,6 +1,6 @@
 # Erweiterung des Verzeichnisses – Stand 2. November 2026
 
-Der Nutzer hat Veröffentlichung und Deployment ausdrücklich freigegeben und den Vercel-Teamzugriff anschließend aktiviert. **50 neue Tools sind in der Produktionsdatenbank veröffentlicht**. Das Gesamtziel von 1.000 veröffentlichten neuen Tools ist noch nicht erreicht.
+Der Nutzer hat Veröffentlichung und Deployment ausdrücklich freigegeben und den Vercel-Teamzugriff anschließend aktiviert. **100 neue Tools sind in der Produktionsdatenbank veröffentlicht**. Das Gesamtziel von 1.000 veröffentlichten neuen Tools ist noch nicht erreicht.
 
 ## Tatsächliche Zahlen
 
@@ -12,12 +12,12 @@ Der Nutzer hat Veröffentlichung und Deployment ausdrücklich freigegeben und de
 | Zusätzlich vorhandene Importdatensätze geprüft | 1.587 |
 | Erkannte Überschneidungen im Kandidatenpool | 158 |
 | Potenziell neue Kandidaten | 1.042 |
-| Offizielle Zielseite erreichbar | 712 |
-| Inhaltlich geprüft, deutsche Beschreibung und Preis-/Lizenzbeleg vorbereitet | 100 |
-| Erreichbar, aber noch nicht vollständig redaktionell geprüft | 612 |
-| Technisch problematisch oder automatisierte Prüfung zurückgestellt | 330 |
+| Offizielle Zielseite erreichbar | 1.007 |
+| Inhaltlich geprüft, deutsche Beschreibung und Preis-/Lizenzbeleg vorbereitet | 150 |
+| Erreichbar, aber noch nicht vollständig redaktionell geprüft | 857 |
+| Technisch problematisch oder automatisierte Prüfung zurückgestellt | 35 |
 | Lokal freigabe-/importbereit | 50 |
-| Tatsächlich neu in Produktion importiert | **50** |
+| Tatsächlich neu in Produktion importiert | **100** |
 
 Die 158 Überschneidungen umfassen Produktnamen, Domains, vorhandene Importdateien und Wiederholungen innerhalb der Quelle. Sie sind nicht zusätzlich zu den 1.626 Bestandsdatensätzen zu addieren. Abgleich basiert auf einer lokalen Bestandskopie; die verbindliche erneute Duplikaterkennung gegen die produktive Datenbank erfolgt direkt vor jedem Import. „Erreichbar“ ist keine vollständige Produktprüfung und keine automatische Veröffentlichungsfreigabe.
 
@@ -25,11 +25,13 @@ Die 158 Überschneidungen umfassen Produktnamen, Domains, vorhandene Importdatei
 
 FutureTools wurde als gewünschte Referenz untersucht. Die [Nutzungsbedingungen](https://app.termly.io/document/terms-of-use-for-website/e9e30fa0-42fc-4d01-8def-22f74cf7096f) untersagen systematische Entnahme für ein eigenes Verzeichnis ohne schriftliche Erlaubnis. Eine zunächst begonnene Entdeckung wurde gestoppt; daraus entstandene Zwischenliste verworfen. Keine FutureTools-Beschreibungen, Bewertungen, Bilder oder Logos übernommen.
 
-Die finale Kandidatenliste enthält Produktnamen und offizielle Links aus [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted), Stand 2. November 2026. Die daraus abgeleitete Kandidatenliste wird unter derselben [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) bereitgestellt; Urheber: Awesome-Selfhosted-Mitwirkende. Änderungen: Extraktion von Namen/Links, Abgleich, Statusfelder. Keine Übernahme der englischen Verzeichnisbeschreibungen in öffentliche Tooltexte. Die 50 deutschen Kurzbeschreibungen sind eigenständig auf Grundlage der jeweiligen offiziellen Produktseiten formuliert. Hersteller-Metadaten in der Prüfdatei dienen ausschließlich als nachvollziehbare Recherchebelege.
+Die finale Kandidatenliste enthält Produktnamen und offizielle Links aus [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted), Stand 2. November 2026. Die daraus abgeleitete Kandidatenliste wird unter derselben [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) bereitgestellt; Urheber: Awesome-Selfhosted-Mitwirkende. Änderungen: Extraktion von Namen/Links, Abgleich, Statusfelder. Keine Übernahme der englischen Verzeichnisbeschreibungen in öffentliche Tooltexte. Die deutschen Kurzbeschreibungen sind eigenständig auf Grundlage der jeweiligen offiziellen Produktseiten formuliert. Hersteller-Metadaten in der Prüfdatei dienen ausschließlich als nachvollziehbare Recherchebelege.
 
-Diese erste Quelle enthält überdurchschnittlich viele selbst betriebene Anwendungen. Die 50 fertigen Einträge sind kein Nachweis, dass die gesamte strategische Breite des gewünschten Verzeichnisses bereits abgedeckt oder das Ziel von 1.000 neuen geprüften Tools erreicht ist.
+Diese erste Quelle enthält überdurchschnittlich viele selbst betriebene Anwendungen. Die vorbereiteten Einträge sind kein Nachweis, dass die gesamte strategische Breite des gewünschten Verzeichnisses bereits abgedeckt oder das Ziel von 1.000 neuen geprüften Tools erreicht ist.
 
-Drei Worker, kurze Pausen, maximal ein robots.txt-Abruf und ein Seitenabruf je Kandidat. Bei unklaren robots-Regeln konservativ zurückgestellt; diese Einordnung ist kein Nachweis, dass der Anbieter tatsächlich offline oder für jeden Agenten gesperrt ist. 308 solche Fälle, sieben robots-HTTP-403, ein robots-HTTP-503, sechs Timeouts, drei Transportfehler, vier Zielseiten mit HTTP 403 und eine mit HTTP 503. Keine Sperren umgangen. Weitere gezielte Abrufe für die 50 überprüften Einträge.
+Drei Worker, kurze Pausen, zunächst maximal ein robots.txt-Abruf und ein Seitenabruf je Kandidat. Der erste konservative Prüfer stellte 308 Fälle mit unklaren robots-Regeln zurück, ohne eine echte Sperre für den eingesetzten Agenten nachzuweisen. Diese Prüfung war zu streng: Sie bezog auch Regeln für andere Bots ein. `lib/import/robots.ts` prüft nun passende User-Agent-Gruppen, spezifische Allow-/Disallow-Regeln, Wildcards und Endanker; zwei Regressionstests sichern dieses Verhalten ab. Bei Weiterleitungen werden auch die passenden Regeln des neuen Ziels geprüft.
+
+Die 308 betroffenen Kandidaten wurden mit der korrigierten Prüfung erneut kontrolliert. Ergebnis über alle 1.042 neuen Kandidaten: 1.007 Zielseiten erreichbar, 35 weiterhin problematisch (sieben robots-HTTP-403, sechs tatsächliche passende robots-Sperren, ein robots-HTTP-503, sechs Timeouts, drei Transportfehler, acht Zielseiten mit HTTP 403 sowie jeweils einmal HTTP 404, 521, 402 und 503). Keine Sperren umgangen. Weitere gezielte Abrufe dienen der individuellen Produkt-/Preisprüfung; ein technisch erreichbarer Kandidat wird dadurch nicht automatisch veröffentlicht.
 
 Preise nur als belegtes Modell, keine dauerhaft gültigen Zahlen zugesichert. Bei freien selbst betriebenen Ausgaben bezieht sich „kostenlos“ auf die Software, nicht auf Hosting oder Betrieb. Kostenpflichtige Cloudprodukte und freie Ausgaben werden in den deutschen Beschreibungen unterschieden. Unklare Lizenzen werden nicht pauschal als geprüftes Open Source ausgezeichnet. Bei Healthchecks und SimpleLogin die separate offizielle Preisseite als Preisbeleg hinterlegt.
 
@@ -59,7 +61,7 @@ Abschließend bestätigt: `npm test` 110 Tests in 53 Dateien erfolgreich; `npm r
 
 ## Noch offen
 
-612 erreichbare Kandidaten brauchen individuelle inhaltliche Prüfung, deutsche Beschreibung und belastbare Preis-/Lizenzinformationen. 330 Fälle bleiben zurückgestellt. Für das Ziel von 1.000 **veröffentlichten** neuen Tools sind weitere Belege und gegebenenfalls weitere erlaubte Entdeckungsquellen nötig. Fehlende Daten werden nicht erfunden, unvollständige Kandidaten nicht veröffentlicht.
+857 erreichbare Kandidaten brauchen individuelle inhaltliche Prüfung, deutsche Beschreibung und belastbare Preis-/Lizenzinformationen. 35 Fälle bleiben zurückgestellt. Für das Ziel von 1.000 **veröffentlichten** neuen Tools sind weitere Belege und gegebenenfalls weitere erlaubte Entdeckungsquellen nötig. Fehlende Daten werden nicht erfunden, unvollständige Kandidaten nicht veröffentlicht.
 
 Der frühere HTTP-403-Zugriffsblock ist aufgehoben. Die Produktions-Zugangsdaten sind als nicht auslesbare Vercel-Geheimnisse hinterlegt. Der Import wurde deshalb innerhalb der bestehenden Vercel-Buildumgebung mit deren vorhandenen Zugangsdaten ausgeführt; keine Geheimnisse ausgelesen, exportiert oder in Logs geschrieben, keine Geheimnis-Einstellungen geändert.
 
@@ -81,4 +83,12 @@ Der Build-Befehl dieses Import-Deployments besteht aus dem geprüften Batch-Impo
 
 `data/expansion-reviewed-batch2-2026-11-02.json` enthält weitere 50 eigenständig beschriebene und anhand offizieller Seiten geprüfte Tools, darunter CMS, Dokumentenwerkzeuge, Webkonferenzen und E-Commerce-Software. Bei der Preisangabe ist jeweils die freie selbst betriebene Ausgabe gemeint; kostenpflichtige Hosting- oder Zusatzangebote werden nicht als kostenlos ausgegeben. Automad wird insbesondere nicht unbelegt als Open Source klassifiziert: Die offizielle Seite beschreibt eine kostenlose Nutzung für persönliche und kommerzielle Projekte, aber eine Source-available-Lizenz.
 
-Dry-Run gegen isolierte Bestandskopie einschließlich der ersten 50 Einträge: 50 `ready`, keine Duplikate oder Validierungsfehler. Der produktive Import dieses zweiten Batches ist noch nicht als durchgeführt zu zählen; bis dahin bleiben kumulativ 50 tatsächlich veröffentlichte Einträge maßgeblich.
+Dry-Run gegen isolierte Bestandskopie einschließlich der ersten 50 Einträge: 50 `ready`, keine Duplikate oder Validierungsfehler.
+
+Anschließend produktiv bestätigt: [Deployment AsxC1QgwKJnmZYmhXjHaAhprDCRA](https://vercel.com/linkjagd/linkjagd-tools/AsxC1QgwKJnmZYmhXjHaAhprDCRA), gepinnter main-Stand `f8d9e66`. Zuerst 50 `ready` gegen die Live-Datenbank, danach 50 `published`, regulärer Build und Produktionszuweisung erfolgreich. Alle 50 neuen Profile nach dem Release HTTP 200 mit erwarteter deutscher Beschreibung und Canonical; alle in der Sitemap enthalten. Sitemap nun **1.756 URLs**, also 100 zusätzliche URLs gegenüber dem Ausgangsstand. Keine passenden error/fatal-Protokolle dieses Deployments im abgefragten Zeitraum 20:52:46–21:07:46 UTC. Damit **100 tatsächlich veröffentlichte neue Tools**.
+
+## Dritter vorbereiteter Batch
+
+`data/expansion-reviewed-batch3-2026-11-02.json`: weitere 50 individuell geprüfte und eigenständig beschriebene Werkzeuge. Preisbelege beziehen sich jeweils auf die freie selbst betriebene Ausgabe; bei Faved ausdrücklich auf Classic, bei Chobble Tickets auf den selbst betriebenen Quellcode statt auf den bezahlten Hostingtarif. Dry-Run gegen isolierte Bestandskopie einschließlich der ersten 100 neuen Tools: 50 `ready`, keine Duplikate oder Validierungsfehler. Diese 50 werden bis zur tatsächlichen Produktionsausführung nicht als veröffentlicht gezählt.
+
+Prüfung nach Korrektur des robots-Parsers: `npm test` **112 Tests in 54 Dateien** erfolgreich, `npm run lint` ohne Warnungen/Fehler, `npm run build` einschließlich Typprüfung und statischer Generierung erfolgreich; Node 22 und isolierte lokale Testdatenbank.
