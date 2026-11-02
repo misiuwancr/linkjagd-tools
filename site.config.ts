@@ -85,8 +85,8 @@ export const siteConfig = {
           heading: "Werkzeug-Klicks",
           body: [
             "Wenn ein veröffentlichter Partnerlink über /go/[slug] aufgerufen wird, erhöht die Anwendung einen Tageszähler für dieses Tool und dieses Partnerprogramm.",
-            "Gespeichert werden dabei nur Tool, Programm und das UTC-Datum sowie die Anzahl. Es werden keine IP-Adresse, kein User-Agent und kein Cookie für das Zählen geschrieben.",
-            "Der Browser kann dem Ziel dennoch einen gewöhnlichen Referrer senden. Das bestimmt die verlinkte Website, nicht ein Tracking-Cookie von Linkjagd Tools.",
+            "Gespeichert werden aggregierte Tageszähler nach Tool, tatsächlichem Zieltyp und Partnerprogramm sowie – wenn übergeben – einer freigegebenen Quellseite und CTA-Position. Suchbegriffe, vollständige Referrer, IP-Adressen, User-Agents, Personenkennungen und Cookies werden dafür nicht gespeichert. Die Quellseite stammt aus dem Link und ist keine personenbezogene Nutzungsverfolgung.",
+            "Unsere /go-Weiterleitung weist den Browser an, keinen Referrer an das Ziel zu senden. Die Datenverarbeitung beim Anbieter und durch Hosting-Protokolle ist davon getrennt. [VON MICHAŁ ZU ERGÄNZEN] Rechtsgrundlage und Aufbewahrungsfrist der aggregierten Zähler sowie Hosting-Verträge fachlich prüfen.",
           ],
         },
         {

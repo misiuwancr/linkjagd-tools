@@ -118,7 +118,7 @@ export default async function HomePage({
             </p>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
               {videoTools.map((tool) => (
-                <ToolCard key={tool.id} tool={tool} />
+                <ToolCard key={tool.id} tool={tool} source="/" />
               ))}
             </div>
           </div>
@@ -129,7 +129,7 @@ export default async function HomePage({
         <section className="page-wrap py-10">
           <SectionHead kicker="Redaktion" title="Unsere Empfehlungen" href="/empfehlungen" linkLabel="Alle Empfehlungen" />
           <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {featuredTools.map((tool) => <ToolCard key={tool.id} tool={tool} />)}
+            {featuredTools.map((tool) => <ToolCard key={tool.id} tool={tool} source="/" />)}
           </div>
         </section>
       ) : <section className="page-wrap py-10"><SectionHead kicker="Redaktion" title="Unsere Empfehlungen" href="/empfehlungen" linkLabel="Zur Auswahl" /><p className="mt-3 text-muted-foreground">Persönliche Auswahl statt Beliebtheits-Ranking. <Link href="/tools" className="underline">Im gesamten Verzeichnis stöbern →</Link></p></section>}
@@ -141,7 +141,7 @@ export default async function HomePage({
           <div className="mt-4 grid gap-3">
             {!newTools.length ? <Link href="/tools" className="rounded-2xl border border-border bg-card p-5 text-sm font-semibold text-hunt">Alle vorhandenen Tools entdecken →</Link> : null}
             {newTools.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
+              <ToolCard key={tool.id} tool={tool} source="/" />
             ))}
           </div>
         </div>
@@ -162,7 +162,7 @@ export default async function HomePage({
       </section>
       ) : null}
 
-      <section className="page-wrap border-y border-border py-12"><SectionHead kicker="Vergleichen & entscheiden" title="Tools für Business & E-Commerce" href="/vergleiche" linkLabel="Zu den Vergleichen" /><p className="mt-3 text-sm leading-7 text-muted-foreground">Software für Shops und Unternehmensaufgaben. Unsere Vergleiche helfen bei der Auswahl; das breite Verzeichnis bleibt für alle Themen offen.</p><div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{business.items.map((tool) => <ToolCard key={tool.id} tool={toPublicTool(tool, siteHost)} />)}</div><Link href="/tools?kategorie=e-commerce&kategorie=business-finanzen&kategorie=finanzen" className="mt-6 inline-block text-sm font-semibold text-hunt">Business-Tools durchsuchen →</Link></section>
+      <section className="page-wrap border-y border-border py-12"><SectionHead kicker="Vergleichen & entscheiden" title="Tools für Business & E-Commerce" href="/vergleiche" linkLabel="Zu den Vergleichen" /><p className="mt-3 text-sm leading-7 text-muted-foreground">Software für Shops und Unternehmensaufgaben. Unsere Vergleiche helfen bei der Auswahl; das breite Verzeichnis bleibt für alle Themen offen.</p><div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{business.items.map((tool) => <ToolCard key={tool.id} tool={toPublicTool(tool, siteHost)} source="/" />)}</div><Link href="/tools?kategorie=e-commerce&kategorie=business-finanzen&kategorie=finanzen" className="mt-6 inline-block text-sm font-semibold text-hunt">Business-Tools durchsuchen →</Link></section>
 
       {popularTools.length > 0 ? (
         <section className="page-wrap py-14">
@@ -172,7 +172,7 @@ export default async function HomePage({
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
             {popularTools.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} />
+              <ToolCard key={tool.id} tool={tool} source="/" />
             ))}
           </div>
         </section>

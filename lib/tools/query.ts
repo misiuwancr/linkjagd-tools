@@ -35,6 +35,7 @@ export type ToolListQuery = {
   videoSearch?: string;
   datedOnly?: boolean;
   manualRecommendationsOnly?: boolean;
+  blogTopic?: string;
 };
 
 type SearchParams = Record<string, string | string[] | undefined>;
@@ -84,6 +85,7 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
     discoverySources: [],
     linkjagdVideo: (first(params["video-id"]) ?? "").trim().slice(0, 80),
     videoSearch: (first(params.folge) ?? "").trim().slice(0, 120),
+    blogTopic: ["entdecken", "vergleiche", "news"].includes(first(params.thema) ?? "") ? first(params.thema) : "",
     ...overrides,
     ...(overrides.categorySlug !== undefined && overrides.categorySlugs === undefined
       ? { categorySlugs: overrides.categorySlug ? [overrides.categorySlug] : [] } : {}),
@@ -92,7 +94,7 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
 
 export function directoryHref(
   basePath: string,
-  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company"> & { featuredOnly?: boolean; categorySlugs?: string[]; linkjagdVideo?: string; videoSearch?: string },
+  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company"> & { featuredOnly?: boolean; categorySlugs?: string[]; linkjagdVideo?: string; videoSearch?: string; blogTopic?: string },
   patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "categorySlugs" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company" | "featuredOnly" | "linkjagdVideo" | "videoSearch">> = {},
 ) {
   const next = { ...query, ...patch };
@@ -110,6 +112,7 @@ export function directoryHref(
   if (next.featuredOnly) params.set("picks", "ja");
   if (next.linkjagdVideo) params.set("video-id", next.linkjagdVideo);
   if (next.videoSearch) params.set("folge", next.videoSearch);
+  if (next.blogTopic && basePath === "/blog") params.set("thema", next.blogTopic);
   if (next.sort !== "newest") params.set("sort", sortParam(next.sort));
   if (next.page > 1) params.set("seite", String(next.page));
   const qs = params.toString();

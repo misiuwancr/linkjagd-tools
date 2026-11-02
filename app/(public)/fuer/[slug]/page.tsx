@@ -67,7 +67,7 @@ export default async function UseCasePage({
         <ResultMeta page={result.page} pageSize={query.pageSize} total={result.total} />
       </div>
       <div className="mt-4">
-        <ToolGrid tools={tools} />
+        <ToolGrid source={"/fuer/" + useCase.slug} tools={tools} />
       </div>
       <Pagination query={{ ...query, page: result.page }} total={result.total} basePath={`/fuer/${useCase.slug}`} />
       <section className="mt-14 max-w-3xl">

@@ -95,7 +95,7 @@ export function decideRedirect(
   }
   const candidates = programs
     .filter((program) => program.isActive && program.status === "active")
-    .sort((a, b) => b.priority - a.priority);
+    .sort((a, b) => b.priority - a.priority || a.id.localeCompare(b.id));
   for (const program of candidates) {
     const checked = validateOutboundUrl(program.affiliateUrl, tool.originalUrl, siteHost);
     if (checked.ok) {

@@ -13,6 +13,8 @@ import {
 } from "@/lib/validation/tool";
 import { refreshSearchText, replaceCategories, replaceTags } from "@/lib/tools/repository";
 import { readToolEditorial, saveToolEditorial } from "@/lib/tool-editorial";
+import { savePostEditorial } from "@/lib/blog-metadata";
+import { getComparison } from "@/lib/comparisons";
 
 function siteHost() {
   try {
@@ -250,6 +252,17 @@ export async function saveNewsRecord(database: AppDatabase, raw: unknown) {
   }
   const slug = slugify(parsed.data.slug || parsed.data.title);
   if (!slug) return { ok: false as const, error: "Aus dem Titel lässt sich kein Kurzname bilden." };
+  if (getComparison(slug)) return { ok: false as const, error: "Dieser bestehende Vergleich wird im Code gepflegt. Bitte keine zweite Fassung unter derselben URL veröffentlichen." };
+  const current = parsed.data.id ? (await database.select().from(newsPosts).where(eq(newsPosts.id, parsed.data.id)).limit(1))[0] : null;
+  if (parsed.data.id && !current) return { ok: false as const, error: "Beitrag nicht gefunden." };
+  const duplicate = (await database.select().from(newsPosts).where(eq(newsPosts.slug, slug)).limit(1))[0];
+  if (duplicate && duplicate.id !== parsed.data.id) return { ok: false as const, error: "Diese Artikel-URL ist bereits vergeben." };
+  if (parsed.data.editorial) {
+    const knownTools = await database.select({ slug: tools.slug }).from(tools).where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false)));
+    if (parsed.data.editorial.toolSlugs.some((slug) => !knownTools.some((tool) => tool.slug === slug))) return { ok: false as const, error: "Verknüpfe nur bereits veröffentlichte Tool-Kurznamen." };
+    const posts = await database.select({ slug: newsPosts.slug }).from(newsPosts);
+    if (parsed.data.editorial.relatedSlugs.some((value) => value === slug || (!getComparison(value) && !posts.some((post) => post.slug === value)))) return { ok: false as const, error: "Verwandte Artikel müssen existieren und dürfen nicht auf sich selbst zeigen." };
+  }
   const cover = parsed.data.coverImageUrl;
   if (cover && !/^https?:\/\//.test(cover)) {
     return { ok: false as const, error: "Das Cover braucht eine http- oder https-Adresse." };
@@ -265,15 +278,17 @@ export async function saveNewsRecord(database: AppDatabase, raw: unknown) {
     seoTitle: parsed.data.seoTitle || null,
     seoDescription: parsed.data.seoDescription || null,
     status: parsed.data.status,
-    publishedAt: parsed.data.status === "published" ? now : null,
+    publishedAt: current?.publishedAt ?? (parsed.data.status === "published" ? now : null),
     updatedAt: now,
   };
   if (parsed.data.id) {
     await database.update(newsPosts).set(values).where(eq(newsPosts.id, parsed.data.id));
+    if (parsed.data.editorial) await savePostEditorial(database, parsed.data.id, parsed.data.editorial);
     return { ok: true as const, id: parsed.data.id };
   }
   const id = crypto.randomUUID();
   await database.insert(newsPosts).values({ ...values, id, createdAt: now });
+  if (parsed.data.editorial) await savePostEditorial(database, id, parsed.data.editorial);
   return { ok: true as const, id };
 }
 

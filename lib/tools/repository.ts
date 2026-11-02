@@ -21,6 +21,7 @@ import { weeklyPopularVisible } from "@/lib/tools/popular";
 import { companiesForTools, companyBySlug, type CompanyToolRef } from "@/lib/companies";
 import { editorialStarterSlugs, starterRank } from "@/lib/editorial-selection";
 import { emptyEditorial, linkjagdAssignmentSql, publicationSql, readEditorialBatch, type ToolEditorial } from "@/lib/tool-editorial";
+import { contextClickInsert, type CtaPosition } from "@/lib/affiliate/context";
 
 export type ToolWithRelations = Tool & {
   categories: PublicCategory[];
@@ -269,13 +270,11 @@ export async function listClickStats(database: AppDatabase, since7: string, sinc
       id: tools.id,
       name: tools.name,
       slug: tools.slug,
-      days7: sql<number>`coalesce(sum(case when ${clickDaily.day} >= ${since7} then ${clickDaily.count} else 0 end), 0)`,
-      days30: sql<number>`coalesce(sum(case when ${clickDaily.day} >= ${since30} then ${clickDaily.count} else 0 end), 0)`,
-      programPresence: sql<string>`coalesce(max(${affiliatePrograms.programPresence}), 'unknown')`,
+      days7: sql<number>`(select coalesce(sum(c.count), 0) from click_daily c where c.tool_id = ${tools.id} and c.day >= ${since7})`,
+      days30: sql<number>`(select coalesce(sum(c.count), 0) from click_daily c where c.tool_id = ${tools.id} and c.day >= ${since30})`,
+      programPresence: sql<string>`(select coalesce(max(a.program_presence), 'unknown') from affiliate_programs a where a.tool_id = ${tools.id})`,
     })
     .from(tools)
-    .leftJoin(clickDaily, eq(clickDaily.toolId, tools.id))
-    .leftJoin(affiliatePrograms, eq(affiliatePrograms.toolId, tools.id))
     .where(and(eq(tools.publishStatus, "published"), eq(tools.isExample, false)))
     .groupBy(tools.id, tools.name, tools.slug);
   return rows.map((row) => ({
@@ -411,10 +410,10 @@ export async function findByDomainOrSlug(database: AppDatabase, domain: string, 
 
 export async function recordClick(
   database: AppDatabase,
-  input: { toolId: string; programId: string | null; kind: "affiliate" | "official"; day: string },
+    input: { toolId: string; programId: string | null; kind: "affiliate" | "official"; day: string; source?: string; position?: CtaPosition },
 ) {
   const programSlot = input.kind === "affiliate" ? input.programId || "" : "";
-  await database
+  const total = database
     .insert(clickDaily)
     .values({
       toolId: input.toolId,
@@ -427,6 +426,9 @@ export async function recordClick(
       target: [clickDaily.toolId, clickDaily.targetKind, clickDaily.day, clickDaily.programSlot],
       set: { count: sql`${clickDaily.count} + 1` },
     });
+  if (input.source && input.position) {
+    await database.batch([total, contextClickInsert(database, { ...input, source: input.source, position: input.position })]);
+  } else await total;
 }
 
 export async function listPublishedNews(database: AppDatabase, limit = 6, offset = 0) {

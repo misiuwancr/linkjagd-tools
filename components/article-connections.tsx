@@ -1,0 +1,12 @@
+import Link from "next/link";
+import { publicArticles, relatedArticles, type ContentArticle } from "@/lib/content-hub";
+import { blogTopics } from "@/lib/blog-metadata";
+import { outboundTool, ProviderLink } from "@/components/provider-link";
+export function ArticleCards({ articles }: { articles: ContentArticle[] }) { return <ul className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{articles.map((post) => <li key={post.slug}><Link href={`/blog/${post.slug}`} className="block h-full rounded-2xl border border-border bg-card p-5 hover:border-hunt/40"><p className="text-xs font-semibold text-hunt">{blogTopics.find((topic) => topic.value === post.topic)?.label}</p><h2 className="mt-3 text-xl font-bold">{post.title}</h2><p className="mt-3 line-clamp-3 text-sm leading-7 text-muted-foreground">{post.excerpt}</p></Link></li>)}</ul>; }
+export async function ArticleConnections({ article }: { article: ContentArticle }) {
+  const [all, loaded] = await Promise.all([publicArticles(), Promise.all(article.toolSlugs.map(outboundTool))]);
+  const tools = loaded.filter((item): item is NonNullable<typeof item> => !!item);
+  const related = relatedArticles(article, all);
+  return <><section className="mt-12"><h2 className="text-2xl font-bold">Passende Tools im Verzeichnis</h2>{tools.length ? <div className="mt-5 grid gap-4 sm:grid-cols-2">{tools.map(({ tool }) => <div key={tool.slug} className="rounded-2xl border border-border bg-card p-5"><Link href={`/tools/${tool.slug}`} className="font-bold text-hunt">{tool.name} →</Link><p className="mt-3 text-sm leading-7 text-muted-foreground">{tool.shortDescriptionDe}</p><ProviderLink slug={tool.slug} source={`/blog/${article.slug}`} position="article" className="mt-3 inline-flex min-h-10 items-center text-sm font-semibold underline" /></div>)}</div> : <Link href="/tools" className="mt-4 inline-block font-semibold text-hunt">Tools nach deiner Aufgabe suchen →</Link>}</section>{related.length ? <section className="mt-12"><h2 className="text-2xl font-bold">Verwandte Artikel</h2><ArticleCards articles={related} /></section> : null}</>;
+}
+export async function ToolArticles({ slug }: { slug: string }) { const all = await publicArticles(); const articles = all.filter((post) => post.toolSlugs.includes(slug)).slice(0, 6); if (!articles.length) return null; return <section className="mt-10"><h2 className="text-2xl font-bold">Ratgeber und Vergleiche zu diesem Tool</h2><ArticleCards articles={articles} /></section>; }

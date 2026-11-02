@@ -1,6 +1,7 @@
 import { decideRedirect } from "@/lib/affiliate/redirect";
 import type { AffiliateProgram, Tool } from "@/db/schema";
 import { utcDay } from "@/lib/utils";
+import type { CtaPosition } from "@/lib/affiliate/context";
 
 export type GoLoadResult = {
   tool: Pick<Tool, "id" | "publishStatus" | "originalUrl"> | null;
@@ -22,23 +23,29 @@ export async function handleGoRedirect(
       programId: string | null;
       kind: "affiliate" | "official";
       day: string;
+      source?: string;
+      position?: CtaPosition;
     }) => Promise<void>;
     siteHost?: string;
     now?: Date;
+    context?: { source: string; position: CtaPosition };
+    officialOnly?: boolean;
+    skipTracking?: boolean;
   },
 ): Promise<GoResult> {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
     return { status: 404, body: unavailable };
   }
   const loaded = await deps.load(slug);
-  const decision = decideRedirect(loaded.tool, loaded.programs, deps.siteHost);
+  const decision = decideRedirect(loaded.tool, deps.officialOnly ? [] : loaded.programs, deps.siteHost);
   if (!decision.ok) return { status: 404, body: unavailable };
   try {
-    await deps.track({
+    if (!deps.skipTracking) await deps.track({
       toolId: decision.toolId,
       programId: decision.programId,
       kind: decision.kind,
       day: utcDay(deps.now),
+      ...deps.context,
     });
   } catch {
     // Der Zähler darf die Weiterleitung nicht verhindern und speichert keine Personendaten.

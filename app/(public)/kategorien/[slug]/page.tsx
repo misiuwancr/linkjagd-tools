@@ -65,7 +65,7 @@ export default async function CategoryPage({
           <h2 className="text-2xl font-bold tracking-tight">Unsere Empfehlungen</h2>
           <p className="mt-2 text-sm text-muted-foreground">Nur Tools, die die Redaktion als empfohlen markiert hat.</p>
           <div className="mt-4">
-            <ToolGrid tools={picks} />
+            <ToolGrid source={basePath} tools={picks} />
           </div>
         </section>
       ) : null}
@@ -80,7 +80,7 @@ export default async function CategoryPage({
         <ResultMeta page={safeQuery.page} pageSize={query.pageSize} total={result.total} />
       </div>
       <div className="mt-4">
-        <ToolGrid tools={tools} />
+        <ToolGrid source={basePath} tools={tools} />
       </div>
       <Pagination query={safeQuery} total={result.total} basePath={basePath} />
       {copy ? (

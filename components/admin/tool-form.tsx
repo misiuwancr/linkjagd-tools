@@ -79,7 +79,7 @@ export function ToolForm({
         </label>
       </div>
       <label className="grid gap-1 text-sm font-medium">
-        Original-URL, nur intern
+        Offizielle Anbieter-URL
         <input name="originalUrl" type="url" required defaultValue={initial.originalUrl} className="field" />
       </label>
       <label className="grid gap-1 text-sm font-medium">
