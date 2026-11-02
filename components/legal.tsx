@@ -9,7 +9,7 @@ export function LegalDocument({
 }) {
   return (
     <article className="page-wrap max-w-3xl py-12 sm:py-16">
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Platzhalter</p>
+      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-hunt">Rechtliche Informationen</p>
       <h1 className="mt-3 text-4xl font-bold tracking-tight">{title}</h1>
       <p className="mt-4 text-base leading-7 text-muted-foreground">{intro}</p>
       <div className="mt-10 space-y-8">

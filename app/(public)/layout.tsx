@@ -1,6 +1,9 @@
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
+import { publishedAiNews } from "@/lib/ai-news";
+import { newsletterOpen } from "@/lib/newsletter";
+
 export default function PublicLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen flex-col">
@@ -10,7 +13,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
       >
         Zum Inhalt
       </a>
-      <SiteHeader />
+      <SiteHeader newsletterAvailable={newsletterOpen()} newsAvailable={publishedAiNews().length > 0} />
       <main id="inhalt" className="flex-1">
         {children}
       </main>

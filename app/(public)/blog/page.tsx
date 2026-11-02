@@ -23,6 +23,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Record<
     <div className="page-wrap py-12 sm:py-16">
       <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl">Blog</h1>
       <p className="mx-auto mt-3 max-w-2xl text-center text-muted-foreground">Nur Beiträge, die die Redaktion veröffentlicht hat.</p>
+      <Link href="/vergleiche" className="mt-7 block rounded-2xl border border-hunt/40 bg-card p-5 text-center font-semibold text-hunt">Shop-Systeme, Newsletter und Automatisierung: zu den Entscheidungshilfen →</Link>
       {news.length === 0 ? (
         <p className="mt-8 rounded-2xl border border-dashed border-border bg-card p-6 text-center text-sm">Noch kein veröffentlichtes Stück.</p>
       ) : (

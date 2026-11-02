@@ -25,6 +25,7 @@ export function VoteButton({ slug, name }: { slug: string; name: string }) {
       setMessage(data.duplicate ? "Du hast bereits abgestimmt." : "Danke für deine Stimme!");
     } catch { setMessage("Bitte später erneut versuchen."); } finally { setBusy(false); }
   }
+  if (!enabled) return null;
   return <div className="mt-3">
     <button type="button" onClick={vote} disabled={!enabled || voted || busy} aria-label={`Für ${name} stimmen`} aria-pressed={voted} title="Zähler: 1 Startwert plus echte Stimmen. Ohne Konto abstimmen." className="inline-flex items-center gap-1 rounded-lg border border-border px-3 py-1.5 text-sm disabled:opacity-60">
       <ChevronUp className="h-4 w-4" aria-hidden="true" />{count ?? "–"}{busy ? " …" : ""}

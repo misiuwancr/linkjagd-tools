@@ -6,10 +6,14 @@ import { JsonLd } from "@/components/json-ld";
 import { renderMarkdown } from "@/lib/markdown";
 import { getNewsBySlug } from "@/lib/tools/repository";
 import { siteConfig } from "@/site.config";
+import { comparisonHref, getComparison } from "@/lib/comparisons";
+import { ComparisonPage } from "@/components/comparison-page";
 
 export const revalidate = 60;
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const comparison = getComparison(params.slug);
+  if (comparison) return { title: comparison.title, description: comparison.intro, alternates: { canonical: comparisonHref(comparison) }, openGraph: { title: comparison.title, description: comparison.intro } };
   const post = await getNewsBySlug(await getDb(), params.slug);
   if (!post || post.status !== "published") return { title: "Beitrag" };
   const title = post.seoTitle || post.title;
@@ -18,6 +22,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 export default async function BlogPostPage({ params }: { params: { slug: string } }) {
+  const comparison = getComparison(params.slug);
+  if (comparison) return <ComparisonPage comparison={comparison} />;
   const post = await getNewsBySlug(await getDb(), params.slug);
   if (!post || post.status !== "published") notFound();
   return (

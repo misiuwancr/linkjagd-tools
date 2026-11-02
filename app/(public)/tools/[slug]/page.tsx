@@ -16,6 +16,8 @@ import { toPublicTool } from "@/lib/tools/public";
 import { softwareOffer, toolMetaTitle } from "@/lib/seo";
 import { isAlternativeSlug } from "@/lib/alternatives";
 import { indexingPolicy, robotsDirective, toolIsIndexable } from "@/lib/indexing";
+import { decisionTools } from "@/lib/comparisons";
+import { DecisionToolPage } from "@/components/decision-tool-page";
 
 export const revalidate = 60;
 
@@ -32,6 +34,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const tool = await getToolBySlug(database, params.slug);
   if (!tool || tool.publishStatus !== "published" || tool.isExample) return { title: "Tool nicht gefunden" };
   const publicTool = toPublicTool(tool, host());
+  const description = decisionTools[params.slug]?.summary ?? publicTool.shortDescriptionDe;
   const index = toolIsIndexable({
     globalIndex: indexingPolicy().index,
     allowIndex: tool.allowIndex,
@@ -39,12 +42,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   });
   return {
     title: toolMetaTitle(publicTool.name),
-    description: publicTool.shortDescriptionDe,
+    description,
     robots: robotsDirective(index),
     alternates: { canonical: `/tools/${publicTool.slug}` },
     openGraph: {
       title: toolMetaTitle(publicTool.name),
-      description: publicTool.shortDescriptionDe,
+      description,
       url: `/tools/${publicTool.slug}`,
     },
   };
@@ -56,6 +59,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
   if (!record || record.publishStatus !== "published" || record.isExample) notFound();
   const siteHost = host();
   const tool = toPublicTool(record, siteHost);
+  if (decisionTools[tool.slug]) return <DecisionToolPage tool={tool} />;
   const similar = (await listSimilar(database, record)).map((item) => toPublicTool(item, siteHost));
   const canonical = new URL(`/tools/${tool.slug}`, siteConfig.url).toString();
   const offer = softwareOffer(tool.pricingModel);
