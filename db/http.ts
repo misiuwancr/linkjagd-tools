@@ -21,9 +21,10 @@ export function createRetryingFetch(
     for (let attempt = 1; attempt <= attempts; attempt += 1) {
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), timeoutMs);
-      const parent = init?.signal;
+      const parent = init?.signal ?? (input instanceof Request ? input.signal : undefined);
       const onParentAbort = () => controller.abort();
       parent?.addEventListener("abort", onParentAbort);
+      if (parent?.aborted) controller.abort();
       try {
         // Hrana carries stream/session state. Next.js 14 also caches POST fetches;
         // replaying a cached response can leave the next request with an invalid baton.

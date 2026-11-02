@@ -14,7 +14,7 @@ function removeTemporaryDatabase(file: string) {
   catch (error) {
     // libSQL kann unter Windows native Statements bis zum Prozessende halten.
     // Nur die Aufräumphase toleriert diesen Fall; alle Datenprüfungen bleiben strikt.
-    if (process.platform !== "win32" || (error as NodeJS.ErrnoException).code !== "EBUSY") throw error;
+    if (process.platform !== "win32" || !["EBUSY", "EPERM"].includes((error as NodeJS.ErrnoException).code || "")) throw error;
   }
 }
 
