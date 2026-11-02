@@ -1,5 +1,6 @@
 import type { AffiliateProgram, Category, LicenseType, PricingModel, Tag, Tool } from "@/db/schema";
 import { decideRedirect } from "@/lib/affiliate/redirect";
+import { platformText } from "@/lib/branding";
 import { parseStringList } from "@/lib/utils";
 import { videosFromUrls, type PublicVideo } from "@/lib/videos";
 import type { ToolEditorial, LinkjagdVideo } from "@/lib/tool-editorial";
@@ -61,9 +62,9 @@ export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool
     slug: tool.slug,
     domain: tool.domain,
     logo: tool.logo,
-    shortDescriptionDe: tool.shortDescriptionDe,
-    longDescriptionDe: tool.longDescriptionDe,
-    featuresDe: parseStringList(tool.featuresDe),
+    shortDescriptionDe: platformText(tool.shortDescriptionDe),
+    longDescriptionDe: platformText(tool.longDescriptionDe),
+    featuresDe: parseStringList(tool.featuresDe).map(platformText),
     screenshots: parseStringList(tool.screenshots).filter((item) => item.startsWith("/")),
     pricingModel: tool.pricingModel,
     licenseType: tool.licenseType,
@@ -72,7 +73,7 @@ export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool
     ossLicense: tool.ossLicense,
     ossOperatingSystems: parseStringList(tool.ossOperatingSystems),
     ossInstallNotes: tool.ossInstallNotes,
-    useCasesDe: parseStringList(tool.useCasesDe),
+    useCasesDe: parseStringList(tool.useCasesDe).map(platformText),
     beginnerFriendly: tool.beginnerFriendly,
     germanUi: tool.germanUi ?? "unklar",
     noSignup: tool.noSignup ?? "unklar",

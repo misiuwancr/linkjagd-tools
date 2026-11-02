@@ -1,8 +1,9 @@
+import { siteConfig } from "@/site.config";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Glossar",
-  description: "Kurze Erklärungen der Wörter, die Linkjagd Tools auf den Karten verwendet.",
+  description: `Kurze Erklärungen der Wörter, die ${siteConfig.name} auf den Karten verwendet.`,
   alternates: { canonical: "/glossar" },
 };
 
@@ -10,7 +11,7 @@ const entries = [
   ["Freemium", "Es gibt einen kostenlosen Einstieg. Weitere Funktionen können Geld kosten. Der genaue Preis steht beim Anbieter."],
   ["Kostenlos", "Im Verzeichnis ist das Preismodell als kostenlos hinterlegt. Das ist keine Garantie, dass jede Funktion dauerhaft ohne Bezahlung bleibt."],
   ["Open Source", "Die Lizenz ist als OSI-konform bestätigt. Steht dort unbekannt, ist die Lizenz nicht geprüft."],
-  ["Partnerlink", "Ein gekennzeichneter Link über /go, nur wenn ein Affiliate-Link aktiv ist. Sonst führt /go zur offiziellen Website."],
+  ["Partnerlink", "Ein als Anzeige gekennzeichneter Link über /go, der ausschließlich zu einem gültigen aktiven Affiliate-Link führt. Ohne diesen Link entfällt der Anbieter-Button."],
   ["Empfohlen", "Die Redaktion hat das Tool markiert. Das ist keine Nutzerwertung."],
   ["Unklar", "Deutsch oder Anmeldung sind noch nicht an der offiziellen Seite belegt."],
 ];

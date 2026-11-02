@@ -26,6 +26,11 @@ export function generateMetadata(): Metadata {
       title: siteConfig.seo.title,
       description: siteConfig.seo.description,
     },
+    twitter: {
+      card: "summary_large_image",
+      title: siteConfig.seo.title,
+      description: siteConfig.seo.description,
+    },
     robots: robotsDirective(indexingPolicy().index),
   };
 }

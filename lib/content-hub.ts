@@ -5,6 +5,7 @@ import { newsPosts } from "@/db/schema";
 import { comparisons, researchDate } from "@/lib/comparisons";
 import { readPostEditorialBatch, type BlogTopic } from "@/lib/blog-metadata";
 import { siteConfig } from "@/site.config";
+import { platformText } from "@/lib/branding";
 export type ContentArticle = { slug: string; title: string; excerpt: string; topic: BlogTopic; toolSlugs: string[]; relatedSlugs: string[]; publishedAt: string | null; modifiedAt: string; coded: boolean };
 export function linkedToolSlugs(body: string) {
   const slugs = new Set<string>();
@@ -14,7 +15,7 @@ export function linkedToolSlugs(body: string) {
   return [...slugs];
 }
 export async function contentArticles(database: AppDatabase): Promise<ContentArticle[]> {
-  const posts = await database.select().from(newsPosts).where(eq(newsPosts.status, "published"));
+  const posts = (await database.select().from(newsPosts).where(eq(newsPosts.status, "published"))).map(post => ({ ...post, title: platformText(post.title), excerpt: platformText(post.excerpt) }));
   const meta = await readPostEditorialBatch(database, posts);
   const articles = new Map<string, ContentArticle>(posts.map((post) => { const editorial = meta.get(post.id)!; return [post.slug, { slug: post.slug, title: post.title, excerpt: post.excerpt, topic: editorial.topic, toolSlugs: [...new Set([...editorial.toolSlugs, ...linkedToolSlugs(post.body)])], relatedSlugs: editorial.relatedSlugs, publishedAt: post.publishedAt?.toISOString() ?? null, modifiedAt: post.updatedAt.toISOString(), coded: false }]; }));
   for (const item of comparisons) articles.set(item.slug, { slug: item.slug, title: item.title, excerpt: item.intro, topic: "vergleiche", toolSlugs: item.tools, relatedSlugs: [], publishedAt: null, modifiedAt: researchDate, coded: true });

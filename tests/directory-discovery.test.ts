@@ -37,7 +37,11 @@ describe("Kombinierbares Verzeichnis", () => {
       expect(result.total).toBe(1);
       expect(result.items.map((tool) => tool.slug)).toEqual(["atelier"]);
       const all = await listTools(db, publicListQuery({ kategorie: ["design", "gaming"] }));
-      expect(all.total).toBe(3); // Multiple category membership never duplicates a card.
+      expect(all.total).toBe(3);
+      await db.update(schema.tools).set({ createdAt: new Date("2020-01-01T00:00:00Z") }).where((await import("drizzle-orm")).eq(schema.tools.id, "c"));
+      const oldestQuery = publicListQuery({ sort: "aelteste", kategorie: ["design", "gaming"] });
+      expect((await listTools(db, oldestQuery)).items[0].id).toBe("c");
+      expect(directoryHref("/tools", oldestQuery)).toContain("sort=aelteste"); // Multiple category membership never duplicates a card.
       expect((await listTools(db, publicListQuery({ q: "unauffindbar" }))).total).toBe(0);
       const first = await listTools(db, publicListQuery({}, { pageSize: 2 }));
       const second = await listTools(db, publicListQuery({ seite: "2" }, { pageSize: 2 }));

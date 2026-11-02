@@ -14,7 +14,7 @@ export function ProviderCta({ slug, source = "/vergleiche", position = "hero" }:
 
 export function EditorialMethod() {
   return <div className="rounded-2xl border border-border bg-card p-5 text-sm leading-6 text-muted-foreground">
-    <p><strong className="text-foreground">So ordnen wir ein:</strong> Anbieterinformationen und daraus abgeleitete redaktionelle Empfehlungen, keine eigenen Produkttests, Sterne oder bezahlte Rangfolge. Partnerstatus beeinflusst diese Einordnung nicht. Anbieter-CTAs führen über unsere Weiterleitung zur hinterlegten offiziellen Adresse oder zu einem als Anzeige gekennzeichneten aktiven Partnerlink.</p>
+    <p><strong className="text-foreground">So ordnen wir ein:</strong> Anbieterinformationen und daraus abgeleitete redaktionelle Empfehlungen, keine eigenen Produkttests, Sterne oder bezahlte Rangfolge. Partnerstatus beeinflusst diese Einordnung nicht. Anbieter-Buttons erscheinen ausschließlich für gültige aktive Partnerlinks und sind als Anzeige gekennzeichnet.</p>
     <p className="mt-2">Quellenstand: <time dateTime={researchDate}>2. November 2026</time>. Konkrete Preise, Tarifgrenzen, Zustellbarkeit und rechtliche Eignung sind nicht unabhängig geprüft. Bitte vor einer Buchung beim Anbieter und für deinen Anwendungsfall klären.</p>
   </div>;
 }

@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/json-ld";
 import { renderMarkdown } from "@/lib/markdown";
 import { getNewsBySlug } from "@/lib/tools/repository";
 import { siteConfig } from "@/site.config";
+import { platformText } from "@/lib/branding";
 import { comparisonHref, getComparison } from "@/lib/comparisons";
 import { publicArticles, linkedToolSlugs } from "@/lib/content-hub";
 import { ArticleConnections } from "@/components/article-connections";
@@ -21,8 +22,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (comparison) return { title: comparison.title, description: comparison.intro, alternates: { canonical: comparisonHref(comparison) }, openGraph: { title: comparison.title, description: comparison.intro } };
   const post = await getNewsBySlug(await getDb(), params.slug);
   if (!post || post.status !== "published") return { title: "Beitrag" };
-  const title = post.seoTitle || post.title;
-  const description = post.seoDescription || post.excerpt;
+  const title = platformText(post.seoTitle || post.title);
+  const description = platformText(post.seoDescription || post.excerpt);
   return { title, description, alternates: { canonical: `/blog/${post.slug}` }, openGraph: { title, description } };
 }
 
@@ -41,8 +42,8 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
         data={{
           "@context": "https://schema.org",
           "@type": "BlogPosting",
-          headline: post.title,
-          description: post.excerpt,
+          headline: platformText(post.title),
+          description: platformText(post.excerpt),
           datePublished: post.publishedAt?.toISOString(),
           dateModified: post.updatedAt.toISOString(),
           articleSection: blogTopics.find((topic) => topic.value === article.topic)?.label,
@@ -55,8 +56,8 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
         Blog
       </Link>
       <p className="mt-4 text-sm font-semibold text-hunt">{blogTopics.find((topic) => topic.value === article.topic)?.label}</p>
-      <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">{post.title}</h1>
-      <p className="mt-4 text-lg text-muted-foreground">{post.excerpt}</p>
+      <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">{platformText(post.title)}</h1>
+      <p className="mt-4 text-lg text-muted-foreground">{platformText(post.excerpt)}</p>
       <p className="mt-4 text-sm leading-7 text-muted-foreground">{post.publishedAt ? <>Veröffentlicht: <time dateTime={post.publishedAt.toISOString()}>{post.publishedAt.toLocaleDateString("de-DE", { timeZone: "Europe/Berlin" })}</time>. </> : null}Anbieterfunktionen können sich ändern. Mit „Anzeige“ gekennzeichnete Links können eine Provision auslösen. Redaktionelle Einordnung und Partnerstatus sind getrennt. <Link href="/affiliate-hinweis" className="underline">Affiliate-Hinweis</Link></p>
       {post.coverImageUrl ? (
         // eslint-disable-next-line @next/next/no-img-element
@@ -64,7 +65,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
       ) : null}
       <div
         className="prose-invert mt-8 space-y-4 break-words text-base leading-8 [overflow-wrap:anywhere] [&_a]:underline [&_h2]:mt-8 [&_h2]:text-2xl [&_h2]:font-bold [&_ul]:list-disc [&_ul]:pl-5"
-        dangerouslySetInnerHTML={{ __html: renderMarkdown(post.body, { outbound, siteUrl: siteConfig.url }) }}
+        dangerouslySetInnerHTML={{ __html: renderMarkdown(platformText(post.body), { outbound, siteUrl: siteConfig.url }) }}
       />
       <ArticleConnections article={article} />
     </article>

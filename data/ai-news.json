@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "copilot-harness-2026-10",
+    "title": "Microsoft öffnet seine Copilot-Basis für eigene KI-Agenten",
+    "summary": "Über Microsoft Foundry können Unternehmen die gemeinsame Laufzeit von Copilot nutzen. Sie verbindet Modelle mit Werkzeugen und einer Ausführungsumgebung für mehrstufige Aufgaben.",
+    "category": "Automatisierung",
+    "publishedAt": "2026-10-28T00:00:00Z",
+    "sourceName": "Microsoft",
+    "sourceUrl": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+  },
+  {
+    "id": "anthropic-science-2026-10",
+    "title": "Anthropic erweitert die KI-Förderung für Forschungseinrichtungen",
+    "summary": "Das Programm AI for Science bezieht weitere Stiftungen, Institute und Forschungsgruppen ein. Claude-Guthaben sollen wissenschaftliche Projekte unterstützen; viele Vorhaben stehen noch am Anfang.",
+    "category": "Forschung",
+    "publishedAt": "2026-10-28T00:00:00Z",
+    "sourceName": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+  },
+  {
+    "id": "agent-skills-foundation-2026-10",
+    "title": "Agent Skills bekommt ein unabhängiges Zuhause",
+    "summary": "Anthropic übergibt den offenen Standard an die Agentic AI Foundation. Skills bündeln Arbeitsanweisungen und Materialien, damit unterschiedliche KI-Agenten spezialisierte Aufgaben ausführen können.",
+    "category": "Offene Standards",
+    "publishedAt": "2026-10-22T00:00:00Z",
+    "sourceName": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+  }
+]

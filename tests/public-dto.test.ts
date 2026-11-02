@@ -53,7 +53,7 @@ describe("öffentliche Tool-Daten", () => {
     expect(publicTool).not.toHaveProperty("originalUrl");
   });
 
-  it("führt ohne Partnerlink auf die offizielle Website", () => {
+  it("deaktiviert den Anbieter-CTA ohne Partnerlink", () => {
     const tool = {
       id: "1",
       name: "Fokusplan",
@@ -78,7 +78,7 @@ describe("öffentliche Tool-Daten", () => {
       updatedAt: new Date(),
     } as Tool;
     const publicTool = toPublicTool({ ...tool, categories: [], tags: [], programs: [] });
-    expect(publicTool.ctaEnabled).toBe(true);
-    expect(publicTool.ctaKind).toBe("official");
+    expect(publicTool.ctaEnabled).toBe(false);
+    expect(publicTool.ctaKind).toBe("disabled");
   });
 });

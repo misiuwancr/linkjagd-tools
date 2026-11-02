@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!isAlternativeSlug(params.slug)) return { title: "Alternativen" };
   const tool = await getToolBySlug(await getDb(), params.slug);
   if (!tool || tool.publishStatus !== "published" || tool.isExample) return { title: "Alternativen" };
-  const title = `Alternativen zu ${tool.name} | Linkjagd Tools`;
+  const title = `Alternativen zu ${tool.name} | ${siteConfig.name}`;
   return {
     title: title.length <= 65 ? title : `Alternativen: ${tool.name}`,
     description: alternativeIntro(tool.name, tool.categories[0]?.name),

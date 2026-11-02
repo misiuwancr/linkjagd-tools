@@ -1,8 +1,9 @@
+import { siteConfig } from "@/site.config";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Kontakt und Tool-Vorschläge für Linkjagd Tools.",
+  description: `Kontakt und Tool-Vorschläge für ${siteConfig.name}.`,
   alternates: { canonical: "/kontakt" },
   robots: { index: false, follow: false },
 };

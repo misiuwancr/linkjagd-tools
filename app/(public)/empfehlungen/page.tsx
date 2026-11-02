@@ -1,3 +1,4 @@
+import { siteConfig } from "@/site.config";
 import type { Metadata } from "next";
 import { getDb } from "@/db/client";
 import { Pagination, ResultMeta, ToolGrid } from "@/components/directory";
@@ -5,7 +6,7 @@ import { listTools } from "@/lib/tools/repository";
 import { publicListQuery } from "@/lib/tools/query";
 import { toPublicTool } from "@/lib/tools/public";
 export const revalidate = 60;
-export const metadata: Metadata = { title: "Unsere Empfehlungen", description: "Manuell von Linkjagd ausgewählte Tools und Websites, alphabetisch dargestellt.", alternates: { canonical: "/empfehlungen" } };
+export const metadata: Metadata = { title: "Unsere Empfehlungen", description: `Manuell von ${siteConfig.name} ausgewählte Tools und Websites, alphabetisch dargestellt.`, alternates: { canonical: "/empfehlungen" } };
 export default async function RecommendationsPage({ searchParams }: { searchParams: Record<string, string | string[] | undefined> }) {
   const query = publicListQuery(searchParams, { manualRecommendationsOnly: true, sort: "alpha" });
   const result = await listTools(await getDb(), query);

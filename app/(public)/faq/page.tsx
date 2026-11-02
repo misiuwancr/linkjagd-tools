@@ -1,16 +1,17 @@
+import { siteConfig } from "@/site.config";
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/json-ld";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: "Häufige Fragen zum Verzeichnis Linkjagd Tools.",
+  description: `Häufige Fragen zum Verzeichnis ${siteConfig.name}.`,
   alternates: { canonical: "/faq" },
 };
 
 const faqs = [
-  ["Wer wählt die Tools aus?", "Die Redaktion von Linkjagd. Eine Markierung Empfohlen ist eine redaktionelle Entscheidung, keine Abstimmung."],
+  ["Wer wählt die Tools aus?", `Die Redaktion von ${siteConfig.name}. Eine Markierung Empfohlen ist eine redaktionelle Entscheidung, keine Abstimmung.`],
   ["Sind die Beschreibungen vom Anbieter?", "Nein. Die kurzen deutschen Texte schreibt die Redaktion. Sie sind keine Werbetexte der Firmen."],
-  ["Was passiert beim Klick auf Testen?", "Der Browser geht über /go zur offiziellen Website oder, wenn ein Partnerlink aktiv ist, zu diesem Link. Anzeige steht nur im zweiten Fall."],
+  ["Was passiert beim Klick auf Testen?", "Der Browser öffnet über /go einen gültigen hinterlegten Partnerlink. Der Button ist als Anzeige gekennzeichnet. Ohne Partnerlink gibt es keinen Anbieter-Button."],
   ["Kostet mich ein Partnerlink extra?", "Dafür ist hier kein Aufpreis hinterlegt. Konkrete Sätze stehen nicht im Verzeichnis."],
   ["Kann ich ein Tool vorschlagen?", "Ja, über Tool einreichen. Der Vorschlag bleibt ein Entwurf, bis ihn jemand prüft."],
 ];

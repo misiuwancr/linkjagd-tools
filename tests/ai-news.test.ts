@@ -9,7 +9,11 @@ describe("News-Quellen", () => {
     expect(aiNewsSchema.safeParse({ ...entry, imageUrl: "//tracker.example/bild" }).success).toBe(false);
     expect(aiNewsSchema.safeParse({ ...entry, imageUrl: "/news-placeholder.svg" }).success).toBe(true);
   });
-  it("erfindet ohne gelieferte Datei keine Meldungen", () => {
-    expect(publishedAiNews()).toEqual([]);
+  it("veröffentlicht nur geprüfte Meldungen nach ihrem Datum", () => {
+    expect(publishedAiNews(new Date("2026-10-01T00:00:00Z"))).toEqual([]);
+    const news = publishedAiNews(new Date("2026-11-02T00:00:00Z"));
+    expect(news).toHaveLength(3);
+    expect(news.every((item) => aiNewsSchema.safeParse(item).success)).toBe(true);
+    expect(new Set(news.map((item) => item.id)).size).toBe(news.length);
   });
 });

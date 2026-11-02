@@ -3,12 +3,12 @@
  * Rechtstexte enthalten bewusst Platzhalter und keine erfundenen Firmenangaben.
  */
 export const siteConfig = {
-  name: "Linkjagd Tools",
-  shortName: "Linkjagd",
+  name: "Linknarr",
+  shortName: "Linknarr",
   locale: "de",
-  tagline: "Websites, KI-Tools, kreative Anwendungen & Open Source entdecken",
+  tagline: "Entdecke das Beste im Web.",
   description:
-    "Deutschsprachiges Verzeichnis für interessante Websites, KI-Tools, Browser-Games, Kreativität und Produktivität – mit Vergleichen für Business-Software.",
+    "Deutschsprachige Plattform zum Entdecken und Vergleichen interessanter Websites, KI-Tools und digitaler Anwendungen.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "http://127.0.0.1:4327",
   creator: {
     name: "Michał Bohdanowicz",
@@ -34,7 +34,7 @@ export const siteConfig = {
     { href: "/affiliate-hinweis", label: "Affiliate-Hinweis" },
   ],
   seo: {
-    title: "Linkjagd Tools – Websites entdecken und Tools vergleichen",
+    title: "Linknarr – Entdecke das Beste im Web.",
     description:
       "Entdecke Websites, KI-Tools, Browser-Games und kreative Anwendungen. Finde Tools aus Linkjagd-Videos und vergleiche passende Business-Software.",
   },
@@ -93,7 +93,7 @@ export const siteConfig = {
           heading: "Newsletter",
           body: [
             "Bei deaktivierter Newsletter-Anmeldung ist kein Formular sichtbar und es werden darüber keine Adressen angenommen.",
-            "Ist ein Versanddienst eingerichtet und du willigst ein, speichert Linkjagd Tools E-Mail, Zeitpunkt und einen Bestätigungswert. Der Status bleibt offen, bis der Link in der Mail aufgerufen wird.",
+            "Ist ein Versanddienst eingerichtet und du willigst ein, speichert Linknarr E-Mail, Zeitpunkt und einen Bestätigungswert. Der Status bleibt offen, bis der Link in der Mail aufgerufen wird.",
             "Ein bestätigter Eintrag kann in der Redaktion als CSV ausgegeben werden. Der Bestätigungswert selbst steht nicht in dieser Datei.",
           ],
         },
@@ -130,14 +130,14 @@ export const siteConfig = {
     affiliate: {
       title: "Affiliate-Hinweis",
       intro:
-        "Linkjagd Tools kann Vergütungen erhalten, wenn du ein Tool über einen gekennzeichneten Partnerlink öffnest. Die Preise und Vertragsbedingungen legt der jeweilige Anbieter fest.",
+        "Linknarr kann Vergütungen erhalten, wenn du ein Tool über einen gekennzeichneten Partnerlink öffnest. Die Preise und Vertragsbedingungen legt der jeweilige Anbieter fest.",
       sections: [
         {
           heading: "Wie Links funktionieren",
           body: [
-            "Anbieterlinks führen zur offiziellen Website oder bei gekennzeichneten Partnerlinks zu einer hinterlegten Partneradresse.",
-            "Mit aktivem Partnerlink ist der Link mit rel=\"sponsored nofollow\" gekennzeichnet. Ohne Partnerlink bleibt er ein normaler Link zur offiziellen Website. Die Weiterleitung ist ein HTTP-302 auf genau die gespeicherte Adresse. Es werden keine Partnerparameter angehängt.",
-            "Liegt ein gültiger eigener Partnerlink vor, führt /go/[slug] dorthin und der Button ist als Werbung gekennzeichnet. Ohne Partnerlink führt dieselbe Adresse zur offiziellen Website und wird nicht als Werbung bezeichnet. Es werden keine Empfehlungsparameter angehängt.",
+            "Anbieter-Buttons werden nur angezeigt, wenn ein gültiger, aktiver Affiliate-Link hinterlegt ist.",
+            "Aktive Partnerlinks sind als Anzeige und mit rel=\"sponsored nofollow\" gekennzeichnet. Die Weiterleitung ist ein HTTP-302 auf die hinterlegte Adresse. Es werden keine Partnerparameter angehängt.",
+            "Ohne gültigen eigenen Affiliate-Link bleibt der Tool-Eintrag sichtbar, aber der Anbieter-Button entfällt. /go/[slug] verwendet die Originaladresse nicht als Ersatz.",
           ],
         },
         {

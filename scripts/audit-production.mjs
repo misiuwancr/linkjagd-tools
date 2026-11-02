@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 
 // Two workers, a pause between requests, and no automatic retry storm.
-const base = process.argv[2] || 'https://linkjagd-tools.vercel.app';
+const base = process.argv[2] || 'https://linknarr.com';
 const output = process.argv[3] || 'production-audit.json';
 const pause = () => new Promise(resolve => setTimeout(resolve, 300));
 async function inspect(url) {

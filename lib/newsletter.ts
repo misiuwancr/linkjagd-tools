@@ -1,3 +1,4 @@
+import { siteConfig } from "@/site.config";
 import { createHash, randomBytes } from "crypto";
 
 export function normalizeNewsletterEmail(value: string) {
@@ -51,11 +52,11 @@ export function newsletterOpen(env: { [key: string]: string | undefined } = proc
 
 export async function sendConfirmationMail(input: { to: string; link: string; config: MailConfig }) {
   if (input.config.provider === "none") return { sent: false as const, reason: "kein Versanddienst" };
-  const subject = "Bitte bestätige deine Anmeldung bei Linkjagd Tools";
+  const subject = `Bitte bestätige deine Anmeldung bei ${siteConfig.name}`;
   const text = [
     "Hallo,",
     "",
-    "du hast dich für Hinweise von Linkjagd Tools eingetragen. Bitte bestätige die Adresse über diesen Link:",
+    `du hast dich für Hinweise von ${siteConfig.name} eingetragen. Bitte bestätige die Adresse über diesen Link:`,
     input.link,
     "",
     "Ohne diese Bestätigung bleibt die Anmeldung offen und es geht keine weitere Mail raus.",

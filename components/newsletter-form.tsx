@@ -1,3 +1,4 @@
+import { siteConfig } from "@/site.config";
 import { subscribeNewsletter } from "@/lib/actions/public";
 
 const messages: Record<string, string> = {
@@ -46,7 +47,7 @@ export function NewsletterForm({
       <label className="flex items-start gap-2 text-sm leading-6 text-muted-foreground">
         <input name="datenschutz" type="checkbox" value="ja" required className="mt-1" />
         <span>
-          Ich willige ein, dass Linkjagd Tools diese Adresse speichert, bis ich sie bestätige oder widerrufe. Hinweise stehen in der{" "}
+          Ich willige ein, dass {siteConfig.name} diese Adresse speichert, bis ich sie bestätige oder widerrufe. Hinweise stehen in der{" "}
           <a href="/datenschutz" className="underline">
             Datenschutzerklärung
           </a>

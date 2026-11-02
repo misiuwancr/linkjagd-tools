@@ -1,3 +1,4 @@
+import { siteConfig } from "@/site.config";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { NewsletterForm } from "@/components/newsletter-form";
@@ -5,7 +6,7 @@ import { newsletterOpen } from "@/lib/newsletter";
 
 export const metadata: Metadata = {
   title: "Newsletter-Archiv",
-  description: "Informationen zum Newsletter von Linkjagd Tools.",
+  description: `Informationen zum Newsletter von ${siteConfig.name}.`,
   alternates: { canonical: "/newsletter" },
 };
 
