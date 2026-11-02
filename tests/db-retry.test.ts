@@ -2,6 +2,19 @@ import { describe, expect, it } from "vitest";
 import { createRetryingFetch, isRetryableDbError } from "@/db/http";
 
 describe("Datenbank-Netz", () => {
+  it("beachtet einen bereits abgebrochenen Request ohne Wiederholung", async () => {
+    const controller = new AbortController();
+    controller.abort();
+    let calls = 0;
+    const fetchImpl = (async (_input, init) => {
+      calls++;
+      expect(init?.signal?.aborted).toBe(true);
+      throw new DOMException("Abgebrochen", "AbortError");
+    }) as typeof fetch;
+    const request = new Request("https://example.test", { signal: controller.signal });
+    await expect(createRetryingFetch(fetchImpl)(request)).rejects.toThrow("Abgebrochen");
+    expect(calls).toBe(1);
+  });
   it("kann einen POST-Request nach einem Serverfehler mit vollständigem Body wiederholen", async () => {
     const bodies: string[] = [];
     const fetchImpl = (async (input, init) => {
