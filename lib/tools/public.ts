@@ -2,6 +2,7 @@ import type { AffiliateProgram, Category, LicenseType, PricingModel, Tag, Tool }
 import { decideRedirect } from "@/lib/affiliate/redirect";
 import { parseStringList } from "@/lib/utils";
 import { videosFromUrls, type PublicVideo } from "@/lib/videos";
+import type { ToolEditorial, LinkjagdVideo } from "@/lib/tool-editorial";
 
 export type PublicCategory = Pick<Category, "name" | "slug">;
 export type PublicTag = Pick<Tag, "name" | "slug">;
@@ -40,12 +41,15 @@ export type PublicTool = {
   ctaKind: "affiliate" | "official" | "disabled";
   fromVideo: boolean;
   videos: PublicVideo[];
+  linkjagdVideos?: LinkjagdVideo[];
+  publishedAt?: string | null;
 };
 
 type ToolRelations = Tool & {
   categories: PublicCategory[];
   tags: PublicTag[];
   programs: Pick<AffiliateProgram, "id" | "affiliateUrl" | "status" | "isActive" | "priority">[];
+  editorial?: ToolEditorial;
 };
 
 export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool {
@@ -84,6 +88,8 @@ export function toPublicTool(tool: ToolRelations, siteHost?: string): PublicTool
     ctaEnabled: decision.ok,
     ctaKind: decision.ok ? decision.kind : "disabled",
     videos,
+    linkjagdVideos: tool.editorial?.videos ?? [],
+    publishedAt: tool.editorial?.publishedAt ?? null,
     fromVideo: videos.length > 0,
   };
 }

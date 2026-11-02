@@ -19,12 +19,13 @@ import { getToolById } from "@/lib/tools/repository";
 import { parseStringList } from "@/lib/utils";
 import { saveImageUpload } from "@/lib/uploads";
 import { licenseTypes, pricingModels, publishStatuses } from "@/db/schema";
+import { readToolEditorial } from "@/lib/tool-editorial";
 import { writeAllowIndex } from "@/lib/allow-index";
 
 export type ActionState = { error?: string };
 
 function revalidatePublic(slug?: string) {
-  for (const path of ["/", "/tools", "/top-20", "/neu", "/kategorien", "/blog"]) {
+  for (const path of ["/", "/tools", "/top-20", "/neu", "/kategorien", "/blog", "/linkjagd", "/empfehlungen"]) {
     revalidatePath(path);
   }
   if (slug) revalidatePath(`/tools/${slug}`);
@@ -68,6 +69,15 @@ export async function saveToolAction(_prev: ActionState, formData: FormData): Pr
   const id = String(formData.get("id") || "");
   const current = id ? await getToolById(database, id) : null;
   if (id && !current) return { error: "Tool nicht gefunden." };
+  const editorial = await readToolEditorial(database, id);
+  const publishedOn = String(formData.get("publishedOn") || "");
+  if (publishedOn && (!/^\d{4}-\d{2}-\d{2}$/.test(publishedOn) || !Number.isFinite(Date.parse(publishedOn)) || new Date(publishedOn).toISOString().slice(0, 10) !== publishedOn)) return { error: "Bitte ein gültiges Veröffentlichungsdatum angeben." };
+  const videoIds = formData.getAll("linkjagdVideoId").map(String);
+  const videoTitles = formData.getAll("linkjagdVideoTitle").map(String);
+  const videoParts = formData.getAll("linkjagdVideoPart").map(String);
+  const videoUrls = formData.getAll("linkjagdVideoUrl").map(String);
+  const publishedAt = publishedOn ? (editorial.publishedAt?.slice(0, 10) === publishedOn ? editorial.publishedAt : new Date(publishedOn).toISOString()) : null;
+  const editorialInput = { publishedAt, videos: videoIds.map((videoId, index) => ({ id: videoId, title: videoTitles[index] || "", part: videoParts[index] ? Number(videoParts[index]) : null, url: videoUrls[index] || "" })) };
   const rankRaw = String(formData.get("editorialRank") || "").trim();
   const rank = rankRaw ? Number(rankRaw) : null;
   let uploads;
@@ -84,6 +94,7 @@ export async function saveToolAction(_prev: ActionState, formData: FormData): Pr
     database,
     {
       name: formData.get("name"),
+      editorial: editorialInput,
       slug: formData.get("slug") || "",
       originalUrl: formData.get("originalUrl"),
       shortDescriptionDe: formData.get("shortDescriptionDe"),

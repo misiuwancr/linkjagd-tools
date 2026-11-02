@@ -6,9 +6,9 @@ export const siteConfig = {
   name: "Linkjagd Tools",
   shortName: "Linkjagd",
   locale: "de",
-  tagline: "Tools für E-Commerce, Marketing & Automatisierung – inklusive Open Source",
+  tagline: "Websites, KI-Tools, kreative Anwendungen & Open Source entdecken",
   description:
-    "Deutschsprachige Entscheidungshilfen für E-Commerce, Marketing und Automatisierung – mit dem bestehenden Verzeichnis für KI, Webtools und Open Source.",
+    "Deutschsprachiges Verzeichnis für interessante Websites, KI-Tools, Browser-Games, Kreativität und Produktivität – mit Vergleichen für Business-Software.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "http://127.0.0.1:4327",
   creator: {
     name: "Michał Bohdanowicz",
@@ -34,9 +34,9 @@ export const siteConfig = {
     { href: "/affiliate-hinweis", label: "Affiliate-Hinweis" },
   ],
   seo: {
-    title: "Linkjagd Tools – vergleichen und passend entscheiden",
+    title: "Linkjagd Tools – Websites entdecken und Tools vergleichen",
     description:
-      "Vergleiche Tools für E-Commerce, Marketing und Automatisierung nach Zielgruppe, Einsatzfall und Grenzen. Das gesamte Tool-Verzeichnis bleibt verfügbar.",
+      "Entdecke Websites, KI-Tools, Browser-Games und kreative Anwendungen. Finde Tools aus Linkjagd-Videos und vergleiche passende Business-Software.",
   },
   legal: {
     impressum: {

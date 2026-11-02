@@ -25,6 +25,8 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
         </div>
       </div>
       <p className="mt-3 line-clamp-3 flex-1 text-sm leading-6 text-muted-foreground">{tool.shortDescriptionDe}</p>
+      {tool.linkjagdVideos?.length ? <div className="mt-3 flex flex-wrap gap-2">{tool.linkjagdVideos.map((video) => <Link key={video.id} href={"/linkjagd?video-id=" + encodeURIComponent(video.id)} className="max-w-full break-words rounded-full bg-hunt/10 px-3 py-1 text-xs font-medium text-hunt">Linkjagd{video.part ? " · Teil " + video.part : " · " + video.title}</Link>)}</div> : null}
+      {tool.publishedAt ? <p className="mt-3 text-xs text-muted-foreground">Veröffentlicht: <time dateTime={tool.publishedAt}>{new Date(tool.publishedAt).toLocaleDateString("de-DE", { timeZone: "Europe/Berlin" })}</time></p> : null}
       <VoteButton slug={tool.slug} name={tool.name} />
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
         <Link href={`/tools/${tool.slug}`} className="inline-flex min-h-10 items-center text-sm font-semibold text-hunt">Details ansehen →</Link>

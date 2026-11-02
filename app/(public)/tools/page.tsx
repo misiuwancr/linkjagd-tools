@@ -42,7 +42,7 @@ export default async function ToolsPage({
 }) {
   const query = publicListQuery(searchParams);
   const database = await getDb();
-  const hasFilters = !!(query.q || query.categorySlug || query.pricing || query.license || query.company || query.featuredOnly || query.fromVideo || query.germanUi || query.noSignup);
+  const hasFilters = !!(query.q || query.categorySlug || query.pricing || query.license || query.company || query.featuredOnly || query.fromVideo || query.germanUi || query.noSignup || query.linkjagdVideo || query.videoSearch);
   const [result, categories, clicks, all, recommended] = await Promise.all([
     listTools(database, query),
     listCategories(database),

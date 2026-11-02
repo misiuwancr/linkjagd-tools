@@ -30,6 +30,11 @@ export type ToolListQuery = {
   noSignup: "ja" | "nein" | "unklar" | "";
   company: string;
   discoverySources: string[];
+  linkjagdOnly?: boolean;
+  linkjagdVideo?: string;
+  videoSearch?: string;
+  datedOnly?: boolean;
+  manualRecommendationsOnly?: boolean;
 };
 
 type SearchParams = Record<string, string | string[] | undefined>;
@@ -77,6 +82,8 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
     noSignup: triParam(first(params.anmeldung)),
     company: companyParam(first(params.firma)),
     discoverySources: [],
+    linkjagdVideo: (first(params["video-id"]) ?? "").trim().slice(0, 80),
+    videoSearch: (first(params.folge) ?? "").trim().slice(0, 120),
     ...overrides,
     ...(overrides.categorySlug !== undefined && overrides.categorySlugs === undefined
       ? { categorySlugs: overrides.categorySlug ? [overrides.categorySlug] : [] } : {}),
@@ -85,8 +92,8 @@ export function publicListQuery(params: SearchParams, overrides: Partial<ToolLis
 
 export function directoryHref(
   basePath: string,
-  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company"> & { featuredOnly?: boolean; categorySlugs?: string[] },
-  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "categorySlugs" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company" | "featuredOnly">> = {},
+  query: Pick<ToolListQuery, "q" | "categorySlug" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company"> & { featuredOnly?: boolean; categorySlugs?: string[]; linkjagdVideo?: string; videoSearch?: string },
+  patch: Partial<Pick<ToolListQuery, "q" | "categorySlug" | "categorySlugs" | "pricing" | "license" | "sort" | "page" | "fromVideo" | "germanUi" | "noSignup" | "company" | "featuredOnly" | "linkjagdVideo" | "videoSearch">> = {},
 ) {
   const next = { ...query, ...patch };
   const params = new URLSearchParams();
@@ -101,6 +108,8 @@ export function directoryHref(
   if (next.noSignup) params.set("anmeldung", next.noSignup);
   if (next.company) params.set("firma", next.company);
   if (next.featuredOnly) params.set("picks", "ja");
+  if (next.linkjagdVideo) params.set("video-id", next.linkjagdVideo);
+  if (next.videoSearch) params.set("folge", next.videoSearch);
   if (next.sort !== "newest") params.set("sort", sortParam(next.sort));
   if (next.page > 1) params.set("seite", String(next.page));
   const qs = params.toString();

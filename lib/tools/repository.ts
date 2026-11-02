@@ -15,17 +15,18 @@ import {
 } from "@/db/schema";
 import type { AppDatabase } from "@/db/client";
 import { normalizeSearch, slugify } from "@/lib/utils";
-import type { ToolListQuery } from "@/lib/tools/query";
+import { publicListQuery, type ToolListQuery } from "@/lib/tools/query";
 import type { PublicCategory, PublicTag } from "@/lib/tools/public";
 import { weeklyPopularVisible } from "@/lib/tools/popular";
 import { companiesForTools, companyBySlug, type CompanyToolRef } from "@/lib/companies";
-import { isHomepageFresh } from "@/lib/taxonomy";
 import { editorialStarterSlugs, starterRank } from "@/lib/editorial-selection";
+import { emptyEditorial, linkjagdAssignmentSql, publicationSql, readEditorialBatch, type ToolEditorial } from "@/lib/tool-editorial";
 
 export type ToolWithRelations = Tool & {
   categories: PublicCategory[];
   tags: PublicTag[];
   programs: AffiliateProgram[];
+  editorial: ToolEditorial;
 };
 
 function filters(query: ToolListQuery): SQL[] {
@@ -34,6 +35,9 @@ function filters(query: ToolListQuery): SQL[] {
   if (query.featuredOnly) parts.push(or(eq(tools.featured, true), inArray(tools.slug, [...editorialStarterSlugs]))!);
   if (query.rankedOnly) parts.push(sql`${tools.editorialRank} is not null`);
   if (query.excludeExamples) parts.push(eq(tools.isExample, false));
+  if (query.manualRecommendationsOnly) parts.push(eq(tools.featured, true));
+  if (query.linkjagdOnly || query.linkjagdVideo || query.videoSearch) parts.push(linkjagdAssignmentSql(query.linkjagdVideo, query.videoSearch));
+  if (query.datedOnly) parts.push(sql`julianday(${publicationSql}) <= julianday('now')`);
   if (query.partnerGap) {
     parts.push(sql`${tools.id} in (
       select tool_id from affiliate_programs
@@ -107,7 +111,7 @@ function orderBy(query: ToolListQuery) {
       asc(tools.id),
     ];
   }
-  return [desc(tools.createdAt), asc(tools.id)];
+  return [sql`case when julianday(${publicationSql}) <= julianday('now') then 0 else 1 end`, sql`julianday(${publicationSql}) desc`, asc(tools.id)];
 }
 
 function starterOrder() {
@@ -120,7 +124,7 @@ export async function attachRelations(
 ): Promise<ToolWithRelations[]> {
   if (rows.length === 0) return [];
   const ids = rows.map((row) => row.id);
-  const [categoryRows, tagRows, programs] = await Promise.all([
+  const [categoryRows, tagRows, programs, editorial] = await Promise.all([
     database
       .select({
         toolId: toolCategories.toolId,
@@ -140,11 +144,12 @@ export async function attachRelations(
       .innerJoin(tags, eq(toolTags.tagId, tags.id))
       .where(inArray(toolTags.toolId, ids)),
     database.select().from(affiliatePrograms).where(inArray(affiliatePrograms.toolId, ids)),
+    readEditorialBatch(database, ids),
   ]);
 
   return rows.map((row) => ({
     ...row,
-    featured: row.featured || starterRank(row.slug) !== null,
+    editorial: editorial.get(row.id) ?? emptyEditorial(),
     categories: categoryRows
       .filter((item) => item.toolId === row.id)
       .map(({ name, slug }) => ({ name, slug })),
@@ -508,27 +513,7 @@ export async function listTopTools(database: AppDatabase, limit = 20) {
 }
 
 export async function listHomepageFresh(database: AppDatabase, limit = 6) {
-  const fresh = ["chat-assistenten", "text-schreiben", "bild-design", "video", "audio-musik-stimme", "recherche-suche", "automatisierung-agenten"];
-  const rows = await database
-    .select()
-    .from(tools)
-    .where(
-      and(
-        eq(tools.publishStatus, "published"),
-        eq(tools.isExample, false),
-        sql`${tools.id} in (
-          select tc.tool_id from tool_categories tc
-          inner join categories c on c.id = tc.category_id
-          where c.slug in (${sql.join(fresh.map((slug) => sql`${slug}`), sql`, `)})
-        )`,
-      ),
-    )
-    .orderBy(desc(tools.createdAt))
-    .limit(160);
-  const withCategories = await attachRelations(database, rows);
-  return withCategories
-    .filter((tool) => tool.categories.some((category) => isHomepageFresh(category.slug, `${tool.name} ${tool.shortDescriptionDe}`)))
-    .slice(0, limit);
+  return (await listTools(database, publicListQuery({}, { datedOnly: true, pageSize: limit }))).items;
 }
 
 export async function totalClicks(database: AppDatabase) {

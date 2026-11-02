@@ -12,6 +12,7 @@ export function DirectorySearch({ query, categories, showPopular, toolCount }: {
       <div className="flex flex-col gap-2 sm:flex-row"><input id="verzeichnis-suche" name="q" type="search" maxLength={120} defaultValue={query.q} placeholder="Name oder Aufgabe, z. B. Bilder bearbeiten" className="field min-w-0 flex-1 !py-3 text-base" /><button type="submit" className="min-h-12 shrink-0 rounded-xl bg-primary px-6 font-semibold text-primary-foreground">Tools finden</button></div>
       <p className="mt-2 text-xs text-muted-foreground">{toolCount.toLocaleString("de-DE")} vorhandene Tools und Websites · Auswahl über die Adresse teilbar</p>
     </div>
+    {query.sort === "newest" ? <p className="text-xs leading-6 text-muted-foreground">Neueste: belegte Veröffentlichungen zuerst, Einträge ohne bekanntes Datum danach.</p> : null}
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(180px,0.5fr)]">
       <fieldset><legend className="mb-2 text-sm font-semibold">Preismodell</legend><div className="flex flex-wrap gap-2">{[{value: "", label: "Alle Preise", param: ""}, ...pricingOptions].map((item) => <label key={item.value} className="cursor-pointer"><input type="radio" name="preis" value={item.param} defaultChecked={query.pricing === item.value} className="peer sr-only" /><span className="inline-flex min-h-10 items-center rounded-full border border-border px-3 text-sm peer-checked:border-hunt peer-checked:bg-hunt/10 peer-checked:text-hunt peer-focus-visible:ring-2 peer-focus-visible:ring-hunt">{item.label}</span></label>)}</div></fieldset>
       <div><label htmlFor="sort" className="mb-2 block text-sm font-semibold">Sortierung</label><select id="sort" name="sort" defaultValue={sorts.find((item) => item.value === query.sort)?.param ?? "neueste"} className="field">{sorts.map((item) => <option key={item.value} value={item.param}>{item.label}</option>)}</select></div>
@@ -25,6 +26,8 @@ export function DirectorySearch({ query, categories, showPopular, toolCount }: {
     <div><label htmlFor="anmeldung" className="mb-2 block text-sm font-semibold">Ohne Anmeldung</label><select id="anmeldung" name="anmeldung" defaultValue={query.noSignup} className="field"><option value="">Alle</option><option value="ja">Ja</option><option value="nein">Nein</option><option value="unklar">Unklar</option></select></div></div>
     <div className="flex flex-wrap items-center gap-x-5 gap-y-3"><label className="flex min-h-10 cursor-pointer items-center gap-2 text-sm"><input type="checkbox" name="picks" value="ja" defaultChecked={query.featuredOnly} className="h-4 w-4 accent-hunt" />Nur redaktionelle Empfehlungen</label><label className="flex min-h-10 cursor-pointer items-center gap-2 text-sm"><input type="checkbox" name="video" value="ja" defaultChecked={query.fromVideo} className="h-4 w-4 accent-hunt" />Mit Videolink</label></div>
     {query.company ? <input type="hidden" name="firma" value={query.company} /> : null}
+    {query.linkjagdVideo ? <input type="hidden" name="video-id" value={query.linkjagdVideo} /> : null}
+    {query.videoSearch ? <input type="hidden" name="folge" value={query.videoSearch} /> : null}
     <div className="flex flex-wrap items-center gap-3 border-t border-border pt-4"><button type="submit" className="min-h-11 rounded-xl bg-primary px-5 text-sm font-semibold text-primary-foreground">Auswahl anwenden</button><Link href="/tools" className="inline-flex min-h-11 items-center rounded-xl px-2 text-sm text-muted-foreground underline">Alles zurücksetzen</Link><span className="text-xs text-muted-foreground">Filter auswählen und anwenden.</span></div>
   </form>;
 }
@@ -41,6 +44,8 @@ export function ActiveDirectoryFilters({ query, categories }: { query: ToolListQ
   if (query.germanUi) remove(`Auf Deutsch: ${query.germanUi}`, { germanUi: "" });
   if (query.noSignup) remove(`Ohne Anmeldung: ${query.noSignup}`, { noSignup: "" });
   if (query.company) remove(`Firma: ${query.company}`, { company: "" });
+  if (query.linkjagdVideo) remove(`Linkjagd-Video: ${query.linkjagdVideo}`, { linkjagdVideo: "" });
+  if (query.videoSearch) remove(`Videosuche: ${query.videoSearch}`, { videoSearch: "" });
   if (!items.length) return null;
   return <nav aria-label="Aktive Filter" className="mt-4 flex flex-wrap gap-2">{items.map((item) => <Link key={item.label} href={item.href} aria-label={`Filter entfernen: ${item.label}`} className="inline-flex min-h-10 max-w-full items-center gap-2 rounded-full border border-hunt/40 bg-hunt/10 px-3 py-2 text-sm text-hunt"><span className="break-words [overflow-wrap:anywhere]">{item.label}</span><span aria-hidden="true">×</span></Link>)}</nav>;
 }
