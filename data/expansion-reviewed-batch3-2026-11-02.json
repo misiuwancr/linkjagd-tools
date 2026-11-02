@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "EDA",
+    "originalUrl": "https://github.com/jortilles/EDA",
+    "shortDescriptionDe": "Edalitics erstellt interaktive Dashboards und analysiert Daten aus unterschiedlichen Quellen in einer selbst betreibbaren BI-Plattform.",
+    "longDescriptionDe": "Edalitics erstellt interaktive Dashboards und analysiert Daten aus unterschiedlichen Quellen in einer selbst betreibbaren BI-Plattform. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "business-finanzen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/jortilles/EDA",
+      "checkedAt": "2026-11-02T21:06:09.696Z",
+      "httpStatus": 200,
+      "productFacts": "Edalitics erstellt interaktive Dashboards und analysiert Daten aus unterschiedlichen Quellen in einer selbst betreibbaren BI-Plattform.",
+      "pricingSource": "https://github.com/jortilles/EDA",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "ANALOG",
+    "originalUrl": "https://github.com/orangecoloured/analog",
+    "shortDescriptionDe": "ANALOG bietet eine reduzierte Webanalyse, die auf dem eigenen Server betrieben werden kann.",
+    "longDescriptionDe": "ANALOG bietet eine reduzierte Webanalyse, die auf dem eigenen Server betrieben werden kann. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/orangecoloured/analog",
+      "checkedAt": "2026-11-02T21:06:09.715Z",
+      "httpStatus": 200,
+      "productFacts": "ANALOG bietet eine reduzierte Webanalyse, die auf dem eigenen Server betrieben werden kann.",
+      "pricingSource": "https://github.com/orangecoloured/analog",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "ArchivesSpace",
+    "originalUrl": "https://archivesspace.org/",
+    "shortDescriptionDe": "ArchivesSpace erschließt Archivbestände und unterstützt Einrichtungen dabei, Informationen über ihre Sammlungen zugänglich zu machen.",
+    "longDescriptionDe": "ArchivesSpace erschließt Archivbestände und unterstützt Einrichtungen dabei, Informationen über ihre Sammlungen zugänglich zu machen. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "bildung-lernen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://archivesspace.org/",
+      "checkedAt": "2026-11-02T21:06:12.605Z",
+      "httpStatus": 200,
+      "productFacts": "ArchivesSpace erschließt Archivbestände und unterstützt Einrichtungen dabei, Informationen über ihre Sammlungen zugänglich zu machen.",
+      "pricingSource": "https://archivesspace.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "mail-archiver",
+    "originalUrl": "https://github.com/s1t5/mail-archiver",
+    "shortDescriptionDe": "Mail-Archiver archiviert E-Mails aus mehreren Konten und stellt Funktionen zum Suchen und Exportieren der Nachrichten bereit.",
+    "longDescriptionDe": "Mail-Archiver archiviert E-Mails aus mehreren Konten und stellt Funktionen zum Suchen und Exportieren der Nachrichten bereit. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/s1t5/mail-archiver",
+      "checkedAt": "2026-11-02T21:06:13.719Z",
+      "httpStatus": 200,
+      "productFacts": "Mail-Archiver archiviert E-Mails aus mehreren Konten und stellt Funktionen zum Suchen und Exportieren der Nachrichten bereit.",
+      "pricingSource": "https://github.com/s1t5/mail-archiver",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Wayback",
+    "originalUrl": "https://github.com/wabarc/wayback",
+    "shortDescriptionDe": "Wayback sichert Webinhalte über verschiedene Archivdienste und stellt dafür eine an Messenger angelehnte Bedienung bereit.",
+    "longDescriptionDe": "Wayback sichert Webinhalte über verschiedene Archivdienste und stellt dafür eine an Messenger angelehnte Bedienung bereit. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/wabarc/wayback",
+      "checkedAt": "2026-11-02T21:06:13.987Z",
+      "httpStatus": 200,
+      "productFacts": "Wayback sichert Webinhalte über verschiedene Archivdienste und stellt dafür eine an Messenger angelehnte Bedienung bereit.",
+      "pricingSource": "https://github.com/wabarc/wayback",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Dagu",
+    "originalUrl": "https://docs.dagu.sh/",
+    "shortDescriptionDe": "Dagu führt in YAML beschriebene Arbeitsabläufe aus und ergänzt vorhandene Befehle um Zeitpläne, Wiederholungen und Protokolle.",
+    "longDescriptionDe": "Dagu führt in YAML beschriebene Arbeitsabläufe aus und ergänzt vorhandene Befehle um Zeitpläne, Wiederholungen und Protokolle. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "automatisierung-agenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://docs.dagu.sh/",
+      "checkedAt": "2026-11-02T21:06:15.274Z",
+      "httpStatus": 200,
+      "productFacts": "Dagu führt in YAML beschriebene Arbeitsabläufe aus und ergänzt vorhandene Befehle um Zeitpläne, Wiederholungen und Protokolle.",
+      "pricingSource": "https://docs.dagu.sh/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "gocron",
+    "originalUrl": "https://github.com/flohoss/gocron",
+    "shortDescriptionDe": "gocron startet wiederkehrende Aufgaben nach Zeitplan und liest deren Definitionen aus YAML-Dateien.",
+    "longDescriptionDe": "gocron startet wiederkehrende Aufgaben nach Zeitplan und liest deren Definitionen aus YAML-Dateien. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "automatisierung-agenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/flohoss/gocron",
+      "checkedAt": "2026-11-02T21:06:15.758Z",
+      "httpStatus": 200,
+      "productFacts": "gocron startet wiederkehrende Aufgaben nach Zeitplan und liest deren Definitionen aus YAML-Dateien.",
+      "pricingSource": "https://github.com/flohoss/gocron",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Matchering",
+    "originalUrl": "https://github.com/sergree/matchering",
+    "shortDescriptionDe": "Matchering passt Audiomaterial an einen Referenztrack an und unterstützt damit automatisiertes Audio-Mastering.",
+    "longDescriptionDe": "Matchering passt Audiomaterial an einen Referenztrack an und unterstützt damit automatisiertes Audio-Mastering. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "audio-musik-stimme"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/sergree/matchering",
+      "checkedAt": "2026-11-02T21:06:16.260Z",
+      "httpStatus": 200,
+      "productFacts": "Matchering passt Audiomaterial an einen Referenztrack an und unterstützt damit automatisiertes Audio-Mastering.",
+      "pricingSource": "https://github.com/sergree/matchering",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "bloglite",
+    "originalUrl": "https://github.com/rikhuijzer/bloglite",
+    "shortDescriptionDe": "bloglite betreibt einen schlanken eigenen Blog oder Microblog auf selbst verwalteter Infrastruktur.",
+    "longDescriptionDe": "bloglite betreibt einen schlanken eigenen Blog oder Microblog auf selbst verwalteter Infrastruktur. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "text-schreiben"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/rikhuijzer/bloglite",
+      "checkedAt": "2026-11-02T21:06:17.079Z",
+      "httpStatus": 200,
+      "productFacts": "bloglite betreibt einen schlanken eigenen Blog oder Microblog auf selbst verwalteter Infrastruktur.",
+      "pricingSource": "https://github.com/rikhuijzer/bloglite",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "FlatPress",
+    "originalUrl": "https://www.flatpress.org/",
+    "shortDescriptionDe": "FlatPress veröffentlicht einen eigenen Blog und ergänzt Beiträge um Kommentare und anpassbare Gestaltung.",
+    "longDescriptionDe": "FlatPress veröffentlicht einen eigenen Blog und ergänzt Beiträge um Kommentare und anpassbare Gestaltung. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "text-schreiben"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.flatpress.org/",
+      "checkedAt": "2026-11-02T21:06:17.998Z",
+      "httpStatus": 200,
+      "productFacts": "FlatPress veröffentlicht einen eigenen Blog und ergänzt Beiträge um Kommentare und anpassbare Gestaltung.",
+      "pricingSource": "https://www.flatpress.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Chobble Tickets",
+    "originalUrl": "https://tickets.chobble.com/",
+    "shortDescriptionDe": "Chobble Tickets verwaltet Veranstaltungstickets einschließlich QR-Einlasskontrolle. Die Software kann alternativ zum kostenpflichtigen Hosting selbst betrieben werden.",
+    "longDescriptionDe": "Chobble Tickets verwaltet Veranstaltungstickets einschließlich QR-Einlasskontrolle. Die Software kann alternativ zum kostenpflichtigen Hosting selbst betrieben werden. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "business-finanzen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://tickets.chobble.com/",
+      "checkedAt": "2026-11-02T21:06:19.580Z",
+      "httpStatus": 200,
+      "productFacts": "Chobble Tickets verwaltet Veranstaltungstickets einschließlich QR-Einlasskontrolle. Die Software kann alternativ zum kostenpflichtigen Hosting selbst betrieben werden.",
+      "pricingSource": "https://tickets.chobble.com/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Buku",
+    "originalUrl": "https://github.com/jarun/Buku",
+    "shortDescriptionDe": "Buku organisiert persönliche Web-Lesezeichen über die Kommandozeile und unterstützt das Wiederfinden gespeicherter Links.",
+    "longDescriptionDe": "Buku organisiert persönliche Web-Lesezeichen über die Kommandozeile und unterstützt das Wiederfinden gespeicherter Links. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/jarun/Buku",
+      "checkedAt": "2026-11-02T21:06:21.081Z",
+      "httpStatus": 200,
+      "productFacts": "Buku organisiert persönliche Web-Lesezeichen über die Kommandozeile und unterstützt das Wiederfinden gespeicherter Links.",
+      "pricingSource": "https://github.com/jarun/Buku",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Espial",
+    "originalUrl": "https://github.com/jonschoning/espial",
+    "shortDescriptionDe": "Espial sammelt und verwaltet Lesezeichen in einer eigenen Webanwendung mit mehreren Benutzerkonten.",
+    "longDescriptionDe": "Espial sammelt und verwaltet Lesezeichen in einer eigenen Webanwendung mit mehreren Benutzerkonten. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/jonschoning/espial",
+      "checkedAt": "2026-11-02T21:06:21.305Z",
+      "httpStatus": 200,
+      "productFacts": "Espial sammelt und verwaltet Lesezeichen in einer eigenen Webanwendung mit mehreren Benutzerkonten.",
+      "pricingSource": "https://github.com/jonschoning/espial",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Faved",
+    "originalUrl": "https://faved.to/",
+    "shortDescriptionDe": "Die selbst betreibbare Classic-Ausgabe von Faved sammelt und organisiert Web-Lesezeichen auf dem eigenen Server.",
+    "longDescriptionDe": "Die selbst betreibbare Classic-Ausgabe von Faved sammelt und organisiert Web-Lesezeichen auf dem eigenen Server. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://faved.to/",
+      "checkedAt": "2026-11-02T21:06:22.117Z",
+      "httpStatus": 200,
+      "productFacts": "Die selbst betreibbare Classic-Ausgabe von Faved sammelt und organisiert Web-Lesezeichen auf dem eigenen Server.",
+      "pricingSource": "https://faved.to/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "NeonLink",
+    "originalUrl": "https://github.com/AlexSciFier/neonlink",
+    "shortDescriptionDe": "NeonLink stellt einen einfachen selbst betreibbaren Dienst zum Speichern und Verwalten von Lesezeichen bereit.",
+    "longDescriptionDe": "NeonLink stellt einen einfachen selbst betreibbaren Dienst zum Speichern und Verwalten von Lesezeichen bereit. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/AlexSciFier/neonlink",
+      "checkedAt": "2026-11-02T21:06:22.987Z",
+      "httpStatus": 200,
+      "productFacts": "NeonLink stellt einen einfachen selbst betreibbaren Dienst zum Speichern und Verwalten von Lesezeichen bereit.",
+      "pricingSource": "https://github.com/AlexSciFier/neonlink",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Servas",
+    "originalUrl": "https://github.com/beromir/Servas",
+    "shortDescriptionDe": "Servas organisiert persönliche Web-Lesezeichen in einer selbst gehosteten Anwendung.",
+    "longDescriptionDe": "Servas organisiert persönliche Web-Lesezeichen in einer selbst gehosteten Anwendung. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/beromir/Servas",
+      "checkedAt": "2026-11-02T21:06:23.062Z",
+      "httpStatus": 200,
+      "productFacts": "Servas organisiert persönliche Web-Lesezeichen in einer selbst gehosteten Anwendung.",
+      "pricingSource": "https://github.com/beromir/Servas",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Shaarli",
+    "originalUrl": "https://github.com/shaarli/Shaarli",
+    "shortDescriptionDe": "Shaarli speichert und veröffentlicht Web-Lesezeichen als schlanken eigenen Link-Dienst ohne separate Datenbank.",
+    "longDescriptionDe": "Shaarli speichert und veröffentlicht Web-Lesezeichen als schlanken eigenen Link-Dienst ohne separate Datenbank. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/shaarli/Shaarli",
+      "checkedAt": "2026-11-02T21:06:23.892Z",
+      "httpStatus": 200,
+      "productFacts": "Shaarli speichert und veröffentlicht Web-Lesezeichen als schlanken eigenen Link-Dienst ohne separate Datenbank.",
+      "pricingSource": "https://github.com/shaarli/Shaarli",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Shiori",
+    "originalUrl": "https://github.com/go-shiori/shiori",
+    "shortDescriptionDe": "Shiori verwaltet Lesezeichen über eine Weboberfläche oder über die Kommandozeile.",
+    "longDescriptionDe": "Shiori verwaltet Lesezeichen über eine Weboberfläche oder über die Kommandozeile. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/go-shiori/shiori",
+      "checkedAt": "2026-11-02T21:06:23.918Z",
+      "httpStatus": 200,
+      "productFacts": "Shiori verwaltet Lesezeichen über eine Weboberfläche oder über die Kommandozeile.",
+      "pricingSource": "https://github.com/go-shiori/shiori",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Slash",
+    "originalUrl": "https://github.com/yourselfhosted/slash",
+    "shortDescriptionDe": "Slash organisiert häufig benötigte Links und macht sie über selbst gewählte, lesbare Kurzverweise erreichbar.",
+    "longDescriptionDe": "Slash organisiert häufig benötigte Links und macht sie über selbst gewählte, lesbare Kurzverweise erreichbar. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/yourselfhosted/slash",
+      "checkedAt": "2026-11-02T21:06:24.497Z",
+      "httpStatus": 200,
+      "productFacts": "Slash organisiert häufig benötigte Links und macht sie über selbst gewählte, lesbare Kurzverweise erreichbar.",
+      "pricingSource": "https://github.com/yourselfhosted/slash",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Davis",
+    "originalUrl": "https://github.com/tchapi/davis",
+    "shortDescriptionDe": "Davis stellt eine Administrationsoberfläche für Kalender- und Kontaktdienste auf Basis von sabre/dav bereit.",
+    "longDescriptionDe": "Davis stellt eine Administrationsoberfläche für Kalender- und Kontaktdienste auf Basis von sabre/dav bereit. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/tchapi/davis",
+      "checkedAt": "2026-11-02T21:06:24.780Z",
+      "httpStatus": 200,
+      "productFacts": "Davis stellt eine Administrationsoberfläche für Kalender- und Kontaktdienste auf Basis von sabre/dav bereit.",
+      "pricingSource": "https://github.com/tchapi/davis",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "DAViCal",
+    "originalUrl": "https://www.davical.org/",
+    "shortDescriptionDe": "DAViCal speichert gemeinsame Kalender auf einem eigenen CalDAV-Server und gleicht sie mit geeigneten Kalenderprogrammen ab.",
+    "longDescriptionDe": "DAViCal speichert gemeinsame Kalender auf einem eigenen CalDAV-Server und gleicht sie mit geeigneten Kalenderprogrammen ab. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.davical.org/",
+      "checkedAt": "2026-11-02T21:06:25.047Z",
+      "httpStatus": 200,
+      "productFacts": "DAViCal speichert gemeinsame Kalender auf einem eigenen CalDAV-Server und gleicht sie mit geeigneten Kalenderprogrammen ab.",
+      "pricingSource": "https://www.davical.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Xandikos",
+    "originalUrl": "https://github.com/jelmer/xandikos",
+    "shortDescriptionDe": "Xandikos betreibt einen CalDAV- und CardDAV-Server für Kalender und Kontakte und nutzt Git zur Speicherung.",
+    "longDescriptionDe": "Xandikos betreibt einen CalDAV- und CardDAV-Server für Kalender und Kontakte und nutzt Git zur Speicherung. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/jelmer/xandikos",
+      "checkedAt": "2026-11-02T21:06:25.709Z",
+      "httpStatus": 200,
+      "productFacts": "Xandikos betreibt einen CalDAV- und CardDAV-Server für Kalender und Kontakte und nutzt Git zur Speicherung.",
+      "pricingSource": "https://github.com/jelmer/xandikos",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Notifo",
+    "originalUrl": "https://github.com/notifo-io/notifo",
+    "shortDescriptionDe": "Notifo versendet Benachrichtigungen über mehrere Kanäle und lässt sich in eigene Anwendungen und Dienste integrieren.",
+    "longDescriptionDe": "Notifo versendet Benachrichtigungen über mehrere Kanäle und lässt sich in eigene Anwendungen und Dienste integrieren. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "automatisierung-agenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/notifo-io/notifo",
+      "checkedAt": "2026-11-02T21:06:27.918Z",
+      "httpStatus": 200,
+      "productFacts": "Notifo versendet Benachrichtigungen über mehrere Kanäle und lässt sich in eigene Anwendungen und Dienste integrieren.",
+      "pricingSource": "https://github.com/notifo-io/notifo",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Shhh",
+    "originalUrl": "https://github.com/smallwat3r/shhh",
+    "shortDescriptionDe": "Shhh stellt eine eigene Anwendung zum gezielten Teilen sensibler Informationen bereit, damit diese nicht direkt in Chat- oder E-Mail-Verläufen stehen.",
+    "longDescriptionDe": "Shhh stellt eine eigene Anwendung zum gezielten Teilen sensibler Informationen bereit, damit diese nicht direkt in Chat- oder E-Mail-Verläufen stehen. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/smallwat3r/shhh",
+      "checkedAt": "2026-11-02T21:06:28.956Z",
+      "httpStatus": 200,
+      "productFacts": "Shhh stellt eine eigene Anwendung zum gezielten Teilen sensibler Informationen bereit, damit diese nicht direkt in Chat- oder E-Mail-Verläufen stehen.",
+      "pricingSource": "https://github.com/smallwat3r/shhh",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Stoat",
+    "originalUrl": "https://stoat.chat/",
+    "shortDescriptionDe": "Stoat bietet eine quelloffene Chat-Anwendung für Freundeskreise und Communitys.",
+    "longDescriptionDe": "Stoat bietet eine quelloffene Chat-Anwendung für Freundeskreise und Communitys. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://stoat.chat/",
+      "checkedAt": "2026-11-02T21:06:29.467Z",
+      "httpStatus": 200,
+      "productFacts": "Stoat bietet eine quelloffene Chat-Anwendung für Freundeskreise und Communitys.",
+      "pricingSource": "https://stoat.chat/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "WBO",
+    "originalUrl": "https://github.com/lovasoa/whitebophir",
+    "shortDescriptionDe": "WBO stellt ein gemeinsames Whiteboard im Browser bereit, auf dem mehrere Personen zusammen zeichnen können.",
+    "longDescriptionDe": "WBO stellt ein gemeinsames Whiteboard im Browser bereit, auf dem mehrere Personen zusammen zeichnen können. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/lovasoa/whitebophir",
+      "checkedAt": "2026-11-02T21:06:31.654Z",
+      "httpStatus": 200,
+      "productFacts": "WBO stellt ein gemeinsames Whiteboard im Browser bereit, auf dem mehrere Personen zusammen zeichnen können.",
+      "pricingSource": "https://github.com/lovasoa/whitebophir",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "chasquid",
+    "originalUrl": "https://blitiri.com.ar/p/chasquid/",
+    "shortDescriptionDe": "chasquid ist ein SMTP-Server für eigene E-Mail-Infrastruktur und richtet sich besonders an Einzelpersonen und kleine Gruppen.",
+    "longDescriptionDe": "chasquid ist ein SMTP-Server für eigene E-Mail-Infrastruktur und richtet sich besonders an Einzelpersonen und kleine Gruppen. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://blitiri.com.ar/p/chasquid/",
+      "checkedAt": "2026-11-02T21:06:34.915Z",
+      "httpStatus": 200,
+      "productFacts": "chasquid ist ein SMTP-Server für eigene E-Mail-Infrastruktur und richtet sich besonders an Einzelpersonen und kleine Gruppen.",
+      "pricingSource": "https://blitiri.com.ar/p/chasquid/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Dovecot",
+    "originalUrl": "https://dovecot.org/",
+    "shortDescriptionDe": "Dovecot Community Edition stellt einen selbst betreibbaren Server für den Zugriff auf E-Mail-Postfächer bereit.",
+    "longDescriptionDe": "Dovecot Community Edition stellt einen selbst betreibbaren Server für den Zugriff auf E-Mail-Postfächer bereit. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://dovecot.org/",
+      "checkedAt": "2026-11-02T21:06:35.811Z",
+      "httpStatus": 200,
+      "productFacts": "Dovecot Community Edition stellt einen selbst betreibbaren Server für den Zugriff auf E-Mail-Postfächer bereit.",
+      "pricingSource": "https://dovecot.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Keila",
+    "originalUrl": "https://www.keila.io/",
+    "shortDescriptionDe": "Keila erstellt und versendet E-Mail-Newsletter über eine selbst betreibbare Oberfläche mit Funktionen zur Empfängerverwaltung.",
+    "longDescriptionDe": "Keila erstellt und versendet E-Mail-Newsletter über eine selbst betreibbare Oberfläche mit Funktionen zur Empfängerverwaltung. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.keila.io/",
+      "checkedAt": "2026-11-02T21:06:37.061Z",
+      "httpStatus": 200,
+      "productFacts": "Keila erstellt und versendet E-Mail-Newsletter über eine selbst betreibbare Oberfläche mit Funktionen zur Empfängerverwaltung.",
+      "pricingSource": "https://www.keila.io/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Mailman",
+    "originalUrl": "https://www.list.org/",
+    "shortDescriptionDe": "GNU Mailman verwaltet E-Mail-Diskussionslisten und Newsletter-Listen über eine mit dem Web verbundene Oberfläche.",
+    "longDescriptionDe": "GNU Mailman verwaltet E-Mail-Diskussionslisten und Newsletter-Listen über eine mit dem Web verbundene Oberfläche. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.list.org/",
+      "checkedAt": "2026-11-02T21:06:37.956Z",
+      "httpStatus": 200,
+      "productFacts": "GNU Mailman verwaltet E-Mail-Diskussionslisten und Newsletter-Listen über eine mit dem Web verbundene Oberfläche.",
+      "pricingSource": "https://www.list.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "mlmmj",
+    "originalUrl": "https://mlmmj.org/",
+    "shortDescriptionDe": "mlmmj verwaltet E-Mail-Verteilerlisten als schlankes Werkzeug für die eigene Mail-Infrastruktur.",
+    "longDescriptionDe": "mlmmj verwaltet E-Mail-Verteilerlisten als schlankes Werkzeug für die eigene Mail-Infrastruktur. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://mlmmj.org/",
+      "checkedAt": "2026-11-02T21:06:38.455Z",
+      "httpStatus": 200,
+      "productFacts": "mlmmj verwaltet E-Mail-Verteilerlisten als schlankes Werkzeug für die eigene Mail-Infrastruktur.",
+      "pricingSource": "https://mlmmj.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Cypht",
+    "originalUrl": "https://www.cypht.org/",
+    "shortDescriptionDe": "Cypht bündelt mehrere E-Mail-Konten und RSS-Feeds in einer gemeinsamen Weboberfläche.",
+    "longDescriptionDe": "Cypht bündelt mehrere E-Mail-Konten und RSS-Feeds in einer gemeinsamen Weboberfläche. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.cypht.org/",
+      "checkedAt": "2026-11-02T21:06:40.297Z",
+      "httpStatus": 200,
+      "productFacts": "Cypht bündelt mehrere E-Mail-Konten und RSS-Feeds in einer gemeinsamen Weboberfläche.",
+      "pricingSource": "https://www.cypht.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "ngircd",
+    "originalUrl": "https://ngircd.barton.de/",
+    "shortDescriptionDe": "ngIRCd betreibt einen schlanken IRC-Server für kleine oder private Chatnetzwerke.",
+    "longDescriptionDe": "ngIRCd betreibt einen schlanken IRC-Server für kleine oder private Chatnetzwerke. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://ngircd.barton.de/",
+      "checkedAt": "2026-11-02T21:06:40.837Z",
+      "httpStatus": 200,
+      "productFacts": "ngIRCd betreibt einen schlanken IRC-Server für kleine oder private Chatnetzwerke.",
+      "pricingSource": "https://ngircd.barton.de/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Glowing Bear",
+    "originalUrl": "https://github.com/glowing-bear/glowing-bear",
+    "shortDescriptionDe": "Glowing Bear stellt eine Browser-Oberfläche für den IRC-Client WeeChat bereit.",
+    "longDescriptionDe": "Glowing Bear stellt eine Browser-Oberfläche für den IRC-Client WeeChat bereit. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/glowing-bear/glowing-bear",
+      "checkedAt": "2026-11-02T21:06:41.261Z",
+      "httpStatus": 200,
+      "productFacts": "Glowing Bear stellt eine Browser-Oberfläche für den IRC-Client WeeChat bereit.",
+      "pricingSource": "https://github.com/glowing-bear/glowing-bear",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Quassel IRC",
+    "originalUrl": "https://quassel-irc.org/",
+    "shortDescriptionDe": "Quassel IRC verbindet eine dauerhaft laufende IRC-Verbindung mit Oberflächen, die von unterschiedlichen Geräten darauf zugreifen können.",
+    "longDescriptionDe": "Quassel IRC verbindet eine dauerhaft laufende IRC-Verbindung mit Oberflächen, die von unterschiedlichen Geräten darauf zugreifen können. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://quassel-irc.org/",
+      "checkedAt": "2026-11-02T21:06:41.479Z",
+      "httpStatus": 200,
+      "productFacts": "Quassel IRC verbindet eine dauerhaft laufende IRC-Verbindung mit Oberflächen, die von unterschiedlichen Geräten darauf zugreifen können.",
+      "pricingSource": "https://quassel-irc.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "The Lounge",
+    "originalUrl": "https://thelounge.chat/",
+    "shortDescriptionDe": "The Lounge betreibt einen IRC-Client im Browser, der auch zwischen den eigenen Sitzungen verbunden bleibt.",
+    "longDescriptionDe": "The Lounge betreibt einen IRC-Client im Browser, der auch zwischen den eigenen Sitzungen verbunden bleibt. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://thelounge.chat/",
+      "checkedAt": "2026-11-02T21:06:43.365Z",
+      "httpStatus": 200,
+      "productFacts": "The Lounge betreibt einen IRC-Client im Browser, der auch zwischen den eigenen Sitzungen verbunden bleibt.",
+      "pricingSource": "https://thelounge.chat/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Routr",
+    "originalUrl": "https://routr.io/",
+    "shortDescriptionDe": "Routr stellt einen programmierbaren SIP-Proxy und Registrierungsdienst als Grundlage eigener Kommunikationslösungen bereit.",
+    "longDescriptionDe": "Routr stellt einen programmierbaren SIP-Proxy und Registrierungsdienst als Grundlage eigener Kommunikationslösungen bereit. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://routr.io/",
+      "checkedAt": "2026-11-02T21:06:43.747Z",
+      "httpStatus": 200,
+      "productFacts": "Routr stellt einen programmierbaren SIP-Proxy und Registrierungsdienst als Grundlage eigener Kommunikationslösungen bereit.",
+      "pricingSource": "https://routr.io/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "FreeSWITCH",
+    "originalUrl": "https://signalwire.com/developers/freeswitch",
+    "shortDescriptionDe": "FreeSWITCH stellt eine quelloffene Kommunikationsplattform für eigene Sprach- und Telefonieanwendungen bereit.",
+    "longDescriptionDe": "FreeSWITCH stellt eine quelloffene Kommunikationsplattform für eigene Sprach- und Telefonieanwendungen bereit. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://signalwire.com/developers/freeswitch",
+      "checkedAt": "2026-11-02T21:06:45.248Z",
+      "httpStatus": 200,
+      "productFacts": "FreeSWITCH stellt eine quelloffene Kommunikationsplattform für eigene Sprach- und Telefonieanwendungen bereit.",
+      "pricingSource": "https://signalwire.com/developers/freeswitch",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Answer",
+    "originalUrl": "https://answer.apache.org/",
+    "shortDescriptionDe": "Apache Answer baut ein eigenes Frage-Antwort-Portal auf, etwa als Community, Hilfezentrum oder Wissenssammlung.",
+    "longDescriptionDe": "Apache Answer baut ein eigenes Frage-Antwort-Portal auf, etwa als Community, Hilfezentrum oder Wissenssammlung. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://answer.apache.org/",
+      "checkedAt": "2026-11-02T21:06:47.202Z",
+      "httpStatus": 200,
+      "productFacts": "Apache Answer baut ein eigenes Frage-Antwort-Portal auf, etwa als Community, Hilfezentrum oder Wissenssammlung.",
+      "pricingSource": "https://answer.apache.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "BuddyPress",
+    "originalUrl": "https://buddypress.org/about/",
+    "shortDescriptionDe": "BuddyPress erweitert WordPress um Funktionen für eine eigene Online-Community mit Mitgliedern und Gruppen.",
+    "longDescriptionDe": "BuddyPress erweitert WordPress um Funktionen für eine eigene Online-Community mit Mitgliedern und Gruppen. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://buddypress.org/about/",
+      "checkedAt": "2026-11-02T21:06:48.333Z",
+      "httpStatus": 200,
+      "productFacts": "BuddyPress erweitert WordPress um Funktionen für eine eigene Online-Community mit Mitgliedern und Gruppen.",
+      "pricingSource": "https://buddypress.org/about/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "diaspora*",
+    "originalUrl": "https://diasporafoundation.org/",
+    "shortDescriptionDe": "diaspora vernetzt Menschen über unabhängig betriebene Server und ermöglicht das Teilen von Beiträgen mit ausgewählten Kontakten.",
+    "longDescriptionDe": "diaspora vernetzt Menschen über unabhängig betriebene Server und ermöglicht das Teilen von Beiträgen mit ausgewählten Kontakten. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://diasporafoundation.org/",
+      "checkedAt": "2026-11-02T21:06:48.727Z",
+      "httpStatus": 200,
+      "productFacts": "diaspora vernetzt Menschen über unabhängig betriebene Server und ermöglicht das Teilen von Beiträgen mit ausgewählten Kontakten.",
+      "pricingSource": "https://diasporafoundation.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Flarum",
+    "originalUrl": "https://flarum.org/",
+    "shortDescriptionDe": "Flarum erstellt ein eigenes Diskussionsforum, das durch Erweiterungen an die jeweilige Community angepasst werden kann.",
+    "longDescriptionDe": "Flarum erstellt ein eigenes Diskussionsforum, das durch Erweiterungen an die jeweilige Community angepasst werden kann. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://flarum.org/",
+      "checkedAt": "2026-11-02T21:06:49.519Z",
+      "httpStatus": 200,
+      "productFacts": "Flarum erstellt ein eigenes Diskussionsforum, das durch Erweiterungen an die jeweilige Community angepasst werden kann.",
+      "pricingSource": "https://flarum.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Friendica",
+    "originalUrl": "https://friendi.ca/",
+    "shortDescriptionDe": "Friendica betreibt ein dezentrales soziales Netzwerk, das Beiträge und Kontakte mit kompatiblen anderen Netzwerken austauschen kann.",
+    "longDescriptionDe": "Friendica betreibt ein dezentrales soziales Netzwerk, das Beiträge und Kontakte mit kompatiblen anderen Netzwerken austauschen kann. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://friendi.ca/",
+      "checkedAt": "2026-11-02T21:06:51.078Z",
+      "httpStatus": 200,
+      "productFacts": "Friendica betreibt ein dezentrales soziales Netzwerk, das Beiträge und Kontakte mit kompatiblen anderen Netzwerken austauschen kann.",
+      "pricingSource": "https://friendi.ca/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Habitat",
+    "originalUrl": "https://gethabitat.org/",
+    "shortDescriptionDe": "Habitat stellt eine eigene Online-Plattform bereit, um lokale Communitys miteinander zu vernetzen.",
+    "longDescriptionDe": "Habitat stellt eine eigene Online-Plattform bereit, um lokale Communitys miteinander zu vernetzen. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://gethabitat.org/",
+      "checkedAt": "2026-11-02T21:06:51.695Z",
+      "httpStatus": 200,
+      "productFacts": "Habitat stellt eine eigene Online-Plattform bereit, um lokale Communitys miteinander zu vernetzen.",
+      "pricingSource": "https://gethabitat.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Lemmy",
+    "originalUrl": "https://join-lemmy.org/",
+    "shortDescriptionDe": "Lemmy organisiert geteilte Links und Diskussionen in Communitys eines dezentralen Netzwerks.",
+    "longDescriptionDe": "Lemmy organisiert geteilte Links und Diskussionen in Communitys eines dezentralen Netzwerks. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://join-lemmy.org/",
+      "checkedAt": "2026-11-02T21:06:53.249Z",
+      "httpStatus": 200,
+      "productFacts": "Lemmy organisiert geteilte Links und Diskussionen in Communitys eines dezentralen Netzwerks.",
+      "pricingSource": "https://join-lemmy.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Apostrophe",
+    "originalUrl": "https://apostrophecms.com/",
+    "shortDescriptionDe": "ApostropheCMS verbindet ein Content-Management-System für JavaScript-Projekte mit einer Bearbeitung direkt auf der Website.",
+    "longDescriptionDe": "ApostropheCMS verbindet ein Content-Management-System für JavaScript-Projekte mit einer Bearbeitung direkt auf der Website. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://apostrophecms.com/",
+      "checkedAt": "2026-11-02T21:07:01.800Z",
+      "httpStatus": 200,
+      "productFacts": "ApostropheCMS verbindet ein Content-Management-System für JavaScript-Projekte mit einer Bearbeitung direkt auf der Website.",
+      "pricingSource": "https://apostrophecms.com/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Expressa",
+    "originalUrl": "https://github.com/thomas4019/expressa",
+    "shortDescriptionDe": "Expressa erstellt Schnittstellen für eigene Anwendungen und ergänzt sie um eine Administrationsoberfläche.",
+    "longDescriptionDe": "Expressa erstellt Schnittstellen für eigene Anwendungen und ergänzt sie um eine Administrationsoberfläche. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://github.com/thomas4019/expressa",
+      "checkedAt": "2026-11-02T21:07:03.850Z",
+      "httpStatus": 200,
+      "productFacts": "Expressa erstellt Schnittstellen für eigene Anwendungen und ergänzt sie um eine Administrationsoberfläche.",
+      "pricingSource": "https://github.com/thomas4019/expressa",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Plone",
+    "originalUrl": "https://plone.org/",
+    "shortDescriptionDe": "Plone verwaltet Website-Inhalte in einem erweiterbaren Content-Management-System für Organisationen und Teams.",
+    "longDescriptionDe": "Plone verwaltet Website-Inhalte in einem erweiterbaren Content-Management-System für Organisationen und Teams. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://plone.org/",
+      "checkedAt": "2026-11-02T21:07:05.047Z",
+      "httpStatus": 200,
+      "productFacts": "Plone verwaltet Website-Inhalte in einem erweiterbaren Content-Management-System für Organisationen und Teams.",
+      "pricingSource": "https://plone.org/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "SPIP",
+    "originalUrl": "https://www.spip.net/fr",
+    "shortDescriptionDe": "SPIP verwaltet Inhalte und deren Veröffentlichung für selbst betriebene Websites.",
+    "longDescriptionDe": "SPIP verwaltet Inhalte und deren Veröffentlichung für selbst betriebene Websites. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.spip.net/fr",
+      "checkedAt": "2026-11-02T21:07:05.649Z",
+      "httpStatus": 200,
+      "productFacts": "SPIP verwaltet Inhalte und deren Veröffentlichung für selbst betriebene Websites.",
+      "pricingSource": "https://www.spip.net/fr",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "WonderCMS",
+    "originalUrl": "https://www.wondercms.com/",
+    "shortDescriptionDe": "WonderCMS erstellt kleine Websites und Blogs mit einem dateibasierten Content-Management-System.",
+    "longDescriptionDe": "WonderCMS erstellt kleine Websites und Blogs mit einem dateibasierten Content-Management-System. Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.wondercms.com/",
+      "checkedAt": "2026-11-02T21:07:06.191Z",
+      "httpStatus": 200,
+      "productFacts": "WonderCMS erstellt kleine Websites und Blogs mit einem dateibasierten Content-Management-System.",
+      "pricingSource": "https://www.wondercms.com/",
+      "pricingFacts": "Die kostenfreie Software-Ausgabe ist selbst betreibbar. Eigene Infrastruktur, optionale Zusatzangebote und betreutes Hosting können gesonderte Kosten verursachen.",
+      "reviewed": true
+    }
+  }
+]
