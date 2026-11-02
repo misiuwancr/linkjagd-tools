@@ -35,7 +35,7 @@ Nachtrag: [PR #13](https://github.com/misiuwancr/linkjagd-tools/pull/13) wurde g
 
 ## Nach Aktivierung des Teamzugriffs
 
-Der Nutzer hat den Teamzugriff erteilt; Projekt- und Protokollabfragen funktionieren. Die aggregierte Fehlerübersicht zeigt die frühere Gruppe `LibsqlError: SERVER_ERROR: Server returned HTTP status 400`, zuletzt 2. November 2026, 20:07:51 UTC, Route `/tools/[slug]`, Deployment `dpl_FGAAbHuhFMom1mnJWU1rPoBrYSEb`. Dies bestätigt den libSQL-Fehler zur Zeit des ursprünglichen Nachtests, nicht dessen genaue interne Ursache.
+Der Nutzer hat den Teamzugriff erteilt; Projekt- und Protokollabfragen funktionieren. Die tatsächliche Produktionsvariable `NEXT_PUBLIC_SITE_URL` ist `https://linkjagd-tools.vercel.app`; sie stimmt mit den ausgelieferten Canonicals und Sitemap-/robots-Links überein. Die aggregierte Fehlerübersicht zeigt die frühere Gruppe `LibsqlError: SERVER_ERROR: Server returned HTTP status 400`, zuletzt 2. November 2026, 20:07:51 UTC, Route `/tools/[slug]`, Deployment `dpl_FGAAbHuhFMom1mnJWU1rPoBrYSEb`. Dies bestätigt den libSQL-Fehler zur Zeit des ursprünglichen Nachtests, nicht dessen genaue interne Ursache.
 
 Gezielte Fehlerprotokollabfrage für das neue Deployment `dpl_AjfSSWY7G85HQLeQbmKF1Qo7abbX`, 20:14:13–20:44:13 UTC, Level `error`/`fatal`: keine passenden Logs. Keine nachträgliche Behauptung vollständiger Fehlerfreiheit oder einer sicheren Ursachenzuordnung allein aus dieser leeren Teilabfrage.
 
