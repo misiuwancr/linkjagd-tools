@@ -15,6 +15,7 @@ const columns = [
   {
     title: "Redaktion",
     links: [
+      { href: "/vergleiche", label: "Vergleiche & Entscheidungshilfen" },
       { href: "/blog", label: "Blog" },
       { href: "/newsletter", label: "Newsletter-Archiv" },
       { href: "/glossar", label: "Glossar" },

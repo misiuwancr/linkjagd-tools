@@ -15,6 +15,7 @@ import { newsletterOpen } from "@/lib/newsletter";
 import { AiNewsSection } from "@/components/ai-news";
 import { listPublishedNews } from "@/lib/tools/repository";
 import { TopToolsSidebar } from "@/components/top-tools-sidebar";
+import { comparisonHref, comparisons } from "@/lib/comparisons";
 
 export const revalidate = 60;
 
@@ -80,16 +81,24 @@ export default async function HomePage({
         <div className="page-wrap relative py-16 sm:py-24">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-hunt">Kuratiert von Linkjagd</p>
           <h1 className="mt-4 max-w-4xl text-5xl font-bold tracking-tight text-foreground sm:text-7xl sm:leading-[0.95]">
-            Die besten Tools. <span className="text-hunt">Alle</span> an einem Ort.
+            Passende Tools. <span className="text-hunt">Klare Entscheidungen.</span>
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">
-            Bekannt aus TikTok {siteConfig.creator.channel}. Werkzeuge für Alltag, Arbeit und Projekte, auf Deutsch erklärt.
+            Für E-Commerce, Marketing und Automatisierung: Vergleiche Lösungen nach deiner Aufgabe, dem nötigen Aufwand und ihren Grenzen.
           </p>
+          <nav aria-label="Was möchtest du erreichen?" className="mt-8 grid gap-4 md:grid-cols-3">
+            {[
+              { title: "Onlineshop aufbauen", text: "Shopify oder WooCommerce? Kläre Einrichtung, Erweiterungen und technische Betreuung.", comparison: comparisons[1], cta: "Shop-Systeme vergleichen" },
+              { title: "Marketing automatisieren", text: "Wähle einen Newsletter-Dienst nach Versandaufgabe und geplanten Kontaktstrecken.", comparison: comparisons[2], cta: "Newsletter-Tools vergleichen" },
+              { title: "Geschäftsprozesse automatisieren", text: "Finde den passenden Ansatz für Datenübergaben zwischen deinen Anwendungen.", comparison: comparisons[0], cta: "Zapier, Make und n8n vergleichen" },
+            ].map((task) => <Link href={comparisonHref(task.comparison)} key={task.title} className="rounded-2xl border border-border bg-card p-5 transition hover:border-hunt/50"><h2 className="text-xl font-bold">{task.title}</h2><p className="mt-3 text-sm leading-7 text-muted-foreground">{task.text}</p><span className="mt-4 block text-sm font-semibold text-hunt">{task.cta} →</span></Link>)}
+          </nav>
+          <p className="mt-6 text-sm"><Link href="/vergleiche" className="font-semibold text-hunt underline">Alle Entscheidungshilfen</Link><span className="px-2 text-muted-foreground">·</span><Link href="/tools" className="text-muted-foreground underline">Gesamtes Verzeichnis erhalten und durchsuchen</Link></p>
           <form action="/tools" method="get" className="mt-8 flex max-w-2xl flex-col gap-2 sm:flex-row" role="search">
             <label htmlFor="start-suche" className="sr-only">
               Tools durchsuchen
             </label>
-            <input id="start-suche" name="q" placeholder="Zum Beispiel Chat, Bild oder Recherche" className="field h-12" />
+            <input id="start-suche" name="q" placeholder="Zum Beispiel Shop, Newsletter oder Automatisierung" className="field h-12" />
             <button type="submit" className="h-12 rounded-xl bg-primary px-6 text-sm font-semibold text-primary-foreground">
               Suchen
             </button>

@@ -6,9 +6,9 @@ export const siteConfig = {
   name: "Linkjagd Tools",
   shortName: "Linkjagd",
   locale: "de",
-  tagline: "KI-Tools, kostenlose Webtools & Open Source – auf Deutsch erklärt",
+  tagline: "Tools für E-Commerce, Marketing & Automatisierung – inklusive Open Source",
   description:
-    "Ein Verzeichnis für KI-Werkzeuge, Web-Apps und Open-Source-Programme. Texte auf Deutsch, ohne erfundene Platzierungen.",
+    "Deutschsprachige Entscheidungshilfen für E-Commerce, Marketing und Automatisierung – mit dem bestehenden Verzeichnis für KI, Webtools und Open Source.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "http://127.0.0.1:4327",
   creator: {
     name: "Michał Bohdanowicz",
@@ -16,6 +16,7 @@ export const siteConfig = {
     channelUrl: "https://www.tiktok.com/@linkjagd",
   },
   nav: [
+    { href: "/vergleiche", label: "Tools vergleichen" },
     { href: "/tools", label: "Alle Tools" },
     { href: "/tools?sort=alphabetisch", label: "Alphabetisch" },
     { href: "/neu", label: "Neu hinzugefügt" },
@@ -33,9 +34,9 @@ export const siteConfig = {
     { href: "/affiliate-hinweis", label: "Affiliate-Hinweis" },
   ],
   seo: {
-    title: "Linkjagd Tools – KI, Webtools und Open Source",
+    title: "Linkjagd Tools – vergleichen und passend entscheiden",
     description:
-      "Deutschsprachiges Verzeichnis für KI-Tools, kostenlose Web-Apps und Open-Source-Programme.",
+      "Vergleiche Tools für E-Commerce, Marketing und Automatisierung nach Zielgruppe, Einsatzfall und Grenzen. Das gesamte Tool-Verzeichnis bleibt verfügbar.",
   },
   legal: {
     impressum: {

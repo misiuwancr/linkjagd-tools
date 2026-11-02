@@ -6,6 +6,7 @@ import { USE_CASES } from "@/lib/use-cases";
 import { listCategories, publishedBlogSlugs } from "@/lib/tools/repository";
 import { indexablePublished } from "@/lib/allow-index";
 import { indexingPolicy } from "@/lib/indexing";
+import { comparisons } from "@/lib/comparisons";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   if (!indexingPolicy().index) return [];
@@ -19,6 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/neu",
     "/kategorien",
     "/blog",
+    "/vergleiche",
     "/news",
     "/einreichen",
     "/glossar",
@@ -28,7 +30,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/fuer",
   ];
   return [
-    ...blog.map((post) => ({ url: `${base}/blog/${post.slug}`, lastModified: post.updatedAt, changeFrequency: "weekly" as const, priority: 0.6 })),
+    ...Array.from(new Map([
+      ...blog.map((post) => [post.slug, { slug: post.slug, updatedAt: post.updatedAt }] as const),
+      ...comparisons.map((post) => [post.slug, { slug: post.slug, updatedAt: new Date("2026-11-02T00:00:00+01:00") }] as const),
+    ]).values()).map((post) => ({ url: `${base}/blog/${post.slug}`, lastModified: post.updatedAt, changeFrequency: "weekly" as const, priority: 0.6 })),
     ...staticPaths.map((path) => ({
       url: `${base}${path || "/"}`,
       changeFrequency: "daily" as const,
