@@ -30,3 +30,5 @@ Node 22.16.0, ausschließlich isolierte lokale SQLite-Testdatenbank; keine produ
 ## Zugriff und Release
 
 Vercel-Fehlerübersicht und Projektdetails verweigern Zugriff mit HTTP 403 für Team `linkjagd`. Technischen Team-Freigabelink angefordert und dem Nutzer bereitgestellt. Daher keine bestätigte Auswertung von Funktionsprotokollen, kein behauptetes Deployment dieses Branches und kein Nachweis der produktiven Umgebungsvariablen. Merge/Deployment sind vom Nutzer autorisiert; tatsächliche Durchführung und Post-Deployment-Prüfung separat nachtragen.
+
+Nachtrag: [PR #13](https://github.com/misiuwancr/linkjagd-tools/pull/13) wurde gemergt, main `1bdce5a`. Vercels Commitstatus meldet den Produktionsbuild erfolgreich: [Deployment](https://vercel.com/linkjagd/linkjagd-tools/3ba9SKYbuHY8Pju4tfPFGrPMQVmi). Nach diesem Status acht Produktionsziele erneut abgerufen (`/`, `/tools`, `/blog`, `/linkjagd`, `/vergleiche`, `/tools/cryptpad`, `/sitemap.xml`, `/robots.txt`): achtmal HTTP 200. Keine erneute vollständige 1.658-URL-Runde nach diesem Merge behauptet. Vercel-Funktionsprotokolle weiterhin nicht zugänglich.
