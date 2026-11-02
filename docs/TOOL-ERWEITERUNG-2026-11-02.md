@@ -1,6 +1,6 @@
 # Erweiterung des Verzeichnisses – Stand 2. November 2026
 
-Der Nutzer hat Veröffentlichung und Deployment ausdrücklich freigegeben. Eine weitere redaktionelle Freigaberunde ist nicht nötig. Technischer Datenbankzugriff fehlt derzeit; **keine neuen Tools in Produktion veröffentlicht**.
+Der Nutzer hat Veröffentlichung und Deployment ausdrücklich freigegeben und den Vercel-Teamzugriff anschließend aktiviert. **50 neue Tools sind in der Produktionsdatenbank veröffentlicht**. Das Gesamtziel von 1.000 veröffentlichten neuen Tools ist noch nicht erreicht.
 
 ## Tatsächliche Zahlen
 
@@ -17,7 +17,7 @@ Der Nutzer hat Veröffentlichung und Deployment ausdrücklich freigegeben. Eine 
 | Erreichbar, aber noch nicht vollständig redaktionell geprüft | 662 |
 | Technisch problematisch oder automatisierte Prüfung zurückgestellt | 330 |
 | Lokal freigabe-/importbereit | 50 |
-| Tatsächlich neu in Produktion importiert | **0** |
+| Tatsächlich neu in Produktion importiert | **50** |
 
 Die 158 Überschneidungen umfassen Produktnamen, Domains, vorhandene Importdateien und Wiederholungen innerhalb der Quelle. Sie sind nicht zusätzlich zu den 1.626 Bestandsdatensätzen zu addieren. Abgleich basiert auf einer lokalen Bestandskopie; die verbindliche erneute Duplikaterkennung gegen die produktive Datenbank erfolgt direkt vor jedem Import. „Erreichbar“ ist keine vollständige Produktprüfung und keine automatische Veröffentlichungsfreigabe.
 
@@ -61,4 +61,18 @@ Abschließend bestätigt: `npm test` 110 Tests in 53 Dateien erfolgreich; `npm r
 
 662 erreichbare Kandidaten brauchen individuelle inhaltliche Prüfung, deutsche Beschreibung und belastbare Preis-/Lizenzinformationen. 330 Fälle bleiben zurückgestellt. Für das Ziel von 1.000 **veröffentlichten** neuen Tools sind weitere Belege und gegebenenfalls weitere erlaubte Entdeckungsquellen nötig. Fehlende Daten werden nicht erfunden, unvollständige Kandidaten nicht veröffentlicht.
 
-Für den produktiven Import fehlen ein nutzbarer authentifizierter Datenbankzugriff und die verbindliche Prüfung gegen den Live-Bestand. Der Vercel-Connector verweigert Teamzugriff mit HTTP 403; ein Team-Freigabelink wurde bereitgestellt. Code-Deployments über die vorhandene Git-Integration sind davon getrennt möglich. Ein erfolgreicher Code-Deploy veröffentlicht diese JSON-Dateien **nicht automatisch als Tools**.
+Der frühere HTTP-403-Zugriffsblock ist aufgehoben. Die Produktions-Zugangsdaten sind als nicht auslesbare Vercel-Geheimnisse hinterlegt. Der Import wurde deshalb innerhalb der bestehenden Vercel-Buildumgebung mit deren vorhandenen Zugangsdaten ausgeführt; keine Geheimnisse ausgelesen, exportiert oder in Logs geschrieben, keine Geheimnis-Einstellungen geändert.
+
+## Tatsächlich bestätigter Produktionsimport
+
+Gepinnter Stand: main `5c012c6e0e713e5a30c6a99471bd0504fde87815`, bestehendes Projekt und bestehende Produktionsdatenbank. Einmalige Build-Befehle je Deployment, kein zusätzlicher Dienst und kein öffentlicher Import-Endpunkt.
+
+- Live-Dry-Run [Deployment E2oSgxTQPegcNUHBdFgZ5guEARop](https://vercel.com/linkjagd/linkjagd-tools/E2oSgxTQPegcNUHBdFgZ5guEARop): 50 `ready`, keine Duplikate, keine Validierungsfehler. Anschließender regulärer Build erfolgreich.
+- Produktiver Import [Deployment AvuzxL1uFoXMLdq8H7zVxnaUVALE](https://vercel.com/linkjagd/linkjagd-tools/AvuzxL1uFoXMLdq8H7zVxnaUVALE): sämtliche Positionen 1–50 als `published` bestätigt, keine Fehler und keine übersprungenen Einträge. Bestehender Importpfad mit `--apply --publish --remote`, jeweils einzelne Transaktion. Vorhandene Datensätze werden vom Importer übersprungen; der vollständige Vorher-/Nachher-Vergleich mit 0 Änderungen ist lokal bestätigt und wird nicht als separate Messung der Live-Datenbank ausgegeben.
+- AWStats nach dem Import auf der öffentlichen Produktionsdomain: HTTP 200 mit der vorbereiteten deutschen Beschreibung.
+
+Das Import-Deployment ist **READY** und der öffentlichen Domain `linkjagd-tools.vercel.app` zugewiesen. Anschließende tatsächliche Produktionstests: sämtliche **50 neuen Profile HTTP 200**, jeweils mit erwarteter deutscher Beschreibung und korrektem Canonical. Sitemap HTTP 200 mit **1.706 URLs** (vorher 1.656), alle 50 neuen Profile enthalten. Zusätzlich `/`, `/tools`, `/blog`, `/linkjagd`, `/vergleiche`, `/tools/cryptpad`, `/robots.txt`, Suche nach AWStats und kombinierter Kategorie-/Kostenlos-Filter: neunmal HTTP 200; AWStats in Suche und Filterergebnis enthalten. HEAD `/go/awstats`: HTTP 302 auf `https://www.awstats.org/`, ohne künstliche Klickzählung.
+
+Vercel-Funktionsprotokolle für dieses Import-Deployment, 20:35:17–20:50:17 UTC, Level `error`/`fatal`: keine passenden Logs. Dies ist eine abgegrenzte Beobachtung, keine unbegrenzte Stabilitätsgarantie. Keine erneute vollständige Prüfung aller 1.706 URLs behauptet; der große initiale Produktionslauf ist im separaten Stabilitätsbericht dokumentiert.
+
+Der Build-Befehl dieses Import-Deployments besteht aus dem geprüften Batch-Importer und dem bestehenden regulären Website-Build. Bei gewöhnlichen späteren Git-Deployments bleibt der normale Paket-Build maßgeblich; es wurde kein automatischer Import in `package.json` ergänzt. Ein erneuter Batch-Aufruf würde die bereits vorhandenen 50 Einträge überspringen.
