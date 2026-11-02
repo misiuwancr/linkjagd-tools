@@ -171,12 +171,13 @@ export function DirectoryFilters({
   );
 }
 
-export function ToolGrid({ tools }: { tools: PublicTool[] }) {
+export function ToolGrid({ tools, resetHref }: { tools: PublicTool[]; resetHref?: string }) {
   if (tools.length === 0) {
     return (
       <div className="rounded-2xl border border-dashed border-border bg-card px-6 py-16 text-center">
         <p className="text-base font-medium">Keine Tools passen zu dieser Auswahl.</p>
-        <p className="mt-2 text-sm text-muted-foreground">Setze die Filter zurück oder such nach einem anderen Begriff.</p>
+        <p className="mt-2 text-sm text-muted-foreground">Setze einzelne Filter zurück oder versuche einen allgemeineren Begriff.</p>
+        {resetHref ? <Link href={resetHref} className="mt-5 inline-flex min-h-11 items-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground">Alle Tools anzeigen</Link> : null}
       </div>
     );
   }
@@ -213,6 +214,7 @@ export function Pagination({
           Zurück
         </Link>
       ) : null}
+      {from > 1 ? <><Link href={directoryHref(basePath, query, { page: 1 })} className={linkClass + " border border-border"} aria-label="Seite 1">1</Link>{from > 2 ? <span aria-hidden="true">…</span> : null}</> : null}
       {items.map((page) => (
         <Link
           key={page}
@@ -223,6 +225,8 @@ export function Pagination({
           {page}
         </Link>
       ))}
+      {to < pages ? <>{to < pages - 1 ? <span aria-hidden="true">…</span> : null}<Link href={directoryHref(basePath, query, { page: pages })} className={linkClass + " border border-border"} aria-label={`Seite ${pages}`}>{pages}</Link></> : null}
+      <span className="sr-only">Seite {current} von {pages}</span>
       {current < pages ? (
         <Link href={directoryHref(basePath, query, { page: current + 1 })} className={linkClass + " border border-border bg-card"}>
           Weiter

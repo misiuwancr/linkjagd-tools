@@ -20,8 +20,9 @@ export function slugify(input: string) {
     .slice(0, 80);
 }
 
-export function normalizeSearch(input: string) {
-  return slugify(input).replace(/-/g, " ").replace(/[%_\\]/g, " ").trim().slice(0, 120);
+export function normalizeSearch(input: string, maxLength = 120) {
+  return input.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim().slice(0, maxLength);
 }
 
 export function domainFromUrl(raw: string) {

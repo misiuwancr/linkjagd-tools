@@ -44,13 +44,17 @@ function filters(query: ToolListQuery): SQL[] {
   }
   if (query.pricing) parts.push(eq(tools.pricingModel, query.pricing));
   if (query.license) parts.push(eq(tools.licenseType, query.license));
-  const needle = normalizeSearch(query.q);
-  if (needle) parts.push(like(tools.searchText, `%${needle}%`));
-  if (query.categorySlug) {
+  const terms = normalizeSearch(query.q).split(/\s+/).filter(Boolean).slice(0, 12);
+  // Existing search indexes may be truncated. Search the actual descriptions too,
+  // without rewriting any production rows or requiring a second search service.
+  const description = sql`replace(replace(replace(replace(lower(${tools.name} || ' ' || ${tools.shortDescriptionDe} || ' ' || ${tools.longDescriptionDe}), 'ä', 'ae'), 'ö', 'oe'), 'ü', 'ue'), 'ß', 'ss')`;
+  for (const term of terms) parts.push(or(like(tools.searchText, `%${term}%`), sql`${description} like ${`%${term}%`}`)!);
+  const selectedCategories = query.categorySlugs?.length ? query.categorySlugs : query.categorySlug ? [query.categorySlug] : [];
+  if (selectedCategories.length) {
     parts.push(sql`${tools.id} in (
       select tc.tool_id from tool_categories tc
       inner join categories c on c.id = tc.category_id
-      where c.slug = ${query.categorySlug}
+      where c.slug in (${sql.join(selectedCategories.map((slug) => sql`${slug}`), sql`, `)})
     )`);
   }
   if (query.discoverySources.length > 0) {
@@ -88,11 +92,11 @@ function companySql(slug: string): SQL {
 
 function orderBy(query: ToolListQuery) {
   const clicks = sql`(select coalesce(sum(count), 0) from click_daily where tool_id = ${tools.id})`;
-  if (query.sort === "alpha") return [asc(tools.name)];
+  if (query.sort === "alpha") return [sql`lower(${tools.name})`, asc(tools.id)];
   if (query.sort === "freeFirst") {
-    return [sql`case ${tools.pricingModel} when 'free' then 0 when 'freemium' then 1 else 2 end`, desc(tools.createdAt)];
+    return [sql`case ${tools.pricingModel} when 'free' then 0 when 'freemium' then 1 else 2 end`, desc(tools.createdAt), asc(tools.id)];
   }
-  if (query.sort === "popular") return [desc(clicks), desc(tools.createdAt)];
+  if (query.sort === "popular") return [desc(clicks), desc(tools.createdAt), asc(tools.id)];
   if (query.sort === "featured" || query.rankedOnly) {
     return [
       sql`case when ${tools.editorialRank} is null then 1 else 0 end`,
@@ -100,9 +104,10 @@ function orderBy(query: ToolListQuery) {
       desc(tools.featured),
       starterOrder(),
       desc(tools.createdAt),
+      asc(tools.id),
     ];
   }
-  return [desc(tools.createdAt)];
+  return [desc(tools.createdAt), asc(tools.id)];
 }
 
 function starterOrder() {
@@ -304,6 +309,7 @@ export function buildSearchText(input: {
 }) {
   return normalizeSearch(
     [input.name, input.shortDescriptionDe, input.longDescriptionDe, ...input.categories, ...input.tags].join(" "),
+    12000,
   );
 }
 

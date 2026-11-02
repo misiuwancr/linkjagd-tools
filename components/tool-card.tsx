@@ -12,8 +12,8 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
           <ToolLogo name={tool.name} logo={tool.logo} />
         </Link>
         <div className="min-w-0">
-          <h3 className="text-[15px] font-semibold leading-5 tracking-tight">
-            <Link href={`/tools/${tool.slug}`} className="hover:underline">
+          <h3 className="text-base font-semibold leading-6 tracking-tight">
+            <Link href={`/tools/${tool.slug}`} className="break-words hover:underline">
               {tool.name}
             </Link>
           </h3>
@@ -24,15 +24,16 @@ export function ToolCard({ tool }: { tool: PublicTool }) {
           </div>
         </div>
       </div>
-      <p className="mt-3 line-clamp-2 flex-1 text-sm leading-6 text-muted-foreground">{tool.shortDescriptionDe}</p>
+      <p className="mt-3 line-clamp-3 flex-1 text-sm leading-6 text-muted-foreground">{tool.shortDescriptionDe}</p>
       <VoteButton slug={tool.slug} name={tool.name} />
-      <div className="mt-3 flex justify-end">
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+        <Link href={`/tools/${tool.slug}`} className="inline-flex min-h-10 items-center text-sm font-semibold text-hunt">Details ansehen →</Link>
         <a
           href={`/go/${tool.slug}`}
           rel={tool.ctaKind === "affiliate" ? "sponsored nofollow noopener" : "nofollow noopener"}
           className="text-xs font-semibold text-muted-foreground hover:text-foreground"
         >
-          {tool.ctaKind === "affiliate" ? "Testen · Anzeige" : "Testen"}
+          {tool.ctaKind === "affiliate" ? "Zum Anbieter · Anzeige ↗" : "Zum Anbieter ↗"}
         </a>
       </div>
       <div className="mt-3 flex flex-wrap gap-1.5">

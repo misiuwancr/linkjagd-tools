@@ -17,6 +17,7 @@ export default async function AdminToolsPage({
   const query: ToolListQuery = {
     q: "",
     categorySlug: "",
+    categorySlugs: [],
     pricing: "",
     license: "",
     sort: "newest",

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { getDb } from "@/db/client";
 import { siteConfig } from "@/site.config";
-import { CategoryChips, DirectoryFilters, LicenseChips, Pagination, PriceChips, ResultMeta, ToolGrid } from "@/components/directory";
+import { Pagination, ResultMeta, ToolGrid } from "@/components/directory";
 import { JsonLd } from "@/components/json-ld";
 import { listCategories, listTools, totalClicks } from "@/lib/tools/repository";
 import { weeklyPopularVisible } from "@/lib/tools/popular";
 import { directoryHref, publicListQuery } from "@/lib/tools/query";
 import { toPublicTool } from "@/lib/tools/public";
-import { sortOptions } from "@/lib/labels";
+import { ActiveDirectoryFilters, DirectorySearch } from "@/components/directory-search";
 import { companyBySlug } from "@/lib/companies";
 import { indexingPolicy, robotsDirective } from "@/lib/indexing";
 import Link from "next/link";
@@ -22,23 +22,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const query = publicListQuery(searchParams);
   const company = companyBySlug(query.company);
-  const title = company ? `Tools von ${company.name}` : query.q ? `Suche: ${query.q}` : "Alle KI-Tools";
+  const title = company ? `Tools von ${company.name}` : query.q ? `Suche: ${query.q}` : "Tools & Websites entdecken";
   const description = query.q
     ? `Suchergebnisse für „${query.q}“ im Verzeichnis ${siteConfig.name}.`
     : "Durchsuche das Verzeichnis nach Name, Beschreibung, Kategorie und Preismodell.";
-  const canonical = new URL("/tools", siteConfig.url);
-  if (query.categorySlug) canonical.searchParams.set("kategorie", query.categorySlug);
-  if (query.pricing) canonical.searchParams.set("preis", searchParams.preis as string);
-  if (query.company) canonical.searchParams.set("firma", query.company);
-  if (query.sort !== "newest") {
-    const sort = sortOptions.find((item) => item.value === query.sort)?.param;
-    if (sort) canonical.searchParams.set("sort", sort);
-  }
+  const canonical = directoryHref("/tools", query);
   return {
     title,
     description,
-    alternates: { canonical: canonical.pathname + canonical.search },
-    robots: robotsDirective(indexingPolicy().index && !query.q),
+    alternates: { canonical: canonical },
+    robots: robotsDirective(indexingPolicy().index && !query.q && query.categorySlugs.length <= 1),
   };
 }
 
@@ -49,12 +42,13 @@ export default async function ToolsPage({
 }) {
   const query = publicListQuery(searchParams);
   const database = await getDb();
+  const hasFilters = !!(query.q || query.categorySlug || query.pricing || query.license || query.company || query.featuredOnly || query.fromVideo || query.germanUi || query.noSignup);
   const [result, categories, clicks, all, recommended] = await Promise.all([
     listTools(database, query),
     listCategories(database),
     totalClicks(database),
     listTools(database, publicListQuery({}, { pageSize: 1 })),
-    listTools(database, publicListQuery({}, { featuredOnly: true, sort: "featured", pageSize: 6 })),
+    hasFilters ? Promise.resolve(null) : listTools(database, publicListQuery({}, { featuredOnly: true, sort: "featured", pageSize: 6 })),
   ]);
   const showPopular = weeklyPopularVisible(clicks);
   const tools = result.items.map((tool) => toPublicTool(tool));
@@ -76,61 +70,16 @@ export default async function ToolsPage({
           <>Tools von {companyBySlug(safeQuery.company)?.name}</>
         ) : (
           <>
-            Das <span className="text-hunt">KI-Tools</span> Verzeichnis
+            <span className="text-hunt">Tools & Websites</span> entdecken
           </>
         )}
       </h1>
       <p className="mt-3 max-w-2xl text-base leading-7 text-muted-foreground">
-        Suche nach Namen oder Aufgabe. Filter und Sortierung bleiben in der Adresse, damit du die Ansicht teilen kannst.
+        Interessante Websites, KI-Tools, Browser-Games und Software für Kreativität, Alltag und Business. Suche nach Namen oder Aufgabe und grenze deine Auswahl ein.
       </p>
-      <div className="mt-8 rounded-3xl border border-border bg-card/60 p-4 sm:p-5">
-        <DirectoryFilters query={safeQuery} categories={categories} showPopular={showPopular} toolCount={all.total} />
-        <details className="mt-4" open={!!safeQuery.categorySlug}>
-          <summary className="cursor-pointer text-sm font-semibold">Kategorien ({categories.length})</summary>
-          <div className="mt-3"><CategoryChips query={safeQuery} categories={categories} basePath="/tools" /></div>
-        </details>
-        <div className="mt-3">
-          <PriceChips query={safeQuery} basePath="/tools" />
-        </div>
-        <div className="mt-3 flex flex-wrap gap-2">
-          <Link href={directoryHref("/tools", safeQuery, { license: safeQuery.license === "open_source" ? "" : "open_source", page: 1 })} aria-current={safeQuery.license === "open_source" ? "true" : undefined} className="rounded-full border border-border px-3 py-2 text-sm aria-[current=true]:bg-primary aria-[current=true]:text-primary-foreground">Open Source</Link>
-          <Link href={directoryHref("/tools", safeQuery, { featuredOnly: !safeQuery.featuredOnly, page: 1 })} aria-current={safeQuery.featuredOnly ? "true" : undefined} className="rounded-full border border-border px-3 py-2 text-sm aria-[current=true]:bg-primary aria-[current=true]:text-primary-foreground">Michals Picks</Link>
-        </div>
-        <div className="mt-3">
-          <a
-            href={directoryHref("/tools", safeQuery, { fromVideo: !safeQuery.fromVideo, page: 1 })}
-            className={
-              safeQuery.fromVideo
-                ? "inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
-                : "inline-flex h-9 items-center rounded-full border border-border bg-card px-3 text-sm font-medium"
-            }
-            aria-current={safeQuery.fromVideo ? "true" : undefined}
-          >
-            Aus meinen Videos
-          </a>
-          <a
-            href={directoryHref("/tools", safeQuery, { germanUi: "ja", page: 1 })}
-            className={
-              safeQuery.germanUi === "ja"
-                ? "ml-2 inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
-                : "ml-2 inline-flex h-9 items-center rounded-full border border-border bg-card px-3 text-sm font-medium"
-            }
-          >
-            Auf Deutsch
-          </a>
-          <a
-            href={directoryHref("/tools", safeQuery, { noSignup: "ja", page: 1 })}
-            className={
-              safeQuery.noSignup === "ja"
-                ? "ml-2 inline-flex h-9 items-center rounded-full bg-primary px-3 text-sm font-medium text-primary-foreground"
-                : "ml-2 inline-flex h-9 items-center rounded-full border border-border bg-card px-3 text-sm font-medium"
-            }
-          >
-            Ohne Anmeldung
-          </a>
-        </div>
-      </div>
-      {recommended.items.length ? <section className="mt-8" aria-label="Gerade empfohlen">
+      <div className="mt-8"><DirectorySearch key={directoryHref("/tools", safeQuery)} query={safeQuery} categories={categories.filter((category) => category.toolCount > 0 || query.categorySlugs.includes(category.slug))} showPopular={showPopular} toolCount={all.total} /></div>
+      <ActiveDirectoryFilters query={safeQuery} categories={categories} />
+      {recommended?.items.length ? <section className="mt-8" aria-label="Gerade empfohlen">
         <div className="flex items-center justify-between gap-3"><h2 className="text-xl font-bold">Gerade empfohlen</h2><Link href="/top-20" className="text-sm text-hunt">Zu den Top 20 →</Link></div>
         <div className="mt-3 grid gap-2 sm:grid-cols-3 xl:grid-cols-6">{recommended.items.map((tool) => <Link key={tool.id} href={`/tools/${tool.slug}`} className="rounded-xl border border-border bg-card p-4 font-semibold hover:border-hunt/40">{tool.name}</Link>)}</div>
       </section> : null}
@@ -142,7 +91,7 @@ export default async function ToolsPage({
         ) : null}
       </div>
       <div className="mt-4">
-        <ToolGrid tools={tools} />
+        <ToolGrid tools={tools} resetHref="/tools" />
       </div>
       <Pagination query={safeQuery} total={result.total} basePath="/tools" />
     </div>
