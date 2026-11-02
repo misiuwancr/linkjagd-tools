@@ -19,6 +19,7 @@
     "db:reclassify": "tsx scripts/reclassify-directory.ts",
     "import:futuretools": "tsx scripts/import-futuretools-top100.ts",
     "import:verified": "tsx scripts/import-verified-directory.ts",
+    "import:batch": "tsx scripts/import-batch.ts",
     "logos:fetch": "tsx scripts/fetch-logos.ts",
     "verify:batch2": "python3 scripts/batch2_catalog.py && python3 scripts/verify-batch2.py",
     "test": "vitest run"

@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "AWStats",
+    "originalUrl": "https://www.awstats.org/",
+    "shortDescriptionDe": "AWStats wertet Serverprotokolle aus und stellt Zugriffe auf Websites, FTP- und Maildienste als Statistiken dar.",
+    "longDescriptionDe": "AWStats wertet Serverprotokolle aus und stellt Zugriffe auf Websites, FTP- und Maildienste als Statistiken dar. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.awstats.org/",
+      "checkedAt": "2026-11-02T20:21:53.517Z",
+      "httpStatus": 200,
+      "productFacts": "AWStats wertet Serverprotokolle aus und stellt Zugriffe auf Websites, FTP- und Maildienste als Statistiken dar.",
+      "pricingSource": "https://www.awstats.org/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "d8a.tech",
+    "originalUrl": "https://d8a.tech/",
+    "shortDescriptionDe": "d8a.tech bereitet Webanalysedaten für Datenplattformen wie BigQuery oder ClickHouse auf. Die selbst betriebene Software steht unter MIT-Lizenz.",
+    "longDescriptionDe": "d8a.tech bereitet Webanalysedaten für Datenplattformen wie BigQuery oder ClickHouse auf. Die selbst betriebene Software steht unter MIT-Lizenz. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://d8a.tech/",
+      "checkedAt": "2026-11-02T20:21:53.718Z",
+      "httpStatus": 200,
+      "productFacts": "d8a.tech bereitet Webanalysedaten für Datenplattformen wie BigQuery oder ClickHouse auf. Die selbst betriebene Software steht unter MIT-Lizenz.",
+      "pricingSource": "https://d8a.tech/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Liwan",
+    "originalUrl": "https://liwan.dev/",
+    "shortDescriptionDe": "Liwan erfasst Websitebesuche auf dem eigenen Server, ohne Tracking-Cookies oder websiteübergreifende Nutzerverfolgung.",
+    "longDescriptionDe": "Liwan erfasst Websitebesuche auf dem eigenen Server, ohne Tracking-Cookies oder websiteübergreifende Nutzerverfolgung. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://liwan.dev/",
+      "checkedAt": "2026-11-02T20:21:55.997Z",
+      "httpStatus": 200,
+      "productFacts": "Liwan erfasst Websitebesuche auf dem eigenen Server, ohne Tracking-Cookies oder websiteübergreifende Nutzerverfolgung.",
+      "pricingSource": "https://liwan.dev/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Offen",
+    "originalUrl": "https://www.offen.dev/",
+    "shortDescriptionDe": "Offen bietet selbst betriebene Webanalyse und erlaubt Besuchern, ihre erfassten Daten einzusehen.",
+    "longDescriptionDe": "Offen bietet selbst betriebene Webanalyse und erlaubt Besuchern, ihre erfassten Daten einzusehen. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.offen.dev/",
+      "checkedAt": "2026-11-02T20:21:56.739Z",
+      "httpStatus": 200,
+      "productFacts": "Offen bietet selbst betriebene Webanalyse und erlaubt Besuchern, ihre erfassten Daten einzusehen.",
+      "pricingSource": "https://www.offen.dev/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "GoAccess",
+    "originalUrl": "https://goaccess.io/",
+    "shortDescriptionDe": "GoAccess liest Webserver-Logs und zeigt Zugriffsstatistiken im Terminal oder als Bericht im Browser an.",
+    "longDescriptionDe": "GoAccess liest Webserver-Logs und zeigt Zugriffsstatistiken im Terminal oder als Bericht im Browser an. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://goaccess.io/",
+      "checkedAt": "2026-11-02T20:21:55.495Z",
+      "httpStatus": 200,
+      "productFacts": "GoAccess liest Webserver-Logs und zeigt Zugriffsstatistiken im Terminal oder als Bericht im Browser an.",
+      "pricingSource": "https://goaccess.io/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Shaper",
+    "originalUrl": "https://taleshape.com/shaper/docs/",
+    "shortDescriptionDe": "Shaper erstellt Analyse-Dashboards, die auf der eigenen Infrastruktur laufen und in andere Anwendungen eingebettet werden können.",
+    "longDescriptionDe": "Shaper erstellt Analyse-Dashboards, die auf der eigenen Infrastruktur laufen und in andere Anwendungen eingebettet werden können. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "business-finanzen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://taleshape.com/shaper/docs/",
+      "checkedAt": "2026-11-02T20:21:58.660Z",
+      "httpStatus": 200,
+      "productFacts": "Shaper erstellt Analyse-Dashboards, die auf der eigenen Infrastruktur laufen und in andere Anwendungen eingebettet werden können.",
+      "pricingSource": "https://taleshape.com/shaper/docs/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Prisme Analytics",
+    "originalUrl": "https://www.prismeanalytics.com/",
+    "shortDescriptionDe": "Prisme Analytics stellt Websitezugriffe in einer Webanalyse-Oberfläche dar und bietet einen kostenpflichtigen gehosteten Dienst.",
+    "longDescriptionDe": "Prisme Analytics stellt Websitezugriffe in einer Webanalyse-Oberfläche dar und bietet einen kostenpflichtigen gehosteten Dienst. Der Anbieter nennt kostenpflichtige Monatstarife; die Probephase ist zeitlich begrenzt.",
+    "pricingModel": "paid",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.prismeanalytics.com/",
+      "checkedAt": "2026-11-02T20:21:58.634Z",
+      "httpStatus": 200,
+      "productFacts": "Prisme Analytics stellt Websitezugriffe in einer Webanalyse-Oberfläche dar und bietet einen kostenpflichtigen gehosteten Dienst.",
+      "pricingSource": "https://www.prismeanalytics.com/",
+      "pricingFacts": "Der Anbieter nennt kostenpflichtige Monatstarife; die Probephase ist zeitlich begrenzt.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Swetrix",
+    "originalUrl": "https://swetrix.com/",
+    "shortDescriptionDe": "Swetrix verbindet Webanalyse mit Messungen zur Seitenleistung und zur Fehlerüberwachung. Der gehostete Dienst bietet kostenpflichtige Tarife.",
+    "longDescriptionDe": "Swetrix verbindet Webanalyse mit Messungen zur Seitenleistung und zur Fehlerüberwachung. Der gehostete Dienst bietet kostenpflichtige Tarife. Der Anbieter nennt kostenpflichtige Monatstarife; die Probephase ist zeitlich begrenzt.",
+    "pricingModel": "paid",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://swetrix.com/",
+      "checkedAt": "2026-11-02T20:21:59.362Z",
+      "httpStatus": 200,
+      "productFacts": "Swetrix verbindet Webanalyse mit Messungen zur Seitenleistung und zur Fehlerüberwachung. Der gehostete Dienst bietet kostenpflichtige Tarife.",
+      "pricingSource": "https://swetrix.com/",
+      "pricingFacts": "Der Anbieter nennt kostenpflichtige Monatstarife; die Probephase ist zeitlich begrenzt.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "ArchiveBox",
+    "originalUrl": "https://archivebox.io/",
+    "shortDescriptionDe": "ArchiveBox archiviert Inhalte von Websites in mehreren Formaten auf dem eigenen Server, damit sie später erneut abrufbar sind.",
+    "longDescriptionDe": "ArchiveBox archiviert Inhalte von Websites in mehreren Formaten auf dem eigenen Server, damit sie später erneut abrufbar sind. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://archivebox.io/",
+      "checkedAt": "2026-11-02T20:21:59.647Z",
+      "httpStatus": 200,
+      "productFacts": "ArchiveBox archiviert Inhalte von Websites in mehreren Formaten auf dem eigenen Server, damit sie später erneut abrufbar sind.",
+      "pricingSource": "https://archivebox.io/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Collective Access - Providence",
+    "originalUrl": "https://collectiveaccess.org/",
+    "shortDescriptionDe": "CollectiveAccess katalogisiert Museums- und Archivbestände und unterstützt deren Veröffentlichung als digitale Sammlungen.",
+    "longDescriptionDe": "CollectiveAccess katalogisiert Museums- und Archivbestände und unterstützt deren Veröffentlichung als digitale Sammlungen. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://collectiveaccess.org/",
+      "checkedAt": "2026-11-02T20:22:01.461Z",
+      "httpStatus": 200,
+      "productFacts": "CollectiveAccess katalogisiert Museums- und Archivbestände und unterstützt deren Veröffentlichung als digitale Sammlungen.",
+      "pricingSource": "https://collectiveaccess.org/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Open Archiver",
+    "originalUrl": "https://openarchiver.com/",
+    "shortDescriptionDe": "Open Archiver übernimmt E-Mails in ein selbst betriebenes Archiv und macht Nachrichten über eine Volltextsuche auffindbar.",
+    "longDescriptionDe": "Open Archiver übernimmt E-Mails in ein selbst betriebenes Archiv und macht Nachrichten über eine Volltextsuche auffindbar. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://openarchiver.com/",
+      "checkedAt": "2026-11-02T20:22:03.022Z",
+      "httpStatus": 200,
+      "productFacts": "Open Archiver übernimmt E-Mails in ein selbst betriebenes Archiv und macht Nachrichten über eine Volltextsuche auffindbar.",
+      "pricingSource": "https://openarchiver.com/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Cronicle",
+    "originalUrl": "https://cronicle.net/",
+    "shortDescriptionDe": "Cronicle plant wiederkehrende Aufgaben auf Servern und zeigt deren Ausführung sowie Protokolle in einer Weboberfläche.",
+    "longDescriptionDe": "Cronicle plant wiederkehrende Aufgaben auf Servern und zeigt deren Ausführung sowie Protokolle in einer Weboberfläche. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "automatisierung-agenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://cronicle.net/",
+      "checkedAt": "2026-11-02T20:22:04.605Z",
+      "httpStatus": 200,
+      "productFacts": "Cronicle plant wiederkehrende Aufgaben auf Servern und zeigt deren Ausführung sowie Protokolle in einer Weboberfläche.",
+      "pricingSource": "https://cronicle.net/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Dittofeed",
+    "originalUrl": "https://www.dittofeed.com/",
+    "shortDescriptionDe": "Dittofeed erstellt automatisierte Nachrichtenabläufe für Kundengruppen, etwa per E-Mail oder Push. Der quelloffene Kern lässt sich selbst betreiben.",
+    "longDescriptionDe": "Dittofeed erstellt automatisierte Nachrichtenabläufe für Kundengruppen, etwa per E-Mail oder Push. Der quelloffene Kern lässt sich selbst betreiben. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "marketing-social"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.dittofeed.com/",
+      "checkedAt": "2026-11-02T20:22:05.207Z",
+      "httpStatus": 200,
+      "productFacts": "Dittofeed erstellt automatisierte Nachrichtenabläufe für Kundengruppen, etwa per E-Mail oder Push. Der quelloffene Kern lässt sich selbst betreiben.",
+      "pricingSource": "https://www.dittofeed.com/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "flowctl",
+    "originalUrl": "https://flowctl.net/",
+    "shortDescriptionDe": "flowctl stellt Teams eine Weboberfläche bereit, um eigene automatisierte Arbeitsabläufe zu starten und zu verwalten.",
+    "longDescriptionDe": "flowctl stellt Teams eine Weboberfläche bereit, um eigene automatisierte Arbeitsabläufe zu starten und zu verwalten. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "automatisierung-agenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://flowctl.net/",
+      "checkedAt": "2026-11-02T20:22:05.559Z",
+      "httpStatus": 200,
+      "productFacts": "flowctl stellt Teams eine Weboberfläche bereit, um eigene automatisierte Arbeitsabläufe zu starten und zu verwalten.",
+      "pricingSource": "https://flowctl.net/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Healthchecks",
+    "originalUrl": "https://healthchecks.io/",
+    "shortDescriptionDe": "Healthchecks überwacht regelmäßige Hintergrundaufgaben und meldet sich, wenn ein erwartetes Lebenszeichen ausbleibt.",
+    "longDescriptionDe": "Healthchecks überwacht regelmäßige Hintergrundaufgaben und meldet sich, wenn ein erwartetes Lebenszeichen ausbleibt. Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+    "pricingModel": "freemium",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://healthchecks.io/",
+      "checkedAt": "2026-11-02T20:22:11.783Z",
+      "httpStatus": 200,
+      "productFacts": "Healthchecks überwacht regelmäßige Hintergrundaufgaben und meldet sich, wenn ein erwartetes Lebenszeichen ausbleibt.",
+      "pricingSource": "https://healthchecks.io/pricing/",
+      "pricingFacts": "Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Kibitzr",
+    "originalUrl": "https://kibitzr.github.io/",
+    "shortDescriptionDe": "Kibitzr beobachtet Änderungen an Webseiten und kann bei passenden Ereignissen Benachrichtigungen oder eigene Skripte auslösen.",
+    "longDescriptionDe": "Kibitzr beobachtet Änderungen an Webseiten und kann bei passenden Ereignissen Benachrichtigungen oder eigene Skripte auslösen. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "automatisierung-agenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://kibitzr.github.io/",
+      "checkedAt": "2026-11-02T20:22:11.997Z",
+      "httpStatus": 200,
+      "productFacts": "Kibitzr beobachtet Änderungen an Webseiten und kann bei passenden Ereignissen Benachrichtigungen oder eigene Skripte auslösen.",
+      "pricingSource": "https://kibitzr.github.io/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Leon",
+    "originalUrl": "https://getleon.ai/",
+    "shortDescriptionDe": "Leon ist ein quelloffener persönlicher Assistent, der auf einem eigenen Server läuft und durch zusätzliche Fähigkeiten erweitert werden kann.",
+    "longDescriptionDe": "Leon ist ein quelloffener persönlicher Assistent, der auf einem eigenen Server läuft und durch zusätzliche Fähigkeiten erweitert werden kann. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "chat-assistenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://getleon.ai/",
+      "checkedAt": "2026-11-02T20:22:12.000Z",
+      "httpStatus": 200,
+      "productFacts": "Leon ist ein quelloffener persönlicher Assistent, der auf einem eigenen Server läuft und durch zusätzliche Fähigkeiten erweitert werden kann.",
+      "pricingSource": "https://getleon.ai/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "pyLoad",
+    "originalUrl": "https://pyload.net/",
+    "shortDescriptionDe": "pyLoad verwaltet Downloads über eine Weboberfläche. Der in Python geschriebene Downloadmanager lässt sich auf eigener Hardware betreiben.",
+    "longDescriptionDe": "pyLoad verwaltet Downloads über eine Weboberfläche. Der in Python geschriebene Downloadmanager lässt sich auf eigener Hardware betreiben. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://pyload.net/",
+      "checkedAt": "2026-11-02T20:22:13.629Z",
+      "httpStatus": 200,
+      "productFacts": "pyLoad verwaltet Downloads über eine Weboberfläche. Der in Python geschriebene Downloadmanager lässt sich auf eigener Hardware betreiben.",
+      "pricingSource": "https://pyload.net/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "OliveTin",
+    "originalUrl": "https://www.olivetin.app/",
+    "shortDescriptionDe": "OliveTin stellt vordefinierte Shell-Befehle als Schaltflächen im Browser bereit, etwa für Backups oder das Neustarten von Diensten.",
+    "longDescriptionDe": "OliveTin stellt vordefinierte Shell-Befehle als Schaltflächen im Browser bereit, etwa für Backups oder das Neustarten von Diensten. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.olivetin.app/",
+      "checkedAt": "2026-11-02T20:22:13.629Z",
+      "httpStatus": 200,
+      "productFacts": "OliveTin stellt vordefinierte Shell-Befehle als Schaltflächen im Browser bereit, etwa für Backups oder das Neustarten von Diensten.",
+      "pricingSource": "https://www.olivetin.app/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "StackStorm",
+    "originalUrl": "https://stackstorm.com/",
+    "shortDescriptionDe": "StackStorm verbindet Ereignisse, Regeln und Aktionen, um wiederkehrende Aufgaben zwischen bestehenden Diensten zu automatisieren.",
+    "longDescriptionDe": "StackStorm verbindet Ereignisse, Regeln und Aktionen, um wiederkehrende Aufgaben zwischen bestehenden Diensten zu automatisieren. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "automatisierung-agenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://stackstorm.com/",
+      "checkedAt": "2026-11-02T20:22:15.321Z",
+      "httpStatus": 200,
+      "productFacts": "StackStorm verbindet Ereignisse, Regeln und Aktionen, um wiederkehrende Aufgaben zwischen bestehenden Diensten zu automatisieren.",
+      "pricingSource": "https://stackstorm.com/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Mataroa",
+    "originalUrl": "https://mataroa.blog/",
+    "shortDescriptionDe": "Mataroa ist eine reduzierte Blogging-Plattform mit kostenlosen Grundfunktionen und zusätzlichen Funktionen im Premiumtarif.",
+    "longDescriptionDe": "Mataroa ist eine reduzierte Blogging-Plattform mit kostenlosen Grundfunktionen und zusätzlichen Funktionen im Premiumtarif. Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+    "pricingModel": "freemium",
+    "categorySlugs": [
+      "text-schreiben"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://mataroa.blog/",
+      "checkedAt": "2026-11-02T20:22:18.168Z",
+      "httpStatus": 200,
+      "productFacts": "Mataroa ist eine reduzierte Blogging-Plattform mit kostenlosen Grundfunktionen und zusätzlichen Funktionen im Premiumtarif.",
+      "pricingSource": "https://mataroa.blog/",
+      "pricingFacts": "Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Alf.io",
+    "originalUrl": "https://alf.io/",
+    "shortDescriptionDe": "Alf.io organisiert Veranstaltungen mit Ticketreservierung, Teilnehmerverwaltung und Berichten als selbst betreibbare Webanwendung.",
+    "longDescriptionDe": "Alf.io organisiert Veranstaltungen mit Ticketreservierung, Teilnehmerverwaltung und Berichten als selbst betreibbare Webanwendung. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "business-finanzen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://alf.io/",
+      "checkedAt": "2026-11-02T20:22:20.145Z",
+      "httpStatus": 200,
+      "productFacts": "Alf.io organisiert Veranstaltungen mit Ticketreservierung, Teilnehmerverwaltung und Berichten als selbst betreibbare Webanwendung.",
+      "pricingSource": "https://alf.io/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Easy!Appointments",
+    "originalUrl": "https://easyappointments.org/",
+    "shortDescriptionDe": "Easy!Appointments bietet eine öffentliche Buchungsseite und einen Teamkalender für Termine auf dem eigenen Server.",
+    "longDescriptionDe": "Easy!Appointments bietet eine öffentliche Buchungsseite und einen Teamkalender für Termine auf dem eigenen Server. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://easyappointments.org/",
+      "checkedAt": "2026-11-02T20:22:20.893Z",
+      "httpStatus": 200,
+      "productFacts": "Easy!Appointments bietet eine öffentliche Buchungsseite und einen Teamkalender für Termine auf dem eigenen Server.",
+      "pricingSource": "https://easyappointments.org/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "LibreBooking",
+    "originalUrl": "https://librebooking.readthedocs.io/en/latest/",
+    "shortDescriptionDe": "LibreBooking verwaltet Buchungen gemeinsam genutzter Ressourcen über eine selbst betriebene Webanwendung.",
+    "longDescriptionDe": "LibreBooking verwaltet Buchungen gemeinsam genutzter Ressourcen über eine selbst betriebene Webanwendung. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://librebooking.readthedocs.io/en/latest/",
+      "checkedAt": "2026-11-02T20:22:21.888Z",
+      "httpStatus": 200,
+      "productFacts": "LibreBooking verwaltet Buchungen gemeinsam genutzter Ressourcen über eine selbst betriebene Webanwendung.",
+      "pricingSource": "https://librebooking.readthedocs.io/en/latest/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "QloApps",
+    "originalUrl": "https://qloapps.com/",
+    "shortDescriptionDe": "QloApps verbindet eine Hotel-Buchungswebsite mit der Verwaltung von Reservierungen vor Ort und aus dem Internet.",
+    "longDescriptionDe": "QloApps verbindet eine Hotel-Buchungswebsite mit der Verwaltung von Reservierungen vor Ort und aus dem Internet. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "reisen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://qloapps.com/",
+      "checkedAt": "2026-11-02T20:22:22.463Z",
+      "httpStatus": 200,
+      "productFacts": "QloApps verbindet eine Hotel-Buchungswebsite mit der Verwaltung von Reservierungen vor Ort und aus dem Internet.",
+      "pricingSource": "https://qloapps.com/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Betula",
+    "originalUrl": "https://joinbetula.org/",
+    "shortDescriptionDe": "Betula sammelt und organisiert persönliche Weblinks auf dem eigenen Server und unterstützt das Archivieren gespeicherter Seiten.",
+    "longDescriptionDe": "Betula sammelt und organisiert persönliche Weblinks auf dem eigenen Server und unterstützt das Archivieren gespeicherter Seiten. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://joinbetula.org/",
+      "checkedAt": "2026-11-02T20:22:24.469Z",
+      "httpStatus": 200,
+      "productFacts": "Betula sammelt und organisiert persönliche Weblinks auf dem eigenen Server und unterstützt das Archivieren gespeicherter Seiten.",
+      "pricingSource": "https://joinbetula.org/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "LinkAce",
+    "originalUrl": "https://www.linkace.org/",
+    "shortDescriptionDe": "LinkAce verwaltet eine eigene Sammlung von Weblinks und unterstützt deren langfristige Organisation und Archivierung.",
+    "longDescriptionDe": "LinkAce verwaltet eine eigene Sammlung von Weblinks und unterstützt deren langfristige Organisation und Archivierung. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "recherche-suche"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.linkace.org/",
+      "checkedAt": "2026-11-02T20:22:25.388Z",
+      "httpStatus": 200,
+      "productFacts": "LinkAce verwaltet eine eigene Sammlung von Weblinks und unterstützt deren langfristige Organisation und Archivierung.",
+      "pricingSource": "https://www.linkace.org/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Baïkal",
+    "originalUrl": "https://sabre.io/baikal/",
+    "shortDescriptionDe": "Baïkal stellt einen eigenen CalDAV- und CardDAV-Server bereit, um Kalender und Kontakte zwischen geeigneten Geräten abzugleichen.",
+    "longDescriptionDe": "Baïkal stellt einen eigenen CalDAV- und CardDAV-Server bereit, um Kalender und Kontakte zwischen geeigneten Geräten abzugleichen. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://sabre.io/baikal/",
+      "checkedAt": "2026-11-02T20:22:27.614Z",
+      "httpStatus": 200,
+      "productFacts": "Baïkal stellt einen eigenen CalDAV- und CardDAV-Server bereit, um Kalender und Kontakte zwischen geeigneten Geräten abzugleichen.",
+      "pricingSource": "https://sabre.io/baikal/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Keeper.sh",
+    "originalUrl": "https://www.keeper.sh/",
+    "shortDescriptionDe": "Keeper.sh gleicht belegte Zeiten zwischen mehreren Kalenderdiensten ab, damit Termine in anderen Kalendern als beschäftigt erscheinen.",
+    "longDescriptionDe": "Keeper.sh gleicht belegte Zeiten zwischen mehreren Kalenderdiensten ab, damit Termine in anderen Kalendern als beschäftigt erscheinen. Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+    "pricingModel": "freemium",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.keeper.sh/",
+      "checkedAt": "2026-11-02T20:22:30.522Z",
+      "httpStatus": 200,
+      "productFacts": "Keeper.sh gleicht belegte Zeiten zwischen mehreren Kalenderdiensten ab, damit Termine in anderen Kalendern als beschäftigt erscheinen.",
+      "pricingSource": "https://www.keeper.sh/",
+      "pricingFacts": "Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "AnyCable",
+    "originalUrl": "https://anycable.io/",
+    "shortDescriptionDe": "AnyCable ergänzt Anwendungen um WebSocket-Kommunikation und unterstützt Funktionen wie Anwesenheitsstatus und geordnete Nachrichten.",
+    "longDescriptionDe": "AnyCable ergänzt Anwendungen um WebSocket-Kommunikation und unterstützt Funktionen wie Anwesenheitsstatus und geordnete Nachrichten. Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+    "pricingModel": "freemium",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://anycable.io/",
+      "checkedAt": "2026-11-02T20:22:30.753Z",
+      "httpStatus": 200,
+      "productFacts": "AnyCable ergänzt Anwendungen um WebSocket-Kommunikation und unterstützt Funktionen wie Anwesenheitsstatus und geordnete Nachrichten.",
+      "pricingSource": "https://anycable.io/",
+      "pricingFacts": "Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "GlobaLeaks",
+    "originalUrl": "https://globaleaks.org/",
+    "shortDescriptionDe": "GlobaLeaks ermöglicht den Betrieb einer eigenen Hinweisgeberplattform für die vertrauliche Übermittlung und Bearbeitung von Meldungen.",
+    "longDescriptionDe": "GlobaLeaks ermöglicht den Betrieb einer eigenen Hinweisgeberplattform für die vertrauliche Übermittlung und Bearbeitung von Meldungen. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "business-finanzen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://globaleaks.org/",
+      "checkedAt": "2026-11-02T20:22:33.356Z",
+      "httpStatus": 200,
+      "productFacts": "GlobaLeaks ermöglicht den Betrieb einer eigenen Hinweisgeberplattform für die vertrauliche Übermittlung und Bearbeitung von Meldungen.",
+      "pricingSource": "https://globaleaks.org/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Manage My Damn Life",
+    "originalUrl": "https://intri.in/manage-my-damn-life/",
+    "shortDescriptionDe": "Manage My Damn Life bündelt Aufgaben und Kalender in einer selbst betreibbaren Oberfläche und verbindet sich mit CalDAV-Konten.",
+    "longDescriptionDe": "Manage My Damn Life bündelt Aufgaben und Kalender in einer selbst betreibbaren Oberfläche und verbindet sich mit CalDAV-Konten. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://intri.in/manage-my-damn-life/",
+      "checkedAt": "2026-11-02T20:22:30.998Z",
+      "httpStatus": 200,
+      "productFacts": "Manage My Damn Life bündelt Aufgaben und Kalender in einer selbst betreibbaren Oberfläche und verbindet sich mit CalDAV-Konten.",
+      "pricingSource": "https://intri.in/manage-my-damn-life/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Live Helper Chat",
+    "originalUrl": "https://livehelperchat.com/",
+    "shortDescriptionDe": "Live Helper Chat ergänzt Websites um Support-Chats und lässt sich mit Bots, Kommunikationsdiensten und eigenen Schnittstellen verbinden.",
+    "longDescriptionDe": "Live Helper Chat ergänzt Websites um Support-Chats und lässt sich mit Bots, Kommunikationsdiensten und eigenen Schnittstellen verbinden. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "business-finanzen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://livehelperchat.com/",
+      "checkedAt": "2026-11-02T20:22:36.107Z",
+      "httpStatus": 200,
+      "productFacts": "Live Helper Chat ergänzt Websites um Support-Chats und lässt sich mit Bots, Kommunikationsdiensten und eigenen Schnittstellen verbinden.",
+      "pricingSource": "https://livehelperchat.com/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Fluxer",
+    "originalUrl": "https://fluxer.com/",
+    "shortDescriptionDe": "Fluxer bietet Gruppenchat, Sprach- und Videoanrufe sowie Bildschirmfreigabe. Die quelloffene Anwendung kann auch selbst betrieben werden.",
+    "longDescriptionDe": "Fluxer bietet Gruppenchat, Sprach- und Videoanrufe sowie Bildschirmfreigabe. Die quelloffene Anwendung kann auch selbst betrieben werden. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://fluxer.com/",
+      "checkedAt": "2026-11-02T20:22:35.775Z",
+      "httpStatus": 200,
+      "productFacts": "Fluxer bietet Gruppenchat, Sprach- und Videoanrufe sowie Bildschirmfreigabe. Die quelloffene Anwendung kann auch selbst betrieben werden.",
+      "pricingSource": "https://fluxer.com/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Jami",
+    "originalUrl": "https://jami.net/",
+    "shortDescriptionDe": "Jami ermöglicht verschlüsselte Kommunikation zwischen Geräten und bietet Chats sowie Sprach- und Videoanrufe.",
+    "longDescriptionDe": "Jami ermöglicht verschlüsselte Kommunikation zwischen Geräten und bietet Chats sowie Sprach- und Videoanrufe. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://jami.net/",
+      "checkedAt": "2026-11-02T20:22:36.020Z",
+      "httpStatus": 200,
+      "productFacts": "Jami ermöglicht verschlüsselte Kommunikation zwischen Geräten und bietet Chats sowie Sprach- und Videoanrufe.",
+      "pricingSource": "https://jami.net/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "SAMA",
+    "originalUrl": "https://samacloud.io/",
+    "shortDescriptionDe": "SAMA stellt einen Chatserver für Web- und Mobilanwendungen bereit und unterstützt verschlüsselte Kommunikation.",
+    "longDescriptionDe": "SAMA stellt einen Chatserver für Web- und Mobilanwendungen bereit und unterstützt verschlüsselte Kommunikation. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://samacloud.io/",
+      "checkedAt": "2026-11-02T20:22:38.537Z",
+      "httpStatus": 200,
+      "productFacts": "SAMA stellt einen Chatserver für Web- und Mobilanwendungen bereit und unterstützt verschlüsselte Kommunikation.",
+      "pricingSource": "https://samacloud.io/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "RetroShare",
+    "originalUrl": "https://retroshare.cc/",
+    "shortDescriptionDe": "RetroShare vernetzt vertraute Kontakte direkt miteinander und bietet unter anderem verschlüsselten Nachrichtenaustausch und Dateifreigaben.",
+    "longDescriptionDe": "RetroShare vernetzt vertraute Kontakte direkt miteinander und bietet unter anderem verschlüsselten Nachrichtenaustausch und Dateifreigaben. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://retroshare.cc/",
+      "checkedAt": "2026-11-02T20:22:38.743Z",
+      "httpStatus": 200,
+      "productFacts": "RetroShare vernetzt vertraute Kontakte direkt miteinander und bietet unter anderem verschlüsselten Nachrichtenaustausch und Dateifreigaben.",
+      "pricingSource": "https://retroshare.cc/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "ntfy",
+    "originalUrl": "https://ntfy.sh/",
+    "shortDescriptionDe": "ntfy schickt Push-Benachrichtigungen aus Skripten oder Anwendungen an Handy und Desktop und bietet dafür eine HTTP-Schnittstelle.",
+    "longDescriptionDe": "ntfy schickt Push-Benachrichtigungen aus Skripten oder Anwendungen an Handy und Desktop und bietet dafür eine HTTP-Schnittstelle. Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+    "pricingModel": "freemium",
+    "categorySlugs": [
+      "automatisierung-agenten"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://ntfy.sh/",
+      "checkedAt": "2026-11-02T20:22:37.941Z",
+      "httpStatus": 200,
+      "productFacts": "ntfy schickt Push-Benachrichtigungen aus Skripten oder Anwendungen an Handy und Desktop und bietet dafür eine HTTP-Schnittstelle.",
+      "pricingSource": "https://ntfy.sh/",
+      "pricingFacts": "Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Tox",
+    "originalUrl": "https://tox.chat/",
+    "shortDescriptionDe": "Tox ermöglicht verschlüsselte Chats, Sprach- und Videoanrufe sowie Bildschirmfreigaben über ein dezentrales Netzwerk.",
+    "longDescriptionDe": "Tox ermöglicht verschlüsselte Chats, Sprach- und Videoanrufe sowie Bildschirmfreigaben über ein dezentrales Netzwerk. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://tox.chat/",
+      "checkedAt": "2026-11-02T20:22:42.318Z",
+      "httpStatus": 200,
+      "productFacts": "Tox ermöglicht verschlüsselte Chats, Sprach- und Videoanrufe sowie Bildschirmfreigaben über ein dezentrales Netzwerk.",
+      "pricingSource": "https://tox.chat/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "addy.io",
+    "originalUrl": "https://addy.io/",
+    "shortDescriptionDe": "addy.io erstellt E-Mail-Aliasse, die Nachrichten an das eigene Postfach weiterleiten und die eigentliche Adresse vor einzelnen Diensten verbergen.",
+    "longDescriptionDe": "addy.io erstellt E-Mail-Aliasse, die Nachrichten an das eigene Postfach weiterleiten und die eigentliche Adresse vor einzelnen Diensten verbergen. Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+    "pricingModel": "freemium",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://addy.io/",
+      "checkedAt": "2026-11-02T20:22:44.345Z",
+      "httpStatus": 200,
+      "productFacts": "addy.io erstellt E-Mail-Aliasse, die Nachrichten an das eigene Postfach weiterleiten und die eigentliche Adresse vor einzelnen Diensten verbergen.",
+      "pricingSource": "https://addy.io/",
+      "pricingFacts": "Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "docker-mailserver",
+    "originalUrl": "https://docker-mailserver.github.io/docker-mailserver/edge/",
+    "shortDescriptionDe": "docker-mailserver bündelt einen Mailserver mit SMTP, IMAP und Schutzfunktionen in einer Docker-basierten Installation.",
+    "longDescriptionDe": "docker-mailserver bündelt einen Mailserver mit SMTP, IMAP und Schutzfunktionen in einer Docker-basierten Installation. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://docker-mailserver.github.io/docker-mailserver/edge/",
+      "checkedAt": "2026-11-02T20:22:44.704Z",
+      "httpStatus": 200,
+      "productFacts": "docker-mailserver bündelt einen Mailserver mit SMTP, IMAP und Schutzfunktionen in einer Docker-basierten Installation.",
+      "pricingSource": "https://docker-mailserver.github.io/docker-mailserver/edge/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "DebOps",
+    "originalUrl": "https://docs.debops.org/en/stable-3.3/",
+    "shortDescriptionDe": "DebOps liefert Werkzeuge zum Einrichten und Verwalten eigener IT-Infrastruktur auf Basis von Debian oder Ubuntu.",
+    "longDescriptionDe": "DebOps liefert Werkzeuge zum Einrichten und Verwalten eigener IT-Infrastruktur auf Basis von Debian oder Ubuntu. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://docs.debops.org/en/stable-3.3/",
+      "checkedAt": "2026-11-02T20:22:44.988Z",
+      "httpStatus": 200,
+      "productFacts": "DebOps liefert Werkzeuge zum Einrichten und Verwalten eigener IT-Infrastruktur auf Basis von Debian oder Ubuntu.",
+      "pricingSource": "https://docs.debops.org/en/stable-3.3/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "iRedMail",
+    "originalUrl": "https://www.iredmail.org/",
+    "shortDescriptionDe": "iRedMail installiert einen eigenen Mailserver mit Postfächern und Verwaltungsoberfläche. Die freie Ausgabe wird durch separate Bezahlprodukte ergänzt.",
+    "longDescriptionDe": "iRedMail installiert einen eigenen Mailserver mit Postfächern und Verwaltungsoberfläche. Die freie Ausgabe wird durch separate Bezahlprodukte ergänzt. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.iredmail.org/",
+      "checkedAt": "2026-11-02T20:22:45.567Z",
+      "httpStatus": 200,
+      "productFacts": "iRedMail installiert einen eigenen Mailserver mit Postfächern und Verwaltungsoberfläche. Die freie Ausgabe wird durch separate Bezahlprodukte ergänzt.",
+      "pricingSource": "https://www.iredmail.org/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Mailu",
+    "originalUrl": "https://mailu.io/2024.06/",
+    "shortDescriptionDe": "Mailu stellt einen vollständigen Mailserver aus mehreren Docker-Containern für den Betrieb auf eigener Infrastruktur zusammen.",
+    "longDescriptionDe": "Mailu stellt einen vollständigen Mailserver aus mehreren Docker-Containern für den Betrieb auf eigener Infrastruktur zusammen. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://mailu.io/2024.06/",
+      "checkedAt": "2026-11-02T20:22:46.927Z",
+      "httpStatus": 200,
+      "productFacts": "Mailu stellt einen vollständigen Mailserver aus mehreren Docker-Containern für den Betrieb auf eigener Infrastruktur zusammen.",
+      "pricingSource": "https://mailu.io/2024.06/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Modoboa",
+    "originalUrl": "https://modoboa.org/en/",
+    "shortDescriptionDe": "Modoboa vereint Werkzeuge zum Einrichten und Verwalten eines eigenen Mailservers unter einer gemeinsamen Weboberfläche.",
+    "longDescriptionDe": "Modoboa vereint Werkzeuge zum Einrichten und Verwalten eines eigenen Mailservers unter einer gemeinsamen Weboberfläche. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://modoboa.org/en/",
+      "checkedAt": "2026-11-02T20:22:47.079Z",
+      "httpStatus": 200,
+      "productFacts": "Modoboa vereint Werkzeuge zum Einrichten und Verwalten eines eigenen Mailservers unter einer gemeinsamen Weboberfläche.",
+      "pricingSource": "https://modoboa.org/en/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Mox",
+    "originalUrl": "https://www.xmox.nl/",
+    "shortDescriptionDe": "Mox ist ein selbst betreibbarer Mailserver mit offengelegtem Quellcode unter MIT-Lizenz.",
+    "longDescriptionDe": "Mox ist ein selbst betreibbarer Mailserver mit offengelegtem Quellcode unter MIT-Lizenz. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.xmox.nl/",
+      "checkedAt": "2026-11-02T20:22:47.125Z",
+      "httpStatus": 200,
+      "productFacts": "Mox ist ein selbst betreibbarer Mailserver mit offengelegtem Quellcode unter MIT-Lizenz.",
+      "pricingSource": "https://www.xmox.nl/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "SimpleLogin",
+    "originalUrl": "https://simplelogin.io/",
+    "shortDescriptionDe": "SimpleLogin schützt die eigene E-Mail-Adresse durch Aliasse, über die Nachrichten empfangen und beantwortet werden können.",
+    "longDescriptionDe": "SimpleLogin schützt die eigene E-Mail-Adresse durch Aliasse, über die Nachrichten empfangen und beantwortet werden können. Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+    "pricingModel": "freemium",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://simplelogin.io/",
+      "checkedAt": "2026-11-02T20:22:47.980Z",
+      "httpStatus": 200,
+      "productFacts": "SimpleLogin schützt die eigene E-Mail-Adresse durch Aliasse, über die Nachrichten empfangen und beantwortet werden können.",
+      "pricingSource": "https://simplelogin.io/pricing/",
+      "pricingFacts": "Der Anbieter bietet einen kostenlosen Einstieg und zusätzliche kostenpflichtige Tarife.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Cyrus IMAP",
+    "originalUrl": "https://www.cyrusimap.org/",
+    "shortDescriptionDe": "Cyrus IMAP stellt auf eigener Infrastruktur Dienste für E-Mails, Kontakte und Kalender bereit.",
+    "longDescriptionDe": "Cyrus IMAP stellt auf eigener Infrastruktur Dienste für E-Mails, Kontakte und Kalender bereit. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "code-entwicklung"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.cyrusimap.org/",
+      "checkedAt": "2026-11-02T20:22:49.035Z",
+      "httpStatus": 200,
+      "productFacts": "Cyrus IMAP stellt auf eigener Infrastruktur Dienste für E-Mails, Kontakte und Kalender bereit.",
+      "pricingSource": "https://www.cyrusimap.org/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Omeka S",
+    "originalUrl": "https://omeka.org/s/",
+    "shortDescriptionDe": "Omeka S veröffentlicht digitale Sammlungen und Ausstellungen, etwa für Bibliotheken, Museen oder wissenschaftliche Projekte.",
+    "longDescriptionDe": "Omeka S veröffentlicht digitale Sammlungen und Ausstellungen, etwa für Bibliotheken, Museen oder wissenschaftliche Projekte. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "bildung-lernen"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://omeka.org/s/",
+      "checkedAt": "2026-11-02T20:22:02.392Z",
+      "httpStatus": 200,
+      "productFacts": "Omeka S veröffentlicht digitale Sammlungen und Ausstellungen, etwa für Bibliotheken, Museen oder wissenschaftliche Projekte.",
+      "pricingSource": "https://omeka.org/s/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  },
+  {
+    "name": "Mumble",
+    "originalUrl": "https://www.mumble.info/documentation/",
+    "shortDescriptionDe": "Mumble ist eine quelloffene Sprachchat-Anwendung für Gespräche mit geringer Verzögerung, etwa während gemeinsamer Spiele.",
+    "longDescriptionDe": "Mumble ist eine quelloffene Sprachchat-Anwendung für Gespräche mit geringer Verzögerung, etwa während gemeinsamer Spiele. Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+    "pricingModel": "free",
+    "categorySlugs": [
+      "produktivitaet"
+    ],
+    "discoverySource": "official-research-2026-11-02",
+    "tags": [],
+    "evidence": {
+      "officialUrl": "https://www.mumble.info/documentation/",
+      "checkedAt": "2026-11-02T20:22:36.800Z",
+      "httpStatus": 200,
+      "productFacts": "Mumble ist eine quelloffene Sprachchat-Anwendung für Gespräche mit geringer Verzögerung, etwa während gemeinsamer Spiele.",
+      "pricingSource": "https://www.mumble.info/documentation/",
+      "pricingFacts": "Die freie beziehungsweise quelloffene Ausgabe ist ohne Software-Lizenzgebühr nutzbar; Betrieb und Hosting sind separat zu berücksichtigen.",
+      "reviewed": true
+    }
+  }
+]

@@ -1,0 +1,64 @@
+# Erweiterung des Verzeichnisses – Stand 2. November 2026
+
+Der Nutzer hat Veröffentlichung und Deployment ausdrücklich freigegeben. Eine weitere redaktionelle Freigaberunde ist nicht nötig. Technischer Datenbankzugriff fehlt derzeit; **keine neuen Tools in Produktion veröffentlicht**.
+
+## Tatsächliche Zahlen
+
+| Prüfschritt | Anzahl |
+| --- | ---: |
+| Recherchierte Kandidaten aus offener Entdeckungsquelle | 1.200 |
+| Bereits vorhandene Tools in lokaler Bestandskopie | 1.626 |
+| Davon veröffentlicht / Entwürfe / archiviert | 1.527 / 8 / 91 |
+| Zusätzlich vorhandene Importdatensätze geprüft | 1.587 |
+| Erkannte Überschneidungen im Kandidatenpool | 158 |
+| Potenziell neue Kandidaten | 1.042 |
+| Offizielle Zielseite erreichbar | 712 |
+| Inhaltlich geprüft, deutsche Beschreibung und Preis-/Lizenzbeleg vorbereitet | 50 |
+| Erreichbar, aber noch nicht vollständig redaktionell geprüft | 662 |
+| Technisch problematisch oder automatisierte Prüfung zurückgestellt | 330 |
+| Lokal freigabe-/importbereit | 50 |
+| Tatsächlich neu in Produktion importiert | **0** |
+
+Die 158 Überschneidungen umfassen Produktnamen, Domains, vorhandene Importdateien und Wiederholungen innerhalb der Quelle. Sie sind nicht zusätzlich zu den 1.626 Bestandsdatensätzen zu addieren. Abgleich basiert auf einer lokalen Bestandskopie; die verbindliche erneute Duplikaterkennung gegen die produktive Datenbank erfolgt direkt vor jedem Import. „Erreichbar“ ist keine vollständige Produktprüfung und keine automatische Veröffentlichungsfreigabe.
+
+## Quellen und Grenzen
+
+FutureTools wurde als gewünschte Referenz untersucht. Die [Nutzungsbedingungen](https://app.termly.io/document/terms-of-use-for-website/e9e30fa0-42fc-4d01-8def-22f74cf7096f) untersagen systematische Entnahme für ein eigenes Verzeichnis ohne schriftliche Erlaubnis. Eine zunächst begonnene Entdeckung wurde gestoppt; daraus entstandene Zwischenliste verworfen. Keine FutureTools-Beschreibungen, Bewertungen, Bilder oder Logos übernommen.
+
+Die finale Kandidatenliste enthält Produktnamen und offizielle Links aus [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted), Stand 2. November 2026. Die daraus abgeleitete Kandidatenliste wird unter derselben [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) bereitgestellt; Urheber: Awesome-Selfhosted-Mitwirkende. Änderungen: Extraktion von Namen/Links, Abgleich, Statusfelder. Keine Übernahme der englischen Verzeichnisbeschreibungen in öffentliche Tooltexte. Die 50 deutschen Kurzbeschreibungen sind eigenständig auf Grundlage der jeweiligen offiziellen Produktseiten formuliert. Hersteller-Metadaten in der Prüfdatei dienen ausschließlich als nachvollziehbare Recherchebelege.
+
+Diese erste Quelle enthält überdurchschnittlich viele selbst betriebene Anwendungen. Die 50 fertigen Einträge sind kein Nachweis, dass die gesamte strategische Breite des gewünschten Verzeichnisses bereits abgedeckt oder das Ziel von 1.000 neuen geprüften Tools erreicht ist.
+
+Drei Worker, kurze Pausen, maximal ein robots.txt-Abruf und ein Seitenabruf je Kandidat. Bei unklaren robots-Regeln konservativ zurückgestellt; diese Einordnung ist kein Nachweis, dass der Anbieter tatsächlich offline oder für jeden Agenten gesperrt ist. 308 solche Fälle, sieben robots-HTTP-403, ein robots-HTTP-503, sechs Timeouts, drei Transportfehler, vier Zielseiten mit HTTP 403 und eine mit HTTP 503. Keine Sperren umgangen. Weitere gezielte Abrufe für die 50 überprüften Einträge.
+
+Preise nur als belegtes Modell, keine dauerhaft gültigen Zahlen zugesichert. Bei freien selbst betriebenen Ausgaben bezieht sich „kostenlos“ auf die Software, nicht auf Hosting oder Betrieb. Kostenpflichtige Cloudprodukte und freie Ausgaben werden in den deutschen Beschreibungen unterschieden. Unklare Lizenzen werden nicht pauschal als geprüftes Open Source ausgezeichnet. Bei Healthchecks und SimpleLogin die separate offizielle Preisseite als Preisbeleg hinterlegt.
+
+## Dateien und sicherer Import
+
+- `data/expansion-candidates-2026-11-02.json`: Entdeckung und Duplikatstatus.
+- `data/expansion-checks-2026-11-02.json`: technische Ergebnisse und Anbieter-Metadaten; kein automatischer Import dieser Liste.
+- `data/expansion-reviewed-2026-11-02.json`: 50 redaktionell vorbereitete Einträge mit Prüfdatum und Quellen.
+- `lib/import/batch.ts`, `scripts/import-batch.ts`: nutzen die vorhandene Importvalidierung, Taxonomie, Repository-Helfer und Tabellen. Nur neue Einträge, eine Transaktion pro Kandidat. Bestehende Datensätze werden ausnahmslos übersprungen, auch wenn sie nicht redaktionell gesperrt sind. Kein Archivieren, kein Seed, keine Migration.
+
+Standard ist Dry-Run. Fehler/Status pro Kandidat werden in JSONL protokolliert; ungültige Kandidaten/Fehler führen zu einem Fehler-Exitcode. Wiederaufnahme prüft die Datenbank erneut; bereits importierte Einträge werden übersprungen. Duplikate innerhalb der Eingabedatei werden auch im Dry-Run erkannt. Remote-Schreiben braucht zusätzlich `--remote`, Veröffentlichung zusätzlich `--publish`; dies sind technische Schutzschalter, keine erneute Nutzerfreigabe.
+
+```text
+npm run import:batch -- data/expansion-reviewed-2026-11-02.json --report=PFAD/dryrun.jsonl
+npm run import:batch -- data/expansion-reviewed-2026-11-02.json --apply --publish --remote --report=PFAD/import.jsonl
+```
+
+Der Zielzugriff erfolgt über die bestehenden Umgebungsvariablen. Produktionszugangsdaten gehören nicht in Repository oder Berichte. Der Remote-Importer wiederholt schreibende Transportanfragen nicht automatisch; ein unterbrochener Lauf wird durch erneuten Bestandsabgleich fortgesetzt.
+
+## Lokal bestätigt
+
+Dry-Run auf isolierter Bestandskopie: **50 ready**, keine Schreibänderungen, Bestand weiter 1.626 Tools. Anschließender lokaler Import: **50 published**, Bestand 1.676. Wiederholung: **50 duplicate**, keine weiteren Einträge. Vollständiger Vorher-/Nachher-Vergleich aller 1.626 bestehenden Tool-Datensätze: **0 geändert**. Das ist ausdrücklich keine produktive Veröffentlichung.
+
+Regressionstest deckt Dry-Run ohne Schreiben, atomaren Import auf dateibasierter SQLite, Wiederaufnahme, unveränderte vorhandene Einträge, unbekannte Kategorien und fehlende/falsche Prüfbelege ab. Tests, Lint und Build werden vor Release ausgeführt. Kein neuer Datenbankdienst, keine zusätzliche Trackingplattform, keine Migration und keine kostenpflichtigen Dienste eingeführt.
+
+Abschließend bestätigt: `npm test` 110 Tests in 53 Dateien erfolgreich; `npm run lint` ohne Warnungen/Fehler; `npm run build` einschließlich Typprüfung erfolgreich, Node 22.16.0 mit isolierter Testdatenbank. Zusätzlicher CLI-Dry-Run mit doppelter Eingabe liefert einmal `ready`, einmal `duplicate-input`.
+
+## Noch offen
+
+662 erreichbare Kandidaten brauchen individuelle inhaltliche Prüfung, deutsche Beschreibung und belastbare Preis-/Lizenzinformationen. 330 Fälle bleiben zurückgestellt. Für das Ziel von 1.000 **veröffentlichten** neuen Tools sind weitere Belege und gegebenenfalls weitere erlaubte Entdeckungsquellen nötig. Fehlende Daten werden nicht erfunden, unvollständige Kandidaten nicht veröffentlicht.
+
+Für den produktiven Import fehlen ein nutzbarer authentifizierter Datenbankzugriff und die verbindliche Prüfung gegen den Live-Bestand. Der Vercel-Connector verweigert Teamzugriff mit HTTP 403; ein Team-Freigabelink wurde bereitgestellt. Code-Deployments über die vorhandene Git-Integration sind davon getrennt möglich. Ein erfolgreicher Code-Deploy veröffentlicht diese JSON-Dateien **nicht automatisch als Tools**.
