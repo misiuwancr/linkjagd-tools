@@ -2,6 +2,20 @@ import { describe, expect, it } from "vitest";
 import { createRetryingFetch, isRetryableDbError } from "@/db/http";
 
 describe("Datenbank-Netz", () => {
+  it("kann einen POST-Request nach einem Serverfehler mit vollständigem Body wiederholen", async () => {
+    const bodies: string[] = [];
+    const fetchImpl = (async (input, init) => {
+      const request = new Request(input, init);
+      bodies.push(await request.text());
+      return new Response("ok", { status: bodies.length === 1 ? 503 : 200 });
+    }) as typeof fetch;
+    const request = new Request("https://example.test/v3/pipeline", { method: "POST", body: '{"requests":[]}' });
+    const response = await createRetryingFetch(fetchImpl, { attempts: 2 })(request);
+    expect(response.status).toBe(200);
+    expect(bodies).toEqual(['{"requests":[]}', '{"requests":[]}']);
+    expect(request.bodyUsed).toBe(false);
+  });
+
   it("fragt zustandsbehaftete Datenbankantworten immer frisch ab", async () => {
     let calls = 0;
     let cached: string | undefined;

@@ -6,8 +6,8 @@ Stand: 2. November 2026. Umfang: öffentliche Navigation, öffentliche Routen, K
 
 | Datei | Änderung und Anlass |
 | --- | --- |
-| `db/http.ts` | Zustandsbehaftete Hrana-Datenbankantworten ausdrücklich mit `cache: "no-store"` abfragen; verhindert Wiederverwendung von Stream-/Sitzungsantworten durch Next.js. |
-| `tests/db-retry.test.ts` | Regressionstest für frische Datenbankantworten, auch bei übergebenem `force-cache`. |
+| `db/http.ts` | Zustandsbehaftete Hrana-Datenbankantworten ausdrücklich mit `cache: "no-store"` abfragen; verhindert Wiederverwendung von Stream-/Sitzungsantworten durch Next.js. Request-Objekte werden pro Versuch geklont, damit ein bereits gelesener Body nicht erneut verwendet wird. |
+| `tests/db-retry.test.ts` | Regressionstests für frische Datenbankantworten und vollständigen POST-Body bei Wiederholungen. |
 | `components/site-header.tsx` | Keine Anmeldung verlinken, wenn der Versanddienst fehlt; leeres Newsletter-Archiv aus Navigation entfernt; KI-News nur bei vorhandenen Meldungen; mobiles Menü mit voller dynamischer Viewport-Höhe und eigenem Scrollbereich. |
 | `app/(public)/layout.tsx` | Tatsächliche Newsletter-/News-Verfügbarkeit serverseitig an Navigation übergeben; keine Zugangsdaten an Client übergeben. |
 | `components/site-footer.tsx` | Leeres Newsletter-Archiv entfernt; Entwicklungs-/Qualitätsbehauptung durch Link zur Partnertransparenz ersetzt. |
@@ -28,7 +28,7 @@ Die früher vorbereiteten Vergleichsänderungen stehen ebenfalls in PR #10. Dere
 
 ## Nachweise
 
-- `npm test`: 99 Tests in 49 Dateien erfolgreich.
+- `npm test`: 100 Tests in 49 Dateien erfolgreich.
 - `npm run lint`: keine ESLint-Warnungen oder -Fehler.
 - Abschließender `npm run build`: erfolgreich, einschließlich Typprüfung. Node 22; ausschließlich isolierte lokale SQLite-Prüfdatenbank, keine Remote-Zugangsdaten.
 - 17 öffentliche Kernseiten inklusive Recht, Kontakt, Newsletter, Merkliste, Einreichung und allen drei Vergleichen: HTTP 200. Daraus 175 interne Linkziele: kein fehlerhafter Status. Keine sichtbaren untersuchten Entwicklungs-/Voting-/Versanddienst-Fehlermarker.
@@ -48,3 +48,7 @@ Die früher vorbereiteten Vergleichsänderungen stehen ebenfalls in PR #10. Dere
 - Grundlage der Transportkorrektur: [Next.js 14 dokumentiert auch POST-Caching und no-store](https://nextjs.org/docs/14/app/building-your-application/data-fetching/fetching-caching-and-revalidating). Ein HTTP-Erreichbarkeitstest ersetzt keine fachliche Inhaltsprüfung aller Tools.
 
 Es folgen nach der Veröffentlichung keine weiteren Produktänderungen ohne neuen Auftrag.
+
+## Release-Prüfung
+
+Der erste Vercel-Produktionsbuild (53e9755) scheiterte bei einer wiederholten Datenbankanfrage an einem bereits verbrauchten Request-Body. Die bisherige Produktion blieb online. Der Transport klont deshalb Request-Objekte vor jedem Versuch; ein gezielter Test reproduziert den früheren Fehler mit einem vollständig gelesenen POST und HTTP 503. Alle 100 Tests sowie Lint und lokaler Build werden vor dem erneuten Release geprüft.

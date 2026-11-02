@@ -27,7 +27,8 @@ export function createRetryingFetch(
       try {
         // Hrana carries stream/session state. Next.js 14 also caches POST fetches;
         // replaying a cached response can leave the next request with an invalid baton.
-        const response = await baseFetch(input, { ...init, cache: "no-store", signal: controller.signal });
+        const request = input instanceof Request ? input.clone() : input;
+        const response = await baseFetch(request, { ...init, cache: "no-store", signal: controller.signal });
         if (response.status >= 500 && attempt < attempts) {
           last = new Error(`HTTP ${response.status}`);
           await wait(150 * attempt);
