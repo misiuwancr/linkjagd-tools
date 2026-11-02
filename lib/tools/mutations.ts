@@ -12,6 +12,7 @@ import {
   toolInputSchema,
 } from "@/lib/validation/tool";
 import { refreshSearchText, replaceCategories, replaceTags } from "@/lib/tools/repository";
+import { readToolEditorial, saveToolEditorial } from "@/lib/tool-editorial";
 
 function siteHost() {
   try {
@@ -52,6 +53,12 @@ export async function saveToolRecord(
   const categoryIds = input.categoryIds.filter((id) => allowed.has(id));
   const now = new Date();
   const id = current?.id ?? crypto.randomUUID();
+  const previous = current ? (await database.select().from(tools).where(eq(tools.id, current.id)).limit(1))[0] : null;
+  const previousEditorial = await readToolEditorial(database, id);
+  const editorial = input.editorial ?? previousEditorial;
+  const wasPublished = previousEditorial.hasBeenPublished || previous?.publishStatus === "published" || previous?.publishStatus === "archived";
+  if (!editorial.publishedAt && !wasPublished && input.publishStatus === "published" && (!previous || previous.publishStatus === "draft")) editorial.publishedAt = now.toISOString();
+  editorial.hasBeenPublished = wasPublished || input.publishStatus === "published";
   let logo = current?.logo ?? null;
   if (files?.removeLogo) logo = null;
   if (files?.logo) logo = files.logo;
@@ -105,6 +112,7 @@ export async function saveToolRecord(
   await replaceCategories(database, id, categoryIds);
   await replaceTags(database, id, input.tags);
   await refreshSearchText(database, id);
+  await saveToolEditorial(database, id, editorial);
   return { ok: true as const, id, slug };
 }
 
@@ -117,6 +125,13 @@ export async function setToolStatus(
   id: string,
   status: "draft" | "published" | "archived",
 ) {
+  const previous = (await database.select().from(tools).where(eq(tools.id, id)).limit(1))[0];
+  if (previous) {
+    const editorial = await readToolEditorial(database, id);
+    const wasPublished = editorial.hasBeenPublished || previous.publishStatus === "published" || previous.publishStatus === "archived";
+    if (!wasPublished && !editorial.publishedAt && previous.publishStatus === "draft" && status === "published") editorial.publishedAt = new Date().toISOString();
+    await saveToolEditorial(database, id, { ...editorial, hasBeenPublished: wasPublished || status === "published" });
+  }
   await database.update(tools).set({ publishStatus: status, updatedAt: new Date() }).where(eq(tools.id, id));
 }
 

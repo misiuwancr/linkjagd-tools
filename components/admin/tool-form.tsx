@@ -5,10 +5,15 @@ import { saveToolAction, type ActionState } from "@/lib/actions/admin";
 import { licenseOptions, pricingOptions, publishLabels } from "@/lib/labels";
 import type { LicenseType, PricingModel, PublishStatus } from "@/db/schema";
 
+import { ToolEditorialFields } from "@/components/admin/tool-editorial-fields";
+import type { LinkjagdVideo } from "@/lib/tool-editorial";
+
 const publishStatuses = ["draft", "published", "archived"] as const;
 
 export type ToolFormInitial = {
   id?: string;
+  linkjagdVideos?: LinkjagdVideo[];
+  publishedAt?: string | null;
   name: string;
   slug: string;
   originalUrl: string;
@@ -58,7 +63,7 @@ export function ToolForm({
     <form action={action} className="grid gap-4" encType="multipart/form-data">
       {initial.id ? <input type="hidden" name="id" value={initial.id} /> : null}
       <input type="hidden" name="discoverySource" value={initial.discoverySource} />
-      {state.error ? (
+      {state?.error ? (
         <p role="alert" className="rounded-xl border border-red-800 bg-red-950 px-4 py-3 text-sm text-red-100">
           {state.error}
         </p>
@@ -211,6 +216,7 @@ export function ToolForm({
           </select>
         </label>
       </div>
+      <ToolEditorialFields videos={initial.linkjagdVideos} publishedAt={initial.publishedAt} />
       <label className="flex items-center gap-2 text-sm">
         <input type="checkbox" name="beginnerFriendly" defaultChecked={initial.beginnerFriendly} />
         Für Anfänger geeignet
@@ -222,7 +228,7 @@ export function ToolForm({
       <div className="flex flex-wrap gap-4 text-sm">
         <label className="flex items-center gap-2">
           <input type="checkbox" name="featured" defaultChecked={initial.featured} />
-          Empfohlen
+          Linkjagd-Empfehlung (Bereich „Unsere Empfehlungen“)
         </label>
         <label className="flex items-center gap-2">
           <input type="checkbox" name="isExample" defaultChecked={initial.isExample} />

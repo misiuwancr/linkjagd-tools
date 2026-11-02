@@ -9,6 +9,7 @@ export default async function ModerationPage() {
   const query: ToolListQuery = {
     q: "",
     categorySlug: "",
+    categorySlugs: [],
     pricing: "",
     license: "",
     sort: "newest",

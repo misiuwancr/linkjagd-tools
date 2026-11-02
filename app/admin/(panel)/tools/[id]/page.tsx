@@ -36,6 +36,8 @@ export default async function EditToolPage({
           categories={categories}
           initial={{
             id: tool.id,
+            linkjagdVideos: tool.editorial.videos,
+            publishedAt: tool.editorial.publishedAt,
             name: tool.name,
             slug: tool.slug,
             originalUrl: tool.originalUrl,

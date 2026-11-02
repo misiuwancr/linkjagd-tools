@@ -17,6 +17,7 @@ import { softwareOffer, toolMetaTitle } from "@/lib/seo";
 import { isAlternativeSlug } from "@/lib/alternatives";
 import { indexingPolicy, robotsDirective, toolIsIndexable } from "@/lib/indexing";
 import { decisionTools } from "@/lib/comparisons";
+import { LinkjagdToolVideos } from "@/components/linkjagd-tool-videos";
 import { DecisionToolPage } from "@/components/decision-tool-page";
 
 export const revalidate = 60;
@@ -120,6 +121,7 @@ export default async function ToolDetailPage({ params }: { params: { slug: strin
         <span className="text-foreground">{tool.name}</span>
       </nav>
 
+      <LinkjagdToolVideos tool={tool} />
       <header className="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-start">
         <div>
           <div className="flex items-start gap-4">

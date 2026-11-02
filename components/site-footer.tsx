@@ -6,6 +6,8 @@ const columns = [
     title: "Verzeichnis",
     links: [
       { href: "/tools", label: "Alle Tools" },
+      { href: "/linkjagd", label: "Bekannt aus Linkjagd" },
+      { href: "/empfehlungen", label: "Unsere Empfehlungen" },
       { href: "/top-20", label: "Top 20" },
       { href: "/neu", label: "Neu hinzugefügt" },
       { href: "/einreichen", label: "Tool einreichen" },

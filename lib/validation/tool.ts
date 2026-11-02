@@ -2,6 +2,7 @@ import { z } from "zod";
 import { affiliateStatuses, licenseTypes, pricingModels, programPresences, publishStatuses, triStates } from "@/db/schema";
 import { domainFromUrl } from "@/lib/utils";
 import { optionalVideoUrl } from "@/lib/videos";
+import { toolEditorialSchema } from "@/lib/tool-editorial";
 
 z.setErrorMap((issue, ctx) => {
   if (issue.code === "invalid_type") return { message: "Bitte dieses Feld ausfüllen." };
@@ -75,6 +76,7 @@ export const toolInputSchema = z.object({
   tags: z.array(z.string().trim().min(1).max(40)).max(12),
   internalNotes: z.string().max(5000).optional().default(""),
   discoverySource: z.string().trim().min(2).max(80).default("manual"),
+  editorial: toolEditorialSchema.optional(),
 });
 
 export const affiliateInputSchema = z.object({

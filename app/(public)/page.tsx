@@ -42,15 +42,16 @@ export default async function HomePage({
   const base = publicListQuery({});
   const since = new Date();
   since.setUTCDate(since.getUTCDate() - 6);
-  const [featured, newest, fromVideos, categories, popular, proof, top, companies] = await Promise.all([
-    listTools(database, { ...base, featuredOnly: true, sort: "featured", pageSize: 6 }),
+  const [featured, newest, fromVideos, categories, popular, proof, top, companies, business] = await Promise.all([
+    listTools(database, { ...base, manualRecommendationsOnly: true, sort: "alpha", pageSize: 6 }),
     listHomepageFresh(database, 6),
-    listTools(database, { ...base, fromVideo: true, sort: "newest", pageSize: 6 }),
+    listTools(database, { ...base, linkjagdOnly: true, sort: "alpha", pageSize: 6 }),
     listCategories(database),
     listWeeklyPopular(database, utcDay(since), 6),
     socialProofText(database),
     listTopTools(database, 20),
     listCompaniesInDirectory(database),
+    listTools(database, publicListQuery({ kategorie: ["e-commerce", "business-finanzen", "business", "finanzen"] }, { pageSize: 6, sort: "alpha" })),
   ]);
   const siteHost = host();
   const featuredTools = featured.items.map((tool) => toPublicTool(tool, siteHost));
@@ -81,11 +82,12 @@ export default async function HomePage({
         <div className="page-wrap relative py-16 sm:py-24">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-hunt">Kuratiert von Linkjagd</p>
           <h1 className="mt-4 max-w-4xl text-5xl font-bold tracking-tight text-foreground sm:text-7xl sm:leading-[0.95]">
-            Passende Tools. <span className="text-hunt">Klare Entscheidungen.</span>
+            Gute Websites. <span className="text-hunt">Passende Tools.</span>
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">
-            Für E-Commerce, Marketing und Automatisierung: Vergleiche Lösungen nach deiner Aufgabe, dem nötigen Aufwand und ihren Grenzen.
+            Entdecke interessante Websites, KI-Tools, Browser-Games und kreative Anwendungen. Für Alltag und Produktivität – und für klare Entscheidungen bei Business-Software.
           </p>
+          <div className="mt-6 flex flex-wrap gap-3"><Link href="/linkjagd" className="rounded-full bg-primary px-5 py-3 font-semibold text-primary-foreground">Bekannt aus Linkjagd →</Link><Link href="/tools" className="rounded-full border border-border px-5 py-3 font-semibold">Alle Tools entdecken</Link></div>
           <nav aria-label="Was möchtest du erreichen?" className="mt-8 grid gap-4 md:grid-cols-3">
             {[
               { title: "Onlineshop aufbauen", text: "Shopify oder WooCommerce? Kläre Einrichtung, Erweiterungen und technische Betreuung.", comparison: comparisons[1], cta: "Shop-Systeme vergleichen" },
@@ -107,24 +109,37 @@ export default async function HomePage({
         </div>
       </section>
 
-      {featuredTools.length > 0 ? (
-        <section className="page-wrap py-10">
-          <SectionHead kicker="Redaktion" title="Gerade empfohlen" href="/top-20" linkLabel="Zur Top 20" />
-          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {featuredTools.map((tool) => (
-              <Link key={tool.id} href={`/tools/${tool.slug}`} className="flex items-center gap-3 rounded-2xl border border-border bg-card px-3 py-3 hover:border-hunt/40">
-                <CategoryIcon slug={tool.categories[0]?.slug ?? ""} />
-                <span className="font-semibold">{tool.name}</span>
-              </Link>
-            ))}
+      {videoTools.length > 0 ? (
+        <section className="border-y border-border bg-card">
+          <div className="page-wrap py-14">
+            <SectionHead kicker="Kanal" title="Bekannt aus Linkjagd" href="/linkjagd" linkLabel="Nach Video suchen" />
+            <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
+              Die tatsächlich zugeordneten Tools aus unseren Videos – auffindbar nach Videotitel, Kennung und Teilnummer.
+            </p>
+            <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+              {videoTools.map((tool) => (
+                <ToolCard key={tool.id} tool={tool} />
+              ))}
+            </div>
           </div>
         </section>
-      ) : null}
+      ) : <section className="page-wrap py-10"><SectionHead kicker="Kanal" title="Bekannt aus Linkjagd" href="/linkjagd" linkLabel="Videos durchsuchen" /><p className="mt-3 text-muted-foreground">Du suchst eine Website aus einem unserer Videos? <Link href="/linkjagd" className="text-hunt underline">Zur Videosammlung →</Link></p></section>}
+
+      {featuredTools.length > 0 ? (
+        <section className="page-wrap py-10">
+          <SectionHead kicker="Redaktion" title="Unsere Empfehlungen" href="/empfehlungen" linkLabel="Alle Empfehlungen" />
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredTools.map((tool) => <ToolCard key={tool.id} tool={tool} />)}
+          </div>
+        </section>
+      ) : <section className="page-wrap py-10"><SectionHead kicker="Redaktion" title="Unsere Empfehlungen" href="/empfehlungen" linkLabel="Zur Auswahl" /><p className="mt-3 text-muted-foreground">Persönliche Auswahl statt Beliebtheits-Ranking. <Link href="/tools" className="underline">Im gesamten Verzeichnis stöbern →</Link></p></section>}
 
       <section className="page-wrap grid gap-10 py-6 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">
           <SectionHead kicker="Frisch" title="Neu hinzugefügt" href="/neu" linkLabel="Alle neuen Tools" />
+          <p className="mt-3 text-sm text-muted-foreground">Nach belegtem Veröffentlichungsdatum. Import- und Änderungsdaten zählen nicht als neue Veröffentlichung.</p>
           <div className="mt-4 grid gap-3">
+            {!newTools.length ? <Link href="/tools" className="rounded-2xl border border-border bg-card p-5 text-sm font-semibold text-hunt">Alle vorhandenen Tools entdecken →</Link> : null}
             {newTools.map((tool) => (
               <ToolCard key={tool.id} tool={tool} />
             ))}
@@ -147,21 +162,7 @@ export default async function HomePage({
       </section>
       ) : null}
 
-      {videoTools.length > 0 ? (
-        <section className="border-y border-border bg-card">
-          <div className="page-wrap py-14">
-            <SectionHead kicker="Kanal" title="Neu aus den Videos" href="/tools?video=ja" linkLabel="Alle aus den Videos" />
-            <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-              Nur Tools, bei denen eine Video-Adresse von TikTok, Instagram oder YouTube hinterlegt ist.
-            </p>
-            <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-              {videoTools.map((tool) => (
-                <ToolCard key={tool.id} tool={tool} />
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
+      <section className="page-wrap border-y border-border py-12"><SectionHead kicker="Vergleichen & entscheiden" title="Tools für Business & E-Commerce" href="/vergleiche" linkLabel="Zu den Vergleichen" /><p className="mt-3 text-sm leading-7 text-muted-foreground">Software für Shops und Unternehmensaufgaben. Unsere Vergleiche helfen bei der Auswahl; das breite Verzeichnis bleibt für alle Themen offen.</p><div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{business.items.map((tool) => <ToolCard key={tool.id} tool={toPublicTool(tool, siteHost)} />)}</div><Link href="/tools?kategorie=e-commerce&kategorie=business-finanzen&kategorie=finanzen" className="mt-6 inline-block text-sm font-semibold text-hunt">Business-Tools durchsuchen →</Link></section>
 
       {popularTools.length > 0 ? (
         <section className="page-wrap py-14">

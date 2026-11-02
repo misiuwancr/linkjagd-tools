@@ -3,24 +3,25 @@ import { getDb } from "@/db/client";
 import { Flash } from "@/components/admin/shell";
 import { pricingLabel, programPresenceLabel, publishLabels } from "@/lib/labels";
 import { listTools } from "@/lib/tools/repository";
-import type { ToolListQuery } from "@/lib/tools/query";
+import { publicListQuery, type ToolListQuery } from "@/lib/tools/query";
 
 export const dynamic = "force-dynamic";
 
 export default async function AdminToolsPage({
   searchParams,
 }: {
-  searchParams: { gespeichert?: string; fehler?: string; status?: string; partner?: string };
+  searchParams: { gespeichert?: string; fehler?: string; status?: string; partner?: string; q?: string; seite?: string };
 }) {
   const status = searchParams.status === "draft" || searchParams.status === "archived" || searchParams.status === "published" ? searchParams.status : "all";
   const partnerGap = searchParams.partner === "offen";
   const query: ToolListQuery = {
-    q: "",
+    q: publicListQuery(searchParams).q,
     categorySlug: "",
+    categorySlugs: [],
     pricing: "",
     license: "",
     sort: "newest",
-    page: 1,
+    page: publicListQuery(searchParams).page,
     pageSize: partnerGap ? 200 : 100,
     status,
     featuredOnly: false,
@@ -34,6 +35,8 @@ export default async function AdminToolsPage({
     discoverySources: [],
   };
   const result = await listTools(await getDb(), query);
+  const pages = Math.max(1, Math.ceil(result.total / query.pageSize));
+  const pageHref = (page: number) => { const params = new URLSearchParams(); if (query.q) params.set("q", query.q); if (status !== "all") params.set("status", status); if (partnerGap) params.set("partner", "offen"); if (page > 1) params.set("seite", String(page)); return "/admin/tools" + (params.size ? "?" + params.toString() : ""); };
   return (
     <div>
       <div className="flex items-end justify-between gap-4">
@@ -45,6 +48,7 @@ export default async function AdminToolsPage({
           Neu
         </Link>
       </div>
+      <form action="/admin/tools" method="get" className="mt-5 flex flex-wrap gap-2"><label className="sr-only" htmlFor="redaktionssuche">Vorhandenes Tool suchen</label><input id="redaktionssuche" name="q" defaultValue={query.q} placeholder="Name oder Aufgabe suchen" className="field min-w-0 flex-1" />{status !== "all" ? <input type="hidden" name="status" value={status} /> : null}{partnerGap ? <input type="hidden" name="partner" value="offen" /> : null}<button type="submit" className="rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground">Suchen</button><Link href="/admin/tools" className="self-center px-2 text-sm underline">Zurücksetzen</Link></form>
       <Flash gespeichert={searchParams.gespeichert} fehler={searchParams.fehler} />
       <div className="mt-4 flex flex-wrap gap-2 text-sm">
         {[
@@ -65,7 +69,7 @@ export default async function AdminToolsPage({
           Partnerprogramm vorhanden, aber noch kein Link hinterlegt
         </Link>
       </div>
-      <div className="mt-4 overflow-hidden rounded-2xl border border-border bg-card">
+      <div className="mt-4 overflow-x-auto rounded-2xl border border-border bg-card">
         <table className="w-full min-w-[720px] text-left text-sm">
           <thead className="border-b border-border text-xs uppercase tracking-wide text-muted-foreground">
             <tr>
@@ -102,6 +106,7 @@ export default async function AdminToolsPage({
           </tbody>
         </table>
       </div>
+      <nav aria-label="Redaktionsseiten" className="mt-5 flex flex-wrap items-center gap-4">{result.page > 1 ? <Link href={pageHref(result.page - 1)} className="rounded-full border border-border px-4 py-2">Zurück</Link> : null}<span className="text-sm">Seite {result.page} von {pages}</span>{result.page < pages ? <Link href={pageHref(result.page + 1)} className="rounded-full border border-border px-4 py-2">Weiter</Link> : null}</nav>
     </div>
   );
 }
