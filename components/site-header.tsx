@@ -6,6 +6,20 @@ import { ChevronDown, Menu, Moon, Sun, X } from "lucide-react";
 import { BrandLockup } from "@/components/brand";
 import { cn } from "@/lib/utils";
 
+const descriptions: Record<string, string> = {
+  "/tools": "Alle Tools durchsuchen und filtern",
+  "/top-20": "Unsere aktuelle Auswahl",
+  "/neu": "Die neuesten Einträge im Verzeichnis",
+  "/einreichen": "Ein Tool für das Verzeichnis vorschlagen",
+  "/blog": "Analysen und praktische Ratgeber",
+  "/ueber-uns": "Die Geschichte hinter Linknarr",
+  "/glossar": "KI-Begriffe verständlich erklärt",
+  "/faq": "Antworten auf häufige Fragen",
+  "/linkjagd": "Tools aus unseren Videos",
+  "/empfehlungen": "Ausgewählt von der Redaktion",
+  "/vergleiche": "Funktionen und Einsatzbereiche vergleichen"
+};
+
 const groups = [
   {
     label: "Tools",
@@ -23,7 +37,6 @@ const groups = [
     label: "Redaktion",
     links: [
       { href: "/blog", label: "Blog" },
-      { href: "/news", label: "KI-News" },
     ],
   },
   {
@@ -84,23 +97,28 @@ export function SiteHeader({ newsletterAvailable = false, newsAvailable = false 
     <header ref={header} className="sticky top-0 z-40 border-b border-border/80 bg-background/85 backdrop-blur" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node)) setActiveGroup(null); }}>
       <div className="page-wrap flex h-16 items-center justify-between gap-4">
         <BrandLockup />
-        <nav aria-label="Hauptnavigation" className="hidden items-center gap-1 lg:flex">
+        <nav aria-label="Hauptnavigation" className="hidden items-center gap-2 lg:flex">
+          {newsAvailable ? <Link href="/news" className="rounded-xl px-4 py-3 text-lg font-medium hover:bg-secondary">KI-News</Link> : null}
           {groups.map((group) => (
             <div key={group.label} data-navigation-group className="relative" onMouseLeave={() => setActiveGroup(null)}>
-              <button type="button" data-group={group.label} aria-expanded={activeGroup === group.label} aria-controls={`navigation-${group.label}`} onClick={() => setActiveGroup(activeGroup === group.label ? null : group.label)} className="inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-base font-medium text-muted-foreground hover:text-foreground">
+              <button type="button" data-group={group.label} aria-expanded={activeGroup === group.label} aria-controls={`navigation-${group.label}`} onClick={() => setActiveGroup(activeGroup === group.label ? null : group.label)} className="inline-flex items-center gap-1.5 rounded-xl px-4 py-3 text-lg font-medium text-muted-foreground hover:bg-secondary hover:text-foreground aria-expanded:bg-secondary aria-expanded:text-foreground aria-expanded:ring-1 aria-expanded:ring-hunt">
                 {group.label}
                 <ChevronDown aria-hidden="true" className={cn("h-4 w-4 transition-transform", activeGroup === group.label && "rotate-180")} />
               </button>
-              <div id={`navigation-${group.label}`} hidden={activeGroup !== group.label} className="absolute left-0 top-full z-50 w-56 pt-2">
+              <div id={`navigation-${group.label}`} hidden={activeGroup !== group.label} className={cn("absolute top-full z-50 w-80 pt-2", group.label === "Mehr" ? "right-0" : "left-0")}>
               <div className="rounded-2xl border border-border bg-card p-2 shadow-card" onClick={() => setActiveGroup(null)}>
                 {group.links.filter((item) => item.href !== "/news" || newsAvailable).map((item) =>
                   item.external ? (
-                    <a key={item.href} href={item.href} target="_blank" rel="noopener noreferrer" className="block rounded-xl px-3 py-2 text-sm hover:bg-secondary">
+                    <a key={item.href} href={item.href} target="_blank" rel="noopener noreferrer" className="block rounded-xl px-4 py-3 text-base font-semibold hover:bg-secondary">
                       {item.label} ↗
+
+                      <span className="mt-1 block text-sm font-normal text-muted-foreground">{descriptions[item.href] ?? "Videos von Linkjagd"}</span>
                     </a>
                   ) : (
-                    <Link key={item.href} href={item.href} className="block rounded-xl px-3 py-2 text-sm hover:bg-secondary">
+                    <Link key={item.href} href={item.href} className="block rounded-xl px-4 py-3 text-base font-semibold hover:bg-secondary">
                       {item.label}
+
+                      <span className="mt-1 block text-sm font-normal text-muted-foreground">{descriptions[item.href] ?? "Videos von Linkjagd"}</span>
                     </Link>
                   ),
                 )}
@@ -145,10 +163,14 @@ export function SiteHeader({ newsletterAvailable = false, newsAvailable = false 
                       {item.external ? (
                         <a href={item.href} target="_blank" rel="noopener noreferrer" className="block py-2 text-lg font-medium" onClick={() => setOpen(false)}>
                           {item.label} ↗
+
+                          <span className="mt-1 block text-sm font-normal text-muted-foreground">{descriptions[item.href] ?? "Videos von Linkjagd"}</span>
                         </a>
                       ) : (
                         <Link href={item.href} className="block py-2 text-lg font-medium" onClick={() => setOpen(false)}>
                           {item.label}
+
+                          <span className="mt-1 block text-sm font-normal text-muted-foreground">{descriptions[item.href] ?? "Videos von Linkjagd"}</span>
                         </Link>
                       )}
                     </li>
