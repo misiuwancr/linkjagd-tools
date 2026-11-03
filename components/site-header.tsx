@@ -24,9 +24,6 @@ const groups = [
   {
     label: "Tools",
     links: [
-      { href: "/linkjagd", label: "Bekannt aus Linkjagd" },
-      { href: "/empfehlungen", label: "Unsere Empfehlungen" },
-      { href: "/vergleiche", label: "Tools vergleichen" },
       { href: "/top-20", label: "Top 20 Tools" },
       { href: "/tools", label: "Alle Tools" },
       { href: "/neu", label: "Neu hinzugefügt" },
